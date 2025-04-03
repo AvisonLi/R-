@@ -111,22 +111,35 @@ tfidf_results <- tfidf_results %>%
 print("TF-IDF results after filtering missing years:")
 print(tfidf_results)
 
+# Extract all years from the file names
+all_years <- str_extract(basename(txt_files), "\\d{4}")  # Extract 4-digit years
+all_years <- unique(all_years[!is.na(all_years)])  # Remove NA values and get unique years
+
+# Create a data frame with all years and initialize counts to 0
+all_years_df <- data.frame(year = all_years, stringsAsFactors = FALSE)
+
 # Count the number of files per year with >= 1% relative percentage
 yearly_counts <- tfidf_results %>%
   group_by(year) %>%
-  summarize(count = n())
+  summarize(count = n(), .groups = "drop")  # Count files per year
 
-# Debug: Check the yearly_counts data frame
-print("Yearly counts:")
+# Merge with all years to ensure all years are included
+yearly_counts <- full_join(all_years_df, yearly_counts, by = "year") %>%
+  mutate(count = ifelse(is.na(count), 0, count))  # Replace NA counts with 0
+
+# Debug: Print the yearly_counts data frame
+print("Yearly counts (including missing years):")
 print(yearly_counts)
 
 # Ensure the year column is treated as a factor for proper ordering in the plot
 yearly_counts <- yearly_counts %>%
   mutate(year = as.factor(year))
 
-# Plot the data
-print(ggplot(yearly_counts, aes(x = year, y = count)) +
-  geom_bar(stat = "identity", fill = "steelblue") +
+# Plot the data with bars and a trend line
+print(ggplot(yearly_counts, aes(x = year, y = count, group = 1)) +
+  geom_bar(stat = "identity", fill = "steelblue", alpha = 0.7) +  # Bar chart
+  geom_line(color = "red", size = 1) +  # Trend line
+  geom_point(color = "red", size = 2) +  # Points on the trend line
   labs(title = "Number of Files with >= 1% Related Terms per Year",
        x = "Year",
        y = "Count of Files") +
