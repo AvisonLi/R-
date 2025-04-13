@@ -1,0 +1,1830 @@
+Sensors & Actuators: A. Physical 347 (2022) 113933
+Available online 6 October 2022
+0924-4247/© 2022 Elsevier B.V. All rights reserved.
+Polypyrrole-based sensors for volatile organic compounds (VOCs) sensing
+and capturing: A comprehensive review
+Mohammad Raza Miah a,b, Minghui Yang b,c, Shahjalal Khandaker d, M Mahbubul Bashar e,
+Abdulmohsen Khalaf Dhahi Alsukaibi f, Hassan M.A. Hassan g, Hussein Znad h,
+Md. Rabiul Awual h,i,*
+a Solid State Functional Material Laboratory (SSFML), Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences, Ningbo, Zhejiang
+315201, P.R. China
+b University of Chinese Academy of Sciences, Huairou, Beijing 101408, P.R. China
+c Center of Materials Science and Optoelectronics Engineering, University of Chinese Academy of Sciences, Beijing 100049, P.R. China
+d Department of Textile Engineering, Dhaka University of Engineering and Technology, Gazipur, Bangladesh
+e Department of Textile Engineering, Mawlana Bhashani Science and Technology University, Santosh, Tangail 1902, Bangladesh
+f Department of Chemistry, College of Sciences, University of Hail, Hail 2440, Saudi Arabia
+g Department of Chemistry, College of Science, Jouf University, PO Box 2014, Sakaka, Saudi Arabia
+h Western Australian School of Mines: Minerals,Energy and Chemical Engineering, Curtin University, GPO Box U 1987, Perth, WA 6845, Australia
+i Materials Science and Research Center, Japan AtomicEnergy Agency (JAEA), Hyogo 679-5148, Japan
+A R T I C L E I N F O
+Keywords:
+Polypyrrole (PPy)
+Volatile organic compounds (VOCs)
+Chemical gas sensors
+Electrochemical sensors
+Capturing mechanisms
+Inflictions
+A B S T R A C T
+Smart and precise sensing is very important for the protection of both environment and personal security in
+modern civilized society. There are numerous sensing devices for detecting physical and chemical changes such
+as temperature, humidity, pressure, and chemical species. In this regard, conducting polymers is at the core of
+attention for the fabrication of next-generation sensor applications. Polypyrrole (PPy), is one of the emerging
+intelligent materials with a wide range of applications in the field of optical, electronic, and electrochromic
+devices and sensors. The stability in a different environment, ease of deposition from aqueous and non-aqueous
+media, adherence to diverse substrates, and high electrical conductivity made PPy a unique choice for sensor
+development. In recent years, PPy has proven an excellent candidate for sensing volatile organic compounds
+(VOCs) due to its selectivity and sensitivity towards target gas molecules, and detection of inorganic gases and
+VOCs. Consequently, to develop outstanding sensing devices attempts have been dedicated to developing PPybased
+sensors for excellent mechanical and electrochemical performance. This review aims to provide a recent
+overview of progress in PPy-based advanced sensing devices. This review aims to provide a recent overview of
+progress in PPy-based advanced sensing devices. We have systematically discussed the challenges and future
+development of various sensing devices. Furthermore, the current understanding and performance evaluation of
+gas sensing mechanisms in PPy-based sensors are discussed theoretically and experimentally. We have also
+identified gaps in the state-of-the-art and hope that this study would lead to further research works into using
+PPy to make gas sensors. Finally, the future directions of various sensors with advanced PPy-based sensing
+systems have been prospected.
+Nomenclatures
+PPy Polypyrrole.
+VOCs Volatile organic compounds.
+SHM Structural Health Monitoring.
+IR Infrared Sensors.
+NO2 Nitrogen dioxide.
+HCl Hydrogen chloride.
+H2S Hydrogen sulfide.
+H2 Hydrogen.
+* Corresponding author at: Western Australian School of Mines: Minerals, Energy and Chemical Engineering, Curtin University, GPO Box U 1987, Perth, WA 6845,
+Australia.
+E-mail addresses: rabiul.awual@curtin.edu.au, rawual76@yahoo.com (Md.R. Awual).
+Contents lists available at ScienceDirect
+Sensors and Actuators: A. Physical
+journal homepage: www.journals.elsevier.com/sensors-and-actuators-a-physical
+https://doi.org/10.1016/j.sna.2022.113933
+Received 22 September 2022; Accepted 3 October 2022
+Sensors and Actuators: A. Physical 347 (2022) 113933
+2
+CO Carbon monoxide.
+CO2 Carbon dioxide.
+C8H6Cl2O3 2,4-Dichlorophenoxy acetic acid/ ethanoic acid.
+DMMP Dimethyl methyl phosphonate.
+PPM Parts per million.
+NH3 Ammonia.
+LiClO4 Lithium per Chlorate.
+CPs Conducting polymers.
+DFT Density functional theory.
+FORS Fiber optic reflectance sensor.
+1. Introduction
+With the development of structural health monitoring (SHM) systems
+like sensors are increasingly used in the industry to improve all
+types of accurate inspections [1]. The sensors are used to ensure safety
+through continuous monitoring of aircraft maintenance, data loading
+and relaying on icing conditions, and continuous monitoring. The sensors
+increase the ability to depend on functional complexity and observe
+the world around us [2]. In almost all cases, human beings have been
+created to work to make their lives more accessible and better. Setting
+the mood, switching conventional heat pump water heaters, ensuring
+safety, tracking devices, and much more [3]. The specific inputs can be
+motion, humidity, pressure, light, heat, or any other environmental
+phenomena [4]. There are different kinds of sensors that are generally
+used to detect any change in various applications and utilize novel
+techniques to detect physical and chemical parameters [5]. Most of the
+sensors are used for measuring physical properties like temperature,
+resistance, capacitance, conduction, heat transfer, etc. However, some
+sensors are also used to find the thermal and mechanical properties,
+wettability, and electrical conductivity [6]. Our daily life encounters
+different sensors such as temperature (e.g., IR (infrared sensors)) [7],
+proximity (e.g., touch sensors, position sensors) [8–10], motion (e.g.,
+accelerometer sensors, rotation position sensors) [11,12], light [13,14],
+ultrasonic [15], heat [16], force/ pressure [17], humidity [18,19],
+sound [20], PIR [21,22], strain and weight [23,24], electric current
+[25], magnetic [26], gas and smoke [27,28] etc. and a myriad of other
+uses are shown in (Fig. 1) [29,30]. Furthermore, sensors and artificial
+intelligence (AI) can instantly alert physicians and patient visitors when
+they fail to sanitize their hands before entering the hospital room. AI
+tools can be built into smart homes, and technology can covertly
+monitor frail elderly for behavioral cues of an impending health crisis
+[31].
+Volatile organic compounds (VOCs) are a kind of primary pollutants
+and highly reactive organic compounds [32]. VOCs are compounds with
+high vapor pressure and low water solubility. Many VOCs are man-made
+chemicals used and manufactured in refrigerants, pharmaceuticals, and
+paints. Certain VOCs are suspected or proven carcinogens [33]. It is
+released as a gas from particular liquids or solids [34]. For example,
+commonly VOCs may be used in our daily life such as 1,3-butadiene
+[C4H6], formaldehyde [CH2O], benzene [C6H6], ethylene glycol
+[C2H6O2], toluene [C7H8], dichloromethane (DCM) [CH2Cl2], xylene
+[C8H10], and tetrachloroethylene [C2Cl4] [35,36]. VOCs contain a range
+of chemicals, some of which may have long- and short-term adverse
+health effects. The concentration of many VOCs is typically ten (10)
+times higher indoors than outdoors [37]. VOCs can cause serious health
+problems in humans when absorbed or inhaled through the skin.
+Exhaust streams, aerosols, and solvents employed in unventilated areas
+can produce dangerous toxins [38]. Humans may experience dizziness,
+memory loss, headaches, and visual disturbances if exposed to large
+amounts. Exposure to high-level VOCs may cause a variety of health
+effects, including throat discomfort, and nose and eye irritation [39].
+Some compounds can cause even cancer in animals, as well as some
+suspected, are cause to cancer in humans. Also, VOCs damage the kidneys,
+liver, or central nervous system and nausea, dyspnea, loss of coordination,
+allergic skin reaction, conjunctival irritation, headache, and
+declines in serum cholinesterase levels, and emesis [39,40]. Volatile
+organic compounds (VOCs) are responsible for scent odors and perfume
+odors, as well as pollutants [41]. VOCs play an important role in the
+formation of ground-level ozone (O3) and fine particles in the atmosphere.
+Under sunlight, VOCs react primarily with nitrogen oxides
+(NOx) emitted from vehicles, power plants, and industrial activities to
+create ozone (O3), which in turn contributes to the formation of fine
+particles [42]. Moreover, VOCs also actively participated in the
+communication between plants and animals, such as attractants for
+preventing predation, pollinators, and even interactions between plants
+[43].
+The sensors can give remarkable signals with low energy consumption
+and offer excellent performance with even simple device configurations
+[44,45]. Conductivity change is the most frequently used
+property in a polypyrrole (PPy)-based sensors. It has been reported that
+conductivity enhancement is observed in the reason of PPy-based sensors
+towards the detection of carbon monoxide (CO) [46], carbon dioxide
+(CO2) [47], nitrogen dioxide (NO2) [48,49], hydrogen (H2) [50],
+hydrogen chloride (HCl) [51,52], hydrogen sulfide (H2S) [53], 2,
+4-Dichlorophenoxy acetic acid/ ethanoic acid (C8H6Cl2O3) [54]. In
+contrast, the conductivity reduction of the NH3 analyte has been reported.
+In the case of dimethyl methyl phosphonate (DMMP)
+Fig. 1. The average power consumption of various types of sensors [29,30].
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+3
+[C3H9O3P]-based sensors also work on conductivity enhancement
+against common analyte gases. However, the trend is more complicated
+in the case of PPy which is increased and enhancement also reduction in
+conductivity reported against NH3 and H2S analytes [55,56]. PPy has a
+good conductivity for different analysts as NH3, NO2, H2S, H2, CO, CO2,
+HCl, CH3COOH, and Dimethyl methyl phosphonate (DMMP) at room
+temperature [57–62]. Therefore, the situation of PPy depends on the
+specific reason and step-by-step basis (Table 1). All the mechanisms
+mentioned in Table 1 can be considered as PPy sensing mechanisms. The
+PPy sensors demonstrate excellent performance in terms of selectivity,
+good stability, reproducibility, and immunity to humidity. PPy has
+shown good conductivity (experimental 2000 S.cm-1 and theoretical
+7600 S.cm-1) chrematistics in comparison with the other polymers such
+as polythiophene (PTh) (experimental 100 S.cm-1 and theoretical 169 S.
+cm-1) according to Table 2 [65]. It also shows a high, fast, and opposite
+reaction. These sensors facilitate meeting the specifications of the actual
+practical applications [60]. PPy has received much attention or use in
+the fabrication of gas sensors [66-69]. It is due to their reasonable
+excellent mechanical flexibility, chemical stability, and low cost. From
+the literature survey, we have observed that in the case of NH3 molecules
+conductivity increases [60]; NO2 molecule’s conductivity increases
+[61]; H2S, H2, CO, CO2, HCl, CH3COOH molecule’s conductivity
+increases [57–59]; all of these make them the chemical sensors use by
+PPy for exploring gas sensing applications.
+In the following, we will be discussing the use of PPy to detect toxic
+gases such as carbon monoxide (CO) [70], Hydrogen sulfide (H2S) [57],
+and carbon dioxide (CO2) [71], and VOCs (e.g., methanol [CH3OH],
+ethanol [C2H5OH], chloroform [CHCl3], toluene [C7H8], and n-hexane
+[C6H14]), as shown in (Table 3) [72–79]. One of the famous VOCs is
+methanol. It is a toxic gas, with a variety of use in industry, as a solvent,
+in the synthesis of other organic chemicals, as an additive to gasoline,
+etc. Many sensing materials such as oxide semiconductors, nano-thin
+films, electronic conductometry, and direct spectroscopic techniques
+have been explored earlier for the detection of methanol. Some PPy, are
+also reported as potential materials for sensing methanol vapor. The
+monomer and polymerized form of the PPy are shown in (Fig. 2). The
+effects of side-chain lengths on sensing features and characteristics of
+PPy are also duly pointed out, and their emerging application for gas
+sensing is presented.
+This review includes focuses on complementary aspects of both
+theory and experiments on PPy-based sensors. The systematic exposition
+of doping, surface modification chain selection, and PPy-chainarrangements
+is also new. In addition, the tables and discussions given
+herein on all reported families of conducting polymers (CPs) and their
+current utilities will help a wide spectrum of researchers. Furthermore,
+the gaps identified will enable the further activity of volatile organic
+compounds (VOCs). In summary, we come up with the idea of writing a
+new review in this field because researchers face many challenges when
+working with PPy-based sensors. In addition, when we read and watch
+research articles, we need to remember important points and find out
+the research gaps. That’s why the information in this review is most
+important, as it contains all current research related to these regions and
+is used to gather new knowledge and skills about different sensors like
+gas sensors, flexible sensors, electrochemical sensors, optical sensors,
+etc. using PPy. Moreover, the aim of this review is to create readability
+and to fill the knowledge gap in the best resources available in the
+literature. Furthermore, this review paper is needed to clarify the state of
+knowledge, determine the necessity of research, explain the obvious
+contradictions, and even reach a consensus in places that did not even
+exist before. Therefore, this review will be helpful for all researchers
+working in this field.
+2. Synthesis and recent modification strategies of PPy
+PPy was synthesized by chemical oxidative polymerization technique
+using pyrrole monomer (C4H4NH) in an aqueous solution for 4 h
+at room temperature [80]. After synthesis, PPy is very difficult to process
+because it is non-thermoplastic, brittle, rigid, non-degradable, and
+insoluble in common solvents. It is an oxidized form of a positively
+charged P-type conducting polymer that loses conductivity and becomes
+charged when over-oxidized [81]. It has low mechanical strength and is
+insulating in its neutral state. However, we found from the literature
+survey that the PPy-modified electrode enhanced the electron transport
+efficiency, thus enhancing the electron utilization efficiency of microorganisms,
+thereby improving the denitrification performance of the
+system [82]. In addition, we also found from literature surveys, FT-IR
+spectroscopy, and elemental analysis that it is proportional to the solubility
+of the precursor polymers in organic solvents. In this case, the
+PPy(SO3H)-DEHS powder has shown maximum solubility in water
+(~4% (w/v)) and a film conductivity of ~5 × 10–1 S/cm [83].
+The surface changes of PPy result in improving gas sensitivity [84].
+Surface modification is generally divided into two categories: physical
+and chemical [85]. So far, wet chemical treatments [86] and
+organo-silanization [87] approaches have been used for surface modification
+of PPy. Besides, carbon-doped PPy has been reported wherein
+electronic properties are well-tuned, which in turn leads to enhanced gas
+sensitivity. Specifically, carbon doping increases the electron mass
+transfer from the valence to the conduction band [88]. The phenomenon
+results in efficient electronic interaction between the conductive surface
+and target molecules of a desirable sensitivity [89]. PPy is also suitable
+for sensing NH3 analytes [90], hence it is employed in gas sensors for
+detection of the same. The interaction between PPy and gas analyte can
+be rather strong even at room temperature (this is unlike the case for
+sensors made of oxide semiconductors) [91].
+3. Role of PPy sensitivity towards inorganic gases and VOCs
+It has been continuously reported that some PPy demonstrates good
+sensing performance for the detection of VOCs. Moreover, these PPy has
+shown lower detection limits and proper working competence under
+ambient conditions which is mainly due to their conductivity nature.
+PPy-based sensors are sensitive to gas molecules such as acetone,
+alcohol, benzene, toluene, and many biological species [92]. However,
+both the sensitivity and selectivity of PPy to analytes vary significantly
+with the environment [93,94]. Among the various CPs, PPy is intrinsically
+better for the detection of VOCs, due to its superior electronic and
+ionic conductivity and also its chemical steadiness. Doping PPy with
+relevant secondary elements can enhance its sensitivity toward VOCs
+detection [95]. Furthermore, it has been shown that the performances of
+PPy are often hampered by atmospheric moisture. For example, it is
+reported that PPy’s sensitivity towards CO and VOCs decreases by a
+certain percentage (40%, 60%, or 80%) with an increase in the moisture
+concentration (4–70%) [96,97]. This suggests that the sensitivity of
+PPy-based sensors depends on environmental factors, including humidity,
+temperature, and incident light [98].
+The PPy and its composites are found to be better sensing materials
+for some VOCs for example methanol [99], chloroform [100], and
+ammonia [101,102]. The density-functional theory (DFT) is a computational
+quantum-mechanical (QM) modeling approach used in the area
+Table 1
+Some polymers have been employed before for gas (including VOC) sensors.
+Mechanisms Polymers Analysts Conductivity References
+Electron PPy NH3 Increase [60]
+NO2 Increase [61]
+Proton PPy H2S, H2, CO,
+CO2, HCL,
+CH3COOH
+Increase [57–59]
+PANI NH3 Decrease [63]
+Catalysts PPy DMMP Enhancement
+increase/decrease
+[62]
+PANI H2S [64]
+*Dimethyl methyl phosphonate (DMMP)
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+4
+of chemistry, physics, and materials science to calculate the electronic or
+nuclear structure (mainly the ground state) of multi-body systems,
+especially atoms, molecules, and solids [103]. DFT and time-dependent
+DFT (TD-DFT) calculations are used to study the doping and undoping
+processes of PPy, i.e., the tunable nature of PPy. Jayasundara et al. have
+reported that in the case of nPy, P-doping leads to increased conductivity,
+but decreased bandgap and resistance. Whereas in the case of
+nPy+27 the reverse trend is observed in terms of n-doping or reduction
+[104]. In the following section we will be discussing the PPy for NO2
+detection; PPy for CO and CO2 detection; and PPy for VOCs detection.
+3.1. Role of PPy for NO2 detection
+In general, Nitrogen dioxide (NO2) poisoning is harmful to all kinds
+of life, such as chlorine gas poisoning and carbon monoxide (CO)
+poisoning. It is easily absorbed by the lungs and its inhalation can cause
+heart failure and sometimes death in severe cases [104]. Also, Nitrogen
+oxides (NO2, N2O3, N2O4, and N2O5) can irritate the upper respiratory
+tract and lungs even at low concentrations. Just one or two breaths of
+very high concentrations can cause severe toxicity. For acute exposure,
+the odor is usually a sufficient precautionary property [105]. Finally,
+PPy is important to many industries because it can detect nitrogen dioxide
+(NO2) accurately and quickly to avoid the gas reaching dangerously
+toxic levels. PPy sensing films exhibit highly selective and
+sensitive detection of NO2 at ppm level. PPy-based sensors show good
+reproducibility (99%) and 55% stability [106,107]. Recently, it has been
+reported that PPy-based sensors can be used to detect NO2. It is found
+that PPy exhibits appreciable sensitivity towards NO2 gas [108]. Also,
+PPy-based sensors for NO2 detection have offered the advantages of high
+sensitivity, selectivity, short recovery time, cost viability, and low
+detection limit. These are achieved due to various morphologies of PPy
+[109]. In particular, mesoporous films of PPy are found to be helpful
+[110,111].
+3.2. Role of PPy for CO and CO2 detection
+Carbon monoxide (CO) is a chemical compound that contains one
+carbon atom and one oxygen atom and is also a colorless, and odorless
+Table 2
+The structure, both experimental and theoretical maximum conductivity of the CPs, and the stability of the sensing materials are respectively reported.
+Name of the CPs Chemical
+structures
+Experimental Maximum
+conductivity S/cm
+Stability Processability Theoretical Maximum
+conductivity S/cm
+References
+Polypyrrole (PPy) fx1 2000 Reasonably
+stable
+Insoluble and
+infeasible
+7600 [65]
+Polythiophene
+(PTh)
+fx2 100 Stable Insoluble and
+infeasible
+169 [66]
+Table 3
+The toxic effects, sources, and TLV of various types of toxic gases and VOCs.
+Toxic gases &
+VOCs
+Health effects Sources TLV References
+Carbon
+monoxide
+(CO)
+Fatigue in healthy people; Chest pain in people with heart disease; and Reduced
+brain function.
+Cars; Trucks and other vehicles or machinery that
+burn fossil fuels.
+25 [72]
+Carbon dioxide
+(CO2)
+Headaches; difficulty breathing; Increased heart rate, and Elevated blood
+pressure.
+Fuel combustion activities; Industrial processes; and
+Natural- gas processing
+25 [73]
+Nitric oxide
+(NO)
+Bluish lips or skin; Slow heartbeat; Lightheadedness; dizziness; or Fainting; or
+decreased cardiac output.
+Produced in combustion processes; Partly from
+nitrogen compounds in the fuel.
+25 [74]
+Nitrogen
+dioxide
+(NO₂)
+Cause damage to the human respiratory tract and increase a person’s
+vulnerability.
+Vehicles; Power plants; Industrial emissions and offroad
+sources such as construction, lawn, and
+gardening equipment.
+0.2 [75]
+1,3 Butadiene
+(C4H6)
+Lymph and blood cancer in humans. Automobile exhaust; Tobacco smoke; and Polluted air
+and water near chemical, Plastic, or rubber facilities.
+2 [76]
+Benzene
+(C6H6)
+Bone marrow and decrease in red blood cells. Volcanoes and forest fires. 0.5 [77]
+Toluene (C7H8) Cause eye and nose irritation; tiredness; confusion; dizziness; headache;
+anxiety; muscle fatigue; insomnia; nerve damage; inflammation of the skin; and
+liver and kidney damage.
+Mostly from petroleum. 20 [78]
+Xylenes (C₈H₁₀) Irritate the eyes; Nose; Skin; and Throat. Petroleum and coal tar. 100 [79]
+Fig. 2. 3D structure of PPy with repeating unit active CPs.
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+5
+gas. Unlike carbon dioxide (CO2), it is completely man-made and does
+not exist naturally in the atmosphere [112,113]. Carbon dioxide (CO) is
+an important greenhouse gas that helps trap heat in our atmosphere.
+Without it, our planet would be incredibly cold [114]. It is important to
+install CO alarms on every floor of your home so that all family members
+can hear the detectors and receive emergency alerts. You should also
+install CO detectors in every bedroom, sleeping area, and common room
+to provide extra safety while you and your family are sleeping [115].
+However, increasing concentrations of carbon dioxide (CO2) in our atmosphere
+have caused average global temperatures to rise, disrupting
+other aspects of the Earth’s climate [116]. In addition, the detection of
+the two gases is different because CO2 detectors typically use infrared
+sensors, while CO identification uses electrochemical sensors. However,
+CO can also be detected using non-dispersive infrared (NDIR) sensing
+[117]. Furthermore, depending on the availability of oxygen (O), the
+combustion reaction can produce both carbon monoxide (CO) and carbon
+dioxide (CO2). Inhaled carbon monoxide (CO) competes with oxygen
+(O) for binding to hemoglobin, depriving the organs of oxygen,
+which can lead to death [118].
+The PPy offers advantages such as fast response, cost viability, and
+low power requirements during CO detection. In fact, miniature CO gas
+sensor devices have been realized [119]. However, the technique
+employed for the fabrication of devices has an essential role. For
+instance, techniques that give rise to stable PPy and protect the physicochemical
+properties (charge transport, morphology, surface area, and
+porosity) of the PPy are considered to be advantageous for CO detection
+[120]. According to the literature survey, we have found PPy is not a
+good sensor for CO, while it is a good one for VOC.
+3.3. Role of PPy for VOCs capturing
+In this review, we discuss different aspects of gas sensors and VOCs
+sensors, which are made employing conducting polymers such as PPy,
+polyaniline (PANI), poly (3,4-ethylene dioxythiophene) (PEDOT), and
+polythiophene (PTh), as well as their heterogeneous species with metals,
+metal oxide nanostructures and nanocarbons (carbon nanotubes (CNTs),
+reduced graphene oxide (rGO)), are used as active layers [121–123].
+The PPy exhibits better sensitivity to ethanol when compared with
+the doped thin film sensors. Its response and stability were previously
+studied [124]. Among conducting polymers, PPy has been widely reported
+for the detection of volatile organic compounds (VOCs).
+Commercially, VOC sensors find use in photo-ionized detectors (PID),
+electronic noses, and sensor arrays [125]. Besides, PPy has been shown
+to have high sensitivity to ethanol [C2H5OH], acetone [C3H6O],
+isoprene [C5H8], and isopropanol [C3H8O] at room temperature. PPy
+thus has several desirable characteristics relevant to the detection of
+different kinds of VOCs [126]. The CdTe/PPy nanocomposites were
+synthesized and integrated into love wave (L SAW) sensors and exhibit
+high sensitivity to acetone with an estimated LOD of 5 ppb. For
+increased sensitivity is related to the adsorption of acetone on PPy
+through dipole-dipole interactions and the incorporation of CdTe into
+the indicator /sensitive L SAW layer enhances sensor performance
+[127].
+Polyaniline (PANI) is a highly conductive polymer. Due to its unique
+properties, easy synthesis, low cost, and high environmental stability, it
+has reached widespread attention in various applications such as electronics,
+pharmaceuticals, and anti-corrosion materials [128]. The electrical
+conductivity of PANI-based compositions can be tightly controlled
+over a wide range. For pure PANI compositions, conductivity levels up to
+100 S/cm can be achieved. For polymer blends comprising PANI compositions,
+a full range of conductivity levels from less than
+10–10–10–1 S/cm (melt processing) and 10 S/cm (solution processing)
+can be achieved [129]. An important advantage is that the classical high
+permeation threshold for the onset of conductivity observed in spherical
+carbon black-filled plastics does not exist [130]. Plasticized PANI compositions
+improve the efficiency of molten processing by reducing
+melting-viscosity, lowering the processing temperature, and shortening
+the processing time. Improved molten flow features and characteristics
+make complex-shaped injection molding easier [131].
+Similarly, the conducting polymers (e.g., PPy and PANI) have been
+fabricated for the detection of VOCs. PPy and PANI thin sensors have
+achieved higher sensitivity compared to thick ones owing to 1-minute
+undoped. PPy exhibited positive sensitivity while PANI has negative
+sensitivity. After gas absorption, the sensitivity increases with the polarity
+of the absorbing molecules [132]. It has also been found that the
+CP sensor was very sensitive to the polarity of gas molecules. Nevertheless,
+nearly all types of CPs show similar sensing mechanisms in the
+detection of VOC gases wherein bipolar on or free carrier moves and
+localizes on their surface [133] due to the adsorption of the gases. VOC
+sensors have been found for use in healthcare (e.g., asthma, cancer),
+safety, environmental monitoring, food and agriculture (e.g., affecting
+ecosystem & plant growth development), and the oil industry. Moreover,
+VOCs appear to detect hybrid nanomaterials with desired properties
+such as limit of detection, superior sensitivity, synergist effects,
+and developed performance of VOC sensors, as shown in (Fig. 3) [134,
+135]. This is known to cause a change in the resistance to indicate gas
+detection.
+We have found from the literature survey, PPy is better than poly
+(3,4-ethylenedioxythiophene) (PEDOT). The alcohol sensing behaviors
+of PEDOT and PPy nanostructures for methanol, ethanol, propanol, and
+butanol are investigated, and the sensing mechanisms of these systems
+are discussed [136]. Both the PEDOT and PPy systems are able to detect
+very low alcohol concentrations (down to 3 ppm) and exhibit linear
+behavior with fast response/recovery performance, especially in the
+case of ethanol vapor [137]. Compared to PEDOT, The PPy-based sensors
+showed better cyclability in response to PEDOT when exposed to an
+ethanol atmosphere. The surface properties of PEDOT and PPy-sensitive
+layers were investigated by atomic force microscopy. Ultraviolet-visible
+spectroscopy was used to study the effects of alcohol exposure on the
+electrical transport properties of nanostructured PEDOT and PPy layers
+[138]. When comparing the sensitivity of them and have been controlled
+temperature. Frequently, PPy shows better sensitivity when compared
+to PEDOT-based sensors, as shown in (Table 4).
+In short, we have summarized data of PPy-based VOC sensors with
+sensitivity, detection range, and limit of detection (LOD) and compared
+them with other micro/nano-materials [139–148], as shown in
+(Table 5).
+4. Computational studies on gas sensing mechanisms of PPy
+Theoretical calculations, especially density functional theory (DFT)
+approaches, have been a useful approach to identifying the physical
+properties, sensing characteristics, and molecular charge of polymers,
+especially PPy [149-153]. DFT models allow the determination of
+charge transfer and complex formation when PPy interfaces with gas
+analytes. These calculations have shown that the electronic structure of
+PPy offers excellent gas sensors for the detection of CO2, SO2, CO, H2O,
+NH3, and CH4. They were considered to enhance gas sensitivity along
+with selectivity by using the B3LYP/ 6–31 G(d) level of theory [154].
+Computational approaches such as Quantum Espresso (QE) and Vienna
+Ab initio simulation package (VASP) are widely used to study the
+structural properties, electronic structures, and sensing mechanisms of
+PPy with good results [155,156]. There are many examples of studying
+sensing mechanisms using QE and VASP for PPy. Ullah et al. have
+studied theoretically the PPy as a sensor for ammonia through DFT
+methods at the theoretical level of TDB3LYP/6–31 G(d) and
+B3LYP/6–31 G(d) techniques [155]. They evaluated and calculated the
+geometric and electronic properties of the polymer (PPy) extrapolated
+with NH3, also justifying the ammonia sensation by PPy [155]. Moreover,
+Coleone, A. P., et al. improved the electronic and optical properties
+of PPy by employing the DFT/M06HF/6–31 G(d) approach [156]. The
+results also pointed out that PPy-NO2 is a promising component for
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+6
+exciton dissociation and charge transport. It had been proven that
+PPy-OH and PPy-OCH3 can be the most attractive components for optical
+applications with redshifts of more than 20 nm compared to unchanged
+PPy [156]. In this signification, the design of components with
+electronic, reactivity, and optical properties of PPy can be improved by
+considering the simple Hammett parameters [156].
+Theoretical studies have also been used to investigate the ability of
+PPy salt for PPy sensing NH3, CO2, and CO analytes investigated through
+DFT calculations at the theoretical level by B3LYP-D3/6–31++G (d, p)
+[157,158]. The results showed better selectivity and sensitivity for
+ammonia compared to CO2 and CO gas [159]. For example, PPy’s
+sensitivity towards NH3 decreases by a certain percentage of (50%, 70%,
+or 90%) with an increase in the moisture concentration (4–75%) [157,
+158]. Moreover, Ullah, H. et al. reported PPy as a sensing mechanism for
+NH3 gas [155]. They have shown that interaction with ammonia would
+result in lower resistance for election movements over the oligomer
+backbone which is due to the reduction of undoped PPy (Fig. 4). Wasim
+et al. employed the theoretical level of B3LYP-CP/6–31 G(d) and evaluated
+the sensing power of PPy for the oxygen, nitrogen, and oxynitrogen
+analytes PPy-X (X = NO, NO2, and NO2 -
+) [159]. The charge
+transfer from the analyte to the pyrrole oligomers (excluding nPy-NO2)
+was more pronounced in the case of nitrite ions (NO2 -
+) compared to NO.
+It should be considered that PPy is the best conducting polymer (CP) for
+the detection of nitrite anion (NO2􀀀 ) and NH3 at room temperature [154,
+159].
+5. Theoretical analysis of PPy gas sensors
+The PPy has been investigated employing the density functional
+theory (DFT), and atoms are also simulated using the super-soft pseudopotential
+approach [160]. Mercury (Hg2+) pollution poses significant
+risks to the environment and human health, even in low concentrations
+[161]. It can lead to severe organ damage such as different motor diseases
+and kidney failure cases. Among these, the high-performance
+electrochemistry sensor was designed for detecting Hg2+ and the
+sensor features were greatly improved, which originally came from the
+Schottky barrier of the CuO/Cu/PPy electrode [162]. Benefiting from
+the physical barrier, CuO/Cu/PPy electrode was a redistribution of
+charge and high Hg2+ adsorption power, which was proved experimentally
+and theoretically. Theoretical analysis of the Mulliken charge
+Fig. 3. Sensing mechanisms of VOC sensors with promising directions [134,135].
+Table 4
+Comparing the sensitivity of conducting polymer for capturing applications on literature reports.
+Polymers Working temperature % Response/sensitivity Analytes References
+PPy Room Temperature (RT) 21.6% (1000 ppm) NH3, CO2, CO, HCN, H2S, CH4, H2O and
+VOCs
+[141,142]
+34.5% (1800 ppm) H2O2, N2H4, and CH3OH
+85.5% (15,000 ppm) SO2, SO3 [141,143]
+poly(3,4-ethylenedioxythiophene) (PEDOT) 36 ℃ 8.66% (1000 ppm) SO3, NH3, NO2, and H2S [144]
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+7
+indicates that the gaps between the Schottky barrier [163] and the
+charge concentration of PPy became larger with the synthesis of Hg2+
+[164], which accelerated the reaction velocity and was more favorable
+for Hg2+ [162]. Experimental and theoretical results suggest that
+introducing a physical barrier to electrochemical metoprolol sensors
+was an effective way to develop novel sensors [163]. Nezhadali et al.
+have developed electrochemical sensor selective and sensitive detection
+by employing DFT computational approach. The sensitivity has been
+increased by increasing the conductivity. The sensors are studied by
+using the multivariate optimization method to deeply study the parameters
+that affect the imprinting effect. This sensor has shown a good
+imprinting effect and satisfactory sensing performance through sample
+analysis [163].
+Zhuang, Y., et al. have confirmed the experimental and DFT results
+indicated that introducing a physical barrier to electrochemistry sensors
+was an effective means for the development of novel sensors and the
+excellent sensing performance was analyzed. Due to the physical barrier
+playing a crucial role in electrochemical detection, the sensor can work
+in seawater [160]. With the increase in Hg2+ adsorption, the charge
+density gap between the Schottky barrier and the concentration of PPy
+charge became wider which accelerated the response dynamics and was
+more favorable to Hg2+ while the sensitive performance was an
+improvement. PPy film and CuO/Cu worked together in the presence of
+Hg2+ with low features such as low detection range, good selection, and
+strong anti-interference efficiency. Aids to calculation system counting
+system for different numbers of Hg2+ adsorbs on CuO/Cu/PPy surface
+using DFT method. In this study, they compared adsorption energy (eV)
+and reaction coordinate of CuO/Cu/PPy with Hg2+ and the results were
++ 1 Hg2+ (􀀀 1.07 eV), and + 2 Hg2+ (􀀀 1.69 eV) shown in Fig. 5 [160].
+In summary, complementary DFT and experimental results can be
+used to tailor the electronic structure of PPy gas sensing materials [154,
+164]. DFT tools can be used to select a suitable gas sensing material or
+even identify the right dopants to enhance selectivity towards target
+molecules (both organic and inorganic).
+Table 5
+The PPy-based VOC sensors: Sensitivity, detection range, and limit of detection (LOD) compared with other micro/nano-materials (chemiresistive).
+Type of Material Target
+Analytes
+LOD Response
+Time/Recovery Time
+Operative
+Temperature
+Transducing
+Mechanism
+References
+PPy nanoparticles Methanol
+Acetonitrile
+Acetic acid
+50 ppm
+100 ppm
+100 ppm
+1 s/90 s
+< 1 s/< 10 s
+< 1 s/< 10 s
+Room Chemiresistive [129]
+Nanotubular PPy Butanol
+Propanol
+Methanol
+Ethanol
+3 ppm
+for all alcohols
+Data for 10 ppm:
+~200 s/> 5 s
+~200 s/> 5 s
+~150 s/5 s
+~110 s/5 s
+Room Chemiresistive [130]
+Multidimensional PPy
+nanotubes
+Ethanol 1 ppm < 1 s/4–5 s Room Chemiresistive [131]
+Single PPy nanowire Heptanal
+Acetophenone
+Isopropyl myristate
+2-Propanol
+8.982 ppm
+798 ppb
+134 ppm
+129.5 ppm
+-/- Room Chemiresistive [132]
+MoO3/WO3 composite
+nanostructures
+Ethanol 0.5 ppm ~13 s/~10 s 320 ◦C Chemiresistive [133]
+SnO2-ZnO
+composite nanofibers
+Methanol 1 ppm tested ~20 s/~40 s for 10 ppm 350 ◦C Chemiresistive [136]
+SnO2-Pd-Pt-In2O3
+composite
+Methanol 0.1 ppm ~32 s/~47 s for 100 ppm 160 ◦C Chemiresistive [137]
+Crystalline/amorphous
+core/shell MoO3
+nanocomposite
+Ethanol 10 ppm < 40 s/< 40 s 180 ◦C Chemiresistive [138]
+Porous In2O3 nanobelts Methanol 0.1 ppm ~10 s/~10 s for 20 ppm 370 ◦C Chemiresistive [139]
+Mixed WO3–SnO2
+nanostructures
+Ethanol 0.131 ppm ~225 s/~300 s for 180 ppm 300 ◦C Chemiresistive [140]
+etrachloroethyle The chemical structures and energy bands of polythiophene (PTh) with (A) p-type doped, (B) n-type doped; and PPy with (C) undoped, (D) polaron,
+(E) bi-polaron, and (F) the fully doped states; [158] Copyright© 2017 Polymers.
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+8
+6. Experimental analysis: Insights for improving PPy gas
+sensor’s performance
+The performance of the PPy mainly depends on the conductivity.
+From a practical standpoint, sensitivity, selectivity, and operation at
+room temperature are key parameters. PPy is a p-type semiconductor
+(resistive gas sensors) and has been evaluated on a lab scale along with
+these performance parameters [165]. Lab-scale investigations have also
+shown that PPy chains can be formed for enhancing gas sensitivity and
+charge exchange [166]. Thus, a combination of strategies including
+doping, surface functionalization, and chain formation- is all shown to
+have relevance in gas detection. In the formation of PPy chains, of
+particular importance is the role of hydrogen bonds, π–π stacking, and
+electrostatic interactions. These also improve the mechanical properties
+for enhancing material stability [167]. Furthermore, the conjugated
+bonds in the PPy can be easily manipulated through doping. Specifically,
+the bond can be reduced (i.e., via n-type doped) or oxidized (via p-type
+doped). From studies thus far, however, it is clear that doping engineering
+is important for improving the gas sensing performance with
+PPy (Fig. 6).
+In this section, we will be discussing the types of gases that can be
+detected by a particular PPy. The PPy polymer usually shows gassensing
+properties in an oxidized state. The preparation of PPy can be
+Fig. 5. Aids counting system for different numbers of Hg2+ adsorbs on CuO/
+Cu/PPy surface using DFT method [152] Copyright© 2020 Elsevier.
+Fig. 6. The mechanism of doping engineering of PPy and its potential application in advanced various capturing technologies [160] Copyright© 2019 Royal Society
+of Chemistry.
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+9
+done through electrochemical polymerization [168,169]. The easy
+oxidation reactions and low-cost processing of PPy make it an
+outstanding polymer when compared to other CPs in the gas sensor field.
+Moreover, PPy has been applied in different kinds of gas sensors which
+include bio-sensors, bio-actuators, neural electrodes, and drug delivery
+[170]. For instance, Sajid, H., et al. have reported the sensitivity of PPy
+towards CO, NH3, VOCs, and CO2 [171,172]. In general, it is discovered
+that PPy has better sensitivity toward ammonia (NH3) and VOCs than
+other gases [173], as shown in (Table 6).
+Computational studies show that PPy forms both doped (PPy+) and
+undoped (PPy) states; both of which are shown to be good candidates for
+toxic gas detection (e.g., CO, NH3, CO2, etc.) [173]. Nonetheless, the
+doped and undoped states of PPy are more sensitive to NH3 gas when
+compared to CO and CO2 gases. Furthermore, the doped form often
+shows excellent sensitivity towards NH3 gas when compared to undoped
+ones, for example upon ethanol gas.
+7. Application of PPy in capturing
+Recently, PPy has drawn significant attention to the improvement of
+different types of sensors [174-178]. This is due to the transduction
+possible using PPy to yield chemical, biochemical, electrical, optical,
+thermal, or mechanical signals [179]. Gas sensors are finding applications
+in diverse technologies ranging from chemo-resistive sensors,
+biosensors, micro-electromechanical systems, coatings, and textiles of
+emerging developments. They have also found use in various sectors
+such as biomedicine, healthcare, environmental monitoring, etc. There
+is already substantial research on deploying PPy for real-world applications
+(including in areas associated with flexible electronics) [180].
+Nano-sensors have enabled improvements that are otherwise not
+achievable via conventional sensors, for instance, sensitivity, accuracy,
+and faster response- have all been possible using PPy-based sensors
+[181].
+In general, PPy is a conductive polymer that has demonstrated
+sensitivity to various gases and organic vapors (e.g., acetone, ammonia,
+and ethanol) [173]. Methanol and water vapor in the PPy sensors were
+identified as multiple gases, and the methanol and water vapor absorption
+competed on the surface of the sensor. The sensitivity increases
+at low temperatures and low humidity. Fast response and recovery times
+are shown at 25 ◦C. The reproducibility of the PPy under different humidity
+conditions is good. The optimum operating temperature was
+studied at 25 ◦C [182]. The carcinoembryonic antigen (CEA) was fast
+detected and sensitive when fabricated a flexible pressure sensor using
+three-dimensional (3D) PPy foam [183]. PPy was integrated into
+chemi-resistive sensors and up-to-date, the use of PPy in SAW sensors
+has been found from the literature survey. Examples of these include
+Rayleigh wave-based SAW sensors for the detection of acetone,
+ammonia, H2S, and NO2, or shear level SAW for hydrogen detection (e.
+g., leaky). Based on published research, we have found that the use of
+PPy in L-SAW sensors is less common. However, our modern elementary
+results suggest the possibility of detecting low concentrations of
+ammonia in PPy-based L-SAW sensors [184].
+7.1. Chemical and gas sensors
+The current research work demonstrates that PPy-based sensors were
+fabricated through surfactant-assisted doping. The resulting instrument
+was explored and implemented as an effective gas sensor for VOCs and
+some toxic gases at low ppm levels. PPy nanostructures were produced
+through the polymerization of chemical oxidative employing different
+sulfonic acids as surfactants at temperatures of 0–5 ◦C [185]. The doping
+of sulfonic acid has a high impact on the morphology of PPy compounds,
+which exhibit compact structures such as amorphous, globular, cauliflower,
+flakes, and sheets based on surface morphology. The role of the
+sulfonyl group in PPy has been confirmed through FT-IR spectroscopic
+analysis. The conductivity of doped PPy was sequentially and gradually
+increased, and the amount of surfactant added was increased from 0.1 to
+2.0 M, depending on the level of doping with concern to the dopant
+nature. Real studies and doped PPy gas sensors were investigated at
+various ppm levels for different gases. The sensing process following the
+reaction system between the gas and the sensor material under study has
+been extensively discussed. The early PPy had 70% and 93% responses
+to NH3 and Cl2 gases, respectively, while the doped PPy had an increased
+response to most of the VOCs and toxic gases under experimental
+research and studies. Extensive studies of the different sensing properties
+and higher sensitization results of these components demonstrate
+that surfactant-doped PPy materials have appeared as effective gas
+sensors with excellent response, repeatability, and retrieval at a minimum
+of 5 ppm levels [185].
+7.2. The fabric-based chemical gas sensors
+Textile-integrated gas sensors for health or environmental monitoring
+applications need to be combined with gas sensors integrated into
+wearable devices. However, the behavior of sensing devices with
+electro-conductive textile substrates can be highly environmental and
+aging-dependent [186]. Nevertheless, sensors are employed to detect
+toxic gases/VOCs. It showed the full functionality of the image after
+weaving in different sensing modes and correct sensory responses
+(Fig. 7) [187].
+7.3. Graphene-based sensors
+Graphene-based materials have contributed to the development of
+sensitive sensors and biosensors due to their physical and electrochemical
+features. The most important features of graphene-based are
+flexible and stretchable for multi-functionality sensing devices and the
+major advances in sensor technologies (e.g., gas sensors, cancer
+biomarker detection, flow sensors, strain sensors, etc.) [188]. Moreover,
+the graphene-based sensors also improve the analytical performance for
+application in environmental, clinical, and food science, etc., [189]. In
+addition, the development of graphene-based flexible gas and chemical
+sensors is reviewed in the preparation of materials, the manufacture of
+sensors, and their effectiveness. The overview of graphene-based materials
+and their potential applications in flexible and stretchable
+wearable electronic devices. Herein, mention that Singh, Eric, et al., are
+briefly discussed the application of flexible gas sensors for the detection
+of various hazardous gases including nitrogen dioxide (NO2), ammonia
+(NH3), hydrogen (H2), hydrogen sulfide (H2S), carbon dioxide (CO2),
+sulfur dioxide (SO2) and humidity [188]. Also, applications of
+graphene-based materials are also shortened to detect toxic heavy metal
+ions (Cd, Hg, Pb, Cr, Fe, Ni, Co, Cu, Ag) and volatile organic compounds
+(VOCs) including nitrobenzene, toluene, acetone, formaldehyde,
+amines, phenols, bisphenol A (BPA), explosives, chemical warfare
+agents and environmental pollutants [188].
+7.4. Nanocomposite-based sensors
+PPy nanocomposite-based sensors are developed for potential
+Table 6
+The sensing material for toxic gases and VOCs were observed from various
+research works of literature.
+Sensing
+material
+Analysts Working
+temperature
+% Response/sensitivity References
+PPy NH3 Room
+Temperature
+(RT)
+276% (800 ppm) [166]
+CO and
+CO2
+41% (18 ppm) [167]
+NO2 61% (100 ppm) [168]
+VOCs
+(acetone)
+5.20 × 10 􀀀 7 ppm􀀀 1 [169]
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+10
+applications such as gas sensors, biosensors, temperature sensors pH
+sensors, etc. [190,191]. The PPy nanocomposite-based sensors are being
+improved that enjoy sensitivity, selectivity, rigidity, and real-time
+measurement. These sensor platforms are helped to create new technologies
+to ensure environmental and human protection [191].
+Recently, researchers have made considerable efforts to use PPy nanocomposites
+to create PPy nanocomposite-based sensors in terms of their
+promising properties, such as better electrolytic activity, higher electrical
+conductivity, and effective surface area in comparison to conventional
+polymers [192]. Therefore, relative to their bulk counterparts,
+nanocomposite-based sensors exhibit unique features and provide the
+basis for the use of various types of sensors (e.g., gas and chemical,
+electrochemical and fluorescent, stretchable and bendable strain, as well
+as tensile strain, etc.) are used to detect drugs and biomolecules as well
+as many new possibilities [193].
+7.5. Graphene-based nanocomposites biosensors
+PPy nanostructures (e.g., graphene, CNT, metal oxides, metal nanoparticle,
+metal sulfides, etc.) are discussed in the PPy matrix for developed
+gas sensing performance [194]. The detailed and systematic discussions
+on synthesis techniques, gas sensing principles of PPy
+nanostructures, and its composites with the development of sensor device
+configurations provide the reader with an in-depth understanding
+of the above [195]. Moreover, the progress of graphene-based nanocomposite
+biosensors with a wide range of advanced sensitivities,
+selectivity, and detection for an emerging application. Also, the biological
+function of graphene-based materials and the process of nanocomposite
+formation and their unique features, surface function,
+enzyme destabilization techniques, covalent stabilization, physical absorption,
+and bio-interactions processes with biosensors are studies
+including good understanding [196].
+7.6. Electrochemical sensors
+The most widely used PPy is a conducting polymer in the design of a
+bioanalytical sensor. Recent advances and issues in the improvement of
+molecularly printed PPy are considered [197]. The electrochemical
+sensors have appeared as tools for polycyclic aromatic hydrocarbon
+(PAH) detection due to their cost-effectiveness, easy of fabrication and
+usage, high sensitivity and selectivity, and better reproducibility [198].
+PPy is easily prepared through the polymerization technique and pyrrole
+is a chemical species, as well as stable semi-conductive polymer components
+solved by electrochemical methods under conditions of mild
+synthesis. The PPy is used as a stable molecular structure in which the
+imprint of the desired PAHs is localized in situ; can be fabricated on
+glassy carbon electrodes [198].
+7.7. Optical sensors
+Qin et al., and Azzouz et al., have applied PPy to detect volatile
+organic compounds (VOCs), and other sensors like optical, capacitive,
+and impedance sensors, as shown in Table7, use ppy and other materials
+for various gases and VOCs sensors [199–205], through a fiber optic
+reflection sensor (FORS) [206,207]. The traditional interfacial polymerization
+approach was employed to synthesize sensitive PPy membranes,
+with higher reflection and lower roughness. The electrical
+properties of conducting polymers like PPy have changed in the exploration
+of sensing materials, but their optical properties are rarely
+explored. Moreover, the reflected optical signal also changed from PPy
+after systematically evaluating the interaction with VOCs. Qin et al., and
+ˇSetka et al., have fabricated and exhibited high sensitivity of the PPy in
+VOCs under FORS testing with a detection limit of up to 1 ppm [139,
+206].
+8. Challenges and future prospects
+Polymeric materials such as PPy and their derivatives are manufactured
+for the following applications: Solving medical diagnostics problems,
+pharmaceutical supply, drug delivery, biomedical products,
+biotechnology, adhesives, pressure-sensitive adhesives, coatings,
+waterborne coatings, re-dispersible lattices, electronics, magnetics,
+Fig. 7. Smart textiles-based gas accumulation for health applications; [179].
+Copyright© 2016 Woodhead Publishing.
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+11
+optoelectronics, etc., are expected to become the general technologies
+investigated in these research fields.
+Novel sensors and biosensors will explore a variety of construction
+techniques that use PPy as a sensing component, which can be used to
+detect small organic, biological, and inorganic, molecular DNA. Moreover,
+it can also be used to fabricate heteroatom-doped PPy novel biosensors,
+and PPy will be furthermore research carried out. The
+biocompatibility of PPy in various sensing applications needs to be
+desired furthermore research works in the future. In addition to the
+large-scale production of monolayer PPy is a big challenge to overcome
+in near future. The current achievement of polymer materials is the use
+of polymer nanoparticle drug carriers for combination therapy to treat
+cancer. PPy nanomaterials are expected to significantly alter combination
+therapy for cancer treatment by regulating the type of deposit and
+distribution of multiple drugs at disease sites. Therefore, PPy composite
+materials will also become an important player in the fields of electronic
+devices and modern medicine.
+PPy has several desirable properties that include reasonable chemical
+stability, mechanical flexibility, and eco-friendliness. These make
+them promising candidates for upcoming technologies wherein gas
+sensors are required for a wide range of analytes. Here, we discuss
+doping, surface modification, and PPy chain arrangements as important
+ways to enhance the gas sensing performance of sensors. Using insights
+from both experimental and ab initio studies, we show the current mode
+of rationalizing or even designing the sensing substrate for a given analyte.
+We also discuss the most common PPy and its current utilities,
+from the standpoint of gas sensing. We further identify gaps in the state
+of the art- both from fundamental and applied standpoints. Given the
+content and scope of this review, we expect this work to spur further
+work on the use of PPy for the fabrication of gas sensors and associated
+devices.
+Over the past few decades, numerous sensitive approaches for the
+detection of NH3 gas have been extensively studied to address environmental
+and public health concerns. Among the commonly used NH3
+gas sensing approaches include solid-state sensing techniques, as well as
+metal oxides and PPy-based sensors handling. In particular, metal oxidebased
+NH3 gas sensors have been deeply investigated and widely used
+due to their high internal sensitivity to NH3 gas. However, much effort is
+still needed to further improve the selectivity of NH3 gas.
+Furthermore, most of the metal oxide-based NH3 gas sensors demand
+relatively high temperatures, which cannot guarantee real-time detection,
+portability, and energy-efficient operation [208]. In particular,
+carbon nanotubes (CNTs) or layered graphene are used to lower the
+operating temperature due to their higher electrical mobility, which can
+greatly improve the general smoothness of metal oxides recovery rate.
+But in terms of room temperature activity, the low growth rate of the
+analytical gas at room temperature and the high absorption energy between
+the analytical gas molecules still need to be developed. And the
+rapid recovery of the active part of the sensitive substance quickly
+returns to its initial state. Therefore, future research on metal
+oxide-based NH3 gas sensors should focus on enhanced selectivity,
+sensitivity, and room temperature operations. Like metal oxide-based
+NH3 gas sensors, polymer-based NH3 gas sensors are also less selective
+when implementing polymer sensing layers due to moisture and
+swelling effects. In fact, the humidity and expansion effects in the air are
+only a slight defect, for the main defect is caused by long-term instability
+and irreversibility. Although the process of immutability is not clearly
+explained in the literature, it is mainly attributed to the nucleophilic
+invasion of the carbon backbone [209].
+In addition, long-term stability is rarely found due to camouflage in
+polymer handling. Therefore, in contrast to operating PPy-based NH3
+gas sensors and improving long-term stability may be the direction of
+future research. Typically, TDLS requires complex sensing system configurations
+in order to meet a high degree of sensitivity and finality,
+resulting in high system construction costs. Furthermore, complex system
+configurations may hinder device miniaturization [210,211].
+9. Conclusions
+To conclude, although many past studies have focused on developing
+a single sensing approach for PPy-based sensors the latest and most
+advanced sensing technologies are used for the detection of hybrid
+sensing materials or a mix of sensitive materials. In addition, the field of
+fancy hybridization is rapidly expanding to sensitive substances or
+detection techniques to accurately measure volatile organic compounds
+(VOCs) detection. Furthermore, since conclusiveness is a most challenging
+goal for almost all kinds of PPy-based sensors, future experimental
+research work is also making efforts to improve the selectivity of
+hybrid PPy-based sensing methods are also required. With the rapid
+development of accumulation devices such as chemical and gas sensors,
+Table 7
+The PPy-based VOC sensors: Sensitivity, detection range, and limit of detection (LOD) compared with other micro/nano-materials (optical, capacitive, and
+impedance).
+Type of Material Target
+Analytes
+LOD Response
+Time/Recovery Time
+Operative
+Temperature
+Transducing
+Mechanism
+Ref.
+Au/PPy nanorods Benzene
+Toluene
+Acetic acid
+10 ppm 20 s/40 s Room Optical 199
+PPy coated quartz
+fibers
+Methanol
+Ethanol
+Acetone
+Toluene
+Chloroform
+Isopropyl
+alcohol
+1 ppm for methanol 10–30 ppm
+for other VOC
+200 s/400 s for 286 ppm of methanol and
+100 s/200 s for 6 ppm of
+methanol
+Room Optical 200
+Au-decorated tungsten
+oxide nanoneedles
+Ammonia 100 ppm ~4 s/~4 min Room Optical 201
+Al/PPy/Au/ dodecylbenzene
+sulfonic acid diodes
+Methanol 20 ppm 10 min/6 h Room Capacitive 202
+PPy films on n-silicon Acetone 10 ppm -/- Room Capacitive 203
+PPy film on gold IDE/FR4 Acetone
+Ethanol
+Isopropyl
+alcohol
+– -/- Room Impedance 204
+PPy film on gold Methanol
+Acetone
+Ethyl acetate
+Ethanol
+– ~100 s/~50 s Impedance 205
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+12
+fabric-based chemical gas sensors, electrochemical sensors, and optical
+sensors have attracted much attention. The sensors device has possessed
+various advantages, including reasonable chemical stability, mechanical
+flexibility, and eco-friendliness. However, there are still significant
+challenges to fabricating sensing devices in large-scale applications. This
+review is helpful for all researchers who is doing sensor research on
+organic gases and VOCs detection.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+The data that has been used is confidential.
+Acknowledgments
+This work is supported by the 2018 CAS-TWAS President’s Fellowship
+Program for International Doctoral Candidate (Grant No.
+2018CTF2969), National Key Research and Development Plan (Grant
+No. 2016YFB0101205), Key Program of the Chinese Academy of Sciences
+(Grant No. KFZD-SW-320), Natural Science Foundation of China
+(Grant No. 21471147), and Opened Fund of the State Key Laboratory on
+Integrated Optoelectronics (Grant No. IOSKL2017KF08M). M. Yang
+would like to thank the National “Thousand Youth Talents” program of
+China and Ningbo 3315 programs.
+References
+[1] A. Sofi, et al., Structural health monitoring using wireless smart sensor
+network–an overview, Mech. Syst. Signal Process. 163 (2022), 108113, https://
+doi.org/10.1016/j.ymssp.2021.108113.
+[2] M. Javaid, et al., Sensors for daily life: a review, Sens. Int. 2 (2021), 100121,
+https://doi.org/10.1016/j.sintl.2021.100121.
+[3] P. Hohne, K. Kusakana, B. Numbi, A review of water heating technologies: an
+application to the South African context, Energy Rep. 5 (2019) 1–19, https://doi.
+org/10.1016/j.egyr.2018.10.013.
+[4] M. Javaid, et al., Significance of sensors for industry 4.0: roles, capabilities, and
+applications, Sens. Int. 2 (2021), 100110, https://doi.org/10.1016/j.
+sintl.2021.100110.
+[5] J. Yao, M. Yang, Y. Duan, Chemistry, biology, and medicine of fluorescent
+nanomaterials and related systems: new insights into biosensing, bioimaging,
+genomics, diagnostics, and therapy, Chem. Rev. 114 (12) (2014) 6130–6178,
+https://doi.org/10.1016/j.sintl.2021.100110.
+[6] X.-X. Wang, et al., Conductive polymer ultrafine fibers via electrospinning:
+preparation, physical properties and applications, Prog. Mater. Sci. 115 (2021),
+100704, https://doi.org/10.1016/j.pmatsci.2020.100704.
+[7] T. Nagao, et al., Wavelength-selective photothermal infrared sensors. System-
+Materials Nanoarchitectonics, Springer, 2022, pp. 71–91.
+[8] D.R. Hidayat, W. Windarjoto, Comparison of proximity sensor responsiveness
+levels on Samsung smartphones, Linguist. Cult. Rev. 6 (2022) 194–200, https://
+doi.org/10.21744/lingcure.v6nS3.2130.
+[9] T. Sandner, et al., System integration of hybrid assembled large aperture Micro
+Scanner Array for fast scanning LiDAR sensors, J. Opt. Microsyst. 2 (1) (2022),
+011004, https://doi.org/10.1117/1.JOM.2.1.011004.
+[10] D.S. Nyce, Position sensors, John Wiley & Sons, 2016.
+[11] van Alem, P., et al., Gait measurement with acceleration sensors.
+[12] M.M. Amami, The advantages and limitations of low-cost single frequency gps/
+mems-based ins integration, Glob. J. Eng. Technol. Adv. 10 (2) (2022) 018–031,
+https://doi.org/10.30574/gjeta.2022.10.2.0031.
+[13] H.K. Channi, R. Kumar, The role of smart sensors in smart city. Smart Sensor
+Networks, Springer, 2022, pp. 27–48, https://doi.org/10.1007/978-3-030-
+77214-7_2.
+[14] D.J. Wilson, F.J. Martín-Martínez, L.F. Deravi, Wearable light sensors based on
+unique features of a natural biochrome, ACS Sens. (2022), https://doi.org/
+10.1021/acssensors.1c02342.
+[15] Maurya, P., S. Ali, and N. Mandal. A smart flow transmitter using ultrasonic
+sensors. in Proceedings of International Conference on Computational
+Intelligence and Computing. 2022. Springer. 〈https://doi.org/10.1007/978–981
+-16–3368-3_13〉.
+[16] X. Zheng, et al., Breathable, durable and bark-shaped MXene/textiles for highperformance
+wearable pressure sensors, EMI shielding and heat physiotherapy,
+Compos. Part A Appl. Sci. Manuf. 152 (2022), 106700, https://doi.org/10.1016/
+j.compositesa.2021.106700.
+[17] Case, J.C., et al. Towards the development of soft force and pressure sensors for
+robot safety applications. in 2021 IEEE Sensors. 2022. IEEE. DOI: 〈10.110
+9/SENSORS47087.2021.9639838〉.
+[18] J. Yu, et al., Highly conductive and mechanically robust cellulose nanocomposite
+hydrogels with antifreezing and antidehydration performances for flexible
+humidity sensors, ACS Appl. Mater. Interfaces (2022), https://doi.org/10.1021/
+acsami.2c00513.
+[19] H. Ma, et al., Strong bacterial cellulose-based films with natural laminar
+alignment for highly sensitive humidity sensors, ACS Appl. Mater. Interfaces
+(2022), https://doi.org/10.1021/acsami.1c20163.
+[20] H. Yun, et al., Development of internal sound sensor using stethoscope and its
+applications for machine monitoring, Procedia Manuf. 48 (2020) 1072–1078,
+https://doi.org/10.1016/j.promfg.2020.05.147.
+[21] T.-K. Woodstock, R.F. Karlicek, RGB color sensors for occupant detection: an
+alternative to PIR sensors, IEEE Sens. J. 20 (20) (2020) 12364–12373, https://
+doi.org/10.1109/JSEN.2020.3000170.
+[22] Andrews, J., Statistical learning of passive infrared (pir) sensor data for human
+monitoring applications. 2022.
+[23] H. Khan, et al., Highly sensitive mechano-optical strain sensors based on 2D
+materials for human wearable monitoring and high-end robotic applications,
+J. Mater. Chem. C (2022), https://doi.org/10.1039/D1TC03519C.
+[24] X. Liu, et al., Recent progress on smart fiber and textile based wearable strain
+sensors: materials, fabrications and applications, Adv. Fiber Mater. (2022) 1–29,
+https://doi.org/10.1007/s42765-021-00126-3.
+[25] Ravishankar, V., et al. Sensor integration and facial recognition deployment in a
+smart home system. in Proceedings of the 2nd International Conference on Recent
+Trends in Machine Learning, IoT, Smart Cities and Applications. 2022. Springer.
+〈https://doi.org/10.1007/978–981-16–6407-6_65〉.
+[26] S.D.M. Nasab, et al., Design and development of a multi-axis force sensor based
+on the hall effect with decouple structure, Mechatronics 84 (2022), 102766,
+https://doi.org/10.1016/j.mechatronics.2022.102766.
+[27] A. Sol´orzano, et al., Early fire detection based on gas sensor arrays: multivariate
+calibration and validation, Sens. Actuators B Chem. 352 (2022), 130961, https://
+doi.org/10.1016/j.snb.2021.130961.
+[28] Y. Li, et al., Development and field deployment of a mid-infrared CO and CO2
+dual-gas sensor system for early fire detection and location, Spectrochim. Acta
+Part A Mol. Biomol. Spectrosc. 270 (2022), 120834, https://doi.org/10.1016/j.
+saa.2021.120834.
+[29] V.K. Sachan, S.A. Imam, M. Beg, Energy-efficient communication methods in
+wireless sensor networks: a critical review, Int. J. Comput. Appl. 39 (17) (2012)
+35–48.
+[30] C. Alippi, et al., Energy management in wireless sensor networks with energyhungry
+sensors, IEEE Instrum. Meas. Mag. 12 (2) (2009) 16–23, https://doi.org/
+10.1109/MIM.2009.4811133.
+[31] D. Lim, AI & IP: innovation & creativity in an age of accelerated change, Akron L.
+Rev. 52 (2018) 813.
+[32] J. Lin, et al., Photoinduced release of odorous volatile organic compounds from
+aqueous pollutants: The role of reactive oxygen species in increasing risk during
+cross-media transformation, Sci. Total Environ. 822 (2022), 153397, https://doi.
+org/10.1016/j.scitotenv.2022.153397.
+[33] Konkle, S.L., Volatile organic compound exposure and cardiometabolic syndrome
+risk in a nationally representative cohort. 2020.
+[34] N. Tanji, et al., Nanoporous fluorescent microresonators for non-wired sensing of
+volatile organic compounds down to the ppb level, ACS Appl. Polym. Mater.
+(2022), https://doi.org/10.1021/acsapm.1c01500.
+[35] H. Jia, et al., Investigation of health risk assessment and odor pollution of volatile
+organic compounds from industrial activities in the Yangtze River Delta region,
+China, Ecotoxicol. Environ. Saf. 208 (2021), 111474, https://doi.org/10.1016/j.
+ecoenv.2020.111474.
+[36] B.H. Alharbi, M.J. Pasha, M.A.S. Al-Shamsi, Firefighter exposures to organic and
+inorganic gas emissions in emergency residential and industrial fires, Sci. Total
+Environ. 770 (2021), 145332, https://doi.org/10.1016/j.scitotenv.2021.145332.
+[37] A. Pathak, C. Viphavakit, A review on all-optical fiber-based voc sensors: heading
+towards the development of promising technology, Sens. Actuators A: Phys.
+(2022), 113455, https://doi.org/10.1016/j.sna.2022.113455.
+[38] S. Sonwani, P. Saxena, Identifying the sources of primary air pollutants and their
+impact on environmental health: a review, IJETR 6 (2) (2016) 111–130.
+[39] Z. Rouf, et al., Volatile Organic Compounds Emission from Building Sector and Its
+Adverse Effects on Human Health. Ecological and Health Effects of Building
+Materials, Springer, 2022, pp. 67–86. 〈https://doi.org/10.1007/978-3-030-7607
+3-1_5〉.
+[40] Aele Conte, R., New procedure for volatile organic compounds (VOCs) detection
+in unknown solid and liquid samples.
+[41] X. He, et al., Volatile organic compounds emission inventory of organic chemical
+raw material industry, Atmos. Pollut. Res. 13 (1) (2022), 101276, https://doi.
+org/10.1016/j.apr.2021.101276.
+[42] W. Bloss, Urban atmospheric composition processes. air pollution sources, Stat.
+Health Eff. (2021) 215–228, https://doi.org/10.1007/978-1-0716-0596-7_493.
+[43] J.J. Beck, et al., Interactions among plants, insects, and microbes: elucidation of
+inter-organismal chemical communications in agricultural ecology, J. Agric. Food
+Chem. 66 (26) (2018) 6663–6674, https://doi.org/10.1021/acs.jafc.8b01763.
+[44] A. Kraft, Conducting polymers, Org. Mol. Solids Prop. Appl. (2019) 341.
+[45] N. Singh, Polypyrrole-based emerging and futuristic hybrid nanocomposites,
+Polym. Bull. (2021) 1–79, https://doi.org/10.1007/s00289-021-03840-5.
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+13
+[46] S. Paul, F. Amalraj, S. Radhakrishnan, CO sensor-based on polypyrrole
+functionalized with iron porphyrin, Synth. Met. 159 (11) (2009) 1019–1023,
+https://doi.org/10.1016/j.synthmet.2009.01.018.
+[47] A. Adhikari, et al., Biosurfactant tailored synthesis of porous polypyrrole
+nanostructures: a facile approach towards CO2 adsorption and dopamine sensing,
+Synth. Met. 245 (2018) 209–222, https://doi.org/10.1016/j.
+synthmet.2018.09.005.
+[48] B. Liu, et al., A flexible NO2 gas sensor-based on polypyrrole/nitrogen-doped
+multiwall carbon nanotube operating at room temperature, Sens. Actuators B:
+Chem. 295 (2019) 86–92, https://doi.org/10.1016/j.snb.2019.05.065.
+[49] S. Xiong, et al., High performance acoustic wave nitrogen dioxide sensor with
+ultraviolet activated 3D porous architecture of ag-decorated reduced graphene
+oxide and polypyrrole aerogel, ACS Appl. Mater. Interfaces 13 (35) (2021)
+42094–42103, https://doi.org/10.1021/acsami.1c13309.
+[50] P.-G. Su, C.-C. Shiu, Flexible H2 sensor fabricated by layer-by-layer self-assembly
+of thin films of polypyrrole and modified in situ with Pt nanoparticles, Sens.
+Actuators B: Chem. 157 (1) (2011) 275–281, https://doi.org/10.1016/j.
+snb.2011.03.062.
+[51] Y. Chen, et al., Sodium citrate doped polypyrrole/PS glass capillary tube sensor
+for ultra-small volume HCl gas detection, RSC Adv. 9 (62) (2019) 36351–36357,
+https://doi.org/10.1039/c9ra04687a.
+[52] I. Sapurina, et al., Conducting polypyrrole and polypyrrole/manganese dioxide
+composites prepared with a solid sacrificial oxidant of pyrrole, Synth. Met. 278
+(2021), 116807, https://doi.org/10.1016/j.synthmet.2021.116807.
+[53] D. Nerkar, S. Jaware, G. Padhye, Fabrication of a novel flexible room temperature
+hydrogen sulfide (H2S) gas sensor-based on polypyrrole films, Int. J. Sci. Res. IJSR
+5 (3) (2016) 106–111.
+[54] C. Xie, et al., Electrochemical sensor for 2, 4-dichlorophenoxy acetic acid using
+molecularly imprinted polypyrrole membrane as recognition element,
+Microchim. Acta 169 (1–2) (2010) 145–152, https://doi.org/10.1007/s00604-
+010-0303-7.
+[55] S. Gai, et al., Ultrafast NH3 gas sensor-based on phthalocyanine-optimized noncovalent
+hybrid of carbon nanotubes with pyrrole, Sens. Actuators B Chem.
+(2022), 131352, https://doi.org/10.1016/j.snb.2021.131352.
+[56] U.P. Azad, et al., Electrochemical biosensors for monitoring of bioorganic and
+inorganic chemical pollutants in biological and environmental matrices, in
+Microbial Biodegradation and Bioremediation, Elsevier,, 2022, pp. 509–531,
+https://doi.org/10.1016/B978-0-323-85455-9.00001-1.
+[57] J. Shu, et al., Cu2+-doped SnO2 nanograin/polypyrrole nanospheres with synergic
+enhanced properties for ultrasensitive room-temperature H2S gas sensing, Anal.
+Chem. 89 (20) (2017) 11135–11142, https://doi.org/10.1021/acs.
+analchem.7b03491.
+[58] Willkomm, J., et al., Aqueous CO2 reduction by a Re (bipyridine)-polypyrrole
+film deposited on colloid-imprinted carbon. 2020. 〈https://doi.org/10.1021
+/acscatal.0c04035〉.
+[59] Hammad, A., et al. In-situ polymerization of polyaniline/polypyrrole copolymer
+using different techniques. in IOP Conference Series: Materials Science and
+Engineering. 2018.
+[60] X. Tang, et al., A fast and room-temperature operation ammonia sensor-based on
+compound of graphene with polypyrrole, IEEE Sens. J. 18 (22) (2018)
+9088–9096, https://doi.org/10.1109/jsen.2018.2869203.
+[61] N. Karmakar, et al., Room temperature NO2 gas sensing properties of ptoluenesulfonic
+acid doped silver-polypyrrole nanocomposite, Sens. Actuators B
+Chem. 242 (2017) 118–126, https://doi.org/10.1016/j.snb.2016.11.039.
+[62] J. Jun, et al., Fabrication of a one-dimensional tube-in-tube polypyrrole/tin oxide
+structure for highly sensitive DMMP sensor applications, J. Mater. Chem. A 5 (33)
+(2017) 17335–17340, https://doi.org/10.1039/c7ta02725g.
+[63] S. Kulkarni, et al., Hybrid polyaniline-WO3 flexible sensor: a room temperature
+competence towards NH3 gas, Sens. Actuators B Chem. 288 (2019) 279–288,
+https://doi.org/10.1016/j.snb.2019.02.094.
+[64] S. Pandey, Highly sensitive and selective chemiresistor gas/vapor sensors-based
+on polyaniline nanocomposite: a comprehensive review, J. Sci.: Adv. Mater.
+Devices 1 (4) (2016) 431–453, https://doi.org/10.1016/j.jsamd.2016.10.005.
+[65] S. Rudd, et al., Charge transport and structure in semimetallic polymers, J. Polym.
+Sci. Part B Polym. Phys. 56 (1) (2018) 97–104, https://doi.org/10.1002/
+polb.24530.
+[66] T.P. Kaloni, P.K. Giesbrecht, G. Schreckenbach, M.S. Freund, Polythiophene:
+From fundamental perspectives to applications, Chem. Mater. 29 (24) (2017)
+10248–10283, https://doi.org/10.1021/acs.chemmater.7b03035.
+[67] S. Ramakrishnan, From a laboratory curiosity to the market place, Resonance 16
+(12) (2011) 1254–1265, https://doi.org/10.1007/s12045-011-0141-x.
+[68] H.S. Abdulla, A.I. Abbo, Optical and electrical properties of thin films of
+polyaniline and polypyrrole, Int. J. Electrochem. Sci. 7 (2012) 10666–10678.
+[69] S. Majumdar, K. Sarmah, D. Mahanta, A simple route to prepare polypyrrolecoated
+filter papers via vapor phase polymerization and their gas sensing
+application, ACS Appl. Polym. Mater. 2 (5) (2020) 1933–1942, https://doi.org/
+10.1021/acsapm.0c00147.
+[70] T. Hyodo, et al., Potentiometric CO sensors using anion-conducting polymer
+electrolyte: Effects of the kinds of noble metal-loaded metal oxides as sensingelectrode
+materials on CO-sensing properties, Sens. Actuators B Chem. 287
+(2019) 42–52, https://doi.org/10.1016/j.snb.2019.02.036.
+[71] A.S. Rad, et al., Ab-initio study of interaction of some atmospheric gases (SO2,
+NH3, H2O, CO, CH4 and CO2) with polypyrrole (3PPy) gas sensor: DFT
+calculations, Sens. Actuators B Chem. 220 (2015) 641–651, https://doi.org/
+10.1016/j.snb.2015.06.019.
+[72] J. Samet, F. Holguin, M. Buran, The health effects of indoor air pollution.
+Handbook of Indoor Air Quality, Springer, 2022, pp. 1–47, https://doi.org/
+10.1007/978-981-10-5155-5_44-1.
+[73] H. Sabherwal, et al., Metal-organic frameworks for capturing carbon dioxide from
+flue gas, in Metal-Organic Frameworks for Carbon Capture and Energy, ACS
+Publications,, 2021, pp. 355–391. Doi: 10.1021/bk-2021-1393.ch014.
+[74] S.C. Martin, Aerospace Physiology: Aeromedical and Human Performance Factors
+for Pilots, Gatekeeper Press, 2021.
+[75] L. Muyemeki, An integrated systems approach towards air quality management in
+the vaal triangle priority area, North-West Univ. (South Afr. ) (2021).
+[76] D.C. Ayres, D.G. Hellier, Dictionary of Environmentally Important Chemicals,
+Routledge, 2022.
+[77] J.-P. Birat, Materials and health, in sustainable materials science-environmental
+metallurgy, EDP Sci. (2021) 231–298.
+[78] Levels, E., Air Toxics Hot Spots Program. 2016.
+[79] A.D. Alshehri, Determination of specific volatile organic compounds (BTEX) and
+selected inorganic metals in houston area lakes after hurricane harvey, Tex.
+South. Univ. (2018), 10789797.
+[80] Kumar, T.G.N., et al. Humidity sensing performance of polypyrrole based ternary
+composite. in AIP Conference Proceedings. 2020. AIP Publishing LLC. 〈https://
+doi.org/10.1063/5.0010282〉.
+[81] S. Krishnaswamy, et al., Optical properties of P-type polypyrrole thin film
+synthesized by pulse laser deposition technique: Hole transport layer in
+electroluminescence devices, Optik 194 (2019), 163034, https://doi.org/
+10.1016/j.ijleo.2019.163034.
+[82] T. Guo, et al., Evaluation of polypyrrole-modified bioelectrodes in a chemical
+absorption-bioelectrochemical reduction integrated system for NO removal, Sci.
+Rep. 9 (1) (2019) 1–11, https://doi.org/10.1038/s41598-019-49610-2.
+[83] K.S. Jang, H. Lee, B. Moon, Synthesis and characterization of water soluble
+polypyrrole doped with functional dopants, Synth. Met. 143 (3) (2004) 289–294,
+https://doi.org/10.1016/j.synthmet.2003.12.013.
+[84] W. Liu, Y. Hu, Y. Hou, Ethanol gas sensitivity sensor-based on roughened pof
+taper of modified polypyrrole films, Sensors 20 (4) (2020) 989, https://doi.org/
+10.3390/s20040989.
+[85] H. Amani, et al., Controlling cell behavior through the design of biomaterial
+surfaces: a focus on surface modification techniques, Adv. Mater. Interfaces 6 (13)
+(2019) 1900572, https://doi.org/10.1002/admi.201900572.
+[86] H.M. Elnabawy, et al., Wet chemistry route for the decoration of carbon
+nanotubes with iron oxide nanoparticles for gas sensing, Beilstein J. Nanotechnol.
+10 (1) (2019) 105–118, https://doi.org/10.3762/bjnano.10.10.
+[87] C. Rodriguez, et al., Near ambient pressure X-ray photoelectron spectroscopy
+monitoring of the surface immobilization cascade on a porous silicon-gold
+nanoparticle FET biosensor, Appl. Surf. Sci. 492 (2019) 362–368, https://doi.org/
+10.1016/j.apsusc.2019.06.056.
+[88] K.H. Cho, et al., Facile synthesis of palladium-decorated three-dimensional
+conducting polymer nanofilm for highly sensitive H2 gas sensor, J. Mater. Sci.
+(2020) 1–10, https://doi.org/10.1007/s10853-020-04370-7.
+[89] Sapountzi, E., Development of new supports-based on nanofibers of electrospun
+hybrid materials for the development of electrochemical biosensors. 2015.
+[90] H. Albaris, G. Karuppasamy, Investigation of NH3 gas sensing behavior of
+intercalated PPy–GO–WO3 hybrid nanocomposite at room temperature, Mater.
+Sci. Eng. B 257 (2020), https://doi.org/10.1016/j.mseb.2020.114558.
+[91] S.P. Lee, C. Shaestagir, The effect of electrode-oxide interfaces in gas sensor
+operation. Semiconductor Gas Sensors, Elsevier, 2020, pp. 71–132. 〈https://doi.
+org/10.1016/b978-0-08-102559-8.00003-3〉.
+[92] Y. Zhang, J. Zhang, Q. Liu, Gas, Sens. -Based Mol. Impr. Technol. Sens. 17 (7)
+(2017) 1567, https://doi.org/10.3390/s17071567.
+[93] A. Ashraf, et al., Electronic structure of polythiophene gas sensors for chlorinated
+analytes, J. Mol. Model. 26 (3) (2020) 44, https://doi.org/10.1007/s00894-020-
+4287-x.
+[94] M. Shahadat, et al., Fabrication of polyaniline supported nanocomposites and
+their sensing application for detection of environmental pollutants. Modern Age
+Waste Water Problems, Springer, 2020, pp. 93–147, https://doi.org/10.1007/
+978-3-030-08283-3_6.
+[95] N.R. Tanguy, M. Thompson, N. Yan, A review on advances in application of
+polyaniline for ammonia detection, Sens. Actuators B Chem. 257 (2018)
+1044–1064, https://doi.org/10.1016/j.snb.2017.11.008.
+[96] D.J. Wales, et al., Gas sensing using porous materials for automotive applications,
+Chem. Soc. Rev. 44 (13) (2015) 4290–4321, https://doi.org/10.1039/
+c5cs00040h.
+[97] V. Kumar, et al., Functional hybrid nanostructure materials: advanced strategies
+for sensing applications toward volatile organic compounds, Coord. Chem. Rev.
+342 (2017) 80–105, https://doi.org/10.1016/j.ccr.2017.04.006.
+[98] G. Evtugyn, T. Hianik, Aptamer-based biosensors for mycotoxin detection.
+Nanomycotoxicology, Elsevier, 2020, pp. 35–70. 〈https://doi.org/10.1016
+/B978-0-12-817998-7.00003-3〉.
+[99] M. Babaei, N. Alizadeh, Methanol selective gas sensor-based on nano-structured
+conducting polypyrrole prepared by electrochemically on interdigital electrodes
+for biodiesel analysis, Sens. Actuators B: Chem. 183 (2013) 617–626, https://doi.
+org/10.1016/j.snb.2013.04.045.
+[100] R.-Q. Zhang, et al., Sensitive conductive polymer nanocomposites from
+multiwalled carbon nanotube coated with polypyrrole and hydroxyl-terminated
+poly (butadiene-co-acrylonitile) polyurethane for detection of chloroform vapor,
+Compos. Part B: Eng. 173 (2019), 106894, https://doi.org/10.1016/j.
+compositesb.2019.05.105.
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+14
+[101] Y. Wang, et al., Ammonia gas sensor using polypyrrole-coated TiO2/Zno
+nanofibers, Electroanal. Int. J. Devoted Fundam. Pract. Asp. Electroanal. 21 (12)
+(2009) 1432–1438, https://doi.org/10.1002/elan.200904584.
+[102] W.X. Du, et al., Highly sensitive single-walled carbon nanotube/polypyrrole/
+phenylalanine core-shell nanorods for ammonia gas sensing, J. Mater. Chem. C. 8
+(44) (2020) 15609–15615, https://doi.org/10.1039/d0tc04335d.
+[103] G. Raabe, Molecular simulation studies on thermophysical properties, Appl.
+Work. Fluids Mol. Model. Simul. (2017).
+[104] S.D. Griffiths, J.A. Entwistle, F.J. Kelly, M.E. Deary, Characterising the ground
+level concentrations of harmful organic and inorganic substances released during
+major industrial fires, and implications for human health, Environ. Int. 162
+(2022), 107152, https://doi.org/10.1016/j.envint.2022.107152.
+[105] M. Theodorakidou, G.I. Lambrou, Public health issues from the exposure to
+nitrogen oxides: a brief review, ARC J. Public Health Commun. Med. 2 (2017)
+44–56.
+[106] K. Namsheer, C.S. Rout, Conducting polymers: a comprehensive review on recent
+advances in synthesis, properties and applications, RSC Adv. 11 (10) (2021)
+5659–5697, https://doi.org/10.1039/D0RA07800J.
+[107] M.R. Eslami, N. Alizadeh, Ultrasensitive and selective QCM sensor for detection of
+trace amounts of nitroexplosive vapors in ambient air based on
+polypyrrole—bromophenol blue nanostructure, Sens. Actuators B Chem. 278
+(2019) 55–63, https://doi.org/10.1016/j.snb.2018.09.060.
+[108] M. Urso, et al., Room temperature detection and modelling of sub-ppm NO2 by
+low-cost nanoporous NiO film, Sens. Actuators B: Chem. 305 (2020), 127481,
+https://doi.org/10.1016/j.snb.2019.127481.
+[109] S. Navale, et al., Highly selective and sensitive room temperature NO2 gas sensorbased
+on polypyrrole thin films, Synth. Met. 189 (2014) 94–99, https://doi.org/
+10.1016/j.synthmet.2014.01.002.
+[110] T. Wagner, et al., Mesoporous materials as gas sensors, Chem. Soc. Rev. 42 (9)
+(2013) 4036–4053, https://doi.org/10.1039/c2cs35379b.
+[111] E. Lizundia, et al., Chiroptical, morphological and conducting properties of chiral
+nematic mesoporous cellulose/polypyrrole composite films, J. Mater. Chem. A 5
+(36) (2017) 19184–19194, https://doi.org/10.1039/c7ta05684b.
+[112] S.J. Gift, A new proposal for the electronic structure of carbon monoxide, Phys.
+Essays 34 (2) (2021) 193–200, https://doi.org/10.4006/0836-1398-34.2.193.
+[113] R. Ahmed, G. Liu, B. Yousaf, Q. Abbas, H. Ullah, M.U. Ali, Recent advances in
+carbon-based renewable adsorbent for selective carbon dioxide capture and
+separation-A review, J. Clean. Prod. 242 (2020), 118409, https://doi.org/
+10.1016/j.jclepro.2019.118409.
+[114] A. Rahman, O. Farrok, M.M. Haque, Environmental impact of renewable energy
+source based electrical power plants: solar, wind, hydroelectric, biomass,
+geothermal, tidal, ocean, and osmotic, Renew. Sustain. Energy Rev. 161 (2022),
+112279, https://doi.org/10.1016/j.rser.2022.112279.
+[115] K. Hjelm, L. Hedlund, Internet-of-Things (IoT) in healthcare and social
+services–experiences of a sensor system for notifications of deviant behaviours in
+the home from the users’ perspective, Health Inform. J. 28 (1) (2022), https://
+doi.org/10.1177/14604582221075562.
+[116] T.M. Letcher, Why do we have global warming?. Managing Global Warming
+Academic Press, 2019, pp. 3–15, https://doi.org/10.1016/B978-0-12-814104-
+5.00001-6.
+[117] J. Hodgkinson, R. Smith, W.O. Ho, J.R. Saffell, R.P. Tatam, Non-dispersive infrared
+(NDIR) measurement of carbon dioxide at 4.2 μm in a compact and optically
+efficient sensor, Sens. Actuators B: Chem. 186 (2013) 580–588, https://doi.org/
+10.1016/j.snb.2013.06.006.
+[118] L.M. Chu, S. Shaefi, J.D. Byrne, R.W.A. de Souza, L.E. Otterbein, Carbon
+monoxide and a change of heart, Redox Biol. (2021), 102183, https://doi.org/
+10.1016/j.redox.2021.102183.
+[119] S. Park, C. Park, H. Yoon, Chemo-electrical gas sensors-based on conducting
+polymer hybrids, Polymers 9 (12) (2017) 155, https://doi.org/10.3390/
+polym9050155.
+[120] S. Park, C. Park, H. Yoon, Chemo-electrical gas sensors-based on conducting
+polymer hybrids, Polymers 9 (5) (2017) 155, https://doi.org/10.3390/
+polym9050155.
+[121] K. Madgula, L.N. Shubha, Conducting polymer nanocomposite-based gas sensors.
+In Functional. Nanomaterials, Springer, Singapore, 2020, pp. 399–431, https://
+doi.org/10.1007/978-981-15-4810-9_16.
+[122] X. Liu, W. Zheng, R. Kumar, M. Kumar, J. Zhang, Conducting polymer-based
+nanostructures for gas sensors, Coord. Chem. Rev. 462 (2022), 214517, https://
+doi.org/10.1016/j.ccr.2022.214517.
+[123] H.S. Nalwa, Handbook of Organic Conductive Molecules And Polymers, 4, Wiley,
+1997, p. 728.
+[124] M. Das, D. Sarkar, Development of room temperature ethanol sensor from
+polypyrrole (PPy) embedded in polyvinyl alcohol (PVA) matrix, Polym. Bull. 75
+(7) (2018) 3109–3125, https://doi.org/10.1007/s00289-017-2192-y.
+[125] A.H. Jalal, F. Alam, S. Roychoudhury, Y. Umasankar, N. Pala, S. Bhansali,
+Prospects and challenges of volatile organic compound sensors in human
+healthcare, ACS Sens. 3 (7) (2018) 1246–1263, https://doi.org/10.1021/
+acssensors.8b00400.
+[126] Z. Liu, et al., A room temperature VOCs gas sensor-based on a layer by layer
+multi-walled carbon nanotubes/poly-ethylene glycol composite, Sensors 18 (9)
+(2018) 3113, https://doi.org/10.3390/s18093113.
+[127] M. ˇSetka, F.A. Bahos, O. Chmela, D. Matatagui, I. Gr`acia, J. Drbohlavov´a,
+S. Vallejos, Cadmium telluride/polypyrrole nanocomposite based Love wave
+sensors highly sensitive to acetone at room temperature, Sens. Actuators B: Chem.
+321 (2020), 128573, https://doi.org/10.1016/j.snb.2020.128573.
+[128] G. Cao, S. Cai, H. Zhang, Y. Chen, Y. Tian, High-performance conductive polymer
+composites by incorporation of polyaniline-wrapped halloysite nanotubes and
+silver microflakes, ACS Appl. Polym. Mater. (2022), https://doi.org/10.1021/
+acsapm.1c01929.
+[129] X. Liu, W. Zheng, R. Kumar, M. Kumar, J. Zhang, Conducting polymer-based
+nanostructures for gas sensors, Coord. Chem. Rev. 462 (2022), 214517, https://
+doi.org/10.1016/j.ccr.2022.214517.
+[130] Othman, S.A., Conjugated polymer of biosensor using langmuir-blodgett
+technique-A review. In Journal of Physics: Conference Series, 2022. 2169(1),
+012030. IOP Publishing.
+[131] A. Arora, A. Pathak, A. Juneja, P. Shakkarwal, R. Kumar, Design and analysis of
+multi cavity injection mould using solidworks, Mater. Today.: Proc. 56 (2022)
+3648–3650, https://doi.org/10.1016/j.matpr.2021.12.343.
+[132] Z. Brankovi´c, Y. Rostovtsev, A resonant single frequency molecular detector with
+high sensitivity and selectivity for gas mixtures, Sci. Rep. 10 (1) (2020) 1–10,
+https://doi.org/10.1038/s41598-020-58473-x.
+[133] Iyogun, A.A., Chemically diverse sensor arrays-based on conducting polymers in
+sensing characterization and application. 2016.
+[134] M. Khatib, H. Haick, Sensors for volatile organic compounds, ACS Nano 16 (5)
+(2022) 7080–7115, https://doi.org/10.1021/acsnano.1c10827.
+[135] R.S. Andre, R.C. Sanfelice, A. Pavinatto, L.H. Mattoso, D.S. Correa, Hybrid
+nanomaterials designed for volatile organic compounds sensors: a review, Mater.
+Des. 156 (2018) 154–166, https://doi.org/10.1016/j.matdes.2018.06.041.
+[136] L. Vigna, A. Verna, S.L. Marasso, M. Sangermano, P. D’Angelo, F.C. Pirri,
+M. Cocuzza, The effects of secondary doping on ink-jet printed PEDOT: PSS gas
+sensors for VOCs and NO2 detection, Sens. Actuators B: Chem. 345 (2021),
+130381, https://doi.org/10.1016/j.snb.2021.130381.
+[137] H.J. Cheon, S.Y. Shin, V. Van Tran, B. Park, H. Yoon, M. Chang, Preparation of
+conjugated polymer/reduced graphene oxide nanocomposites for highperformance
+volatile organic compound sensors, Chem. Eng. J. 425 (2021),
+131424, https://doi.org/10.1016/j.cej.2021.131424.
+[138] G.J. Thangamani, K. Deshmukh, N.A. Nambiraj, S.K. Pasha, Chemiresistive gas
+sensors based on vanadium pentoxide reinforced polyvinyl alcohol/polypyrrole
+blend nanocomposites for room temperature LPG sensing, Synth. Met. 273
+(2021), 116687, https://doi.org/10.1016/j.synthmet.2020.116687.
+[139] M.A. Farea, G.B. Bhanuse, H.Y. Mohammed, M.O. Farea, M. Sallam, S.M. Shirsat,
+M.D. Shirsat, Ultrahigh sensitive and selective room-temperature carbon
+monoxide gas sensor based on polypyrrole/titanium dioxide nanocomposite,
+J. Alloy. Compd. (2022), 165397, https://doi.org/10.1016/j.
+jallcom.2022.165397.
+[140] N.L. Torad, I.M. Minisy, H.M. Sharaf, J. Stejskal, Y. Yamauchi, M.M. Ayad, Gas
+sensing properties of polypyrrole/poly (N-vinylpyrrolidone) nanorods/
+nanotubes-coated quartz-crystal microbalance sensor, Synth. Met. 282 (2021),
+116935, https://doi.org/10.1016/j.synthmet.2021.116935.
+[141] W. Li, M.J. Lefferts, B.I. Armitage, K. Murugappan, M.R. Castell, Polypyrrole
+percolation network gas sensors: improved reproducibility through conductance
+monitoring during polymer growth, ACS Appl. Polym. Mater. 4 (4) (2022)
+2536–2543, https://doi.org/10.1021/acsapm.1c01819.
+[142] A. Gao, Y. Wang, D. Zhang, Y. He, L. Zhang, Y. Liu, T. Li, Highly sensitive and
+selective detection of human-derived volatile organic compounds based on
+odorant binding proteins functionalized silicon nanowire array, Sens. Actuators B:
+Chem. 309 (2020), 127762, https://doi.org/10.1016/j.snb.2020.127762.
+[143] G. Xiao, Z. Guo, J. Li, Y. Du, Y. Zhang, T. Xiong, Y. Hu, Insights into the effect of
+flue gas on synergistic elimination of toluene and NOx over V2O5-MoO3 (WO3)/
+TiO2 catalysts, Chem. Eng. J. 435 (2022), 134914, https://doi.org/10.1016/j.
+cej.2022.134914.
+[144] W. Tang, J. Wang, P. Yao, X. Li, Hollow hierarchical SnO2-ZnO composite
+nanofibers with heterostructure based on electrospinning method for detecting
+methanol, Sens. Actuators B: Chem. 192 (2014) 543–549, https://doi.org/
+10.1016/j.snb.2013.11.003.
+[145] Y. Li, D. Deng, X. Xing, N. Chen, X. Liu, X. Xiao, Y. Wang, A high performance
+methanol gas sensor based on palladium-platinum-In2O3 composited
+nanocrystalline SnO2, Sens. Actuators B: Chem. 237 (2016) 133–141, https://doi.
+org/10.1016/j.snb.2016.06.088.
+[146] B. Mandal, R. Singh, S. Mukherjee, Highly selective and sensitive methanol sensor
+using rose-like ZnO microcube and MoO3 micrograss-based composite, IEEE Sens.
+J. 18 (7) (2018) 2659–2666, https://doi.org/10.1109/JSEN.2018.2803682.
+[147] D. Meng, T. Qiao, G. Wang, Y. Shen, X. San, Y. Pan, F. Meng, NiO-functionalized
+In2O3 flower-like structures with enhanced trimethylamine gas sensing
+performance, Appl. Surf. Sci. 577 (2022), 151877, https://doi.org/10.1016/j.
+apsusc.2021.151877.
+[148] S. Rattan, S. Kumar, M. Sharma, S.K. Tripathi, J.K. Goswamy, Synthesis and
+characterization of Ag metal doped SnO2, WO3 and WO3–SnO2 for propan-2-ol
+sensing, Results Mater. 9 (2021), 100127, https://doi.org/10.1016/j.
+rinma.2020.100127.
+[149] H. Sajid, T. Mahmood, M.H. Mahmood, K. Ayub, Comparative investigation of
+sensor application of polypyrrole for gaseous analytes, J. Phys. Org. Chem. 32 (8)
+(2019), e3960, https://doi.org/10.1002/poc.3960.
+[150] S.S. Barkade, et al., Ultrasound assisted miniemulsion polymerization for
+preparation of polypyrrole–zinc oxide (PPy/ZnO) functional latex for liquefied
+petroleum gas sensing, Ind. Eng. Chem. Res. 52 (23) (2013) 7704–7712, https://
+doi.org/10.1021/ie301698g.
+[151] D. Zhang, et al., Liquefied petroleum gas sensing properties of ZnO/PPy/PbS QDs
+nanocomposite prepared by self-assembly combining with SILAR method, IEEE
+Sens. J. 19 (8) (2018) 2855–2862, https://doi.org/10.1109/jsen.2018.2890074.
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+15
+[152] M.S. Hossain, J.K. Saha, Adsorption of hazardous gases on poly (3,
+4–ethylenedioxythiophene): density functional theory study, Int. J. Chem. Kinet.
+54 (2) (2022) 121–129, https://doi.org/10.1002/kin.21546.
+[153] S.S. Varghese, et al., Recent advances in graphene-based gas sensors, Sens.
+Actuators B Chem. 218 (2015) 160–183, https://doi.org/10.1016/j.
+snb.2015.04.062.
+[154] Q. Ameer, S.B. Adeloju, Polypyrrole-based electronic noses for environmental and
+industrial analysis, Sens. Actuators B: Chem. 106 (2) (2005) 541–552, https://doi.
+org/10.1016/j.snb.2004.07.033.
+[155] H. Ullah, et al., Theoretical insight of polypyrrole ammonia gas sensor, Synth.
+Met. 172 (2013) 14–20, https://doi.org/10.1016/j.synthmet.2013.03.021.
+[156] A.P. Coleone, L.G. Lascane, A. Batagin-Neto, Polypyrrole derivatives for
+optoelectronic applications: a DFT study on the influence of side groups, Phys.
+Chem. Chem. Phys. 21 (32) (2019) 17729–17739, https://doi.org/10.1039/
+c9cp02638j.
+[157] M. Noei, DFT study on the sensitivity of open edge graphene toward CO2 gas,
+Vacuum 131 (2016) 194–200, https://doi.org/10.1016/j.vacuum.2016.06.018.
+[158] H. Sajid, et al., Cyclic versus straight chain oligofuran as sensor: a detailed DFT
+study, J. Mol. Graph. Model. 97 (2020), 107569, https://doi.org/10.1016/j.
+jmgm.2020.107569.
+[159] F. Wasim, et al., Sensor applications of polypyrrole for oxynitrogen analytes: a
+DFT study, J. Mol. Model. 24 (11) (2018) 1–14, https://doi.org/10.1007/s00894-
+018-3843-0.
+[160] Y. Zhuang, et al., Design of high-performance electrochemistry sensors:
+elucidation of detection mechanism by DFT studies, J. Electroanal. Chem. 860
+(2020), 113905, https://doi.org/10.1016/j.jelechem.2020.113905.
+[161] G. Aggrwal, et al., Reactions of 2, 3-Dibromonaphthalene-1, 4-Dione and Pyridyl
+Amines: X-ray Structures, DFT Investigations, and Selective Detection of the Hg2+
+and Ni2+ Ions, Eng. Sci. 14 (2021) 78–93, https://doi.org/10.30919/es8d427.
+[162] M.M. Rehman, et al., Development of 3-methoxyanaline sensor probe based on
+thin Ag2O@La2O3 nanosheets for environmental safety,, New J. Chem. 43 (2019)
+4620–4632, https://doi.org/10.1039/c9nj00415g.
+[163] A. Nezhadali, M. Mojarrab, Computational design and multivariate optimization
+of an electrochemical metoprolol sensor-based on molecular imprinting in
+combination with carbon nanotubes, Anal. Chim. Acta 924 (2016) 86–98, https://
+doi.org/10.1016/j.aca.2016.04.017.
+[164] N. Ktari, et al., Design of a polypyrrole MIP-SAW sensor for selective detection of
+flumequine in aqueous media. Correlation between experimental results and DFT
+calculations, RSC Adv. 5 (108) (2015) 88666–88674, https://doi.org/10.1039/
+c5ra16237h.
+[165] Y. Shi, G. Yu, Designing hierarchically nanostructured conductive polymer gels
+for electrochemical energy storage and conversion, Chem. Mater. 28 (8) (2016)
+2466–2477, https://doi.org/10.1021/acs.chemmater.5b04879.
+[166] A.M. Mazrouaa, N.A. Mansour, M.Y. Abed, M.A. Youssif, M.A. Shenashen, M.
+R. Awual, Nano-composite multi-wall carbon nanotubes using poly(p-phenylene
+terephthalamide) for enhanced electric conductivity, J. Environ. Chem. Eng. 7
+(2019), 103002, https://doi.org/10.1016/j.jece.2019.103002.
+[167] Z. Ma, W. Shi, K. Yan, L. Pan, G. Yu, Doping engineering of conductive polymer
+hydrogels and its application in advanced sensor technologies, Chem. Sci. (2019),
+https://doi.org/10.1039/c9sc02033k.
+[168] Z. Ma, et al., Doping engineering of conductive polymer hydrogels and its
+application in advanced sensor technologies, Chem. Sci. (2019), https://doi.org/
+10.1039/c9sc02033k.
+[169] Y. Zhuang, et al., Design of high-performance electrochemistry sensors:
+elucidation of detection mechanism by DFT studies, J. Electroanal. Chem. (2020),
+113905, https://doi.org/10.1016/j.jelechem.2020.113905.
+[170] N. Yi, M. Abidian, Conducting polymers and their biomedical applications.
+Biosynthetic Polymers for Medical Applications, Elsevier, 2016, pp. 243–276. 〈htt
+ps://doi.org/10.1016/b978-1-78242-105-4.00010-9〉.
+[171] H. Sajid, T. Mahmood, K. Ayub, High sensitivity of polypyrrole sensor for uric
+acid over urea, acetamide and sulfonamide: a density functional theory study,
+Synth. Met. 235 (2018) 49–60, https://doi.org/10.1016/j.synthmet.2017.11.008.
+[172] M. Das, S. Roy, Polypyrrole and associated hybrid nanocomposites as
+chemiresistive gas sensors: a comprehensive review, Mater. Sci. Semicond.
+Process. 121 (2021), 105332.
+[173] M. ˇSetka, J. Drbohlavov´a, J. Hub´alek, Nanostructured polypyrrole-based
+ammonia and volatile organic compound sensors, Sensors 17 (3) (2017) 562,
+https://doi.org/10.3390/s17030562.
+[174] N. Van Hieu, et al., Thin film polypyrrole/SWCNTs nanocomposites-based NH3
+sensor operated at room temperature, Sens. Actuators B: Chem. 140 (2) (2009)
+500–507, https://doi.org/10.1016/j.snb.2009.04.061.
+[175] M.A. Basyooni, Y.R. Eker, M. Yilmaz, Structural, optical, electrical and room
+temperature gas sensing characterizations of spin coated multilayer cobalt-doped
+tin oxide thin films, Superlattices Microstruct. (2020), 106465, https://doi.org/
+10.1016/j.spmi.2020.106465.
+[176] A. Mane, et al., Nitrogen dioxide (NO2) sensing performance of p-polypyrrole/ntungsten
+oxide hybrid nanocomposites at room temperature, Org. Electron. 16
+(2015) 195–204, https://doi.org/10.1016/j.orgel.2014.10.045.
+[177] J.-S. Do, S.-H. Wang, On the sensitivity of conductimetric acetone gas sensorbased
+on polypyrrole and polyaniline conducting polymers, Sens. Actuators B
+Chem. 185 (2013) 39–46, https://doi.org/10.1016/j.snb.2013.04.080.
+[178] H.R. Lim, et al., Advanced soft materials, sensor integrations, and applications of
+wearable flexible hybrid electronics in healthcare, energy, and environment, Adv.
+Mater. (2019) 1901924, https://doi.org/10.1002/adma.201901924.
+[179] J.G. Ibanez, et al., Conducting polymers in the fields of energy, environmental
+remediation, and chemical–chiral sensors, Chem. Rev. 118 (9) (2018) 4731–4816,
+https://doi.org/10.1021/acs.chemrev.7b00482.
+[180] S. Chen, et al., Tunable nanofibril heterojunctions for controlling interfacial
+charge transfer in chemiresistive gas sensors, J. Mater. Chem. C. (2019), https://
+doi.org/10.1039/c9tc04659c.
+[181] R. Asmatulu, W.S. Khan, Electrospun nanofibers for nanosensor and biosensor
+applications, Synth. Appl. Electro Nanofibers (2019) 175–196.
+[182] J.-H. Cho, et al., Sensing behaviors of polypyrrole sensor under humidity
+condition, Sens. Actuators B Chem. 108 (1–2) (2005) 389–392, https://doi.org/
+10.1016/j.snb.2004.12.082.
+[183] Z. Yu, et al., Platinum nanozyme-triggered pressure-based immunoassay using a
+three-dimensional polypyrrole foam-based flexible pressure sensor, ACS Appl.
+Mater. Interfaces 12 (36) (2020) 40133–40140, https://doi.org/10.1021/
+acsami.0c12074.
+[184] ˇSetka, M., et al. Polypyrrole-based love-wave gas sensor devices with enhanced
+properties to ammonia. in Multidisciplinary Digital Publishing Institute
+Proceedings. 2018. 〈https://doi.org/10.3390/proceedings2130786〉.
+[185] S.S. Scindia, R.B. Kamble, J.A. Kher, Organic surfactant assisted polypyrrole
+materials as effective chemiresistive gas sensors for VOCs and toxic gas detection,
+IEEE Sens. J. (2020), https://doi.org/10.1109/jsen.2020.3008470.
+[186] H.-S. Cho, et al., Evaluation of joint motion sensing efficiency according to the
+implementation method of swcnt-coated fabric motion sensor, Sensors 20 (1)
+(2020) 284, https://doi.org/10.3390/s20010284.
+[187] V. Koncar, Smart textiles and their applications, Woodhead Publishing, 2016.
+[188] E. Singh, M. Meyyappan, H.S. Nalwa, Flexible graphene-based wearable gas and
+chemical sensors, ACS Appl. Mater. Interfaces 9 (40) (2017) 34544–34586,
+https://doi.org/10.1021/acsami.7b07063.
+[189] C.I. Justino, A.R. Gomes, A.C. Freitas, A.C. Duarte, T.A. Rocha-Santos, Graphene
+based sensors and biosensors, TrAC Trends Anal. Chem. 91 (2017) 53–66, https://
+doi.org/10.1016/j.trac.2017.04.003.
+[190] S. Tajik, H. Beitollahi, F.G. Nejad, Z. Dourandish, M.A. Khalilzadeh, H.W. Jang,
+M. Shokouhimehr, Recent developments in polymer nanocomposite-based
+electrochemical sensors for detecting environmental pollutants, Ind. Eng. Chem.
+Res. 60 (3) (2021) 1112–1136, https://doi.org/10.1021/acs.iecr.0c04952.
+[191] E. Singh, H. Nalwa, Nanomaterial-based Flexible and Multifunctional Sensors,
+1–58883-257–0, American Scientific Publisher, 2019, p. 651.
+[192] G. Maduraiveeran, W. Jin, Nanomaterials based electrochemical sensor and
+biosensor platforms for environmental applications, Trends Environ. Anal. Chem.
+13 (2017) 10–23, https://doi.org/10.1016/j.teac.2017.02.001.
+[193] D. Tyagi, H. Wang, W. Huang, L. Hu, Y. Tang, Z. Guo, H. Zhang, Recent advances
+in two-dimensional-material-based sensing technology toward health and
+environmental monitoring applications, Nanoscale 12 (6) (2020) 3535–3559,
+https://doi.org/10.1039/C9NR10178K.
+[194] M. Das, S. Roy, Polypyrrole and associated hybrid nanocomposites as
+chemiresistive gas sensors: a comprehensive review, Mater. Sci. Semicond.
+Process. 121 (2021), 105332, https://doi.org/10.1016/j.mssp.2020.105332.
+[195] A. Mirzaei, J.H. Kim, H.W. Kim, S.S. Kim, How shell thickness can affect the gas
+sensing properties of nanostructured materials: survey of literature, Sens.
+Actuators B: Chem. 258 (2018) 270–294, https://doi.org/10.1016/j.
+snb.2017.11.066.
+[196] S.K. Krishnan, E. Singh, P. Singh, M. Meyyappan, H.S. Nalwa, A review on
+graphene-based nanocomposites for electrochemical and fluorescent biosensors,
+RSC Adv. 9 (16) (2019) 8778–8881, https://doi.org/10.1039/C8RA09577A.
+[197] A. Ramanaviˇcius, A. Ramanaviˇcien˙ e, A. Malinauskas, Electrochemical sensorsbased
+on conducting polymer—polypyrrole, Electrochim. Acta 51 (27) (2006)
+6025–6037, https://doi.org/10.1016/j.electacta.2005.11.052.
+[198] O.W. Ngwanya, M. Ward, P.G. Baker, Molecularly imprinted polypyrrole sensors
+for the detection of pyrene in aqueous solutions, Electrocatalysis (2021) 1–11,
+https://doi.org/10.1007/s12678-020-00638-3.
+[199] J.S. Lee, N.R. Yoon, B.H. Kang, S.W. Lee, S.A. Gopalan, S.W. Kim, S.W. Kang, Aupolypyrrole
+framework nanostructures for improved localized surface plasmon
+resonance volatile organic compounds gas sensing, J. Nanosci. Nanotechnol. 15
+(10) (2015) 7738–7742, https://doi.org/10.1166/jnn.2015.11194.
+[200] H. Qin, A. Kulkarni, H. Zhang, H. Kim, D. Jiang, T. Kim, Polypyrrole thin film
+fiber optic chemical sensor for detection of VOCs, Sens. Actuators B: Chem. 158
+(1) (2011) 223–228, https://doi.org/10.1016/j.snb.2011.06.009.
+[201] M.U. Qadri, F.E. Annanouch, M. Aguilo, F. Diaz, J.F. Borull, M.C. Pujol, E. Llobet,
+Metal decorated WO3 nanoneedles fabricated by aerosol assisted chemical vapor
+deposition for optical gas sensing, J. Nanosci. Nanotechnol. 16 (9) (2016)
+10125–10132, https://doi.org/10.1166/jnn.2016.12840.
+[202] M. Campos, F.R. Simoes, E.C. Pereira, Influence of methane in the electrical
+properties of polypyrrole films doped with dodecylbenzene sulfonic acid, Sens.
+Actuators B: Chem. 125 (1) (2007) 158–166, https://doi.org/10.1016/j.
+snb.2007.02.001.
+[203] M. Campos, Gas sensing properties based on a doped conducting polymer/
+inorganic semiconductor, Sens. - IEEE 2 (2003) 1126–1129, https://doi.org/
+10.1109/ICSENS.2003.1279120.
+[204] C.M. Bhatt, N. Jampana, Multi frequency interrogation of polypyrrole based gas
+sensors for organic vapors, Microsyst. Technol. 17 (3) (2011) 417–423, https://
+doi.org/10.1007/s00542-011-1249-3.
+[205] F. Musio, M.C. Ferrara, Low frequency ac response of polypyrrole gas sensors,
+Sens. Actuators B Chem. 41 (1–3) (1997) 97–103, https://doi.org/10.1016/
+S0925-4005(97)80282-1.
+M.R. Miah et al.
+Sensors and Actuators: A. Physical 347 (2022) 113933
+16
+[206] H. Qin, et al., Polypyrrole thin film fiber optic chemical sensor for detection of
+VOCs, Sens. Actuators B Chem. 158 (1) (2011) 223–228, https://doi.org/
+10.1016/j.snb.2011.06.009.
+[207] A. Azzouz, et al., Advances in colorimetric and optical sensing for gaseous volatile
+organic compounds, TrAC Trends Anal. Chem. 118 (2019) 502–516, https://doi.
+org/10.1016/j.trac.2019.06.017.
+208] J. Zhang, et al., Metal-oxide-semiconductor-based gas sensors: screening,
+preparation, and integration, Phys. Chem. Chem. Phys. 19 (2017) 6313–6329,
+https://doi.org/10.1039/c6cp07799d.
+[209] N. Kemp, et al., Effect of ammonia on the temperature-dependent conductivity
+and thermopower of polypyrrole, J. Polym. Sci. Part B Polym. Phys. 44 (9) (2006)
+1331–1338, https://doi.org/10.1002/polb.20792.
+[210] J. Gębicki, B. Chachulski, Influence of analyte flow rate on signal and response
+time of the amperometric gas sensor with nafion membrane, Electroanal. Int. J.
+Devoted Fundam. Pract. Asp. Electroanal. 21 (14) (2009) 1568–1576, https://doi.
+org/10.1002/elan.200804567.
+[211] L. Xiong, R.G. Compton, Amperometric gas detection: a 37, Int. J. Electrochem.
+Sci. 9 (12) (2014) 7152–7181.
+Mohammad Raza Miah received his M.Sc. in Textile Engineering
+from Wuhan Textile University, P.R. of China in 2017.
+He is currently studying for his Ph.D. in Materials Physics and
+Chemistry at the Ningbo Institute of Materials Technology and
+Engineering, Chinese Academy of Sciences, P.R. of China. His
+current research interests focus on the synthesis of sensing
+materials and their application for chemical and physical sensors,
+detectors, and gas sensors.
+Minghui Yang is a professor of Materials Chemistry at Ningbo
+Institute of Industrial Technology, Chinese Academy of Sciences.
+He is a graduate of the University of Liverpool and
+completed his Ph.D. in Materials Chemistry under the supervision
+of Professor J. Paul Attfield and Professor Amparo
+Fuertes at the University of Edinburgh in 2010. He has published
+more than 211 papers in reputed international journals.
+His research interests include the synthesis of metal (oxy) nitrides
+and their application in photo-catalysis, fuel cells, Li-S
+batteries, and gas sensors.
+Shahjalal Khandaker received his B.Sc. in Textile Engineering
+Degree in 2005 from the College of Textile Technology, University
+of Dhaka, Bangladesh. He completed his M. Sc. in
+Environmental Engineering degree in 2013 from Dhaka University
+of Engineering & Technology, Gazipur, Bangladesh.
+Prior to this, he worked 5 years in a reputed textile knit composite
+industry in a managerial position in Bangladesh. He
+obtained a PhD degree in Environmental Engineering in 2018
+(Kyushu University, Japan). He worked as a Lecturer, Assistant
+professor, Associate professor, and professor at the department
+of Textile Engineering, Dhaka University of Engineering &
+Technology, Gazipur, Bangladesh from 2010 to till now. His
+research activity has covered a wide range of novel material preparation, activated
+charcoal, functional composite material, heavy metal and dye adsorption, radioactive
+wastewater treatment, textile solid waste management, etc. He published more than 30
+journal articles in different international (peer-reviewed, ISI indexed) journals.
+M Mahbubul Bashar has been working as Associate Professor
+at the Department of Textile Engineering of Mawlana Bhashani
+Science and Technology University, Bangladesh since 2018. He
+joined as Lecturer in the same department in 2010. Before
+entering academia Dr. Bashar spent more than three years in
+textile industries at different levels. He received his PhD in
+Applied Chemistry from Tohoku University, Japan in 2018
+with a prestigious Monbukagakusho doctoral fellowship. Dr.
+Bashar has proven track practical skills in different textile fiber
+processing, coloration, and finishing. His research interests
+include cellulose nanocrystals for biodegradable product
+development, super wetting surface, dyeing kinetics and thermodynamics
+of fiber dyeing, and the development of conductive textiles for sensing and
+actuating.
+Abdulmohsen Khalaf Dhahi Alsukaibi is an Assistant Professor
+in the Chemistry Department at the University of Hail in
+Saudi Arabia. He has more than 12 years of experience and
+published more than 25 papers in reputed international journals.
+He is working in diverse areas, especially in Environmental
+Analytical Chemistry, and is currently Vice Dean of Post
+Graduate Studies and Scientific Research.
+Hassan M.A. Hassan is a professor in physical chemistry at
+Jouf University in Saudi Arabia. He has more than 16 years of
+experience and published more than 100 papers in reputed
+international journals. He started his research in Physical
+chemistry at Suez Canal University in Egypt. During his Ph.D.
+he joined research groups at Virginia Commonwealth University
+in the USA. He obtained Ph.D in 2007, started his academic
+carrier as an assistant professor at Suez University, and was
+promoted to professor in 2018. Dr. Hassan did postdoctoral
+research in nanomaterials at Virginia Commonwealth University,
+USA from 2007-2009. Dr. Hassan was the principal
+investigator for 6 projects completely funded by STDF and USJoint
+projects towards industrial production and practical application. Dr. Hassan was
+awarded 2 US patents (2 issued) on the synthesis of graphene and optical sensors. Dr.
+Hassan has an h-index of 36 with a total citation of 5,277.
+Hussein Znad is an Associate Professor in Chemical Engineering
+at the Western Australia School of Mine: Minerals,
+Energy and Chemical Engineering (WASM: MECE) at Curtin
+University, Australia. He has more than 16 years of experience
+in microalgae and algal environmental applications, the
+development of catalytic, photocatalytic, and biocatalytic
+processes for wastewater treatment, CO2 mitigation, biomass,
+and biofuel production (biohydrogen and biodiesel), with more
+than 100 peer-reviewed publications. Dr. Hussein currently
+serves on an Editorial Board for Science of the Total Environment
+and Molecules (Green Chemistry). He is also a visiting
+Professor at Fukuoka University in Japan, and an adjunct
+Associate Professor at the School of Engineering, ECU, Australia. Executive Committee
+member and Western Australia representative for Japan Society for the Promotion of
+Science Alumni Association in Australia (JSPSAAA).
+Md. Rabiul Awual received his bachelor’s (Hons) and MSc
+from the Department of Applied Chemistry and Chemical
+Technology, University of Dhaka, Bangladesh. He obtained a
+PhD degree in industrial and environmental science and engineering
+in 2008 (Kumamoto University, Japan). He worked as
+visiting scientist at Pukyong National University, South Korea.
+In 2010, he was awarded NIMS Researcher fellowship and
+conducted the research successfully for two years He has
+published more than 155 papers in reputed international
+journals. He is currently appointed Principal Scientist at JAEA
+and Adjunct Professor at Curtin University, Australia. His
+research activity has covered a wide range in the areas of
+synthesis and analysis of new materials, using the materials for rare-earth metal/diver’s
+ions extraction optically, purification of contaminated water with arsenic/phosphate/
+selenite, precious metals extraction, fission elements separation, lanthanide separation
+and recovery, actinide processing, organic-inorganic impregnated materials preparation,
+catalyst as renewable energy.
+M.R. Miah et al.

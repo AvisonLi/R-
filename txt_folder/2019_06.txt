@@ -1,0 +1,1074 @@
+                                                                                                                                          Articles
+
+
+
+Measuring population ageing: an analysis of the Global
+Burden of Disease Study 2017
+Angela Y Chang, Vegard F Skirbekk, Stefanos Tyrovolas, Nicholas J Kassebaum, Joseph L Dieleman
+
+Summary
+Background Traditional metrics for population health ageing tend not to differentiate between extending life                             Lancet Public Health 2019;
+expectancy and adding healthy years. A population ageing metric that reflects both longevity and health status,                          4: e159–67
+
+incorporates a comprehensive range of diseases, and allows for comparisons across countries and time is required to                      See Comment page e123
+understand the progression of ageing and to inform policies.                                                                             Institute for Health Metrics
+                                                                                                                                         and Evaluation (A Y Chang ScD,
+                                                                                                                                         N J Kassebaum MD,
+Methods Using the Global Burden of Diseases, Injuries, and Risk Factors Study 2017, we developed a metric that                           J L Dieleman PhD) and
+reflects age-related morbidity and mortality at the population level. First, we identified a set of age-related diseases,                Department of Anesthesiology
+defined as diseases with incidence rates among the adult population increasing quadratically with age, and measured                      & Pain Medicine, Seattle
+                                                                                                                                         Children’s Hospital
+their age-related burden, defined as the sum of disability-adjusted life-years (DALYs) of these diseases among adults.
+                                                                                                                                         (N J Kassebaum), University of
+Second, we estimated age-standardised age-related health burden across 195 countries between 1990 and 2017.                              Washington, Seattle, WA, USA;
+Using global average 65-year-olds as the reference population, we calculated the equivalent age in terms of age-                         Centre for Fertility and Health,
+related disease burden for all countries. Third, we analysed how the changes in age-related burden during the study                      Norwegian Institute of Public
+                                                                                                                                         Health, Oslo, Norway
+period relate to different factors with a decomposition analysis. Finally, we describe how countries with similar levels
+                                                                                                                                         (Prof V F Skirbekk PhD);
+of overall age-related burden experience different onsets of ageing. We represent the uncertainty of our estimates by                    Columbia Aging Center,
+calculating uncertainty intervals (UI) from 1000 draw-level estimates for each disease, country, year, and age.                          Columbia University, New
+                                                                                                                                         York, NY, USA (V F Skirbekk);
+                                                                                                                                         Parc Sanitari Sant Joan de Déu,
+Findings 92 diseases were identified as age related, accounting for 51·3% (95% UI 48·5–53·9) of all global burden
+                                                                                                                                         Universitat de Barcelona,
+among adults in 2017. Across the Socio-demographic Index (SDI), the rate of age-related burden ranged from                               Barcelona, Spain
+137·8 DALYs (128·9–148·3) per 1000 adults in high SDI countries to 265·9 DALYs (251·0–280·1) in low SDI countries.                       (S Tyrovolas PhD); and Instituto
+The equivalent age to average 65-year-olds globally spanned from 76·1 years (75·6–76·7) in Japan to 45·6 years                           de Salud Carlos III, Centro de
+                                                                                                                                         Investigación Biomédica en
+(42·6–48·2) in Papua New Guinea. Age-standardised age-related disease rates have decreased over time across all
+                                                                                                                                         Red de Salud Mental,
+SDI levels and regions between 1990 and 2017, mainly due to decreases in age-related case fatality and disease severity.                 CIBERSAM, Madrid, Spain
+Even among countries with similar age-standardised death rates, large differences in the onset and patterns of                           (S Tyrovolas)
+accumulating age-related burden exist.                                                                                                   Correspondence to:
+                                                                                                                                         Dr Joseph L Dieleman, Institute
+                                                                                                                                         for Health Metrics and
+Interpretation The new metric facilitates the shift from thinking not just about chronological age but the health status
+                                                                                                                                         Evaluation, University of
+and disease severity of ageing populations. Our findings could provide inputs into policymaking by identifying key                       Washington, Seattle, WA 98121,
+drivers of variation in the ageing burden and resources required for addressing the burden.                                              USA
+                                                                                                                                         dieleman@uw.edu
+Funding National Institute on Aging of the National Institutes of Health.
+
+Copyright © 2019 The Author(s). Published by Elsevier Ltd. This is an Open Access article under the CC BY 4.0 license.
+
+Introduction                                                            of morbidity of the population.3 They include metrics such
+Governments worldwide are moving with urgency to                        as the shift in the population’s age distribution toward
+introduce policies that address population ageing.                      older ages,4 increase in the population’s median age,5
+Whether increased longevity is an opportunity or a threat               increase in average life expectancy,4,6 number of remaining
+to the stability of societies largely depends not only on               years left to live, and changes in the ratio between what
+whether populations are living longer but whether they                  are classed as older and working age groups.7 The second
+are experiencing the negative health effects of ageing—a                main set of literature focuses on measuring the functional
+progressive loss of physical, mental, and cognitive                     status of older populations, using objective measures such
+integrity, leading to impaired functions and increased                  as biomarkers,8 frailty,9–11 and cognitive functioning12 or
+vulnerability to morbidity and mortality.1,2 It is therefore            sub­jective measures such as self-reported health and
+crucial that we measure the extent to which ageing and                  instru­mental limitations of activities of daily living. These
+age-related disease burden occurs in a popu­lation over                 studies, in our view, more accurately capture the health
+time to inform better policies.                                         status of individuals and reflect the heterogeneity in how
+  In existing public health literature, there are two main              people age. However, the studies often involve complex,
+approaches to measuring ageing. The first and most                      resource-intensive study designs, are conducted among a
+common set of ageing metrics involves measuring                         relatively small sample, and might not be generalisable or
+changes in the age structure but fails to capture the level             comparable across study settings. The measures are often
+
+
+www.thelancet.com/public-health Vol 4 March 2019                                                                                                                  e159
+
+
+        Articles
+
+
+
+
+                                     Research in context
+                                     Evidence before this study                                         systematic approaches taken by GBD in measuring health
+                                     We searched PubMed, Google Scholar, and publicly available         outcomes, we can compare changes in age-related disease
+                                     grey literature for the terms “ageing”, functioning”, “frailty”,   burden across countries and over time and assess different
+                                     “measurement”, and “metric” on May 1, 2018, without                factors that have led to changes over time. Finally, using GBD’s
+                                     language or field restrictions. We further consulted with well     age-specific health estimates, we are able to capture at which
+                                     recognised experts in this field for literature                    ages the burden of age-related diseases start to accumulate and
+                                     recommendations. We found that in both academic and policy         compare results among countries with similar levels of overall
+                                     communities, population ageing, including the measurement          age-related disease burden to explore whether some have an
+                                     and promotion of concepts such as so-called healthy or             earlier onset of ageing burden than others.
+                                     successful ageing has been an ongoing interest for several
+                                                                                                        Implications of all the available evidence
+                                     decades. Some of the most common metrics of population
+                                                                                                        Globally, age-standardised age-related disease burden among
+                                     ageing entail descriptions of increased longevity (such as
+                                                                                                        adults has declined since 1990. While the number of adults and
+                                     rising life expectancy at older ages) and changes in the
+                                                                                                        the median age of adults have increased over time, we
+                                     distribution of age groups (such as median age, proportion of
+                                                                                                        estimated large declines in case fatality and disease severity of
+                                     older populations, and old-age dependency ratio). Many
+                                                                                                        age-related diseases. We also found wide variations in the
+                                     define old age by setting a universal age threshold, often
+                                                                                                        levels, trends, and the onsets of age-related disease burden
+                                     originating from social policies or norms such as retirement
+                                                                                                        across countries. For example, 76-year-olds in Japan and
+                                     ages, and consider all individuals above this age threshold as
+                                                                                                        46-year-olds in Papua New Guinea have the same level of
+                                     older populations. WHO and the UN Population Division
+                                                                                                        age-related disease burden as the global average 65-year-olds.
+                                     commonly apply the age thresholds of age 60, 65, or 70 years.
+                                                                                                        Despite not living as long, we find that adults in low SDI
+                                     However, the age at which one is considered an older person
+                                                                                                        countries still experience high burden of age-related diseases.
+                                     should be based on objective measures and should take into
+                                                                                                        From the perspective of improving the measurement of
+                                     account the health status of the individuals, including whether
+                                                                                                        population ageing, our method and findings provide a nuanced
+                                     population ageing is accompanied by improvements or
+                                                                                                        and systematic measure by considering both longevity and
+                                     deterioration in health.
+                                                                                                        health of adults as well as the speed at which age-related
+                                     Added value of this study                                          disease burden accumulates. From the perspective of providing
+                                     The Global Burden of Diseases, Injuries, and Risk Factors Study    policy recommendations for addressing challenges in
+                                     (GBD) provides estimation of health burden for a                   population ageing, our results highlight the wide variation in
+                                     comprehensive and comparable list of diseases across time and      the patterns of age-related disease burden across country and
+                                     geographies and offers a framework through which the               time and the factors associated with these changes. Identifying
+                                     limitations in current measures of population ageing can be        exemplar countries that have been more successful in reducing
+                                     addressed. First, using disability-adjusted life-years of          the levels of age-related disease burden over time or delaying
+                                     age-related diseases of all adults to measure population ageing,   the accumulation of age-related disease burden to later ages
+                                     our approach captures both the longevity and health of             and understanding how they reached their achievements can
+                                     populations and avoids setting arbitrary age thresholds to         inform policy efforts to address the challenges of population
+                                     define older populations. Second, given the consistent and         ageing worldwide.
+
+                                   not identical or similarly understood and tested across              burden estimates for the 293 most detailed diseases and
+                                   study populations or over time, making these studies                 injuries under the GBD cause hierarchy. Data used in this
+                                   and the longitudinal waves difficult to compare or to                study, including rates and numbers of incident and
+                                   be aggregated into population-level metrics.13–15 Another            prevalent cases, disability-adjusted life-years (DALYs), and
+ For the data used in this study   challenge is that none of these studies and measures take            deaths, can be downloaded from GBD Compare. Detailed
+   see http://vizhub.healthdata.   most diseases and their severity into account.                       descriptions of GBD 2017 can be found elsewhere.16,17
+               org/gbd-compare
+                                     This study aims to fill the gap between existing
+                                   population-level and individual-level ageing metrics and to          Defining age-related diseases and burden
+                                   introduce an ageing metric that informs not only longevity           Following guidance from established litera­           ture on
+                                   but also health status and disease severity at the population        ageing,10,12,18–20 we defined age-related diseases as dis­eases
+                                   level.                                                               with incidence rates in­creasing quadratically with age
+                                                                                                        among the adult population. To identify age-related
+                                   Methods                                                              diseases, we applied a two-step regression framework to
+                                   Data sources                                                         the 2017 global incidence rates, described in detail in the
+        See Online for appendix    This study draws from the Global Burden of Diseases,                 appendix. For a small subset of GBD causes that do
+                                   Injuries, and Risk Factors Study (GBD) 2017 results for              not have incidence estimates, we relied on prevalence
+                                   195 countries between 1990 and 2017. We analysed disease             estimates and applied the same framework. The adult
+
+
+e160                                                                                                                        www.thelancet.com/public-health Vol 4 March 2019
+
+
+                                                                                                                                Articles
+
+
+
+
+population is defined as people aged 25 years and older.21      disease burden between 1990 and 2017 for each age group
+We additionally did sensitivity analyses around diseases        and disease and does not capture the interact­ions between
+that have been considered age related by some studies           factors.23 A detailed explanation of the decomposition
+but did not meet our criteria for age-related diseases and      analysis can be found in the appendix.
+present the findings in the appendix.
+  Age-related disease burden is the sum of all DALYs of         Measuring the onset of age-related burden through
+age-related diseases among adults. We estimated age-            cumulative age-related deaths
+related disease burden, the proportion of age-related           In addition to estimating variation in age-related disease
+disease burden of total health burden, and age-                 burden across populations, we also assessed when the
+standardised rates per 1000 adults (to allow comparison         accumulation of age-related disease burden occurs24
+across time and countries by adjusting for population size      among countries with similar levels of age-related
+and age structure, using the method described in the            disease burden. It would theoretically be preferable for
+appendix) for all countries, quintiles of Sociodemo­            age-related disease burden to occur at later rather than
+graphic Index (SDI; a measure of overall development            earlier ages to reduce years spent living with disability.
+consisting of income per capita, average years of               To identify countries that have slower onset of ageing—
+education, and total fertility rate under 25 years22), and      ie, later accumulation of age-related disease burden—
+GBD super-regions. The latter two are aggregated from           we used deaths instead of DALYs as the measure of
+country-specific estimates.12–14                                health burden. A DALY is, by definition, the sum of
+                                                                years of life lost and years lived with disability. Within
+Estimating the equivalent age of populations across             the GBD framework, the years of life lost associated
+countries and time compared with global 65-year-olds            with the disease are assigned to the age at which the
+in 2017                                                         disease occurs, whereas the years lived with disability
+We estimated the age of populations in which countries          are spread across all remaining life years. Therefore, the
+have the same health burden as global average 65-year-          exact onset of age-related disease (and thus the
+olds. To approximate an age of equivalence, we set the          occurrence of age-related disease burden) is crucial to
+age-related disease burden rate of global average 65-year-      measure the onset of age-related disease burden; we
+olds in 2017 as the reference and identified the age groups     therefore only looked at age-related deaths in this
+in each country with the closest age-related disease            analysis because they occur at a specific timepoint. For
+burden rate to the reference. More detail can be found in       each age group starting at age 25 years, we estimated
+the appendix.                                                   the cumulative, age-standardised age-related death
+                                                                rates. Countries with the lowest cumulative age-related
+Analysing the changes in age-standardised age-related           death rate for each age group in 2017 were empirically
+disease burden, 1990–2017                                       identified and set as frontiers. To facilitate comparison
+For all SDI levels and GBD super-regions, we first              of the ageing patterns across countries and to the
+measured the change in age-standardised age-related             frontier countries, we further scaled all cumulative
+disease burden rate (absolute and relative) from 1990 to        death rates to a range of 0–1, using the country-specific
+2017. Second, to understand the factors associated with         cumulative death rate of age group 80–84 years
+the changes in the absolute number of age-related               (the highest observed life expectancy at birth) as the
+DALYs during this period, we constructed a de­                  reference point.
+composition analysis by expressing age-related disease
+burden as the product of four factors: (1) size of the adult    Uncertainty analysis
+population, (2) age structure of the adult population,          Final estimates and uncertainty intervals (UI) were
+(3) prevalence of age-related diseases, and (4) case fatality   calculated from 1000 draw-level estimates for each
+and disease severity of age-related diseases, which             disease, country, year, and age. 95% UIs were based on
+correspond to the four terms shown in the sum below:            the 2·5th and 97·5th percentiles of the draws for each
+                                                                estimate. All analyses were done using R, version 3.4.1.
+         Σ pop size · pop size · pop
+                            pop ageay
+                                 preval    DALY    ady   ady
+DALYy =                y                 ·
+          a,d
+                                     age
+                                      y    preval   ay   ady    Role of the funding source
+                                                                The funder of the study had no role in study design, data
+where a represents 5-year age groups of adult pop­ulation       collection, data analysis, data interpretation, or writing of
+aged 25 years and older (up to the final unbounded age          the report. The corresponding author had full access to
+group of 90 years and older), d represents age-related          all the data in the study and had final responsibility for
+disease, and y represents the year. The DALYs associated        the decision to submit for publication.
+with each of the four components sum up to the total
+age-related disease burden in the year of interest.             Results
+This de­ composition approach measures the additive             Among the 293 GBD causes, 92 (31·4%) were identified
+contribution of each factor to changes in the age-related       as age-related diseases (panel). A detailed flowchart of the
+
+
+www.thelancet.com/public-health Vol 4 March 2019                                                                                           e161
+
+
+        Articles
+
+
+
+
+                                                                                                  steps taken to include and exclude diseases is shown
+  Panel: 92 age-related diseases, by broader disease categories                                   in the appendix. Among the 92 diseases, five are
+  Cardiovascular diseases                                                                         communicable diseases, six are injuries, and 81 are non-
+  Atrial fibrillation and flutter; endocarditis; hypertensive heart disease; intracerebral        communicable diseases. Among the non-communicable
+  haemorrhage; ischaemic heart disease; ischaemic stroke; myocarditis; non-rheumatic              diseases, 13 are cardiovascular diseases, 35 cancers,
+  calcific aortic valve disease; non-rheumatic degenerative mitral valve disease; other           six chronic respiratory diseases, five digestive diseases,
+  cardiomyopathy; other cardiovascular and circulatory diseases; other non-rheumatic valve        three diabetes and kidney diseases, three neurological
+  diseases; peripheral artery disease                                                             disorders, seven sense organ disorders, five skin and
+                                                                                                  subcutaneous diseases, and four other non-communicable
+  Chronic respiratory diseases                                                                    diseases. Globally, the age-related diseases with the most
+  Asbestosis; chronic obstructive pulmonary disease; coal worker pneumoconiosis;                  deaths and DALYs were ischaemic heart disease,
+  interstitial lung disease and pulmonary sarcoidosis; other pneumoconiosis; silicosis            intracerebral haemorrhage, and chronic obstructive
+  Communicable, maternal, neonatal, and nutritional diseases                                      pulmonary disease. Compared with diseases that were not
+  Diarrhoeal diseases; encephalitis; lower respiratory infections; pneumococcal meningitis;       identified as being age related, age-related disease burden
+  trachoma                                                                                        includes larger proportions of non-communicable
+                                                                                                  diseases such as cardiovascular diseases (38·4%, 95% UI
+  Diabetes and kidney diseases                                                                    37·1–39·7), neoplasms (22·6%, 21·6–23·6), chronic
+  Chronic kidney disease due to type 2 diabetes mellitus; chronic kidney disease due to           respiratory disorders (9·8%, 9·1–10·4), and sense organ
+  glomerulonephritis; chronic kidney disease due to other and unspecified causes                  disorders (5·9%, 4·3–7·7; appendix). None of the
+  Digestive diseases                                                                              musculo­ skeletal and mental and substance disorders
+  Cirrhosis due to NASH; pancreatitis; paralytic ileus and intestinal obstruction; peptic ulcer   were included as age-related diseases.
+  disease; vascular intestinal disorders                                                             Globally, the rate of age-related burden ranged from
+                                                                                                  137·8 DALYs (128·9–148·3) per 1000 adults in high SDI
+  Injuries                                                                                        countries to 265·9 DALYs (251·0–280·1) in low SDI
+  Drowning; environmental heat and cold exposure; falls; foreign body in other body part;         countries. In proportion terms, age-related disease burden
+  other transport injuries; other unintentional injuries                                          accounts for 51·3% (95% UI 48·5–53·9) of all burden.
+  Neoplasms                                                                                       Across the SDI, 50·0% (47·6–52·4) of all burden was age
+  Acute lymphoid leukaemia; acute myeloid leukaemia; benign and in-situ intestinal                related in low SDI countries, 51·2% (48·9–53·5) in low-
+  neoplasms; bladder cancer; brain and nervous system cancer; breast cancer; chronic              middle SDI countries, 52·8% (50·1–55·4) in middle SDI
+  lymphoid leukaemia; chronic myeloid leukaemia; colon and rectum cancer; gallbladder             countries, 55·9% (52·8–59·1) in high-middle SDI
+  and biliary tract cancer; Hodgkin lymphoma; kidney cancer; larynx cancer; lip and oral          countries, and 47·6% (44·2–51·1) in high SDI countries
+  cavity cancer; liver cancer due to NASH; liver cancer due to alcohol use; liver cancer due to   (figure 1A). Across super-regions, age-related disease
+  hepatitis C; malignant skin melanoma; mesothelioma; multiple myeloma;                           burden accounts for more than half of all burden in
+  myelodysplastic, myeloproliferative, and other hematopoietic neoplasms; non-Hodgkin             central Europe, eastern Europe, and central Asia (56·6%,
+  lymphoma; non-melanoma skin cancer (basal-cell carcinoma); non-melanoma skin                    95% UI 54·0–59·2); southeast Asia, east Asia, and
+  cancer (squamous-cell carcinoma); oesophageal cancer; other benign and in-situ                  Oceania (56·2%, 53·2–59·2); south Asia (54·6%,
+  neoplasms; other leukaemia; other malignant neoplasms; ovarian cancer; pancreatic               52·0–57·2); and North Africa and the Middle East (51·3%,
+  cancer; prostate cancer; stomach cancer; thyroid cancer; tracheal, bronchus, and lung           48·0–54·8); and slightly less than half of all burden in
+  cancer; uterine cancer                                                                          the high-income super-region (46·7%, 43·3–50·3),
+                                                                                                  Latin America and the Caribbean (46·4%, 44·0–48·8), and
+  Neurological disorders                                                                          sub-Saharan Africa (41·2%, 39·4–43·1; figure 1B).
+  Alzheimer’s disease and other dementias; motor neuron disease; Parkinson’s disease                 In 2017, the five countries with the lowest age-
+  Other non-communicable diseases                                                                 standardised age-related disease burden rate were
+  Congenital musculoskeletal and limb anomalies; digestive congenital anomalies;                  Switzerland (104·9 DALYs [95% UI 95·7–115·5] per
+  endocrine, metabolic, blood, and immune disorders; other haemoglobinopathies and                1000 adults aged 25 years and older), followed by
+  haemolytic anaemias                                                                             Singapore (108·3 DALYs [98·6–119·9]), South Korea
+                                                                                                  (110·1 DALYs [100·7–120·4]), Japan (110·6 DALYs
+  Sense organ diseases                                                                            [101·3–121·7]), and Italy (115·2 DALYs [105·5–126·8]);
+  Age-related and other hearing loss; age-related macular degeneration; cataract;                 whereas the five countries with the highest burden rate
+  glaucoma; other sense organ diseases; other vision loss; refraction disorders                   were Papua New Guinea (506·6 DALYs [452·3–576·1]),
+  Skin and subcutaneous diseases                                                                  the Marshall Islands (396·9 DALYs [358·3–442·7]),
+  Cellulitis; decubitus ulcer; fungal skin diseases; other skin and subcutaneous diseases;        Vanuatu (392·1 DALYs [332·0–469·3]), Afghanistan
+  pyoderma                                                                                        (380·2 DALYs [340·4–423·3]), and the Solomon Islands
+                                                                                                  (368·0 DALYs [330·3–405·5]). Although most countries
+  NASH=non-alcoholic steatohepatitis.                                                             have similar rankings between age-standardised age-
+                                                                                                  related and all-burden rates, countries such as Ethiopia,
+                                                                                                  Nigeria, and South Africa perform better in age-related
+
+
+e162                                                                                                               www.thelancet.com/public-health Vol 4 March 2019
+
+
+                                                                                                                                                                                                Articles
+
+
+
+
+disease burden relative to all burden (eg, Nigeria ranked                                              A
+78th for age-related disease burden compared with 144th                                               600           Non-age-related health burden
+in all burden), whereas countries such as China and                                                                 Age-related burden rate                                               50%
+India are performing better in all-burden rankings                                                                                                                         51%
+
+
+
+
+                                                                Age-related DALYs (per 1000 adults)
+(eg, China ranked 75th in age-related burden and 46th in
+                                                                                                                   51%
+all burden; appendix).                                                                                400                                      56%
+                                                                                                                                                              53%
+  The age-related disease burden rate for global average                                                                       48%
+65-year-olds in 2017 is 392·9 DALYs (95% UI 375·6–412·1)
+per 1000 adults. Comparing across countries, the equiva­
+lent ages to this reference population ranged widely, with                                            200
+
+the oldest equivalent age in Japan (76·1 years, 95% UI
+75·6–76·7) and the youngest in Papua New Guinea
+(45·6 years, 42·6–48·2; figure 2). A simple explanation of
+                                                                                                        0
+this result is that 76-year-olds in Japan have the same age-
+
+
+                                                                                                               al
+
+
+
+                                                                                                                                 I
+
+
+
+                                                                                                                                             DI
+
+
+
+                                                                                                                                                            DI
+
+
+
+                                                                                                                                                                           DI
+
+
+
+
+                                                                                                                                                                                           I
+                                                                                                                              SD
+
+
+
+
+                                                                                                                                                                                        SD
+                                                                                                             ob
+related disease burden (or, more colloquially, are as old)
+
+
+
+
+                                                                                                                                           eS
+
+
+
+                                                                                                                                                          eS
+
+
+
+                                                                                                                                                                         eS
+                                                                                                                          gh
+
+
+
+
+                                                                                                                                                                                     w
+                                                                                                            Gl
+
+
+
+
+                                                                                                                                          dl
+
+
+
+                                                                                                                                                         dl
+
+
+
+                                                                                                                                                                      dl
+
+
+
+                                                                                                                                                                                   Lo
+                                                                                                                         Hi
+
+
+
+                                                                                                                                      id
+
+
+
+                                                                                                                                                     id
+
+
+
+                                                                                                                                                                     id
+as average 65-year-olds globally. The estimated equivalent
+
+
+
+
+                                                                                                                                     –m
+
+
+
+                                                                                                                                                     M
+
+
+
+                                                                                                                                                                    m
+                                                                                                                                                                w–
+                                                                                                                                    gh
+
+
+
+
+                                                                                                                                                               Lo
+                                                                                                                                Hi
+ages for all countries in 2017 are listed in the appendix.
+  Age-standardised age-related disease burden rates                                                    B
+decreased over time across all SDI levels and regions                                                 600                                                           41%
+between 1990 and 2017, with a global average of a 23·1%
+                                                                                                                                                                                          55%
+(95% UI 21·6 to 24·4) decline relative to the 1990 burden.
+                                                                Age-related DALYs (per 1000 adults)
+
+
+
+
+                                                                                                                                                                               57%
+We estimated the largest decline in high SDI countries                                                                                                51%
+                                                                                                      400
+(31·5%, 30·0 to 33·0) and the smallest decline in low-                                                                        46%         56%
+middle SDI countries (17·8%, 14·8 to 20·5; figure 3A); in                                                        47%
+terms of GBD super-regions, the largest decline was in
+the high-income super-region (30·1%, 28·6 to 31·6) and
+                                                                                                      200
+the smallest was in central Europe, eastern Europe, and
+central Asia (17·2%, 16·2 to 18·2; figure 3B). The
+decomposition analysis showed that the two largest
+contributors to changing age-related disease burden                                                     0
+during this period were the increasing size of adult
+                                                                                                                e
+
+
+                                                                                                                          an
+
+
+
+                                                                                                                                         ia
+
+
+
+                                                                                                                                                     t
+
+
+                                                                                                                                                                 ca
+
+
+                                                                                                                                                                             sia
+
+
+
+                                                                                                                                                                                         sia
+                                                                                                                                                     as
+                                                                                                             m
+
+
+
+
+                                                                                                                                      an
+
+
+
+
+                                                                                                                                                               fri
+                                                                                                                         be
+
+
+
+
+                                                                                                                                                                          lA
+
+
+                                                                                                                                                                                     hA
+                                                                                                                                                  eE
+                                                                                                            co
+
+
+
+
+populations, leading to increased age-related DALYs, and
+                                                                                                                                     ce
+
+
+
+
+                                                                                                                                                            nA
+                                                                                                                         ib
+
+
+
+
+                                                                                                                                                                          ra
+                                                                                                           in
+
+
+
+
+                                                                                                                                                dl
+
+
+
+
+                                                                                                                                                                                     ut
+                                                                                                                                dO
+                                                                                                                     ar
+
+
+
+
+                                                                                                                                                                        nt
+                                                                                                                                                          ra
+                                                                                                                                               id
+                                                                                                       gh
+
+
+
+
+                                                                                                                                                                                   So
+                                                                                                                   dC
+
+
+
+
+                                                                                                                                                                     ce
+                                                                                                                                                          ha
+                                                                                                                                              M
+                                                                                                                               an
+
+
+
+
+the decreasing case fatality and disease severity of age-
+                                                                                                      Hi
+
+
+                                                                                                                 an
+
+
+
+
+                                                                                                                                                                    nd
+                                                                                                                                                       Sa
+                                                                                                                                          nd
+                                                                                                                              ia,
+
+
+
+
+                                                                                                                                                     b-
+
+
+                                                                                                                                                                ,a
+                                                                                                                                      aa
+                                                                                                             ica
+
+
+                                                                                                                          As
+
+
+
+
+                                                                                                                                                   Su
+
+
+
+
+related diseases, defined as the ratio of DALYs to
+                                                                                                                                                               pe
+                                                                                                            er
+
+
+
+
+                                                                                                                                     ric
+                                                                                                                         st
+
+
+
+
+                                                                                                                                                            ro
+                                                                                                        Am
+
+
+
+                                                                                                                         ea
+
+
+
+                                                                                                                                    Af
+
+
+
+
+                                                                                                                                                          Eu
+                                                                                                                    ia,
+
+
+                                                                                                                                rth
+
+
+
+
+prevalence, leading to decreased DALYs across all SDI
+                                                                                                      tin
+
+
+
+
+                                                                                                                                                         rn
+                                                                                                                   As
+
+
+                                                                                                                              No
+                                                                                                      La
+
+
+
+
+                                                                                                                                                     ste
+                                                                                                                st
+
+
+
+
+levels and regions (figure 4). In middle SDI, for example,
+                                                                                                                                                     ea
+                                                                                                              ea
+                                                                                                               h
+
+
+
+
+                                                                                                                                                     ,
+                                                                                                                                                  pe
+                                                                                                            ut
+
+
+
+
+change in the burden associated with increasing size of
+                                                                                                                                                 o
+                                                                                                        So
+
+
+
+
+                                                                                                                                              ur
+                                                                                                                                           lE
+                                                                                                                                          ra
+
+
+
+
+the adult population was 83·1% (82·1 to 84·2) of the
+                                                                                                                                         nt
+                                                                                                                                      Ce
+
+
+
+
+absolute level of age-related disease burden in 1990, and
+change associated with decreasing case fatality and            Figure 1: Age-standardised rate and proportion of all health burden among
+                                                               the adult population that is age related, by SDI quintile (A) and GBD
+disease severity of age-related diseases was −42·3%            super-region (B) in 2017
+(−44·9 to −39·7), compared with 28·9% (28·4 to 29·4)           All burden is shown split into age-standardised age-related burden (per thousand
+due to changing age distribution of the adult population       adults; dark bars) and age-standardised non-age-related burden (light bars).
+and 6·4% (4·5 to 8·2) due to increasing prevalence             The percentages given represent the proportion of age-related burden among all
+                                                               burden. DALYs=disability-adjusted life-years. GBD=Global Burden of Diseases,
+of age-related diseases (appendix). In central Europe,         Injuries, and Risk Factors Study. SDI=Socio-demographic Index.
+eastern Europe, and central Asia and in the high-income
+super-region, changes in burden associated with de­            most regions. Changes in population age structure, while
+creasing case fatality and disease severity were greater in    not the main contributors to change, still account for
+magnitude than were changes associated with increasing         more than 20% of the 1990 burden for some SDI levels
+adult population size (−19·8% [95% UI −21·3 to −18·3] vs       (middle and high SDI) and some super-regions (high
+13·6% [13·6 to 13·7] in central Europe, eastern Europe,        income; Latin America and the Caribbean; and southeast
+and central Asia and −41·7% [−44·1 to −39·4] vs 29·9%          Asia, east Asia, and Oceania). Changes in prevalence of
+[29·6 to 30·1] in the high-income super-region). Linking       age-related diseases account for increases in age-related
+the results from the decomposition analysis to figure 3,       disease burden in high (1·9%, 0·6–3·4), high-middle
+large declines in age-standardised age-related disease         (7·0%, 4·8–9·2), and middle (6·4%, 4·5–8·2) SDI
+burden rates are the product of large reductions in case       countries; southeast Asia, east Asia, and Oceania (17·6%,
+fatality and disease severity of age-related diseases for      14·7–20·2); and the high-income super-region (2·1%,
+
+
+www.thelancet.com/public-health Vol 4 March 2019                                                                                                                                                           e163
+
+
+                                                          Articles
+
+
+
+
+                                                         80
+                                                                                                                                                                                 categories based on similar levels of age-standardised
+                                                                 High SDI                                                                                  Switzerland
+ Equivalent age to global average 65-year-olds (years)
+
+
+
+
+                                                                 High–middle SDI                                                    Netherlands                                  death rates and graphed the different patterns of
+                                                                 Middle SDI
+                                                                                                                                  Mexico
+                                                                                                                                                                                 cumulative age-related deaths (appendix). For illustration,
+                                                                 Low–middle SDI                                  Nigeria                                                 Japan
+                                                         70      Low SDI
+                                                                                                                                                                                 we selected two sets of three countries of general interest
+                                                                                                  South Africa
+                                                                                                                                                                                 and with similar rates and compared them with one
+                                                                                                                                             USA
+                                                                                                                                                                                 another as well as with the frontier. The first set of country
+                                                                            Russia
+                                                         60
+                                                                                                                                           Brazil                                comparisons comprises the USA, Mexico, and Thailand,
+                                                                                                                                  China
+                                                                                                  Indonesia
+                                                                                                                  Ethiopia                                                       all of which had similar levels of age-standardised death
+                                                                                         India                                                                                   rates (figure 5A). The second set comprises China,
+                                                         50
+                                                                                                                                                                                 South Africa, and Saudi Arabia (figure 5B). In both sets,
+                                                                    Afghanistan                                                                                                  despite having similar age-standardised death rates
+                                                                                                                                                                                 among adults, cumulative death rates accumulate earlier
+                                                              Papua New Guinea                                                                                                   among younger people in some countries than others
+                                                         40
+                                                                                                     Country ranking                                                             (Thailand and South Africa, respectively). Furthermore,
+                                                                                                                                                                                 by scaling all cumulative death rates, we can more easily
+Figure 2: Comparing the equivalent ages to global average 65-year-olds across countries in 2017
+The dashed line indicates global average 65-year-olds. Countries and territories are colour coded by their e.
+                                                                                                                                                                                 compare the onset of age-related deaths across countries
+SDI=Socio-demographic Index.                                                                                                                                                     with different levels of age-standardised death rates
+                                                                                                                                                                                 among adults as well as with the frontier (figure 5C). For
+                                                                                                                                                                                 example, in this comparison of countries from both sets
+                                                                                         A
+                                                                                                                                                                                 of countries, we see that, relative to each country’s older
+                                                                                  Low SDI                                                           –21%                         age group (80–84 years), China’s cumulative age-related
+                                                                                                                                            –18%
+                                                                                                                                                                                 death rate follows the patterns observed from the frontier
+                                                                          Low-middle SDI
+                                                                                                                                                                                 countries the most closely, compared with its peers
+                                                                               Middle SDI                                         –21%                                           with similar absolute death rates (Saudi Arabia and
+                                                                         High-middle SDI                                              –28%
+                                                                                                                                                                                 South Africa).
+
+                                                                                 High SDI                                  –31%                                                  Discussion
+                                                                                     Global                                         –23%                                         To our knowledge, this is the first comprehensive study of
+                                                                                                                                                                                 age-related disease burden that captures a wide range of
+                                                                                                                                                                                 morbidities and mortalities associated with ageing that
+                                                                                         B                                                                                       can be compared across countries and over time. Our
+                                                                               South Asia                                                        –19%                            findings point to the wide variation in the patterns of age-
+                                                          Central Europe, eastern Europe,
+                                                                                                                                                                                 related disease burden in 2017: the highest estimated rate
+                                                                                                                                            –17%                                 of age-standardised age-related disease burden is more
+                                                                         and central Asia
+                                                                       Sub-Saharan Africa                                                 –19%                                   than four times higher than the lowest rate. Despite not
+                                                                                                                                                                                 living as long, we find that adults in low SDI countries
+                                                              North Africa and Middle East                                           –26%
+                                                                                                                                                                                 still experience high burden of age-related diseases.
+            Southeast Asia, east Asia, and Oceania                                                                                  –26%                                         We observed decreasing trends in age-standardised age-
+                                                                                                                                                                                 related disease burden across all SDI levels and regions
+                                                              Latin America and Caribbean                                    –25%
+                                                                                                                                                                                 between 1990 and 2017 and identified increases in the
+                                                                             High income                                   –30%                                                  size of the adult population and decreases in case fatality
+                                                                                                                                                                                 and disease severity of age-related diseases as the two
+                                                                                              0      100              200             300                  400            500
+                                                                                                                                                                                 main drivers of change. Findings from our equivalent age
+                                                                                                      Age-related burden (DALYs per thousand adults)
+                                                                                                                                                                                 analysis show a staggering difference of 30 years between
+Figure 3: Changes in age-standardised age-related burden rate between 1990 and 2017, by SDI (A) and GBD                                                                          countries with the highest and lowest equivalent ages
+super-region (B)                                                                                                                                                                 compared with global average 65-year-olds. Even among
+Percentage change between 1990 and 2017 is presented next to the arrows indicating direction of change.
+                                                                                                                                                                                 countries with similar levels of overall age-standardised
+DALYs=disability-adjusted life-years. GBD=Global Burden of Diseases, Injuries, and Risk Factors Study.
+SDI=Socio-demographic Index.                                                                                                                                                     age-related death burden, the patterns of accumulation of
+                                                                                                                                                                                 burden across ages vary widely, with some populations
+                                                                                       0·8–3·8), but decreases in the rest of the SDI groups and                                 accruing age-related disease burden at earlier ages than
+                                                                                       super-regions (appendix).                                                                 others.
+                                                                                         In 2017, Switzerland had the lowest cumulative age-                                        WHO’s Global Strategy and Action Plan on Ageing and
+                                                                                       standardised age-related death rates in all age groups                                    Health 2016–2020 urges countries to take action to ensure
+                                                                                       from 25–29 years to 60–64 years. South Korea was the                                      that all individuals have the opportunity to live a long and
+                                                                                       frontier country for 65–69 years, Switzerland again for                                   healthy life.25 Ongoing demographic changes, referred by
+                                                                                       70–84 years, Singapore for 85–89 years, and Kuwait for                                    some as the fourth stage of the epidemiologic transition, 26
+                                                                                       90 years and older. We grouped countries into ten                                         suggest that the size of the older population will only
+
+
+e164                                                                                                                                                                                               www.thelancet.com/public-health Vol 4 March 2019
+
+
+                                                                                                                                                                    Articles
+
+
+
+
+increase with time. Following some of the prominent                                                  A
+literature on ageing that proposes using age-related                                                       Factors
+diseases as biomarkers for ageing,18,27,28 we identified a set                                                Population size        Population age     Prevalence
+of age-related diseases from a compre­       hensive list of                                                  Case fatality and disease severity
+
+causes to construct this measure, instead of relying on a                                      Low SDI
+small set of physical, mental, and cognitive functions.
+                                                                                        Low-middle SDI
+This approach allows for measurement of both the
+longevity and health of populations and avoids setting                                       Middle SDI
+arbitrary age thresholds to define older populations,
+                                                                                       High-middle SDI
+assessing different factors that have led to changes in
+longevity and health over time and capturing the onset of                                      High SDI
+age-related disease burden in populations. An improved
+ageing metric such as ours could inform policies around,
+                                                                                                      B
+for example, how older but healthier people might
+experience behavioural changes towards increasing saving                                     South Asia
+rates or delayed retirement, how health systems should                  Central Europe, eastern Europe,
+adapt to emphasise disease prevention and early detection                              and central Asia
+instead of treatment, and how families organise them­                               Sub-Saharan Africa
+selves around care of older generations.29 Having an
+                                                                           North Africa and Middle East
+ageing metric that allows countries to track age-related
+burden over time could help to drive policy discussions on        Southeast Asia, east Asia, and Oceania
+where to allocate resources, and comparing across coun­
+                                                                           Latin America and Caribbean
+tries could help us to understand why certain countries,
+despite similar income and development level, are better                                   High income
+at preventing age-related diseases than others.19                                                      –150      –100       –50       0        50      100      150     200    250
+   Our main finding that age-standardised age-related                                                                          Age-related burden (million DALYs)
+disease burden is decreasing over time across the globe
+is, in some ways, not surprising given our broader               Figure 4: Decomposition of age-related burden between 1990 and 2017, by SDI (A) and GBD super-region (B)
+                                                                 The dashed line marks net effect (zero change in DALYs from 1990). DALYs=disability-adjusted life-years.
+knowledge that population health is improving in most            GBD=Global Burden of Diseases, Injuries, and Risk Factors Study. SDI=Socio-demographic Index.
+places over time. However, globally the general focus and
+interest have often been placed on improvements in child         over time. For example, GBD captures the distribution
+and maternal health instead of the ageing population.            of time spent in four phases of cancers: diagnosis or
+Our study finds that, in fact, the health of adult               treatment, remission, metastatic or disseminated, and
+populations, even among the diseases that are associated         terminal.31 With improved diagnoses and treatment
+with increasing age, is also improving. By contrast with         options, patients spend more time in the remission phase
+the conventional understanding of ageing that observes           facing lower disease case fatality and disease severity.
+changing age structure, we find that coun­tries that are         Furthermore, the decomposition analysis highlights that
+experiencing increasing median population age are also           the reduction of case fatality and disease severity is smaller
+enjoying larger decreases in age-standardised age-related        for some regions (such as sub-Sarahan Africa) and SDI
+disease burden rates over time.30                                levels (such as low and low-middle SDI) than for others,
+   Typical discussions around population ageing involve          suggesting that the benefits of improved treatment might
+conversations about the changing size and age structures         have been reaped in some parts of the world but not others.
+of older populations.2 This is partially supported by our          A strength of our work is the ability to compare across
+analysis, which found that the increasing size of the adult      countries and time. Even among high-income countries,
+population is one of the largest factors associated with         the differences are wide: 76-year-olds in Japan have the
+increasing age-related burden between 1990 and 2017.             same level of age-related disease burden as 69-year-olds in
+However, far less attention has been placed on variation in      the USA. Countries experience different patterns of
+prevalence and case fatality and disease severity of age-        ageing, and our results highlight the fact that the age
+related diseases. While the change in the prevalence of          thresholds for identifying older populations should not be
+age-related diseases accounts for a smaller proportion of        a fixed number of 60 or 65 years of age. Finally, comparing
+change over time, our findings suggest that decreasing           the onset in which age-related burden accumulates
+case fatality and disease severity of age-related diseases is    through age groups, we identified frontier countries as
+associated with a large proportion of the decrease in the        well as countries that have been relatively successful in
+age-related disease burden among adults, even larger than        delaying the accumulation of age-related disease burden
+the proportion due to changing age structure. The change         to older ages compared with their peers with similar
+in case fatality and disease severity can be explained by the    levels of age-related disease burden. Understanding which
+change in the distribution of the sequelae of the diseases       factors contributed to the successful delay, such as high
+
+
+www.thelancet.com/public-health Vol 4 March 2019                                                                                                                               e165
+
+
+                                                   Articles
+
+
+
+
+                                                                            physical activity, lower smoking rate, and better access to      Our study has several limitations. First, this study is
+                                                                            care, could shed light on how to reduce the projected         based on GBD 2017 and therefore shares the limitations
+                                                                            burden of population ageing.32                                of the overall study, such as greater uncertainty among
+                                                                                                                                          older age groups, locations with scarce data, and under-
+                                                                                                                                          reported diseases.17,33 We attempted to address this un­
+                                                   A                                                                                      certainty by providing the uncertainty ranges of all
+                                                 800         Frontier
+                                                             Mexico                                                                       estimates. Second, although the list of diseases in GBD
+                                                             Thailand                                                                     2017 is fairly comprehensive, we might be missing out on
+                                                             USA
+                                                                                                                                          some that are important for ageing populations. There is
+                                                                                                                                          not a commonly agreed-upon definition of age-related
+Cumulative rate of age-related deaths
+
+
+
+
+                                                 600
+                                                                                                                                          diseases. Most literature categorises broader disease
+                                                                                                                                          groups as age related, such as neurological disorders and
+                                                                                                                                          cancers.20,34 However, as shown in our analysis, there are
+                                                 400                                                                                      wide variations of age patterns even within these broad
+                                                                                                                                          disease categories. Sensitivity analyses including add­
+                                                                                                                                          itional diseases, such as diabetes type 2 and some
+                                                 200
+                                                                                                                                          musculoskeletal disorders, are presented in the appendix.
+                                                                                                                                          Third, population ageing is a multifactorial concept,35 and
+                                                                                                                                          this study captures only a subset of the phenomena. For
+                                                                                                                                          example, although disease burden captures some of the
+                                                   0                                                                                      changes in physical and mental functioning (through
+                                                                                                                                          disability weights), the burden metric cannot replace
+                                                   B                                                                                      measures such as grip strength or social participation
+                                                             Frontier
+                                                             China                                                                        that are commonly found in household surveys. Fourth,
+                                                 800
+                                                             Saudi Arabia                                                                 this study also does not consider the large burden of
+                                                             South Africa
+                                                                                                                                          multimorbidity found in other studies.35 We probably
+Cumulative rate of age-related deaths
+
+
+
+
+                                                                                                                                          underestimate the burden of age-related diseases because
+                                                                                                                                          we do not take into account the interactions between co-
+                                                 600
+                                                                                                                                          existing diseases. Finally, although this novel approach
+                                                                                                                                          brings new insights into the patterns and trends of
+                                                                                                                                          population ageing, we acknowledge that this is one of
+                                                 400
+                                                                                                                                          many ways one can define and measure population
+                                                                                                                                          ageing.
+                                                                                                                                             In conclusion, having appropriate measures for
+                                                 200                                                                                      population ageing is a crucial step towards addressing the
+                                                                                                                                          challenges and harnessing the opportunities of pop­ulation
+                                                                                                                                          ageing. From the perspective of improving the measure­
+                                                   0                                                                                      ment of population ageing, this novel measure supports
+                                                                                                                                          the comparison of the progression of population ageing
+                                                   C
+                                                                                                                                          across countries and over time without the need for
+                                                 1·00        Frontier
+                                                             China                                                                        additional and extensive data collection. It also facilitates
+                                                             Mexico                                                                       the shift from thinking not just about chrono­logical age
+                                                             Saudi Arabia
+                                                                                                                                          but the health status and disease severity of ageing
+Cumulative rate of age-related deaths (scaled)
+
+
+
+
+                                                             South Africa
+                                                 0·75        Thailand                                                                     populations. From the perspective of providing policy
+                                                             USA                                                                          recommendations for addressing challenges in population
+
+
+                                                 0·50
+
+
+
+                                                                                                                                          Figure 5: Comparison of age-standardised cumulative rates of age-related
+                                                 0·25                                                                                     deaths in Mexico, Thailand, and the USA (A) and China, South Africa, and
+                                                                                                                                          Saudi Arabia (B) and the frontier countries, with comparison of the scaled
+                                                                                                                                          age-standardised cumulative rate of age-related deaths (C)
+                                                                                                                                          Cumulative death rates in panel C are scaled to a range of 0 to 1, using
+                                                                                                                                          country-specific cumulative death rate at age group 80–84 years (the highest
+                                                   0
+                                                        20                    40                   60                80                   observed life expectancy) as the reference point. The frontier countries are
+                                                                                                                                          Switzerland (ages 25–64 years and 70–84 years), South Korea (65–69 years),
+                                                                                           Age (years)
+                                                                                                                                          Singapore (85–89 years), and Kuwait (90 years and older).
+
+
+
+e166                                                                                                                                                             www.thelancet.com/public-health Vol 4 March 2019
+
+
+                                                                                                                                                              Articles
+
+
+
+
+ageing, the findings from this research serve as a starting                    14   Cieza A, Oberhauser C, Bickenbach J, et al. The English are healthier
+                                                                                    than the Americans: really? Int J Epidemiol 2015; 44: 229–38.
+point for identifying key drivers of variation in the age-
+                                                                               15   de la Fuente J, Caballero FF, Sánchez-Niubó A, et al. Determinants
+related burden and resources required for addressing                                of health trajectories in England and the United States: an approach
+the burden, and to learn from exemplar countries that                               to identify different patterns of healthy aging. J Gerontol Ser A 2018;
+                                                                                    73: 1512–18.
+have been more successful in suppressing the levels of
+                                                                               16   Kyu HH, Abate D, Abate KH, et al. Global, regional, and national
+age-related disease burden over time or delaying the                                disability-adjusted life-years (DALYs) for 359 diseases and injuries
+accumulation of age-related disease burden to later ages.                           and healthy life expectancy (HALE) for 195 countries and territories,
+                                                                                    1990–2017: a systematic analysis for the Global Burden of Disease
+Contributors                                                                        Study 2017. Lancet 2018; 392: 1859–922.
+AYC and JLD conceived the study and developed the methods. AYC                 17   James SL, Abate D, Abate KH, et al. Global, regional, and national
+collected the data and completed all analyses. VFS, ST, and NJK provided            incidence, prevalence, and years lived with disability for 354 diseases
+feedback to the methods, and edited and reviewed the manuscript. All                and injuries for 195 countries and territories, 1990–2017: a systematic
+authors interpreted results and reviewed and contributed to the final draft.        analysis for the Global Burden of Disease Study 2017. Lancet 2018;
+                                                                                    392: 1789–858.
+Declaration of interests
+We declare no competing interests.                                             18   Campisi J, Robert L. Cell senescence: role in aging and age-related
+                                                                                    diseases. In: Robert L, Fulop T, eds. Interdisciplinary topics in
+Acknowledgments                                                                     gerontology. Basel: Karger, 2014: 45–61.
+The research reported in this publication was supported by the National        19   Goldman DP, Chen C, Zissimopoulos J, Rowe JW, the Research
+Institute on Aging of the National Institutes of Health under Award                 Network on an Aging Society. Opinion: measuring how countries
+Number P30AG047845. The content is solely the responsibility of the                 adapt to societal aging. Proc Natl Acad Sci 2018; 115: 435–37.
+authors and does not necessarily represent the official views of the           20   Campisi J. Aging, cellular senescence, and cancer. Annu Rev Physiol
+National Institutes of Health. ST was supported by the Foundation for               2013; 75: 685–705.
+Education and European Culture, the Sara Borrell postdoctoral                  21   Patton GC, Sawyer SM, Santelli JS, et al. Our future: a Lancet
+programme (reference CD15/00019 from the Instituto de Salud Carlos                  commission on adolescent health and wellbeing. Lancet 2016;
+III), the Miguel Servet programme (reference CP18/00006), and the                   387: 2423–78.
+Fondos Europeo de Desarrollo Regional. ST was awarded with a                   22   Vos T, Abajobir AA, Abate KH, et al. Global, regional, and national
+6-month visiting fellowship funding at the Institute of Health Metrics              incidence, prevalence, and years lived with disability for 328
+Evaluation from the M-AES programme (reference MV16/00035 from                      diseases and injuries for 195 countries, 1990–2016: a systematic
+                                                                                    analysis for the Global Burden of Disease Study 2016. Lancet 2017;
+the Instituto de Salud Carlos III). We thank Christopher Murray and the
+                                                                                    390: 1211–59.
+participants at the 2018 Center for Health Trends and Forecast External
+                                                                               23   Das Gupta P. Standardization and decomposition of rates: a user’s
+Advisory Committee meeting for their feedback on an earlier version of
+                                                                                    manual. Washington, DC: US Department of Commerce
+the study.
+                                                                                    Economics and Statistics Administration, 1993.
+References                                                                     24   Mitnitski A, Rockwood K. The rate of aging: the rate of deficit
+1    López-Otín C, Blasco MA, Partridge L, Serrano M, Kroemer G.                    accumulation does not change over the adult life span.
+     The hallmarks of aging. Cell 2013; 153: 1194–217.                              Biogerontology 2016; 17: 199–204.
+2    Beard JR, Officer A, de Carvalho IA, et al. The World report on ageing    25   WHO. Global strategy and action plan on ageing and health.
+     and health: a policy framework for healthy ageing. Lancet 2016;                Geneva: World Health Organization, 2017.
+     387: 2145–54.                                                             26   Olshansky SJ, Ault AB. The fourth stage of the epidemiologic
+3    d’Albis H, Collard F. Age groups and the measure of population                 transition: the age of delayed degenerative diseases. Milbank Q 1986;
+     aging. Demogr Res 2013; 29: 617–40.                                            64: 355–91.
+4    Gavrilov LA, Heuveline P. Aging of population. In: Demeny P,              27   Blagosklonny MV. Validation of anti-aging drugs by treating
+     McNicoll G, eds. The encyclopedia of population. New York, NY:                 age-related diseases. Aging 2009; 1: 281–88.
+     Macmillan Reference USA, 2003: 32–37.                                     28   Gems D. The aging-disease false dichotomy: understanding
+5    United States Census Bureau. The nation’s older population is still            senescence as pathology. Front Genet 2015; 6: 212.
+     growing, Census Bureau reports. June 22, 2017. https://www.census.        29   Bloom DE, Chatterji S, Kowal P, et al. Macroeconomic implications
+     gov/newsroom/press-releases/2017/cb17-100.html (accessed                       of population ageing and selected policy responses. Lancet 2015;
+     May 23, 2018).                                                                 385: 649–57.
+6    Ryder NB. Notes on stationary populations. Popul Index 1975;              30   Pew Research Center. Attitudes about aging: a global perspective.
+     41: 3–28.                                                                      In a rapidly graying world, Japanese are worried, Americans aren’t.
+7    UN Department of Economic and Social Affairs Population Division.              Jan 30, 2014. http://www.pewglobal.org/2014/01/30/attitudes-about-
+     World population ageing 1950–2050. Annex I. New York, NY:                      aging-a-global-perspective (accessed Jan 22, 2019).
+     United Nations, 2017.                                                     31   Fitzmaurice C, Allen C, Barber RM, et al. Global, regional, and
+8    Belsky DW, Caspi A, Houts R, et al. Quantification of biological               national cancer incidence, mortality, years of life lost, years lived
+     aging in young adults. Proc Natl Acad Sci 2015; 112: E4104–10.                 with disability, and disability-adjusted life-years for 32 cancer
+9    Fried LP, Tangen CM, Walston J, et al. Frailty in older adults:                groups, 1990 to 2015: a systematic analysis for the Global Burden of
+     evidence for a phenotype. J Gerontol A Biol Sci Med Sci 2001;                  Disease Study. JAMA Oncol 2017; 3: 524–48.
+     56: M146–57.                                                              32   Tyrovolas S, Haro JM, Mariolis A, et al. Successful aging, dietary
+10 Searle SD, Mitnitski A, Gahbauer EA, Gill TM, Rockwood K.                        habits and health status of elderly individuals: a k-dimensional
+     A standard procedure for creating a frailty index. BMC Geriatr 2008;           approach within the multi-national MEDIS study. Exp Gerontol
+     8: 24.                                                                         2014; 60: 57–63.
+11 Mitnitski AB, Mogilner AJ, Rockwood K. Accumulation of deficits             33   Naghavi M, Abajobir AA, Abbafati C, et al. Global, regional, and
+     as a proxy measure of aging. Sci World J 2001; 1: 323–36.                      national age-sex specific mortality for 264 causes of death,
+12 Skirbekk V, Loichinger E, Weber D. Variation in cognitive                        1980–2016: a systematic analysis for the Global Burden of Disease
+     functioning as a refined approach to comparing aging across                    Study 2016. Lancet 2017; 390: 1151–210.
+     countries. Proc Natl Acad Sci 2012; 109: 770–74.                          34   Niccoli T, Partridge L. Ageing as a risk factor for disease. Curr Biol
+13 Caballero FF, Soulis G, Engchuan W, et al. Advanced analytical                   2012; 22: R741–52.
+     methodologies for measuring healthy ageing and its determinants,          35   Lowsky DJ, Olshansky SJ, Bhattacharya J, Goldman DP.
+     using factor analysis and machine learning techniques: the                     Heterogeneity in healthy aging. J Gerontol A Biol Sci Med Sci 2014;
+     ATHLOS project. Sci Rep 2017; 7: 43955.                                        69: 640–49.
+
+
+
+
+www.thelancet.com/public-health Vol 4 March 2019                                                                                                                         e167
+
