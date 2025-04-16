@@ -5,7 +5,7 @@ library(ggplot2)
 library(tidytext)
 library(furrr)
 library(digest)
-library(purrr)  # Ensure purrr is loaded
+library(purrr)  
 
 # 1. File Preparation --------------------------------------------
 directory_path <- "txt_folder"
@@ -92,7 +92,7 @@ process_file_tfidf <- function(file, target_terms, idf) {
     file = basename(file),
     stringsAsFactors = FALSE
   ) %>% 
-    filter(tfidf > 0.0001) %>%           # TF-IDF threshold
+    filter(tfidf > 0.003) %>%           # TF-IDF threshold
     filter(term %in% target_terms)      # Target terms filter
   
   print(paste("Number of relevant terms found in file:", nrow(result)))
