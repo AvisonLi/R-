@@ -1,3 +1,9 @@
+# Define the directory containing the .txt files
+txt_directory <- "c:\\Users\\liari\\OneDrive\\桌面\\R project\\R-\\txt_files"
+
+# Get the list of .txt files in the directory
+txt_files <- list.files(path = txt_directory, pattern = "\\.txt$", full.names = TRUE)
+
 # Process each .txt file
 for (file_path in txt_files) {
   # Read the file content
