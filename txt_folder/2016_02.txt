@@ -1,0 +1,884 @@
+Infection-related and -unrelated malignancies, HIV and the
+aging population
+L Shepherd,1 AH Borges,2 B Ledergerber,3 P Domingo,4 A Castagna,5 J Rockstroh,6 B Knysz,7 J Tomazic,8 I Karpov,9
+O Kirk,2 J Lundgren2 and A Mocroft1 on behalf of EuroSIDA in EuroCOORD*
+1Department of Infection and Population Health, University College London Medical School, London, UK, 2Centre for
+Health and Infectious Diseases Research (CHIP), Department of Infectious Diseases and Rheumatology, Rigshospitalet,
+University of Copenhagen, Copenhagen, Denmark, 3Division of Infectious Diseases and Hospital Epidemiology, University
+Hospital Z€urich, Z€urich, Switzerland, 4Hospital Sant Pau, Barcelona, Spain, 5San Raffaele Scientific Institute, Milan,
+Italy, 6Department of Medicine I, University Hospital Bonn, Bonn, Germany, 7Department of Infectious Diseases,
+Wroclaw University, Wroclaw, Poland, 8Department of Infectious Diseases, University Clinical Centre Ljubljana,
+Ljubljana, Slovenia and 9Belarus State Medical University, Minsk, Belarus
+Objectives
+HIV-positive people have increased risk of infection-related malignancies (IRMs) and infectionunrelated
+malignancies (IURMs). The aim of the study was to determine the impact of aging on
+future IRM and IURM incidence.
+Methods
+People enrolled in EuroSIDA and followed from the latest of the first visit or 1 January 2001 until
+the last visit or death were included in the study. Poisson regression was used to investigate the
+impact of aging on the incidence of IRMs and IURMs, adjusting for demographic, clinical and
+laboratory confounders. Linear exponential smoothing models forecasted future incidence.
+Results
+A total of 15 648 people contributed 95 033 person-years of follow-up, of whom 610 developed 643
+malignancies [IRMs: 388 (60%); IURMs: 255 (40%)]. After adjustment, a higher IRM incidence was
+associated with a lower CD4 count [adjusted incidence rate ratio (aIRR) CD4 count < 200 cells/lL: 3.77;
+95% confidence interval (CI) 2.59, 5.51; compared with ≥ 500 cells/lL], independent of age, while a
+CD4 count < 200 cells/lL was associated with IURMs in people aged < 50 years only (aIRR: 2.51; 95%
+CI 1.40–4.54). Smoking was associated with IURMs (aIRR: 1.75; 95% CI 1.23, 2.49) compared with
+never smokers in people aged ≥ 50 years only, and not with IRMs. The incidences of both IURMs and
+IRMs increased with older age. It was projected that the incidence of IRMs would decrease by 29% over
+a 5-year period from 3.1 (95% CI 1.5–5.9) per 1000 person-years in 2011, whereas the IURM incidence
+would increase by 44% from 4.1 (95% CI 2.2–7.2) per 1000 person-years over the same period.
+Conclusions
+Demographic and HIV-related risk factors for IURMs (aging and smoking) and IRMs
+(immunodeficiency and ongoing viral replication) differ markedly and the contribution from
+IURMs relative to IRMs will continue to increase as a result of aging of the HIV-infected
+population, high smoking and lung cancer prevalence and a low prevalence of untreated HIV
+infection. These findings suggest the need for targeted preventive measures and evaluation of the
+costbenefit of screening for IURMs in HIV-infected populations.
+Keywords: aging, HIV, malignancies, virus-associated malignancies
+Accepted 15 October 2015
+Introduction
+HIV-positive people are at increased risk of many malignancies
+compared with the general population [1,2]; however,
+the exact mechanisms are poorly understood [3]. The
+increased risk could be attributable to a high prevalence of
+Correspondence: Ms Leah Shepherd, Department of Infection and Population
+Health, Royal free & University College Medical School, Division of
+Population Health, Hampstead Campus, Rowland Hill Street, London, NW3
+2PF, UK. Tel: +44 20 7794 0500, ext 34570; e-mail: leah.shepherd@ucl.ac.uk
+*See Appendix for members of the EuroSIDA Study Group.
+590
+DOI: 10.1111/hiv.12359
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+ORIGINAL RESEARCH
+traditional cancer risk factors such as smoking [4] and
+alcohol use [5]. However, coinfection with other pro-oncogenic
+viruses [6], immunodeficiency [2,7], activated
+inflammation and coagulation [8], a potential direct prooncogenic
+effect of HIV and combination antiretroviral
+therapy (cART) toxicity [3] may also contribute to the
+increased risk. The introduction of cART in 1996 led to
+restored immune function, a reduced incidence of AIDSdefining
+malignancies (ADMs) [9–11] and increased survival
+[12]. As a result, the burden of cancers traditionally
+associated with older age is becoming increasingly important
+in the HIV-positive population. There is a growing
+need to address the changing epidemiology of cancers as
+the population ages. This has been done in several studies
+in the USA [1,13]; however, research in the European population
+is needed.
+The burden of non-AIDS-defining malignancies (NADMs)
+is now surpassing that of ADMs in HIV-positive people in
+the USA and Europe [1,13]. Furthermore, some NADMs
+occur more frequently than ADMs in HIV-positive people;
+for example, more cases of anal cancer and Hodgkin lymphoma
+are diagnosed than invasive cervical cancer [1,14].
+For these reasons, recent research has shifted towards
+defining malignancies as infection-related malignancies
+(IRMs) and infection-unrelated malignancies (IURMs) [8].
+The changing epidemiology of malignancies and the
+impact of aging on cancer incidence need to be better
+characterized. The aim of this study was to investigate the
+impact of aging in HIV-positive people on the incidence
+of IRMs and IURMs within EuroSIDA, a large European
+cohort of HIV-positive people with a long follow-up period,
+and to estimate the likely impact of IRMs and IURMs
+in the HIV-positive population in the next 5 years for
+future health care planning, treatment and prevention.
+Patients and methods
+The EuroSIDA study
+EuroSIDA is a prospective observational open cohort of
+18 587 HIV-1-positive patients in 108 centres across 33
+European countries, Israel and Argentina (details at
+www.cphiv.dk). Patients were enrolled into nine cohorts
+from May 1994 and informed consent was obtained from
+all patients. All information is prospectively collected via
+standardized forms which are completed by personnel at
+the sites at the time of enrolment and every 6 months
+thereafter. The forms collect basic demographic, clinical
+and laboratory data, including all CD4 counts and HIV
+viral loads (HIV-VLs), starting and stopping dates of all
+antiretroviral drugs, smoking status, and dates and diagnoses
+of all new AIDS-defining diagnoses [using the
+1993 Centers for Disease Control and Prevention (CDC)
+clinical definition [15], which includes ADMs] since last
+follow-up. In 2001, the standardized forms were updated
+to collect data on all new non-AIDS-defining diagnoses
+identified by clinical diagnosis or autopsy (including
+NADMs) [16], allowing the sites to report date of diagnosis,
+method of diagnosis (definitive, presumptive or
+autopsy), and location (selected from a list of common
+malignancies or as free text). All reported AIDS-defining
+and non-AIDS-defining malignancies were source verified
+against case notes at the sites by members of the coordinating
+office to ensure data accuracy, as well as for all
+other major clinical events and a random sample of 10%
+of all other patients. Loss to follow-up in EuroSIDA is
+< 5% per 100 person-years of follow-up (PYFU) and is
+consistent over time [17].
+Inclusion criteria
+All subjects enrolled in EuroSIDA with prospective follow-
+up after 1 January 2001 were included in the study.
+Patients were followed from the later of the first visit or
+1 January 2001 until the last visit or death. The median
+date of the last visit was March 2012 [interquartile range
+(IQR) August 2009 to June 2012].
+All malignancies, both AIDS-defining and non-AIDSdefining,
+diagnosed during the follow-up period were
+included and classified using the International Classification
+of Diseases and Related Health Problems, 10th edition
+code classification system [18]. Multiple
+malignancies per person were included; however, preexisting
+cancers, secondary diagnoses, metastasis, reoccurrence
+of the same malignancy type, pre-cancers and
+nonmelanoma skin cancers were excluded. IRMs were
+defined as all malignancies with a probably infectious
+cause: Kaposi’s sarcoma (KS) [caused by human herpesvirus-
+8 (HHV8)], non-Hodgkin lymphoma (NHL) and
+Hodgkin lymphoma (HL) (caused by EpsteinBarr virus
+(EBV)], invasive cervical cancers (ICCs), and selected
+malignancies of the head and neck (base of tongue, pharynx
+and tonsils), anus, penis, vulva and vagina [caused
+by human papilloma virus (HPV)], liver [caused by hepatitis
+B virus (HBV) and hepatitis C virus (HCV)] and
+stomach (caused by Helicobactor pylori [H.Pylori] [19].
+All remaining malignancies were defined as IURMs.
+Statistical methods
+Poisson generalized estimating equations assuming
+autoregressive (AR1) correlation were used to estimate
+the association between age and IRM and IURM incidence.
+Models were adjusted for the following baseline
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+Malignancies, infection and aging in HIV 591
+variables: ethnicity, region, gender, mode of transmission
+[homosexual, male injecting drug user (IDU), female IDU,
+male heterosexual, female heterosexual or missing] and
+body mass index (BMI); they were also adjusted for the
+following time-updated variables: age, calendar year,
+smoking status (current, previous, never or missing), current
+HIV-VL plasma level, CD4 cell count, prior HBV
+[prior positive HBV surface antigen (HBsAg) test or presence
+of detectable HBV DNA] and HCV (prior positive
+HCV surface antibody test or presence of detectable HCV
+RNA) coinfection, prior diagnoses of ADMs, NADMs,
+AIDS-defining events (excluding ADMs) and non-AIDSdefining
+events (defined as cardiovascular, end-stage
+renal disease, liver failure and pancreatitis, excluding
+NADMs) [16], cART use (antiretroviral regimen containing
+at least three drugs from any class), and regimen according
+to intention to treat [protease inhibitor (PI)- or nonnucleoside
+reverse transcriptase inhibitor (NNRTI)-based].
+It was decided a priori to stratify associations of IRMs
+and IURMs with CD4 cell count and smoking status by
+age (< 50 and ≥ 50 years) because of strong associations
+with both age and cancer risk. Interactions between age
+and all other variables were also investigated.
+The proportions of excess malignancies within our
+cohort attributable to each significant modifiable factor
+and age were calculated using an internally valid version
+of the population attributable risk in the presence of confounding
+[20]. This is interpreted as the percentage of
+excess malignancies attributable to each factor relative to
+a reference category, within the cohort.
+Future crude IRM and IURM biannual incidence was
+forecast using linear exponential smoothing models,
+stratified by baseline age group (< 50 and ≥ 50 years),
+CD4 count (< 350 and ≥ 350 cells/lL), HIV risk group
+and smoking status. Forecasts were restricted to those
+enrolled prior to 2001. This ensures a stable population
+over time (i.e. no new recruitments); however, people
+were allowed to leave the cohort (because of death or loss
+to follow-up). No further adjustments for covariates were
+made.
+All statistical tests were two-sided and the type I error
+rate was 5%. All statistical analyses were performed using
+SAS 9.3 (SAS Institute, Cary, NC, USA).
+Results
+Characteristics
+A total of 15 648 persons contributed 95 033 PYFU with
+a median follow-up time of 6.0 [interquartile range (IQR)
+2.5, 10.7] years. Baseline characteristics according to
+malignancy status are shown in Table 1. At baseline,
+16.0% of patients were aged ≥ 50 years, 72.6% of the
+population were male, 88.3% were of white ethnic origin
+and 38.7% of men were infected with HIV through homosexual
+exposure. Approximately one-third of patients
+were current smokers and one-third had never smoked.
+The median CD4 count at baseline was 410 (IQR 265,
+588) cells/lL, with 14.8% having a CD4 count ≤ 200
+cells/lL, and HIV-VL was 123 (IQR < 50, 5200) HIV-1
+RNA copies/mL, with 54.5% having HIV-VL ≤ 400
+copies/mL. Prior AIDS-defining and non-AIDS-defining
+events were present in 24.4% and 1.9% of patients,
+respectively. Coinfection with HCV and HBV was prevalent
+in 23.1% and 5.5% of people, respectively.
+A total of 610 people developed 643 malignancies, of
+which 60.3% were IRMs and the remaining 39.7% were
+IURMs (Table 2). The most common IRMs were NHL
+(n = 116), anal cancer (85), KS (62) and HL (43). Lung
+(n = 55), prostate (28), colorectal (23) and breast (22) cancers
+were common IURMs. At diagnosis, those who developed
+IURMs relative to those who developed IRMs were
+older [median age 54 (IQR 46, 61) years for IURMs vs. 46
+(IQR 39, 52) years for IRMs] and had a higher CD4 count
+[median 446 (IQR 295, 608) cells/lL vs. 342 (IQR 182,
+546) years, respectively] and a lower HIV-VL [median
+< 50 (IQR < 50, 86) copies/mL vs. 61 (IQR < 50, 20 002)
+copies/mL, respectively]. A lower proportion of those with
+IURMs had prior HCV coinfection and the proportions of
+those with prior HBV coinfection were similar. Proportions
+of ever smokers with IRMs (45%) and IURMS (46%)
+were similar. The majority of cancers diagnosed in those
+younger than 50 years (n = 353 cancers) were IRMs
+(75%), with EBV related malignancies accounting for 31%
+of IRMs and HPV related malignancies accounting for
+25%. In those aged ≥ 50 years (290 cancers), more than
+half had IURMs (57%), with lung cancer accounting for
+13% of IURMs and prostate cancer accounting for 10%.
+Adjusted incidence of IRM and IURM
+In adjusted models, those aged ≥ 50 years had a 1.62
+(95% CI 1.14, 2.30) times higher IRM incidence compared
+with those aged 36–40 years (Table 3), corresponding to
+a 17% higher incidence per 10 years older age (adjusted
+rate ratio (aRR) 1.17; 95% CI 1.05, 1.32). The percentage
+of excess IRMs attributable to being aged ≥ 51 years
+compared with 36–40 years was 12%. Factors strongly
+related to a high IRM incidence were HIV associated.
+Specifically, HIV-VL > 400 copies/mL was associated
+with a higher IRM incidence (aRR 1.84; 95% CI 1.39,
+2.43; P < 0.01) and accounted for 19% of excess malig-
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+592 L Shepherd et al.
+nancies, relative to those with well-controlled viraemia
+(HIV-VL ≤ 400 copies/mL). A lower current CD4 cell
+count was associated with a higher IRM incidence
+(Table 3), which was similar in those aged < 50 years and
+≥ 50 years (Fig. 1c; P interaction = 0.82). CD4 counts
+< 200 and 200–349 cells/lL accounted for 21% and 11%
+of excess IRMs, respectively (Table 3), relative to those
+with a CD4 count of ≥ 500 cells/lL. There was no association
+between IRM incidence and current smoking
+(Table 3) in younger or older people (Fig. 1d; P for interaction
+= 0.31). Prior HBV coinfection was associated with
+a higher IRM incidence (aRR 1.70; 95% CI 1.24, 2.32),
+but only 5% of IRMs were attributable to HBV coinfection
+within the cohort (Table 3).
+The IURM incidence was 7.33-fold (95% CI 4.07,
+13.21; P < 0.01) and 2.37-fold (95% CI 1.31, 4.27;
+P < 0.01) higher in those aged ≥ 51 years and aged 41–
+50 years compared with those aged 36–40 years
+(Table 3), and explained 56% and 17% of excess IURMs
+within the cohort, respectively. This corresponds to a
+twofold increase in IURM incidence per 10 years older
+age (aRR 2.07; 95% CI 1.84, 2.32). Current smoking was
+Table 1 Baseline characteristics of persons who had infection-related malignancies (IRMs) and infection-unrelated malignancies (IURMs)
+during follow-up
+Characteristic
+n (%) or median (IQR)
+All participants IRMs IURMs
+Overall 15 648 (100.0) 374 (100.0) 247 (100.0)
+Categorical [n (%)]
+Age group
+≤ 35 years 5419 (34.6) 78 (20.9) 18 (7.3)
+36–40 years 3337 (21.3) 93 (24.9) 40 (16.2)
+41–50 years 4390 (28.1) 133 (35.6) 78 (31.6)
+≥ 51 years 2502 (16.0) 70 (18.7) 111 (44.9)
+Region‡
+Argentina 597 (3.8) 13 (3.5) 6 (2.4)
+East 2733 (17.5) 14 (3.7) 6 (2.4)
+East central 2041 (13.0) 40 (10.7) 25 (10.1)
+North 3220 (20.6) 97 (25.9) 71 (28.7)
+West 3332 (21.3) 86 (23.0) 63 (25.5)
+South 3725 (23.8) 124 (33.2) 76 (30.8)
+White ethnicity 13 821 (88.3) 331 (88.5) 228 (92.3)
+Risk group
+Homosexual (men only) 6051 (38.7) 191 (51.1) 123 (49.8)
+IDU (male) 2290 (14.6) 49 (13.1) 24 (9.7)
+IDU (female) 1091 (7.0) 32 (8.6) 10 (4.0)
+Heterosexual (male) 2178 (13.9) 35 (9.4) 32 (13.0)
+Heterosexual (female) 2830 (18.1) 43 (11.5) 36 (14.6)
+Other (male) 910 (5.8) 20 (5.3) 16 (6.5)
+Other (female) 298 (1.9) 4 (1.1) 6 (2.4)
+Smoking status
+Current 5393 (34.5) 132 (35.3) 83 (33.6)
+Previous 61 (0.4) 4 (1.1) 1 (0.4)
+Never 5030 (32.1) 104 (27.8) 66 (26.7)
+Unknown 5164 (33.0) 134 (35.8) 97 (39.3)
+Prior AIDS* (excluding ADMs) 3811 (24.4) 122 (32.6) 65 (26.3)
+Prior ADMs 734 (4.7) 34 (9.1) 17 (6.9)
+Prior non-AIDS-defining events† (excluding NADMs) 297 (1.9) 10 (2.7) 8 (3.2)
+Prior NADMs 222 (1.4) 5 (1.3) 13 (5.3)
+HBV positive 868 (5.5) 38 (10.2) 23 (9.3)
+HCV positive 3607 (23.1) 76 (20.3) 35 (14.2)
+On cART 11 946 (76.3) 304 (81.3) 215 (87.0)
+Numeric [median (IQR)]
+CD4 count (cells/lL) 410 (265, 588) 347 (200, 523) 390 (259, 546)
+Nadir CD4 count (cells/lL) 182 (76, 303) 124.5 (47, 250) 160 (70, 255)
+HIV-VL (copies/ml) 123 (< 50, 5200) 772 (< 50, 18300) 88 (< 50, 1501)
+ADM, AIDS-defining malignancy; cART, combination antiretroviral therapy; HBV, hepatitis B virus; HCV, hepatitis C virus; IDU, injecting drug user; IQR,
+interquartile range; NADM, non-AIDS-defining malignancy; VL, viral load.
+Baseline was defined as the latest of the first visit or 1 January 2001.
+*Defined by the 1993 Centers for Disease Control and Prevention (CDC) clinical definition [15].
+†Non-AIDS-defining events were pancreatitis, grade 3 or 4 hepatic encephalopathy or liver-related death, myocardial infarction, stroke, coronary artery
+bypass graft, coronary angioplasty, carotid endarterectomy (grouped together as serious cardiovascular events) and end-stage renal disease [16].
+NADMs were excluded.
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+Malignancies, infection and aging in HIV 593
+associated with elevated IURM incidence and explained
+16% of IURMs overall. Stratifying by age, IURMs were
+elevated in current smokers relative to nonsmokers in
+those aged ≥ 50 years (aRR 1.75; 95% CI 1.23, 4.49;
+P < 0.01; Fig. 1b), but not in those aged < 50 years
+(aRR 1.12; 95% CI 0.71, 1.77; P = 0.51), although the Pvalue
+of the interaction term was nonsignificant
+(P = 0.32). Current smoking was not associated with
+IURM incidence after the exclusion of lung cancers. A
+low current CD4 count was associated with a higher
+IURM incidence (CD4 count < 200 cells/lL: aRR 1.99;
+95% CI 1.26, 3.17; P < 0.01, relative to CD4 count
+> 500 cells/lL). Despite this, the overall excess of IURMs
+attributable to a CD4 count < 200 cells/lL (6%) was
+small. The association between higher IURM incidence
+and low CD4 count was evident in those aged
+< 50 years (aRR 2.52; 95% CI 1.40, 4.54; P = 0.01;
+Fig. 1a), but not in those aged ≥ 50 years (aRR 1.14;
+95% CI 0.62, 2.12; P = 0.56; Fig. 1a), although the Pvalue
+of the interaction term did not reach statistical
+significance (P = 0.09). Prior HBV coinfection was also
+associated with higher IURM incidence (aRR 1.73; 95%
+CI 1.17, 2.55; P < 0.01), but only 5% were attributable
+to HBV coinfection within the cohort (Table 3).
+Future incidence
+There were 6111 people enrolled prior to 1 January 2001,
+contributing 54 030 PYFU [median of 11.1 (IQR 5.8–11.3)
+PYFU per person] who developed 243 IRMs and 161
+IURMs during follow-up. At baseline, 82% of patients
+were aged < 50 years, 78% were male and 41% had a
+CD4 count < 350 cells/lL. Forty-seven per cent were
+homosexual, 25% were heterosexual and 21% were IDUs.
+Twenty-six per cent were smokers at baseline, 21% were
+nonsmokers at baseline and 52% had unknown smoking
+status.
+Assuming current trends continue, the crude IRM incidence
+for those recruited before 2001 was forecast to
+decline from an incidence of 3.1 (95% CI 1.5, 5.9)/1000
+PYFU in July to December 2011 to 2.2 (95% CI 0.9, 4.3)/
+1000 PYFU after 5 years (Fig. 2a). This was consistent in
+all strata, with the exception of IDUs, in whom the incidence
+was stable (Table 4). The forecasted crude IURM
+incidence increased from 4.1 (95% CI 2.2, 7.2)/1000 PYFU
+in July to December 2011 to 5.9 (95% CI 3.2, 10.2)/1000
+PYFU after 5 years (Fig. 2b), and was consistent in all
+strata, except in never smokers for whom the IURM incidence
+was forecast to decrease from 1.7 (95% CI 0.0,
+10.6)/1000 PYFU in July to December 2011 to 0.8 (95%
+CI 0.0, 7.0)/1000 PYFU after 5 years (Table 4). The incidence
+of IURMs surpassed that of IRMs from January to
+June 2009 onwards, and was forcast to continue to
+increase over the subsequent 5 years.
+Discussion
+Demographic and HIV-related risk factors for IURMs and
+IRMs differ markedly. The incidence of IURMs has
+exceeded that of IRMs since JanuaryJune 2009 (in
+those enrolled in EuroSIDA prior to 2001) and the contribution
+from IURMs is forecast to increase over the
+subsequent 5 years as a result of aging of the HIV-positive
+population, a high smoking prevalence [4], and a
+low prevalence of untreated and advanced HIV infection.
+These findings suggest the need to develop targeted preventive
+measures and evaluate the costbenefit of
+screening for IURMs in HIV-positive populations. Ours is
+one of the few large prospective studies in a European
+population with free access to care. The majority of the
+research to date has focussed largely on patients within
+the USA.
+A higher IRM incidence was strongly associated with
+traditional HIV factors such as a higher HIV-VL and a
+lower CD4 cell count and, to a lesser extent, older age.
+The incidence of IRMs steadily increased with lower CD4
+count category. However, the proportions of IRMs attributable
+to older age, higher HIV-VL and lower CD4 count
+were similar to each other in EuroSIDA, as a result of
+ongoing aging and a low prevalence of uncontrolled HIV
+infection in this cohort. Those aged ≥ 51 years may have
+Table 2 Malignancies classified as infection-related malignancies
+(IRMs) and infection-unrelated malignancies (IURMs)
+Malignancies n
+IRMs 388
+EpsteinBarr virus 159
+Non-Hodgkin lymphoma 116
+Hodgkin lymphoma 43
+Hepatitis B and C viruses
+Liver cancer 33
+Human herpesvirus-8
+Kaposi’s sarcoma 62
+Human papillomavirus 123
+Anal cancer 83
+Invasive cervical cancer 33
+Cancer of the vulva and vagina 3
+Cancer of the penis 3
+Cancer of the base of the tongue, pharynx and tonsils 1
+H. pylori
+Stomach cancer 11
+IURMs 255
+Lung cancer 55
+Prostate cancer 28
+Colorectal cancer 23
+Breast cancer 22
+Other 127
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+594 L Shepherd et al.
+had longer exposure to oncogenic viruses, which could
+explain the increased IRM incidence.
+Older age was the largest contributor to IURM incidence.
+Our finding of a twofold higher IURM incidence
+for a 10-year increase in age is similar to findings of the
+The Strategies for Management of Antiretroviral Therapy
+(SMART) study [24] and to data published online by the
+European Cancer Observatory, which showed a 1.9-fold
+increase in the incidence of all malignancies in the general
+population [23]. The effects of aging, including
+reduced immune function, are thought to be accelerated
+in HIV-positive populations and may also contribute to
+an increased IURM incidence [22].
+Current smoking status was associated with a higher
+IURM incidence, driven by lung cancer, in people aged
+≥ 50 years, probably reflecting the lag time between
+smoking and the onset of consequences. As the proportion
+of the cohort aged over 50, 60 and 70 years increases, the
+relative impact of characteristics associated with IURM
+risk is likely to continue to shift, highlighting the need for
+ongoing monitoring of the changing epidemiology of
+malignancies. This is a comparatively new research area
+in HIV infection and large, well-designed observational
+studies are crucial to understand both existing and emerging
+comorbidities in HIV-positive people. A higher IURM
+incidence was associated with a CD4 cell count < 200
+cells/lL in people aged < 50 years only, which appeared
+to be attributable to a relatively high number of lung cancers
+in this group. However, numbers were small and further
+investigation was not possible.
+The incidence of IRMs was forecast to decline over
+time, probably driven by the low prevalence of advanced
+Table 3 Adjusted rate ratios (aRRs) and population attributable fractions of infection-related malignancies (IRMs) and infection-unrelated
+malignancies (IURMs)
+Variable
+IRMs IURMs
+aRR (95% CI) % attributable P-value aRR (95% CI) % attributable P-value
+Age
+≤ 35 years 1.34 (0.90, 2.01) 0.15 0.33 (0.12, 0.96) –3.1 (–11.9, –0.1) 0.04
+36–40 years Ref Ref Ref Ref
+41–50 years 1.34 (0.97, 1.85) 0.07 2.37 (1.31, 4.27) 16.5 (6.9, 21.9) < 0.01
+≥ 51 years 1.62 (1.14, 2.30) 12.3 (3.9, 18.2) < 0.01 7.33 (4.07, 13.21) 55.9 (48.8, 59.8) < 0.01
+Calendar year 1.01 (0.97, 1.05) 0.55 1.00 (0.96, 1.04) 0.95
+HIV viral load > 400 copies/mL 1.84 (1.39, 2.43) 19.3 (11.8, 24.9) < 0.01 0.91 (0.62, 1.35) 0.66
+CD4 count
+< 200 cells/lL 3.77 (2.59, 5.51) 20.5 (17.1, 22.8) < 0.01 1.99 (1.26, 3.17) 6.3 (2.6, 8.6) < 0.01
+200–349 cells/lL 1.83 (1.35, 2.48) 10.6 (6.1, 14.0) < 0.01 1.30 (0.89, 1.88) 0.17
+350–499 cells/lL 1.24 (0.92, 1.67) 0.16 1.29 (0.95, 1.75) 0.11
+≥ 500 cells/lL Ref Ref – Ref Ref –
+Prior AIDS event (excluding ADMs) 1.25 (1.00, 1.57) 0.05 0.85 (0.64, 1.14) 0.29
+Prior ADMs 1.41 (1.02, 1.96) 3.1 (0.2, 5.2) 0.04 0.92 (0.57, 1.49) 0.74
+Prior non–AIDS–defining event (exclusing NADMs) 1.36 (0.88, 2.10) 0.17
+Prior NADMs 2.13 (1.42, 3.20) < 0.01
+HBV 1.70 (1.24, 2.32) 5.3 (2.5, 7.3) < 0.01 1.73 (1.17, 2.55) 5.0 (1.7, 7.2) < 0.01
+HCV 0.77 (0.56, 1.06) 0.11 0.90 (0.60, 1.37) 0.62
+Transmission group*
+Homosexual Ref Ref – Ref Ref –
+IDU (male) 0.83 (0.57, 1.20) 0.32 0.97 (0.57, 1.64) 0.91
+IDU (female) 1.21 (0.79, 1.86) 0.39 0.91 (0.46, 1.80) 0.78
+Heterosexual (male) 0.54 (0.38, 0.78) < 0.01 0.91 (0.61, 1.36) 0.64
+Heterosexual (female) 0.57 (0.40, 0.80) < 0.01 1.25 (0.86, 1.83) 0.24
+Smoking status*
+Never Ref 0.25 – Ref Ref –
+Previous 0.78 (0.51, 1.19) 0.25 1.24 (0.80, 1.91) 0.34
+Current 1.15 (0.91, 1.46) 0.24 1.56 (1.17, 2.08) 16.4 (6.8, 23.7) < 0.01
+ADM, AIDS-defining-malignancy; CI, confidence interval; NADM, non-AIDS-defining malignancy; HBV, hepatitis B virus; HCV, hepatitis C virus; IDU,
+injecting drug user.
+Models were adjusted for the following baseline variables: ethnicity, region, gender, mode of transmission (homosexual, male IDU, female IDU, male
+heterosexual, female heterosexual and missing) and body mass index; and for the following time-updated variables: age, calendar year, smoking status
+(current, previous, never and missing), current HIV viral load plasma levels (≤ 400 and > 400 copies/mL), CD4 cell count (< 200, 200–349, 350–499
+and ≥ 500 cells/lL), prior HBV/HCV coinfection, prior ADMs, prior AIDS-defining diagnoses (excluding ADMs), prior NADMs, prior non-AIDS-defining
+events (defined as cardiovascular, end-stage renal disease, liver failure and pancreatitis, excluding NADMs), exposure to combination antiretroviral therapy
+(antiretroviral regimen containing at least three drugs from any class) and regimen according to intention to treat (protease inhibitor- or nonnucleoside
+reverse transcriptase inhibitor-based).
+*Missing category not shown.
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+Malignancies, infection and aging in HIV 595
+and untreated HIV infection, following improvements in
+treatment efficacy, uptake and adherence. Antiretroviral
+therapy controls HIV viraemia, leading to CD4 recovery,
+and reduces the risk of some IRMs, such as KS and NHL
+[1,11,13,14,25], but not all (e.g. HL, ICC and anal cancers)
+[11,25–27]. This was consistent in all strata except IDUs,
+who are less likely to be on treatment and have poorer
+outcomes. The incidence of IURMs was forecast to gradually
+increase in the near future, driven by aging of the
+HIV-positive population. The only exception was in nonsmokers,
+reflecting lower lung cancer rates and further
+supporting the need for cessation programmes. The
+malignancy incidence in an American study was projected
+to increase by approximately 45% between 2010
+and 2030, driven by malignant diagnoses in older age
+groups in the general population [28]. A similar result
+was found for the UK population [21].
+This study has a number of limitations. EuroSIDA has
+a relatively large number of prospectively collected
+source validated malignancies, but, despite this, the frequencies
+of individual malignancies were small and could
+not be investigated or forecasted individually. Furthermore,
+this is an observational study and residual
+confounding cannot be ruled out. The predicted small
+increase in IURMs may be influenced by changes in and
+uptake of cancer screening practices, such as cervical,
+breast, colorectal and prostate screening, in clinics. However,
+no significant changes in the incidence of these
+cancers occurred in our study, although numbers were
+small. EuroSIDA does not routinely collect data on
+screening practices and therefore we cannot investigate
+the role of screening further. However, recent survey data
+on HIV management in active EuroSIDA sites found that
+screening rates for cervical and anorectal cancers were
+low [29]. Linear exponential smoothing models are a simple
+method of forecasting which assumes the continuation
+of previous population trends. A limited amount of
+historical data was available for forecasting, contributing
+to uncertainty around forecasts. HIV-specific population
+projections are not currently available, which prevents
+the use of more advanced methodologies, such as ageperiod-
+cohort models.
+As the HIV-infected population ages, the incidence of
+IURMs is expected to increase as a result of aging of the
+HIV-infected population and the high prevalence of lung
+cancer caused by smoking, the effects of which generally
+aRR (95% CI)
+aRR (95% CI)
+aRR (95% CI)
+aRR (95% CI)
+(a) (b)
+(c) (d)
+Fig. 1 Adjusted rate ratios (aRRs) of infection-unrelated malignancies (IURMs) for (a) CD4 count and (b) smoking status and of infectionrelated
+malignancies (IRMs) for (c) CD4 count and (d) smoking status in those aged < 50 and ≥ 50 years. Models were adjusted for age, calendar
+year, gender, ethnicity, region of residence, mode of transmission, current smoking status, baseline hepatitis C and B status, current HIV
+viral load, cumulative time of HIV viral load > 400 copies/mL, current CD4 count, cumulative time of CD4 count < 200 cells/lL, prior
+AIDS-defining malignancies (ADMs), prior AIDS-defining diagnosis (excluding ADMs), prior non-AIDS-defining malignancies (NADMs), prior non-
+AIDS-defining diagnosis (excluding NADMs), treatment group, protease inhibitor use and nonnucleoside reverse transcriptase inhibitor use. CI,
+confidence interval.
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+596 L Shepherd et al.
+manifest with longer term exposure and thus at older
+ages. Conversely, IRM incidence is expected to decline as
+a result of the low prevalence of advanced and untreated
+HIV infection and severe immunodeficiency. IURMs
+should therefore be a priority in the coming years as
+higher proportions of HIV-positive people live past 50, 60
+Fig. 2 Forecast crude incidence rate (IR) of infection-related malignancies (IRMs) and infection-unrelated malignancies (IURMs)/1000 personyears
+of follow-up (PYFU) for those recruited before 2001. (a) Semi-annual crude IR of IRMs/1000 PYFU for those recruited before 2001 with
+5- and 10-year forecast. (b) Semi-annual crude IR of IURMs/1000 PYFU for those recruited before 2001 with 5- and 10-year forecast.
+Table 4 Forecasted incidences of crude infection-related and infection-unrelated malignancies in people enrolled in EuroSIDA before 1 January
+2001 overall and within strata
+Subgroups
+Incidence of infection-related malignancies Incidence of infection-unrelated malignancies
+/1000 PYFU /1000 PYFU
+July–December 2011 Forecast at 5 years % change July–December 2011 Forecast at 5 years % change
+Overall baseline age 3.1 (1.5, 5.9) 2.2 (0.9, 4.3) 29 4.1 (2.2, 7.2) 5.9 (3.2, 10.2) 44
+< 50 years 3.3 (1.8, 5.8) 2.4 (1.1, 4.6) 27 2.8 (1.0, 6.0) 4.4 (1.9, 9.2) 57
+≥ 50 years 1.8 (0, 11.6) 0.7 (0.0, 7.0) 61 10.4 (3.4, 28.8) 15.3 (5.1, 42.7) 50
+Baseline CD4 count
+< 350 cells/lL 4.3 (1.5, 10.2) 2.9 (0.8, 7.4) 33 4.1 (0.6, 15.5) 5.6 (1.0, 20.5) 37
+≥ 350 cells/lL 2.7 (1.0, 5.7) 2.0 (0.6, 4.6) 26 3.6 (1.0, 9.5) 5.2 (1.6, 13.5) 44
+Risk group
+Homosexual 3.1 (1.0, 7.0) 1.6 (0.3, 4.2) 48 4.2 (1.5, 9.9) 5.0 (1.8, 12.1) 19
+Heterosexual 3.8 (0.6, 13.7) 3.3 (0.2, 14.1) 13 2.6 (0.0, 11.7) 3.3 (0.2, 14.1) 27
+Injecting drug user 4.9 (1.0, 16.9) 4.9 (0.9, 17.1) 0 3.4 (0.0, 22.1) 7.0 (0.5, 42.4) 106
+Baseline smoking status
+Smokers 4.2 (0.7, 14.8) 3.3 (0.4, 12.3) 21 4.5 (0.3, 21.5) 8.0 (1.1, 36.4) 78
+Nonsmokers 3.5 (0.7, 11.4) 2.6 (0.3, 9.2) 26 1.7 (0.0, 10.6) 0.8 (0.0, 7.0) 53
+PYFU, person-years of follow-up.
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+Malignancies, infection and aging in HIV 597
+and 70 years. Studies evaluating the costbenefit of
+screening programmes for HIV-positive people and targeted
+preventive interventions, such as cessation programmes
+for smoking and alcohol use and vaccinations
+for oncogenic viruses, should be considered to reduce the
+burden of avoidable cancers in the long term.
+Acknowledgements
+Conflicts of interest: JR reports personal fees from Abbvie,
+Bionor, BMS, Boehringer, Gilead, Merck, Janssen,
+Tobira, Tibotec and ViiV, outside the submitted work. OK
+has received honoraria, consultancy and/or lecture fees
+from Abbott, Gilead, GSK, Janssen, Merck, Tibotec and
+Viiv outside the submitted work. All other authors state
+no commercial or other associations that may pose a conflict
+of interest.
+Funding: Primary support for EuroSIDA is provided by
+the European Commission BIOMED 1 (CT94-1637),
+BIOMED 2 (CT97-2713), 5th Framework (QLK2-2000-
+00773), 6th Framework (LSHP-CT-2006-018632) and 7th
+Framework (FP7/2007–2013; EuroCoord n° 260694) programmes.
+Current support also includes unrestricted
+grants from Janssen R&D, Merck and Co. Inc., Pfizer Inc.
+and GlaxoSmithKline LLC. The participation of centres in
+Switzerland was supported by The Swiss National Science
+Foundation (Grant 108787). The authors have no financial
+disclosures to make.
+Author contributions: LS developed the project, analysed
+the data, and was responsible for writing the
+manuscript. AHB and OK contributed to the study design
+and analysis, interpretation of the data and writing of
+the manuscript. JL proposed the project and contributed
+to the study design, ideas for analysis, interpretation of
+the data and writing of the manuscript. BL, PD, AC, JR,
+BK, JT and IK contributed to national coordination,
+study design and writing of the manuscript. AM supervised
+the project and contributed to the study design
+and analysis, interpretation of the data and writing of
+the manuscript.
+References
+1 Silverberg MJ, Chao C, Leyden WA et al. HIV infection and
+the risk of cancers with and without a known infectious
+cause. AIDS 2009; 23 : 2337–2345.
+2 Grulich AE, van Leeuwen MT, Falster MO, Vajdic CM.
+Incidence of cancers in people with HIV/AIDS compared with
+immunosuppressed transplant recipients: a meta-analysis.
+Lancet 2008; 370: 59–67.
+3 Borges AH, Dubrow R, Silverberg MJ. Factors contributing to
+risk for cancer among HIV-infected individuals, and evidence
+that earlier combination antiretroviral therapy will alter this
+risk. Curr Opin HIV AIDS 2014; 9: 34–40.
+4 Lifson A, Lando H. Smoking and HIV: prevalence, health
+risks, and cessation strategies. Curr HIV/AIDS Rep 2012; 9:
+223–230.
+5 Green TC, Kershaw T, Lin H et al. Patterns of drug use and
+abuse among aging adults with and without HIV: a latent
+class analysis of a US Veteran cohort. Drug Alcohol Depend
+2010; 110: 208–220.
+6 Grulich AE, Jin F, Poynten IM, Vajdic CM. HIV, cancer, and
+aging. Sex Health 2011; 8: 521–525.
+7 Reekie J, Kosa C, Engsig F et al. Relationship between
+current level of immunodeficiency and non-acquired
+immunodeficiency syndrome-defining malignancies. Cancer
+2010; 116: 5306–5315.
+8 Borges AH, Silverberg MJ, Wentworth D et al. Predicting risk
+of cancer during HIV infection: the role of inflammatory and
+coagulation biomarkers. AIDS 2013; 27: 1433–1441.
+9 Seaberg EC, Wiley D, Martinez-Maza O et al. Cancer
+incidence in the multicenter AIDS cohort study before and
+during the HAART era. Cancer 2010; 116: 5507–5516.
+10 Clifford GM, Polesel J, Rickenbach M, Dal Maso L, Keiser O
+et al. Cancer Risk in the Swiss HIV Cohort Study:
+associations with immunodeficiency, smoking, and highly
+active antiretroviral therapy. J Natl Cancer Inst 2005;97:425–
+32.
+11 Engels EA, Pfeiffer RM, Goedert JJ et al. Trends in cancer
+risk among people with AIDS in the United States 1980–
+2002. AIDS 2006; 20: 1645–1654.
+12 Rodger AJ, Lodwick R, Schechter M et al. Mortality in well
+controlled HIV in the continuous antiretroviral therapy arms
+of the SMART and ESPRIT trials compared with the general
+population. AIDS 2013; 27: 973–979.
+13 Shiels MS, Pfeiffer RM, Gail MH et al. Cancer burden in the
+HIV-infected population in the United States. J Natl Cancer
+Inst 2011; 103: 753–762.
+14 Chaturvedi AK, Madeleine MM, Biggar RJ, Engels EA. Risk of
+human papillomavirus-associated cancers among persons
+with AIDS. J Natl Cancer Inst 2009; 101: 1120–1130.
+15 Centers for Disease Control and Prevention. 1993 revised
+classification system for HIV infection and expanded
+surveillance case definition for AIDS among adolescents and
+adults. MMWR Recomm Rep 1992;18(41(RR-17)):1–19.
+16 Mocroft A, Reiss P, Gasiorowski J et al. Serious fatal and
+nonfatal non-AIDS-defining illnesses in Europe. JAIDS 2010;
+55: 262–270.
+17 Mocroft A, Kirk O, Aldins P et al. Loss to follow-up in an
+international, multicentre observational study. HIV Med
+2008; 9: 261–269.
+18 World health organisation. International Statistical
+Classification of Diseases and Related Health Problems -10th
+revision 2010. 10:Available at: http://
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+598 L Shepherd et al.
+apps.who.int/classifications/icd10/browse/2010/en (accessed 8
+January 2014).
+19 Bouvard V, Baan R, Straif K et al. A review of human
+carcinogens—Part B: biological agents. Lancet Oncol 2009;
+10: 321–322.
+20 Rockhill B, Newman B, Weinberg C. Use and misuse of
+population attributable fractions. Am J Public Health 1998;
+88: 15–19.
+21 Mistry M, Parkin DM, Ahmad AS, Sasieni P. Cancer
+incidence in the United Kingdom: projections to the year
+2030. Br J Cancer 2011; 105: 1795–1803.
+22 Deeks SG, Phillips AN. HIV infection, antiretroviral
+treatment, ageing, and non-AIDS related morbidity. BMJ
+2009;338:a3172.
+23 Howlader N, Noone AM, Krapcho M et al. SEER Cancer
+Statistics Review, 1975–2011 2014. Available at: http://
+seer.cancer.gov/csr/1975_2011/ (accessed 10 April 2014).
+24 Silverberg MJ. Risk of cancers during interrupted
+antiretroviral therapy in the SMART study. AIDS 2007; 21:
+1957–1963.
+25 Patel P, Hanson DL, Sullivan PS et al. Incidence of types of
+cancer among HIV-Infected persons compared with the
+general population in the United States, 1992–2003. Ann
+Intern Med 2008; 148: 728–736.
+26 Worm SW, Bower M, Reiss P et al. Non-AIDS defining
+cancers in the D:A: D Study–time trends and predictors of
+survival: a cohort study. BMC Infect Dis 2013; 13: 471.
+27 Clifford GM, Rickenbach M, Lise M et al. Hodgkin lymphoma
+in the Swiss HIV Cohort Study. Blood 2009; 113: 5737–5742.
+28 Smith BD, Smith GL, Hurria A, Hortobagyi GN, Buchholz TA.
+Future of cancer incidence in the United States: burdens
+upon an aging, Changing Nation. J Clin Oncol 2009; 27:
+2758–2765.
+29 Grønborg Laut K, Mocroft A, Lazarus J et al. Regional
+differences in self-reported HIV care and management in the
+EuroSIDA study. J Int Aids Soc 2014;17:(4 Suppl 3)19504.
+Appendix (1): the EuroSIDA Study Group
+The multi-centre EuroSIDA study group
+(national coordinators in parentheses)
+Argentina: (M. Losso), M. Kundro, Hospital JM Ramos
+Mejia, Buenos Aires. Austria: (N. Vetter), Pulmologisches
+Zentrum der Stadt Wien, Vienna; R. Zangerle, Medical
+University Innsbruck, Innsbruck. Belarus: (I. Karpov), A.
+Vassilenko, Belarus State Medical University, Minsk; V.
+M. Mitsura, Gomel State Medical University, Gomel; O.
+Suetnov, Regional AIDS Centre, Svetlogorsk. Belgium: (N.
+Clumeck), S. De Wit, M. Delforge, Saint-Pierre Hospital,
+Brussels; E. Florence, Institute of Tropical Medicine,
+Antwerp; L. Vandekerckhove, University Ziekenhuis Gent,
+Gent. Bosnia-Herzegovina: (V. Hadziosmanovic), Klinicki
+Centar Univerziteta Sarajevo, Sarajevo. Bulgaria: (K. Kostov),
+Infectious Diseases Hospital, Sofia. Croatia: (J. Begovac),
+University Hospital of Infectious Diseases, Zagreb.
+Czech Republic: (L. Machala), D. Jilich, Faculty Hospital
+Bulovka, Prague; D. Sedlacek, Charles University Hospital,
+Plzen. Denmark: (J. Nielsen), G. Kronborg, T. Benfield, M.
+Larsen, Hvidovre Hospital, Copenhagen; J. Gerstoft, T.
+Katzenstein, A-B. E. Hansen, P. Skinhøj, Rigshospitalet,
+Copenhagen; C. Pedersen, Odense University Hospital,
+Odense; L. Ostergaard, Skejby Hospital, Aarhus; U. B.
+Dragsted, Roskilde Hospital, Roskilde; L. N. Nielsen, Hillerod
+Hospital, Hillerod. Estonia: (K. Zilmer), West-Tallinn
+Central Hospital, Tallinn; J. Smidt, Nakkusosakond Siseklinik,
+Kohtla-J€arve. Finland: (M. Ristola), Helsinki University
+Central Hospital, Helsinki. France: (C. Katlama),
+H^opital de la Pitie-Salpetiere, Paris; J-P. Viard, H^otel-
+Dieu, Paris; P-M. Girard, Hospital Saint-Antoine, Paris; P.
+Vanhems, University Claude Bernard, Lyon; C. Pradier,
+H^opital de l’Archet, Nice; F. Dabis, D. Neau, Unite
+INSERM, Bordeaux, C. Duvivier, H^opital Necker-Enfants
+Malades, Paris. Germany: (J. Rockstroh), Universit€ats Klinik,
+Bonn; R. Schmidt, Medizinische Hochschule, Hannover;
+J. van Lunzen, O. Degen, University Medical
+Center Hamburg-Eppendorf, Infectious Diseases Unit,
+Hamburg; H. J. Stellbrink, IPM Study Center, Hamburg;
+M. Bickel, J. W. Goethe University Hospital, Frankfurt; J.
+Bogner, Medizinische Poliklinik, Munich; G. F€atkenheuer,
+Universit€at K€oln, Cologne. Greece: (J. Kosmidis), P. Gargalianos,
+G. Xylomenos, J. Perdios, Athens General
+Hospital, Athens; H. Sambatakou, Ippokration Genereal
+Hospital, Athens. Hungary: (D. Banhegyi), Szent Laslo
+Hospital, Budapest. Iceland: (M. Gottfredsson), Landspitali
+University Hospital, Reykjavik. Ireland: (F. Mulcahy), St
+James’s Hospital, Dublin. Israel: (I. Yust), D. Turner, M.
+Burke, Ichilov Hospital, Tel Aviv; S. Pollack, G. Hassoun,
+Rambam Medical Center, Haifa; H. Elinav, M. Haouzi,
+Hadassah University Hospital, Jerusalem. Italy: (A.
+D’Arminio Monforte), Istituto Di Clinica Malattie Infettive
+e Tropicale, Milan; R. Esposito, I. Mazeu, C. Mussini,
+Universita Modena, Modena; C. Arici, Ospedale Riuniti,
+Bergamo; R. Pristera, Ospedale Generale Regionale, Bolzano;
+F. Mazzotta, A. Gabbuti, Ospedale S Maria Annunziata,
+Firenze; V. Vullo, M. Lichtner, University di Roma
+la Sapienza, Rome; A. Chirianni, E. Montesarchio, M.
+Gargiulo, Presidio Ospedaliero AD Cotugno, Monaldi
+Hospital, Napoli; G. D‘Offizi, C. Taibi, A. Antinori, Istituto
+Nazionale Malattie Infettive Lazzaro Spallanzani, Rome;
+A. Lazzarin, A. Castagna, N. Gianotti, Ospedale San Raffaele,
+Milan; M. Galli, A. Ridolfo, Osp. L. Sacco, Milan.
+Latvia: (B. Rozentale), I. Zeltina, Infectology Centre of
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+Malignancies, infection and aging in HIV 599
+Latvia, Riga. Lithuania: (S. Chaplinskas), Lithuanian AIDS
+Centre, Vilnius. Luxembourg: (T. Staub), R. Hemmer, Centre
+Hospitalier, Luxembourg. The Netherlands: (P. Reiss),
+Academisch Medisch Centrum bij de Universiteit van
+Amsterdam, Amsterdam. Norway: (V. Ormaasen), A. Maeland,
+J. Bruun, Ulleval Hospital, Oslo. Poland: (B. Knysz)
+J. Gasiorowski, Medical University, Wroclaw; A. Horban,
+E. Bakowska, Centrum Diagnostyki i Terapii AIDS, Warsaw;
+A. Grzeszczuk, R. Flisiak, Medical University, Bialystok;
+A. Boron-Kaczmarska, M. Pynka, M. Parczewski,
+Medical Univesity, Szczecin; M. Beniowski, E. Mularska,
+Osrodek Diagnostyki i Terapii AIDS, Chorzow; H. Trocha,
+Medical University, Gdansk; E. Jablonowska, E. Malolepsza,
+K. Wojcik, Wojewodzki Szpital Specjalistyczny, Lodz.
+Portugal: (M. Doroana), M. Doroana, L. Caldeira, Hospital
+Santa Maria, Lisbon; K. Mansinho, Hospital de Egas
+Moniz, Lisbon; F. Maltez, Hospital Curry Cabral, Lisbon.
+Romania: (D. Duiculescu), Spitalul de Boli Infectioase si
+Tropicale: Dr. Victor Babes, Bucarest. Russia: (A. Rakhmanova),
+Medical Academy Botkin Hospital, St Petersburg;
+A. Rakhmanova, St Petersburg AIDS Centre, St
+Peterburg; S. Buzunova, Novgorod Centre for AIDS, Novgorod;
+I. Khromova, Centre for HIV/AIDS and Infectious
+Diseases, Kaliningrad; E. Kuzovatova, Nizhny Novgorod
+Scientific and Research Institute, Nizhny Novogrod. Serbia:
+(D. Jevtovic), The Institute for Infectious and Tropical
+Diseases, Belgrade. Slovakia: (M. Mokras), D. Stanekova,
+Derer Hospital, Bratislava. Slovenia: (J. Tomazic), University
+Clinical Centre Ljubljana, Ljubljana. Spain: (J.
+Gonzalez-Lahoz), V. Soriano, P. Labarga, Hospital Carlos
+III, Madrid; S. Moreno, J. M. Rodriguez, Hospital Ramon
+y Cajal, Madrid; B. Clotet, A. Jou, R. Paredes, C. Tural, J.
+Puig, I. Bravo, Hospital Germans Trias i Pujol, Badalona;
+J. M. Gatell, J. M. Miro, Hospital Clinic i Provincial, Barcelona;
+P. Domingo, M. Gutierrez, G. Mateo, M. A. Sambeat,
+Hospital Sant Pau, Barcelona; J. Medrano, Hospital
+Universitario de Alava, Vitoria-Gasteiz. Sweden: (A. Blaxhult),
+Venhaelsan-Sodersjukhuset, Stockholm; L. Flamholc,
+Malm€o University Hospital, Malm€o; A. Thalme, A.
+Sonnerborg, Karolinska University Hospital, Stockholm.
+Switzerland: (B. Ledergerber), R. Weber, University Hospital,
+Z€urich; P. Francioli, M. Cavassini, Centre Hospitalier
+Universitaire Vaudois, Lausanne; B. Hirschel, E. Boffi,
+Hospital Cantonal Universitaire de Geneve, Geneve; H.
+Furrer, Inselspital Bern, Bern; M. Battegay, L. Elzi,
+University Hospital Basel, Basel; P. Vernazza, Kantonsspital,
+St Gallen. Ukraine: (E. Kravchenko), N. Chentsova,
+Kiev Centre for AIDS, Kiev; V. Frolov, G. Kutsyna,
+Luhansk State Medical University, Luhansk; S. Servitskiy,
+Odessa Region AIDS Center, Odessa; A. Kuznetsova, Kharkov
+State Medical University, Kharkov; G. Kyselyova,
+Crimean Republican AIDS Centre, Simferopol. UK: (B.
+Gazzard), St Stephen’s Clinic, Chelsea and Westminster
+Hospital, London; A. M. Johnson, E. Simons, Mortimer
+Market Centre, London; A. Phillips, M. A. Johnson, A.
+Mocroft, Royal Free and University College Medical
+School, London (Royal Free Campus); C. Orkin, Royal
+London Hospital, London; J. Weber, G. Scullard, Imperial
+College School of Medicine at St Mary’s, London; M.
+Fisher, Royal Sussex County Hospital, Brighton; C. Leen,
+Western General Hospital, Edinburgh.
+Steering Committee: J. Gatell, B. Gazzard, A. Horban, I.
+Karpov, B. Ledergerber, M. Losso, A. D’Arminio Monforte,
+C. Pedersen, A. Rakhmanova, M. Ristola, J. Rockstroh
+(Chair), S. De Witt (Vice-Chair).
+Additional voting members: J. Lundgren, A. Phillips, P.
+Reiss.
+Coordinating Centre Staff: O. Kirk, A. Mocroft, A.
+Cozzi-Lepri, D. Grint, A. Schultze, L. Shepherd, D. Raben,
+D. Podlekareva, J. Kjær, L. Peters, J. E. Nielsen, C. Matthews,
+A. H. Fischer, A. Bojesen.
+EuroSIDA representatives to EuroCoord: O. Kirk, A.
+Mocroft, J. Grarup, P. Reiss, A. Cozzi-Lepri, R. Thiebaut,
+J. Rockstroh, D. Burger, R. Paredes, J. Kjær. L. Peters.
+© 2016 British HIV Association HIV Medicine (2016), 17, 590--600
+600 L Shepherd et al.
+Copyright of HIV Medicine is the property of Wiley-Blackwell and its content may not be
+copied or emailed to multiple sites or posted to a listserv without the copyright holder's
+express written permission. However, users may print, download, or email articles for
+individual use.
