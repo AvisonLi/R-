@@ -1,0 +1,591 @@
+Review Article
+Emerging Issues in Occupational Disease: Mental Health in the
+Aging Working Population and Cognitive Impairment—A
+Narrative Review
+Gabriele Giorgi,1 Luigi I. Lecca ,2 Jose M. Leon-Perez,3 Silvia Pignata ,4 Gabriela Topa,5
+and Nicola Mucci 2
+1Department of Human Sciences, European University of Rome, Via Degli Aldobrandeschi, 190, 00163 Rome, Italy
+2Department of Experimental and Clinical Medicine, University of Florence, Largo Piero Palagi 1, 50139 Florence, Italy
+3Department of Social Psychology, University of Seville, Camilo Jose Cela s/n, 41018 Sevilla, Spain
+4Aviation Faculty School of Engineering, University of South Australia, Adelaide, SA, Australia
+5Department of Social and Organizational Psychology, National Distance Education University (UNED), Madrid 28040, Spain
+Correspondence should be addressed to Luigi I. Lecca; luigiisaia.lecca@unifi.it
+Received 18 May 2019; Accepted 7 January 2020; Published 30 January 2020
+Academic Editor: Diane Ruge
+Copyright © 2020 Gabriele Giorgi et al. *is is an open access article distributed under the Creative Commons Attribution
+License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is
+properly cited.
+Cognitive impairment has often been reported in scientific literature as a concern derived from chronic exposure to work-related
+stress. Organizational factors can contribute to the onset of this concern especially in a susceptible population such as elderly
+workers. *eaim of our study was to review the last five years of scientific literature, focusing on experimental and epidemiological
+studies, possible mechanisms implicated in the onset of cognitive decline due to work-related stress, and the recent organizational
+strategies to prevent detrimental effects of stress on cognitive processes. A literature search was performed in scientific platforms
+Medline and Web of Science, by means of specific string search terms, restricting the search to the years of publication 2014–2019.
+*irty-three articles were identified and qualitatively evaluated, reporting narratively the main point of interest. At this stage, six
+articles were excluded because they did not meet the inclusion criteria. Only a few articles considered the population of the elderly
+workers, often with a short follow-up period. Strategies to manage stress with organizational procedures are scarce. Mechanisms
+implicated in the development of cognitive impairment due to stress are not fully explained and seem to include a chronical
+decrease in the inhibitory process of neurological pathways. Further research that focused on strategies to manage stress in elderly
+workers, with the aim of preventing cognitive impairment processes, is warranted.
+1. Introduction
+Mental health in occupational settings is a major topic for
+occupational medicine, psychology, and social science [1, 2],
+with important implications for general health, psychological
+well-being, and company productivity [3, 4]. Since the
+decrease of classic occupational disease, due to the general
+improvement of working conditions, more attention is being
+paid to the mental well-being of employees. In the last five
+years, a consistent number of publications have been produced
+on this topic [5–8]. Modern industry 4.0 is changing
+the way of working, requiring high mental performance
+along with low physical effort. In fact, industry 4.0 represents
+the global trend towards automation and data exchange in
+manufacturing technologies. *e term industry 4.0, often
+intended as a synonym of the fourth industrial revolution,
+include innovative processes such as the Internet of things
+(IoT), cyberphysical systems, and cognitive computing and
+artificial intelligence. Modern 4.0 factories are characterized
+by high connectivity between production lines and operators’
+control through a system that can visualise the entire
+production line and make decisions on its own.
+*is high technological scenario needs extensive
+adaptability of the workforce, and some population groups,
+such as elderly workers, could be more vulnerable to develop
+stress due to being less predisposed to change [9, 10].
+Hindawi
+BioMed Research International
+Volume 2020, Article ID 1742123, 6 pages
+https://doi.org/10.1155/2020/1742123
+*e global aging of the working population could
+contribute to the problem that needs policy strategies to
+support and promote an active aging of the elderly population
+[11], considering also the occupational stress contribution
+to poor psychological and physical health, in terms
+of work-related stress, work-family conflict, shift work, and
+bullying behaviors [12, 13]. Since elderly people are per se
+more prone to develop a cognitive impairment due to their
+age advancing [14], the other risk factors that can accelerate
+this process may be prevented [15, 16]. A relationship between
+work-related stress and cognitive impairment has
+been recently reported in several scientific reports and literature
+reviews [17, 18]. *us, there is sufficient evidence to
+consider work-related stress as a factor that is able to
+contribute to cognitive impairment. Since work-related
+stress could lead to cognitive impairment, its impact on a
+more susceptible population, such as elderly people, could be
+more pronounced. *e role of occupational stress in the
+development of cognitive impairment and its impact on the
+elderly workforce have not been fully investigated, and the
+mechanisms implicated and organizational strategies to
+prevent the onset of stress and its consequences are not fully
+understood.*e aim of this study was to investigate, through
+a narrative literature review restricted to the last five years,
+the relationship of work-related stress on cognitive impairment
+in the elderly working population, along with
+organizational preventive strategies and the pathophysiological
+causes of the mental decline attributable to high
+psychologically demanding work environments.
+2. Materials and Methods
+A literature review was performed in Medline and Web of
+Science databases. We considered articles published in the
+last five years, from 1 January 2014 to 31 March 2019. We
+selected articles published in the English language, including
+only studies performed with human samples. Following the
+PICO strategy for scientific research (population, intervention,
+comparison, and outcomes) [19], a specific string of
+search was used, including the most common search term
+for each PICO topic: Population, Intervention, Comparison,
+and Outcome.
+Inclusion criteria were as follows:
+(i) Study population: working population aged over 18
+years
+(ii) Study design: cross-sectional studies, longitudinal
+studies with a follow-up case, case-control studies,
+and randomized clinical trials
+(iii) Exposure: work-related stress, occupational stress,
+job strain, job control, job support, and effort-reward
+imbalance
+(iv) Outcome: cognitive abilities measured in terms of
+errors, injuries, processing speed, alertness, distraction,
+memory, and testing of intellectual skills
+(e.g., intelligence)
+(v) Publication type: articles in scientific journals
+Exclusion criteria were as follows:
+(i) Study population: working population less than 18
+years old and animal samples
+(ii) Study design: reviews, meta-analyses, and case report
+studies
+(iii) Exposure: psychological stress related to caregiver
+activity, physical stress, chemical exposure, biological
+risk factors exposure, heat stress, and oxidative
+stress
+(iv) Outcome: short-term cognitive impairment and
+structural changes of the brain
+(v) Publication type: letters to the editor, comments,
+abstracts, and book chapters
+*e following search terms were combined in several
+search term strings:
+Population: workers, occupational group, working
+population, work, job, and job task. Exposure: stress, workrelated
+stress, job strain, strain, job demand, job control, job
+support, effort, reward, effort-reward imbalance, organizational
+factors, and work organization. Outcome: cognitive
+impairment, cognitive effects, cognitive behavior, memory,
+and cognitive tasks.
+A total of 214 articles were identified and listed to
+evaluate if they met the inclusion criteria. By means of a titleabstract
+screening, articles were defined as eligible for inclusion
+and then integrally read. Only articles that met the
+inclusion criteria were then included after a complete
+reading of the full text.
+3. Results and Discussion
+Figure 1 shows a flow diagram of the literature search
+strategy and the review process following PRISMA 2009 flow
+diagram rules [20]. Twenty-seven articles that met inclusion
+criteria at the title-abstract reading stage were identified and
+evaluated.
+A consistent number of studies about the relationship
+between occupational stress and cognitive impairment in the
+aging population were published. Recent research focused
+not only on the onset of dementia or Alzheimer’s disease [21]
+but also on those subclinical changes in mental performance
+that can conduce a more important cognitive decline in
+elderly people.
+A clinical case-control study performed by Eskildsen
+et al. [22] considered the relationship between work-related
+stress and the impairment in neuropsychological test performance,
+finding that self-reported stress patients had the
+worst performance in prospective memory, speed, and
+complex working memory, compared with controls without
+work-related stress. Despite this, the cross-sectional study
+design does not allow the inference about the causality of
+occupational stress affecting neuropsychological performances.
+Moreover, chronic cognitive impairment cannot be
+evaluated with a cross-sectional study design. *e same
+authors repeated the assessment of neuropsychological
+performance in the same group of patients and controls after
+one year [23] and found that the former patients with
+prolonged work-related stress continued to perform worse
+2 BioMed Research International
+than controls, with a significant impairment also in memory
+function. Despite the short follow-up of only one year, the
+study demonstrated that prolonged work-related stress
+could have a detrimental prolonged effect on cognitive
+function. Another study by Eskildsen and colleagues in 2017
+investigated a change in cognitive impairments in midlife
+patients (mean age: 44 years) with work-related stress and
+found a partial association with a change in perceived stress
+and sleep disturbances over time [24].
+Focusing on elderly people, two studies conducted by
+Sindi et al. in 2017 [21, 25] strengthen the hypothesis of an
+influence of work-related stress on cognitive performances.
+*ey found a significant association between higher levels of
+midlife work-related stress (mean age at the baseline of 50
+years) and worse performance on global cognition and
+processing speed and a higher risk of mild cognitive impairment,
+dementia, and Alzheimer’s disease in later life
+(mean ages at the reexamination phases of 71 and 78 years,
+respectively).*e association was not seen after the extended
+follow-up possibly reflecting a critical time window for the
+effects of midlife stress. *e long mean follow-up period (25
+years) and the adequate sample size (2000 subjects at the
+initial phase) make the study a high-quality investigation.
+*e importance of considering the subclinical effects of
+cognitive impairment due to work-related stress has to be
+considered in light of how this can impact the global
+population level, resulting in worse cognitive performance.
+Similar evidence was reported by Agbenyikey et al. [26],
+who found that high job strain and low job control, at
+midlife, in a sample of 1429 Caucasian residents (median age
+at the baseline of 46 years) are associated with decline in
+verbal learning and memory, with a more evident association
+for the younger subgroup of participants (<65 years).
+Considering that, in the European Union (EU) Member
+States, the most general retirement age is 65 years [27], a
+more pronounced association exactly in this age class underlines
+the importance of this evidence in a population that
+is still working. Consistent with Sindi et al.’s study, the onset
+of cognitive impairment seems to have a window period in
+the youngest old instead of the oldest old.
+On the other hand, a longitudinal study performed by
+Andel et al. [28] found that less job control and greater job
+strain were not significantly associated with change in episodic
+memory in the period leading up to retirement but
+were associated with significantly poorer episodic memory
+at retirement and an accelerated rate of decline in episodic
+memory following retirement. A longitudinal study performed
+by Sabbath and colleagues, published in 2016, deals
+with the problem of cognitive impairment in older age, by
+investigating which psychosocial work characteristics are
+able to predict changes in a cognitive function [29] of a
+sample aged more than 55 years. *ey argue, in an inconclusive
+manner, that low-control jobs during working life
+may be associated with impairments in cognitive function in
+Records identified through
+database searching
+(n = 194)
+Included Eligibility Screening Identification
+Additional records identified
+through other sources
+(n = 27)
+Records aer duplicates removed
+(n = 214)
+Records screened
+(n = 214)
+Records excluded
+(n = 181)
+Full-text articles assessed
+for eligibility
+(n = 33)
+Full-text articles excluded
+(n = 6)
+Studies included in
+qualitative synthesis
+(n = 27)
+Figure 1: Flow diagram of the literature search strategy and review process, following PRISMA 2009 flow diagram rules.
+BioMed Research International 3
+early old age. *ese findings are in line with the aforementioned
+studies, adding new insight about how kinds of
+psychological work characteristics are more prone to promote
+a cognitive impairment, such as types of work characterized
+by a low decision latitude. Improving job control
+could be a valid strategy to slow down cognitive decline due
+to the combined effect of age and work stress.
+Another longitudinal study performed by Rijs and
+colleagues in a population of employees aged 55–64, considering
+nonemployees as the control group, found that
+middle-aged workers are equally likely to experience
+memory complaints as nonworking age-peers, but on the
+other hand, among workers, those with cognitively demanding
+work were more likely to have memory complaints
+[30]. Jonsdottir and colleagues presented a case-control
+follow-up, testing the differences in the cognitive assessment
+of patients with stress-related exhaustion several years after
+they initially sought medical care [31]. *ey found that
+patients (mean age of 46 years at the baseline) still performed
+significantly poorer than controls (mean age of 50 years at
+the baseline) with regard to cognitive functions, suggesting a
+prolonged effect of work-related stress exhaustion that has to
+be taken into consideration at the moment of their return to
+work. In fact, a cognitive impairment could still be present at
+the resumption of the work activity, contributing to worse
+job performance. However, the small sample size limited the
+interpretation of results. Focusing on the postmenopausal
+women, in a study conducted in women aged between 45
+and 66 years, negative correlations were observed between
+the majority of cognitive functions and the intensity of stress
+at work and the majority of factors that caused this stress
+[32].
+Possible mechanisms implicated in cognitive impairment
+due to work-related stress exposure have been investigated
+by Landolt and colleagues [33]. Although the
+study was conducted in a small population of young workers
+between 16 and 24 years, the results suggest that a reduction
+in vagal activity seems to have a detrimental effect on reducing
+decision making and reaction time in subjects exposed
+to prolonged work-related stress. A study by Marshall
+and colleagues in a sample with a mean age of 68 years [34]
+suggested a role of stress on affecting elderly participants’
+inhibitory control in attentional and sensorimotor domains.
+Results of this study are in the same direction of research
+performed by Landolt and colleagues, supposing a reduction
+in vagal activity and inhibitory control as a mechanism able
+to affect cognitive performance, although the first was
+performed in a young population (mean age: 18 years), and
+the second in an elderly population (mean age: 68 years),
+considering as a control group a sample of young subjects
+(mean age: 21 years).
+Sokka and colleagues conducted an experimental casecontrol
+study in 2016 [35] in a sample of 30 participants
+affected by burnout (mean age of 47 years) and observed a
+decrease in working-memory related P3b responses over the
+posterior scalp and an increase over frontal areas, with
+respect to the control group. *ese results suggest that
+burnout is associated with deficits in the cognitive control
+needed to monitor and update information in working
+memory. Boschi and colleagues found that a relationship
+between high cognitive disorganisation and high cardiopulmonary
+and anger scores as well as low perceived selfefficacy
+was associated with high cognitive disorganisation,
+suggesting a putative role of thinking patterns and state of
+mind on visceral factors. In particular, perception of what is
+stressful may lead to the body’s stress activation pathways,
+which in turn may cause cognitive impairment [36]. Interactions
+between social and genetic risk factors have been
+investigated by Hasselgren who found a significant effect of
+work control on dementia risk only for men, along with a
+moderation effect of the major genetic risk factor for Alzheimer’s
+disease, that is, apolipoprotein E allele [37]. *ese
+findings highlight the importance of such interactions between
+social and genetic risk factors to better understand
+multifactorial diseases such as dementia.
+Some studies deal with the efficacy evaluation of a stressmanagement
+intervention, such as an aerobic training
+program or an individual cognitive behavior therapy, on
+improving cognitive performance in workers exposed to
+occupational stress, by means of a controlled randomized
+clinical trial. While aerobic training at a moderate-vigorous
+intensity within a multimodal rehabilitation program seems
+to improve episodic memory in patients (mean age of 42
+years) with work-related exhaustion disorder [38], the
+combination of an individual cognitive behavioral therapy
+(CBT) with a brief workplace intervention fails to demonstrate
+a reduction in cognitive difficulties at any time point
+during a 10-month follow-up [39]. A possible contribution
+of a better work organization for the prevention of a cognitive
+decline in aging workforces was suggested by a longitudinal
+study performed by Riedel and colleagues [40].
+*ey reported a positive association of balanced exchange
+between high effort and high reward at work with improved
+cognitive function over 6 years among a group of the
+middle-aged population (mean age of 44 years at the
+baseline), where the cognitive function was assessed by
+perceptual speed and verbal fluency. Further research aimed
+at clarifying the best strategies to improve cognitive performance
+impairment due to work-related stress is
+warranted.
+In a cross-sectional study performed by Allan and colleagues
+[41], high occupational stress was related to more
+frequent failures of attention, memory, and concentration in
+telephone nurses (mean age of 41 years), with relevant
+consequences on the decision-making process. Due to the
+cross-sectional study design, it is not possible to make inferences
+about the direction of causality in the reported
+associations. Nevertheless, it is important to underline the
+possible impact of cognitive failure in job tasks with high
+responsibility, such as health care workers. *ese results
+suggest that burnout is associated with deficits in the cognitive
+control needed to monitor and update information in
+working memory. Similarly, Barbe et al. found a linkage
+between perceived stress, subjective concerns about cognitive
+function, and impairment of work function [42]. On the
+contrary, Lees and Lal did not find any association between
+stress and cognitive performance in a sample of middle-aged
+nurses with a mean age of 37 years [43].
+4 BioMed Research International
+A case-control study conducted by Golonka and colleagues
+deepened the psychobiological nature of burnout
+and its effect on cognitive impairment by means of an EEG
+monitoring during a specific error monitoring trial. *ey
+found emerging cognitive problems in the nonclinical
+burnout group with respect to the control group [44]. Once
+again, the mean age of participants was 36 years old. *at
+middle age class does not allow these findings to be extended
+to older workers.
+4. Conclusions
+Our narrative review provides an update of the emerging
+problem of the decline of cognitive performance in elderly
+workers exposed to work-related stress. Despite the relevant
+number of studies published on the topic of cognitive impairment
+due to work-related stress, few studies were
+conducted in an elderly population of workers that is per se
+more prone to develop cognitive impairment, due to the
+multifactor causality of this problem. In conclusion, the
+present narrative review highlighted the importance of
+taking into consideration the subclinical detrimental effect
+of stress on the mental performance of workers exposed to
+prolonged work-related stress, especially in those jobs that
+require a high level of concentration and decision making
+resources. Moreover, some gender and genetic factors seem
+to play a relevant role in the complex linkage between workrelated
+stress and cognitive impairment, underlying a
+multifactor genesis of cognitive outcomes including organizational,
+genetic, and behavioral factors. *ese findings
+can be useful to target improvement strategies aimed at
+enhancing the active aging of the population of the elderly
+workers. Further research is warranted to enhance our
+understanding of how a better organizational environment
+can improve the psychological and mental health of elderly
+workers.
+Conflicts of Interest
+*e authors declare that there are no conflicts of interest
+regarding the publication of this paper.
+References
+[1] A. D. LaMontagne, A. Martin, K. M. Page et al., “Workplace
+mental health: developing an integrated intervention approach,”
+BMC Psychiatry, vol. 14, p. 131, 2014.
+[2] G. Giorgi, G. Arcangeli, and V. Cupelli, Stress Questionnaire,
+Hogrefe Editore, Firenze, Italy, 2013.
+[3] A. Baumann, M. Muijen, and W. Gaebel, Eds., Mental
+Health and Well-Being at the Workplace—Protection and
+Inclusion in Challenging times, World Health Organization,
+Europe, 2010, http://www.euro.who.int/__data/assets/pdf_
+file/0018/124047/e94345.pdf.
+[4] L. Lecca, M. Campagna, I. Portoghese et al., “Work related
+stress, well-being and cardiovascular risk among flight logistic
+workers: an observational study,” International Journal of
+Environmental Research and Public Health, vol. 15, no. 9,
+p. 1952, 2018.
+[5] J. Johnson, L. H. Hall, K. Berzins, J. Baker, K. Melling, and
+C. *ompson, “Mental healthcare staff well-being and
+burnout: a narrative review of trends, causes, implications,
+and recommendations for future interventions,” International
+Journal of Mental Health Nursing, vol. 27, no. 1, pp. 20–32,
+2018.
+[6] S. Carolan, P. R. Harris, and K. Cavanagh, “Improving employee
+well-being and effectiveness: systematic review and
+meta-analysis of web-based psychological interventions delivered
+in the workplace,” Journal of Medical Internet Research,
+vol. 19, no. 7, p. e271, 2017.
+[7] T. Gao, X. Ding, J. Chai et al., “*e influence of resilience on
+mental health: the role of general well-being,” International
+Journal of Nursing Practice, vol. 23, no. 3, p. e12535, 2017.
+[8] M. Surya, D. Jaff, B. Stilwell, and J. Schubert, “*e importance
+of mental well-being for health professionals during complex
+emergencies: it is time we take it seriously,” Global Health:
+Science and Practice, vol. 5, no. 2, pp. 188–196, 2017.
+[9] V. Leso, L. Fontana, and I. Iavicoli, “*e occupational health
+and safety dimension of industry 4.0,” La Medicina Del
+Lavoro, vol. 110, no. 5, pp. 327–338, 2018.
+[10] W. F. Cascio and R. Montealegre, “How technology is
+changing work and organizations,” Annual Review of Organizational
+Psychology and Organizational Behavior, vol. 3,
+no. 1, pp. 349–375, 2016.
+[11] S. Aiyar, C. Ebeke, and X. Shao, >e Impact of Workforce
+Aging on European Productivity, IMF Working Paper, 2016,
+https://www.imf.org/external/pubs/ft/wp/2016/wp16238.pdf,
+2016.
+[12] G. L. Finstad, A. Ariza-Montes, G. Giorgi, L. I. Lecca,
+G. Arcangeli, and N. Mucci, “*e JDCS model and blue-collar
+bullying: decent working conditions for a healthy environment,”
+International Journal of Environmental Research and
+Public Health, vol. 16, no. 18, p. 3411, 2019.
+[13] L. I. Lecca, I. Portoghese, N. Mucci et al., “Association between
+work-related stress and QT prolongation in male
+workers,” International Journal of Environmental Research
+and Public Health, vol. 16, no. 23, p. 4781, 2019.
+[14] N. L. Campbell, F. Unverzagt, M. A. LaMantia, B. A. Khan,
+and M. A. Boustani, “Risk factors for the progression of mild
+cognitive impairment to dementia,” Clinics in Geriatric
+Medicine, vol. 29, no. 4, pp. 873–893, 2013.
+[15] T. Hughes and M. Ganguli, “Modifiable midlife risk factors for
+late-life cognitive impairment and dementia,” Current Psychiatry
+Reviews, vol. 5, no. 2, pp. 73–92, 2009.
+[16] G. Rakesh, S. T. Szabo, G. S. Alexopoulos, and A. S. Zannas,
+“Strategies for dementia prevention: latest evidence and
+implications,” >erapeutic Advances in Chronic Disease, vol. 8,
+no. 8-9, pp. 121–136, 2017.
+[17] F. S. *en, T. Luck, M. Luppa et al., “Systematic review of the
+effect of the psychosocial working environment on cognition
+and dementia,” Occupational and Environmental Medicine,
+vol. 71, no. 5, pp. 358–365, 2014.
+[18] F. Ippoliti, P. Corbosiero, N. Canitano et al., “Work-related
+stress, over-nutrition and cognitive disability,” La Clinica
+Terapeutica, vol. 168, no. 1, pp. e42–e47, 2017.
+[19] X. Huang, J. Lin, and D. Demner-Fushman, “Evaluation of
+PICO as a knowledge representation for clinical questions,” in
+Proceedings of the AMIA Annual Symposium 2006, pp. 359–
+363, Washington, DC, USA, 2006.
+[20] D. Moher, A. Liberati, J. Tetzlaff, D. G. Altman, and *e
+PRISMA Group, “PRISMA 2009 flow diagram,” PLoS Med,
+vol. 6, no. 7, Article ID e1000097, 2009.
+[21] S. Sindi, I. K˚areholt, A. Solomon, B. Hooshmand, H. Soininen,
+and M. Kivipelto, “Midlife work-related stress is associated
+BioMed Research International 5
+with late-life cognition,” Journal of Neurology, vol. 264, no. 9,
+pp. 1996–2002, 2017.
+[22] A. Eskildsen, L. P. Andersen, A. D. Pedersen, S. K. Vandborg,
+and J. H. Andersen, “Work-related stress is associated with
+impaired neuropsychological test performance: a clinical
+cross-sectional study,” Stress, vol. 18, no. 2, pp. 198–207, 2015.
+[23] A. Eskildsen, L. P. Andersen, A. D. Pedersen, and
+J. H. Andersen, “Cognitive impairments in former patients
+with work-related stress complaints—one year later,” Stress,
+vol. 19, no. 6, pp. 559–566, 2016.
+[24] A. Eskildsen, H. N. Fentz, L. P. Andersen, A. D. Pedersen,
+S. B. Kristensen, and J. H. Andersen, “Perceived stress, disturbed
+sleep, and cognitive impairments in patients with
+work-related stress complaints: a longitudinal study,” Stress,
+vol. 20, no. 4, pp. 371–378, 2017.
+[25] S. Sindi, G. Hagman, K. H˚akansson et al., “Midlife workrelated
+stress increases dementia risk in later life: the CAIDE
+30-year study,” >e Journals of Gerontology Series B: Psychological
+Sciences and Social Sciences, vol. 72, no. 6, Article ID
+gbw043, 2017.
+[26] W. Agbenyikey, R. Karasek, M. Cifuentes et al., “Job strain
+and cognitive decline: a prospective study of the framingham
+offspring cohort,” >e International Journal of Occupational
+and Environmental Medicine, vol. 6, no. 2, pp. 79–94, 2015.
+[27] OECD, OECD Employment Outlook 2019—>e Future of
+Work, OECD, Paris, France, 2019, https://www.oecd.org/
+employment/Employment-Outlook-2019-Highlight-EN.pdf.
+[28] R. Andel, F. J. Infurna, E. A. Hahn Rickenbach, M. Crowe,
+L. Marchiondo, and G. G. Fisher, “Job strain and trajectories
+of change in episodic memory before and after retirement:
+results from the health and retirement study,” Journal of
+Epidemiology and Community Health, vol. 69, no. 5,
+pp. 442–446, 2015.
+[29] E. L. Sabbath, R. Andel, M. Zins, M. Goldberg, and C. Berr,
+“Domains of cognitive function in early old age: which ones
+are predicted by pre-retirement psychosocial work characteristics?,”
+Occupational and Environmental Medicine, vol. 73,
+no. 10, pp. 640–647, 2016.
+[30] K. J. Rijs, T. N. Van Den Kommer, H. C. Comijs, and
+D. J. H. Deeg, “Prevalence and incidence of memory complaints
+in employed compared to non-employed aged 55–64
+years and the role of employment characteristics,” PLoS One,
+vol. 10, no. 3, Article ID e0119192, 2015.
+[31] I. H. Jonsdottir, A. Nordlund, S. Ellbin et al., “Working
+memory and attention are still impaired after three years in
+patients with stress-related exhaustion,” Scandinavian Journal
+of Psychology, vol. 58, no. 6, pp. 504–509, 2017.
+[32] M. Gujski, J. Pinkas, T. Ju´nczyk et al., “Stress at the place of
+work and cognitive functions among women performing
+intellectual work during peri- and post-menopausal period,”
+International Journal of Occupational Medicine and Environmental
+Health, vol. 6, no. 30, pp. 943–961, 2017.
+[33] K. Landolt, P. Maruff, B. Horan et al., “Chronic work stress
+and decreased vagal tone impairs decision making and reaction
+time in jockeys,” Psychoneuroendocrinology, vol. 84,
+pp. 151–158, 2017.
+[34] A. C. Marshall, N. R. Cooper, and N. Geeraert, “Experienced
+stress produces inhibitory deficits in old adults’ Flanker task
+performance: first evidence for lifetime stress effects beyond
+memory,” Biological Psychology, vol. 113, pp. 1–11, 2016.
+[35] L. Sokka, M. Leinikka, J. Korpela et al., “Job burnout is associated
+with dysfunctions in brain mechanisms of voluntary
+and involuntary attention,” Biological Psychology, vol. 117,
+pp. 56–66, 2016.
+[36] H. Boschi, S. Trenoweth, and Z. A. Sheppard, “Stress at work:
+factors associated with cognitive disorganisation among
+private sector professionals,” Health Psychology Open, vol. 4,
+no. 2, Article ID 205510291771837, 2017.
+[37] C. Hasselgren, L. Dellve, H. Ekbrand et al., “Socioeconomic
+status, gender and dementia: the influence of work environment
+exposures and their interactions with APOE ε4,”
+SSM—Population Health, vol. 5, pp. 171–179, 2018.
+[38] T. Eskilsson, L. Slunga J¨arvholm, H. Malmberg Gavelin,
+A. Stigsdotter Neely, and C.-J. Boraxbekk, “Aerobic training
+for improved memory in patients with stress-related exhaustion:
+a randomized controlled trial,” BMC Psychiatry,
+vol. 17, no. 1, 2017.
+[39] L. Dalgaard, A. Eskildsen, O. Carstensen, M. V. Willert,
+J. H. Andersen, and D. J. Glasscock, “Changes in self-reported
+sleep and cognitive failures: a randomized controlled trial of a
+stress management intervention,” Scandinavian Journal of
+Work, Environment & Health, vol. 40, no. 6, pp. 569–581,
+2014.
+[40] N. Riedel, J. Siegrist, N. Wege, A. Loerbroks, P. Angerer, and
+J. Li, “Do effort and reward at work predict changes in
+cognitive function? First longitudinal results from the representative
+German socio-economic panel,” International
+Journal of Environmental Research and Public Health, vol. 14,
+no. 11, p. 1390, 2017.
+[41] J. L. Allan, B. Farquharson, D. W. Johnston, M. C. Jones,
+C. J. Choudhary, and M. Johnston, “Stress in telephone
+helpline nurses is associated with failures of concentration,
+attention and memory, and with more conservative referral
+decisions,” British Journal of Psychology, vol. 105, no. 2,
+pp. 200–213, 2014.
+[42] T. Barbe, L. P. Kimble, and C. Rubenstein, “Subjective cognitive
+complaints, psychosocial factors and nursing work
+function in nurses providing direct patient care,” Journal of
+Advanced Nursing, vol. 74, no. 4, pp. 914–925, 2018.
+[43] T. Lees and S. Lal, “Stress and its impact on the neurocognitive
+performance of Australian nurses,” Stress and Health, vol. 33,
+no. 1, pp. 45–54, 2017.
+[44] K. Golonka, J. Mojsa-Kaja, M. Gawlowska, and K. Popiel,
+“Cognitive impairments in occupational burnout—error
+processing and its indices of reactive and proactive control,”
+Frontiers in Psychology, vol. 8, no. 8, p. 676, 2017.
+6 BioMed Research International

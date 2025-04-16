@@ -1,0 +1,972 @@
+Review
+Extremely strong and tough hydrogels as prospective
+candidates for tissue repair – A review
+Ana M.S. Costa, João F. Mano ⇑
+3B’s Research Group – Biomaterials, Biodegradables and Biomimetics, Headquarters of the European Institute of Excellence on Tissue Engineering and
+Regenerative Medicine, University of Minho, Avepark – Parque de Ciência e Tecnologia, Zona Industrial da Gandra, 4805-017 Barco GMR, Portugal
+ICVS/3B’s – PT Government Associate Laboratory, Braga/Guimarães, Portugal
+a r t i c l e i n f o
+Article history:
+Received 21 January 2015
+Received in revised form 23 June 2015
+Accepted 28 July 2015
+Available online 30 July 2015
+Keywords:
+Natural polymers
+Self-healing
+Soft tissues
+Tough and strong hydrogels
+Well-defined architectures
+a b s t r a c t
+Ideal candidates for the repair of robust biological tissues should exhibit diverse features
+such as biocompatibility, strength, toughness, self-healing ability and a well-defined structure.
+Among the available biomaterials, hydrogels, as highly hydrated 3D-crosslinked polymeric
+networks, are promising for Tissue Engineering purposes as result of their high
+resemblance with native extracellular matrix. However, these polymeric structures often
+exhibit a poor mechanical behavior, hampering their use in load-bearing applications.
+During the last years, several efforts have been made to create new strategies and concepts
+to fabricate strong and tough hydrogels. Although it is already possible to shape the
+mechanical properties of artificial hydrogels to mimic biotissues, critical issues regarding,
+for instance, their biocompatibility and hierarchical structure are often neglected.
+Therefore, this review covers the structural and mechanical characteristics of the developed
+methodologies to toughen hydrogels, highlighting some pioneering efforts employed
+to combine the aforementioned properties in natural-based hydrogels.
+ 2015 Elsevier Ltd. All rights reserved.
+Contents
+1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 345
+2. Hydrogels with reinforced mechanical properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 346
+2.1. Functional end groups. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 347
+2.1.1. Tetra-poly(ethylene)glycol (Tetra-PEG) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 347
+2.1.2. Click chemistry-based (CCb) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 347
+2.2. Sliding crosslinks. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 347
+2.2.1. Topological (TP) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 347
+2.3. Nanostructures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 347
+2.3.1. Nanocomposite (NC) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 347
+2.3.2. Layered nanocomposite (L-NC) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+2.3.3. Dendritic nanocomposite (D-NC) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+2.4. Microparticles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+http://dx.doi.org/10.1016/j.eurpolymj.2015.07.053
+0014-3057/ 2015 Elsevier Ltd. All rights reserved.
+⇑ Corresponding author at: 3B’s Research Group – Biomaterials, Biodegradables and Biomimetics, Headquarters of the European Institute of Excellence on
+Tissue Engineering and Regenerative Medicine, University of Minho, Avepark – Parque de Ciência e Tecnologia, Zona Industrial da Gandra, 4805-017 Barco
+GMR, Portugal.
+E-mail address: jmano@dep.uminho.pt (J.F. Mano).
+European Polymer Journal 72 (2015) 344–364
+Contents lists available at ScienceDirect
+European Polymer Journal
+journal homepage: www.elsevier.com/locate/europolj
+2.4.1. Macromolecular microspheres composite (MMC) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+2.5. Supramolecular interactions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+2.5.1. Ionically crosslinked triblock copolymer (ITC) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+2.5.2. Hydrophobic interactions-based (HIb) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+2.5.3. Polyampholytes (PA) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 350
+2.5.4. Lamellar bilayer (Lb) Gel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 350
+2.6. Second network. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 350
+2.6.1. Double network (DN) Gel. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 350
+3. Natural-origin tough hydrogels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 351
+3.1. Bacterial-cellulose and Gelatin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 351
+3.2. Gellan-gum and Gelatin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 351
+3.3. Chitin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 354
+3.4. Alginate . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 354
+3.5. Agar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 356
+3.6. Carrageenan. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 356
+3.7. Hyaluronan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 357
+3.8. Chondroitin sulfate . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 358
+4. Final remarks and future trends . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 359
+Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 360
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 360
+1. Introduction
+Soft structural tissues such as cartilage, blood vessels and tendons are characterized by a high water content, load bearing
+ability (i.e. strength), fracture resistance (i.e. toughness) and softness (i.e. low modulus) [1]. For instance, cartilage, which
+contains about 75 wt% of water, is able to undertake a remarkable compressive stress of several MPa [2] without fracture,
+exhibits a toughness of more than 1000 J m2 and a nominal compressive modulus of 0.1–1.0 MPa [3]. This extraordinary
+mechanical behavior have been ascribed to a plethora of molecular and structural events occurring in biological tissues [4].
+An optimal device for the repair of robust biological soft tissues either based on regeneration or replacement strategies
+should meet several criteria such as, (i) strength to sustain the applied force, (ii) biocompatibility resorting, for instance, to
+natural polymers, (iii) a well-defined structure from the molecular to the macroscopic levels and (iv) recoverability to reversibly
+deform without fracture [1,5–8]. In the last years, many groups have been focusing their efforts in order to create these
+multifunctional systems combining the aforementioned properties [9]. One class of such materials are hydrogels, which consist
+of three-dimensional solid networks made from crosslinked hydrophilic polymer chains [10]. Owing to their outstanding
+characteristics such as water absorption and retention ability, biocompatibility and tunable physical, chemical and biological
+properties, these polymeric networks are excellent candidates for a broad range of biomedical applications [11], which
+include scaffolds for Tissue Engineering (TE) [12–14], carriers for drug delivery [11,15–18], molecular filters in biological
+science [19–21], superabsorbent devices in disposable diapers [22] and valves for microfluidics [23–25]. Furthermore, when
+exposed to an environmental signal such as temperature and pH, some sensitive hydrogels are able to respond and translate
+this stimulus into a macroscopic event, allowing their application as sensors and/or actuators and smart drug release devices
+[9,26–32]. But, perhaps, the most interesting feature about these 3D networks is their high resemblance, in terms of structure
+and physical properties, with the native extracellular matrix (ECM), highlighting their potential for TE and biomedical
+purposes [11,33–37]. However, their use in stress-bearing applications is often hindered since hydrogels, when highly
+swollen, often lack of mechanical properties such as strength, toughness, elongation and recoverability [20,38,39]. This poor
+mechanical performance is in high contrast with native structural hydrogels such as cartilage and may result in unintended
+failure in vivo [40]. Considering the aforementioned drawback, hydrogels were classified as mechanical weak materials, and
+hence, little attention was paid to them as artificial substitutes of load-bearing soft tissues. Nevertheless, in the last few
+years, new strategies and concepts have been developed to toughen hydrogels including double networks [41], topological
+[42] and nanocomposite hydrogels [43]; allowing the application of these 3D structures, for instance, as artificial substitutes
+of native tissues with structural properties similar to hydrogels such as skin [44], heart valves [45], spinal disks [46], cartilage
+[8], muscles and nerves [47,48].
+In particular, natural-origin polymers are good candidates for biomedical applications as a result of their biocompatibility
+[49], low cost and easiness to process into hydrogels [50]. Although the chemical structure of synthetic polymers is easily
+controlled when comparing with natural polymers, they often lack of cell-signaling and cell-interactive motifs which are difficult
+to mimic in laboratory and are extremely important for the material integration with the surrounding tissues [51,52].
+Several natural-based polymers have been investigated for this purpose [53] including proteins such as collagen [54] and
+gelatin [55]; and polysaccharides such as cellulose [56], chitosan [57], hyaluronan [58] and chondroitin sulfate [59].
+However, the brittleness of these hydrogels is in great contrast with the toughness of biological tissues, showing fracture
+energies of about 0.1–10 J m2 [60,61], tensile moduli ranging from 10 to 104 Pa [62] and compressive fracture stresses lower
+A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364 345
+than 1 MPa [63]. Consequently, many efforts have been done in order to apply the previously stated methods to create tough
+structures made of natural polymers for load-bearing biomedical applications.
+From all the available materials in Nature, polymers are the main constitutes of living organisms and, remarkably, biotissues
+exhibit a huge variety of functionalities [4]. This diversity has been ascribed to the tissues well-defined and complex
+structuring and, in this regard, the control over the hydrogel structure at all levels of hierarchy is also crucially important for
+the construction of biotissues substitutes [64–66].
+Another critical point that should be addressed during the design of artificial structural biomaterials is the material
+self-healing ability, which contributes to the development of longer-lasting products. Self-repairing, which is the ability
+of materials to heal from their cracks, is found in biological materials such as in bones [67], wood [68] and skin [69]. This
+property is often achieved by a dynamic bond breaking/reforming upon deformation, which protects the material backbone
+from macroscopic fracture [4,70]. This Nature inspired feature can be mimicked by replacing irreversible covalent crosslinks
+by non-covalent ones, which often result in the overall increase of hydrogels’ toughness [70]. Hydrogels with self-healing
+properties have been synthesized using different reversible interactions, for instance, electrostatic [71], hydrogen [72,73]
+and hydrophobic [74].
+This review covers the recent advances done to produce artificial soft tissues with the aforementioned characteristics.
+First, some pioneering work to fabricate hydrogels with enhanced mechanical properties will be described, highlighting
+the design concept employed and their network structure as well as the mechanism behind their outstanding toughness.
+Although hydrogels synthesized through these strategies exhibit superior mechanical properties, in most cases, not enough
+attention was paid on the biocompatibility, self-healing and their macro/micro-structure. Therefore, it will then focus on
+some natural-origin tough hydrogels produced employing the previous methodologies and their attempt to be applied as
+substitutes of biological tissues. Throughout this review, particular emphasis will be done on tough hydrogels devices with
+a well-defined architecture and self-healing properties.
+2. Hydrogels with reinforced mechanical properties
+Hydrogels are stable in aqueous solutions by virtue of crosslinking points, which can be formed either by a covalent or
+non-covalent mechanism, and thus, yielding chemical or physical hydrogels, respectively. While chemical hydrogels can be
+produced by radical polymerization, energy irradiation, chemical reactions between complementary groups and/or
+enzymatic crosslinking; physical networks are often the result of changes in environmental conditions such as temperature
+and pH, molecular entanglements and/or supramolecular interactions [75,76]. On the one hand, physical hydrogels
+generally have the advantages of gel formation under mild conditions and avoiding the use of organic solvents. On the other
+hand, chemical hydrogels have often higher mechanical properties but need toxic crosslinkers and/or solvents [19].
+Generally speaking, the mechanical properties of hydrogels arise mainly from two aspects: the intrinsic rigidity of the
+polymer chains and the crosslinking density [33]. Although their mechanical strength can be slightly enhanced by
+increasing the polymer concentration or the crosslinking density, single network hydrogels often lack of mechanical properties
+[77]. This inherent poor mechanical behavior is the result of various factors such as the (i) irregular distribution of
+crosslinking points per unit volume (crosslinking density), (ii) different polymer chains length between the crosslinking
+points (inter-crosslinking molecular weight) [78,79], (iii) high water content [80] and/or (iv) lack of energy-dissipation
+mechanisms to prevent the crack propagation [9]. Structure inhomogeneity, which results from the random aggregation
+of crosslinking points, occurs typically during the hydrogel formation. The former phenomenon is due to the differences
+in reactivity between the monomer and the crosslinker as more densely crosslinked regions are initially formed and later
+connected by large chains [81]. Moreover, when using crosslinking agents, it is difficult to ensure that the crosslinking
+process will occur at regularly separated positions, resulting in a broad distribution on the chains length. Accordingly, upon
+loading, the stress cannot be evenly distributed on the hydrogels chains and they start to break from the weakest link,
+reducing the overall mechanical properties [82,83]. Concerning the amount of water uptake, it is known that high water
+contents result in the reduction of the crosslinking density, which in turn, reduces the fracture energy as fewer chains
+are needed to be broken in order for the crack to propagate. Additionally, energy-dissipation mechanisms, for instance,
+through crystallization or viscoelastic energy dissipation are also reduced by the separation of network chains in swollen
+hydrogels [84].
+Hence, substantial efforts have been done to design and fabricate strong hydrogel structures. While some of the research
+groups focus their work in creating homogeneous structures, others take advantage of their heterogeneity. The careful
+synthesis of networks with a narrow inter-crosslinking molecular weight results in hydrogels with superior mechanical
+properties when comparing with their equivalent heterogeneous networks, because the applied load can be evenly distributed
+over their chains [85]. Contrarily, there are some studies suggesting that an optimization of the structural inhomogeneity
+rather than its removal, leads to a drastic improvement on the mechanical properties [19]. In this section, we will
+present some of the developed approaches to prepare tough and strong hydrogels. Although most of the concepts presented
+here are not suitable for cell encapsulation purposes due to their harsh processing conditions, these hydrogel systems are
+prospective candidates as artificial substitutes of load-bearing soft tissues owing to their enhanced mechanical behavior.
+These outstanding mechanical properties are the result of the incorporation of several entities in the hydrogel structure,
+namely:
+346 A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364
+2.1. Functional end groups
+2.1.1. Tetra-poly(ethylene)glycol (Tetra-PEG) Gel
+Solving the inherent inhomogeneity of conventional hydrogels, Sakai et al. reported a method to fabricate strong and
+homogeneous polymeric networks by mixing two symmetrical tetrahedron-like macromonomers of the same size [82].
+Each monomer consisted in a four-arm poly ethylene glycol (PEG) macromer with a tetrahedron-like structure differing
+on the functional terminal group; either an amine or succinimidyl ester (Fig. 1, Tetra-PEG gel) [82]. A uniform
+3D-network structure, with negligible topological defects such as entanglements [86], was obtained through the formation
+of amide bonds between the terminal groups when the stoichiometric ratio between the two macromonomers was unitary
+[87]. These gels exhibit a maximum compression stress and modulus of ca. 2.5 MPa and 40 kPa, respectively, by virtue of
+their extremely homogeneous and well-defined structure. Additionally, the Tetra-PEG hydrogels have the advantages of
+in-situ gel formation and biocompatibility, which is of extreme importance for biomedical purposes [82].
+2.1.2. Click chemistry-based (CCb) Gel
+A similar concept to the previously stated was used to fabricate homogeneous hydrogels using click chemistry [88,89],
+specifically through the copper (I)-catalyzed formation of 1,2,3-triazoles from azides and terminal acetylenes [90].
+Diacetylene- and tetraazide-functionalized PEG derivatives were mixed in presence of copper, which due to the selective
+chemical reaction employed resulted in a uniformly crosslinked network with improved mechanical properties (Fig. 1,
+CCb Gel). Indeed, the obtained hydrogels were highly stretchable (ca. up to 1550%) with a tensile strength of ca.
+2.39 MPa, which was also attributed to the well-defined architecture of these hydrogels [91]. Moreover, the unreacted
+terminal groups can be used to incorporate different molecules into the hydrogel network without affecting its formation.
+2.2. Sliding crosslinks
+2.2.1. Topological (TP) Gel
+A gel with a very elegant molecular design based on sliding crosslinks, named topological (TP) gel, was firstly presented
+by Okumura in 2001 [42]. TP hydrogels can be prepared from polyrotaxanes in which a long polymeric chain is sparsely populated
+with numerous cyclic molecules caged by large bulky end groups [92]. Flexible, transparent and superabsorbent gels
+were produced by incorporating a-cyclodextrins (a-CD) along the chains of a high molecular weight PEG polymer followed
+by the covalent crosslinking of pairs of a-CDs through the action of cyanuric chloride (Fig. 1, TP Gel) [42]. One of the interesting
+features about these hydrogels is related with the absence of crosslinking points on the polymeric chains as they are,
+instead, topological interlocked by a figure-of-eight crosslinkers. As result of the former characteristic and contrarily to fixed
+chemical or physical crosslinked hydrogels [93], the cyclic molecules are able to slide along the polymeric chain with the aim
+of equalizing the applied tension (pulley effect) [94]. This unique structure allow these hydrogels to bear extensions up to 20
+times their original length without fracture as the gel elasticity is a consequence of only the chain’s topology [95].
+2.3. Nanostructures
+2.3.1. Nanocomposite (NC) Gel
+Another approach is based on the incorporation of nanostructures into the main hydrogel network. One example is the
+nanocomposite (NC) hydrogel which is composed of polymeric chains (organic part) and clay, natural mineral silicate,
+nanoplatelets (inorganic part) [96]. This hybrid organic/inorganic structure is simply produced by first exfoliating inorganic
+clays followed by their uniform dispersion in an aqueous solution. Specific organic monomers are used to fix the clays
+nanosheets in this dispersed state and subsequently, the in-situ free radical polymerization is thermally initiated above
+the clay surface. The clay nanosheets act as multifunctional crosslinkers of the polymer chains since the chain end groups
+adsorb strongly on this surface by ionic and coordination interactions. In fact, several individual chains are able to attach
+to a single inorganic substrate. Therefore, a transparent, robust, 3D structure composed of flexible polymeric chains
+connected with different inorganic clay sheets is obtained. For example, the NC hydrogel composed of inorganic synthetic
+hectrite ([Mg5.34Li0.66Si8O20(OH)4]Na0.66) clay slab connected by N-isopropyl acrylamide (NIPAM) polymeric chains using
+potassium peroxodisulfate (KPS) as radical initiator is highly stretchable (ca. higher than 1000%) and exhibit a high elastic
+recoverability (ca. 98% of the total deformation), illustrating its overall robustness (Fig. 1, NC gel) [43]. These hydrogels
+are tough, i.e. highly resistant to crack propagation, as in order for this process to occur every single chain connecting different
+clay sheets need to be broken. Furthermore, NC hydrogels properties also include excellent swelling ability (ca. 500
+times) and enhanced stimuli sensitivity as the polymer chains are not molecularly restricted by crosslinking points contrarily
+to what happen on chemical hydrogels [97]. Moreover, the high uniformity of these hydrogels is proved by their transparence,
+which is in high contrast with the conventional hydrogels opacity. NC hydrogels drawbacks include (i) the relative
+low amount of inorganic clay that can be used to produce these hydrogels (typically lower than 12 wt%) as consequence of
+the nanoplatelets aggregation, which, in turn, leads to lower mechanical properties, and (ii) their lack of self-healing ability.
+A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364 347
+Fig. 1. Schematic representation and chemical structure of the different strategies described to create strong and tough hydrogels devices, namely: Tetra-poly(ethylene) glycol (Tetra-PEG) gel, click chemistrybased
+(CCb) gel, topological (TP) gel, nanocomposite (NC) gel, macromolecular microspheres composite (MMC) gel, ionically crosslinked triblock copolymer (ITC) gel, hydrophobic interactions-based (HIb) gel,
+polyampholytes (PA) gel, lamellar bilayer (Lb) gel and double-network (DN) gel.
+348 A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364
+2.3.2. Layered nanocomposite (L-NC) Gel
+One strategy to solve the first problem is based on mimicking the nacre micro- and nano-structure, which curiously constitutes
+also an inorganic/organic nanocomposite [66]. Nacre outstanding elastic modulus, strength and toughness emerge
+from its well-ordered brick-and-mortar arrangement into organic and inorganic layers [42]. A layered NC (L-NC) was developed
+by incorporating the clay platelets (Laponite XLG, [Mg5.34Li0.66Si8O20(OH)4]Na0.66) in a NIPAM monomer solution containing
+an initiator. The nanoplatelets were assembled into a lamellar structure by vacuum filtration. After UV irradiation,
+the in-situ radical polymerization of NIPAM was initiated, forming the L-NC hydrogel [98]. The superior mechanical properties
+of the L-NC hydrogels compared with the other NC structures, further proved the importance of designing well-defined
+microstructures to obtain robust hydrogels.
+2.3.3. Dendritic nanocomposite (D-NC) Gel
+Due to the poor self-healing ability of NC hydrogels, a new supramolecular approach was developed, combining clay
+nanosheets, dendritic macromolecules and sodium polyacrylate (ASAP) at mild conditions [99]. The dendritic macromolecules
+work as ‘‘molecular glue’’ of the nanosheets and are composed of PEG chains containing two dendrons units with
+terminal guanidinium ions [100]. To fabricate these hydrogels, the clay nanosheets were also exfoliated and dispersed homogeneously
+in water due to the possible repulsion between their positive-charged edge parts and anionic ASAP. Then, the
+oxyanions presented on the clay nanosheets react with the dendrons yielding a strong hydrogel with self-healing ability.
+Remarkably, when placing in contact freshly cut surfaces of these hydrogels they were able to adhere to each other, showing
+their capability to recover after structure damage. While the nanosheets are responsible for the high hydrogel strength since
+they are the main component of this 3D network, the self-healing process is a consequence of the non-covalent attachment
+of the guanidinium ions with the exfoliated nanosheets [99].
+2.4. Microparticles
+2.4.1. Macromolecular microspheres composite (MMC) Gel
+Similar to the NC hydrogels, macromolecular microspheres composite (MMC) networks also allow the control of the
+crosslinking density and the inter-crosslinking distance, but without the need of an inorganic counterpart, being formed
+through covalent attachment of network chains to the microparticles. MMC hydrogels were designed by reacting surface
+activated macromolecular microspheres with polymeric monomers as shown by Huang et al. [101]. After the irradiation with
+60Co c-rays in the presence of oxygen, peroxides were formed on the surface of macromolecular microspheres, which are
+composed of styrene and butyl acrylate monomers. These groups under heat form free radicals which act as both crosslinkers
+(responsible for the covalent grafting of poly(acrylic acid) (PAA) monomers on the MMS) and initiators (responsible for starting
+PAA homopolymerization). This method results in a tough hydrogel due to its well-defined structure, consisting of MMS
+particles connected by PAA long chains, which are able to sustain the stress cooperatively (Fig. 1, MMC). Moreover, inter- and
+intramolecular hydrogen bonds can also occur between PAA chains, working as an energy dissipation mechanism [102]. In
+fact, MMC hydrogel (89 wt% water content) sustained a compressive stress of 10.2 MPa for a strain of 97.9%. After loading,
+the hydrogel structure elastically recovered its original shape for strains higher than 90%. It is worth to notice that by
+decreasing the water content, a higher compressive stress (78.6 MPa at 99.3% strain) was obtained but the hydrogels were
+permanently deformed. Moreover, their use as cell encapsulation vehicles could be hampered by the need for c-rays [101].
+2.5. Supramolecular interactions
+2.5.1. Ionically crosslinked triblock copolymer (ITC) Gel
+In this technique developed by Henderson et al. [103] a amphiphilic triblock copolymer consisting of a midblock made of
+poly(tert-butyl methacrylate) and end blocks of poly(methyl methacrylate) (PMMA) was physically crosslinked through both
+(i) ionic crosslinks between the polyelectrolyte mildblocks and (ii) glass spherical domains on PMMA end blocks (Fig. 1, ITC).
+Briefly, this copolymer was dissolved in dimethyl sulfoxide and then subjected to a vapor phase solvent exchange process to
+create the glassy spherical aggregates. The ionic crosslinks were obtain by immersing the physically crosslinked hydrogels
+into a buffered cation (Zn2+, Ca2+, Ni2+, Co2+ and Cu2+) solution. Tough (1.4 MJ m3) and strong (ca. 1 MPa) ITC hydrogels were
+obtained by the reversible association/dissociation of the ionic crosslinks bridging the PMMA glass domains [103].
+2.5.2. Hydrophobic interactions-based (HIb) Gel
+The presence of hydrophobic associations can also serve as a dissipation mechanism since after the unloading, they are
+able to re-assemble, leading to the hydrogel recovery [104]. Hydrophobic interactions can be achieved by introducing
+hydrophobic sequences within hydrophilic polymeric network via micellar polymerization [105]. Combining self-healing,
+obtained by the presence of supramolecular bonds, with good mechanical properties is non-trivial as these bonds are relatively
+weak when comparing with covalent ones. Acknowledging this shortcoming, Gulyuz et al. proposed a new strategy
+using hydrophobically modified PAA polyelectrolyte with oppositely charged cetyltrimethylammonium (CTA) surfactant.
+These 3D structures were produced via micellar copolymerization of hydrophilic AA with hydrophobic stearyl methacrylate
+by free radical polymerization in CTAB aqueous solution containing NaBr (Fig. 1, HIb) [106]. The attained supramolecular
+hydrogels exhibited a strength as high as 1.7 MPa and elongation at break of 900%. Remarkably, these HIb hydrogels were
+A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364 349
+able to heal either by heating or by surfactant treatment of the damage areas, recovering almost their initial strength (up to
+1.5 MPa) and elongation (up to 600%) [106].
+2.5.3. Polyampholytes (PA) Gel
+PA gels belong to the physical hydrogels category as they are formed via non-covalent bonds between different charged
+monomers [107]. This supramolecular structure has multiple ionic bonds with a high disparity of strengths since the polymerization
+occurs randomly. The strong bonds act as permanent crosslinkers which are responsible for maintaining the original
+shape, while the weak bonds break upon loading enhancing their fracture energy as well as the self-healing capability by
+bond re-formation upon unloading. Sun et al. obtained a PA gel structure (water content of 50–70 wt%) after mixing a anionic
+monomer, 3-(methacryloylamino)propyl-trimethylammonium chloride with a cationic monomer, sodium
+p-styrenesulphonate, in a aqueous solution containing a photoinitiator and NaCl followed by UV-irradiation (Fig. 1, PA)
+[107]. The electrostatic attractions between the polymer chains are more stable at high concentrations and near the charge
+balance, in order to prevent both phase separation and polymer collapse to a globule state [108,109]. The obtained hydrogels
+exhibit enhanced fracture stress and strain up to 1.8 MPa and 750%, respectively, a high toughness as shown by a fracture
+energy of 4000 J m2 and a complete recovery after loading until 600%. Moreover, these hydrogels were also proved to have
+excellent biocompatibility using macrophages [107]. Although PA structure only possess supramolecular bonds, they are
+mechanically tough contrarily to other self-healing hydrogels previously developed [99,110]. This toughness was associated
+with the presence of heterogeneous structure with randomly distributed strong and weak non-covalent bonds.
+2.5.4. Lamellar bilayer (Lb) Gel
+Haque et al. reported a tough and anisotropic hydrophilic matrix containing multiple lipid bilayers with unidirectional
+alignment [111]. The rigid hydrophobic bilayers were composed of a polymerizable surfactant, dodecyl glyceryl itaconate
+(DGI) whereas the ductile polymeric network was made of polyacrylamide (PAAm) polymer (Fig. 1, Lb). The processing
+method consisted in the self-assembly of DGI monomers into stacked bilayers followed by the free radical polymerization
+of AAm in presence of sodium dodecyl sulfate of DGI, N0,N0-methylenebis(acylamide) crosslinker and a photoinitiator. The
+lamellar structure was formed by applying a shear flow to the former precursor solution [112], resulting in an architecture
+composed of alternating polymer and lipid layers (water content higher than 90%) with a tensile fracture stress of 600 kPa
+parallel to the lipid bilayers direction. Additionally, these hydrogels exhibit a high toughness, self-recovery and fatigue resistance.
+The previous characteristics arise from the presence of lamellar bilayers, which upon deformation consume a large
+amount of energy by dissociating themselves before the complete hydrogel fracture. The former fact together with their
+lipid-like movements are the main reasons behind the Lb hydrogels superior mechanical properties [111].
+2.6. Second network
+2.6.1. Double network (DN) Gel
+Double network (DN) hydrogels were first introduced by Gong et al. in 2003 [41], being the result of combining two polymeric
+networks with contrasting physical structures and properties [113]. It is worth noting that contrarily to interpenetrating
+networks (IPNs), which are also a combination of two structures, in DN networks the mechanical properties of the
+combined components are much higher when comparing with the two independent structures, showing a synergistic effect
+[41]. They are usually composed of a stiff and densely crosslinked (first brittle network) structure in dilute concentration and
+a ductile and loosely crosslinked (soft second network) structure in high concentration. To effectively improve the mechanical
+properties, the mass ratio of the second to the first network must be very high (usually 7–20 times that of the first network)
+in order to get strong DN hydrogels [41,114]. These structures are often synthesized via a two-step sequential free
+radical polymerization process: (1) the first step involves the formation of a highly crosslinked rigid gel and (2) the second
+forms a loosely crosslinked network inside the first gel structure. The first structure is often a polyelectrolyte in order to
+ensure both a high swelling rate and the effective entanglement of the second network within this first structure. This concept
+was proved to be general and independent of specific chemical interactions between the two networks [107,115].
+To date, several tough hydrogels with different macromolecular designs based on DN methodology have been reported
+such as void-DN gels [116], inverse DN gels [117], liquid crystalline DN gels [118], microgel-reinforced hydrogels [119]
+and ultra-thin DN gels [120].
+One of these tough hydrogels pairs consists of poly (2-acrylamido-2-methylpropanesulfonic acid) (PAMPS) as the first
+network and PAAm as the second structure. The obtained DN hydrogels (ca. 90% water content) exhibit a tensile fracture
+stress of 2 MPa, hardness with elastic modulus of 0.3 MPa and tearing energy of several thousands of J m2, which are comparable
+to or even higher than that of cartilage [114,121]. Regarding their ability to sustain a compressive stress, they can
+hold a stress of 17.2 MPa for a strain of ca. 92%, which is much higher than their parents: PAMS gel break at 0.4 MPa for strain
+of 41% and PAA gel at 0.8 MPa for 84%. Upon deformation, the brittle network breaks into small clusters that efficiently disperse
+the stress around the crack tip into the surrounding damage zone, and thus imparts toughness to the DN gels. On the
+other side, the second ductile network extends extensively and, thereby, sustaining large deformations. In other words, the
+first network contributes to an increase on the elastic modulus, whereas the second structure is responsible for the increase
+on strain [114,115,122].
+350 A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364
+Remarkably, the high-level of inhomogeneities of strong DN hydrogels is the origin of their superior toughness, which is
+also revealed in other tough biological tissues for instance, in bone, whose heterogeneous porous structure is known to
+reduce the stress concentrations [19].
+3. Natural-origin tough hydrogels
+Among all the polymers that can be used to create hydrogels, natural-origin polymers offer several advantages including
+their non-toxicity, biocompatibility, the presence of unique biological and chemical features and easiness to fabricate into
+hydrogels [53]. In fact, some of these polymers are components of native ECM, being responsible for different cell regulation
+processes spanning from migration to differentiation, and hence, suggesting their potential performance as soft tissues analogues
+[123,124]. Furthermore, versatile chemical structures can be obtained by modifying the high number of functional
+groups present along their backbone, resulting in materials with improved characteristics for a specific application while
+retaining crucial biological features [125]. From the commercial point of view, natural-origin materials are often inexpensive
+as they are readily available from renewable sources [50–52].
+Despite the aforementioned extraordinary attributes, conventional natural-based hydrogels exhibit low strength, hindering
+their use in several load-bearing applications [126]. Therefore, the strategies described in the former section were employed to
+create biopolymer-based hydrogels with enhanced mechanical properties. Such hydrogel systems combine high toughness and
+strength, obtained by employing the previous described methodologies, with the biocompatibility of natural polymers, whose
+association was only recently achieved. Moreover, their potential for biomedical applications will be also addressed.
+3.1. Bacterial-cellulose and Gelatin
+Extracted from bacteria, bacterial cellulose (BC) consists in a hydrophobic stratified structure composed of alternating
+dense and sparse ultrafine fiber layers [127]. Its structure (water content of ca. 90%) yields unique mechanical properties
+such as anisotropy, accompanying by a high tensile modulus (ca. 3 MPa) in the fiber-layer direction and low compressive
+modulus (ca. 0.007 MPa) perpendicular to the stratified layer. Although BC hydrogel shows high mechanical properties as
+compared to other biopolymers, their structure do not recover after compression as result of hydrogen-bond formation
+between the cellulose fibers (Fig. 2I, BC). In order to solve the previously stated drawback, gelatin was incorporated in
+the BC network, resulting in a BC/gelatin DN hydrogel. Gelatin, a polypeptide derived from the denaturation of collagen,
+is mechanically brittle (compression strain of ca. 0.14 MPa and a compressive modulus of ca. 0.007 MPa), but it is able to
+sustain several repeated compression cycles without fracture (Fig. 2I, Gelatin). To synthesize this DN gel, BC was immersed
+in an aqueous solution containing gelatin that was further crosslinked using N-(3-dimethy-laminopropyl)-N0-ethylcarbodi
+imede hydrochloride. The combinatorial effect of these two mechanically contrasting structures (hard BC network and soft
+gelatin structure) resulted in a 3D network able to simultaneously bear a compression stress of ca. 3.7 MPa and recover its
+original shape after a second compressive deformation up to 30% of strain (Fig. 2I, BC/gelatin and 2IIa). Regarding their tensile
+properties, BC/gelatin hydrogel exhibit an impressive elastic modulus and stress of ca. 23 MPa and ca. 3 MPa, respectively
+(Fig. 2IIb). Other polysaccharides such as alginate, gellan-gum and carrageenan were also used to produce DN networks in
+combination with BC [128]. The resultant mechanical properties of these DN networks are comparable with that of the cartilage,
+however, the ultimate stress of the BC/gelatin DN hydrogels dramatically decreased after 6 weeks implantation into
+the subcutaneous tissue of rabbit [129]. The former fact severally hinders their potential application as an artificial substitute
+of load-bearing soft tissues. Additionally, due to the use of toxic crosslinkers, this device may not be a good candidate for cell
+encapsulation purposes.
+3.2. Gellan-gum and Gelatin
+The synthetic conditions for DN formation are often incompatible with cell viability due to the use of toxic solvents or/and
+crosslinkers as well as harsh processing conditions. With the aim of encapsulating cells, DN hydrogels composed of a stiff
+gellan gum methacrylate (GGMA) and a soft gelatin methacrylamide (GelMA) structures were synthesized [130]. GG is an
+anionic polysaccharide extracted from the bacterium Sphingomonas elodea [131], being composed of a tetrasaccharide
+repeating unit of b-D-glucose; b-D-glucuronic acid and a-L-rhamnose. This biopolymer is able to form a gel network by
+changing their chains conformation from disordered coils to double helices upon cooling, followed by their aggregation
+through ionic crosslinks in the presence of mono- or divalent cations [132,133]. The GGMA/GelMA DN hydrogels were produced
+through a two-step photocrosslinking process by immersing GGMA hydrogel, which was obtained after UV-exposure
+for 120 s in presence of a photoinitiator, in a GelMA precursor solution. After the GelMA diffusion into the first network a
+second photocrosslinking process was performed to yield the second network. The resulting DN hydrogels reached a maximum
+compressive failure stress of ca. 6.9 MPa for a failure strain of 81%. This remarkable behavior may be explained by the
+presence of the stiff network (GGMA) which is responsible for sustaining the applied stress while the soft network dissipates
+the crack energy avoiding the construct breakdown [134]. Moreover, NIH-3T3 fibroblasts were successfully encapsulated in
+the GGMA/GelMA by suspending these cells in the GGMA precursor solution, which was after crosslinked by UV-light exposure
+[130]. Afterward, the cell-loaded GGMA hydrogels were placed inside a GelMA precursor solution followed by a second
+A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364 351
+photocrosslinking process. After 3 days of cell incubation at physiological conditions, it was possible to verify that most of
+the cells survive within the DN hydrogel matrix as shown by Live/dead assay images (Fig. 3I), proving the cell-compatibility
+character of the developed strategy to engineer tough hydrogels for biomedical purposes [130].
+Irrespective of the high toughness and strength of the previous DN hydrogels, they do not recover after a loading cycle as
+result of the irreversible covalent-based crosslinking (permanent damage). Bakarich et al. designed and fabricated a tough
+hydrogel with the ability to recover from large strain by mixing hot solutions of GG with acrylamide (AAm) monomers,
+which were then crosslinked through the addition of Ca2+ and N,N0-methylenebisacrylamide (MBAAm), respectively, in
+the presence of N,N,N0,N0-tetramethylethylenediamine (TEMED) and KPS [135]. Therefore, the GG/PAAm hydrogels (water
+content higher than 95%) were composed by an ionically crosslinked GG and a covalently crosslinked PAAm network, which
+can withstand ca. 216 kPa in compression (2 and 13 times more stress than the corresponding GG and PAAm single networks,
+respectively). Although this value is much lower than the previous, the fact that these hydrogels present ionic crosslinks
+which are weaker allow their elastic recovery under ambient conditions [136]. In addition, GG/PAAm hydrogels were
+subjected to several load/unload compression cycles. Although they can only recover 53 ± 4% after the first compressive cycle
+they are able to recover 90 ± 9% after the subsequent cycles, which is much better than the conventional DN hydrogels [114].
+Recently, the previous process was further polished to attain strong and self-healing hydrogels by using a one-pot synthesis
+method [137]. To this end, hot aqueous solution of GG was combined with gelatin and, subsequently, crosslinked by
+the action of Ca2+ and genipin, non-cytotoxic crosslinker [138], respectively. These structures containing both ionic (between
+GG polymer and Ca2+ ions) and covalent (between gelatin and genipin) crosslinking mechanisms exhibited a maximum fracture
+stress of 1.0 MPa and 0.62 MPa in compression and tension, respectively (Fig. 3IIa). Regarding their recoverability,
+GG/gelatin DN hydrogels were compressed until a stress of 150 kPa and then allowed to rest in both air or immersed in simulated
+body fluid (SBF) (Fig. 3IIb and IIc). The results revealed that by placing the hydrogels in SBF for time intervals higher
+than 10 min leads to a recovery of the initial mechanical properties, especially regarding the hysteresis (95 ± 2%), suggesting
+that these gels were not permanently damaged by the first loading/unloading cycle [137].
+In addition, the MMC concept has also employed to create microgel-reinforced GGMA/GelMA hydrogels [139], showing
+better mechanical and biological properties over the DN hydrogels using the same biopolymers [130]. Briefly, GGMA
+Fig. 2. I. Photographs depicting the bacterial cellulose (BC), gelatin and BC/gelatin hydrogels before compression (a); during the compression (b); and after
+compression (c). II. Typical compressive (a) and tensile (b) stress–strain curves of the three kinds of hydrogels. The compression and tensile assays were
+performed perpendicular to and parallel to the stratified direction of DN hydrogels, respectively. Adapted with permission [128] Copyright 2004, Wiley-
+VCH.
+352 A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364
+microgels were produced by water-in-oil emulsion, and then exposed to UV-radiation for 120 s. The resulting GGMA hydrogels
+were incorporated in GelMA matrix after a second photocrosslinking process for 180 s (Fig. 3III). Regarding their
+mechanical properties, MMC hydrogels were able to withstand a maximum strength of ca. 3.2 MPa, which was higher when
+comparing with the corresponding GGMA/GelMA DN structure (ca. 1.5 MPa). This behavior was explained by the higher
+GGMA concentration on MMC gels, enhancing their strength. Contrarily, on DN hydrogels the ratio of GGMA to GelMA is critical
+to attain the optimized mechanical properties and hence, this component should be prepared at relatively low polymer
+concentration. Additionally, the GGMA microgels protect the GelMA matrix from fracture by allowing the crack grow in their
+structures, which due to the microgels dispersion on the GelMA structure avoids the crack propagation into macroscopic
+ones [119]. Concerning the biological properties, higher viability rates were observed in MMC hydrogels since the cells were
+encapsulated in GelMA instead of GGMA, which present many adhesion sites and hence is recognized as great material for
+cell encapsulation [140]. On DN hydrogels, cells were firstly encapsulated in a GGMA matrix, and hence their contact with
+gelatin may be hindered, which may explain the lower viability rates when comparing with the MMC hydrogels.
+Fig. 3. I. Live/dead images of the gellan gum methacrylate/gelatin methacrylamide (GGMA/GelMA) DN hydrogels containing NIH-3T3 fibroblasts, which are
+labeled with calcein (viable cells, green) and propidium iodide (non-viable cells, red), after 0 days (a) and 3 days (b) of cell culture. The scale bar stands for
+200 lm. Adapted with permission [130]. Copyright 2012, Elsevier. II. DN hydrogels combining a calcium crosslinked gellan gum network with a genipin
+crosslinked gelatin. (a) Image of the obtained GG/Gel structure being subjected to a tensile assay. Load–unload compression curves obtained by fixing the
+maximum stress at 150 kPa. The first sample (labeled with 1) was deformed while the other sample (labeled with 2) corresponds to the second cycle
+applied after allowing the sample to rest in air (b) or in SBF (c) for 10 min between cycles. Adapted with permission [137] Copyright 2012, Royal Society of
+Chemistry. III. Schematics of the purposed strategy to create GG microgel-reinforced gelatin hydrogels by first producing the GG microgel by oil in water
+emulsion (a). Afterward, the obtained particles were photocrosslinked upon UV-light irradiation (b). Finally, GG crosslinked microgel were transferred to
+Gel solution followed by their polymerization (c). Adapted with permission [139] Copyright 2014, Royal Society of Chemistry. (For interpretation of the
+references to colour in this figure legend, the reader is referred to the web version of this article.)
+A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364 353
+Furthermore, alkaline phosphatase (ALP) activity and the amount of mineralization revealed the osteogenic behavior of
+MC3T3-E1 cells when encapsulated on the GGMA/GelMA MMC hydrogels. Interestingly, the GelMA precursor solution containing
+GGMA microgels can be possibly injected followed by in situ photocrosslinking, after the assessment of the light penetration
+ability [139].
+3.3. Chitin
+Chitin is the second most available polymer in Nature being mainly obtained from crustaceans [141]. This biopolymer
+present some interesting features for biomedical applications such as biocompatibility, antibacterial character and nontoxicity.
+Due to its inherently poor mechanical behavior, chitin have been mixed with poly(vinyl alcohol) (PVA), a synthetic and
+biocompatible polymer [142], with the aim of creating a tough hydrogel structure [143]. These hydrogels were obtained by
+first dissolving chitin in NaOH/urea aqueous solution containing the PVA polymer followed by crosslinking with epichlorohydrin
+(ECH). Moreover, to form PVA crystals and physically crosslink this synthetic material, a freezing-thawing method
+was employed [142,144]. The resultant chitin/PVA hydrogel composite is composed by two crosslinking mechanisms,
+namely (1) a chemical (between chitin and ECH) and (2) a physical (hydrogen bonds between PVA and chitin chains).
+Additionally, PVA intermolecular interactions can lead to the formation of crystallites which, in turn, can ensure a higher
+stability of the hydrogel. Interestingly, the morphology of the obtained hydrogels containing 25% of PVA was found to be very
+similar to the one of the jellyfish (Fig. 4I shows a non-ordered Chitin/PVA structure while Fig. 4II displays an ordered layered
+structure) [144]. The obtained ordered and layered porous structure, in which the hydrophilic PVA crystals are tightly immobilized
+on the chitin backbone matrix through the presence of hydrogen bonds, was ascribed to the performed freezing/
+thawing cycles. Moreover, during the freezing/thawing cycles a microphase separation between the formed
+crystalline ice and PVA crystals can also explain the obtained ordered structure. In fact, these hydrogels containing a
+jelly-fish like architecture were found to result in higher mechanical properties (compressive strength of 2.1 MPa and strain
+at break of 80%, Fig. 4III) than other hybrid gels containing different amounts of PVA polymer and also when comparing with
+pure chitin. The former fact have been related with the effective dispersion of the stress by multilayered structures, and
+hence, higher external stresses are needed in order to break this well-defined structure [145]. Additionally, these
+chitin/PVA hydrogels were proved to be cytocompatible after both L929 fibroblasts and MDKC cells seeding on its surface
+[143]. The combination of the aforementioned characteristics, namely their cytocompatibility, high mechanical properties
+and well-defined structure, highlights chitin/PVA hydrogel potential as an artificial substitute of load-bearing soft tissues.
+However, their use for cell encapsulation purposes may be compromised by the need for toxic reagents and harsh processing
+conditions, such as the freezing–thawing cycles.
+3.4. Alginate
+One of the most used biomaterials is alginate due to its gelling properties in mild conditions [146]. This neutral polysaccharide
+is mainly obtained from brown algae and is composed of (1?4)-linked b-D-mannuronic acid and a-L-guluronic acid
+residues [33,147]. These monomers are organized in blocks rich in mannuronic acid, blocks rich in guluronic acid units and
+blocks rich in both units. The gelling process occurs through interactions between the carboxylic acid moieties and bivalent
+counter ions such as calcium [136,148]. Sun et al. developed a highly stretchable hybrid hydrogel composed of two crosslinked
+polymer networks: an ionically crosslinked alginate through the presence of Ca2+ and a covalently crosslinked
+PAAm using MBAAm as crosslinker. The introduction of a non-covalent crosslinking mechanism allowed this hydrogel to
+recover upon unloading, which is not possible in conventional DN hydrogels. During deformation, the alginate network
+Fig. 4. I. Photographs depicting the FESEM results of the cross-sections for the resultant chitin/poly(vinyl alcohol) (RCP) hydrogels, namely the RCP83 (I)
+and RCP75 (II), where it is possible to observe jellyfish-like structure in the case of RCP75. The inset corresponds to the schematic representation of the
+chemical/physical crosslinking RCP75 structure. III. Typical compressive stress–strain curve of the RCP for different weight percentages of chitin (from 0% to
+100 wt%) by fixing the total polymer concentration in about 6 wt%. Adapted with permission [143] Copyright 2014, American Chemical Society.
+354 A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364
+dissipates energy by unzipping its ionic crosslinks while the PAAm structure preserve its mechanical integrity. After unloading,
+the reversible ionic bonds can be reformed. These hybrid hydrogels with ca. 90% of water in their composition presented
+a tensile fracture stress, elongation and energy of 156 kPa, 20 times their initial length, and 9000 J m2, respectively. This
+outstanding fracture energy is much higher than the one of conventional hydrogels and have been ascribed to the energy
+dissipation occurring upon the unzip of the alginate chains [71]. In vivo results obtained upon implantation of these structures
+into dorsal subcutaneous pockets in rats suggested a minimal inflammatory response by the absence of macrophages
+and lymphocytes infiltration after 8 weeks, highlighting their potential for biomedical applications [149].
+Although the alginate/PAAm hydrogels exhibited an outstanding toughness, they have a relatively low stiffness, which is
+mainly due to the alginate low concentration (further increase is hindered by the high viscosity of the final solution) and
+crosslinking density (calcium sulfate crosslinker has poor solubility in water). Realizing this difficulty, Li et al. introduced
+a hybrid alginate/PAAm hydrogel with both high stiffness and toughness by increasing both of the aforementioned aspects.
+While the alginate concentration was increased using alginate with different molecular weights, the crosslinking density was
+improved through the combination of calcium sulfate and calcium chloride (Fig. 5Ia) [150]. The results suggested that by
+increasing the amount of low molecular weight alginate while fixing the total alginate concentration, the stiffness remained
+constant (ca. 1 MPa) whereas the toughness increased, reaching the remarkable fracture energy of ca. 16 kJ m2 (Fig. 5Ib).
+This phenomenon was related with the decrease of strength upon increasing the fraction of short-chains, resulting in the
+growing of the region near the crack tip where the energy is dissipated, which, in turn, increases the toughness [150].
+Alginate containing phenylboronic acid (PBA) was combined with PVA to yield a supramolecular hydrogel with both
+shape memory and self-healing ability (Fig. 5IIa) [151]. On the one hand, the shape memory properties were conferred by
+the presence of ionic crosslinks between alginate and Ca2+, which can retain the temporary shape (100%), and then, recover
+to the permanent shape by extracting these cations using Na2CO3 (recovery ratio of ca. 100%) or EDTA (recovery ratio of ca.
+92%) (Fig. 5IIb). On the other hand, the presence of supramolecular bonds, in particular, through the reversible PBA-diol ester
+bond interaction between PBA groups of alginate-PBA and the PVA hydroxyl groups, is responsible for the self-recovery ability.
+This recoverability was demonstrated by pressing tightly freshly cut pieces of this hydrogel as shown in Fig. 5IIc [151].
+Fig. 5. I. (a) Schematic representation of the alginate/poly(acrylamide) (PAAm) structure composed by covalently crosslinked PAAm through N,N0-
+methylenebis(acrylamide) and Ca2+-mediated ionically crosslinked alginate network made of both short and long chains. (b) Tensile stress–strain curves for
+different fractions of short-alginate chains. Adapted with permission [150] Copyright 2014, Royal Society of Chemistry. II. (a) Schematic representation of
+the alginate-PBA/poly(vinyl acid) supramolecular structure consisting of ionic crosslinks between alginate chains and Ca2+ ions and PBA-diol ester bonds
+between alginate-PBA and hydroxyl groups of PVA. (b) Photographs displaying the alginate-PBA/poly(vinyl acid) shape memory ability by using CaCl2 to fix
+the temporary shape and Na2CO3 or EDTA to recover the permanent one. (c) Photographs displaying the ability of the hydrogel to self-heal after cutting it to
+three pieces. After 30 s, the former pieces fused together as shown by the absence of fracture after stretching. Adapted with permission [151] Copyright
+2014, American Chemical Society.
+A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364 355
+3.5. Agar
+Agar, a polysaccharide extracted from red seaweeds, is able to form a hydrogel network by a thermoreversible sol–gel
+transition upon cooling to 30–40 C [152].
+A one-pot methodology was introduce by Chen et al. to replace the conventional time-consuming DN multi-step polymerization
+process through the simultaneous mixing of agar, AAm monomers, initiators and chemical crosslinkers at 90–
+95 C followed by cooling the precursor solution to physically crosslink agar. The second PAAm structure is formed within
+the agarose structure after UV-light irradiation. Agar/PAAm DN hydrogels were tough with a compression modulus, stress
+and strain of 123 kPa, 38 MPa and 98%, respectively. Moreover, these DN hydrogels were able to recover their initial shape
+after being subjected to several types of deformation such as bending (Fig. 6Ia), knotting (Fig. 6Ib), compression (Fig. 6Ic) and
+elongation (Fig. 6Id), and also showed the ability to be synthesized with any shape (Fig. 6Ie–g). Interestingly, the network of
+agar/PAAm hydrogels can be recovered taking advantage of the agar thermoreversible Nature as observed by the hysteresis
+loop recovery after 10 min at 100 C (above the agar melting point; Fig. 6IIa), which has not observed at 50 C (below the agar
+melting point; Fig. 6IIb). Therefore, these hydrogels combine superior mechanical properties and recoverability capabilities,
+highlighting their potential as load-bearing artificial soft tissues analogues. However, these agar/PAAM hydrogels may not be
+suitable for cell encapsulation purposes due to the presence of toxic AAm monomers.
+3.6. Carrageenan
+Tough and recoverable hydrogels were produced from carrageenan using DN-based method [154]. Carrageenan, a partially
+sulfated polysaccharide obtained from red seaweeds, is composed by b-D-galactose and 3,6-anhydro-a-D-galactose
+units [51]. According with the degree of sulfation, three kinds of carrageenan can be obtained, namely,
+kappa-carrageenan (KC) with one sulfate per disaccharide, iota-carrageenan (IC) with two sulfates per disaccharide and
+lambda-carrageenan (LC) which is highly sulfated [51]. KC and IC polymers form hydrogels through ionic crosslinks between
+cations and double helix units, which are formed by changing the temperature. These two derivatives of carrageenan
+biopolymer were used to produce KC/PAAm DN hydrogels and IC/PAAm DN by mixing KC or IC polymers with AAm monomer
+in water containing KPS and MBAAm at 70 C followed by cooling down to 25 C. Consequently, this hydrogel combines
+an ionic carrageenan network with a covalent PAAm network, which resulted in a high strength and tough structure at both
+Fig. 6. Photographs depicting the agar/poly(acrylamide) (PAAm) hydrogels ability to withstand different types of deformation: bending (a); knotting (b);
+compression (c); knotting and stretching; and to adapt to different shapes: hexagon (e); teddy-bear during compression (f); and teddy-bear gel after unload
+(g). II. Load/unload cycle’s recovery of Agar/PAM DN hydrogels stored at 100 C and at 50 C as function of time. Adapted with permission [153] Copyright
+2013, WILEY-VCH.
+356 A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364
+compression (ca. 9.9 MPa and 4.0 MPa for KC and IC, respectively) and tension (ca. 75 kPa and 107 kPa for KC and IC, respectively)
+(Fig. 7Ia and Ib). The improved mechanical properties of IC/PAAm DN hydrogels (compression, elongation, bending,
+knotting) can be observed in Fig. 7IIa–e. While KC/PAAm DN hydrogels presented a higher modulus (40.8 kPa), the IC is
+tougher (fracture energy of 9500 J m2). A quick recover ability was easily observed by forcing the hydrogel to pass through
+a buttonhole (Fig. 7II). This mechanical behavior is the result of the presence of carrageenan ionic bonds, which are firstly
+broken upon loading, bridging the main PAAm backbone structure, which, in turn, is responsible for maintaining the hydrogel
+structure. Interestingly, these DN hydrogels were able to heal from their cracks at mild temperatures, by the reestablishment
+of the broken supramolecular bonds. As described for the Agar/PAAm hydrogels, the presence of AAm monomers may
+hamper their use as cell-laden devices.
+3.7. Hyaluronan
+Hyaluronan (HA) is a natural occurring glycosaminoglycan, being abundant in connective, epithelial and neural tissues. Its
+structure has D-glucuronic acid and D-N-acetylglucosamine units linked together via alternating b-1,4-and b-1,3 glycosidic
+bonds [155]. As this polysaccharide is part of the ECM, it is promisor for applications where one intends to mimic such extracellular
+environment [156]. Interpenetrated networks containing HA have been proposed [157] but efforts have been
+recently done to develop hydrogels with improved mechanical behavior based on the DN strategy.
+A first network made of methacrylate HA (PHA), a photocrosslinkable derivative of HA polymer, was prepared by UV irradiation
+for 2 h in presence of a photoinitiator. Then, the resulting covalently crosslinked structure was immersed in a solution
+containing N,N-dimethylacrylamide (DAAm) monomers. After reaching the equilibrium, the second polymeric network was
+formed by UV exposure for 2 h in presence of MBAAm crosslinker and a photoinitiator, yielding a PHA/PDAAm DN hydrogel.
+Even though these hydrogels are mostly composed of water (more than 90%), the mechanical assays revealed a fracture stress
+Fig. 7. I. Typical compression (a) and tensile (b) stress–strain curves of poly(acrylamide) (PAAm), iota-carrageenan (IC)/PAAm DN hydrogel and kappacarrageenan
+(KC)/PAAm DN hydrogel. II. Photographs displaying the mechanical brittle IC hydrogel (a), which broke under a modest compression.
+Contrarily, IC/PAAm DN hydrogel were able to sustain compression (b), (c) knotting, (d) skinning through a narrow hole, (e) knotting and stretching.
+Adapted with permission [154] Copyright 2014, Royal Society of Chemistry.
+A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364 357
+as high as 5.2 MPa for a strain of 87.1% and compressive moduli of 0.1 MPa, which is much higher than pure PHA hydrogel
+(fracture stress, strain and compressive modulus of 0.29 MPa, 56.1% and 0.045 MPa, respectively). These properties resulted
+from the combination of a stiff but brittle HA network and one soft but ductile PDAAm network. These DN-based hydrogels
+can effectively dissipate the stress imposed during compression by either deforming the network conformation and/or sliding
+the physical entanglements points along the polymer chains. Additionally, these robust hydrogels were shown to be
+non-cytotoxic and resistant to fibroblast cells degradation after 2 months of cell culture [158]. The previous characteristics
+combined with the superior mechanical behavior allow their potential application as replacers of load bearing tissues.
+3.8. Chondroitin sulfate
+Other biopolymer that is also found in the ECM of biological tissues, is chondroitin sulfate, being responsible for providing
+ECM strength. Chondroitin sulfate constitutes a sulfated polysaccharide made of both N-acetylgalactosamine and glucuronic
+acid sugars. Recently, a novel method was developed to produce tough DN gel combining a neutral and biocompatible polymer
+with any polyelectrolyte biopolymer [159]. In this work, chondroitin sulfate proteoglycans, chondroitin sulfate and
+sodium hyaluronate were used as molecular stents and were combined with a neutral PDAAm polymer. To this end, the
+biopolymer was added to an aqueous solution containing the neutral monomer followed by its polymerization into a first
+PDAAm network. Since the biopolymer (polyelectrolyte) is physically trapped within the first polymer network, this structure
+is able to swell allowing the incorporation of a second neutral monomer needed to create a tough DN hydrogel. As can
+be observed in Fig. 8, only the incorporation of biopolymers in the first neutral structure do not contribute to the increase of
+Fig. 8. I. Tensile stress–strain curves of single-network gels (a) and double-network gels (b) without biopolymers (red) and with chondroitin sulfate
+proteoglycans (PGs, blue), sodium hyaluronate (HA, green) or chondroitin sulfate (CS, black). II. Photographs obtained by phase-contrast microscopy
+depicting human coronary artery endothelial cells (HCAEs) seeded on double-network hydrogels without (a) and with (b) PGs after 5 days in culture. Scale
+bar corresponds to 100 lm. Adapted with permission [159] Copyright 2013, Wiley-VCH. (For interpretation of the references to colour in this figure legend,
+the reader is referred to the web version of this article.)
+358 A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364
+the overall mechanical properties (Fig. 8Ia); however, the incorporation of a second matrix within the first one resulted in
+hydrogels with extraordinary mechanical properties (Fig. 8Ib). Moreover, the potential of using biopolymers to increase the
+biological activity was assessed by seeding HCAES above the DN hydrogels with or without biopolymers. The results revealed
+a cell spherical-like shape on the sample without molecular stents (Fig. 8IIa) whereas cells showed their typical spindle
+shape in the presence of the biopolymer (Fig. 8IIb).
+The described strategy combines the strength and toughness of DN hydrogels with the bioactivity of biopolymers,
+enhancing their potential as soft tissues analogues. Moreover, this methodology is general in the sense that allows the introduction
+of any biopolymers without chemical modification and any neutral polymer [159].
+4. Final remarks and future trends
+As result of the high prevalence of degenerative diseases commonly suffered by old people, and the frequent occurrence of
+injuries in athletes, tissue repair have been highlighted as a hot research topic for some years now [160]. Early procedures for
+the treatment of these lesions explored the transplantation of organs or tissues to the site of injury; however, this practice
+presents collateral effects such as the possible damage of the donor site, disease transmission and recipient rejection as well
+as shortage of donors [161,162]. Consequently, new alternatives to grafts and artificial hard and dry substitutes are nowadays
+explored for repairing soft tissues, for instance, the promising TE technique. Generally speaking, TE approaches aim at developing
+materials that can induce and guide cell proliferation, differentiation, and new tissue formation at the site of tissue
+injury or defect [126]. Accordingly, recapitulating the characteristic found in native ECM such as solutes permeability, high
+strength, large deformation, biocompatibility and bioactivity is likely to be the most favorable strategy to create
+scaffold-based TE [37,163]. Notably, hydrogels provide a highly hydrated microenvironment similar to the native ECM, and
+hence, they have been pointed as prospective candidates for tissue repair [33,164]. As compared with other class of materials
+such as metals and ceramics, hydrogels exhibit the lowest rigidity, which is comparable with the one found in native soft tissues
+[10]. This softness constitutes a crucial aspect to consider when designing a biomaterial to mimic the ECM since it minimizes
+the irritation of the surrounding tissues [39]. However, regarding the toughness and strength, a large difference
+between natural tissues and biomaterials arises [165] as conventional hydrogels are often brittle with fracture energies lower
+than 10 J m2, which are far from the 1000 J m2 of cartilage [166]. Recent advances in gel science were made through the
+development of a plethora of approaches to create customizable 3D polymeric network with superior mechanical properties.
+These strategies are based on the incorporation of different entities into a hydrogel structure, for instance, NC and MMC
+hydrogels have multifunctional crosslinkers to effectively diminish the structural inhomogeneity [43,101]; TP hydrogels present
+sliding crosslinks whose position on the polymeric network can be adjusted to cooperatively sustain the strain [42];
+Tetra-PEG, CCb, PA hydrogels are the result of combining different monomers with different functional groups to create strong
+structures [82,91,107]; LB hydrogels have lamellar bilayers to provide high toughness and self-healing ability [111]; DN
+hydrogels are based on the introduction of a second polymeric matrix which consequently increase the fracture stress and
+toughness [41]. Therefore, the brittleness of conventional hydrogels can be suppressed by changing their network structure,
+which consists in randomly interconnected chains made from single polymers. Homogeneous hydrogels prevent the crack
+progression through the decrease of the strand length distribution, and consequently, the stress can be equally sustained
+by all the strands. Contrarily, heterogeneous hydrogels suggest that heterogeneity is desirable considering that their toughening
+method depends on multiple random fractures. Moreover, the toughness of a material can be severely enhanced by
+introducing energy-dissipation methods. Several recent works have replaced the irreversible covalent bonds by supramolecular
+ones, for instance, hydrophobic associations [74,104,106], ionic crosslinks [103,107] and hydrogen bonds [73].
+All of these methods constitute new concepts which can be applied to create strong, tough and endurable devices. The
+choice of the most suitable strategy will rely on the required properties for a specific application. For instance, if high elongations
+and low stiffness are needed (>8 times the original length) homogeneous hydrogels could be used such as SR gels.
+Besides the previous characteristics, DN hydrogels possesses also a high toughness, which may also be a requisite for a particular
+purpose. However, if stiffness is crucial, L-NC should be preferentially selected at the expense of lower strength values.
+Furthermore, a combination of the different strategies should also be envisaged as this would result in hydrogels with
+improved mechanical properties [167–169].
+A recent theme that has attracted much attention in the biomaterials field is the fabrication of tough hydrogels for many
+load-bearing biomedical applications [113]. In this sense, biocompatibility is fundamental and can be achieved through the
+construction of biopolymer-based hydrogels [126]. Taking advantage of the previously stated methodologies to synthesize
+strong and tough hydrogels, researchers have engineered a variety of systems to meet the complex biological and mechanical
+requirements of TE. Undoubtedly, among all the methods, the DN approach affords the highest versatility in terms of
+composition and resulting properties, and therefore, it has been extensively employed by combining, for instance,
+bacterial-cellulose with gelatin, alginate, carrageenan or gellan-gum [128]; gellan-gum derivatives with gelatin [137,139]
+or poly(acrylamide) [135,139]; chitin with poly(vinyl alcohol) [143]; alginate derivatives with poly(vinyl alcohol) [151] or
+poly(acrylamide) [71,150]; agar with poly(acrylamide) [153]; carrageenan with poly(acrylamide) [154]; acid hyaluronic
+derivatives with poly(dimethylacrylamide) [167]; and chondroitin sulfate with poly(acrylamide) [159], resulting in structures
+with improved strength and toughness which is of outmost importance for tissue repair. More hydrogels systems were
+already developed combining other natural-origin materials [140,170].
+A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364 359
+Hydrogel scientists may also use some hints found in Nature occurring hydrogels to design structural materials with superior
+mechanical properties [171]. Some animals like jellyfish and sea cucumber are examples of 3D networks with high water
+content, which exhibit a high tensile and compressive moduli [143,172]. These exceptional features found in biological tissues
+are mainly due to the presence of a sophisticated architecture from more than one type of molecule [173]. In particular, ECM
+can be conceived as a crosslinked matrix with a well-ordered structure on various length scales made of proteins such as collagen
+or elastin intertwined with high molecular weight molecules such as some polysaccharides (including hyaluronic acid
+and chondroitin sulfate) [174]. Having this in mind, the control of the hydrogel microstructure would potentially yield artificial
+substitutes of native tissues with outstanding mechanical performances [172,175]. In this review some of the attempted
+approaches to recapture the ECM structure were described, showing impressive mechanical properties when comparing with
+non-order structures made of the same materials [98,111,143]. These unique microstructures are able to effectively distribute
+the applied load over a wide area, slowing down the crack propagation and therefore, avoid the material fracture [145].
+However, the reconstruction of the biotissues structure is extremely daunting [163]. Realizing this difficulty, Wang et al. proposed
+a peculiar way of preserving this natural feature by incorporating PAAm or PAA polymers into a fresh jellyfish (JF) gel,
+which is mainly composed of collagen and water (ca. 99 wt% after salt extraction) with layered structure [145]. Interestingly,
+only the native JF gel structure was able to withstand 1.16 MPa in compression and 21.3 kPa in tension, which is higher when
+comparing with conventional hydrogels. The incorporation of the PAAm and PAA polymers into the jellyfish gel resulted in
+hydrogels with strengths several tens times higher than those of JF and the corresponding PAAm or PAA structures [145],
+proving the importance of a well-defined microstructure to obtain hydrogels with superior mechanical properties. In addition,
+this defined organization may have beneficial biological features, for instance, by promoting cell infiltration and neovascularization
+[176,177]. This knowledge open a new venue for the creation of materials with diverse functions simply by replacing
+non-ordered structure by a well-developed microstructure, instead of selecting a new material.
+Although this review mainly focus on the hydrogels mechanical properties and biocompatibility, other aspects should also
+be considered to achieve the ultimate goal of TE. Besides providing an initial support for cell adhesion and proliferation, 3D
+artificial matrices should reproduce relevant native biochemical and biophysical microenvironments to pave a way toward
+the engineering of functional tissues [177]. Several studies demonstrated that the incorporation of bioclues (e.g.
+cell-binding motifs) and/or biological factors (e.g. growth factors) are crucial to ensure the cell viability and proliferation inasmuch
+as they constitute instructive microenvironment molecules to improve the cell/matrix interaction [52,176,178,179].
+One research area, less studied in the past few years, is the design and construction of tough hydrogels with controlled
+degradation behavior. This degradability could be virtually introduced by labile bonds either on the polymer backbone or on
+the crosslinkers used to create the hydrogels, which can be later enzymatical or chemically broken under physiological conditions.
+Moreover, this degradation should be tailored and the degradation products should be non-cytotoxic [76].
+More recent approaches are also exploring non-invasive and patient-friendly procedures involving the targeted administration
+of therapeutic molecules, such as growth factors, within materials mimicking the mechanical and biological conditions
+of the site to be treated [180]. In this sense, loaded injectable polymeric precursors able to self-assemble or crosslink
+into strong and biocompatible 3D networks after their injection, should also be developed.
+Therefore, it is anticipated that hydrogels with high toughness, strength, recoverability, a well-defined architecture, biocompatibility
+and bioactivity will certainly enhance the applicability of these polymeric networks in the biomedical field
+[120,181]. However, the current state of research in this area is mainly focused on the improvement of the physicochemical
+properties of hydrogels and less on recapturing all the native ECM environment, and hence, must go further to significantly
+improve the applications of hydrogels in diverse areas.
+The concepts and techniques summarized in this review to enhance the mechanical properties of conventional hydrogels
+are very promising for load-bearing applications. In particular, advanced strategies that combine simultaneously superior
+mechanical properties and biocompatibility of hydrogels are expected to expand the range of application to the Tissue
+Engineering field. We believe that this review will serve as guide in future development of natural-origin hydrogels for
+biomedical applications, especially as cell-laden analogues of load-bearing soft tissues and ECM artificial substitutes.
+Acknowledgements
+A.M.S.C. thanks FCT (Fundação para a Ciência e a Tecnologia) for financial support through PhD grant
+SFRH/BD/101748/2014. This work was funded by the European Union’s Seventh Framework Programme (FP7/2007-2013)
+under grant agreement no. REGPOT-CT2012-316331-POLARIS, by FEDER through the Competitive Factors Operation
+Program – COMPETE and by national funds through FCT in the scope of project PTDC/CTM-BIO/1814/2012.
+References
+[1] Y.C. Fung, Biomechanics: Mechanical Properties of Living Tissues, Springer, New York, 1993.
+[2] A.J. Kerin, M.R. Wisnom, M.A. Adams, The compressive strength of articular cartilage, Proc. Inst. Mech. Eng. H 212 (4) (1998) 273–280.
+[3] N.K. Simha, C.S. Carlson, J.L. Lewis, Evaluation of fracture toughness of cartilage by micropenetration, J. Mater. Sci. Mater. Med. 15 (5) (2004) 631–639.
+[4] P. Fratzl, Biomimetic materials research: what can we really learn from nature’s structural materials?, J Roy. Soc. Interface 4 (15) (2007) 637–642.
+[5] J.L. Drury, D.J. Mooney, Hydrogels for tissue engineering: scaffold design variables and applications, Biomaterials 24 (24) (2003) 4337–4351.
+[6] H. Bodugoz-Senturk et al, Poly(vinyl alcohol)-acrylamide hydrogels as load-bearing cartilage substitute, Biomaterials 30 (4) (2009) 589–596.
+360 A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364
+[7] F.T. Moutos, L.E. Freed, F. Guilak, A biomimetic three-dimensional woven composite scaffold for functional tissue engineering of cartilage, Nat. Mater.
+6 (2) (2007) 162–167.
+[8] D.J. Huey, J.C. Hu, K.A. Athanasiou, Unlike bone, cartilage regeneration remains elusive, Science 338 (6109) (2012) 917–921.
+[9] J. Gong, Y. Osada, Soft and wet materials: from hydrogels to biotissues, in: M. Cloitre (Ed.), High Solid Dispersions, Springer, Berlin, Heidelberg, 2010,
+pp. 203–246.
+[10] N.A. Peppas et al, Hydrogels in pharmaceutical formulations, Eur. J. Pharm. Biopharm. 50 (1) (2000) 27–46.
+[11] A.S. Hoffman, Hydrogels for biomedical applications, Adv. Drug Deliv. Rev. 54 (1) (2002) 3–12.
+[12] B.V. Slaughter et al, Hydrogels in regenerative medicine, Adv. Mater. 21 (32–33) (2009) 3307–3329.
+[13] H. Park et al, Shear-reversibly crosslinked alginate hydrogels for tissue engineering, Macromol. Biosci. 9 (9) (2009) 895–901.
+[14] C.L. Salgado, M.B. Oliveira, J.F. Mano, Combinatorial cell-3D biomaterials cytocompatibility screening for tissue engineering using bioinspired
+superhydrophobic substrates, Integr. Biol.: Quant. Biosci. Nano Macro 4 (3) (2012) 318–327.
+[15] W.B. Liechty et al, Polymers for drug delivery systems, Annu. Rev. Chem. Biomol. Eng. 1 (2010) 149–173.
+[16] T. Vermonden, R. Censi, W.E. Hennink, Hydrogels for protein delivery, Chem. Rev. 112 (5) (2012) 2853–2888.
+[17] Y. Qiu, K. Park, Environment-sensitive hydrogels for drug delivery, Adv. Drug Deliv. Rev. 53 (3) (2001) 321–339.
+[18] R. Langer, Drug delivery and targeting, Nature 392 (6679 Suppl) (1998) 5–10.
+[19] Y. Tanaka, J.P. Gong, Y. Osada, Novel hydrogels with excellent mechanical performance, Prog. Polym. Sci. 30 (1) (2005) 1–9.
+[20] P. Calvert, Hydrogels for soft machines, Adv. Mater. 21 (7) (2009) 743–756.
+[21] P.C. Thomas, B.H. Cipriano, S.R. Raghavan, Nanoparticle-crosslinked hydrogels as a class of efficient materials for separation and ion exchange, Soft
+Matter 7 (18) (2011) 8192–8197.
+[22] A.B. Imran, T. Seki, Y. Takeoka, Recent advances in hydrogels in terms of fast stimuli responsiveness and superior mechanical performance, Polym. J.
+42 (11) (2010) 839–851.
+[23] D.J. Beebe et al, Functional hydrogel structures for autonomous flow control inside microfluidic channels, Nature 404 (6778) (2000) 588–590.
+[24] D. Kim, D.J. Beebe, Hydrogel-based reconfigurable components for microfluidic devices, Lab Chip 7 (2) (2007) 193–198.
+[25] H.-C. Chiu et al, Polymer vesicles containing small vesicles within interior aqueous compartments and pH-responsive transmembrane channels,
+Angew. Chem. Int. Ed. 47 (10) (2008) 1875–1878.
+[26] D. Buenger, F. Topuz, J. Groll, Hydrogels in sensing applications, Prog. Polym. Sci. 37 (12) (2012) 1678–1719.
+[27] M. Zrínyi, J. Fehér, G. Filipcsei, Novel gel actuator containing TiO2 particles operated under static electric field, Macromolecules 33 (16) (2000) 5751–
+5753.
+[28] H. Okuzaki, T. Kunugi, Adsorption-induced bending of polypyrrole films and its application to a chemomechanical rotor, J. Polym. Sci., Part B: Polym.
+Phys. 34 (10) (1996) 1747–1749.
+[29] Y. Osada, H. Okuzaki, H. Hori, A polymer gel with electrically driven motility, Nature 355 (6357) (1992) 242–244.
+[30] H.J. Schneider, K. Kato, R.M. Strongin, Chemomechanical polymers as sensors and actuators for biological and medicinal applications, Sensors (Basel) 7
+(8) (2007) 1578–1611.
+[31] J.F. Mano, Stimuli-responsive polymeric systems for biomedical applications, Adv. Eng. Mater. 10 (6) (2008) 515–527.
+[32] M. Prabaharan, J.F. Mano, Stimuli-responsive hydrogels based on polysaccharides incorporated with thermo-responsive polymers as novel
+biomaterials, Macromol. Biosci. 6 (12) (2006) 991–1008.
+[33] K.Y. Lee, D.J. Mooney, Hydrogels for tissue engineering, Chem. Rev. 101 (7) (2001) 1869–1879.
+[34] M.M. Stevens, A. Khademhosseini, Emerging materials for tissue engineering and regenerative medicine: themed issue for Soft Matter and Journal of
+Materials Chemistry, Soft Matter 6 (20) (2010). 4962–4962.
+[35] J. Patterson, M.M. Martino, J.A. Hubbell, Biomimetic materials in tissue engineering, Mater. Today 13 (1–2) (2010) 14–22.
+[36] D.E. Discher, D.J. Mooney, P.W. Zandstra, Growth factors, matrices, and forces combine and control stem cells, Science 324 (5935) (2009) 1673–1677.
+[37] J.F. Mano, Designing biomaterials for tissue engineering based on the deconstruction of the native cellular environment, Mater. Lett. 141 (2015) 198–
+202.
+[38] M. Shibayama, Spatial inhomogeneity and dynamic fluctuations of polymer gels, Macromol. Chem. Phys. 199 (1) (1998) 1–30.
+[39] N.A. Peppas et al, Physicochemical foundations and structural design of hydrogels in medicine and biology, Annu. Rev. Biomed. Eng. 2 (2000) 9–29.
+[40] R.M. Hernández et al, Microcapsules and microcarriers for in situ cell delivery, Adv. Drug Deliv. Rev. 62 (7–8) (2010) 711–730.
+[41] J.P. Gong et al, Double-network hydrogels with extremely high mechanical strength, Adv. Mater. 15 (14) (2003) 1155–1158.
+[42] Y. Okumura, K. Ito, The polyrotaxane gel: a topological gel by figure-of-eight cross-links, Adv. Mater. 13 (7) (2001) 485–487.
+[43] K. Haraguchi, T. Takehisa, Nanocomposite hydrogels: a unique organic–inorganic network structure with extraordinary mechanical, optical, and
+swelling/de-swelling properties, Adv. Mater. 14 (16) (2002) 1120–1124.
+[44] N. Boucard et al, The use of physical hydrogels of chitosan for skin regeneration following third-degree burns, Biomaterials 28 (24) (2007) 3478–3488.
+[45] R. Sodian et al, Fabrication of a trileaflet heart valve scaffold from a polyhydroxyalkanoate biopolyester for use in tissue engineering, Tissue Eng. 6 (2)
+(2000) 183–188.
+[46] C.M. Bono, S.R. Garfin, History and evolution of disc replacement, Spine J. 4 (6 Suppl) (2004) 145s–150s.
+[47] H. Lee, C. Xia, N.X. Fang, First jump of microgel; actuation speed enhancement by elastic instability, Soft Matter 6 (18) (2010) 4342–4345.
+[48] C. Keplinger et al, Stretchable, transparent, ionic conductors, Science 341 (6149) (2013) 984–987.
+[49] S.S. Silva, J.F. Mano, R.L. Reis, Potential applications of natural origin polymer-based systems in soft tissue regeneration, Crit. Rev. Biotechnol. 30 (3)
+(2010) 200–221.
+[50] H.F. Ko, C. Sfeir, P.N. Kumta, Novel synthesis strategies for natural polymer and composite biomaterials as potential scaffolds for tissue engineering,
+Philos. Trans. A Math. Phys. Eng. Sci. 2010 (368) (1917) 1981–1997.
+[51] T. Coviello et al, Polysaccharide hydrogels for modified release formulations, J. Control. Release 119 (1) (2007) 5–24.
+[52] C.A. Custódio, R.L. Reis, J.F. Mano, Engineering biomolecular microenvironments for cell instructive biomaterials, Adv. Healthcare Mater. 3 (6) (2014)
+797–810.
+[53] J.F. Mano et al, Natural origin biodegradable systems in tissue engineering and regenerative medicine: present status and some moving trends, J. R.
+Soc. Interface 4 (17) (2007) 999–1030.
+[54] E.Y. Egawa et al, Enhanced proliferation of neural stem cells in a collagen hydrogel incorporating engineered epidermal growth factor, Biomaterials 32
+(21) (2011) 4737–4743.
+[55] Y. Liu, M.B. Chan-Park, A biomimetic hydrogel based on methacrylated dextran-graft-lysine and gelatin for 3D smooth muscle cell culture,
+Biomaterials 31 (6) (2010) 1158–1170.
+[56] M. He et al, Fast contact of solid–liquid interface created high strength multi-layered cellulose hydrogels with controllable size, ACS Appl. Mater.
+Interfaces 6 (3) (2014) 1872–1878.
+[57] A.M. Costa et al, Biocompatible polymeric microparticles produced by a simple biomimetic approach, Langmuir 30 (16) (2014) 4535–4539.
+[58] X. Zheng Shu et al, In situ crosslinkable hyaluronan hydrogels for tissue engineering, Biomaterials 25 (7–8) (2004) 1339–1348.
+[59] Q. Li et al, Photocrosslinkable polysaccharides based on chondroitin sulfate, J. Biomed. Mater. Res. A 68 (1) (2004) 28–33.
+[60] G.J. Lake, A.G. Thomas, The Strength of Highly Elastic Materials, vol. 300, 1967, pp. 108–119.
+[61] D. Bonn et al, Delayed fracture of an inhomogeneous soft solid, Science 280 (5361) (1998) 265–267.
+[62] Y.D. Park, N. Tirelli, J.A. Hubbell, Photopolymerized hyaluronic acid-based hydrogels and interpenetrating networks, Biomaterials 24 (6) (2003) 893–
+900.
+A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364 361
+[63] J.A. Burdick et al, Controlled degradation and mechanical behavior of photopolymerized hyaluronic acid networks, Biomacromolecules 6 (1) (2005)
+386–391.
+[64] J. Hawkes, The structure of fish skin, Cell Tissue Res. 149 (2) (1974) 159–172.
+[65] M.P. Rao et al, Laminar ceramics that exhibit a threshold strength, Science 286 (5437) (1999) 102–105.
+[66] G.M. Luz, J.F. Mano, Mineralized structures in nature: examples and inspirations for the design of new composite materials and biomaterials, Compos.
+Sci. Technol. 70 (13) (2010) 1777–1788.
+[67] J.B. Thompson et al, Bone indentation recovery time correlates with bond reforming time, Nature 414 (6865) (2001) 773–776.
+[68] J. Keckes et al, Cell-wall recovery after irreversible deformation of wood, Nat. Mater. 2 (12) (2003) 810–813.
+[69] V. Amendola, M. Meneghetti, Self-healing at the nanoscale, Nanoscale 1 (1) (2009) 74–88.
+[70] G.E. Fantner et al, Sacrificial bonds and hidden length: unraveling molecular mesostructures in tough materials, Biophys. J. 90 (4) (2006) 1411–1418.
+[71] J.-Y. Sun et al, Highly stretchable and tough hydrogels, Nature 489 (7414) (2012) 133–136.
+[72] P.J. Skrzeszewska et al, Fracture and self-healing in a well-defined self-assembled polymer network, Macromolecules 43 (7) (2010) 3542–3548.
+[73] J. Cui, A.D. Campo, Multivalent H-bonds for self-healing hydrogels, Chem. Commun. 48 (74) (2012) 9302–9304.
+[74] S. Abdurrahmanoglu, V. Can, O. Okay, Design of high-toughness polyacrylamide hydrogels by hydrophobic modification, Polymer 50 (23) (2009)
+5449–5455.
+[75] A. Clark, S. Ross-Murphy, Structural and mechanical properties of biopolymer gels, in: Biopolymers, Springer, Berlin, Heidelberg, 1987, pp. 57–192.
+[76] W.E. Hennink, C.F. van Nostrum, Novel crosslinking methods to design hydrogels, Adv. Drug Deliv. Rev. 54 (1) (2002) 13–36.
+[77] M. Shibayama, Universality and specificity of polymer gels viewed by scattering methods, Bull. Chem. Soc. Jpn. 79 (12) (2006) 1799–1819.
+[78] T.-P. Hsu, D.S. Ma, C. Cohen, Effects of inhomogeneities in polyacrylamide gels on thermodynamic and transport properties, Polymer 24 (10) (1983)
+1273–1278.
+[79] C.H. Lee et al, Characterization of heterogeneous polyacrylamide hydrogels by tracking of single quantum dots, Macromolecules 47 (2) (2014) 741–
+749.
+[80] W.-C. Lin et al, Large strain and fracture properties of poly(dimethylacrylamide)/silica hybrid hydrogels, Macromolecules 43 (5) (2010) 2554–2563.
+[81] H. Furukawa et al, Swelling-induced modulation of static and dynamic fluctuations in polyacrylamide gels observed by scanning microscopic light
+scattering, Phys. Rev. E 68 (3) (2003) 031406.
+[82] T. Sakai et al, Design and fabrication of a high-strength hydrogel with ideally homogeneous network structure from tetrahedron-like
+macromonomers, Macromolecules 41 (14) (2008) 5379–5384.
+[83] B. Fei et al, Hydrogel of biodegradable cellulose derivatives. I. Radiation-induced crosslinking of CMC, J. Appl. Polym. Sci. 78 (2) (2000) 278–283.
+[84] S. Naficy et al, Progress toward robust polymer hydrogels, Aust. J. Chem. 64 (8) (2011) 1007–1025.
+[85] E. Nedkov, S. Tsvetkova, Effect of gamma irradiation on the crystalline structure of ultra high molecular weight poly(ethylene oxide), Radiat. Phys.
+Chem. 43 (4) (1994) 397–401.
+[86] Y. Akagi et al, Evaluation of topological defects in tetra-PEG gels, Macromolecules 43 (1) (2009) 488–493.
+[87] T. Matsunaga et al, Structure characterization of tetra-PEG gel by small-angle neutron scattering, Macromolecules 42 (4) (2009) 1344–1351.
+[88] D.A. Ossipov, J. Hilborn, Poly(vinyl alcohol)-based hydrogels formed by ‘‘click chemistry’’, Macromolecules 39 (5) (2006) 1709–1718.
+[89] V. Crescenzi et al, Novel hydrogels via click chemistry: synthesis and potential biomedical applications, Biomacromolecules 8 (6) (2007) 1844–1850.
+[90] V.V. Rostovtsev et al, A stepwise Huisgen cycloaddition process: copper(I)-catalyzed regioselective ‘‘ligation’’ of azides and terminal alkynes, Angew.
+Chem. Int. Ed. 41 (14) (2002) 2596–2599.
+[91] M. Malkoch et al, Synthesis of well-defined hydrogel networks using click chemistry, Chem. Commun. 26 (2006) 2774–2776.
+[92] S.A. Nepogodiev, J.F. Stoddart, Cyclodextrin-based catenanes and rotaxanes, Chem. Rev. 98 (5) (1998) 1959–1976.
+[93] T. Koga, F. Tanaka, Elastic properties of polymer networks with sliding junctions, Eur. Phys. J. E 17 (2) (2005) 225–229.
+[94] T. Karino et al, SANS studies on deformation mechanism of slide-ring gel, Macromolecules 38 (14) (2005) 6161–6167.
+[95] K. Ito, Novel cross-linking concept of polymer network: synthesis, structure, and properties of slide-ring gels with freely movable junctions, Polym. J.
+39 (6) (2007) 489–499.
+[96] K. Haraguchi, Nanocomposite hydrogels, Curr. Opin. Solid State Mater. Sci. 11 (3–4) (2007) 47–54.
+[97] K. Haraguchi, K. Murata, T. Takehisa, Stimuli-responsive properties of nanocomposite gels comprising (2-methoxyethylacrylate-co-N, Ndimethylacrylamide)
+copolymer-clay networks, Macromol. Symp. 329 (1) (2013) 150–161.
+[98] J. Wang et al, A strong bio-inspired layered PNIPAM–clay nanocomposite hydrogel, Angew. Chem. Int. Ed. 51 (19) (2012) 4676–4680.
+[99] Q. Wang et al, High-water-content mouldable hydrogels by mixing clay and a dendritic molecular binder, Nature 463 (7279) (2010) 339–343.
+[100] H. Ihre, O.L. Padilla De Jesús, J.M.J. Fréchet, Fast and convenient divergent synthesis of aliphatic ester dendrimers by anhydride coupling, J. Am. Chem.
+Soc. 123 (25) (2001) 5908–5917.
+[101] T. Huang et al, A novel hydrogel with high mechanical strength: a macromolecular microsphere composite hydrogel, Adv. Mater. 19 (12) (2007)
+1622–1626.
+[102] N. Tanaka, H. Kitano, N. Ise, Raman spectroscopic study of hydrogen bonding in aqueous carboxylic acid solutions. 3. Polyacrylic acid, Macromolecules
+24 (10) (1991) 3017–3019.
+[103] K.J. Henderson et al, Ionically cross-linked triblock copolymer hydrogels with high strength, Macromolecules 43 (14) (2010) 6193–6201.
+[104] D.C. Tuncaboylu et al, Tough and self-healing hydrogels formed via hydrophobic interactions, Macromolecules 44 (12) (2011) 4997–5005.
+[105] M. Shibayama, T. Tanaka, Volume phase transition and related phenomena of polymer gels, in: K. Dušek (Ed.), Responsive Gels: Volume Transitions I,
+Springer, Berlin, Heidelberg, 1993, pp. 1–62.
+[106] U. Gulyuz, O. Okay, Self-healing poly(acrylic acid) hydrogels with shape memory behavior of high mechanical strength, Macromolecules 47 (19)
+(2014) 6889–6899.
+[107] T.L. Sun et al, Physical hydrogels composed of polyampholytes demonstrate high toughness and viscoelasticity, Nat. Mater. 12 (10) (2013) 932–937.
+[108] P.G. Higgs, J.F. Joanny, Theory of polyampholyte solutions, J. Chem. Phys. 94 (2) (1991) 1543–1554.
+[109] S. Kudaibergenov, Recent advances in the study of synthetic polyampholytes in solutions, in: Polymer Latexes – Epoxide Resins – Polyampholytes,
+Springer, Berlin, Heidelberg, 1999, pp. 115–197.
+[110] F.M. Chen, M. Zhang, Z.F. Wu, Toward delivery of multiple growth factors in tissue engineering, Biomaterials 31 (24) (2010) 6279–6308.
+[111] M.A. Haque et al, Lamellar bilayers as reversible sacrificial bonds to toughen hydrogel: hysteresis, self-recovery, fatigue resistance, and crack
+blunting, Macromolecules 44 (22) (2011) 8916–8924.
+[112] M.A. Haque et al, Unidirectional alignment of lamellar bilayer in hydrogel: one-dimensional swelling, anisotropic modulus, and stress/strain tunable
+structural color, Adv. Mater. 22 (45) (2010) 5110–5114.
+[113] M.A. Haque, T. Kurokawa, J.P. Gong, Super tough double network hydrogels and their application as biomaterials, Polymer 53 (9) (2012) 1805–1822.
+[114] J.P. Gong, Why are double network hydrogels so tough?, Soft Matter 6 (12) (2010) 2583–2590
+[115] T. Nakajima et al, Characterization of internal fracture process of double network hydrogels under uniaxial elongation, Soft Matter 9 (6) (2013)
+1955–1966.
+[116] T. Nakajima et al, Effect of void structure on the toughness of double network hydrogels, J. Polym. Sci., Part B: Polym. Phys. 49 (17) (2011) 1246–1254.
+[117] D. Myung et al, Design and fabrication of an artificial cornea based on a photolithographically patterned hydrogel construct, Biomed. Microdev. 9 (6)
+(2007) 911–922.
+[118] W. Yang, H. Furukawa, J.P. Gong, Highly extensible double-network gels with self-assembling anisotropic structure, Adv. Mater. 20 (23) (2008)
+4499–4503.
+362 A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364
+[119] J. Hu et al, Microgel-reinforced hydrogel films with high mechanical strength and their visible mesoscale fracture structure, Macromolecules 44 (19)
+(2011) 7775–7781.
+[120] Y.M. Chen et al, Cultivation of endothelial cells on adhesive protein-free synthetic polymer gels, Biomaterials 26 (22) (2005) 4588–4596.
+[121] T. Nakajima et al, True chemical structure of double network hydrogels, Macromolecules 42 (6) (2009) 2184–2189.
+[122] Y.H. Na et al, Necking phenomenon of double-network gels, Macromolecules 39 (14) (2006) 4641–4645.
+[123] P.B. Malafaya, G.A. Silva, R.L. Reis, Natural-origin polymers as carriers and scaffolds for biomolecules and cell delivery in tissue engineering
+applications, Adv. Drug Deliv. Rev. 59 (4–5) (2007) 207–233.
+[124] T.J. Klein et al, Long-term effects of hydrogel properties on human chondrocyte behavior, Soft Matter 6 (20) (2010) 5175–5183.
+[125] J. Velema, D. Kaplan, Biopolymer-based biomaterials as scaffolds for tissue engineering, Adv. Biochem. Eng. Biotechnol. 102 (2006) 187–238.
+[126] B. Balakrishnan, R. Banerjee, Biopolymer-based hydrogels for cartilage tissue engineering, Chem. Rev. 111 (8) (2011) 4453–4474.
+[127] S. Hestrin, M. Schramm, Synthesis of cellulose by Acetobacter xylinum. 2. Preparation of freeze-dried cells capable of polymerizing glucose to cellulose,
+Biochem. J. 58 (2) (1954) 345–352.
+[128] A. Nakayama et al, High mechanical strength double-network hydrogel with bacterial cellulose, Adv. Funct. Mater. 14 (11) (2004) 1124–1128.
+[129] C. Azuma et al, Biodegradation of high-toughness double network hydrogels as potential materials for artificial cartilage, J. Biomed. Mater. Res. A 81
+(2) (2007) 373–380.
+[130] H. Shin, B.D. Olsen, A. Khademhosseini, The mechanical properties and cytotoxicity of cell-laden double-network hydrogels based on
+photocrosslinkable gelatin and gellan gum biomacromolecules, Biomaterials 33 (11) (2012) 3143–3152.
+[131] I. Giavasis, L.M. Harvey, B. McNeil, Gellan gum, Crit. Rev. Biotechnol. 20 (3) (2000) 177–211.
+[132] H. Grasdalen, O. Smidsrød, Gelation of gellan gum, Carbohydr. Polym. 7 (5) (1987) 371–393.
+[133] E.R. Morris, K. Nishinari, M. Rinaudo, Gelation of gellan – a review, Food Hydrocolloids 28 (2) (2012) 373–411.
+[134] Y.-H. Na et al, Structural characteristics of double network gels with extremely high mechanical strength, Macromolecules 37 (14) (2004) 5370–5374.
+[135] S.E. Bakarich et al, Recovery from applied strain in interpenetrating polymer network hydrogels with ionic and covalent cross-links, Soft Matter 8 (39)
+(2012) 9985–9988.
+[136] X. Zhao et al, Stress-relaxation behavior in gels with ionic and covalent crosslinks, J. Appl. Phys. 107 (6) (2010).
+[137] D.M. Kirchmajer, M.I.H. Panhuis, Robust biopolymer based ionic-covalent entanglement hydrogels with reversible mechanical behaviour, J. Mater.
+Chem. B 2 (29) (2014) 4694–4702.
+[138] C.-C. Tsai et al, In vitro evaluation of the genotoxicity of a naturally occurring crosslinking agent (genipin) for biologic tissue fixation, J. Biomed. Mater.
+Res. 52 (1) (2000) 58–65.
+[139] H. Shin, B.D. Olsen, A. Khademhosseini, Gellan gum microgel-reinforced cell-laden gelatin hydrogels, J. Mater. Chem. B 2 (17) (2014) 2508–2516.
+[140] J.W. Nichol et al, Cell-laden microengineered gelatin methacrylate hydrogels, Biomaterials 31 (21) (2010) 5536–5544.
+[141] M. Rinaudo, Chitin and chitosan: properties and applications, Prog. Polym. Sci. 31 (7) (2006) 603–632.
+[142] C. Hassan, N. Peppas, Structure and applications of poly(vinyl alcohol) hydrogels produced by conventional crosslinking or by freezing/thawing
+methods, in: Biopolymers  PVA Hydrogels, Anionic Polymerisation Nanocomposites, Springer, Berlin, Heidelberg, 2000, pp. 37–65.
+[143] M. He et al, Construction of chitin/PVA composite hydrogels with jellyfish gel-like structure and their biocompatibility, Biomacromolecules 15 (9)
+(2014) 3358–3365.
+[144] R. Ricciardi et al, X-ray diffraction analysis of poly(vinyl alcohol) hydrogels, obtained by freezing and thawing techniques, Macromolecules 37 (5)
+(2004) 1921–1927.
+[145] X. Wang, H. Wang, H.R. Brown, Jellyfish gel and its hybrid hydrogels with high mechanical strength, Soft Matter 7 (1) (2011) 211–219.
+[146] A.D. Augst, H.J. Kong, D.J. Mooney, Alginate hydrogels as biomaterials, Macromol. Biosci. 6 (8) (2006) 623–633.
+[147] J.A. Rowley, G. Madlambayan, D.J. Mooney, Alginate hydrogels as synthetic extracellular matrix materials, Biomaterials 20 (1) (1999) 45–53.
+[148] K.I. Draget, O. Smidsrød, G. Skjåk-Bræk, Alginates from algae, in: Biopolymers Online, Wiley-VCH Verlag GmbH & Co. KGaA, 2005.
+[149] M.C. Darnell et al, Performance and biocompatibility of extremely tough alginate/polyacrylamide hydrogels, Biomaterials 34 (33) (2013) 8042–8048.
+[150] J. Li et al, Hybrid hydrogels with extremely high stiffness and toughness, ACS Macro Lett. 3 (6) (2014) 520–523.
+[151] H. Meng et al, Self-healable macro-/microscopic shape memory hydrogels based on supramolecular interactions, Chem. Commun. 50 (82) (2014)
+12277–12280.
+[152] V. Normand et al, New insight into agarose gel mechanical properties, Biomacromolecules 1 (4) (2000) 730–738.
+[153] Q. Chen et al, A robust, one-pot synthesis of highly mechanical and recoverable double network hydrogels using thermoreversible sol–gel
+polysaccharide, Adv. Mater. 25 (30) (2013) 4171–4176.
+[154] X. Lu et al, Super-tough and thermo-healable hydrogel – promising for shape-memory absorbent fiber, J. Mater. Chem. B 2 (43) (2014) 7631–7638.
+[155] J.R.E. Fraser, T.C. Laurent, U.B.G. Laurent, Hyaluronan: its nature, distribution, functions and turnover, J. Intern. Med. 242 (1) (1997) 27–33.
+[156] X.Z. Shu et al, Disulfide-crosslinked hyaluronan-gelatin hydrogel films: a covalent mimic of the extracellular matrix for in vitro cell growth,
+Biomaterials 24 (21) (2003) 3825–3834.
+[157] J.R. Santos, N.M. Alves, J.F. Mano, New thermo-responsive hydrogels based on poly (N-isopropylacrylamide)/hyaluronic acid semi-interpenetrated
+polymer networks: swelling properties and drug release studies, J. Bioactive Comp. Polym. 25 (2) (2010) 169–184.
+[158] L. Weng et al, Mechanically strong double network photocrosslinked hydrogels from N,N-dimethylacrylamide and glycidyl methacrylated
+hyaluronan, Biomaterials 29 (14) (2008) 2153–2163.
+[159] Y. Zhao et al, Proteoglycans and glycosaminoglycans improve toughness of biocompatible double network hydrogels, Adv. Mater. 26 (3) (2014) 436–
+442.
+[160] D. Puppi et al, Polymeric materials for bone and cartilage repair, Prog. Polym. Sci. 35 (4) (2010) 403–440.
+[161] J.S. Temenoff, A.G. Mikos, Review: tissue engineering for regeneration of articular cartilage, Biomaterials 21 (5) (2000) 431–440.
+[162] E.B. Hunziker, Articular cartilage repair: are the intrinsic biological constraints undermining this process insuperable?, Osteoarth Cartil. 7 (1) (1999)
+15–28.
+[163] X. Jia, K.L. Kiick, Hybrid multicomponent hydrogels for tissue engineering, Macromol. Biosci. 9 (2) (2009) 140–156.
+[164] N.M. Alves et al, Controlling cell behavior through the design of polymer surfaces, Small 6 (20) (2010) 2208–2220.
+[165] J. Elisseeff et al, Advances in skeletal tissue engineering with hydrogels, Orthod. Craniofac. Res. 8 (3) (2005) 150–161.
+[166] M.V. Chin-Purcell, J.L. Lewis, Fracture of articular cartilage, J. Biomech. Eng. 118 (4) (1996) 545–556.
+[167] K. Harrass et al, Mechanically strong hydrogels with reversible behaviour under cyclic compression with MPa loading, Soft Matter 9 (10) (2013)
+2869–2877.
+[168] G. Gao et al, Tough nanocomposite double network hydrogels reinforced with clay nanorods through covalent bonding and reversible chain
+adsorption, J. Mater. Chem. B 2 (11) (2014) 1539–1548.
+[169] J. Shen, N. Li, M. Ye, Preparation and characterization of dual-sensitive double network hydrogels with clay as a physical crosslinker, Appl. Clay Sci.
+103 (2015) 40–45.
+[170] A.R. Fajardo et al, Dual-network hydrogels based on chemically and physically crosslinked chitosan/chondroitin sulfate, React. Funct. Polym. 73 (12)
+(2013) 1662–1671.
+[171] C. Sanchez, H. Arribart, M.M. Giraud Guille, Biomimetism and bioinspiration as tools for the design of innovative materials and systems, Nat. Mater. 4
+(4) (2005) 277–288.
+[172] T. Miyazaki et al, Hydrogels with crystalline or liquid crystalline structure, Macromol. Rapid Commun. 23 (8) (2002) 447–455.
+[173] Z.L. Wu, J.P. Gong, Hydrogels with self-assembling ordered structures and their functions, NPG Asia Mater. 3 (2011) 57–64.
+A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364 363
+[174] B.J. DeKosky et al, Hierarchically designed agarose and poly(ethylene glycol) interpenetrating network hydrogels for cartilage tissue engineering,
+Tissue Eng. Part C Methods 16 (6) (2010) 1533–1542.
+[175] A. Sidorenko et al, Reversible switching of hydrogel-actuated nanostructures into complex micropatterns, Science 315 (5811) (2007) 487–490.
+[176] M.P. Lutolf, J.A. Hubbell, Synthetic biomaterials as instructive extracellular microenvironments for morphogenesis in tissue engineering, Nat.
+Biotechnol. 23 (1) (2005) 47–55.
+[177] N. Zagris, Extracellular matrix in development of the early embryo, Micron 32 (4) (2001) 427–438.
+[178] D. Gullberg, P. Ekblom, Extracellular matrix and its receptors during development, Int. J. Dev. Biol. 39 (5) (1995) 845–854.
+[179] B.K. Mann et al, Smooth muscle cell growth in photopolymerized hydrogels with cell adhesive and proteolytically degradable domains: synthetic
+ECM analogs for tissue engineering, Biomaterials 22 (22) (2001) 3045–3051.
+[180] X. Jia et al, Hyaluronic acid-based microgels and microgel networks for vocal fold regeneration, Biomacromolecules 7 (12) (2006) 3336–3344.
+[181] K. Yasuda et al, Biomechanical properties of high-toughness double network hydrogels, Biomaterials 26 (21) (2005) 4468–4475.
+364 A.M.S. Costa, J.F. Mano / European Polymer Journal 72 (2015) 344–364

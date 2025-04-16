@@ -5,74 +5,12 @@ library(tidytext)
 library(purrr)
 library(tidyr)
 library(stringr)
-library(dplyr)# Group terms by theme and calculate total TF-IDF
-theme_term_summary <- theme_results %>%
-  group_by(theme, word) %>%
-  summarise(
-    total_tfidf = sum(tf_idf),
-    total_terms = sum(n),
-    .groups = "drop"
-  ) %>%
-  arrange(theme, desc(total_tfidf))
-
-# Print the top terms for each theme
-print("Top terms by theme:")
-print(theme_term_summary)
-
-# Save the term summary to a CSV for further inspection
-write.csv(theme_term_summary, "theme_term_summary.csv", row.names = FALSE)
-
-# Word cloud for each theme
-theme_term_summary %>%
-  group_by(theme) %>%
-  top_n(15, total_tfidf) %>%
-  ggplot(aes(label = word, size = total_tfidf, color = theme)) +
-  geom_text_wordcloud() +
-  facet_wrap(~theme) +
-  scale_size_area(max_size = 12) +
-  labs(title = "Key Terms by Theme") +
-  theme_minimal()
-
-# Load the theme analysis results
-theme_analysis_results <- read.csv("theme_analysis_results.csv")
-
-# Convert year to a factor for better visualization
-theme_analysis_results$year <- as.factor(theme_analysis_results$year)
-
-# 1. Graph: Total Terms by Theme Over the Years
-ggplot(theme_analysis_results, aes(x = year, y = total_terms, color = theme, group = theme)) +
-  geom_line(size = 1) +
-  geom_point(size = 3) +
-  labs(
-    title = "Total Terms by Theme Over the Years",
-    subtitle = "Reasons, Impacts, and Solutions",
-    x = "Year",
-    y = "Total Terms"
-  ) +
-  theme_minimal() +
-  theme(plot.title = element_text(face = "bold"))
-
-# 2. Graph: Proportion of Focus on Themes Over the Years
-theme_focus <- theme_analysis_results %>%
-  group_by(year) %>%
-  mutate(proportion = total_terms / sum(total_terms)) %>%
-  ungroup()
-
-ggplot(theme_focus, aes(x = year, y = proportion, fill = theme)) +
-  geom_area(alpha = 0.7, position = "stack") +
-  labs(
-    title = "Proportion of Focus on Themes Over the Years",
-    subtitle = "Reasons, Impacts, and Solutions",
-    x = "Year",
-    y = "Proportion of Focus"
-  ) +
-  theme_minimal() +
-  theme(plot.title = element_text(face = "bold"))
-library(ggwordcloud)
+library(dplyr)
+library(ggplot2)
 
 # 1. Load Filtered Data from Trend1 -------------------------------
-filtered_metadata <- read.csv("filtered_articles_metadata.csv")
-relevant_files <- unique(filtered_metadata$file)
+filtered_metadata <- read.csv("associated_files_for_trend2.csv")
+relevant_files <- unique(filtered_metadata$file)  # 从 CSV 中提取文件名
 
 # 2. Define Theme Categories ---------------------------------------
 themes <- list(
@@ -91,13 +29,9 @@ themes <- list(
   )
 )
 
-# 3. Calculate TF-IDF for Themes -----------------------------------
-calculate_theme_tfidf <- function(file) {
-  print(paste("Processing file:", file))
-  
+# 3. Calculate Theme for Each Article -----------------------------
+calculate_article_theme <- function(file) {
   content <- tolower(paste(readLines(file.path("filtered_articles", file)), collapse = " "))
-  print("Original content:")
-  print(substr(content, 1, 500))  # Print the first 500 characters for debugging
   
   # Preprocess for multi-word terms
   content <- content %>%
@@ -105,21 +39,11 @@ calculate_theme_tfidf <- function(file) {
       paste0(" ", gsub(" ", "_", unlist(themes)), " "),
       paste0(" ", unlist(themes), " ")
     ))
-  print("Processed content:")
-  print(substr(content, 1, 500))  # Print the first 500 characters for debugging
   
-  # Create document-term matrix
+  # Tokenize and classify terms into themes
   df <- tibble(text = content, doc_id = file) %>%
     unnest_tokens(word, text) %>%
     anti_join(stop_words) %>%
-    count(doc_id, word) %>%
-    bind_tf_idf(word, doc_id, n)
-  
-  print("TF-IDF Data Frame:")
-  print(head(df))  # Print the first few rows of the TF-IDF data frame
-  
-  # Classify words into themes
-  df <- df %>%
     mutate(
       theme = case_when(
         word %in% gsub(" ", "_", themes$reasons) ~ "Reasons",
@@ -128,105 +52,166 @@ calculate_theme_tfidf <- function(file) {
         TRUE ~ NA_character_
       )
     ) %>%
-    filter(!is.na(theme))
-  
-  print("Classified Data Frame:")
-  print(head(df))  # Print the first few rows of the classified data frame
+    filter(!is.na(theme)) %>%
+    count(doc_id, theme, word, name = "keyword_count")  # 统计每个关键词的出现次数
   
   return(df)
 }
 
 # 4. Process All Files ---------------------------------------------
-theme_results <- map_dfr(relevant_files, calculate_theme_tfidf)
+theme_results <- map_dfr(relevant_files, calculate_article_theme)
 
-# 5. Time-Based Theme Analysis -------------------------------------
-theme_trends <- theme_results %>%
-  left_join(filtered_metadata %>% select(file, year), by = c("doc_id" = "file")) %>%
-  group_by(year, theme) %>%
-  summarise(
-    avg_tfidf = mean(tf_idf),
-    total_terms = sum(n),
-    .groups = "drop"
-  )
+# 确保 doc_id 和 file 匹配
+theme_results <- theme_results %>%
+  mutate(doc_id = basename(doc_id))  # 提取文件名
 
-# 6. Visualizations ------------------------------------------------
-# Theme prevalence over time
-ggplot(theme_trends, aes(x = year, y = avg_tfidf, color = theme)) +
-  geom_line(linewidth = 1) +
-  geom_point(size = 3) +
-  labs(title = "Evolution of Aging Population Themes",
-       subtitle = "Average TF-IDF Scores by Year",
-       x = "Year", y = "Mean TF-IDF Score") +
-  theme_minimal()
+# 调试：检查 theme_results 的内容
+print("Debug: theme_results 内容")
+print(head(theme_results))
 
-# Word cloud for each theme
-theme_results %>%
-  group_by(theme, word) %>%
-  summarise(total_tfidf = sum(tf_idf), .groups = "drop") %>%
-  group_by(theme) %>%
-  top_n(15, total_tfidf) %>%
-  ggplot(aes(label = word, size = total_tfidf, color = theme)) +
-  geom_text_wordcloud() +
-  facet_wrap(~theme) +
-  scale_size_area(max_size = 12) +
-  labs(title = "Key Terms by Theme") +
-  theme_minimal()
+# 合并 tfidf 列
+debug_data <- theme_results %>%
+  left_join(filtered_metadata %>% select(file, year, tfidf), by = c("doc_id" = "file"))
 
-# 7. Export Results ------------------------------------------------
-write.csv(theme_trends, "theme_analysis_results.csv", row.names = FALSE)
-print(ggplot(theme_analysis_results, aes(x = year, y = total_terms, color = theme, group = theme)) +
-  geom_line(size = 1) +
-  geom_point(size = 3) +
-  labs(
-    title = "Total Terms by Theme Over the Years",
-    subtitle = "Reasons, Impacts, and Solutions",
-    x = "Year",
-    y = "Total Terms"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(face = "bold"),
-    legend.title = element_blank()
-  ))
-  print(ggplot(theme_analysis_results, aes(x = year, y = total_terms, color = theme, group = theme)) +
-  geom_line(size = 1) +
-  geom_point(size = 3) +
-  labs(
-    title = "Total Terms by Theme Over the Years",
-    subtitle = "Reasons, Impacts, and Solutions",
-    x = "Year",
-    y = "Total Terms"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(face = "bold"),
-    legend.title = element_blank()
-  ))
-  print(ggplot(theme_analysis_results, aes(x = year, y = total_terms, color = theme, group = theme)) +
-  geom_line(size = 1) +
-  geom_point(size = 3) +
-  labs(
-    title = "Total Terms by Theme Over the Years",
-    subtitle = "Reasons, Impacts, and Solutions",
-    x = "Year",
-    y = "Total Terms"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(face = "bold"),
-    legend.title = element_blank()
-  ))
-  print(ggplot(theme_analysis_results, aes(x = year, y = total_terms, color = theme, group = theme)) +
-  geom_line(size = 1) +
-  geom_point(size = 3) +
-  labs(
-    title = "Total Terms by Theme Over the Years",
-    subtitle = "Reasons, Impacts, and Solutions",
-    x = "Year",
-    y = "Total Terms"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(face = "bold"),
-    legend.title = element_blank()
-  ))
+# 调试：检查合并后的数据
+print("Debug: 合并后的 debug_data 内容")
+print(head(debug_data))
+
+# 确保 tfidf 列存在
+if ("tfidf" %in% colnames(debug_data)) {
+  # 在分组前过滤
+  theme_article_counts <- debug_data %>%
+    filter(tfidf > 0.0001) %>%
+    group_by(year, theme, word) %>%
+    summarise(
+      keyword_count = sum(keyword_count),  # 汇总关键词计数
+      tfidf = mean(tfidf),  # 计算平均 TF-IDF 值
+      .groups = "drop"
+    )
+
+  # 确保年份为整数并逐年显示
+  theme_article_counts <- theme_article_counts %>%
+    mutate(year = as.integer(year))  # 将年份转换为整数
+
+  # 检查数据
+  print("Debug: theme_article_counts 数据")
+  print(head(theme_article_counts))
+
+  # 绘制图表：按主题区分
+  plot <- ggplot(theme_article_counts, aes(x = year, y = keyword_count, color = theme, group = theme)) +
+    geom_line(size = 1) +
+    geom_point(size = 3) +
+    scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +  # 确保年份逐年显示
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +  # y 轴为整数
+    labs(
+      title = "Number of Keywords by Theme Over the Years",
+      subtitle = "Reasons, Impacts, and Solutions",
+      x = "Year",
+      y = "Keyword Count"
+    ) +
+    theme_minimal() +
+    theme(
+      plot.title = element_text(face = "bold"),
+      legend.title = element_blank()  # 隐藏图例标题
+    )
+
+  # 显示图表
+  print(plot)
+
+  # 保存图表
+  output_plot <- "theme_keywords_trend.png"
+  ggsave(output_plot, plot = plot, width = 10, height = 6, dpi = 300)
+
+  # 打印确认信息
+  print(paste("Plot saved to:", output_plot))
+
+  # 调试：检查过滤后的数据
+  print("Debug: 合并并过滤后的 theme_article_counts")
+  print(head(theme_article_counts))
+
+  # 保存结果到 CSV
+  write.csv(theme_article_counts, "theme_article_counts_with_keywords.csv", row.names = FALSE)
+
+  # 计算所有主题的总计数
+  total_counts <- theme_article_counts %>%
+    group_by(year) %>%
+    summarise(
+      total_keyword_count = sum(keyword_count),  # 汇总所有主题的关键词计数
+      .groups = "drop"
+    )
+
+  # 绘制总计数图表
+  total_plot <- ggplot(total_counts, aes(x = year, y = total_keyword_count)) +
+    geom_line(color = "purple", size = 1) +
+    geom_point(color = "darkviolet", size = 3) +
+    scale_x_continuous(breaks = seq(min(total_counts$year), max(total_counts$year), by = 1)) +  # 确保年份逐年显示
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +  # y 轴为整数
+    labs(
+      title = "Total Keywords Count Over the Years",
+      subtitle = "Combined Reasons, Impacts, and Solutions",
+      x = "Year",
+      y = "Total Keyword Count"
+    ) +
+    theme_minimal() +
+    theme(
+      plot.title = element_text(face = "bold")
+    )
+
+  # 显示总计数图表
+  print(total_plot)
+
+  # 保存总计数图表
+  ggsave("total_keywords_trend.png", plot = total_plot, width = 10, height = 6, dpi = 300)
+
+  # 分别绘制单独的主题图表 ---------------------------------------------
+
+  # 绘制 Reasons 图表
+  reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(x = year, y = keyword_count)) +
+    geom_line(color = "blue", size = 1) +
+    geom_point(color = "navy", size = 3) +
+    scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+    labs(
+      title = "Keywords Count for Reasons Over the Years",
+      x = "Year",
+      y = "Keyword Count"
+    ) +
+    theme_minimal()
+
+  print(reasons_plot)
+  ggsave("reasons_keywords_trend.png", plot = reasons_plot, width = 10, height = 6, dpi = 300)
+
+  # 绘制 Impacts 图表
+  impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(x = year, y = keyword_count)) +
+    geom_line(color = "red", size = 1) +
+    geom_point(color = "darkred", size = 3) +
+    scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+    labs(
+      title = "Keywords Count for Impacts Over the Years",
+      x = "Year",
+      y = "Keyword Count"
+    ) +
+    theme_minimal()
+
+  print(impacts_plot)
+  ggsave("impacts_keywords_trend.png", plot = impacts_plot, width = 10, height = 6, dpi = 300)
+
+  # 绘制 Solutions 图表
+  solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), aes(x = year, y = keyword_count)) +
+    geom_line(color = "green", size = 1) +
+    geom_point(color = "darkgreen", size = 3) +
+    scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+    labs(
+      title = "Keywords Count for Solutions Over the Years",
+      x = "Year",
+      y = "Keyword Count"
+    ) +
+    theme_minimal()
+
+  print(solutions_plot)
+  ggsave("solutions_keywords_trend.png", plot = solutions_plot, width = 10, height = 6, dpi = 300)
+} else {
+  stop("Error: tfidf 列未正确合并，请检查 doc_id 和 file 的匹配！")
+}

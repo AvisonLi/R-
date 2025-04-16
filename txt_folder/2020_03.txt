@@ -1,0 +1,774 @@
+Contents lists available at ScienceDirect
+Comparative Biochemistry and Physiology, Part A
+journal homepage: www.elsevier.com/locate/cbpa
+Establishment of time-resolved fluoroimmunoassays for detection of growth
+hormone and insulin-like growth factor I in rainbow trout plasma
+Lea R. Medeirosa,⁎, James J. Naglera, Andrew L. Piercea,b
+a Department of Biological Sciences, University of Idaho, Moscow, ID, United States
+b Columbia River Inter-Tribal Fish Commission, Portland, OR, United States
+A R T I C L E I N F O
+Keywords:
+GH
+IGF-I
+Immunoassay
+Salmon
+Fasting
+Growth
+A B S T R A C T
+The GH/IGF-I axis influences many aspects of salmonid life history and is involved in a variety of physiological
+processes that are related to somatic growth (e.g., reproduction, smoltification, and the response to fasting and
+stress). As such, fisheries studies utilize GH/IGF-I axis components as indicators of growth and metabolic status.
+This study established time-resolved fluoroimmunoassays (TR-FIAs) for rainbow trout plasma GH and IGF-I
+using commercially available reagents. For the GH TR-FIA, the ED80 and ED20 were 0.6 and 28.1 ng/mL, the
+minimum detection limit was 0.2 ng/mL, and the intra- and inter-assay coefficients of variation (%CV) were
+4.1% and 13.4%, respectively. Ethanol remaining from acid-ethanol cryoprecipitation (AEC) of plasma samples
+to remove IGF binding proteins reduced binding and increased variability in the IGF-I TR-FIA. Drying down and
+reconstituting extracted samples restored binding and reduced variability. The extraction efficiency of IGF-I
+standards through AEC, drying down, and reconstitution did not vary over the working range of the assay. For
+the IGF-I TR-FIA, the ED80 and ED20 were 0.2 and 6.5 ng/mL, the minimum detection limit was 0.03 ng/mL, and
+the intra- and inter-assay %CV were 3.0% and 6.5%, respectively. Biological validation was provided by GH
+injection and fasting studies in rainbow trout. Intraperitoneal injection with bovine GH increased plasma IGF-I
+levels. Four weeks of fasting decreased body weight, increased plasma GH levels, and decreased plasma IGF-I
+levels. The GH and IGF-I TR-FIAs established herein provide a cost-comparable, non-radioisotopic method for
+quantifying salmonid plasma GH and IGF-I using commercially available reagents.
+1. Introduction
+In fishes, as in other vertebrates, the growth hormone (GH)/insulinlike
+growth factor-I (IGFeI) axis is the major endocrine system regulating
+growth, indicating strong evolutionary conservation across taxa
+(Bergan-Roller and Sheridan, 2018; Reindl and Sheridan, 2012). Indeed,
+mammalian and salmonid data are in agreement on all key aspects
+of the GH/IGF-I axis (Bjornsson, 1997; Bjornsson et al., 2018).
+The GH receptor is found in most tissues, with the highest density located
+in the liver (Bjornsson et al., 2002; Reindl and Sheridan, 2012).
+GH can thus stimulate tissue growth directly, but also does so indirectly
+through GH-induced production and release of IGF-I from the liver
+(Daughaday and Rotwein, 1989). In mammals and fishes alike, IGF-I
+acts via autocrine, paracrine, and endocrine mechanisms to mediate the
+growth promoting actions of GH as well as acting as a negative feedback
+signal on GH secretion from the pituitary (Duan, 1998; Perez-
+Sanchez and Le Bail, 1999; Perez-Sanchez et al., 1992; Tannenbaum,
+1993; Wood et al., 2005). The effects of both local and circulating IGF-I
+are modulated by a complex suite of IGF binding proteins (IGFBPs)
+(Duan and Xu, 2005; Shimizu and Dickhoff, 2017).
+It is not surprising then, that nutritional status is the primary environmental
+regulator of the GH/IGF-I axis – that is, growth must adjust
+according to nutritional conditions and, as the primary regulator of
+growth, this means that nutritional state will affect the GH/IGF-I axis
+(Duan, 1998; Moriyama et al., 2000; Pierce et al., 2001; Thissen et al.,
+1999). During fasting, growth ceases, and energy is mobilized from
+storage tissues to support metabolism and maintain homeostasis (Bar,
+2014; Navarro and Gutierrez, 1995). These effects are mediated in part
+by changes in the GH/IGF-I axis. Fasting normally leads to increased
+plasma GH levels while IGF-I levels decrease, an endocrine condition
+known as acquired GH resistance (Jenkins and Ross, 1996; Thissen
+et al., 1994; Thissen et al., 1999). In fasted fish, changes in GH/IGF-I
+axis hormones are part of an adaptive response; low IGF-I suppresses
+growth and high GH stimulates lipolysis, thereby directing available
+nutrients to the physiological functions necessary for survival while
+also gaining access to energy reserves. This response is important in
+https://doi.org/10.1016/j.cbpa.2020.110751
+Received 8 May 2020; Received in revised form 24 June 2020; Accepted 29 June 2020
+⁎ Corresponding author.
+E-mail address: lmedeiros@uidaho.edu (L.R. Medeiros).
+Comparative Biochemistry and Physiology, Part A 248 (2020) 110751
+Available online 04 July 2020
+1095-6433/ © 2020 Elsevier Inc. All rights reserved.
+T
+survival in the natural environment, as most fish undergo periods of
+fasting throughout their life history, while others, such as salmonids,
+undergo prolonged periods of fasting while migrating long distances
+(Bar, 2014; Mommsen, 2004; Navarro and Gutierrez, 1995). Thus,
+plasma GH and IGF-I levels can be used as indicators of nutritional
+status.
+The GH/IGF-I axis interacts with other physiological systems, particularly
+those that regulate life history transitions. In salmonids, GH
+and IGF-I increase during smoltification, the suite of physiological,
+morphological, and behavioral changes that occur before migration to
+saltwater (McCormick, 2012). The GH/IGF-I axis interacts with the
+reproductive endocrine axis in the regulation of the initiation of puberty
+and other aspects of reproductive development in teleosts
+(Taranger et al., 2010). For example, the decision in salmonids to mature
+is believed to be linked to growth and lipid reserves several months
+prior to developmental changes in the gonad (Larsen et al., 2006;
+Medeiros et al., 2018; Silverstein et al., 1998; Thorpe, 2007). This is
+likely a consequence of the fact that maturation depends on parameters
+related to growth and metabolism, such as size, energy reserves, and
+growth rate, at a specific stage (“critical period”) several months prior
+to histological indications of gonadal development (Taranger et al.,
+2010; Thorpe, 2007; Thorpe et al., 1998). Thus, the GH/IGF-I axis plays
+a role in the major life history transitions that define salmonid life
+histories. Due to these interactions, as well as the role of the GH/IGF-I
+axis in the regulation of growth and metabolism, GH/IGF-I axis components
+show promise for use as indicators in fisheries and aquaculture
+studies. Plasma IGF-I is a well-established indicator of growth rate
+(Beckman, 2011; Perez-Sanchez et al., 2018; Picha et al., 2008; Pierce
+et al., 2001), although, as reviewed by Beckman (2011), the correlation
+between IGF-I and growth ranges from reliable to non-discernable, reflecting
+the effects of a range of endogenous and exogenous factors on
+the GH/IGF-I axis. The complex and changeable suite of IGFBPs present
+in fish plasma interferes in IGF-I assays, resulting in a requirement for
+an extraction procedure to remove IGFBPs before assay (Shimizu 1999,
+Shimizu 2000, Shimizu 2006, Plisetskaya, 1998). Although less explored,
+GH also shows promise as an indicator of catabolic status during
+the extended periods of reduced feeding and growth that occur
+throughout the life histories of many fish (Picha et al., 2008; Pierce
+et al., 2005).
+Understanding the life histories, growth, and metabolic status of
+wild and cultured salmonids is important in the management of salmonid
+populations. Measurement of GH/IGF-I axis components can
+provide insight in all of these areas. Time-resolved fluorimmunoassays
+(TR-FIAs) for GH and IGF-I enable measurement of protein hormone
+levels while avoiding the safety, regulatory, and radiolabel decay issues
+associated with radioimmunoassays. However, to our knowledge, no
+TR-FIA has yet been established for salmonid GH, and no existing TRFIA
+for detecting plasma GH in fish is composed of commercially
+available reagents (Fukuda et al., 2015). Moreover, current protocols
+for IGF-I TR-FIAs require beginning the assay directly after completing
+the binding protein extraction procedure (Small and Peterson, 2005;
+Hevroy et al., 2013), which complicates the workflow and introduces
+high levels of ethanol remaining from extraction into the TR-FIA, resulting
+in suboptimal binding conditions. Therefore, the aims of this
+study were to establish and validate TR-FIA assays to detect GH and
+IGF-I in salmonid plasma, and to modify IGFBP extraction protocols to
+remove ethanol and allow storage of samples between the extraction
+and assay procedures. In addition, existing IGF-I assay protocols were
+modified to increase sensitivity. Biological validation was provided by
+GH injection and fasting studies in rainbow trout.
+2. Materials and methods
+2.1. Fish
+Rainbow trout (Oncorhynchus mykiss) used in this study were
+acquired from a breeding population at the Aquaculture Research
+Institute (ARI) at the University of Idaho (Moscow, ID, USA) and cared
+for according to the ARI's standard operating procedure as described by
+Medeiros et al. (2016). All fish rearing and sampling procedures followed
+guidelines approved by the Institutional Animal Care and Use
+Committee at the University of Idaho.
+2.2. Peptide, hormone, and antibody sources
+Recombinant barramundi (Lates calcarifer) and tuna (Thunnus maccoyii)
+IGF-I as well as recombinant black bream (Acanthopagrus butcheri)
+GH were purchased from GroPep (Adelaide, Australia). Polyclonal
+rabbit anti-barramundi (L. calcarifer) IGF-I and anti-salmon/trout
+(genus Oncorhynchus) GH were also purchased from GroPep (Adelaide,
+Australia). Custom recombinant rainbow trout GH (gh1, GenBank
+Accession no. P09538.2) and gilthead seabream (Sparus aurata) IGF-I
+were purchased from Prospec (New Brunswick, NJ). Both the IGF-I and
+GH antibodies have been used previously, and the specificity tested and
+confirmed (Dyer et al., 2004; Le Bail et al., 1991; Shimizu et al., 2000;
+Small and Peterson, 2005). Native bovine GH (bGH) was purchased
+from US Biologicals (Salem, MA).
+2.3. Peptide and hormone labeling
+Europium (Eu)-labeled GH and IGF-I (Eu-GH and Eu-IGF-I, respectively)
+were prepared by PerkinElmer (Waltham, MA) via labeling of
+recombinant barramundi IGF-I and recombinant rainbow trout GH with
+DELFIA® Eu-N1 ITC lanthanide chelate (Ref 1244–302, PerkinElmer,
+Waltham, MA). Initial labeling of IGF-I under conditions favoring only
+N-terminal attachment of the europium chelate failed; therefore, this
+condition was relaxed.
+2.4. Pituitary homogenate
+For demonstration of competitive binding, a crude pituitary
+homogenate from rainbow trout was prepared by homogenizing 10
+whole pituitaries in 1 mL of 100 mM ammonium bicarbonate (pH 7.8)
+containing 1 mM phenylmethylsulfonyl fluoride on ice for 5 min. The
+solution was stirred at 4 °C for 1 h and then centrifuged at 20,000 × g
+at 4 °C for 30 min. The supernatant was transferred to a clean microcentrifuge
+tube and considered to be at a concentration of 1 ×.
+2.5. TR-FIA for GH
+The assay was performed in goat anti-rabbit-coated yellow 96-well
+plates (PerkinElmer, Waltham, MA) and run over the course of 4 days,
+with 3 overnight incubations. The standard curve consisted of 8 serially
+diluted points, ranging from 500 to 0.03 ng/mL, with 4-fold dilutions.
+On the first day, the 96-well plate was washed 5× with 300 μL of
+Delfia® wash solution (PerkinElmer, Waltham, MA) per well before
+adding Delfia® assay buffer (DAB; PerkinElmer, Waltham, MA) and
+20 μL of the rabbit anti-salmon/trout GH polyclonal antiserum (diluted
+1:5000; GroPep, Adelaide, Australia). The non-specific binding (NSB)
+wells received 165 μL of DAB while the maximum binding (B0), standard
+curve, and unknown sample wells received 145 μL of DAB plus
+20 μL of the primary antibody. The plate was then sealed and incubated
+for 24 h at 4 °C with constant slow shaking on an orbital plate shaker
+(VWR, Radnor, PA). On the second day, the plate was washed 5× with
+300 μL of Delfia® wash solution per well and the standard curve and
+unknown samples were plated. Both the NSB and B0 wells received
+165 μL of DAB. The standard curve was generated by adding 125 μL of a
+known recombinant barramundi IGF-I concentration and 40 μL of DAB.
+The unknown plasma samples were determined by adding 125 μL of
+plasma diluted as necessary in DAB and 40 μL of DAB. The standard
+curve was run in duplicate and unknowns in triplicate. The plate was
+then sealed and incubated for 24 h at 4 °C with constant slow shaking
+L.R. Medeiros, et al. Comparative Biochemistry and Physiology, Part A 248 (2020) 110751
+2
+on an orbital plate shaker. On day 3, the plate was not washed and
+20 μL of Eu-GH (diluted to 25 ng/mL with DAB) was added to all wells
+except the blank and total count (TC) wells. The plate was then sealed
+and incubated for 18 h at 4 °C with constant slow shaking on an orbital
+plate shaker. On the fourth and final day, the plate was washed 5×
+with 300 μL of Delfia® wash solution per well. 200 μL of Delfia® enhancement
+solution was added to all wells, and 5 μL of the Eu-GH label
+(made up the previous day) was added to the TC wells. The plate was
+then sealed and incubated for 10 min at room temperature with moderate
+shaking on an orbital plate shaker, and the time resolved fluorescence
+was measured with a Victor™ X4 Multilabel Plate Reader
+(PerkinElmer, Waltham, USA) using the Europium program. Briefly, the
+well is pulsed 1000 times per second with an excitation light of 340 nm,
+in the period between flashes the sample fluorescence is measured
+(europium fluoresces at 615 nm) for 400 μs after a delay time of 400 μs.
+Assay calculations were conducted as follows, using average fluorescence
+counts for replicate wells. The value for the blank wells was
+subtracted from all wells, and then the NSB value was subtracted from
+remaining wells. The B0 (maximum binding) was calculated and standards
+and unknowns (B) expressed as %B0 ((B/B0) × 100). The standard
+curve was generated by plotting %B0 against known IGF-I concentrations
+on a linear y-axis and a log x-axis and fitting a curve using a
+four-parameter-logistic equation. Unknown sample values were interpolated
+from the standard curve; samples with percent binding values
+above 80% and below 20% were re-assayed. The total counts (TC) value
+was multiplied by 4 in order to account for the difference in label volume
+added to the total count well versus what was added to the sample
+wells. Percent total counts was calculated as (B0/TC) × 100. The
+minimum detection limit of the assay was calculated using the mean
+count of the zero standard minus two standard deviations, expressed as
+B/B0, and used to interpolate a value from the standard curve (Shimizu
+et al., 2006).
+2.6. TR-FIA for IGF-I
+2.6.1. IGF-I acid-ethanol-cryoprecipitation extraction procedure
+The procedure was modified from Daughaday et al. (1980) and
+Shimizu et al. (2000) to remove ethanol and enable storage of extracted
+samples. Briefly, 125 μL of blood plasma was acidified with acidethanol
+(87.5% 200 proof ethanol and 12.5% 2 N HCl, at a ratio of 1,4
+v:v). The solution was thoroughly mixed and incubated at room temperature
+for 30 min. Following incubation, samples were centrifuged at
+1860 × g for 30 min. The resulting supernatant was decanted into a
+fresh tube and neutralized with 0.855 M Tris base at a ratio of 5:2 v:v,
+respectively. The samples were again thoroughly mixed and incubated
+at −20 °C for one hour, and then centrifuged at 1860 × g for 30 min.
+The resulting supernatant was decanted into a fresh 1.5 mL microcentrifuge
+tube, the amount decanted was noted, and then the sample
+was dried under vacuum for 4 h. Samples were reconstituted in nanopure
+water at the same volume that was transferred following the final
+centrifugation, vortexed thoroughly, and incubated in a water bath set
+at 37 °C for 30 min. Samples used in the extraction comparison assays
+were made up from recombinant barramundi IGF-I. The extracted and
+dried down samples followed the protocol outlined above, whereas the
+extracted samples followed the protocol up until the final centrifugation,
+and then the supernatant was transferred to a fresh tube and assayed
+immediately. The AEB standard curve samples were made up in
+neutralized extraction buffer but not subject to the extraction procedure.
+To account for the dilution factor inherent to this extraction
+process, the standard curve was prepared at 7-times the normal concentration.
+In both extraction procedures, the entire standard curve was
+prepared and then extracted. The extracted samples were run in triplicate.
+2.6.2. TR-FIA for IGF-I
+The IGF-I time-resolved fluoroimmunoassay (TR-FIA) protocol was
+based on Small and Peterson (2005) and Hevroy et al. (2013) with
+modifications. The incubation timing, volumes, and time resolved
+fluorescence detection employed in the IGF-I assay were identical to
+those in the GH assay. The standard curve consisted of 8 serially diluted
+points, ranging from 400 to 0.024 ng/mL, with 4-fold dilutions. The
+rabbit anti-barramundi IGF-I polyclonal antiserum was diluted 1:1500
+(GroPep, Adelaide, Australia). The Eu-IGF-I label was diluted to 50 ng/
+mL. Unknowns were extracted and dried down plasma reconstituted in
+nanopure water as described above and diluted as necessary in DAB.
+Assay calculations and interpolation of unknowns were conducted as
+described for the GH assay.
+2.7. In vivo experiments
+2.7.1. IP injection experiment
+To determine if exogenous GH increases plasma IGF-I in rainbow
+trout, twenty fish were intraperitoneally (IP) injected with either vehicle
+or vehicle containing bGH. While under anesthetic, fish were IP
+injected with either 1 μL vehicle × g fish−1 (vehicle fish
+[145.3 ± 13.2 g, n = 10]) or with vehicle plus bGH at a dose of 2.5 μg
+bGH × 1 μL × g fish−1 (bGH-injected fish [140.7 ± 9.8 g, n = 7]).
+The vehicle was sterile-filtered 0.9% NaCl containing 0.1% BSA. At
+t = 12 h, fish were lethally sampled, and a blood sample collected (see
+section 2.8 Sampling Procedures below). Fish were held in 595 L circular
+tanks under a simulated normal photoperiod. Tanks were supplied
+with 17–18 °C well water by a recirculating system that was composed
+of a bubble bead mechanical and biological filter and u-shaped settling
+basin. Flow rate was approximately 11 L min−1. Fish were fasted for the
+duration of the experiment.
+2.7.2. Fasting experiment
+An experiment was conducted to assess the effects of fasting on the
+GH/IGF-I axis in rainbow trout. For the duration of the experiment, fish
+were held in 1130 L circular tanks under a simulated normal photoperiod.
+Tanks were supplied with 10 °C water by a recirculating system
+that was composed of a chiller, settling pool, sand filter, a UV treatment,
+and a biological filter. Flow rate was approximately 14 L min−1.
+Fish were fed to satiation 5 days a week with a standard commercial
+trout diet (5.5 mm pellets; Skretting USA, Tooele, UT). At the onset of
+the experiment, 22 fish with an average mass of 686.3 ± 25.6 g were
+split into two groups (n = 11 per treatment). The control group (Fed)
+continued to be fed as described above, while the other group (Fasted)
+was fasted for the duration of the experiment. Fish were individually
+identified with passive integrated transponder (PIT) tags inserted into
+the body cavity (Biomark, Inc., Boise, ID). On March 20th, 2019
+(4 weeks after the start of the experiment), all fish were lethally sampled
+(see Sampling Procedures below).
+2.8. Sampling procedures
+Lethal sampling consisted of recording (1) the PIT tag code, (2) total
+body weight and length and (3) collecting a blood sample. Briefly, fish
+were anesthetised in MS-222 (0.1 g l−1; Western Chemical, Ferndale,
+WA) and blood sampled from caudal vessels using a 23G needle attached
+to a 1 mL syringe coated with heparin (10 mg/mL; Sigma-
+Aldrich, St. Louis, MO). Blood samples were centrifuged at 10,000 × g
+for 10 min, the plasma aspirated and frozen immediately on dry ice.
+Plasma samples were stored at −80 °C until laboratory analysis.
+2.9. Statistical analyses
+The experimental data were analyzed using Prism 8.2 (GraphPad
+Software, Inc., San Diego, CA). Plasma hormone concentrations were
+subjected to unpaired t-tests. Plasma parallelism was objectively evaluated
+by comparing hillslope values between individual curves and the
+standard curve for the respective assay using nonlinear regression
+L.R. Medeiros, et al. Comparative Biochemistry and Physiology, Part A 248 (2020) 110751
+3
+analysis evaluated over the usable portion (20 to 80% of maximum
+binding) of the standard curve. For all analyses, the level of significance
+was evaluated at P ≤ .05, and values are expressed as the average ±
+the standard error of the mean (S.E.M.).
+3. Results
+Eu-GH was labeled at a ratio of 7.6 europium chelate molecules per
+molecule of GH protein. At the label concentration employed, this gave
+approximately 120,000 counts per 20 μL. The primary antibody bound
+approximately 20% of the label in the B0 wells at the concentration
+employed. Specific binding of the europium-labeled GH was displaced
+by increasing amounts of unlabeled GH (Fig. 1). Serial dilutions of pituitary
+homogenate (Fig. 1a) and blood plasma (Fig. 1b) from rainbow
+trout were parallel to the standard curve (p = .67 and 0.43, respectively).
+The ED80 and ED20 were 0.58 ± 0.06 ng/mL (n = 8) and
+28.1 ± 1.1 ng/mL (n = 8), respectively. The minimum detection limit
+of the assay was 0.22 ± 0.08 ng/mL (n = 8). The intra- and interassay
+coefficients of variation were 4.1% and 13.4%, respectively
+(n = 23). Interspecies specificity of the primary antibody was tested by
+running a serial dilution of recombinant black bream GH, which was
+found to be not parallel to the standard curve (data not shown;
+p < .05). During development and validation, it was discovered that
+the assay required at least a 2-fold dilution of plasma prior to assay.
+This was deduced from observations that plasma run neat yielded %B
+below 20%, but when the same sample was diluted 2- to 10-fold the
+results implied that the neat value should have been within the 20 to
+80% binding range.
+Eu-IGF-I was labeled at a ratio of 2.3 europium chelate molecules
+per molecule of IGF-I protein. At the label concentration employed in
+this study, this resulted in approximately 95,000 counts per 20 μL. The
+primary antibody bound approximately 25% of the label in the B0 wells
+at the primary antibody concentration employed. Specific binding of
+the europium-labeled IGF-I was displaced by increasing amounts of
+unlabeled IGF-I and serial dilutions of blood plasma from rainbow trout
+were parallel to the standard curve (Fig. 2; p =.83). The ED80 and ED20
+were 0.23 ± 0.02 ng/mL (n = 8) and 6.5 ± 0.4 ng/mL (n = 8),
+respectively. The minimum detection limit of the assay was
+0.028 ± 0.008 ng/mL (n = 8). The intra- and inter-assay coefficients
+of variation were 3.0% and 6.5%, respectively (n = 7). Interspecies
+specificity of the primary antibody was further tested by running serial
+dilutions of recombinant tuna and gilthead seabream IGF-I, which were
+found to be parallel to the standard curve (data not shown; p = .22 and
+0.97, respectively).
+Maximum binding was reduced from near 100% to approximately
+80% of B0 in extracted standard curves or curves made up in neutralized
+acid/ethanol buffer versus the neat standard curve (Fig. 3; top
+parameter values from curve fit equation were significantly different,
+Fig. 1. Displacement curves for recombinant rainbow trout GH assay standards,
+serially diluted rainbow trout pituitary homogenate (a), and serially diluted
+rainbow trout blood plasma (b). Serial dilutions of pituitary homogenate and
+blood plasma from rainbow trout were parallel to the standard curve (p = .67
+and 0.43, respectively).
+Fig. 2. Displacement curves for recombinant barramundi IGF-I standards and
+serially diluted rainbow trout blood plasma. Serial dilutions of blood plasma
+from rainbow trout were parallel to the standard curve (Fig. 2; p = .83).
+Fig. 3. Displacement curves for recombinant barramundi IGF-I standards that
+have been extracted and run using the extraction and TR-FIA procedures outlined
+in this study (black symbols and lines) compared to the displacement
+curves for recombinant barramundi IGF-I standards that have been extracted
+and run using the unmodified extraction protocol (gray symbols and lines),
+which does not remove the ethanol from the assay. Maximum binding was
+significantly reduced in curves containing neutralized acid/ethanol buffer when
+compared to curves produced using the modified extraction protocol (top
+parameter values from curve fit equation were significantly different, p < .05).
+L.R. Medeiros, et al. Comparative Biochemistry and Physiology, Part A 248 (2020) 110751
+4
+p < .05). Increased variability between replicates was also evident in
+curves containing extraction buffers. A similar reduction in percent B0
+and increase in variability between replicates was found when ethanol
+at the final concentration in neutralized extract (50%) was added to B0
+wells. Additionally, the reduction in percent B0 and increase in variability
+decreased with decreasing ethanol concentration (data not
+shown). The reduction in percent B0 and increased variability were
+eliminated when the standard curve was dried down after extraction
+and reconstituted. Curves reconstituted in ddH20 were more similar to
+the neat standard curve than when reconstituted in DAB (data not
+shown). Based on a comparison of the extracted and dried down versus
+neat standard curves, the recovery of IGF-I after extraction, drying
+down, and reconstitution was 80% (based on values interpolated from
+20, 50, and 80% binding), and recovery was similar across the working
+range of the assay. Based on these results, samples were dried down and
+resuspended in ddH20 after extraction before being run in the TR-FIA
+IGF-I assay.
+Using the TR-FIA, the response of circulating IGF-I to IP injection
+with bGH was examined in rainbow trout. Twelve hours post-injection,
+fish injected with bGH experienced a nearly two-fold increase in plasma
+IGF-I levels when compared to fish injected with vehicle alone
+(p < .01, Fig. 4).
+Following a four-week period of fasting, fasted fish weighed significantly
+less than the fed treatment group (p < .001), which corresponded
+to a 12.5% decrease in weight compared to their initial weight
+versus the 14.2% increase that the fed group experienced (Fig. 5). This
+expected decrease in weight was accompanied by a significant increase
+in plasma GH levels (p < .01, Fig. 6a) and a significant decrease in
+plasma IGF-I levels (p < .01, Fig. 6b).
+4. Discussion
+The present study developed and validated a TR-FIA for rainbow
+trout GH. This study also established modifications to the standard IGF
+binding protein extraction procedure, and validated modifications to an
+existing TR-FIA IGF-I for use in rainbow trout, resulting in an improved
+assay and more efficient workflow. The assays, including the modification
+to the extraction procedure, are intended to target the physiological
+range for plasma GH and IGF-I observed in salmonid species.
+As with other TR-FIAs, these assays provide a cost-effective, convenient
+alternative to radioimmunoassays (RIAs) that provide comparable
+sensitivity. Additionally, as the recombinant rainbow trout GH is
+available for purchase through Prospec, all components of the TR-FIAs
+are commercially available to any interested party with the laboratory
+resources to perform TR-FIAs. Availability of these assays will enable
+investigation of the role of the GH/IGF-I axis in studies on the life
+history, growth, reproduction, and response to environmental stressors
+in rainbow trout and other salmonids, which are species of cultural,
+conservation, economic, and recreational importance.
+The GH utilized in this study was a custom recombinant hormone
+constructed based on the rainbow trout gh1 sequence, that demonstrated
+similar displacement to native GHs employed by other studies
+(Le Bail et al., 1991; Wilkinson et al., 2006). This implies that the labeling
+process does not appear to have affected its ability to bind to the
+Fig. 4. Effect of vehicle alone or vehicle with bGH on plasma IGF-I levels 12 h
+post-injection. Values are expressed as means±SEM (n = 10 and 7, respectively).
+Asterisks indicate significant differences (p < .01) between treatments.
+Fig. 5. Percent change in body mass of rainbow trout fasted for 4 weeks
+(mean ± SEM; n = 11). Fasting had a significant (p < .01) effect on body
+mass.
+Fig. 6. Effect of fasting rainbow trout for 4 weeks on plasma GH (a) and IGF-I
+(b). Values are expressed as means±SEM (n = 11). Asterisks indicate significant
+differences (p < .01) between treatments.
+L.R. Medeiros, et al. Comparative Biochemistry and Physiology, Part A 248 (2020) 110751
+5
+antiserum. Plasma parallelism tests indicate that the GH TR-FIA can be
+used to detect GH in rainbow trout blood plasma, but it does require a
+small dilution. This is probably the result of plasma matrix interference
+due to the high ratio of sample to total well volume (125 μL in 165 μL
+total) added on the second day of the assay and remaining after addition
+of the label (20 μL) on the third day. This study found that a 2-fold
+dilution was enough to ameliorate the effects of the matrix interference
+in adult rainbow trout. A dilution series is therefore recommended for
+future studies to prevent matrix interference. The sensitivity of the GH
+TR-FIA was sufficient to measure plasma GH levels in rainbow trout
+after the 2-fold dilution, and was similar to the sensitivity of RIAs (Le
+Bail et al., 1991; Wilkinson et al., 2006) taking the dilution into account.
+Considering the quantification limits of GH RIAs validated for
+use in salmonids, this GH TR-FIA provides a safe, convenient, and costcomparable
+alternative to traditional RIAs.
+Specific binding proteins have been identified and characterized for
+both GH (GHBP) and IGF-I, which modulate their physiological effects
+(Duan and Xu, 2005; Wood et al., 2005). More information exists regarding
+the function and regulation of IGFBPs (reviewed by Duan and
+Xu, 2005) than that for GHBPs (Baumann, 2002; Fisker, 2006). The vast
+majority (approximately 99.7%) of IGF-I circulates bound to high affinity
+IGFBPs, which interfere in IGF-I assays, thus plasma IGF-I should
+not be quantified without first removing IGFBPs with a specific extraction
+procedure (Shimizu et al., 1999; Shimizu et al., 2000). In
+contrast, extraction procedures for GHBPs are not employed in salmonid
+GH assays due to lower amounts of GH bound to specific GHBPs
+(Bjornsson et al., 1994; Le Bail et al., 1991; Sohm et al., 1998;
+Wilkinson et al., 2006). In the present study, it was determined that the
+ethanol remaining from the standard acid-ethanol cryoprecipitation
+(AEC) IGFBP extraction method developed by Shimizu et al. (2000)
+reduced maximum binding to approximately 80% of B0 and increased
+variability between replicates in the IGF-I TR-FIA. The effect of ethanol
+on the IGF-I TR-FIA is likely worse than in IGF-I RIAs because the
+proportion of extracted sample in the reaction volume is higher (125 of
+165 μL in TR-FIA vs 10 of 160 μL or 36 of 350 μL in RIA). Therefore,
+ethanol was removed by drying down and reconstituting samples,
+which restored binding and reduced variability. This modification has
+the additional benefits of separating the days on which the samples are
+extracted and run in the TR-FIA (since samples in AEC extraction buffers
+cannot be stored) and enables concentration of samples.
+In the current study, IGF-I extraction efficiency (including drying
+down and reconstitution) was calculated by interpolating the values at
+20, 50, and 80% binding from an unextracted standard curve and also
+from a standard curve that had been extracted, dried down, and reconstituted,
+and then comparing the values. The extraction efficiency
+was found to be between 78 and 80% at all three points, implying that
+the loss is not concentration dependent. The loss of immunoreactive
+IGF-I is likely due to protein damage from exposure to low pH and
+ethanol during the extraction procedure, adsorption to surfaces, and
+precipitation in the pellet. The loss is probably less in fish plasma
+samples due to the protective nature of the plasma matrix, and thus the
+80% value represents a minimal extraction efficiency. Fish IGF-I RIA
+and TR-FIA procedures do not include correction for extraction efficiency
+because this factor in fish plasma is not known (Ferriss et al.,
+2014; Hevroy et al., 2013; Shimizu et al., 2000; Small and Peterson,
+2005). To provide results comparable to existing studies, we do not
+propose to correct IGF-I values measured with the present IGF-I extraction
+procedures and TR-RIA for extraction efficiency.
+Extracted and reconstituted rainbow trout blood plasma and reconstituted
+recombinant tuna and sea bream IGF-I diluted in parallel
+with the IGF-I standard curve in the TR-FIA. This indicates that the
+assay is valid for use in rainbow trout and suggests that it will work in
+other fish species as well. These results were expected based on previous
+assays utilizing the same antibody (Dyer et al., 2004; Shimizu
+et al., 2000; Small and Peterson, 2005). Initial trials followed an established
+IGF-I TR-FIA protocol with addition of the primary antibody,
+standards/unknowns, and label on the first day, followed by a single
+overnight incubation (Small and Peterson, 2005). However, this was
+found to result in poor assay sensitivity (data not shown). Simultaneous
+incubation of the main assay reactants could result in loss of standards/
+unknowns and label in the following wash step. Therefore, the addition
+of reagents was separated, with overnight incubations between each
+step, similar to RIA protocols. This modification decreased the
+minimum detectable level by approximately 7-fold compared to other
+TR-FIAs for IGF-I. So, while the present TR-FIA requires a longer
+timeframe to complete it is provides improved sensitivity compared to
+other TR-FIAs and a reliably accurate, highly sensitive, convenient, and
+cost-effective alternative to RIA for IGF-I.
+Biological validation of the IGF-I TR-FIA and the modifications to
+the IGFBP extraction procedure was provided by a GH injection study
+using rainbow trout. GH is a major positive regulator of liver IGF-I
+production, and increases circulating IGF-I under fed conditions
+(Bergan-Roller and Sheridan, 2018; Moriyama et al., 2000; Reindl and
+Sheridan, 2012; Wood et al., 2005). A sample collected 12 h post-injection
+confirmed that bGH elicited a significant increase in circulating
+levels of IGF-I, in agreement with previous studies in rainbow trout
+(Biga et al., 2005). This result confirms that the IGFBP extraction procedure
+and IGF-I assay can measure physiologically relevant changes in
+plasma IGF-I in rainbow trout. Biological validation of both assays and
+the extraction procedure was provided by a fasting study. Although GH
+stimulates liver IGF-I production and increases circulating IGF-I in fed
+animals, the situation is different during fasting. In general, for fish and
+mammals alike, fasting increases blood plasma GH (Bjornsson et al.,
+2018; Duan and Plisetskaya, 1993; Pierce et al., 2005; Small and
+Peterson, 2005) while at the same time blood plasma IGF-I is reduced
+(Bjornsson et al., 2018; Cohick and Clemmons, 1994; Moriyama et al.,
+1994; Pierce et al., 2001; Pierce et al., 2005). To determine whether
+these changes could be detected using the new assays, we conducted a
+4-week fasting experiment using mature rainbow trout. As expected,
+over the course of the 4-week period, the body mass of the control fish
+increased whereas fasted fish experienced a decrease in body mass.
+After 4 weeks of fasting plasma GH was significantly increased and
+plasma IGF-I significantly reduced compared to controls. This provides
+evidence that physiologically relevant changes in plasma GH and IGF-I
+can be measured using these assays and the extraction procedure.
+Although expected, the results of the present study add to the body
+of evidence on regulation of the GH/IGF-I axis in fishes. The increase in
+plasma IGF-I after GH injection adds to the many studies showing that
+GH is the major positive regulator of circulating IGF-I in the fed state.
+However, during fasting, a metabolic state termed acquired GH resistance
+develops, in which the liver becomes resistant to stimulation of
+IGF-I production by GH (Kelley et al., 2000). GH resistance appears to
+be due to both liver receptor downregulation and inhibition of postreceptor
+signaling pathways (Gray et al., 1990; Perez-Sanchez et al.,
+1995; Perez-Sanchez et al., 2018; Thissen et al., 1999). The resulting
+decrease in circulating IGF-I is thought to lead to increases in pituitary
+GH secretion via relaxation of negative feedback (Blaise et al., 1995;
+Fruchtman et al., 2000; Perez-Sanchez et al., 1992; Yamashita and
+Melmed, 1986). The pattern of increased GH and reduced IGF-I in response
+to fasting found in the present study is consistent with this
+model. This is believed to be an adaptive response of GH to nutritional
+conditions requiring catabolism of body tissues to support metabolism;
+GH's growth-promoting role is turned off and its lipolytic, energy mobilizing
+role is turned on (Bergan-Roller and Sheridan, 2018; Perez-
+Sanchez et al., 2018; Reindl and Sheridan, 2012).
+Because of the central importance of the GH/IGF-I axis in both
+growth and energy mobilization, GH/IGF-I axis components can be
+used as indicators of growth and nutritional or metabolic status in
+fisheries and aquaculture studies. In addition, the GH/IGF-I axis interacts
+with other physiological systems, particularly those that regulate
+life history transitions linked to growth. Thus, quantification of plasma
+GH and IGF-I levels provides considerable insight into the physiological
+L.R. Medeiros, et al. Comparative Biochemistry and Physiology, Part A 248 (2020) 110751
+6
+state of individual fish, which can be used in studies on the conservation
+and management of fish populations.
+Declaration of Competing Interest
+None.
+Acknowledgements
+This work was funded by the Bonneville Power Administration
+(Project 2007-401-00) through the Columbia Basin Fish Accords
+Agreement.
+References
+Bar, N., 2014. Physiological and hormonal changes during prolonged starvation in fish.
+Can. J. Fish. Aquat. Sci. 71, 1447–1458.
+Baumann, G., 2002. Growth hormone binding protein. The soluble growth hormone receptor.
+Minerva Endocrinol. 27, 265–276.
+Beckman, B.R., 2011. Perspectives on concordant and discordant relations between insulin-
+like growth factor 1 (IGF1) and growth in fishes. Gen. Comp. Endocrinol. 170,
+233–252.
+Bergan-Roller, H.E., Sheridan, M.A., 2018. The growth hormone signaling system: insights
+into coordinating the anabolic and catabolic actions of growth hormone. Gen.
+Comp. Endocrinol. 258, 119–133.
+Biga, P.R., Peterson, B.C., Schelling, G.T., Hardy, R.W., Cain, K.D., Overturf, K., Ott, T.L.,
+2005. Bovine growth hormone treatment increased IGF-I in circulation and induced
+the production of a specific immune response in rainbow trout (Oncorhynchus mykiss).
+Aquaculture 246, 437–445.
+Bjornsson, B.T., 1997. The biology of salmon growth hormone: from daylight to dominance.
+Fish Physiol. Biochem. 17, 9–24.
+Bjornsson, B.T., Taranger, G.L., Hansen, T., Stefansson, S.O., Haux, C., 1994. The interrelation
+between photoperiod, growth-hormone, and sexual-maturation of adult
+Atlantic Salmon (Salmo-Salar). Gen. Comp. Endocrinol. 93, 70–81.
+Bjornsson, B.T., Johansson, V., Benedet, S., Einarsdottir, I.E., Hildahl, J., Agustsson, T.,
+Jonsson, E., 2002. Growth hormone endocrinology of salmonids: regulatory mechanisms
+and mode of action. Fish Physiol. Biochem. 27, 227–242.
+Bjornsson, B.T., Einarsdottir, I.E., Johansson, M., Gong, N.P., 2018. The impact of initial
+energy reserves on growth hormone resistance and plasma growth hormone-binding
+protein levels in rainbow trout under feeding and fasting conditions. Front.
+Endocrinol. 9.
+Blaise, O., Weil, C., Le Bail, P.Y., 1995. Role of IGF-I in the control of GH secretion in
+rainbow trout (Oncorhynchus mykiss). Growth Regul. 5, 142–150.
+Cohick, W.S., Clemmons, D.R., 1994. Enhanced expression of dihydrofolate-reductase by
+bovine kidney epithelial-cells results in altered cell morphology, Igf-I responsiveness,
+and Igf binding protein-3 expression. J. Cell. Physiol. 161, 178–186.
+Daughaday, W.H., Rotwein, P., 1989. Insulin-like growth factor-I and factor-ii - peptide,
+messenger ribonucleic-acid and gene structures, serum, and tissue concentrations.
+Endocr. Rev. 10, 68–91.
+Daughaday, W.H., Mariz, I.K., Blethen, S.L., 1980. Inhibition of access of bound somatomedin
+to membrane receptor and immunobinding sites: a comparison of radioreceptor
+and radioimmunoassay of somatomedin in native and acid-ethanol-extracted
+serum. J. Clin. Endocrinol. Metab. 51, 781–788.
+Duan, C.M., 1998. Nutritional and developmental regulation of insulin-like growth factors
+in fish. J. Nutr. 128, 306s–314s.
+Duan, C., Plisetskaya, E.M., 1993. Nutritional regulation of insulin-like growth factor-I
+messenger-Rna expression in Salmon tissues. J. Endocrinol. 139, 243–252.
+Duan, C.M., Xu, Q.J., 2005. Roles of insulin-like growth factor (IGF) binding proteins in
+regulating IGF actions. Gen. Comp. Endocrinol. 142, 44–52.
+Dyer, A.R., Upton, Z., Stone, D., Thomas, P.M., Soole, K.L., Higgs, N., Quinn, K.,
+Carragher, J.F., 2004. Development and validation of a radioimmunoassay for fish
+insulin-like growth factor I (IGF-I) and the effect of aquaculture related stressors on
+circulating IGF-I levels. Gen. Comp. Endocrinol. 135, 268–275.
+Ferriss, B.E., Trudel, M., Beckman, B.R., 2014. Regional and inter-annual trends in marine
+growth of juvenile salmon in coastal pelagic ecosystems of British Columbia, Canada.
+Mar. Ecol. Prog. Ser. 503, 247–261.
+Fisker, S., 2006. Physiology and pathophysiology of growth hormone-binding protein:
+methodological and clinical aspects. Growth Horm. IGF Res. 16, 1–28.
+Fruchtman, S., Jackson, L., Borski, R., 2000. Insulin-like growth factor I disparately
+regulates prolactin and growth hormone synthesis and secretion: studies using the
+teleost pituitary model. Endocrinology 141, 2886–2894.
+Fukuda, M., Kaneko, N., Kawaguchi, K., Hevroy, E.M., Hara, A., Shimizu, M., 2015.
+Development of a time-resolved fluoroimmunoassay for salmon insulin-like growth
+factor binding protein-1b. Comp. Biochem. Physiol., Part A Mol. Integr. Physiol. 187,
+66–73.
+Gray, E.S., Young, G., Bern, H.A., 1990. Radioreceptor assay for growth hormone in coho
+salmon (Oncorhynchus kisutch) and its application to the study of stunting. J. Exp.
+Zool. 256, 290–296.
+Hevroy, E.M., Hunskar, C., de Gelder, S., Shimizu, M., Waagbo, R., Breck, O., Takle, H.,
+Sussort, S., Hansen, T., 2013. GH-IGF system regulation of attenuated muscle growth
+and lipolysis in Atlantic salmon reared at elevated sea temperatures. J. Comp.
+Physiol. B. 183, 243–259.
+Jenkins, R.C., Ross, R.J.M., 1996. Acquired growth hormone resistance in catabolic states.
+Bailliere Clin. Endoc. 10, 411–419.
+Kelley, K.M., Desai, P., Roth, J.T., Haigwood, J.T., Arope, S.A., Flores, R.M., Schmidt,
+K.E., Perez, M., Nicholson, G.S., Song, W.W., 2000. Evolution of endocrine growth
+regulation: The insulin like growth factors (IGFs), their regulatory binding proteins
+(IGFBPs), and IGF receptors in fishes and other ectothermic vertebrates. In:
+Fingerman, M., Thompson, M.-F., Nagabhushanam, R. (Eds.), Recent Advances in
+Marine Biotechnology. Oxford and IBH Publishing, New Delhi, pp. 189–228.
+Larsen, D.A., Beckman, B.R., Strom, C.R., Parkins, P.J., Cooper, K.A., Fast, D.E., Dickhoff,
+W.W., 2006. Growth modulation alters the incidence of early male maturation and
+physiological development of hatchery-reared spring chinook Salmon: a comparison
+with wild fish. Trans. Am. Fish. Soc. 135, 1017–1032.
+Le Bail, P.Y., Sumpter, J.P., Carragher, J.F., Mourot, B., Niu, P.D., Weil, C., 1991.
+Development and validation of a highly sensitive radioimmunoassay for Chinook
+salmon (Oncorhynchus tshawytscha) growth hormone. Gen. Comp. Endocrinol. 83,
+75–85.
+McCormick, S.D., 2012. Smolt physiology and endocrinology. In: McCormick, S.D.,
+Farrell, A.P., Brauner, C.J. (Eds.), Fish Physiology, pp. 200–253.
+Medeiros, L.R., Elliott, M., Nagler, J.J., 2016. Stressor timing, not cortisol, is an important
+embryo viability determinant in female rainbow trout Oncorhynchus mykiss. J. Fish
+Biol. 88, 557–566.
+Medeiros, L.R., Galbreath, P.F., Knudsen, C.M., Stockton, C.A., Koch, I.J., Bosch, W.J.,
+Narum, S.R., Nagler, J.J., Pierce, A.L., 2018. Plasma 11-ketotestosterone in individual
+Age-1 spring chinook salmon males accurately predicts Age-2 maturation status.
+Trans. Am. Fish. Soc. 147, 1042–1051.
+Mommsen, T.P., 2004. Salmon spawning migration and muscle protein metabolism: the
+august Krogh principle at work. Comp. Biochem. Physiol. B, Biochem. Mol. Biol. 139,
+383–400.
+Moriyama, S., Swanson, P., Nishii, M., Takahashi, A., Kawauchi, H., Dickhoff, W.W.,
+Plisetskaya, E.M., 1994. Development of a homologous radioimmunoassay for Coho
+Salmon insulin-like growth-factor-I. Gen. Comp. Endocrinol. 96, 149–161.
+Moriyama, S., Ayson, F.G., Kawauchi, H., 2000. Growth regulation by insulin-like growth
+factor-I in fish. Biosci. Biotechnol. Biochem. 64, 1553–1562.
+Navarro, I., Gutierrez, J., 1995. Fasting and starvation. In: Hochachka, P.W., Mommsen,
+T.P. (Eds.), Biochemistry and Molecular Biology of Fishes. Elsevier Science,
+Amsterdam, pp. 393–434.
+Perez-Sanchez, J., Le Bail, P.Y., 1999. Growth hormone axis as marker of nutritional
+status and growth performance in fish. Aquaculture 177, 117–128.
+Perez-Sanchez, J., Weil, C., Le Bail, P.Y., 1992. Effects of human insulin-like growth
+factor-I on release of growth hormone by rainbow trout (Oncorhynchus mykiss) pituitary
+cells. J. Exp. Zool. 262, 287–290.
+Perez-Sanchez, J., Marti-Palanca, H., Kaushik, S.J., 1995. Ration size and protein intake
+affect circulating growth hormone concentration, hepatic growth hormone binding
+and plasma insulin-like growth factor-I immunoreactivity in a marine teleost, the
+gilthead sea bream (Sparus aurata). J. Nutr. 125, 546–552.
+Perez-Sanchez, J., Simo-Mirabet, P., Naya-Catala, F., Martos-Sitcha, J.A., Perera, E.,
+Bermejo-Nogales, A., Benedito-Palos, L., Calduch-Giner, J.A., 2018. Somatotropic
+axis regulation unravels the differential effects of nutritional and environmental
+factors in growth performance of marine farmed fishes. Front. Endocrinol. 9.
+Picha, M.E., Turano, M.J., Beckman, B.R., Borski, R.J., 2008. Endocrine biomarkers of
+growth and applications to aquaculture: a minireview of growth hormone, insulinlike
+growth factor (IGF)-I, and IGF-binding proteins as potential growth indicators in
+fish. N. Am. J. Aquac. 70, 196–211.
+Pierce, A.L., Beckman, B.R., Shearer, K.D., Larsen, D.A., Dickhoff, W.W., 2001. Effects of
+ration on somatotropic hormones and growth in coho salmon. Comp. Biochem.
+Physiol. B, Biochem. Mol. Biol. 128, 255–264.
+Pierce, A.L., Shimizu, M., Beckman, B.R., Baker, D.M., Dickhoff, W.W., 2005. Time course
+of the GH/IGF axis response to fasting and increased ration in Chinook salmon
+(Oncorhynchus tshawytscha). Gen. Comp. Endocrinol. 140, 192–202.
+Plisetskaya, E.M., 1998. Some of my not so favorite things about insulin and insulin-like
+growth factors in fish. Comp. Biochem. Physiol. B, Biochem. Mol. Biol. 121, 3–11.
+Reindl, K.M., Sheridan, M.A., 2012. Peripheral regulation of the growth hormone-insulinlike
+growth factor system in fish and other vertebrates. Comp. Biochem. Physiol., Part
+A Mol. Integr. Physiol. 163, 231–245.
+Shimizu, M., Dickhoff, W.W., 2017. Circulating insulin-like growth factor binding proteins
+in fish: their identities and physiological regulation. Gen. Comp. Endocrinol.
+252, 150–161.
+Shimizu, M., Swanson, P., Dickhoff, W.W., 1999. Free and protein-bound insulin-like
+growth factor-I (IGF-I) and IGF- binding proteins in plasma of coho salmon,
+Oncorhynchus kisutch. Gen. Comp. Endocrinol. 115, 398–405.
+Shimizu, M., Swanson, P., Fukada, H., Hara, A., Dickhoff, W.W., 2000. Comparison of
+extraction methods and assay validation for salmon insulin-like growth factor-I using
+commercially available components. Gen. Comp. Endocrinol. 119, 26–36.
+Shimizu, M., Beckman, B.R., Hara, A., Dickhoff, W.W., 2006. Measurement of circulating
+salmon IGF binding protein-1: assay development, response to feeding ration and
+temperature, and relation to growth parameters. J. Endocrinol. 188, 101–110.
+Silverstein, J.T., Shearer, K.D., Dickhoff, W.W., Plisetskaya, E.M., 1998. Effects of growth
+and fatness on sexual development of Chinook salmon (Oncorhynchus tshawytscha)
+parr. Can. J. Fish. Aquat. Sci. 55, 2376–2382.
+Small, B.C., Peterson, B.C., 2005. Establishment of a time-resolved fluoroimmunoassay
+for measuring plasma insulin-like growth factor I (IGF-I) in fish: effect of fasting on
+plasma concentrations and tissue mRNA expression of IGF-I and growth hormone
+(GH) in channel catfish (Ictalurus punctatus). Domest. Anim. Endocrinol. 28,
+202–215.
+Sohm, F., Manfroid, I., Pezet, A., Rentier-Delrue, F., Rand-Weaver, M., Kelly, P.A., Boeuf,
+L.R. Medeiros, et al. Comparative Biochemistry and Physiology, Part A 248 (2020) 110751
+7
+G., Postel-Vinay, M.C., de Luze, A., Edery, M., 1998. Identification and modulation of
+a growth hormone-binding protein in rainbow trout (Oncorhynchus mykiss) plasma
+during seawater adaptation. Gen. Comp. Endocrinol. 111, 216–224.
+Tannenbaum, G.S., 1993. Genesis of episodic growth-hormone secretion. J. Pediatr.
+Endocrinol. 6, 273–282.
+Taranger, G.L., Carrillo, M., Schulz, R.W., Fontaine, P., Zanuy, S., Felip, A., Weltzien, F.A.,
+Dufour, S., Karlsen, O., Norberg, B., Andersson, E., Hausen, T., 2010. Control of
+puberty in farmed fish. Gen. Comp. Endocrinol. 165, 483–515.
+Thissen, J.P., Ketelslegers, J.M., Underwood, L.E., 1994. Nutritional regulation of the
+insulin-like growth-factors. Endocr. Rev. 15, 80–101.
+Thissen, J.P., Underwood, L.E., Ketelslegers, J.M., 1999. Regulation of insulin-like growth
+factor-I in starvation and injury. Nutr. Rev. 57, 167–176.
+Thorpe, J.E., 2007. Maturation responses of salmonids to changing developmental
+opportunities. Mar. Ecol. Prog. Ser. 335, 285–288.
+Thorpe, J.E., Mangel, M., Metcalfe, N.B., Huntingford, F.A., 1998. Modelling the proximate
+basis of salmonid life-history variation, with application to Atlantic salmon,
+Salmo salar L. Evol. Ecol. 12, 581–599.
+Wilkinson, R.J., Porter, M., Woolcott, H., Longland, R., Carragher, J.F., 2006. Effects of
+aquaculture related stressors and nutritional restriction on circulating growth factors
+(GH, IGF-1 and IGF-II) in Atlantic salmon and rainbow trout. Comp. Biochem.
+Physiol., Part A Mol. Integr. Physiol. 145, 214–224.
+Wood, A.W., Duan, C., Bern, H.A., 2005. Insulin-like growth factor signaling in fish. Int.
+Rev. Cytol. 243, 215–285.
+Yamashita, S., Melmed, S., 1986. Insulin regulation of rat growth hormone gene transcription.
+J. Clin. Invest. 78, 1008–1014.
+L.R. Medeiros, et al. Comparative Biochemistry and Physiology, Part A 248 (2020) 110751
+8

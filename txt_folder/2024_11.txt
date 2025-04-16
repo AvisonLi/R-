@@ -1,0 +1,772 @@
+The effect of population aging
+on environmental degradation:
+new evidence and insights
+George Hondroyiannis
+Department of Economic Analysis and Research, Bank of Greece, Athens, Greece and
+Department of Economics and Sustainable Development, Harokopio University,
+Kallithea, Greece, and
+Evangelia Papapetrou and Pinelopi Tsalaporta
+Department of Economic Analysis and Research, Bank of Greece, Athens, Greece and
+Department of Economics, National and Kapodistrian University of Athens,
+Athens, Greece
+Abstract
+Purpose – The Organization for Economic Cooperation and Development (OECD) countries are facing
+unprecedented challenges related to climate change and population aging. The purpose of the analysis is to
+explore the relationship between population aging and environmental degradation, accounting for human
+capital, using a sample of 19 OECD countries over the period 1980–2019.
+Design/methodology/approach – On the empirical methodology, the analysis uses panel estimators with
+heterogenous coefficients and an error structure that takes into consideration cross-country heterogeneity and
+cross-sectional dependence for a panel of 19 OECD countries over the period 1980–2019. To examine the
+relationship between population aging and environmental degradation, the authors employ two alternative
+measures of environmental degradation that is energy consumption and CO2 emissions in metric tons per
+capita. Concerning the regressors, the authors account for two alternative aging indicators, namely the elderly
+population and the old-age dependency ratios to confirm robustness.
+Findings – The analysis provides evidence that population aging and human capital development (IHC) lead
+to lower energy consumption in the OECD sample. Overall, the growing number of elderly people in the OECD
+seems to act as a mitigating factor for energy consumption. The authors view these results as conveying the
+message that the evolution of population aging along with channeling government expenditures towards
+human capital enhancement are important drivers of curbing energy consumption and ensuring environmental
+sustainability. The authors’ research is of great significance for environmental policymakers by illuminating
+the favorable energy consumption patterns that population aging brings to advanced economies.
+Research limitations/implications – The main limitation of this study concerns data availability. Future
+research, and subject to greater data availability in the future, could dig deeper into understanding the dynamics
+of this complex nexus by incorporating additional control variables. Similarly, the authors focus on aggregate
+renewable energy consumption, and the authors do not explicitly model the sources of renewable energy (wind,
+hydropower, solar power, solid biofuels and other). Additional analysis of the breakdown of renewable energy
+sourceswould be insightful – subject to data availability – especially formeeting the recently agreed new target of
+42.5% for European Union (EU) countries by 2030. A deep transformation of the European energy system is
+needed for the EU tomeet the target. Finally, extending the model to include a range of non-OECD countries that
+are also experiencing demographic transformations is a promising avenue for future research.
+Originality/value – To the best of the authors’ knowledge, this study is the first to examine the effects of
+population aging and human capital on environmental degradation using a broad set of OECD countries and
+advanced spectrumestimationmethods. Given cross-sectional dependencies and cross-country heterogeneity, the
+authors’ empirical results underline the importance of cross-OECD policy spillovers and knowledge diffusions
+across the OECD countries. The new “energy culture” calls for concerted policy action even in an aging era.
+Keywords Demographic trends, Population aging, Human capital, Energy consumption, OECD,
+Panel regression estimation
+Paper type Research paper
+Population
+aging and
+environmental
+degradation
+471
+JEL Classification — C33, F64, J11, J14, J24, O50, Q43, Q56
+The current issue and full text archive of this journal is available on Emerald Insight at:
+https://www.emerald.com/insight/0144-3585.htm
+Received 5 May 2023
+Revised 9 June 2023
+Accepted 10 June 2023
+Journal of Economic Studies
+Vol. 51 No. 2, 2024
+pp. 471-484
+© Emerald Publishing Limited
+0144-3585
+DOI 10.1108/JES-05-2023-0235
+1. Introduction
+Population aging and the more palpable risk of climate action failure constitute major
+challenges for advanced economies. It is beyond any doubt that energy is fundamental in our
+modern societies for both households and enterprises. However, the world is facing a severe
+climate emergency. Bold action is needed to address climate change risks and meet the goals
+of the Paris Agreement to reach zero-net emissions by 2025. To achieve this, we need to alter
+our conventional way of thinking about energy and, ultimately, minimize our reliance on
+fossil fuels and invest in alternative sources of energy. This feeling is also shared by the latest
+United Nations Environment Programme Annual Report (UNEP, 2022). Concurrently,
+population aging is at the heart of modern economies and may have an impact on energy
+consumption and the emissions level. According to the World Health Organization (WHO),
+the proportion of the world’s population over 60 years will nearly double from 12% to 22%
+between 2015 and 2050 (WHO, 2022). Such a shift in the distribution of a country’s population
+towards older ages is more prominent in advanced economies but developing countries are
+now experiencing a similar change. At this unique confluence of risks, the notion of human
+capital takes centre stage. While the debate on what lessons does this era offer for
+policymakers is still open, it is clear that human capital development (IHC) has an important
+role to play in enhancing a proper understanding of the demographic patterns and drivers of
+environmental degradation. Nonetheless, we know very little about the linkages among
+demographic, educational, economic and environmental variables. Our paper aims to fill
+this gap.
+In most recent empirical analyses, uncovering the relevant drivers of climate change
+mitigation remains one of the most controversial and urgent issues. As to whether population
+aging can lead to lower energy consumption, many authors have put forth different views
+(Estiri and Zagheni, 2019; Pais-Magalh~aes et al., 2020, 2022; Yaziz et al., 2022). Still,
+the challenge of population aging on economic degradation remains unclear. From
+one standpoint, studies suggest that aging can enhance carbon emission and therefore
+contribute to environmental degradation as the elderly tend to have consumed more energy
+intensive goods and services. However, other studies point out to a negative effect of the
+elderly on energy consumption as they tend to be more environmentally friendly (Yang and
+Wang, 2020). Recently, the effect of human capital enhancement on combatting
+environmental degradation is examined (Opoku et al., 2022; Shahbaz et al., 2022).
+The relationship between human capital and environmental degradation points to a
+negative relationship as societies with more human capital tend to be more environmentally
+cautious consuming less energy (Hondroyiannis et al., 2022). Still, little is known about the
+impact of population aging on energy consumption and carbon emissions controlling for
+human capital accumulation. Ignoring this impact remains an important drawback in
+empirical literature. Our paper contributes to empirical literature by exploring the
+relationship between population aging and environmental degradation, accounting for
+human capital, with the use of a sample of 19 OECD countries over the period 1980–2019.
+In other words, we move beyond the extant focus of empirical analysis to account for
+currently pressing issues for policymakers. To shed further light on this relationship, we
+employ two alternative measures of environmental degradation that is energy consumption
+and CO2 emissions in metric tons per capita. Concerning the regressors and further to the
+impact of human capital, we account for two alternative aging indicators, namely the elderly
+population and the old-age dependency ratios to confirm robustness. Our data along with a
+novel empirical approach to studying this link, allows us to make use of panel estimators with
+heterogenous coefficients and an error structure that takes into consideration cross-country
+heterogeneity and cross-sectional dependence. This offers a new tool for accounting for the
+presence of various sources of heterogeneity among countries (the OECD is composed of an
+heterogeneous group of countries), such as cross-country variations in economic structures
+JES
+51,2
+472
+and governance, as well as potential common effects among countries, such as advances in
+research and development programs, human capital expenditures, retirement policies,
+advances in energy saving methods, that are considered by introducing non-zero error
+variances in the panel estimation. To the best of our knowledge, our study is the first to
+examine the effects of population aging and human capital on environmental degradation
+using a broad set of OECD countries and advanced spectrum estimation methods, leading us
+to clarify how several potential explanatory factors impact on environmental degradation.
+To get a flavor of the empirical findings of our analysis we provide evidence that
+population aging and IHC lead to lower energy consumption in the OECD sample. We view
+these results as conveying the message that the evolution of population aging along with
+channeling government expenditures towards human capital enhancement are important
+drivers of curbing energy consumption and ensuring environmental sustainability.
+Our findings extend our understanding on the role of population aging in preventing
+environmental degradation and remain robust to sensitivity checks. At the same time, our
+modeling approach allows us to control for IHC and connect results from the aging/human
+capital literature with the recently flourishing literature on climate change and environmental
+sustainability.
+The remainder of this analysis is organized as follows: Section 2 presents the theoretical
+and empirical evidence on the effects of population aging and human capital on sustainable
+development. Section 3 presents the methodology and describes the data. Section 4 presents
+the empirical results. Section 5 concludes.
+2. Population aging, human capital and sustainable development: a brief
+literature review
+The role of population aging on macroeconomic outcomes, such as inflation, output, labor
+force participation, is only until recently that has been studied extensively (Papapetrou and
+Tsalaporta, 2020). However, the effect of population aging on carbon emissions and in
+particular environmental degradation has not been studied considerably and the research
+outcome remains inconclusive.
+The impact of population aging on economic degradation remains incomplete and some
+studies support the notion of a positive influence on carbon emissions and others point out to
+a negative impact (Yang and Wang, 2020; Yang et al., 2021). The basic idea behind the
+positive influence of population aging on economic degradation stems from the fact that
+elderly people tend to consume more energy intensive goods and services thus triggering
+higher level of carbon emissions. At the same time, an aging population combined with a
+declining share of youths tend to raise the pressure on environmental degradation. On the
+other hand, elderly tend to adopt consumption and income styles and patterns that support
+pro-environment actions that are favoring a low-carbon model and thus fostering lower
+environmental footprints.
+Studies accounting for population aging have used different population indicators
+(Zhang and Tan, 2016; Yang et al., 2021). One strand of literature focuses on population
+growth (Knapp and Mookerjee, 1996). The study utilizing a cointegration framework
+examined the nexus between global population growth and CO2 emissions to support a
+short-term dynamic relationship between them. Other studies combine population
+age-structures and cohort effects to examine their impact on carbon emissions
+(Menz and Welsch, 2012; Zhang and Tan, 2016). The analysis provides evidence of a
+positive impact on aging population on carbon emissions. Zhang and Tan (2016) account
+for a pool of disaggregated population factors, such as population intensity, population
+growth, population quality and population age-structure to examine their effect on carbon
+emissions in China provinces over the period 1997–2012.
+Population
+aging and
+environmental
+degradation
+473
+Many studies have documented that the impact of population aging on carbon emissions
+is related to the state of development of the examined countries. In a seminal work, Shi (2003)
+using a pool of 93 countries over the period 1975–1996 shows that population’s change is
+more than proportionally related with rising carbon emissions, and this effect is more
+significant in developing countries than in developed countries. Menz and Welsch (2012)
+employing a panel of 26 countries over the period 1060–2005 and including in the estimation
+age (life cycle) and cohort composition effects suggest that both life cycle and cohort
+outcomes have positively affected carbon emissions in OECD countries. Zhang and Tan
+(2016) utilized population factors to account for their effect on carbon emission at the national
+and regional levels. Their analysis reveals a positive effect of population aging and
+population quality on carbon emissions at the national level whereas there exist differences at
+the urban-rural level and at the regional level. Recently, Wang and Wang (2021) using data
+from 2002 to 2012 for 137 countries or regions examine the nonlinear effects of population
+aging on carbon emissions. They employ panel threshold regression methodology and show
+that an increase in the level of population aging, the industrial structure and urbanization
+results in higher levels of carbon emissions but the findings are sensitive to the countries
+under different levels of development.
+As for the relationship between population aging, human capital and carbon emissions,
+four models have been utilized in the environmental literature to examine the nexus between
+population aging, human capital and energy consumption (Menz and Welsch, 2012; Yang
+et al., 2021; Hondroyiannis et al., 2022). The Environmental Kuznets curve (EKC) hypothesis
+(Grossman and Krueger, 1991) suggests that there is an inverted U-shaped association
+between output and environmental degradation in the form of energy consumption
+and/or CO2 emissions. This suggests that as the country advances, environmental expansion
+reverses CO2 emissions that are high in the early faces of economic development.
+The pollution heaven hypothesis (PHH) links environmental deterioration and openness in
+the environmental literature. The PHH suggests policies adopted by international companies
+initially point to low cost options in terms of resources and labor input that results in a of
+environmental quality. The pollution halo hypothesis suggests that companies from
+advanced countries by implementing environmentally friendly production processes and
+following eco-friendly environmental framework can result in reductions of CO2 emissions in
+the host country. Lastly, in line with the Stochastic Impacts by Regression on Population,
+Affluence and technology (STIRPAT) model basis it is population, affluence and technology
+that impose an environmental footprint on the economy.
+In that framework, many researchers have identified of a negative relationship between
+human capital and energy consumption. The evidence is ample for studies using micro data
+(Broadstock et al., 2016; Steenblik, 2006; Salim et al., 2017). Broadstock et al. (2016) and
+Steenblik (2006) show that households with higher human capital in China are more energyefficient
+consuming less energy as they have access to more efficient technologies.
+Employing Chinese provincial data over the period 1990–2021 Salim et al. (2017) found a
+negative association among human capital and energy consumption and have attributed this
+finding to post-school human capital.
+However, at an aggregate-macro level the relationship between human capital, energy
+consumption and CO2 emissions is not unanimous. A plausible explanation is that human
+capital as it produces growth-enhancing effects in the economy may increase energy
+consumption, but on the other hand may result in energy preservation effects. In this manner,
+Huang et al. (2008) document an inverse relationship between human capital and energy
+consumption for high income countries and a positive relationship for low-income countries
+for a panel of 82 countries from 1972 to 2002. For a panel of Asian Pacific countries for 1970–
+2011 and employing a human capital index as measured by the years of schooling Fang and
+Chang (2016) support the presence of a long-run relationship among economic growth,
+JES
+51,2
+474
+human capital and energy consumption. They justify their findings as they suggest that
+strengthening human capital investment supports the research and development of new
+energy-efficient technologies. Yao et al. (2019) account for clean and dirty energy
+consumption for a panel of OECD countries over the period 1965–2014 to find that human
+capital decreases dirty energy consumption and increases clean energy consumption after
+controlling for energy prices, capital, research and development and labor market
+institutions. Also, Yao et al. (2020) using data for a panel of 20 OECD counties over an
+1870–2014 find that human capital is associated with reductions in CO2 emissions.
+Hondroyiannis et al. (2022) using data for 19 OECD countries with advance expenditures
+in education show that human capital advancement is robustly associated with reduction in
+CO2 emissions, a finding that is robust across the energy consumption distribution.
+Opoku et al. (2022) use data for OECD countries over the period 1996–2016 to examine the
+impact of human development on environmental degradation and show that progress in
+human development ensures environmental sustainability. Recently, Chondrogianni and
+Tsalaporta (2023) using a data from 14 developing countries with a large share of carbon
+emissions over the period 1980–2019 examine the role of human capital on mitigating
+environmental deterioration. The results show that human capital progress is strongly
+associated with reductions in CO2 emissions.
+Despite of the richness of empirical approaches on accounting for the effects of population
+aging or human capital on environmental degradation, to the best of our knowledge, the
+relationship between population aging on economic degradation accounting for human
+capital has been overlooked in the literature. Our paper contributes to this shortcoming by
+deriving policy prescriptions in the presence of such a relationship.
+3. Methodology and data
+3.1 Empirical model
+Our panel consists of 19 OECD countries, over the period 1980–2019, based on data
+availability. The selected country group not only stands out for the level of human capital and
+the environmental consciousness but is also characterized by a rise in the share of the older
+people mainly resulting from longer life expectancy [1]. Demographic developments and
+human capital advancement can both play a key role in averting environmental degradation.
+The sample countries, with an aging population, higher human capital and greater
+environmental awareness achieve better environmental outcomes (Yang et al., 2021;
+Alvarado et al., 2021). We employ two variables as proxies for environmental degradation,
+energy consumption and CO2 emissions, to enhance the understanding of the mechanisms
+underlying the relationship between population aging, human capital and sustainable
+development. Government expenditure per student (as percentage of gross domestic product
+(GDP) per capita) is used as proxy for human capital to provide an in-depth look at the muchneeded
+climate change mitigation and adaptation policies in the OECD.
+Following the aforementioned empirical strategy and a combination of theories, i.e. the
+EKC and PHH hypotheses and new growth theories and a set of control variables that
+account for omitted variable bias, our model is specified as follows:
+energyit ¼ a1 þ β1ageit þ β2HCit þ β3GDPrealitþβ4oilpriceit þ β5openit þ Uit (1)
+co2emit ¼ a1 þ β1ageit þ β2HCit þ β3GDPrealitþβ4oilpriceit þ β5openit þ Uit (2)
+where ageit captures either the elderly ratio (elderlyit) or the old-age dependency ratio (oldageit)
+of country i at time t and βi denote coefficients to be estimated. HCit is the human capital index,
+GDPrealit is GDP per capita, oilpriceit denotes crude oil import prices, openit is the economic
+openness measure and Uit is the error term. All variables enter the regressions in logarithmic
+Population
+aging and
+environmental
+degradation
+475
+form. It is assumed that the regressors are uncorrelated with the disturbance term Uit.
+However, the disturbances themselves are allowed to be autocorrelated, heteroskedastic and
+cross-sectionally dependent. All variables used in equations (1) and (2) are explained below.
+3.2 Econometric methodology
+Using advanced spectrum estimation methods, we estimate equations (1) and (2) to explore
+the relationship between population aging, human capital and environmental degradation.
+Building on traditional fixed effects (FE) panel estimators, we go one step further and allow
+the slope coefficients to differ across panel members by using the mean group (MG) estimator
+that implements a panel time-series estimator, allowing for heterogeneous slope coefficients
+across group members and cross-sectional dependence (Eberhardt, 2012). To estimate effects
+in a large heterogeneous panel data model with cross-sectional dependence and slope
+heterogeneity, we employ the newly developed (Dynamic) Common Correlated Effects Model
+(DCCE) proposed by Ditzen (2019).
+This works satisfactorily for static and dynamic models. The variances are calculated
+using the delta method. In contrast to the MG estimation, DCCE partials out the crosssectional
+means internally to account for dependencies between units. The cross-sectional
+means approximate the unobserved common factors between units. On top of the inclusion of
+the cross-sectional averages, there is another important difference; MG calculates the
+coefficients using maximum likelihood while DCCE estimates our equation entirely by
+ordinary least squares (OLS) using common correlated effects. This recently developed
+econometric approach upgrades statistical inference in the estimation of heterogeneous
+coefficient models in panels with a large number of observations over country groups and
+time periods, as is the case in our model.
+3.3 Data
+The dataset covers annual frequency data for a panel of 19 advanced countries from 1980 to
+2019, based on data availability. Variables employed in the analysis are sourced from the
+World Bank World Development Indicators (WDI) and the OECD databases. All variables are
+in logarithmic form. Variables expressed in natural logarithms are denoted by l in the
+regression output. Dependent variables include the following indicators: Energy
+consumption is measured as energy use in kg of oil equivalent per capita (energy) and
+proxies for overall environmental pollution in a country. An alternative measure of
+environmental degradation is CO2 emissions in metric tons per capita (co2em). Carbon
+dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of
+cement. They include carbon dioxide produced during consumption of solid, liquid and gas
+fuels and gas flaring. Monitoring and mitigating carbon emissions is one of the key aspects of
+the Paris Agreement on climate change. Independent variables cover a broad set of policy
+areas and include the following indicators: The elderly population is defined as people aged
+65 and over (elderly) measured as a percentage of population. It is a key variable in the
+analysis. A higher elderly ratio is expected to be negatively associated with energy
+consumption. Another demographic indicator employed in the analysis is the old-age
+dependency ratio (oldage) that is defined as the number of individuals aged 65 and over per
+100 people of working age defined as those at ages 20 to 64. The evolution of old-age to
+working-age ratios depends on mortality rates, fertility rates and migration. Turning to
+human capital variables, the human capital index (HC) is based on government expenditure
+per student, tertiary (% of GDP per capita) and is expected to be negatively associated with
+energy consumption and CO2 emissions. The choice of this variable offers a better insight
+into the role of policy making in promoting sustainable development. GDP per capita as
+constant 2010 US dollars (GDPreal) is employed as a proxy for income effects. Growing per
+JES
+51,2
+476
+capita GDP will most likely lead to increasing energy consumption and carbon dioxide
+emissions. To account for energy price developments, we employ crude oil import prices (oil).
+Crude oil import prices come from the International Energy Agency (IEA)’s Crude Oil Import
+Register and are influenced not only by traditional movements of supply and demand, but
+also by other factors such as geopolitics. Information is collected from national agencies
+according to the type of crude oil, by geographic origin and by quality of crude. Values are
+recorded at the time of import and include cost, insurance and freight, but exclude import
+duties. This indicator is measured in USD per barrel of oil. It is expected to be negatively
+associated with energy consumption and carbon emissions. We also control for economic
+openness measure (open). Calculated as the sum of exports (exports) and imports (imports) of
+goods and services as a percentage of GDP, economic openness is a key indicator of a
+country’s integration into the world economy. It is expected to lead to a decrease in energy
+demand by enabling countries to import advanced energy supply technologies, which could
+eventually lower energy intensity. Table 1 reports the summary statistics for the dependent
+and independent variables employed in the analysis.
+4. Empirical results
+4.1 Preliminary tests
+In this section, various specification tests are employed to verify that the empirical model is
+correctly specified, taking into consideration the sample of 19OECDcountries. First, to estimate
+the impact of human capital on environmental degradation, we begin by employing the
+Pesaran’s cross-sectional dependence (CD) test to examine the existence of cross-sectional
+dependence in the panel due to increasing integration of countries and to strong
+interdependencies among them (De Hoyos and Sarafidis, 2006). Disregarding the existence of
+sufficient cross-sectional dependence in the data that is ignored in the estimation,may well lead
+to estimation biases. The Pesaran CD-test shows that the null hypothesis of cross-sectional
+independence is rejected as, on average, the (absolute) correlation between the residuals of
+OECDcountries is 0.526 forModel Ia, 0.515 forModel Ib, 0.445 forModel IIa and 0.447 for Model
+IIb (Table 2). Model Ia denotes specifications where energy consumption is the dependent
+Variable Obs Mean Std. Dev Min Max
+equation (1)*
+energy 660 4210.60 1704.09 1006.49 8455.55
+elderly 660 15.10 2.77 9.10 26.65
+oldage 660 25.27 4.50 15.00 46.20
+HC 660 29.00 10.41 11.20 73.58
+GDPreal 660 39914.33 15012.19 12288.43 91565.73
+oil 660 42.02 31.05 11.66 117.78
+open 660 65.55 31.92 16.01 215.14
+equation (2)**
+co2em 565 9.27 3.90 3.41 20.47
+elderly 565 16.25 2.91 10.76 28.14
+oldage 565 26.99 5.02 18.00 49.90
+HC 565 29.61 10.52 11.20 73.58
+GDPreal 565 44164.76 15370.97 16667.58 92556.32
+oil 565 49.06 32.03 11.66 117.78
+open 565 70.84 35.48 16.01 239.22
+Note(s): * equation (1) employs energy consumption as the dependent variable, ** equation (2) employs CO2
+emissions as the dependent variable
+Source(s): Authors’ own creation/work
+Table 1.
+Summary statistics
+Population
+aging and
+environmental
+degradation
+477
+variable and the elderly ratio is employed as a control variable.Model Ib denotes specifications
+where energy consumption is the dependent variable and the old-age dependency ratio is
+employed as a control variable. Model IIa denotes specifications where CO2 emissions is the
+dependent variable and the elderly ratio is employed as a control variable. Model IIb denotes
+specifications where CO2 emissions is the dependent variable and the old-age dependency ratio
+is employed as a control variable. As can be drawn from Table 2, we additionally perform the
+Friedman’s test for the presence of cross-sectional dependence that provides similar results as
+those of the Pesaran’s CD test. The existence of cross-sectional dependence is confirmed.
+To choose the model that best fits in the sample, as a second step, we employ the slope
+homogeneity test of Pesaran and Yamagata (2008) to check whether heterogeneity exists
+across countries for the analyzed dataset. Using Monte Carlo experiments, the adjusted
+(Delta-adjusted: Δadj) version of the dispersion test has the correct size and satisfactory
+power in panels with exogenous regressors for various combinations of N and T, irrespective
+of whether the errors are normally distributed or not. The results of the slope homogeneity
+test, as shown in Table 2 (Delta and Delta-adjusted), show that the delta test statistic is
+sufficiently large to reject the null of slope homogeneity, pointing to the heterogeneity of the
+slope coefficients.
+Third, having verified that the data are cross-sectionally dependent and slope coefficients
+are heterogeneous, we run the cross-sectional augmented Dickey-Fuller second-generation
+unit root test proposed by Pesaran (2007) in the context of heterogeneous panels with crosssectional
+dependence and slope heterogeneity (PESCADF test). Results generally indicate
+evidence against the null hypothesis of non-stationarity. The PESCADF tests ensures that
+the series are stationary (Table 3).
+Value p-value
+Average absolute
+value of the
+off-diagonal elements
+Cross-sectional
+dependence*
+Pesaran
+CD-test
+Model Ia: 25.925
+Model Ib: 23.306
+Model IIa: 22.582
+Model IIb: 19.670
+0.000
+0.000
+0.000
+0.000
+0.526
+0.515
+0.445
+0.447
+Friedman’ test Model Ia: 197.760
+Model Ib: 173.331
+Model IIa: 155.164
+Model IIb: 140.039
+0.000
+0.000
+0.000
+0.000
+0.557
+0.529
+0.434
+0.439
+Slope homogeneity** Delta test Model Ia: Delta 27.522
+Delta-adjusted (Δadj) 30.799
+Model Ib: Delta 27.256
+Delta-adjusted (Δadj) 30.502
+0.000
+0.000
+0.000
+0.000
+–
+Model IIa: Delta 24.337
+Delta-adjusted (Δadj) 27.832
+Model IIb: Delta 24.855
+Delta-adjusted (Δadj) 28.425
+0.000
+0.000
+0.000
+0.000
+–
+Note(s): Model Ia denotes specifications where energy consumption is the dependent variable and the elderly
+ratio is employed as a control variable. Model Ib denotes specifications where energy consumption is the
+dependent variable and the old-age dependency ratio is employed as a control variable. Model IIa denotes
+specifications where CO2 emissions is the dependent variable and the elderly ratio is employed as a control
+variable. Model IIb denotes specifications where CO2 emissions is the dependent variable and the old-age
+dependency ratio is employed as a control variable
+* The null hypothesis is that cross-sectional units are independent of each other in the panel (cross-sectional
+independence). ** The null hypothesis is that slope coefficients are homogeneous
+Source(s): Authors’ own creation/work
+Table 2.
+Tests for crosssectional
+dependence
+and slope homogeneity
+JES
+51,2
+478
+4.2 Empirical results
+Following up on the overview of preliminary tests’ results, we estimate the relationship
+between explanatory and dependent variables using the most recently developed estimation
+methods. Table 4 presents the average (mean) energy consumption (Model I) (columns 1, 3, 5
+and 7) and CO2 emissions coefficients (Model II) (columns 2, 4, 6 and 8) under MG
+(columns 1–4) and DCCE estimators (columns 5–8) for panel data. The MG estimates
+overcome the presence of slope heterogeneity in large panels. The DCCE estimates account
+not only for slope heterogeneity but also for cross-sectional dependence. Under the DCCE
+estimator, we partial out the cross-sectional averages of the dependent variables (energy
+consumption and CO2 emissions) internally to account for dependencies between countries
+manifesting as unobserved common factors. To ensure robustness, we employ two
+alternative aging indicators, that is the elderly population (lelderly) and the old-age
+dependency ratios (loldage).
+Results show that population aging mitigates environmental degradation. Other studies
+have also confirmed this view (Yang et al., 2021; Yaziz et al., 2022). We observe this pattern
+irrespective of the aging indicator employed as a control variable. The increase in the elderly
+population (lelderly) and in the old-age dependency ratio (loldage) have a noticeable negative
+effect on energy consumption (lenergy) (columns 1, 3, 5 and 7), a finding which is consistent
+over different estimation methods. Their impact on CO2 emissions (lco2em) is statistically
+significant though solely under theMGestimator (columns 2 and 4). The main reason for that
+is the energy consumption patterns of the elderly which tend to be more low-carbon and
+environmentally friendly than the younger generations. In particular, the elderly tend to use
+less electricity due to decreased reliance on energy consuming home appliances (such as
+washing machines, fridges, consumer electronics, kitchen appliances) relative to their
+younger counterparts. Older people tend to make less use of private vehicles and planes
+which are major polluters and generate the most direct emissions. Habit formation matters as
+well as the size of the household. Older households are typically smaller households (with
+fewer members). Therefore, older households are generally expected to cause less
+environmental pollution in the long run as they consume less energy overall. Taking a
+different angle, the robustly negative association between population aging and
+environmental degradation (especially in terms of energy consumption) might stem from
+greater investment in renewable energy technologies. Acemoglu and Restrepo (2017) show
+that countries undergoing faster aging have grown more in recent decades owing to a more
+rapid adoption of automation technologies.
+Empirical estimates also reveal that lHC reduces energy consumption (lenergy),
+as demonstrated in Hondroyiannis et al. (2022). Related literature (Khan et al., 2020)
+confirms the negative effect of human capital and eco-innovation on both non-renewable and
+total energy consumption in G-7 countries. Interestingly, the effects of human capital (lHC)
+Variable Value p-value
+Panel unit root test PESCADF lenergy
+lco2em
+lelderly
+lHC
+lGDPreal
+loil
+lopen
+5.094
+1.513
+1.229
+4.501
+2.858
+5.684
+2.212
+0.000
+0.065
+0.110
+0.000
+0.002
+0.000
+0.013
+Note(s): The null hypothesis is that the series are non-stationary
+Source(s): Authors’ own creation/work
+Table 3.
+Panel unit root tests
+Population
+aging and
+environmental
+degradation
+479
+Mean Group Dynamic Common Correlated Effects (DCCE)
+1 2 3 4 5 6 7 8
+VARIABLES
+lenergy lco2em lenergy lco2em lenergy lco2em lenergy lco2em
+Mean Mean Mean Mean Mean Mean Mean Mean
+lelderly 0.541*** 1.507*** – – 0.180* 0.129 – –
+(4.215) (7.180) (1.860) (0.655)
+loldage – – 0.514*** 1.294*** – – 0.186** 0.230
+(4.187) (7.514) (1.992) (1.464)
+lHC 0.134*** 0.00642 0.145*** 0.0210 0.0634** 0.0166 0.0662** 0.0133
+(3.205) (0.160) (3.456) (0.519) (2.127) (0.471) (2.200) (0.385)
+lGDPreal 0.711*** 0.637*** 0.636*** 0.528*** 0.203** 0.137 0.155 0.115
+(5.733) (3.431) (5.255) (3.089) (2.041) (0.975) (1.500) (0.871)
+loil 0.0399*** 0.0193 0.0366*** 0.0256* 0.00792 0.00121 0.00496 0.000316
+(4.041) (1.400) (3.452) (1.755) (0.942) (0.124) (0.549) (0.0317)
+lopen 0.0369 0.00523 0.0155 0.00526 0.0145 0.0120 0.00873 0.00603
+(0.775) (0.0694) (0.341) (0.0792) (0.406) (0.233) (0.260) (0.119)
+Constant 3.043** 0.237 3.981*** 1.113 0.675 0.800 1.290 0.0136
+(2.399) (0.113) (3.071) (0.566) (0.530) (0.615) (0.976) (0.0104)
+Observations 660 565 660 565 660 565 660 565
+Countries 19 19 19 19 19 19 19 19
+Note(s): All variables are expressed in natural logarithms. MG: Mean Group estimator
+DCCE: Dynamic Common Correlated Effects model (Ditzen, 2019). z-t-statistics in parentheses ***p < 0.01, **p < 0.05, *p < 0.1
+Source(s): Authors’ own creation/work
+Table 4.
+Population aging,
+human capital, energy
+consumption and CO2
+emissions
+JES
+51,2
+480
+become considerably larger in magnitude under the MG estimator (columns 1 and 3)
+compared to results from the DCCE estimator (columns 5 and 7). However, there is a lack of
+robust evidence on the link between human capital (lHC) and CO2 emissions (lco2em).
+The negative impact of human capital on energy consumption portrays that education,
+manifesting – among others – as greater environmental awareness, can play a vital role in
+averting environmental degradation. Along these lines, climate-conscious consumers exert
+pressure on regulators to take action to protect the environment (Herweg and Schmidt, 2022).
+Oil prices (loil) have a negative and statistically significant effect on energy consumption
+(lenergy), which likely reflects the fact that higher oil prices decrease the demand for energy
+and reduce high-carbon energy consumption. Consistent with this interpretation, and in line
+with the existing studies which document that higher energy prices promote clean energy
+consumption (Yao et al., 2019), we find that oil prices (loil) are negatively associated with
+energy consumption (lenergy) solely under the MG estimates (columns 1 and 3). In contrast,
+the nexus between oil prices and CO2 emissions is negligible except for column 4 which
+documents a robustly negative impact of high oil prices (loil) on carbon emissions (lco2em).
+Empirical outcomes disclose that economic growth (lGDPreal) is positively associated
+with energy consumption (lenergy) and CO2 emissions (lco2em), especially under the MG
+estimator (columns 1–5). From the economic perspective, increasing income spurs the
+demand for energy consumption and enhances carbon emissions due to lifestyle trends of the
+wealthy such as high levels of car ownership, high domestic usage due to a large assortment
+of appliances and high industry concentration in wealthier regions (Shahbaz et al., 2022; Yaziz
+et al., 2022).
+Economic openness (lopen) does not appear to have a statistically significant effect on the
+dependent variables in our sample, although the point estimates are negative, suggesting that
+higher openness would depress energy consumption (lenergy) and CO2 emissions (lco2em).
+Overall, population aging – as reflected in higher elderly ratio (lelderly) and old-age
+dependency ratio (loldage) – is an important channel for curbing energy consumption
+(lenergy) in the OECD sample. Empirical estimates for lHC paint a similar picture. The other
+control variables do not have a clear impact on the set of dependent variables. Economic
+growth (lGDPreal) increases energy consumption (lenergy) and CO2 emissions (lco2em), but
+this effect is not statistically significant across all specifications. At the same time, empirical
+evidence for oil prices (loil) is rather mixed.
+5. Conclusions
+The OECD countries are facing unprecedented challenges related to climate change and
+population aging. The urgent need to avert environmental degradation amid an aging
+population has raised significant economic and environmental concerns in academic research
+and policymaking. The notion of human capital, including – among others – elements of
+environmental literacy, plays a central role for economic inference. Considering its
+importance, many studies have been carried out on this topic. However, none of the
+existing studies has focused on the nexus between population aging and environmental
+degradation accounting for human capital in the presence of cross-country heterogeneity and
+cross-sectional dependence, as is the case in our model.
+To fill this gap, we make several important contributions to the extant literature. First, we
+shed light on the joint impact of population aging on environmental degradation in the OECD
+over the period 1980–2019 accounting for human capital, an issue relatively unexplored.
+Second, apart from having a different focus, our study differs in terms of the empirical
+methodology. Our approach offers significant advantages in terms of accounting for
+cross-country heterogeneity and cross-sectional dependencies among the OECD sample
+countries. Third, our paper differs in that we move beyond existing papers by controlling for
+Population
+aging and
+environmental
+degradation
+481
+a rich set of alternative measures of the dependent and independent variables, a crucial issue
+for ensuring the robustness of the outcomes.
+One of the main findings of our paper is that population aging is robustly associated with
+reductions in energy consumption and CO2 emissions under the MG panel estimator. Results
+provide evidence that countries with a relatively higher share of elderly citizens are more inclined
+to a lower level of energy consumption and tend to emit fewer emissions. However, this study
+provides a mixed picture on the impact of population aging on carbon emissions under the most
+recently developed Dynamic Common Correlated Effects (DCCE) estimator. Overall, the growing
+number of elderly people in theOECDseems to act as amitigating factor for energy consumption.
+Our research is of great significance for environmental policymakers by illuminating the
+favorable energy consumption patterns that population aging brings to advanced economies.
+Re-echoing the findings of several recent studies and moving beyond them to account for
+recent demographic developments, results suggest that human capital enhancement is robustly
+associated with reductions in energy consumption. This finding is consistent across estimation
+methods. One of themain reasons for this is the fact that environmentally aware citizens tend to
+embrace low-carbon consumption patterns and make use of environmentally friendly
+technologies, which helps to meet the energy efficiency targets as part of the 2050
+decarbonization objectives. Channeling government expenditures towards human capital
+development (and nurturing environmental consciousness) can be used by policymakers as a
+key tool in the long-term response to climate change related risks. Given cross-sectional
+dependencies and cross-country heterogeneity, empirical results underline the importance of
+cross-OECD policy spillovers and knowledge diffusions across the OECD countries. The new
+“energy culture” calls for concerted policy action even in the presence of an aging era.
+Importantly, the model allows us to draw inference with important societal implications in the
+fields of attitudes’ formation and quality of life. In particular, an increase in renewable energy
+use has several societal benefits such as mitigating climate change, improving health by
+reducing pollution associatedwith carbon emissions, improving energy security (uninterrupted
+availability of energy sources at an affordable price) and enhancing environmental quality.
+The main limitation of this study concerns data availability. Future research, and subject
+to greater data availability in the future, could dig deeper into understanding the dynamics of
+this complex nexus by incorporating additional control variables. Similarly, we focus on
+aggregate renewable energy consumption, and we do not explicitly model the sources of
+renewable energy (wind, hydropower, solar power, solid biofuels and other). Additional
+analysis of the breakdown of renewable energy sources would be insightful – subject to data
+availability – especially for meeting the recently agreed new target of 42.5% for EU countries
+by 2030. A deep transformation of the European energy system is needed for the EU to meet
+its target. Finally, extending the model to include a range of non-OECD countries that are also
+experiencing demographic transformations is a promising avenue for future research.
+Note
+1. The 19 advanced countries considered are as follows: Australia, Austria, Canada, Denmark, Finland,
+France, Germany, Greece, Ireland, Italy, the Netherlands, Norway, Portugal, Spain, Sweden,
+Switzerland, the United Kingdom, the United States of America and Japan.
+References
+Acemoglu, D. and Restrepo, P. (2017), “Secular stagnation? The effect of aging on economic growth in
+the age of automation”, American Economic Review, Vol. 107 No. 5, pp. 174-179.
+Alvarado, R., Deng, Q., Tillaguango, B., Mendez, P., Bravo, D., Chamba, J., Alvarado-Lopez, M. and
+Ahmad, M. (2021), “Do economic development and human capital decrease non-renewable
+energy consumption? Evidence for OECD countries”, Energy, Vol. 215, 119147.
+JES
+51,2
+482
+Broadstock, D.C., Li, J. and Zhang, D. (2016), “Efficiency snakes and energy ladders: a (meta-) Frontier
+demand analysis of electricity consumption efficiency in Chinese households”, Energy Policy,
+Vol. 91, pp. 383-396.
+Chondrogianni, A. and Tsalaporta, P. (2023), “Reversing environmental deterioration: the role of
+human capital in developing countries”, Economic Change and Restructuring, Vol. 56, pp.
+1585-1599.
+De Hoyos, R.E. and Sarafidis, V. (2006), “Testing for cross-sectional dependence in panel-data models”,
+The Stata Journal, Vol. 6 No. 4, pp. 482-496.
+Ditzen, J. (2019), “Estimating long run effects in models with cross-sectional dependence using
+xtdcce2”, Centre for Energy Economics Research and Policy (CEERP) Working Paper
+No. 7.
+Eberhardt, M. (2012), “Estimating panel time-series models with heterogeneous slopes”, The Stata
+Journal, Vol. 12 No. 1, pp. 61-71.
+Estiri, H. and Zagheni, E. (2019), “Age matters: ageing and household energy demand in the United
+States”, Energy Research and Social Science, Vol. 55, pp. 62-70.
+Fang, Z. and Chang, Y. (2016), “Energy, human capital and economic growth in Asia Pacific
+countries—evidence from a panel cointegration and causality analysis”, Energy Economics,
+Vol. 56, pp. 177-184.
+Grossman, G.M. and Krueger, A.B. (1991), “Environmental impacts of a North American free trade
+agreement”, NBER Working Paper No. 3914.
+Herweg, F. and Schmidt, K.M. (2022), “How to regulate carbon emissions with climate-conscious
+consumers”, CEPR Working Paper No. DP16985.
+Hondroyiannis, G., Papapetrou, E. and Tsalaporta, P. (2022), “New insights on the contribution of
+human capital to environmental degradation: evidence from heterogeneous and cross-correlated
+countries”, Energy Economics, Vol. 116, 106416.
+Huang, B.N., Hwang, M.J. and Yang, C.W. (2008), “Causal relationship between energy consumption
+and GDP growth revisited: a dynamic panel data approach”, Ecological Economics, Vol. 67
+No. 1, pp. 41-54.
+Khan, Z., Malik, M.Y., Latif, K. and Jiao, Z. (2020), “Heterogeneous effect of eco-innovation and human
+capital on renewable and non-renewable energy consumption: disaggregate analysis for G-7
+countries”, Energy, Vol. 209, 118405.
+Knapp, T. and Mookerjee, R. (1996), “Population growth and global CO2 emissions: a secular
+perspective”, Energy Policy, Vol. 24 No. 1, pp. 31-37.
+Menz, T. and Welsch, H. (2012), “Population aging and carbon emissions in OECD countries:
+accounting for life-cycle and cohort effects”, Energy Economics, Vol. 34 No. 3, pp. 842-849.
+Opoku, E.E.O., Dogah, K.E. and Aluko, O.A. (2022), “The contribution of human development towards
+environmental sustainability”, Energy Economics, Vol. 106, 105782.
+Pais-Magalh~aes, V., Moutinho, V. and Robaina, M. (2020), “Determinants of the household electricity
+consumption efficiency of an ageing population: evidence for the EU-28”, Energy Reports, Vol. 6,
+pp. 415-422.
+Pais-Magalh~aes, V., Moutinho, V. and Robaina, M. (2022), “Is an ageing population impacting energy
+use in the European Union? Drivers, lifestyles, and consumption patterns of elderly
+households”, Energy Research and Social Science, Vol. 85, 102443.
+Papapetrou, E. and Tsalaporta, P. (2020), “The impact of population aging in rich countries: what’s the
+future?”, Journal of Policy Modeling, Vol. 42 No. 1, pp. 77-95.
+Pesaran, M.H. (2007), “A simple panel unit root test in the presence of cross-section dependence”,
+Journal of Applied Econometrics, Vol. 22 No. 2, pp. 265-312.
+Pesaran, M.H. and Yamagata, T. (2008), “Testing slope homogeneity in large panels”, Journal of
+Econometrics, Vol. 142 No. 1, pp. 50-93.
+Population
+aging and
+environmental
+degradation
+483
+Salim, R., Yao, Y. and Chen, G.S. (2017), “Does human capital matter for energy consumption in
+China?”, Energy Economics, Vol. 67, pp. 49-59.
+Shahbaz, M., Song, M., Ahmad, S. and Vo, X.V. (2022), “Does economic growth stimulate energy
+consumption? The role of human capital and R&D expenditures in China”, Energy Economics,
+Vol. 105, 105662.
+Shi, A. (2003), “The impact of population pressure on global carbon dioxide emissions, 1975-1996:
+evidence from pooled cross-country data”, Ecological Economics, Vol. 44 No. 1, pp. 29-42.
+Steenblik, R. (2006), “Liberalisation of trade in renewable energy and associated technologies:
+biodiesel, solar thermal and geothermal energy”, OECD Working Paper No. 2006-01.
+United Nations Environment Programme (UNEP) (2022), “Annual report”.
+Wang, Q. and Wang, L. (2021), “The nonlinear effects of population aging, industrial structure, and
+urbanization on carbon emissions: a panel threshold regression analysis of 137 countries”,
+Journal of Cleaner Production, Vol. 287, 125381.
+World Health Organization (WHO) (2022), “Ageing and health”.
+Yang, T. and Wang, Q. (2020), “The nonlinear effect of population aging on carbon emission-Empirical
+analysis of ten selected provinces in China”, Science of the Total Environment, Vol. 740, 140057.
+Yang, X., Li, N., Mu, H., Pang, J., Zhao, H. and Ahmad, M. (2021), “Study on the long-term impact of
+economic globalization and population aging on CO2 emissions in OECD countries”, Science of
+the Total Environment, Vol. 787, 147625.
+Yao, Y., Ivanovski, K., Inekwe, J. and Smyth, R. (2019), “Human capital and energy consumption:
+evidence from OECD countries”, Energy Economics, Vol. 84, 104534.
+Yao, Y., Ivanovski, K., Inekwe, J. and Smyth, R. (2020), “Human capital and CO2 emissions in the long
+run”, Energy Economics, Vol. 91, 104907.
+Yaziz, N.A.M.M., Azlina, A.A., Hussain, N.E. and Koris, R. (2022), “The impact of population ageing on
+the environmental quality in late-demographic dividend countries”, International Journal of
+Social Economics, Vol. 49 No. 4, pp. 581-598.
+Zhang, C. and Tan, Z. (2016), “The relationships between population factors and China’s carbon
+emissions: does population aging matter?”, Renewable and Sustainable Energy Reviews, Vol. 65,
+pp. 1018-1025.
+Corresponding author
+George Hondroyiannis can be contacted at: ghondroyiannis@bankofgreece.gr
+For instructions on how to order reprints of this article, please visit our website:
+www.emeraldgrouppublishing.com/licensing/reprints.htm
+Or contact us for further details: permissions@emeraldinsight.com
+JES
+51,2
+484
+Reproduced with permission of copyright owner. Further
+reproduction prohibited without permission.

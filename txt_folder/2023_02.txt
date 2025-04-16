@@ -1,0 +1,291 @@
+Cognitive Science 47 (2023) e13230
+© 2023 Cognitive Science Society LLC.
+ISSN: 1551-6709 online
+DOI: 10.1111/cogs.13230
+This article is part of the “Progress & Puzzles of Cognitive Science” letter series.
+Beyond Single-Mindedness: A Figure-Ground Reversal
+for the Cognitive Sciences
+Mark Dingemanse,* Andreas Liesenfeld, Marlou Rasenberg, Saul Albert,
+Felix K. Ameka, Abeba Birhane, Dimitris Bolis, Justine Cassell,
+Rebecca Clift, Elena Cuffari, Hanne De Jaegher, Catarina Dutilh Novaes,
+N. J. Enfield, Riccardo Fusaroli, Eleni Gregoromichelaki, Edwin Hutchins,
+Ivana Konvalinka, Damian Milton, Joanna Ra˛czaszek-Leonardi,
+Vasudevi Reddy, Federico Rossano, David Schlangen, Johanna Seibt,
+Elizabeth Stokoe, Lucy Suchman, Cordula Vesper, Thalia Wheatley,
+Martina Wiltschko
+Received 1 November 2022; accepted 27 November 2022
+Abstract
+A fundamental fact about human minds is that they are never truly alone: all minds are steeped in
+situated interaction. That social interaction matters is recognized by any experimentalist who seeks
+to exclude its influence by studying individuals in isolation. On this view, interaction complicates
+cognition. Here, we explore the more radical stance that interaction co-constitutes cognition: that we
+benefit from looking beyond single minds toward cognition as a process involving interacting minds.
+All around the cognitive sciences, there are approaches that put interaction center stage. Their diverse
+and pluralistic origins may obscure the fact that collectively, they harbor insights and methods that can
+respecify foundational assumptions and fuel novel interdisciplinary work. What might the cognitive
+sciences gain from stronger interactional foundations? This represents, we believe, one of the key
+questions for the future. Writing as a transdisciplinary collective assembled from across the classic
+cognitive science hexagon and beyond, we highlight the opportunity for a figure-ground reversal that
+*See Author Notes for author affiliations.
+Correspondence should be sent to Mark Dingemanse, Centre for Language Studies, Radboud University,
+6500HD Nijmegen, The Netherlands. E-mail: mark.dingemanse@ru.nl
+2 of 8 M. Dingemanse et al. /Cognitive Science 47 (2023)
+puts interaction at the heart of cognition. The interactive stance is a way of seeing that deserves to be a
+key part of the conceptual toolkit of cognitive scientists.
+Keywords: Interaction; Cognitive science; Pluralism; Interdisciplinarity; Social interaction
+Classical cognitive science started out by focusing on “the properties and operation of
+the human mind,” definite and singular (Levinson, 2012; Keyser, Miller, & Walker, 1978).
+This was more a practical choice than a principled one, but it turned out to be immensely
+consequential. It set the cognitive sciences on a path in which product is privileged over
+process, information over relations, and individuals over interactions. As a result, it obscured
+how social interaction co-constitutes cognition (De Jaegher, Di Paolo, & Gallagher, 2010;
+Enfield, 2013; Vygotsky, 1962). Yet, interaction is what turns brains into minds. To truly
+understand cognition, we must move beyond single-mindedness.
+Work on situated action and distributed cognition paved the way by showing that people’s
+plans and representations take shape in interaction and encompass minds as well as
+material structures (Suchman, 2007 [1987]; Hutchins, 1995). In parallel, disparate lines of
+work across the cognitive sciences have made progress by putting interaction center stage.
+Although diverse in disciplinary origins, methods, and theories, these approaches are similar
+in seeing cognition not as the province of singular minds but as an interactional achievement
+of embodied agents. Yet, here is a curious fact: most of them are perceived as marginal in
+their own disciplines. Their kinship and collective power becomes apparent only when we
+change perspective––and when we do, we find that the scene is set for a Gestalt switch that
+puts interaction at the heart of cognition (Fig. 1).
+What do the cognitive sciences have to gain from an interactive stance? It foregrounds
+the potential of methodological and explanatory pluralism (Gentner, 2019) and creates new
+opportunities for synergy across disciplinary borders. Take reasoning, in many ways the textbook
+case of an individual cognitive capacity. Work in the last decade has thrown new light
+on why we reason the way we do, unveiling the dialogical roots of reasoning (Dutilh Novaes,
+2013, 2021) and suggesting that its primary function is not individual ratiocination but interactive
+argumentation (Mercier & Sperber, 2017). Indeed, observational work shows how people
+employ reasons in mundane interaction to coordinate joint action (Baranova & Dingemanse,
+2016) in a context of ever-present social accountability (Enfield & Sidnell, 2022). This shows
+how the interactional angle can foster productive connections between philosophy, psychology,
+and linguistics.
+Or consider the study of autism and other expressions of neurodiversity, long reified (if
+not fetishized) as special conditions that may shed light on classic topics like modularity,
+theory of mind, and joint action coordination. Recent work calls attention to the need
+to respecify neurodiversity from relational and interactional perspectives (Bolis, Balsters,
+Wenderoth, Becchio, & Schilbach, 2017; Milton, 2012). This allows us to move away from
+deficit-based views toward more reciprocal contributions. For instance, a careful study of
+neurodivergent interaction reveals how behaviors seen as “symptomatic of ASD” can be interactionally
+achieved and coproduced by both participants (Muskett, Perkins, Clegg, & Body,
+M. Dingemanse et al. /Cognitive Science 47 (2023) 3 of 8
+Fig. 1. “Fringe” is in the eye of the beholder. Realigning interaction-centered approaches from across disparate
+fields can fuel a figure-ground reversal in the cognitive sciences, here illustrated with an assortment of subfields
+around the classic hexagon: 1 interactional linguistics (Clift, 2016; Schegloff, Ochs, & Thompson, 1996);
+2 grammars of language use (Ameka & Terkourafi, 2019; Gregoromichelaki et al., 2022); 3 cognitive ethnography
+(Hutchins, 1995); 4 situated action (Suchman, 2007); 5 social and second person neuroscience (Schilbach et al.,
+2013; Wheatley, Boncz, Toni, & Stolk, 2019); 6 joint action (Shockley, Richardson, & Dale, 2009; Vesper, Butterfill,
+Knoblich, & Sebanz, 2010); 7 dialogue modeling (Schlangen & Skantze, 2011); 8 embodied interaction
+(Bennett et al., 2021); 9 discursive psychology (Edwards, 1997); 10 ecological psychology (Ra˛czaszek-Leonardi,
+Nomikou, Rohlfing, & Deacon, 2018; Reddy, 2018); 11 social epistemology (Goldman, 1999); 12 interactivism
+and enactivism (Bickhard, 2009; Di Paolo, Cuffari, & De Jaegher, 2018).
+2010; and see Bottema-Beutel, Crowley, & Kim, 2022). Situated interaction is the meeting
+ground for all kinds of minds, where cognitive processes are created and developed in dialectical,
+social, and emotional relations (De Jaegher, 2021b; Reddy, 2018).
+As a third example, consider interactive repair: the streamlined ways in which we prompt
+each other to revise or recalibrate contributions in interaction (Albert & de Ruiter, 2018).
+Occurring every few turns, repair is far too common to be just a remedial procedure or a last
+resort (Ginzburg, 2012). Instead, empirical and experimental work reveals how repair drives
+rapid coordination and efficient communication in human interaction (Micklos&Woensdregt,
+2022). Computational modeling shows that interactive repair can greatly alleviate the computational
+effort otherwise expended in pragmatic reasoning (Arkel, Woensdregt, Dingemanse,
+& Blokpoel, 2020). As it distributes inferential and computational processes over turns and
+minds, repair is a prime example of dialogically extended cognition (Fusaroli, Gangopadhyay,
+& Tylén, 2014). The on-the-fly recalibration embodied by repair is what makes ambiguity
+surmountable (Piantadosi, Tily, & Gibson, 2012) and good-enough processing viable (Goldberg
+& Ferreira, 2022).
+4 of 8 M. Dingemanse et al. /Cognitive Science 47 (2023)
+Fig. 2. Seen from Earth, the movements of celestial bodies display near-intractable complexity. When taking not
+a single vantage point but multiple (here, Sun and Earth), suddenly the picture changes, and new forms of order
+become visible (Sousanis, 2015). Likewise, key concerns of cognitive science may be illuminated by a change of
+perspective that locates cognition not in isolated but in interacting minds.
+These examples, necessarily selective, show some of the things a move beyond singlemindedness
+can bring. Interaction offers an unprecedented view of the multiscale dynamics
+of cognition: a form of direct empirical access that is hard to get otherwise (Wittgenstein,
+1968 [1953]). Moreover, taking an interactional perspective can have far-reaching theoretical
+consequences (Fig. 2). It can affect and even contest the very ontology of the phenomena
+studied, whether it is a “capacity” like reasoning, a “disorder” like autism, or an “outcome”
+like mutual understanding. Interaction is like a prism that brings out the irreducibly social
+and relational aspects of everything that flows through it, enabling new observations and
+explanations (De Jaegher, 2021a; Enfield, 2013; Sacks, 1992).
+There are further areas where an interactive angle is critical for progress. A theory of
+cognitive gadgets (Heyes, 2018) is incomplete without an account of how such gadgets
+culturally evolve and come to be socially shared; in short, without empirical grounding in
+social interaction. The mystery of metacognition (Frith & Frith, 2022) can only receive an
+adequate explanation if we attend more closely to the material metacognitive tools supplied
+by language in interaction: public cues to private states of mind that people make available in
+every turn at talk. The cognitive abilities of nonhuman minds are exceedingly hard to probe,
+except by studying sequentially organized social action (Bangerter, Genty, Heesen, Rossano,
+& Zuberbühler, 2022). And in computer science, we can only hope to build artificial agents
+and explain attributions of “intelligence” if we supplement the computational and cognitivist
+bent of the field with a deep understanding of situated interaction (Cassell, 2020; Ruane,
+Birhane, & Ventresque, 2019; Seibt, Vestergaard, & Damholdt, 2020; Suchman, 2019).
+M. Dingemanse et al. /Cognitive Science 47 (2023) 5 of 8
+We have argued for a recentering of the cognitive sciences around interacting minds. Are
+there any aspects of cognition that can fully be understood from the perspective of single
+minds? We do not know, but we submit that a reversal of the burden of evidence is in order.
+The watershed divide between the mental and the social has always been at best a convenient
+fiction (Shteynberg, 2014). As we come to terms with forms of cognition not centered on
+single brains, interaction looms large as the crucial connective tissue: ontologically prior,
+epistemologically fundamental, ecologically sound. As the cognitive sciences enter their next
+phase, interaction will be core to the enterprise of understanding how minds are made.
+Author Note
+Conception and initial draft byMDwith AL andMR; revised with contributions from FKA,
+SA, AB, DB, JC, RC, EC, HDJ, CDN, NJE, RF, EH, IK, DM, JRL, VR, FR, LS, ES, TTW;
+final revision read and approved by all. Contributors were invited with interdisciplinary and
+intersectional diversity in mind; as a collective, we represent only a cross-section of larger
+waves of like-minded work within and beyond the cognitive sciences.
+Author Affiliations
+Mark Dingemanse, Andreas Liesenfeld and Marlou Rasenberg — Centre for Language
+Studies, Radboud University; Marlou Rasenberg — Max Planck Institute for Psycholinguistics;
+Saul Albert and Elizabeth Stokoe — Discourse and Rhetoric Group, Loughborough
+University; Felix K. Ameka — Centre for Linguistics, Leiden University; Abeba Birhane
+— Mozilla Foundation; Abeba Birhane — School of Computer Science, University College
+Dublin; Dimitris Bolis—Independent Max Planck Research Group for Social Neuroscience,
+Max Planck Institute of Psychiatry; Dimitris Bolis—National Institute for Physiological Sciences;
+Justine Cassell — School of Computer Science, Carnegie Mellon University; Justine
+Cassell — Paris Artificial Intelligence Research Institute; Rebecca Clift — Department of
+Language and Linguistics, University of Essex; Elena Cuffari — Department of Psychology,
+Franklin andMarshall College; Hanne De Jaegher—IAS-Research Center forMind, Life and
+Society, Department of Philosophy, University of the Basque Country (UPV/EHU); Catarina
+Dutilh Novaes — Department of Philosophy, Vrije Universiteit Amsterdam; Catarina Dutilh
+Novaes—Arché, University of St. Andrews; N. J. Enfield—Department of Linguistics, The
+University of Sydney; Riccardo Fusaroli and Cordula Vesper — Department of Linguistics,
+Cognitive Science & Semiotics, Aarhus University; Riccardo Fusaroli and Cordula Vesper
+— Interacting Minds Centre, Aarhus University; Riccardo Fusaroli — Linguistic Data Consortium,
+University of Pennsylvania; Eleni Gregoromichelaki — Linguistics and Theory of
+Science, University of Gothenburg; Edwin Hutchins — Department of Cognitive Science,
+University of California San Diego; Ivana Konvalinka — Section for Cognitive Systems,
+DTU Compute, Technical University of Denmark; Damian Milton — Tizard Centre, University
+of Kent; Joanna Ra˛czaszek-Leonardi—Human Interactivity and Language Lab, Faculty
+6 of 8 M. Dingemanse et al. /Cognitive Science 47 (2023)
+of Psychology, University of Warsaw; Vasudevi Reddy — Department of Psychology, University
+of Portsmouth; Federico Rossano — Department of Cognitive Science, University of
+California San Diego; David Schlangen—Department of Linguistics, University of Potsdam;
+Johanna Seibt—Research Unit for Robophilosophy and Integrative Social Robotics, School
+of Culture and Society, Aarhus University; Elizabeth Stokoe—Department of Psychological
+and Behavioural Science, London School of Economics; Lucy Suchman — Department of
+Sociology, Lancaster University; Thalia Wheatley—Department of Psychological and Brain
+Sciences, Dartmouth College; Thalia Wheatley — Santa Fe Institute; Martina Wiltschko —
+Institució Catalana de Recerca i Estudis Avançats (ICREA), Universitat Pompeu Fabra.
+References
+Albert, S., & de Ruiter, J. P. (2018). Repair: The interface between interaction and cognition. Topics in Cognitive
+Science, 10(2), 279–313. https://doi.org/10.1111/tops.12339
+Ameka, F. K., & Terkourafi, M. (2019). What if…? Imagining non-Western perspectives on pragmatic theory and
+practice. Journal of Pragmatics. https://doi.org/10.1016/j.pragma.2019.04.001
+Arkel, J. V., Woensdregt, M., Dingemanse, M., & Blokpoel, M. (2020). A simple repair mechanism can alleviate
+computational demands of pragmatic reasoning: Simulations and complexity analysis. In Proceedings of the
+24th Conference on Computational Natural Language Learning. Association for Computational Linguistics.
+doi: 10.18653/v1/2020.conll-1.14
+Bangerter, A., Genty, E., Heesen, R., Rossano, F., & Zuberbühler, K. (2022). Every product needs a process:
+Unpacking joint commitment as a process across species. Philosophical Transactions of the Royal Society B:
+Biological Sciences, 377(1859), 20210095. https://doi.org/10.1098/rstb.2021.0095
+Baranova, J., & Dingemanse, M. (2016). Reasons for requests. Discourse Studies, 18(6), 641–675. https://doi.org/
+10.1177/1461445616667154
+Bennett, D., Dix, A., Eslambolchilar, P., Feng, F., Froese, T., Kostakos, V., Lerique, S., & van Berkel, N. (2021).
+Emergent interaction: Complexity, dynamics, and enaction in HCI. In Extended Abstracts of the 2021 CHI
+Conference on Human Factors in Computing Systems. New York: Association for ComputingMachinery. https:
+//doi.org/10.1145/3411763.3441321
+Bickhard, M. H. (2009). Interactivism: A manifesto. New Ideas in Psychology, 27(1), 85–95. https://doi.org/10.
+1016/j.newideapsych.2008.05.001
+Bolis, D., Balsters, J.,Wenderoth, N., Becchio, C., & Schilbach, L. (2017). Beyond autism: Introducing the dialectical
+misattunement hypothesis and a Bayesian account of intersubjectivity. Psychopathology, 50(6), 355–372.
+https://doi.org/10.1159/000484353
+Bottema-Beutel, K., Crowley, S., & Kim, S. Y. (2022). Sequence organization of autistic children’s
+play with caregivers: Rethinking follow-in directives. Autism, 26(5), 1267–1281. https://doi.org/10.1177/
+13623613211046799
+Cassell, J. (2020). The ties that bind: Social interaction in conversational agents. Reseaux, 220–221(2), 21–45.
+https://doi.org/10.3917/res.220.0021
+Clift, R. (2016). Conversation analysis. Cambridge: Cambridge University Press.
+De Jaegher, H. (2021a). Loving and knowing: Reflections for an engaged epistemology. Phenomenology and the
+Cognitive Sciences, 20(5), 847–870. https://doi.org/10.1007/s11097-019-09634-5
+De Jaegher, H. (2021b). Seeing and inviting participation in autistic interactions. Transcultural Psychiatry. https:
+//doi.org/10.1177/13634615211009627
+De Jaegher, H., Di Paolo, E., & Gallagher, S. (2010). Can social interaction constitute social cognition? Trends in
+Cognitive Sciences, 14(10), 441–447. https://doi.org/10.1016/j.tics.2010.06.009
+Di Paolo, E. A., Cuffari, E. C., & De Jaegher, H. (2018). Linguistic bodies: The continuity between life and
+language. Cambridge, MA: MIT Press.
+M. Dingemanse et al. /Cognitive Science 47 (2023) 7 of 8
+Dutilh Novaes, C. (2013). A dialogical account of deductive reasoning as a case study for how culture shapes
+cognition. Journal of Cognition and Culture, 13(5), 459–482. https://doi.org/10.1163/15685373-12342104
+Dutilh Novaes, C. (2021). The dialogical roots of deduction: Historical, cognitive, and philosophical perspectives
+on reasoning. Cambridge, UK; New York: Cambridge University Press.
+Edwards, D. (1997). Discourse and cognition. London; Thousand Oaks, CA: SAGE Publications.
+Enfield, N. J. (2013). Relationship thinking: Agency, enchrony, and human sociality. Oxford: Oxford University
+Press.
+Enfield, N. J., & Sidnell, J. (2022). Consequences of language: From primary to enhanced intersubjectivity.
+Cambridge, MA: MIT Press.
+Frith, C. D., & Frith, U. (2022). The mystery of the brain–culture interface. Trends in Cognitive Sciences, 26(12),
+1023–1025. https://doi.org/10.1016/j.tics.2022.08.013
+Fusaroli, R., Gangopadhyay, N.,&Tylén, K. (2014). The dialogically extendedmind: Language as skilful intersubjective
+engagement. Cognitive Systems Research, 29–30, 31–39. https://doi.org/10.1016/j.cogsys.2013.06.002
+Gentner, D. (2019). Cognitive science is and should be pluralistic. Topics in Cognitive Science, 11(4), 884–891.
+https://doi.org/10.1111/tops.12459
+Ginzburg, J. (2012). The interactive stance: Meaning for conversation. Oxford; New York: Oxford University
+Press.
+Goldberg, A. E., & Ferreira, F. (2022). Good-enough language production. Trends in Cognitive Sciences, 26(4),
+300–311. https://doi.org/10.1016/j.tics.2022.01.005
+Goldman, A. I. (1999). Knowledge in a social world. Oxford: New York: Clarendon Press; Oxford University
+Press.
+Gregoromichelaki, E., Eshghi, A., Howes, C., Mills, G. J., Kempson, R., Hough, J., Healey, P.G., & Purver, M.
+(2022). Language and cognition as distributed process interactions. In E. Gregoromichelaki, J. Hough, & J. D.
+Kelleher (Eds.), Proceedings of the 26th Workshop on the Semantics and Pragmatics of Dialogue (pp. 160–
+171).
+Heyes, C. (2018). Cognitive gadgets: The cultural evolution of thinking. Harvard, MA: Harvard University Press.
+Hutchins, E. (1995). Cognition in the wild. Cambridge, MA: MIT Press.
+Keyser, S. J., Miller, G. A., &Walker, E. (1978). Cognitive Science, 1978: Report of the state of the art Committee
+to the Advisors of the Alfred P. Sloan Foundation.
+Levinson, S. C. (2012). The original sin of cognitive science. Topics in Cognitive Science, 4(3), 1–8. https://doi.
+org/10.1111/j.1756-8765.2012.01195.x
+Mercier, H., & Sperber, D. (2017). The enigma of reason. Cambridge, MA: Harvard University Press.
+Micklos, A., & Woensdregt, M. (2022). Cognitive and interactive mechanisms for mutual understanding in conversation.
+PsyArXiv. doi: 10.31234/osf.io/aqtfb
+Milton, D. E. M. (2012). On the ontological status of autism: The ‘double empathy problem.’ Disability & Society,
+27(6), 883–887. https://doi.org/10.1080/09687599.2012.710008
+Muskett, T., Perkins, M., Clegg, J., & Body, R. (2010). Inflexibility as an interactional phenomenon: Using
+conversation analysis to re-examine a symptom of autism. Clinical Linguistics & Phonetics, 24(1), 1–16.
+https://doi.org/10.3109/02699200903281739
+Piantadosi, S. T., Tily, H., & Gibson, E. (2012). The communicative function of ambiguity in language. Cognition,
+122(3), 280–291. https://doi.org/10.1016/j.cognition.2011.10.004
+R ˛ aczaszek-Leonardi, J., Nomikou, I., Rohlfing, K. J., & Deacon, T. W. (2018). Language development from an
+ecological perspective: Ecologically valid ways to abstract symbols. Ecological Psychology, 30(1), 39–73.
+https://doi.org/10.1080/10407413.2017.1410387
+Reddy, V. (2018). Why engagement? A second person take on social cognition. In A. Newen, L. De Bruin, & S.
+Gallagher (Eds.), Oxford handbook of 4E cognition. Oxford University Press. https://doi.org/10.1093/oxfordhb/
+9780198735410.013.23
+Ruane, E., Birhane, A., & Ventresque, A. (2019). Conversational AI: Social and ethical considerations. In Proceedings
+for the 27th AIAI Irish Conference on Artificial Intelligence and Cognitive Science. Galway, Ireland.
+Sacks, H. (1992). Lectures on conversations. London: Blackwell.
+8 of 8 M. Dingemanse et al. /Cognitive Science 47 (2023)
+Schegloff, E. A., Ochs, E., & Thompson, S. (1996). Introduction. In E. Ochs, E. A. Schegloff, & S. Thompson
+(Eds.), Interaction and grammar (pp. 1–51). Cambridge: Cambridge University Press.
+Schilbach, L., Timmermans, B., Reddy, V., Costall, A., Bente, G., Schlicht, T., & Vogeley, K. (2013). Toward
+a second-person neuroscience. Behavioral and Brain Sciences, 36(4), 393–414. https://doi.org/10.1017/
+S0140525.12000660
+Schlangen, D., & Skantze, G. (2011). A general, abstract model of incremental dialogue processing. Dialogue &
+Discourse, 2(1), 83–111. https://doi.org/10.5087/dad.2011.105
+Seibt, J., Vestergaard, C., & Damholdt, M. F. (2020). Sociomorphing, not anthropomorphizing: Towards a typology
+of experienced sociality. In M. Nørskov, J. Seibt, & O. S. Quick (Eds.), Culturally Sustainable Social
+Robotics—Proceedings of Robophilosophy, (pp. 51–67). IOS Press. https://doi.org/10.3233/FAIA200900
+Shockley, K., Richardson, D. C., & Dale, R. (2009). Conversation and coordinative structures. Topics in Cognitive
+Science, 1(2), 305–319. https://doi.org/10.1111/j.1756-8765.2009.01021.x
+Shteynberg, G. (2014). A social host in the machine? The case of group attention. Journal of Applied Research in
+Memory and Cognition, 3(4), 307–311. https://doi.org/10.1016/j.jarmac.2014.05.005
+Sousanis, N. (2015). Unflattening. Cambridge, MA: Harvard University Press.
+Suchman, L. A. (2007). Human–machine reconfigurations: Plans and situated actions (2nd ed). Cambridge; New
+York: Cambridge University Press.
+Suchman, L. A. (2019). Demystifying the intelligent machine. In T. Heffernan (Ed.), Cyborg futures: Crossdisciplinary
+perspectives on artificial intelligence and robotics (pp. 35–61). Cham: Springer International Publishing.
+https://doi.org/10.1007/978-3-030-21836-2_3
+Vesper, C., Butterfill, S., Knoblich, G., & Sebanz, N. (2010). A minimal architecture for joint action. Neural
+Networks, 23(8), 998–1003. https://doi.org/10.1016/j.neunet.2010.06.002
+Vygotsky, L. S. (1962). Thought and language. Cambridge, MA: MIT Press.
+Wheatley, T., Boncz, A., Toni, I., & Stolk, A. (2019). Beyond the isolated brain: The promise and challenge of
+interacting minds. Neuron, 103(2), 186–188. https://doi.org/10.1016/j.neuron.2019.05.009
+Wittgenstein, L. (1968). Philosophical investigations (3rd ed). New York: Macmillan.
+Copyright of Cognitive Science is the property of Wiley-Blackwell and its content may not be
+copied or emailed to multiple sites or posted to a listserv without the copyright holder's
+express written permission. However, users may print, download, or email articles for
+individual use.

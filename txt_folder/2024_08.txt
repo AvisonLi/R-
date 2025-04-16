@@ -1,0 +1,1320 @@
+RESEARCH Open Access
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use,
+sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and
+the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The
+Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available
+in this article, unless otherwise stated in a credit line to the data.
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84
+https://doi.org/10.1186/s13195-024-01458-z
+Alzheimer's Research &
+Therapy
+†Zhen Liu and Dai Shi contributed equally to this work.
+*Correspondence:
+Tengfei Guo
+tengfei.guo@pku.edu.cn
+Full list of author information is available at the end of the article
+Abstract
+Introduction The Guangdong-Hong Kong-Macao Greater-Bay-Area of South China has an 86 million population and
+faces a significant challenge of Alzheimer’s disease (AD). However, the characteristics and prevalence of AD in this area
+are still unclear due to the rarely available community-based neuroimaging AD cohort.
+Methods Following the standard protocols of the Alzheimer’s Disease Neuroimaging Initiative, the Greater-Bay-
+Area Healthy Aging Brain Study (GHABS) was initiated in 2021. GHABS participants completed clinical assessments,
+plasma biomarkers, genotyping, magnetic resonance imaging (MRI), β-amyloid (Aβ) positron emission tomography
+(PET) imaging, and tau PET imaging. The GHABS cohort focuses on pathophysiology characterization and early AD
+detection in the Guangdong-Hong Kong-Macao Greater Bay Area. In this study, we analyzed plasma Aβ42/Aβ40 (A),
+p-Tau181 (T), neurofilament light, and GFAP by Simoa in 470 Chinese older adults, and 301, 195, and 70 had MRI, Aβ
+PET, and tau PET, respectively. Plasma biomarkers, Aβ PET, tau PET, hippocampal volume, and temporal-metaROI
+cortical thickness were compared between normal control (NC), subjective cognitive decline (SCD), mild cognitive
+impairment (MCI), and dementia groups, controlling for age, sex, and APOE-ε4. The prevalence of plasma A/T profiles
+and Aβ PET positivity were also determined in different diagnostic groups.
+Results The aims, study design, data collection, and potential applications of GHABS are summarized. SCD individuals
+had significantly higher plasma p-Tau181 and plasma GFAP than the NC individuals. MCI and dementia patients
+showed more abnormal changes in all the plasma and neuroimaging biomarkers than NC and SCD individuals. The
+frequencies of plasma A+/T+ (NC; 5.9%, SCD: 8.2%, MCI: 25.3%, dementia: 64.9%) and Aβ PET positivity (NC: 25.6%,
+SCD: 22.5%, MCI: 47.7%, dementia: 89.3%) were reported.
+Pathophysiology characterization
+of Alzheimer’s disease in South China’s aging
+population: for the Greater-Bay-Area Healthy
+Aging Brain Study (GHABS)
+Zhen Liu1†, Dai Shi2†, Yue Cai1, Anqi Li1, Guoyu Lan1, Pan Sun1, Lin Liu1, Yalin Zhu1, Jie Yang1, Yajing Zhou1, Lizhi Guo1,
+Laihong Zhang1, Shuqing Deng1, Shuda Chen2, Xianfeng Yu3, Xuhui Chen1,4, Ruiyue Zhao5, Qingyong Wang6,
+Pengcheng Ran7, Linsen Xu8, Liemin Zhou2, Kun Sun9, Xinlu Wang5, Qiyu Peng1, Ying Han1,3,10,11,12 and
+Tengfei Guo1,13*
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 2 of 16
+Background
+Alzheimer’s dementia patients suffer from memory
+loss, cognitive dysfunction, behavioral abnormalities,
+and social disorders [1]. Alzheimer’s disease (AD) is the
+leading cause of dementia, accounting for 60–80% of all
+cases [2]. Extracellular β-amyloid (Aβ) plaques and neurofibrillary
+tau tangles are the two key hallmarks of AD
+[3]. AD patients have reduced Aβ42 concentrations in
+cerebrospinal fluid (CSF) [4] or plasma [5], elevated cortical
+Aβ plaques [6–8], CSF or plasma phosphorylated
+Tau (p-Tau) concentrations [9], and cortical tau tangles
+[10], which eventually result in synaptic loss [11–13],
+hippocampal atrophy [14], Temporal-metaROI cortical
+thinning [15], hypometabolism and cognitive decline
+[4, 9, 16]. Such abnormal changes in Aβ and tau can be
+detected by biomarkers or positron emission tomography
+(PET) imaging 15–20 years before the earliest clinical
+symptoms of AD [17–19]. According to the research
+framework proposed by the National Institute on Aging
+and Alzheimer’s Association in 2018 [20], cognitively
+unimpaired (CU) older adults with the evidence of Aβ
+pathology measured by either CSF Aβ biomarker [4] or
+Aβ PET imaging [6] are defined as preclinical AD. Moreover,
+around 30% of the CU individuals aged 70 and over
+are at the preclinical AD stage [21] and have a high risk of
+cognitive decline in the future [22, 23].
+The prevalence of dementia and mild cognitive impairment
+(MCI) among older adults aged 60 and above in
+China is 6.0% and 15.5%, respectively. Among those
+cases, the majority (65%) is dementia or MCI due to AD,
+followed by vascular dementia (26.7%) and other dementias
+(8.3%) [24]. Additionally, the prevalence of preclinical
+AD defined by Aβ PET imaging among adults aged 60
+or older was around 18% [21]. Approximately 260 million
+individuals are 60 years or older in China [25]. Among
+them, around 15 million, 39 million, and 47 million
+individuals are at the stage of dementia, MCI, and preclinical
+AD, respectively. China’s total expenditure on
+dementia treatment and nursing services will be $1.89
+trillion around 2050 [26]. AD has become the fifth leading
+cause of death disease in China in 2019 [27]. The agestandardized
+prevalence and the age-standardized death
+rate of AD and related dementias were 788.3/100 000 and
+23.3/100 000, separately, which were slightly higher than
+that of the global levels (682.5/100 000 and 22.9/100 000,
+separately) [27]. The high prevalence and vast population
+of AD severely challenge China.
+Recently, three anti-Aβ drugs, including Aducanumab
+[28], Lecanemab [29], and Donanemab [30] showed positive
+results in phase 3 clinical trials. Consequently, early
+AD diagnosis and intervention are critical for preventing
+AD progression. However, the standardization of
+biomarker measurements, magnetic resonance imaging
+(MRI), and PET image scanning and processing of
+AD are not fully established yet in China. Therefore,
+the neuroscientists, neurologists, pathologists, radiopharmacists,
+biomedical engineers, and biochemists
+in Guangdong-Hong Kong-Macao Greater-Bay-Area
+are working together to initiate the Greater-Bay-Area
+Healthy Aging Brain Study (GHABS), aiming to investigate
+the pathological features and progression patterns
+of AD, especially in asymptomatic stage of AD. GHABS
+participants will undergo clinical neuropsychological
+assessments, biospecimen sample collection, MRI imaging,
+and PET imaging. The GHABS project aims to: (1)
+explore the risk factors of Aβ and tau aggregation in
+the early stage of AD among China’s aging population;
+(2) determine the effect of Aβ and tau pathologies upon
+downstream neurodegeneration and cognitive decline
+in both Aβ negative (Aβ-) and Aβ positive (Aβ+) elderly
+adults; (3) identify novel approaches and techniques for
+early detection of AD and provides significant reference
+for the target brain region and appropriate time window
+for anti-AD treatments.
+In this study, we first summarized the aims, study
+design, data collection, and potential applications of
+GHABS. Second, we compared the plasma Aβ42/Aβ40,
+plasma p-Tau181, plasma GFAP, plasma NfL, Aβ PET,
+tau PET, hippocampal volume, and temporal-MetaROI
+cortical thickness between normal control (NC), subjective
+cognitive decline (SCD), MCI, and dementia groups.
+Third, we also reported the prevalence of plasma A/T
+staging and Aβ PET positivity of different diagnostic
+groups in the Guangdong-Hong Kong-Macao Greater-
+Bay-Area of South China.
+Methods
+Study design
+Shenzhen Bay Laboratory launched the communitybased
+longitudinal cohort study GHABS (ClinicalTrials.
+gov ID: NCT06183658) in May 2021. The GHABS
+Discussion The GHABS cohort may provide helpful guidance toward designing standard AD community cohorts
+in South China. This study, for the first time, reported the pathophysiology characterization of plasma biomarkers,
+Aβ PET, tau PET, hippocampal atrophy, and AD-signature cortical thinning, as well as the prevalence of Aβ PET
+positivity in the Guangdong-Hong Kong-Macao Greater Bay Area of China. These findings provide novel insights into
+understanding the characteristics of abnormal AD pathological changes in South China’s older population.
+Keywords Alzheimer’s disease, Plasma biomarker, PET, MRI, Chinese aging cohort
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 3 of 16
+project was approved by the Shenzhen Bay Laboratory’s
+and the collaborated hospitals’ Ethical Committees. The
+flow chart of participant engagement in the GHABS is
+delineated in Supplementary Fig. 1. The GHABS participants
+were recruited via posters and lectures in the community
+and nursing homes. Each participant signed the
+written informed consent of the GHABS project before
+enrollment. The participants who met the inclusion and
+exclusion requirements were informed about the baseline
+and follow-up examinations. From 2021 to 2026, the
+GHABS cohort will recruit 1400 individuals aged 55 and
+older, including 1100 CU older adults, 200 MCI patients,
+and 100 dementia patients. The scheme for recruiting
+GHABS participants is illustrated in Supplemental Fig. 1.
+All the GHABS participants will undergo cognitive
+assessments, genetic screening, and blood sample collection.
+Some will have CSF collection, stool sample collection,
+MRI scanning, Aβ PET scanning, and tau PET
+scanning. All baseline examinations will be completed
+within three months. At follow-up, clinical assessments
+and blood sample collection will be conducted annually.
+CSF sample collection, MRI scan, Aβ PET scan, and tau
+PET scan are evaluated every two years. Six hundred
+twenty-seven participants have completed cognitive
+assessments and blood sample collection in the GHABS
+cohort by Sep 08, 2023 (Fig. 1). Among them, 26%, 44%,
+19%, and 11% of the cohort were NC, SCD, MCI, and
+dementia, respectively. Additionally, 369 and 93 participants
+completed stool and CSF sample collection. So far,
+469, 370, and 105 participants had MRI, Aβ PET, and tau
+PET imaging scans, respectively. This study identified
+470 GHABS participants who simultaneously completed
+cognitive assessments, plasma Aβ42/Aβ40, p-Tau181, NfL,
+and GFAP data measured by the Simoa platform. Among
+them, 119, 207, 87, and 57 were NC, SCD, MCI, and
+dementia. Moreover, 301, 195, and 70 individuals had
+concurrent MRI, 18F-D3-FSP Aβ PET, and FTP tau PET
+scans.
+Inclusion and exclusion criteria
+Briefly, the inclusion criteria of GHABS are as follows:
+(1) adults between the ages of 55 and 90 and speak Mandarin
+fluently [31]). Notably, individuals below 60 years
+old are required to have a family dementia history and
+meet the criteria of subjective cognitive decline (SCD),
+while people with family history of autosomal dominant
+or other familial AD are not limited by age; (2) the
+score on the Geriatric Depression Scale (GDS) is less
+than 6 points; (3) visual and auditory acuity is sufficient
+for neuropsychological testing (Including normal corrected
+vision and hearing); (4) female participants are not
+pregnant, lactating, or of childbearing potential (that is,
+women must be two years postmenopausal or surgically
+sterile); (5) a modified version of the Hachinski Ischemic
+scores less than or equal to 4; (6) have completed primary
+school (6 years of education) or have good work experience
+(sufficient to rule out mental retardation). Individuals
+with an infection, infarction, or other focal lesions or
+multiple lacunes or lacunes in critical memory structures
+and who do not meet the MRI scanning requirements
+are excluded from the GHABS study. More details of the
+inclusion and exclusion criteria can be found in the supplemental
+materials.
+Cognitive assessments
+The cognitive profiles are assessed via a series of cognitive
+ability tests, including the Alzheimer’s Disease
+Assessment Scale–Cognitive Subscale (ADAS-Cog),
+Logical Memory Test I & II (the Chinese version), Minimental
+State Examination (MMSE, the Chinese version),
+Montreal Cognitive Assessment Basic (MoCA-Basic),
+Shape Trail Test (STT), Clock Drawing Test (CDT),
+Auditory Verbal Learning Test (AVLT), Symbol Digit
+Modalities Test (SDMT), Digit Span Test (DST), Animal
+Verbal Fluency Test (AFT), Cognitive Change Index
+(CCI), SCD. Besides, functional and behavioral tests were
+also executed, including the Hachinski Ischemic Score
+(HIS), Clinical Dementia Rating (CDR), Neuropsychiatric
+Inventory (NPI), the GDS, Functional Activities Questionnaire
+(FAQ), Activity of Daily Living Scale (ADL)
+[32–34], measurement of everyday cognition (Ecog),
+Pittsburgh sleep quality index (PSQI), REM sleep behavior
+disorder screening questionnaire (RBDSQ), Epworth
+Sleepiness Scale (ESS).
+The participants were classified as NC, MCI, or dementia
+due to AD following the standard protocol of ADNI
+cohort [35]. We further define some CU individuals as
+SCD following the research criteria proposed by Jessen
+and colleagues in 2014 [36]. Several cognitive assessments
+were used for clinical diagnosis. The normal performance
+of these assessments was defined based on
+education or age. The MMSE used cutoff scores: >17 for
+participants without education, > 20 for 1–6 years of education,
+and > 24 for more than six years of education. The
+delayed recall of logical Memory test used cutoff scores
+as follows: ≥3 for 0–7 years, ≥5 for 8–15 years, and ≥9 for
+16 years of education [37]. As for the ADL, < 23 is normal
+for participants under 75 years old, while < 25 is for
+75 years and older.
+CU participants were normal in MMSE, logical Memory
+recall, and ADL, and their CDR score was 0. Among
+CU individuals, the presence of the following symptoms
+as having SCD: (1) Self-experienced persistent decline in
+cognitive capacity in comparison with a previously normal
+status and unrelated to an acute event; (2) Normal
+age-adjusted, gender-adjusted and education-adjusted
+performance on standardized cognitive tests. CU individuals
+without SCD were defined as the NC group.
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 4 of 16
+Participants with MCI had unimpaired MMSE, while
+they showed impairment in the logical Memory test [38].
+Their CDR score was 0.5, with a mandatory requirement
+of the memory box score being 0.5 or greater, but
+ADL was normal. Dementia due to AD was abnormal in
+MMSE, logical memory, and ADL. The CDR score was
+0.5 or greater.
+Biospecimen collection
+Volunteers fasted for one night the day before (not less
+than 6 h), and blood was drawn in the morning of the
+next day. The venous blood of the volunteers is drawn
+into two 10 ml EDTA blood collection tubes and gently
+inverted and mixed 10–12 times to ensure that the blood
+and anticoagulant are thoroughly mixed. The mixed
+Fig. 1 The current sample sizes of neurocognitive assessments, blood samples, CSF samples, stool samples, multimodal MRI scans, Aβ PET scans, and tau
+PET scans of the Greater-Bay-Area Healthy Aging Brain Study (By Sep 2023)
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 5 of 16
+blood was placed in an incubator at 4 °C and shipped
+back to the laboratory within 4 h for subsequent analysis.
+The blood is centrifuged at 1600 g for 10 min in a
+refrigerated centrifuge at 4 °C. The upper plasma layer is
+transferred to several 2 ml centrifuge tubes using a sterile
+RNase-free pipette tip. To obtain more pure plasma,
+the separated plasma is centrifuged again at 16,000 g for
+10 min at 4 °C, and then the supernatant is aliquoted into
+several 0.5 ml centrifuge tubes with labels, each with
+either 100–200 μl blood plasma. The aliquots are stored
+in a -80 °C refrigerator for subsequent analysis. After
+the whole blood is centrifuged in the first step, the buffy
+coat in the middle layer is gently transferred to the 2640
+medium. Then, after density gradient centrifugation,
+erythrocyte lysis, and centrifugation steps, the isolated
+peripheral blood mononuclear cell sample is transferred
+to a 2 ml RNase-free centrifuge tubes and stored in a gradient-
+cooled freezer box at -80 °C for subsequent analysis.
+Samples will be used for genomic analysis (including
+whole genome sequencing and other analyses).
+Before collecting the CSF sample, the volunteer must
+fast for one night (at least 6 h), and the lumbar spinal
+fluid is performed on an empty stomach the following
+day. Lumbar puncture is performed strictly with clinical
+standards, and about 5 ml of CSF is collected. The collected
+CSF is sent to Shenzhen Bay Laboratory within
+2 h for biomarker analysis. CSF sample is quickly divided
+into 1.5 ml low protein adsorption centrifuge tubes.
+Afterward, they will be stored in a -80 °C refrigerator for
+subsequent analysis.
+Fecal samples are collected on-site or at home after
+the volunteers’ consent is obtained. The volunteer stool
+samples are labeled, sub-packaged, and frozen in a -80 °C
+refrigerator. Fecal samples are used for 16 S rDNA,
+metagenomic, metagenome, and metabolome detection
+of intestinal microorganisms.
+CSF and plasma biomarkers measurement
+The concentrations of Aβ40, Aβ42, NfL, GFAP, SNAP25,
+p-Tau181, and p-Tau217 in CSF and plasma are detected
+using commercial Simoa® NEUROLOGY 4-PLEX E
+(N4PE, cat: 103,670), SNAP-25 (cat: 103,575), pTau-181
+(cat: 104,111), and pTau-217 kit in Simoa HD-X Analyzer
+™ (Quanterix Corp.). The concentrations of YKL40
+in CSF and plasma are measured using a commercial
+Human YKL-40 Assay (cat: K151VLK) in MESO SECTOR
+S 600MM (Meso Scale Diagnostics, LLC.). The
+concentrations of sTREM2 in CSF and plasma are also
+measured by the MSD platform using an in-house
+immunoassay as previously described [39]. Briefly,
+streptavidin-coated plates are blocked overnight in PBS
+containing 3% bovine serum albumin (BSA) and 0.05%
+Tween-20 before incubating with the biotinylated capture
+antibody (0.25 μg/mL, cat: BAF1828) for 1 h. After
+washing with PBS containing 0.05% Tween-20, the plates
+are incubated with CSF, and plasma samples diluted in
+PBS containing 0.25% BSA, 0.05% Tween-20, and Protease
+Inhibitor Cocktail (cat: P8340) for 2 h. Recombinant
+human TREM2 protein (SinoBiological, cat. 11,084-
+H08H) is used as a standard (62.5 to 8000 pg/mL). The
+plates are rewashed and incubated with the detector antibody
+(1 μg/mL, cat: sc373828) for 1 h, followed by incubation
+with the MSD SULFO-tag conjugated secondary
+antibody (0.5 μg/mL, cat: R32AC). Finally, the electrochemical
+signal is developed by adding 2x MSD Read
+buffer T (cat: R-92TC), and the MSD SECTOR S 600MM
+measures the electro chemiluminescent signal.
+The concentrations of PDGFR-β and GAP43 in CSF
+and plasma are measured by commercial Human
+PDGFR-β (R&D, Catalog Number: DYC385) and GAP43
+(Abbexa) ELISA kits. For neurogranin, an in-house sandwich
+ELISA is developed combining the mouse monoclonal
+antibodies Ng22 and Ng2 (Abcam). Nunc maxisorp
+96-well microliter plates (Thermo Fisher Scientific) are
+coated with the mouse anti-human neurogranin (Ng22,
+3 μg/mL) in bicarbonate buffer pH 9.6 overnight. After
+washing with PBS containing 0.05% Tween-20, the plates
+are blocked in PBS containing 1% BSA and 0.05% Tween-
+20 for 1 h, followed by incubation with CSF and plasma
+samples overnight. Recombinant full-length human neurogranin
+protein is used as a standard (25 to 3200 pg/
+ml for CSF, 55 to 40,000 pg/mL for plasma). After additional
+washes, the plates are incubated with the biotinylated
+mouse anti-human neurogranin (Ng2, 2.7 μg/mL)
+for 1 h, followed by incubation with a Streptavidin-HRP
+(R&D Systems) for 30 min. After additional washes, the
+plates are incubated with Substrate Reagent (TMB, R&D
+Systems) for 10 min in the dark. The color reaction is
+stopped by adding 0.2 M H2SO4, and the absorbance is
+read at 450 nm (650 nm as a reference value).
+All samples were analyzed randomly and doubleblindly
+to avoid bias because of the effect of inter-assay
+variability on specific patient groups. For all biomarker
+measurements, the samples in the first plate were tested
+in duplicate, and subsequent samples were tested in single.
+A pooled sample was generated as a reference, aliquoted
+and stored at -80 °C. In each measurement, the
+reference sample was tested in duplicate to compare the
+detection variability. The mean intra-assay and interassay
+coefficient of variation (CV) was controlled within
+20%.
+MRI image acquisition
+All the MRI scanning sequences will be conducted following
+the standard ADNI protocol here. The MRI
+image data is collected on 3.0T scanners, and the scanning
+parameters vary slightly depending on the specifics
+of scanners from various clinical centers. A series of
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 6 of 16
+sequences are applied for head imaging of each volunteer,
+including3D T1 MPRAGE, 3D T2 FLAIR (Fluid-
+Attenuated Inversion Recovery), High Res Hippo (High
+Resolution Hippocampus), SWI (Susceptibility Weighted
+Imaging), ASL (Arterial spin labeling), Diffusion (Axial
+DTI), Field Mapping, EPI-BOLD. Each sequence and
+parameters of MRI scanning are described as follows:
+3D MPRAGE scan parameters: field of view
+(FOV) = 208 × 240 × 256 mm3; matrix = 208 × 240 × 256
+(resolution 1 × 1 × 1 mm3); imaging plane: sagittal;
+TR = 2300 ms; TE = minimum TE value of the system;
+TI = 900 ms; FA = 7°; 2-fold acceleration in the phaseencoding
+direction; scan time 6 min 11 s. Purpose: (1) To
+provide high-resolution anatomical structure templates
+for low-resolution functional imaging (PET, EPI images,
+etc.); (2) To calculate the brain tissue volume and cortical
+thickness of the subjects, and to measure brain atrophy.
+Note that the whole brain was covered to avoid aliasing
+artifacts.
+3D FLAIR scanning parameters:
+FOV = 256 × 256 × 260 mm; matrix = 214 × 256 × 160 (resolution
+1.2 × 1 × 1 mm); imaging plane: sagittal; TR = 4800
+ms; TE = 119 ms; TI = 1650 ms; 3-fold acceleration in the
+phase-encoding direction; scan time 6 min 48 s. Purpose:
+To perform white matter hyperintensity (WMH) segmentation
+and to evaluate white matter lesions, including
+infarction and other pathological features.
+High Res Hippo scanning parameters:
+FOV = 175 × 60 × 175 mm3; matrix = 449 × 30 × 449 (resolution
+0.39 × 2 × 0.39 mm3); Oblique scan; layer direction
+perpendicular to the long axis of the hippocampus;
+TR = 8020 ms; TE = 50 ms; 2-fold acceleration in the
+phase-encoding direction; scan time 5 min 36s. Purpose:
+To perform hippocampal segmentation. Note: (1)
+the layer direction is perpendicular to the long axis of
+the hippocampus; (2) the imaging FOV should cover the
+skull, the hippocampal head, and the hippocampus tail.
+SWI scanning parameters: FOV = 220 × 220 × 130 mm3;
+matrix = 368 × 368 × 130 (resolution 0.6 × 0.6 × 1 mm3);
+imaging plane: transverse; TR = 55 ms; 6 echoes, with
+the TE of 1st echo = 7.7 ms and the delta TE between
+echoes = 7.0 ms; 2-fold acceleration in the phase-encoding
+direction; scan time 6 min 10 s. Purpose: (1) To evaluate
+cerebral microbleeds; (2) To obtain the quantitative
+susceptibility map (QSM).
+ASL scanning parameters: 3D pseudo-continuous
+ASL (pCASL) series; FOV = 240 × 240 × 160 mm3;
+matrix = 96 × 96 × 40 (resolution: 2.5 × 2.5 × 4 mm3); transverse
+positioning; TR = 4250 ms; TE = 9.0 ms; Label duration
+= 1800 ms; Post label delay (PLD) = 2000 ms; 2-fold
+acceleration in the phase-encoding direction; axial acquisition
+direction: fat chemical shift toward the posterior
+direction; a proton density image was also acquired
+within the same sequence to quantify cerebral blood flow
+(CBF) from the ASL series. The scanning time is 6 min
+68 s. Purpose: To measure whole brain perfusion and to
+calculate CBF. Notes: (1) the labeling plane was placed
+20 mm inferior to the lower edge of the imaging volume;
+(2) cover the cerebellum; (3) keep eyes open, not to think
+of anything in particular, and remain still during the scan.
+Diffusion scanning parameters: FOV = 232 × 232 × 176
+mm3; matrix = 116 × 116 × 88 (resolution: 2 × 2 × 2 mm3);
+transverse position; TR = 3300 ms; TE = 71 ms; multi-b
+value acquisition: b = 0, 1000, 2000 s/mm2 (in total 112
+diffusion directions); 2-fold acceleration in the phaseencoding
+direction and multiband factor = 3; axial acquisition
+direction: fat chemical shift toward the posterior
+direction; scan time 11 min 16 s. 8 averages of b = 0 DTI
+images with fat chemical shift toward the anterior direction
+of the axial acquisition direction were also scanned
+for the geometry distortion correction. Purpose: (1) To
+evaluate the diffusion parameters of white matter fibers
+in the brain, such as anisotropy FA, AD, MD, and other
+parameters; (2) To track white matter fibers in the brain
+and evaluate the structural connection of white matter
+fibers. Note to cover the whole brain.
+Field mapping scanning parameters:
+FOV = 220 × 220 × 160 mm3; matrix = 88 × 88 × 64 (resolution:
+2.5 × 2.5 × 2.5 mm3); imaging plane: transverse;
+TR = 400 ms; TE1 = 4.92 ms, TE2 = 7.38 ms. Purpose:
+Used for geometry distortion correction for EPI series.
+Echo-planar imaging (EPI) - Blood oxygen level-dependent
+(BOLD) scanning parameters: FOV = 220 × 220 × 160
+mm3; matrix = 88 × 88 × 64 (resolution: 2.5 × 2.5 × 2.5
+mm3); imaging plane: transverse; TR = 600 ms; TE = 30
+ms; FA = 53° (Ernst angle with best BOLD contrast); Echo
+spacing = 0.49 ms; 2-fold acceleration in the phase-encoding
+direction and multiband factor = 4; axial acquisition
+direction: fat chemical shift toward the posterior direction;
+scan time 10 min. Purpose: to assess the functional
+connectivity between any pair of brain regions. Notes
+that participants were instructed to keep their eyes open,
+not to think of anything in particular, and to remain still
+during the scan.
+PET image acquisition
+The Aβ PET radiotracer [18F]-florbetapir (FBP) [40]
+or [18F]D3FSP (FSP) [41] and tau PET radiotracer
+[18F]-flortaucipir (FTP) [42] are used for PET imaging.
+The data acquisition is performed on either a GE Discovery
+™ MI Gen 2 PET/CT scanner or a Siemens Biograph
+™ TruePoint™ TrueV PET/CT scanner. The spatial
+resolution of each PET scanner is quantified with PET
+imaging of a Hoffman phantom. For the Aβ PET imaging,
+the subjects are injected with either [18F]-florbetapir
+or [18F]-D3FSP intravenously at 370 MBq (10 mCi ± 10%),
+rested for 45 min and prepared for the scanning. PET/
+CT imaging is performed 50 min after injection, and the
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 7 of 16
+PET acquisition time is 20 min. For the tau PET imaging,
+the participants are injected with [18F]-flortaucipir intravenously
+at 370 MBq (10 mCi ± 10%), rested for 75 min,
+and prepared for imaging. The dynamic acquisition of
+[18F]-flortaucipir tau PET data is completed 80–100 min
+after the radiotracer administration.
+A dedicated head scanning procedure covering the
+whole brain from vertex to cerebellum is used for imaging.
+A diagnostic dose CT scan of the brain is acquired
+beforehand for attenuation correction and fusion localization
+of PET images. The PET scans are acquired
+using 3D list mode on the GE Discovery MI and Siemens
+BioGraph TruePoint scanners in two sites. For
+the GE scanner, the FOV is 256 mm×256 mm×220 mm,
+the scanning matrix is 336 × 336 × 109, and the voxel
+size is 1.02 mm×1.02 mm×2.03 mm. For the Siemens
+scanner, FOV is 256 mm×256 mm×198 mm, the scanning
+matrix is 192 × 192 × 71, and the voxel size is
+1.33 mm×1.33 mm×2.79 mm. All the correction options
+were selected for both scanners, and no filter or smooth
+was used during the reconstruction. A reconstruction
+offset is applied to ensure that the head is entirely
+in the field of view within the plane. Finally, 4 frames of
+dynamic images are generated according to 5 min/frame
+segmentation, with each PET scan corresponding to a
+20-minute PET image.
+MRI and PET imaging analysis
+The structural MRI images are segmented into different
+cortical and subcortical regions of interest (ROI) in
+Freesurfer (V7.2.0). The residual hippocampal volume
+(rHCV) is calculated using the hippocampal volume of
+both hemispheres and adjusted using the estimated total
+intracranial volume as we described previously [14]. In
+addition, the cortical thickness of AD-signature atrophy
+brain regions is obtained by calculating the surface areaweighted
+average thickness of the bilateral entorhinal,
+fusiform, inferior temporal, and middle temporal cortices
+[43].
+As shown in Fig. 2, the PET images are preprocessed
+with the following steps before further analysis: (1) coregistering
+the 2nd, 3rd, and 4th frames to the 1st frame,
+respectively; (2) averaging the four frames into one averaged
+frame; (3) the averaged frame resliced into a standard
+AC-PC space (anterior commissure-posterior
+commissure) with image size = 160 × 160 × 128, voxel
+dimension = 1.5 mm×1.5 mm×1.5 mm; (4) this standardized
+image then served as a reference imaging, and each
+Fig. 2 The image processing pipelines of PET, structural MRI, functional MRI (fMRI), and diffusion MRI data of the Greater-Bay-Area Healthy Aging Brain
+Study
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 8 of 16
+original individual frame was resliced to this reference
+imaging; (5) smoothing to a uniform 6 mm resolution
+using the Gaussian kernel function, and the full-width
+at half maximum (FWHM) of each site was determined
+from the Hoffman phantom [18F]FDG-PET imaging (As
+a reference for mitigating between-scanner differences in
+multi-center PET scans). The PET and MRI images are
+processed using in-house Matlab algorithms, as shown in
+Fig. 2. The PET images are co-registered with their corresponding
+structural MRI images in SPM12 (Statistical
+Parametric Mapping). Sixty-eight Freesurfer-defined
+cortical ROIs obtained from MRI segmentation extract
+regional FSP, FBP, and FTP measurements from the coregistered
+PET images.
+The FSP and FBP standardized uptake value ratio
+(SUVR) of AD summary cortical regions (posterior cingulate
+cortex, precuneus, frontal lobe, parietal lobe, and
+lateral temporal) are obtained by dividing the radiotracer
+uptake value of AD typical brain regions by that in the
+whole cerebellum [44]. In the present study, we only
+presented FSP Aβ PET data. For the [18F]-flortaucipir
+images, FTP SUVR of 68 FreeSurfer-defined ROIs are
+calculated by normalizing the [18F]-flortaucipir value to
+the value of the inferior cerebellar cortex [45]. The FTP
+SUVR of the AD Temporal-MetaROI [43] (entorhinal
+cortex, parahippocampal gyrus, fusiform, amygdala, inferior
+temporal and middle temporal brain regions) is used
+to evaluate cortical tau deposition.
+The general process of resting-state fMRI data preprocessing
+and brain functional connectivity construction
+are outlined in the third column of Fig. 2 and described in
+detail in the Supplemental Materials. The general process
+of diffusion MRI processing are outlined in the fourth column
+of Fig. 2 and described in detail in the Supplemental
+Materials. Diffusion-weighted data are denoised and
+corrected for Gibbs ring using Mrtrix3 (V3.0.3) [46], and
+then corrections were applied for head motion, eddy current,
+and EPI susceptibility distortion using FSL (V6.0.3)
+[47]. 3D pCASL imaging was employed to calculate the
+CBF map (Supplemental Fig. 3). The WMH segmentation
+was processed using a custom pipeline developed by our
+lab based on the T2 FLAIR images (Supplemental Fig. 4).
+More details of fMRI, dMRI, WMH, and pCASL can be
+found in Supplementary Material.
+Cutoffs of plasma Aβ42/Aβ40, and plasma p-Tau181, and FSP
+Aβ PET
+We used Gaussian mixed model analysis to estimate two
+Gaussian distributions of low Aβ and high Aβ (Supplemental
+Fig. 5) for COMPOSITE FSP SUVR to define an
+unsupervised threshold, which corresponds to a 90%
+probability of belonging to the high Aβ distribution.
+The thresholds of FSP SUVR were defined as COMPOSITE
+SUVR≥0.76 (Supplemental Fig. 5). The receiver
+operating characteristic (ROC) curve analysis using the
+Youden index classifying 154 Aβ- cognitively unimpaired
+(CU) participants and 69 Aβ + cognitively impaired (CI)
+individuals (MCI or dementia) as the endpoint to define
+the cutoff ≤ 0.0609 for plasma Aβ42/Aβ40 ratio (Supplemental
+Figs. 6–7). Similarly, the ROC analysis using the
+Youden index classifying 143 Aβ- CU participants and 67
+Aβ + CI participants as the endpoint to define the cutoff
+≥ 2.418 for plasma p-Tau181 (Supplemental Figs. 8–9).
+The cohort was divided into A-/T-, A-/T+, A+/T-, and
+A+/T + according to the plasma Aβ42/Aβ40 ratio and
+plasma p-Tau181 thresholds.
+Statistical analysis
+All the statistical analyses were conducted using R
+(v4.3.0, The R Foundation for Statistical Computing). The
+normal distribution of the data in this study was determined
+using the Shapiro-Wilk test. Plasma p-Tau181,
+plasma GFAP, and plasma NfL were log10 transferred
+before the following analysis to meet the normal distribution.
+We used a two-tailed Mann-Whitney U test
+and Fisher’s exact test to compare the continuous and
+categorical characteristics at baseline between different
+diagnosis groups, respectively. Data were presented
+as median (interquartile range, IQR) or No. (%) unless
+otherwise noted. Generalized linear models were used
+to compare plasma biomarkers, COMPOSITE FSP
+Aβ SUVR, temporal-metaROI FTP SUVR, rHCV, and
+temporal-metaROI cortical thickness between different
+clinical groups, controlling for age, sex, and APOE-ε4.
+Subsequently, we investigated the frequency of different
+A/T profiles defined by plasma biomarkers (A: plasma
+Aβ42/Aβ40, T: plasma p-Tau181) and Aβ PET positivity
+among NC, SCD, MCI, and dementia groups.
+Results
+Demographics of participants
+The demographic characteristics of participants included
+in this study are summarized in Table 1. At baseline, MCI
+and dementia individuals had older ages, higher percentages
+of APOE-ε4 carriers, shorter duration of education,
+and lower MoCA and MMSE scores than NC and SCD
+individuals. The dementia group also had lower MoCA
+and MMSE scores than the MCI group. The SCD group
+had more females than the MCI and dementia groups.
+Additionally, 443 participants had risk factors records,
+including the medical history of hypertension, hyperlipidemia,
+and diabetes, as well as the assessments of
+PSQI and GDS. SCD individuals had higher percentage
+of hyperlipidemia compared to the NC and MCI groups.
+SCD and MCI individuals had worse sleep state than
+NC and dementia individuals, while dementia individuals
+showed better sleep state than NC individuals. MCI
+and dementia individuals had higher depression scores
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 9 of 16
+than SCD and NC individuals, whereas SCD individuals
+showed higher depression scores than NC individuals.
+The demographic data of the GHABS cohort by cities
+are summarized in Supplemental Tables 2 and have been
+compared with the corresponding demographcis from
+the literature, as presented in Supplemental Table 3 [48,
+49].
+Comparisons of plasma biomarkers and neuroimages
+among different clinical stages
+Compared to the NC group, the SCD group had higher
+plasma p-Tau181 (standardized β (βstd) = 0.304[95% confidence
+interval (ci), 0.113, 0.494], p = 0.002) and plasma
+GFAP (βstd = 0.225[95% ci, 0.029, 0.420], p = 0.025), and
+the MCI group had lower plasma Aβ42/Aβ40 (βstd =
+-0.392[95% ci, -0.663, -0.121], p = 0.005), higher plasma
+p-Tau181 (βstd = 0.594[95% ci, 0.352, 0.836], p < 0.001),
+plasma GFAP (βstd = 0.363[95% ci, 0.114, 0.611], p = 0.004),
+plasma NfL (βstd = 0.388[95% ci, 0.161, 0.615], p < 0.001),
+COMPOSITE Aβ PET SUVR (βstd = 0.452[95% ci, 0.117,
+0.788], p = 0.008), and temporal-metaROI FTP SUVR
+(βstd = 0.420[95% ci, -0.028, 0.867], p = 0.066), and more
+decreases in rHCV (βstd = -0.347[95% ci, -0.622, -0.072],
+p = 0.013) (Fig. 3).
+The MCI group showed lower plasma Aβ42 (Supplemental
+Fig. 10, βstd = -0.365[95% ci, -0.619, -0.111],
+p = 0.014), plasma Aβ42/Aβ40 (Fig. 3A, βstd = -0.363[95%
+ci, -0.614, -0.112], p = 0.005), rHCV (Fig. 3G, βstd =
+Table 1 Demographics of Greater-Bay-Area Healthy Aging Brain Study (GHABS) participants included in this study
+NC SCD MCI Dementia
+No., % 119, 25.3% 207, 44.0% 87, 18.5% 57, 12.1%
+Age, years 66(9.2,55–89) 66(7.9,55–86) a, b69(10,58–89) a, b73(12.6,57–86)
+APOE-ε4 (No., %) 24, 20.2% 36, 17.4% a, b35, 40.2% a, b27, 47.4%
+Female (No., %) 72, 60.5% a, c, d154, 74.4% 48, 55.2% 31, 54.4%
+Education, years 13(4.0,5–20) 14(4.3,2–24) a, b12(6.0,2–18) a, b11(4.0,0–18)
+MoCA 27 (3) 26 (4) a, b22 (5) a, b, c12 (7)
+MMSE 29 (3) 29 (3) a, b26 (4) a, b, c18 (8)
+Participants with risk factors (n = 443)
+No., % 115, 26.0% 197, 44.5% 79, 17.8% 52, 11.7%
+Hypertension (No., %) 24, 20.2% 41, 19.8% 18, 20.7% 8, 14.0%
+Diabetes (No., %) 10, 8.4% 18, 8.7% 7, 8.0% 7, 12.3%
+Hyperlipidemia (No., %) 21, 17.6% a65, 31.4% b10, 11.5% 7, 12.3%
+PSQI 5.5 (4) a, d7.0 (5) a, d6.0 (6) a, b, c4.0 (4.3)
+GDS 2 (2) a, c, d2 (3) a, b3 (4) a, b3 (4)
+Participants with MRI image data (n = 301)
+No., % 73, 24.3% 132, 43.9% 57, 18.9% 39, 13.0%
+Age, years 66(8.9,55–89) 67(8.0,55–86) a69(9.0,58–89) a, b73(13.3,57–85)
+APOE-ε4 (No., %) 19, 26.0% 24, 18.2% b22, 38.6% a, b20, 51.3%
+Female (No., %) 43, 58.9% 94, 71.2% 33, 57.9% 23, 59.0%
+MoCA 26 (3) 26 (3) a, b22 (5) a, b, f12 (7.5)
+MMSE 29 (2) 29 (3) a, b26 (3) a, b, f18 (9)
+Participants with Aβ PET image data (n = 195)
+No., % 43, 22.0% 80, 41.0% 44, 22.6% 28, 14.4%
+Age, years 66(8.6,55–89) 67(7.4,55–81) a, b69(9.1,58–89) a, b73(12.7,58–85)
+APOE-ε4 (No., %) 13, 30.2% 12, 15.0% b18, 40.9% b15, 53.6%
+Female (No., %) 24, 55.8% 52, 65.0% 24, 54.5% 17, 60.7%
+MoCA 26 (4) 26 (3) a, b23 (5) a, b, e13.5 (10.5)
+MMSE 28 (2) 29 (3) a, b27 (3) a, b, e18 (8.25)
+Participants with tau PET image data (n = 70)
+No., % 18, 25.7% 23, 32.9% 18, 25.7% 11, 15.7%
+Age, years 65(12.7,55–89) 65(6.0,57–80) 70(8.5,58–78) 62(10.4,58–80)
+APOE-ε4 (No., %) 7, 38.9% 11, 47.8% 11, 61.1% 7, 63.6%
+Female (No., %) 8, 44.4% 17, 73.9% 9, 50.0% 6, 54.5%
+MoCA 26.5 (4) 26 (5.5) a, b22 (5.75) a, b, f12 (8.5)
+MMSE 28.5 (3) 28 (3) b26 (3.75) a, b, f13 (9)
+Notea, b, c, d indicates significantly different from NC, SCD, MCI, and dementia groups respectively
+Abbreviations Aβ = β-amyloid; NC = Normal control; SCD = subjective cognitive decline; MCI = mild cognitive impairment; PSQI = Pittsburgh Sleep Quality Index;
+GDS = Geriatric Depression Scale
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 10 of 16
+-0.451[95% ci, -0.703, -0.200], p < 0.001), and temporalmetaROI
+cortical thickness (Fig. 3H, βstd = -0.315[95%
+ci, -0.600, -0.030], p = 0.030), and higher plasma p-Tau181
+(Fig. 3B, βstd = 0.290[95% ci, 0.066, 0.514], p = 0.011),
+plasma NfL (Fig. 3D, βstd = 0.297[95% ci, 0.087, 0.508],
+p = 0.006), COMPOSITE Aβ PET SUVR (Fig. 3E,
+βstd = 0.373[95% ci, 0.074, 0.673], p = 0.014), temporalmetaROI
+FTP SUVR (Fig. 3F, βstd = 0.444[95% ci, 0.011,
+0.878], p = 0.045) than the SCD group.
+The dementia patients had significant abnormal alternations
+(p ≤ 0.011) in all the plasma biomarkers, and Aβ
+PET, tau PET, rHCV, and temporal-metaROI cortical
+thickness than the other three groups (Fig. 3). Besides,
+the dementia group had lower plasma Aβ42 compared
+to the NC group (βstd = -0.556[95% ci, -0.876, -0.237],
+p = 0.002) and SCD group (βstd = -0.597[95% ci, -0.897,
+-0.297], p < 0.001) as shown in Supplemental Fig. 9.
+Frequency of plasma A/T and Aβ PET positivity among
+different clinical stages
+The frequencies of A-/T- (NC; 53.8%, SCD: 55.6%, MCI:
+26.4%, Dementia: 7.0%), A-/T+ (NC; 7.5%, SCD: 13.5%,
+MCI: 17.2%, Dementia: 14.0%), A+/T- (NC; 32.8%, SCD:
+22.7%, MCI: 31.0%, Dementia: 14.0%), and A+/T+ (NC;
+5.9%, SCD: 8.2%, MCI: 25.3%, Dementia: 64.9%) profiles
+were illustrated in Fig. 4A. The frequencies of Aβ PET
+positivity (NC: 25.6%, SCD: 22.5%, MCI: 47.7%, Dementia:
+89.3%) were illustrated in Fig. 4B.
+Fig. 3 Comparisons of plasma biomarkers and neuroimaging between different clinical groups. Comparisons of (A) plasma Aβ42/Aβ40, (B) plasma
+p-Tau181, (C) plasma GFAP, (D) plasma NfL, (E) Aβ PET, (F) tau PET, (G) hippocampal volume and (H) temporal-MetaROI cortical thickness between NC,
+SCD, MCI, and dementia groups. Plasma p-Tau181, plasma GFAP, and plasma NfL were log10 transferred. The mean intra-assay and inter-assay coefficient
+of variation (CV)s were respectively 12% and 17% for plasma Aβ42, 9% and 17% for plasma Aβ40, 7% and 9% for plasma NfL, 5% and 14% for plasma GFAP,
+and 10% and 13% for plasma p-Tau181
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 11 of 16
+Discussion
+There are approximately 47 million preclinical AD individuals,
+39 million MCI patients, and 15 million dementia
+patients in China. In 2035, the older population aged
+60 and above is expected to exceed 400 million, accounting
+for more than 30% of the total population. As long
+as there are no practical methods for the early detection
+and treatment of AD, the number of AD patients
+in China will continue to rise. To end this, the GHABS
+study was initiated in 2021. The GHABS study aims to
+investigate the prevalence and progression of AD in the
+Guangdong-Hong Kong-Macao Greater-Bay-Area of
+China. The ultimate goal is to develop novel biomarkers
+and neuroimaging approaches for early diagnosis of
+AD and support the early intervention of clinical trials
+in the Guangdong-Hong Kong-Macao Greater-Bay-Area
+(Fig. 5).
+Following the standard protocol of ADNI [50], the
+GHABS is supposed to be a high-standard AD community
+cohort in the Guangdong-Hong Kong-Macao
+Greater-Bay-Area of China. GHABS referred to several
+well-established large-scale AD cohorts from Europe
+and the United States, such as the Mayo Clinical Study
+of Aging [51], the Harvard Aging Brain Study [52], the
+Swedish Biomarkers For Identifying Neurodegenerative
+Disorders Early and Reliably, the Amyloid Imaging
+to Prevent Alzheimer’s Disease [53], and the Australian
+Imaging, Biomarkers and Lifestyle Study [54]. Based on
+these databases, many breakthroughs have been made in
+AD-related gene loci, biomarker detection, PET molecular
+imaging, etc., which provide important support for
+screening target participants and therapeutic targets in
+AD clinical trials. Besides, GHABS also referred to several
+well-organized cohorts in China, such as the Beijing
+Aging Brain Rejuvenation Initiative [55], China Aging
+and Neurodegenerative Initiative [56], Chinese Alzheimer’s
+Biomarker and LifestylE [57], the Chongqing Ageing
+& Dementia Study (CADS) [58], Chinese Preclinical
+Alzheimer’s Disease Study (C-PAS) [59], the China Cognition
+and Ageing Study [60], the Taizhou Imaging Study
+[61], and Sino Longitudinal Study on Cognitive Decline
+[62]. Dr. Ying Han, the president of the “Pre-Alzheimer’s
+Disease Alliance of China,” is one of the principal investigators
+in GHABS. Dr. Han initiated the Pre-AD Alliance
+of China in 2017 [63] and led two AD cohorts focused on
+the population of SCD for early AD diagnosis and investigation,
+the SILCODE and Cross-Cultural Longitudinal
+Study on Cognitive Decline [64]. The design of GHABS
+will be updated by the researchers if necessary. GHABS
+closely follows the latest academic and industry developments
+in the field and tries to adapt and update protocols.
+The primary goal of GHABS is to investigate the pathological
+characteristics, risk factors, protective indicators,
+and evolution of Aβ and tau pathologies in Guangdong-
+Hong Kong-Macao Greater-Bay-Area older adults. The
+specific studies are as follows: (1) summarize the incidence
+of preclinical AD (Aβ + CU) in the Guangdong-
+Hong Kong-Macao Greater-Bay-Area, and reveal the
+Fig. 4 The frequency of plasma A/T profiles and Aβ PET positivity between different clinical groups. Comparisons of (A) A/T profiles defined by plasma
+Aβ42/Aβ40 and plasma p-Tau181, and (B) Aβ PET positivity between NC, SCD, MCI, and Dementia groups
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 12 of 16
+characteristics and progression of AD pathologies; (2)
+study the feasibility of plasma biomarkers for detecting
+early AD in older adults; (3) determine the risk factors
+related to abnormal changes in Aβ and tau proteins; (4)
+reveal the spatiotemporal patterns of cortical Aβ plaques,
+tau tangles aggregation, synapse loss, and neuroinflammation
+and their relations to brain atrophy and cognitive
+decline; (5) investigate the roles of neuroinflammation,
+synaptic loss, vascular diseases, myelination, metabolic
+dysfunction across the spectrum of AD. Hopefully, these
+studies based on the GHABS cohort may provide novel
+insights into the early diagnosis and intervention of AD
+in China and the AD community.
+Compared to CSF biomarkers and PET imaging,
+plasma biomarkers are the most promising early screening
+technology for AD by considering the advantages of
+simple sampling, low traumatic, and cost [65]. Recently,
+plasma Aβ42/Aβ40 [66, 67], p-Tau181 [68], p-Tau217 [69],
+p-Tau231 [70], and GFAP [71] showed great potential
+in early diagnosis of AD. One of the primary goals of
+GHABS is to evaluate the performance of previously
+reported plasma biomarkers and further explore novel
+plasma biomarkers in China’s aging population. For
+example, the GHABS research group has investigated
+the characteristics of CSF GAP43 in different clinical and
+pathological stages of AD [11] based on the ADNI cohort
+and demonstrated that presynaptic dysfunction measured
+by CSF GAP43 occurs prior to AD typical neurodegeneration
+and predicts faster cognitive decline [12]. We
+are currently measuring GAP43 concentrations in plasma
+in the GHABS cohort and evaluating its suitability as a
+plasma synaptic biomarker of AD in the Chinese aging
+population.
+The GHABS project also supports and fertilizes new
+diagnosis methods for early AD diagnosis from academics
+and pharmaceutical industries. GHABS has been
+Fig. 5 The general design and goals of the Greater-Bay-Area Healthy Aging Brain Study cohort
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 13 of 16
+committed to co-developing early diagnostic tools since
+its inception, including fluid biomarkers, new antibodies,
+brain PET instruments, and new PET tracers. In Shenzhen
+Bay Laboratory, Dr. Qiyu Peng’s group are dedicated
+to developing high-performance and low-cost brain PET/
+CT scanner and wearable brain PET/CT scanner [72].
+The GHABS plans to support the clinical verification of
+the novel brain PET/CT instruments, as AD is one of the
+main neurodegenerative diseases that require a braindedicated
+PET/CT instrument. GHABS is also exploring
+adjusting the Aβ PET imaging protocols for clinical diagnosis
+by shortening the scanning time or reducing trace
+dose using brain PET/CT scanners with high spatial resolution
+and detection sensitivity. In the future, GHABS
+will also facilitate AD clinical trials.
+In this study, we, for the first time, investigated the
+abnormal alterations of plasma Aβ42, plasma Aβ42/Aβ40,
+plasma p-Tau181, plasma GFAP, plasma NfL, Aβ PET, tau
+PET, hippocampal volume, and AD-signature cortical
+thickness across the different clinical stages of AD based
+on a Chinese aging cohort in Guangdong-Hong Kong-
+Macao Greater-Bay-Area. This showed that SCD individuals
+had significantly higher plasma p-Tau181 and plasma
+GFAP than the NC individuals, suggesting that SCD
+may be related to early increases in plasma p-Tau181 and
+plasma GFAP. In addition, CI individuals (MCI or dementia)
+had abnormal changes in plasma Aβ42/Aβ40, p-Tau181,
+and NfL, and Aβ PET, tau PET, hippocampal volume,
+and AD-signature cortical thickness compared to the CU
+(NC or SCD) individuals. Moreover, the frequencies of
+plasma Aβ42/Aβ40 positive and plasma p-Tau181 positive
+(NC; 5.9%, SCD: 8.2%, MCI: 25.3%, Dementia: 64.9%) and
+Aβ PET positivity (NC; 25.6%, SCD: 22.5%, MCI: 47.7%,
+Dementia: 89.3%) were reported for the first time. The
+overall Aβ-PET positivity rates of NC, MCI, and dementia
+in C-PAS, an eastern China cohort, were 26.9%, 44.5%,
+and 85.8%, respectively [73], which was similar to the
+findings of the GHABS cohort. In general, the frequencies
+of Aβ PET positivity were in accordance with previous
+reports [74–76].
+According to the latest NIA-AA research framework
+proposed by Jack and colleagues in AAIC 2023,
+it has been suggested to use a combination of plasma
+Aβ42/Aβ40 and plasma p-Tau rather than them alone to
+identify individuals with a high risk of AD. However, our
+findings indicate that using plasma Aβ42/Aβ40 positive
+and plasma p-Tau181 positive (A+/T+) may be only able
+to capture 23.0%, 36.4%, 53.4%, and 72.7% of Aβ PET
+positivity in NC, SCD, MCI, and dementia individuals
+respectively. Considering using A-/T + and A+/T- defined
+by plasma Aβ42/Aβ40 and plasma p-Tau181 in addition to
+A+/T + to identify individuals with a high risk of AD, the
+frequencies of abnormal plasma biomarkers increased by
+46.2%, 44.4%, 73.6%, and 93.0% for NC, SCD, MCI, and
+Dementia respectively. Future investigation is required to
+determine whether A-/T + or A+/T- individuals defined
+by plasma Aβ42/Aβ40 and plasma p-Tau181 have evidence
+of Aβ plaques, tau tangles, brain atrophy, and cognitive
+decline.
+In summary, we adapt the standard ADNI protocols to
+collect cognitive assessments, fluid biomarkers, and neuroimaging
+data to create a community-based observable
+AD cohort in the Guangdong-Hong Kong-Macao Greater
+Bay Area of China. The GHABS cohort is expected to
+identify novel biomarkers and neuroimaging techniques
+for early detection, determine the appropriate time window
+for AD intervention, and explore AD’s pathological
+features and progression patterns, especially during the
+asymptomatic stage of AD in South China’s aging population.
+We reported for the first time the pathophysiology
+characterization of plasma biomarkers, Aβ PET, tau
+PET, hippocampal atrophy, and AD-signature cortical
+thinning, as well as the prevalence of Aβ PET positivity
+in a Chinese community aging cohort in the Guangdong-
+Hong Kong-Macao Greater Bay Area of China. These
+findings provide important guidance towards designing
+standard AD community cohorts in South China and
+offer novel insights into understanding the characteristics
+of abnormal AD pathologies changes in South China’s
+older population.
+Abbreviations
+AD Alzheimer’s disease
+ADAS-Cog Alzheimer’s Disease Assessment Scale–Cognitive Subscale
+ADL Activity of Daily Living Scale
+ADNI Alzheimer’s Disease Neuroimaging Initiative
+AFT Animal Verbal Fluency Test
+ASL Arterial Spin Label
+AVLT Auditory Verbal Learning Test
+Aβ β-amyloid
+BOLD Blood Oxygen Level Dependent
+CBF Cerebral Blood Flow
+CCI Cognitive Change Index
+CDR Clinical Dementia Rating
+CDT Clock Drawing Test
+CI Cognitive Impaired
+ci confidence interval
+CSF Cerebrospinal Fluid
+CU Cognitively Unimpaired
+CV coefficient of variation
+DST Digit Span Test
+DTI Diffusion Tensor Imaging
+Ecog Everyday cognition
+ELISA Enzyme-linked Immunosorbent Assay
+EPI Echo-planar Imaging
+ESS Epworth Sleepiness Scale
+FAQ Function Activities Questionnaire
+FBP [18F]-florbetapir
+FLAIR Fluid-attenuated Inversion Recovery
+fMRI functional MRI
+FSP [18F]D3FSP
+FTP [18F]-flortaucipir
+FWHM Full-width at Half Maximum
+GAP43 Growth-associated Protein-43
+GDS Geriatric Depression Scale
+GFAP Glial Fibrillary Acidic Protein
+GHABS Greater-Bay-Area Healthy Aging Brain Study
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 14 of 16
+High Res Hippo High Resolution Hippocampus
+IQR Interquartile Range
+MCI Mild Cognitive Impairment
+MMSE Mini-mental State Examination
+MoCA-Basic Montreal Cognitive Assessment Basic
+MRI Magnetic Resonance Imaging
+NfL Neurofilament Light
+NPI Neuropsychiatric Inventory
+OR Odds Ratio
+pCASL 3D pseudo-continuous Arterial Spin Labeling
+PDGFR-β Platelet-derived Growth Factor Receptorβ
+PET Positron Emission Tomography
+PSQI Pittsburgh Sleep Quality Index
+p-Tau Phosphorylated Tau
+RBDSQ REM Sleep Behavior Disorder Screening Questionnaire
+rHCV residual Hippocampal Volume
+ROC Receiver Operating Characteristic Curve
+ROI Region of Interest
+SCD Subjective Cognitive Decline
+SDMT Symbol Digit Modalities Test
+SILCODE Sino Longitudinal Study on Cognitive Decline
+SNAP25 Synaptosome Associated Protein 25
+sTREM2 Soluble Triggering Receptor Expressed on Myeloid Cells 2
+STT Shape Trail Test
+SUVR Standardized Uptake Value Ratio
+SWI Susceptibility Weighted Imaging
+WMH White-matter Hyperintensity
+Supplementary Information
+The online version contains supplementary material available at https://doi.
+org/10.1186/s13195-024-01458-z.
+Supplementary Material 1
+Acknowledgements
+We want to thank all the participants and staff of the GHABS research group
+for their immense contributions to data collection.
+Author contributions
+Z.L and D.S, Conceptualization, Investigation, Methodology, Interpretation
+of results, Visualization, Writing – original draft, Writing – review & editing;
+Y.C, Aq.L, Gy.L, P.S and L.L Investigation, Methodology, Formal analysis,
+Visualization, Writing – original draft; J.Y and Yj.Z Investigation, Visualization,
+Writing – original draft; Lz.G and Lh.Z Investigation, Visualization; Sq.
+D Investigation, Writing – review & editing; Yl. Z, Xf.Y, Xh.C, and Ry.Z
+Investigation; Qy.W, Pc.R, Ls.X, and Lm.Z Investigation, Resources; K.S, Xl.W,
+Qy.P, and Y.H Conceptualization, Methodology, Investigation, Resources; T.G
+Conceptualization, Investigation, Methodology, Interpretation of results,
+Visualization, Funding acquisition, Supervision, Writing – original draft, Writing
+– review & editing.
+Funding
+This study was funded by the Guangdong Basic and Applied Basic Science
+Foundation for Distinguished Young Scholars (Grant No. 2023B1515020113),
+the Shenzhen Science and Technology Program (Grant No.
+RCYX20221008092935096), the National Natural Science Foundation of China
+(Grant No. 82171197), and Shenzhen Bay Laboratory (Grant No. 21300061,
+Grant No. S211101002-2).
+Data availability
+The data used in the current study were obtained from the GHABS cohort.
+Derived data is available from the corresponding author on request by any
+qualified investigator subject to a data use agreement.
+Declarations
+Ethics approval and consent to participate
+All the GHABS participants provided informed consent.
+Consent for publication
+Not applicable.
+Competing interests
+The authors declare no competing interests.
+Author details
+1Institute of Biomedical Engineering, Shenzhen Bay Laboratory, No.5
+Kelian Road, Shenzhen 518132, China
+2Neurology Medicine Center, The Seventh Affiliated Hospital, Sun Yat-sen
+University, Shenzhen 518000, China
+3Department of Neurology, Xuanwu Hospital of Capital Medical
+University, Beijing 100053, China
+4Department of Neurology, Peking University Shenzhen Hospital,
+Shenzhen 518000, China
+5Department of Nuclear Medicine, The First Affiliated Hospital,
+Guangzhou Medical University, Guangzhou 510120, China
+6Department of Neurology, University of Chinese Academy of Sciences-
+Shenzhen Hospital, Shenzhen 518107, China
+7Department of Nuclear Medicine, Guangdong Hospital of Traditional
+Chinese Medicine, Guangzhou 510120, China
+8Department of Medical Imaging, University of Chinese Academy of
+Sciences-Shenzhen Hospital, Shenzhen 518106, China
+9Institute of Cancer Research, Shenzhen Bay Laboratory,
+Shenzhen 518132, China
+10School of Biomedical Engineering, Hainan University, Haikou
+570228, China
+11Center of Alzheimer’s Disease, Beijing Institute for Brain Disorders,
+Beijing 100053, China
+12National Clinical Research Center for Geriatric Diseases, Beijing
+100053, China
+13Institute of Biomedical Engineering, Peking University Shenzhen
+Graduate School, Shenzhen 518055, China
+Received: 28 October 2023 / Accepted: 12 April 2024
+References
+1. Morris JC. The clinical dementia rating (CDR): current version and scoring
+rules. Neurology. 1993;43:2412–2412. https://doi.org/10.1212/
+WNL.43.11.2412-a.
+2. Alzheimer Association. 2022 Alzheimer’s disease facts and figures. Alzheimer’s
+Dement 2022;18:700–89. https://doi.org/10.1002/alz.12638.
+3. Braak H, Braak E, Bohl J. Staging of alzheimer-related cortical destruction. Eur
+Neurol. 1993;33:403–8. https://doi.org/10.1159/000116984.
+4. Guo T, Shaw LM, Trojanowski JQ, Jagust WJ, Landau SM. Association of CSF
+Aβ, amyloid PET, and cognition in cognitively unimpaired elderly adults. Neurology.
+2020;95:e2075–85. https://doi.org/10.1212/WNL.0000000000010596.
+5. Shi D, Xie S, Li A, Wang Q, Guo H, Han Y, et al. APOE-ε4 modulates the association
+among plasma Aβ42/Aβ40, vascular diseases, neurodegeneration and
+cognitive decline in non-demented elderly adults. Transl Psychiatry. 2022;12.
+https://doi.org/10.1038/s41398-022-01899-w.
+6. Guo T, Brendel M, Grimmer T, Rominger A, Yakushev I. Predicting Regional
+Pattern of Longitudinal β-Amyloid Accumulation by Baseline PET. J Nucl Med.
+2017;58:639–45. https://doi.org/10.2967/jnumed.116.176115.
+7. Guo T, Dukart J, Brendel M, Rominger A, Grimmer T, Yakushev I. Rate of
+β-amyloid accumulation varies with baseline amyloid burden: implications
+for anti-amyloid drug trials. Alzheimer’s Dement. 2018;14:1387–96. https://
+doi.org/10.1016/j.jalz.2018.05.013.
+8. Du J, Li A, Shi D, Chen X, Wang Q, Liu Z, et al. Association of APOE-ε4, Osteoarthritis,
+β-Amyloid, and Tau Accumulation in Primary Motor and Somatosensory
+regions in Alzheimer Disease. Neurology. 2023;101:e40–9. https://doi.
+org/10.1212/WNL.0000000000207369.
+9. Guo T, Korman D, La Joie R, Shaw LM, Trojanowski JQ, Jagust WJ, et al. Normalization
+of CSF pTau measurement by Aβ40 improves its performance as
+a biomarker of Alzheimer’s disease. Alzheimers Res Ther. 2020;12:97. https://
+doi.org/10.1186/s13195-020-00665-8.
+10. Cai Y, Du J, Li A, Zhu Y, Xu L, Sun K et al. Initial levels of β-amyloid and
+tau deposition have distinct effects on longitudinal tau accumulation in
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 15 of 16
+Alzheimer’s disease. Alzheimers Res Ther 2023:1–14. https://doi.org/10.1186/
+s13195-023-01178-w.
+11. Lan G, Cai Y, Li A, Liu Z, Ma S, Guo T. Association of Presynaptic Loss with
+Alzheimer’s Disease and Cognitive decline. Ann Neurol. 2022;92:1001–15.
+https://doi.org/10.1002/ana.26492.
+12. Lan G, Li A, Liu Z, Ma S, Guo T. Presynaptic membrane protein dysfunction
+occurs prior to neurodegeneration and predicts faster cognitive decline.
+Alzheimer’s Dement. 2023;19:2408–19. https://doi.org/10.1002/alz.12890.
+13. Lan G, Du J, Chen X, Wang Q, Han Y, Guo T. Association of APOE-ε4 and GAP-
+43-related presynaptic loss with β-amyloid, tau, neurodegeneration, and cognitive
+decline. Neurobiol Aging. 2023;132:209–19. https://doi.org/10.1016/j.
+neurobiolaging.2023.09.012.
+14. Guo T, Korman D, Baker SL, Landau SM, Jagust WJ. Longitudinal cognitive and
+biomarker measurements support a unidirectional pathway in Alzheimer’s
+Disease Pathophysiology. Biol Psychiatry. 2021;89:786–94. https://doi.
+org/10.1016/j.biopsych.2020.06.029.
+15. Li A, Du J, Cai Y, Chen X, Sun K, Guo T. Body Mass Index decrease has a
+Distinct Association with Alzheimer’s Disease Pathophysiology in APOE
+ɛ4 carriers and non-carriers. J Alzheimer’s Dis. 2023;96:643–55. https://doi.
+org/10.3233/JAD-230446.
+16. Guo T, Landau SM, Jagust WJ. Detecting earlier stages of amyloid deposition
+using PET in cognitively normal elderly adults. Neurology. 2020;94:e1512–24.
+https://doi.org/10.1212/WNL.0000000000009216.
+17. Bateman RJ, Xiong C, Benzinger TLS, Fagan AM, Goate A, Fox NC, et al. Clinical
+and biomarker changes in dominantly inherited Alzheimer’s Disease. N Engl J
+Med. 2012;367:795–804. https://doi.org/10.1056/NEJMoa1202753.
+18. Gordon BA, Blazey TM, Su Y, Hari-Raj A, Dincer A, Flores S, et al. Spatial patterns
+of neuroimaging biomarker change in individuals from families with
+autosomal dominant Alzheimer’s disease: a longitudinal study. Lancet Neurol.
+2018;17:241–50. https://doi.org/10.1016/S1474-4422(18)30028-0.
+19. Moscoso A, Grothe MJ, Ashton NJ, Karikari TK, Rodriguez JL, Snellman A, et
+al. Time course of phosphorylated-tau181 in blood across the Alzheimer’s
+disease spectrum. Brain. 2021;144:325–39. https://doi.org/10.1093/brain/
+awaa399.
+20. Jack CR, Bennett DA, Blennow K, Carrillo MC, Dunn B, Haeberlein SB, et al.
+NIA-AA Research Framework: toward a biological definition of Alzheimer’s
+disease. Alzheimer’s Dement. 2018;14:535–62. https://doi.org/10.1016/j.
+jalz.2018.02.018.
+21. Roberts RO, Aakre JA, Kremers WK, Vassilaki M, Knopman DS, Mielke MM, et
+al. Prevalence and outcomes of amyloid positivity among persons without
+dementia in a Longitudinal, Population-based setting. JAMA Neurol.
+2018;75:970. https://doi.org/10.1001/jamaneurol.2018.0629.
+22. Donohue MC, Sperling RA, Petersen R, Sun C-K, Weiner MW, Aisen PS.
+Association between Elevated Brain Amyloid and subsequent cognitive
+decline among cognitively normal persons. JAMA. 2017;317:2305. https://doi.
+org/10.1001/jama.2017.6669.
+23. Ossenkoppele R, Pichet Binette A, Groot C, Smith R, Strandberg O, Palmqvist
+S et al. Amyloid and tau PET-positive cognitively unimpaired individuals
+are at high risk for future cognitive decline. Nat Med 2022:1–19. https://doi.
+org/10.1038/s41591-022-02049-x.
+24. Jia L, Du Y, Chu L, Zhang Z, Li F, Lyu D, et al. Prevalence, risk factors, and management
+of dementia and mild cognitive impairment in adults aged 60 years
+or older in China: a cross-sectional study. Lancet Public Heal. 2020;5:e661–71.
+https://doi.org/10.1016/S2468-2667(20)30185-7.
+25. National Bureau of Statistics. The seventh national census of China 2021.
+http://www.stats.gov.cn/zt_18555/zdtjgz/zgrkpc/dqcrkpc/ggl/202302/
+t20230215_1904001.html (accessed March 1, 2023).
+26. Jia L, Quan M, Fu Y, Zhao T, Li Y, Wei C, et al. Dementia in China: epidemiology,
+clinical management, and research advances. Lancet Neurol. 2020;19:81–92.
+https://doi.org/10.1016/S1474-4422(19)30290-X.
+27. Ren R, Qi J, Lin S, Liu X, Yin P, Wang Z, et al. The China Alzheimer Report
+2022. Gen Psychiatry. 2022;35:e100751. https://doi.org/10.1136/
+gpsych-2022-100751.
+28. Cummings J, Rabinovici GD, Atri A, Aisen P, Apostolova LG, Hendrix S, et al.
+Aducanumab: Appropriate Use recommendations Update. J Prev Alzheimer’s
+Dis. 2022;8:1–2. https://doi.org/10.14283/jpad.2022.34.
+29. van Dyck CH, Swanson CJ, Aisen P, Bateman RJ, Chen C, Gee M, et al. Lecanemab
+in Early Alzheimer’s Disease. N Engl J Med. 2023;388:9–21. https://
+doi.org/10.1056/NEJMoa2212948.
+30. Mintun MA, Lo AC, Duggan Evans C, Wessels AM, Ardayfio PA, Andersen SW,
+et al. Donanemab in Early Alzheimer’s Disease. N Engl J Med. 2021;384:1691–
+704. https://doi.org/10.1056/NEJMoa2100708.
+31. Jessen F, Amariglio RE, Buckley RF, van der Flier WM, Han Y, Molinuevo JL,
+et al. The characterisation of subjective cognitive decline. Lancet Neurol.
+2020;19:271–8. https://doi.org/10.1016/S1474-4422(19)30368-0.
+32. Lawton MP, Brody EM. Assessment of Older people: self-maintaining and
+instrumental activities of daily Living1. Gerontologist. 1969;9:179–86. https://
+doi.org/10.1093/geront/9.3_Part_1.179.
+33. Katz S, Ford AB, Moskowitz RW, Jackson BA, Jaffe MW. Studies of illness
+in the aged: the Index of ADL: a standardized measure of biological and
+psychosocial function. JAMA. 1963;185:914–9. https://doi.org/10.1001/
+jama.1963.03060120024016.
+34. Katz S. Assessing self-maintenance: activities of daily living, mobility, and
+instrumental activities of daily living. J Am Geriatr Soc. 1983;31:721–7. https://
+doi.org/10.1111/j.1532-5415.1983.tb03391.x.
+35. Petersen RC, Aisen PS, Beckett LA, Donohue MC, Gamst AC, Harvey DJ, et al.
+Alzheimer’s Disease Neuroimaging Initiative (ADNI): clinical characterization.
+Neurology. 2010;74:201–9. https://doi.org/10.1212/WNL.0b013e3181cb3e25.
+36. Jessen F, Amariglio RE, van Boxtel M, Breteler M, Ceccaldi M, Chételat G, et
+al. A conceptual framework for research on subjective cognitive decline in
+preclinical Alzheimer’s disease. Alzheimers Dement. 2014;10:844–52. https://
+doi.org/10.1016/j.jalz.2014.01.001.
+37. Bennett DA, Wilson RS, Schneider JA, Evans DA, Beckett LA, Aggarwal NT, et
+al. Natural history of mild cognitive impairment in older persons. Neurology.
+2002;59:198–205. https://doi.org/10.1212/WNL.59.2.198.
+38. Weiner M, Aisen P, Petersen R, Rafii M, Chow T, Shaw LM et al. Alzheimer’s
+Disease Neuroimaging Initiative 3 (ADNI3) Protocol. 2016;3:1.
+39. Gispert JD, Suárez-Calvet M, Monté GC, Tucholka A, Falcon C, Rojas S, et al.
+Cerebrospinal fluid sTREM2 levels are associated with gray matter volume
+increases and reduced diffusivity in early Alzheimer’s disease. Alzheimer’s
+Dement. 2016;12:1259–72. https://doi.org/10.1016/j.jalz.2016.06.005.
+40. Clark CM, Schneider JA, Bedell BJ, Beach TG, Bilker WB, Mintun MA, et al. Use
+of florbetapir-PET for imaging beta-amyloid pathology. JAMA. 2011;305:275–
+83. https://doi.org/10.1001/jama.2010.2008.
+41. Zha Z, Ploessl K, Choi SR, Alexoff D, Kung HF. Preclinical evaluation of [18F]
+D3FSP, deuterated AV-45, for imaging of β-amyloid in the brain. Nucl Med
+Biol. 2021;92:97–106. https://doi.org/10.1016/j.nucmedbio.2020.03.003.
+42. Fleisher AS, Pontecorvo MJ, Devous MD, Lu M, Arora AK, Truocchio SP, et al.
+Positron Emission Tomography Imaging with [ 18 F]flortaucipir and Postmortem
+Assessment of Alzheimer Disease Neuropathologic Changes. JAMA
+Neurol. 2020;77:829. https://doi.org/10.1001/jamaneurol.2020.0528.
+43. Jack CR, Wiste HJ, Weigand SD, Therneau TM, Lowe VJ, Knopman DS, et al.
+Defining imaging biomarker cut points for brain aging and Alzheimer’s
+disease. Alzheimer’s Dement. 2017;13:205–16. https://doi.org/10.1016/j.
+jalz.2016.08.005.
+44. Landau SM, Fero A, Baker SL, Koeppe R, Mintun M, Chen K, et al. Measurement
+of longitudinal β-Amyloid change with 18 F-Florbetapir PET and
+standardized Uptake Value Ratios. J Nucl Med. 2015;56:567–74. https://doi.
+org/10.2967/jnumed.114.148981.
+45. Maass A, Landau S, Baker SL, Horng A, Lockhart SN, La Joie R, et al.
+Comparison of multiple tau-PET measures as biomarkers in aging and
+Alzheimer’s disease. NeuroImage. 2017;157:448–63. https://doi.org/10.1016/j.
+neuroimage.2017.05.058.
+46. Tournier J-D, Smith R, Raffelt D, Tabbara R, Dhollander T, Pietsch M, et al.
+MRtrix3: a fast, flexible and open software framework for medical image
+processing and visualisation. NeuroImage. 2019;202:116137. https://doi.
+org/10.1016/j.neuroimage.2019.116137.
+47. Jenkinson M, Beckmann CF, Behrens TEJ, Woolrich MW, Smith SM. FSL Neuroimage.
+2012;62:782–90. https://doi.org/10.1016/j.neuroimage.2011.09.015.
+48. Weekes B, Carthery-Goulart MT. Intervention and Prevention of Dementia in
+the Greater Bay Area (GBA) of China. Am J Alzheimer’s Dis Other Dementias®.
+2023;38:15333175231211096. https://doi.org/10.1177/15333175231211097.
+49. Qi SG, Wang ZH, Wei CB, Yang Z, Zhu XQ. [Case-control study on the influencing
+factors related to cognitive impairment in the elderly population
+of China]. Zhonghua Yu Fang Yi Xue Za Zhi. 2018;52:926–31. https://doi.
+org/10.3760/cma.j.issn.0253-9624.2018.09.011.
+50. Weiner MW, Veitch DP, Miller MJ, Aisen PS, Albala B, Beckett LA, et al. Increasing
+participant diversity in AD research: plans for digital screening, blood
+testing, and a community-engaged approach in the Alzheimer’s Disease
+Neuroimaging Initiative 4. Alzheimer’s Dement. 2023;19:307–17. https://doi.
+org/10.1002/alz.12797.
+51. Roberts RO, Geda YE, Knopman DS, Cha RH, Pankratz VS, Boeve BF, et al. The
+Mayo Clinic Study of Aging: design and sampling, participation, baseline
+Liu et al. Alzheimer's Research & Therapy (2024) 16:84 Page 16 of 16
+measures and sample characteristics. Neuroepidemiology. 2008;30:58–69.
+https://doi.org/10.1159/000115751.
+52. Dagley A, LaPoint M, Huijbers W, Hedden T, McLaren DG, Chatwal JP, et
+al. Harvard Aging Brain Study: dataset and accessibility. NeuroImage.
+2017;144:255–8. https://doi.org/10.1016/j.neuroimage.2015.03.069.
+53. Lopes Alves I, Collij LE, Altomare D, Frisoni GB, Saint-Aubert L, Payoux P, et
+al. Quantitative amyloid PET in Alzheimer’s disease: the AMYPAD prognostic
+and natural history study. Alzheimer’s Dement. 2020;16:750–8. https://doi.
+org/10.1002/alz.12069.
+54. Ellis KA, Bush AI, Darby D, De Fazio D, Foster J, Hudson P, et al. The Australian
+imaging, biomarkers and lifestyle (AIBL) study of aging: methodology and
+baseline characteristics of 1112 individuals recruited for a longitudinal
+study of Alzheimer’s disease. Int Psychogeriatr. 2009;21:672–87. https://doi.
+org/10.1017/S1041610209009405.
+55. Yang C, Li X, Zhang J, Chen Y, Li H, Wei D, et al. Early prevention of cognitive
+impairment in the community population: the Beijing Aging Brain Rejuvenation
+Initiative. Alzheimer’s Dement. 2021;17:1610–8. https://doi.org/10.1002/
+alz.12326.
+56. Gao F, Lv X, Dai L, Wang Q, Wang P, Cheng Z, et al. A combination model of
+AD biomarkers revealed by machine learning precisely predicts Alzheimer’s
+dementia: China Aging and Neurodegenerative Initiative (CANDI) study.
+Alzheimer’s Dement. 2023;19:749–60. https://doi.org/10.1002/alz.12700.
+57. Hu H, Bi Y-L, Shen X-N, Ma Y-H, Ou Y-N, Zhang W, et al. Application of the
+amyloid/tau/neurodegeneration framework in cognitively intact adults: the
+CABLE study. Ann Neurol. 2022;97:455–68. https://doi.org/10.1002/ana.26439.
+58. Fan D-Y, Jian J-M, Huang S, Li W-W, Shen Y-Y, Wang Z, et al. Establishment of
+combined diagnostic models of Alzheimer’s disease in a Chinese cohort: the
+Chongqing Ageing & Dementia Study (CADS). Transl Psychiatry. 2022;12:252.
+https://doi.org/10.1038/s41398-022-02016-7.
+59. Cui L, Huang L, Pan F-F, Wang Y, Huang Q, Guan Y-H, et al. Chinese preclinical
+Alzheimer’s Disease Study (C-PAS): design and challenge from PET
+Acceptance. J Prev Alzheimer’s Dis. 2023;10:571–80. https://doi.org/10.14283/
+jpad.2023.49.
+60. Jia J, Zhao T, Liu Z, Liang Y, Li F, Li Y et al. Association between healthy lifestyle
+and memory decline in older adults: 10 year, population based, prospective
+cohort study. BMJ 2023:1–11. https://doi.org/10.1136/bmj-2022-072691.
+61. Jiang Y, Cui M, Tian W, Zhu S, Chen J, Suo C, et al. Lifestyle, multi-omics features,
+and preclinical dementia among Chinese: the Taizhou Imaging Study.
+Alzheimer’s Dement. 2021;17:18–28. https://doi.org/10.1002/alz.12171.
+62. Li X, Wang X, Su L, Hu X, Han Y. Sino longitudinal study on Cognitive decline
+(SILCODE): protocol for a Chinese longitudinal observational study to
+develop risk prediction models of conversion to mild cognitive impairment
+in individuals with subjective cognitive decline. BMJ Open. 2019;9:e028188.
+https://doi.org/10.1136/bmjopen-2018-028188.
+63. Li T-R, Han Y, Pre -AD. Alliance of China. Insights on amyloid-related imaging
+abnormalities from the Pre-alzheimer’s disease Alliance of China. Adv Neurol.
+2022;1:1–9. https://doi.org/10.36922/an.v1i1.2.
+64. Sheng C, Yang K, He B, Li T, Wang X, Du W, et al. Cross-cultural longitudinal
+study on Cognitive decline (CLoCODE) for subjective cognitive decline
+in China and Germany: a protocol for Study Design. J Alzheimer’s Dis.
+2022;87:1319–33. https://doi.org/10.3233/JAD-215452.
+65. Hansson O. Biomarkers for neurodegenerative diseases. Nat Med.
+2021;27:954–63. https://doi.org/10.1038/s41591-021-01382-x.
+66. Schindler SE, Bollinger JG, Ovod V, Mawuenyega KG, Li Y, Gordon BA, et
+al. High-precision plasma β-amyloid 42/40 predicts current and future
+brain amyloidosis. Neurology. 2019;93:e1647–59. https://doi.org/10.1212/
+WNL.0000000000008081.
+67. Nakamura A, Kaneko N, Villemagne VL, Kato T, Doecke J, Doré V, et al. High
+performance plasma amyloid-β biomarkers for Alzheimer’s disease. Nature.
+2018;554:249–54. https://doi.org/10.1038/nature25456.
+68. Karikari TK, Pascoal TA, Ashton NJ, Janelidze S, Benedet AL, Rodriguez JL, et
+al. Blood phosphorylated tau 181 as a biomarker for Alzheimer’s disease: a
+diagnostic performance and prediction modelling study using data from four
+prospective cohorts. Lancet Neurol. 2020;19:422–33. https://doi.org/10.1016/
+S1474-4422(20)30071-5.
+69. Palmqvist S, Janelidze S, Quiroz YT, Zetterberg H, Lopera F, Stomrud E, et al.
+Discriminative accuracy of plasma Phospho-tau217 for Alzheimer Disease
+vs Other Neurodegenerative disorders. JAMA. 2020;324:772. https://doi.
+org/10.1001/jama.2020.12134.
+70. Ashton NJ, Janelidze S, Mattsson-Carlgren N, Binette AP, Strandberg O, Brum
+WS, et al. Differential roles of Aβ42/40, p-tau231 and p-tau217 for Alzheimer’s
+trial selection and disease monitoring. Nat Med. 2022;28:2555–62. https://doi.
+org/10.1038/s41591-022-02074-w.
+71. Benedet AL, Milà-Alomà M, Vrillon A, Ashton NJ, Pascoal TA, Lussier F, et al. Differences
+between plasma and cerebrospinal fluid glial fibrillary acidic protein
+levels across the Alzheimer Disease Continuum. JAMA Neurol. 2021;78:1471.
+https://doi.org/10.1001/jamaneurol.2021.3671.
+72. Zhang X, Xie S, Yang J, Weng F, Xu J, Huang Q, et al. A depth encoding PET
+detector using four-crystals-to-one-SiPM coupling and light-sharing window
+method. Med Phys. 2019;46:3385–98. https://doi.org/10.1002/mp.13603.
+73. He K, Li B, Huang L, Zhao J, Hua F, Wang T, et al. Positive rate and quantification
+of amyloid pathology with [18F]florbetapir in the urban Chinese population.
+Eur Radiol. 2023. https://doi.org/10.1007/s00330-023-10366-z.
+74. Ossenkoppele R, Jansen WJ, Rabinovici GD, Knol DL, van der Flier WM, van
+Berckel BNM, et al. Prevalence of amyloid PET positivity in dementia syndromes:
+a Meta-analysis. JAMA. 2015;313:1939–50.
+75. Jansen WJ, Ossenkoppele R, Knol DL, Tijms BM, Scheltens P, Verhey FRJ, et
+al. Prevalence of cerebral amyloid Pathology in persons without Dementia:
+a Meta-analysis. JAMA. 2015;313:1924–38. https://doi.org/10.1001/
+jama.2015.4668.
+76. Jansen WJ, Janssen O, Tijms BM, Vos SJB, Ossenkoppele R, Visser PJ, et al.
+Prevalence estimates of amyloid abnormality across the Alzheimer Disease
+Clinical Spectrum. JAMA Neurol. 2022;79:228–43.
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations.

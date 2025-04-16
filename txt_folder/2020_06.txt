@@ -1,0 +1,781 @@
+MANAGEMENT SCIENCE
+Vol. 66, No. 6, June 2020, pp. 2792–2795
+http://pubsonline.informs.org/journal/mnsc ISSN 0025-1909 (print), ISSN 1526-5501 (online)
+Comment on “Aging Population, Retirement, and Risk Taking”
+Rachel J. Huang,a,b Larry Y. Tzeng,b,c,d Jr-Yan Wang,d Lin Zhaoe
+a Department of Finance, National Central University, Taoyuan 320, Taiwan; b Risk and Insurance Research Center, National Chengchi
+University, Taipei 116, Taiwan; c Department of Finance, National Taiwan University, Taipei 106, Taiwan; d Center for Research in
+Econometric Theory and Applications, National Taiwan University, Taipei 106, Taiwan; e Department of International Business, National
+Taiwan University, Taipei 106, Taiwan; f Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing 100190, China
+Contact: rachel@ncu.edu.tw (RJH); tzeng@ntu.edu.tw, http://orcid.org/0000-0002-5894-8924 (LYT); jryanwang@ntu.edu.tw,
+http://orcid.org/0000-0001-7952-121X (J-YW); zhaolin@iss.ac.cn, http://orcid.org/0000-0003-3117-7610 (LZ)
+Received: July 24, 2017
+Accepted: December 31, 2017
+Published Online in Articles in Advance:
+August 29, 2019
+https://doi.org/10.1287/mnsc.2018.3052
+Copyright: © 2019 INFORMS
+Abstract. Levy [Levy H (2016) Aging population, retirement, and risk taking. Management
+Sci. 62(5):1415–1430.] proposes asymptotic first-degree stochastic dominance (AFSD) as a
+distribution-ranking criterion for all nonsatiable decision makers with infinite investment
+horizons. By assuming that the terminal wealth follows a log-normal distribution and that
+themarginal utility is bounded, he offers the necessary and sufficient distributional condition
+for AFSD. Given Levy’s setting, we provide a counterexample to show that his condition is
+not necessary and offer the correct equivalent distributional condition for AFSD.
+History: Accepted by Karl Diether, finance.
+Funding: This work was financially supported by the Center for Research in Economic Theory and
+Applications [Grant 107L9002] from the Featured Areas Research Center Program within the
+framework of theHigher Education Sprout Project by theMinistry of Education in Taiwan. L.Y. Tzeng
+was supported by the Ministry of Science and Technology in Taiwan [Grant MOST 107-3017-F-002-
+004]. L. Y. Tzeng and J-Y.Wangwere supported by E.SUNCommercial Bank. L. Zhao was supported
+by the National Center for Mathematics and Interdisciplinary Sciences, the Chinese Academy of
+Sciences, and the National Natural Science Foundation of China [Grants 71301161, 71871212, and
+71532013].
+Keywords: asymptotic stochastic dominance • maximum geometric mean strategy • long-run investment
+1. Introduction
+Longer life expectancy has become a major challenge in
+life-cycle planning, and the optimal investment in the
+long run has become an increasingly important concern.
+To solve the optimal investment problem with an
+indefinitely long horizon, Levy (2016) incorporates the
+impacts of an investment horizon into the concept of
+stochastic dominance to support the maximum geometricmean
+(MGM) strategy as a solution for an aging
+population. He establishes a new notion of stochastic
+dominance, referred to as “asymptotic first-degree
+stochastic dominance” (AFSD).
+AFSD is a distribution-ranking criterion that defines
+a distribution as dominating another one in terms of
+first-degree stochastic dominance (FSD) when the investment
+period goes to infinity. Assuming that the
+return in each period is independent and identically
+log-normally distributed, Levy (2016) claims in his theorem
+1 that a strategy dominates others in terms of
+AFSD if and only if (iff) it generates a higher geometric
+mean and a higher volatility.
+Although Levy’s notion of AFSD sheds light on the
+solution of the investment decision in the long run, the
+distributional condition for AFSD given in his theorem1
+is inaccurate. In this comment, we first demonstrate
+that higher geometric means and higher volatilities are
+not necessary for AFSD. We then show that the correct
+condition for AFSD is higher geometric means together
+with the same volatilities. Proofs are relegated to the
+appendix.
+2. A Counterexample to Levy’s Condition
+for AFSD
+Consider the buy-and-hold strategy: An investor
+neither withdraws nor injects new cash into her
+portfolio, but keeps reinvesting her portfolio in each
+period. Let xt denote the rate of gross return at time t
+and WT denote the terminal wealth of a uni-dollar
+investment after T periods. The xt’s are independently
+and identically distributed. Let U denote the von
+Neumann–Morgenstern utility function and FT and
+GT denote two cumulative distribution functions of
+WT. Then, EFU(WT) and EGU(WT) represent the expected
+utility functions of WT under FT and GT,
+respectively.
+Definition 1 (Levy 2016, p. 1416). FT dominates GT by
+AFSD if and only if
+lim
+T→∞
+[EFU(WT) − EGU(WT)] ≥ 0 for all U with U ≥ 0,
+and for some nondecreasing U there is a strict
+inequality.
+2792
+To gain tractability, Levy (2016) further assumes that
+log xt follows N(μF, σ2
+F
+) and N(μG, σ2
+G
+) under F and G,
+respectively. The “necessary and sufficient condition” for
+AFSD provided by Levy (2016, theorem 1) is as follows:
+Alleged Theorem 1 (Levy 2016, p. 1417). Assume an
+investment horizon of T periods and that FT and GT are lognormal
+distributions. Assume that μF > μG; namely, F has
+a higher geometric mean than G. Then, for T→∞, FT and
+GT are log-normal distributions, and in this case FT dominates
+GT by asymptotic-FSD iff μF > μG and σF ≥ σG,
+provided that the marginal utility is bounded.
+The following counterexample shows that Levy’s
+condition is not necessary.
+Counterexample 1. Assume that FT and GT are log-normal
+distributions and that the marginal utility is bounded. FT
+dominates GT by AFSD if
+μF − μG ≥ (σG − σF)
+(
+σG +
+̅̅̅̅̅̅̅̅̅̅̅̅
+σ2
+G
++ 2μG
+√ )
+and σF < σG.
+The above case is empirically relevant. For example,
+let F and G correspond to the MSCI World index and
+the Standard & Poor’s (S&P) 500 index, respectively.
+From 1926 to 2010, the annualized means and volatilities
+of the rates of returnwere 10.81% and 18.06% for
+the MSCI and 9.19% and 19.96% for the S&P 500 (Bodie
+et al. 2013, figure 5.3). Assuming that the gross annual
+returns of both assets follow log-normal distributions,
+we have μF  0.0895, σF  0.1619, μG  0.0715, and
+σG  0.1813, which satisfy
+μF − μG  0.0180 > 0.0117
+ (σG − σF)
+(
+σG +
+̅̅̅̅̅̅̅̅̅̅̅̅
+σ2
+G
++ 2μG
+√ )
+and σF < σG. Thus, if the underlying dynamics of the
+two assets persist in the future, then the MSCI dominates
+the S&P 500 by AFSD, provided that the marginal
+utility is bounded.
+3. A New Characterization of AFSD
+In Definition 1, there is no additional restriction on the
+utility function other than U ≥ 0. This feature shares
+the same spirit as the classic concept of FSD in minimizing
+specific assumptions about decision-makers’
+risk attitudes. However, in the characterization of the
+distributional condition, Levy (2016) imposes the restriction
+of bounded marginal utility. We now remove
+this restriction and offer the true necessary and sufficient
+condition for AFSD.
+Theorem 1. Assume that FT and GT are log-normal distributions.
+FT dominates GT by AFSD, if and only if μF > μG
+and σF  σG.
+Theorem1 resolves the debate on the optimality of the
+MGM strategy in the long run for log-normal distributions.
+The MGM strategy—choosing F if μF >μG—is
+optimal from the perspective of utility maximization if
+and only if σF  σG. Theorem 1 confirms that AFSD
+yields exactly the same condition as FSD with a finite
+horizon as found by Levy (1973, theorem 4). Conceptually,
+AFSD appears to be less demanding than FSD
+because it only requires that EFU(WT) ≥ EGU(WT) in
+the limit of T→∞ and allows for any violation of
+EFU(WT) ≥ EGU(WT) at finite horizons. However, the
+potential tolerance of the violation is removed by the
+power utility class, with which EFU(WT) <EGU(WT) at
+some finite horizon T can lead to limT→∞[EFU(WT) −
+EGU(WT)]  −∞. Accordingly, the condition in Levy
+(2016) of bounded marginal utility is not innocuous: It
+excludes the power utility class, limits the utility loss, and
+relaxes the important requirement σF  σG.
+Although Theorem 1 spells out the simple distribution
+condition ensuring that F is preferable to G
+in the long run for all nonsatiated utility maximizers,
+the requirement that σF  σG is too restrictive
+to implement it in practice. Thus, how to make the
+notion of asymptotic stochastic dominance more applicable
+through excluding the utility functions that
+are less or not at all interesting from a practical or
+theoretical perspective is an open question for future
+research.
+Acknowledgments
+The authors thank Haim Levy, Departmental Editor Karl
+Diether, the associate editor, and the anonymous referee for
+the valuable comments and suggestions. All authors share
+first authorship.
+Appendix. Proofs
+Proof of Counterexample 1. Levy (2016) ignores the possibility
+that AFSD can also occur in the case where σF <σG. To
+see it, let
+w0  eT
+(
+μF
+σF
+− μG
+σG
+)
+/
+(
+1
+σF
+− 1
+σG
+)
+be the unique intersection point of FT and GT and write his
+equation (4) as
+EFU(WT) − EGU(WT)  I + II,
+where I 
+∫ w0
+0
+[GT(w) − FT(w)]U(w)dw and II 
+∫ ∞
+w0
+[GT(w) −
+FT(w)]U(w)dw. With σF <σG, FT intersects GT from below,
+and thus I ≥ 0 while II ≤ 0. As assumed by Levy (2016), letM
+denote an upper bound on the marginal utility. The utility
+loss II can be controlled by
+|II| ≤ M
+∫ ∞
+w0
+[GT(w) − FT(w)]dw
+⃒⃒⃒⃒
+⃒⃒⃒⃒
+.
+In this case, we claim that
+lim
+T→∞
+∫ ∞
+w0
+[GT(w) − FT(w)]dw
+ 0, if μF − μG ≥ (σG − σF) σG +
+̅̅̅̅̅̅̅̅̅̅̅̅
+σ2
+G
++ 2μG
+( √ )
+,
+−∞, otherwise,
+⎧⎪⎪⎪⎪⎨⎪
+⎪⎪⎪⎩
+(A.1)
+Huang et al.: Comment on “Aging Population, Retirement, and Risk Taking”
+Management Science, 2020, vol. 66, no. 6, pp. 2792–2795, © 2019 INFORMS 2793
+for which a line-by-line derivation is provided at the end
+of the proof. Therefore, if σF <σG and
+μF − μG ≥ (σG − σF)
+(
+σG +
+̅̅̅̅̅̅̅̅̅̅̅̅
+σ2
+G
++ 2μG
+√ )
+,
+then limT→∞[EFU(WT) − EGU(WT)]  limT→∞ I ≥ 0. In addition,
+under the proposed condition, we also have μF+
+σ2
+F
+2 >μG +σ2
+G
+2 , yielding
+lim
+T→∞
+(EFWT − EGWT)  lim
+T→∞
+e μF+σ2
+( F/2)T − e μG+σ2
+G/2 ( )T
+[ ]
+ ∞,
+a strict inequality in Definition 1. Taken together, the above
+verifies that FT dominates GT by AFSD, provided that the
+marginal utility is bounded.
+To derive Equation (A.1), let Φ(x) denote the cumulative
+distribution function of the standard normal distribution
+and Ψ(x)  1 − Φ(x). We insert
+GT(w) − FT(w)  Φ
+lnw ̅−̅ TμG
+T
+√
+σG
+( )
+− Φ
+lnw ̅−̅ TμF
+T
+√
+σF
+( )
+ 1
+̅̅̅̅
+2π
+√
+∫ lnw − TμG ̅T
+√
+σG
+lnw − TμF ̅T
+√
+σF
+e−y2/2dy
+into
+∫ ∞
+w0
+[GT(w) − FT(w)]dw and exchange the order of integrat∫
+ion to obtain ∞
+w0
+[GT(w) − FT(w)]dw
+ 1̅̅̅̅
+2π
+√
+∫ ∞
+eT
+μF
+σF
+− μG
+σG
+( )/ 1
+σF
+− 1
+σG
+( )
+∫ lnw − TμG ̅T
+√
+σG
+lnw − TμF ̅T
+√
+σF
+e−y2/2dy
+⎛⎜
+⎜⎜⎜⎜⎜⎜⎝
+⎞⎟
+⎟⎟⎟⎟⎟⎟⎠dw
+ 1
+̅̅̅̅
+2π
+√
+∫ ∞
+̅̅
+T
+√
+μF − μG
+σG−σF
+( )eTμF+
+̅̅
+T
+√
+σFy − eTμG+
+̅̅
+T
+√
+σGy
+( )
+e−y2/2dy
+ e μG+σ2
+( G/2)T em(σG−σF)TΨ
+̅̅
+T
+√
+m + σG − σF
+2
+[ ( ( ))
+−Ψ
+̅̅
+T
+√
+m − σG − σF
+2
+( ( ))]
+, (A.2)
+where m  μF−μG
+σG−σF
+− 12
+(σF + σG). Notice that “FT dominates GT
+by AFSD” can occur only when μF + σ2
+F/2 ≥ μG + σ2
+G/2, as
+otherwise taking U(W)  W yields
+EFU(WT) − EGU(WT)  e μF+σ2
+( F/2)T − e μG+σ2
+G/2 ( )T → −∞,
+a contradiction to Definition 1. We thus only need to focus
+on the case where m ≥ 0. Equation (A.1) is equivalent to
+lim
+T→∞
+∫ ∞
+w0
+[GT(w) − FT(w)]dw
+
+−∞, if 0 ≤ m ≤ σG − σF
+2 ,
+−∞, if m>
+σG − σF
+2
+and μG + 1
+2 σ2
+G
+− 1
+2
+m− σG − σF
+2
+( )2
+>0,
+0, if m>
+σG − σF
+2
+and μG + 1
+2 σ2
+G
+− 1
+2
+m− σG − σF
+2
+( )2
+≤ 0.
+⎧⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨⎪
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩
+To prove the limits case by case, notice that for any given a> 0
+and b > 0, the L’Hˆ opital rule implies
+lim
+T→+∞
+eaTΨ b
+̅̅
+T
+( √ )
+ lim
+T→+∞
+1
+̅̅̅̅
+2π
+√
+∫ +∞
+b
+̅̅
+T
+√ e−y2/2dy
+e−aT
+ lim
+T→+∞
+b
+2a
+̅̅̅̅̅̅
+2πT
+√
+( )
+e(a−b2/2)T,
+yielding
+lim
+T→+∞
+eaTΨ b
+̅̅
+T
+( √ )
+
++∞, if a >b2/2
+0, if a ≤ b2/2
+{
+and lim
+T→+∞
+eb2T/2
+̅̅
+T
+√
+Ψ b
+̅̅
+T
+( √ )
+ 1
+b
+̅̅̅̅
+2π
+√ .
+(A.3)
+If m  0, it is obvious that limT→∞
+∫ ∞
+w0
+[GT(w) − FT(w)]dw 
+−∞. If 0<m ≤ σG−σF
+2 , thanks to m(σG −σF)−12
+(
+m+σG−σF
+2
+)2 
+−12
+(
+m−σG−σF
+2
+)2 ≤0, we apply (A.3) to obtain
+lim
+T→+∞
+em(σG−σF)TΨ
+( ̅̅
+T
+√ (
+m + σG − σF
+2
+))
+ 0,
+which in turn implies limT→∞
+∫ ∞
+w0
+[GT(w) −FT(w)]dw−∞. If
+m>σG−σF
+2 and μG +12
+σ2
+G
+− 12
+(
+m−σG−σF
+2
+)2>0, we formally write the
+right-hand side of (A.2) as K(T)/e− μG+σ2
+( G/2)T, where K(T)→0 as
+T→∞ and
+K(T)  (σG − σF)e−12
+m−σG − σF
+2 ( )2TX(T)/
+̅̅
+T
+√
+with
+X(T)  me 12
+m+σG−σF
+2 ( )2T
+̅̅
+T
+√
+Ψ
+̅̅
+T
+√
+m + σG − σF
+2
+( ( ))
+− 1
+2
+̅̅̅̅
+2π
+√ .
+By virtue of the L’Hˆopital rule, we obtain
+lim
+T→∞
+∫ ∞
+w0
+[GT(w) − FT(w)]dw
+ lim
+T→∞
+−K(T)
+μG + σ2
+G/2
+( )
+e− μG+σ2
+G/2 ( )T
+ lim
+T→∞
+−X(T)
+̅̅
+T
+√ σG − σF
+μG + σ2
+G/2
+( )
+e μG + 12
+σ2
+G
+− 12
+m−σG−σF
+2 [ ( )2]T.
+According to (A.3) and m> σG −σF
+2 , we further have
+lim
+T→∞
+X(T)  1
+̅̅̅̅
+2π
+√ m
+m + (σG − σF)/2
+− 1
+2
+[ ]
+>0,
+which in turn implies limT→∞
+∫ ∞
+w0
+[GT(w) − FT(w)]dw  −∞. If
+m> σG−σF
+2 and μG + 12
+σ2
+G
+− 12
+m − σG −σF
+2
+( )2≤ 0, we apply (A.3) to
+the two terms in the right-hand side of (A.2) independently
+and obtain that
+lim
+T→∞
+e μG+σ2
+( G/2)T+m(σG−σF)TΨ
+̅̅
+T
+√
+m + σG − σF
+2
+( ( ))
+ 0
+and lim
+T→∞
+e μG+σ2
+( G/2)TΨ
+̅̅
+T
+√
+m − σG − σF
+2
+( ( ))
+ 0,
+which in turn implies limT→∞
+∫ ∞
+w0
+[GT(w) − FT(w)]dw  0. This
+completes the proof of Equation (A.1). □
+Remark. Another deficiency in the proof of Levy (2016) is
+that Levy’s condition cannot effectively guarantee limT→∞ |I| 
+0 in the case where σF > σG (I ≤ 0 while II ≥ 0). To ensure
+limT→∞ I  0, Levy (2016) controls I by
+|I| ≤ M
+∫ w0
+0
+[GT(w) − FT(w)]dw
+⃒⃒⃒⃒
+⃒⃒⃒⃒
+.
+However, Levy’s claim that “limT→∞ w0  0 if μF > σF and
+σF > σG” is incorrect. Indeed, limT→∞ w0  0 holds true only if
+μF/σF >μG/σG. Otherwise, w0 ≡1 if μF/σF  μG/σG and
+limT→∞ w0  ∞if μF/σF < μG/σG. Derivations in the same way
+Huang et al.: Comment on “Aging Population, Retirement, and Risk Taking”
+2794 Management Science, 2020, vol. 66, no. 6, pp. 2792–2795, © 2019 INFORMS
+as the Proof of Counterexample 1 show that if σF > σG and μF −
+μG ≥ 2(σF−σG)μG
+σG+
+̅̅̅̅̅̅̅̅
+σ2
+G
++2μG
+√ (a condition weaker than μF/σF > μG/σG),
+then FT dominates GT by AFSD, provided that the marginal
+utility is bounded.
+Proof of Theorem 1. The “if” part is apparent, because the
+distributional condition indeed implies that FT dominates GT
+by FSD. To prove the “only if” part, the essential step is to
+show that σF  σG must hold true.
+If, by contradiction, σF > σG, FT intersects GT from above
+and the violation of FSD appears when the wealth is smaller
+than the intersection point w0. We can choose a concave
+power utility function U(w)  wγ/γ with a sufficiently large
+marginal utility in the range of small wealth such that the
+utility loss from choosing F grows to infinity as T→∞.
+Specifically, let us choose
+γ < 2 min μG − μF
+σ2
+F
+− σ2
+G
+, 0, − μG
+σ2
+G
+{ }
+such that μF + γ2
+σ2
+F < μG + γ2
+σ2
+G < 0. Because
+E
+1
+γ
+( )
+Wγ
+T
+ 1
+γ
+eγ μ+γ2
+( σ2)T
+for γ 
+ 0, we further have
+EF
+1
+γ
+( )
+Wγ
+T < EG
+1
+γ
+( )
+Wγ
+T
+for any T and, moreover,
+lim
+T→∞
+EF
+1
+γ
+( )
+Wγ
+T
+− EG
+1
+γ
+( )
+Wγ
+T
+[ ]
+ −∞,
+which is a contradiction of Definition 1.
+Similarly, if σF < σG, FT intersects GT from below and the
+violation of FSD appears when the wealth is larger than w0.
+We can instead choose a convex power utility function with
+a large enough marginal utility in the range of large wealth
+such that the utility loss from choosing F grows to infinity
+as T→∞. Specifically, we have 0 <μF + γ2
+σ2
+F <μG + γ2
+σ2
+G for
+any
+γ >2 max μF − μG
+σ2
+G
+− σ2
+F
+, 0
+{ }
+.
+With the fact that E 1γ
+( )
+Wγ
+T
+ 1γ
+eγ μ+γ2
+( σ2)T, we further have
+EF
+1
+γ
+( )
+Wγ
+T <EG
+1
+γ
+( )
+Wγ
+T
+for any T and
+lim
+T→∞
+EF
+1
+γ
+( )
+Wγ
+T
+− EG
+1
+γ
+( )
+Wγ
+T
+[ ]
+ −∞, another contradiction of Definition 1. Therefore, it must be
+the case that σF  σG, following which μF > μG arises
+naturally. □
+References
+Bodie Z, Kane A, Marcus AJ (2013) Essentials of Investments, 9th ed.
+(McGraw-Hill, New York).
+Levy H (1973) Stochastic dominance among log-normal prospects.
+Internat. Econom. Rev. 14(3):601–614.
+Levy H (2016) Aging population, retirement, and risk taking. Management
+Sci. 62(5):1415–1430.
+Huang et al.: Comment on “Aging Population, Retirement, and Risk Taking”
+Management Science, 2020, vol. 66, no. 6, pp. 2792–2795, © 2019 INFORMS 2795
+Copyright 2020, by INFORMS, all rights reserved. Copyright of Management Science is the
+property of INFORMS: Institute for Operations Research and its content may not be copied or
+emailed to multiple sites or posted to a listserv without the copyright holder's express written
+permission. However, users may print, download, or email articles for individual use.

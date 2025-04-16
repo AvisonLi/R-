@@ -1,0 +1,659 @@
+MANAGEMENT SCIENCE
+Vol. 66, No. 6, June 2020, pp. 2787–2791
+http://pubsonline.informs.org/journal/mnsc ISSN 0025-1909 (print), ISSN 1526-5501 (online)
+Comment on “Aging Population, Retirement, and Risk Taking”
+Moshe Levya
+a School of Business, The Hebrew University of Jerusalem, Jerusalem 91905, Israel
+Contact: mslm@huji.ac.il, http://orcid.org/0000-0002-2570-6128 (ML)
+Received: August 12, 2017
+Revised: December 12, 2017
+Accepted: March 26, 2018
+Published Online in Articles in Advance:
+June 20, 2018
+https://doi.org/10.1287/mnsc.2018.3086
+Copyright: © 2018 INFORMS
+Abstract. Levy [Levy H (2016) Aging population, retirement, and risk taking. Management
+Sci. 62(5):1415–1430] argues that the portfolio with the maximal geometric mean
+(MGM) asymptotically dominates any other portfolio; that is, as the investment horizon
+becomes very long, the MGM portfolio is preferred over any other portfolio for all
+preferences with marginal utility bounded from above, U’ ≤M. The important economic
+implication is that in the long run, an all-equity portfolio dominates bond (or mixed)
+portfolios, which have lower geometric means. This comment shows that Levy’s result
+holds only if the marginal utility is also bounded from below. This seemingly technical
+correction has profound economic implications, because many commonly accepted preferences
+do not satisfy the lower bound condition. Indeed, for some standard preferences, the
+optimal stock–bond mix shifts toward bonds, not stocks, as the horizon increases, exactly
+opposite to Levy’s conclusion.
+History: Accepted by Gustavo Manso, finance.
+Keywords: almost stochastic dominance • investment horizon • stocks for the long run
+The analysis of Levy (2016) is based on the concept of
+almost first degree stochastic dominance (AFSD), introduced
+by Leshno and Levy (2002). Let F(x) and G(x)
+denote the cumulative distributions of two prospects
+under consideration. If F(x)≤G(x) for all x, then F
+dominates G by FSD, i.e., EUF ≥EUG for all nondecreasing
+utility functions (see Hanoch and Levy 1969
+and Hadar and Russell 1969). The idea of AFSD is that
+if F(x)≤G(x) for almost all x, but there is a small range of
+“violation” where F(x) >G(x), then F is still preferred
+over G for most “reasonable” utility functions. This
+preference holds for all utility functions for which the
+ratio inf{U’}/sup{U’} over the relevant range of possible
+outcomes is not too small (see Leshno and Levy
+2002 for more detail).
+Levy (2016) makes the following argument: it is wellknown
+that for independent and identically distributed
+returns as the investment horizon T→∞ the MGM
+portfolio almost surely yields a higher terminalwealth than
+any other portfolio (Kelly 1956, Latané 1959, Markowitz
+1976). Thus, the “violation area” converges to 0 as T→∞.
+Hence, as the investment horizon becomes very large,
+almost all investors will prefer the MGM portfolio.
+Levy considers the case of two portfolios, F and G,
+with log-normal distributions of total returns, x (x = 1 +
+rate of return). Thus, log(x) is distributed normally,
+with means μF and μG and standard deviations σF
+and σG, respectively. μF and μG are the logarithms of
+the two portfolios’ geometric means. Levy discusses
+the case in which portfolio F represents an all-equity
+portfolio and portfolio G represents a bond portfolio
+(or a mixed portfolio with both stocks and bonds). In
+this context we have μF >μG and σF > σG, because
+stocks typically have a higher GM and a higher volatility
+than bonds.
+Figure 1 graphically illustrates the two distributions
+of log(x). Panel (a) shows the two probability density
+functions (pdfs), and panel (b) shows the corresponding
+cumulative distribution function (cdfs), their unique
+intersection point, z0, and the violation range where
+F > G. As the horizon grows, the stock distribution F
+moves to the right at rate μF, and the bond distributionG
+moves to the right at rate μG. Thus, the distance between
+the centers of the two pdfs grows linearly with the
+horizon T. In contrast, the standard deviations grow
+only at a rate
+̅̅
+T
+√
+. Thus, as T→∞, F almost surely yields
+a higher terminal wealth than G, and the violation area
+(the area where the stock cdf is above the bond cdf)
+shrinks to 0. This is the intuition of the AFSD of stocks
+over bonds in the long run. Let us elaborate.
+The one-period normal cdfs of log(returns) cross
+exactly once, at the point z0:1
+z0
+μF
+σF
+− μG
+σG
+1
+σF
+− 1
+σG
+. (1)
+For the T-period distributions the crossover point is
+at the point z0(T):
+z0(T) 
+T̅̅μF
+T
+√
+σF
+− T̅̅μG
+T
+√
+σG
+1 ̅̅
+T
+√
+σF
+− ̅̅1
+T
+√
+σG
+ T · z0. (2)
+2787
+Thus, z0(T) converges to either +∞ or −∞, depending
+on the sign of z0. The denominator of z0 is negativee,
+because σF > σG. Hence, if μF
+σF > μG
+σG , z0 is negative,
+and z0(T) ̅̅̅→
+T→∞
+−∞. If μF
+σF <μG
+σG
+, z0 is positive, and
+z0(T) ̅̅̅→
+T→∞
++∞. Note that z0(T) is in terms of log(returns).
+In terms of the returns, x, the crossover point is
+at x0(T)  ez0(T), and the two cases are: x0(T) ̅̅̅→
+T→∞
+0 if
+μF
+σF > μG
+σG
+, and x0(T) ̅̅̅→
+T→∞
++∞ if μF
+σF <μG
+σG
+.
+These two cases have different implications for
+preference dominance in the long run. To see this, let us
+use Levy’s Equation (4) for the expected utility difference
+between the two portfolios:
+EUF −EUG 
+∫x0
+0
+[G(x) − F(x)]U’(x)dx
++
+∫∞
+x0
+[G(x) − F(x)]U’(x)dx ≡ I− + I+, (3)
+where we define the first integral as I− and the second
+integral as I+ (F and G represent the cumulative distributions
+of total returns, and we are assuming,
+without loss of generality, that the initial wealth is 1,
+thus, the total return x is equal to the terminal wealth).
+I− is the integral over the violation area, where F < G,
+and it is thus negative, whereas I+ is positive.
+Levy (2016) argues that as T→∞, x0(T)→0, and
+therefore, if U’(x) is bounded from above by M, then
+I−→0, implying that EUF >EUG; that is, stocks yield
+a higher expected utility than bonds. However, notice
+that this is true only in the case μF
+σF
+> μG
+σG
+. In the
+case μF
+σF
+<μG
+σG
+, which is empirically more relevant, as
+discussed below,we have x0(T)→∞. In this case,with
+the empirical parameters the violation area still converges
+to zero, and it is still true that I−→0. However,
+the marginal utility U’(x) in I+ also converges to zero
+for most standard utility functions. Thus, I+ may also
+converge to zero, and this convergence may be faster
+than the convergence to zero of the negative I−. Thus,
+it is possible that EUF <EUG (i.e., bonds are preferred
+to stocks in the long run).2
+Levy (2016) only treats the case x0(T)→0 and ignores
+the more relevant case x0(T)→∞because he uses
+an erroneous formula for z0(T). Instead of the correct
+Equation (2), he uses z0(T)  μF − μG
+σG − σF
+̅̅
+T
+√
+(see his Equation (3),
+p. 1417), which implies x0(T)→0. Levy himself does
+use the correct formula for z0(T) elsewhere (see, for
+example, Levy 2015, p. 179).
+Levy’s argument for the MGM in the long run can be
+restored if one adds a lower bound condition on U’(x),
+ensuring that it does not converge to 0 “too fast”: the
+stock portfolio is preferred in the long run if:
+U’(x) ≥ x−β where β  1 + 1
+2μF
+(
+μF − z0
+σF
+)2
+−
+z0
+μF
+, (4)
+and z0 is given by Equation (1). The proof is provided in
+the appendix.
+Note that several standard preferences do not satisfy
+condition (4). For example, for the negative exponential
+utility U(x)  −e−bx, we have U’(x)  be−bx, and this
+marginal utility converges to zero faster than the power
+function x−β. For the generalized power function suggested
+by Samuelson (1989), and used by Levy
+(2016) (Equation 7): U(x)  (x +A)1−α
+1 − α , the marginal
+utility is U’(x)  (x + A)−α, and condition (4) is met
+for large x (where A becomes negligible) if and only
+if α < β.
+Figure 1. Normal Distributions of Log(Returns)
+Notes. F represents the stock portfolio, with higher mean and higher
+variance, and G represents the bond portfolio. Panel (a) shows the
+probability density functions, denoted by f and g, and panel (b) shows
+the cumulative distribution functions, denoted by F and G. z0 is the
+unique intersection point of the cumulative distributions, given by
+Equation (1). The range to the left of z0 is the “violation range”,
+where F > G.
+Levy: Comment on “Aging Population, Retirement, and Risk Taking”
+2788 Management Science, 2020, vol. 66, no. 6, pp. 2787–2791, © 2018 INFORMS
+Condition (4) is sufficient but not necessary. Thus,
+some utility functions may violate (4) yet still prefer
+stocks in the long run. How common is the violation of
+the “stocks for the long run” argument? It turns out that
+for the empirical return parameters, and for some
+standard preferences with marginal utility bounded
+from above, bonds are indeed preferred over stocks,
+even in the very long run. Figure 2 illustrates this
+point. We consider two asset classes: stocks (denoted
+by F), and T-Bills (denoted by G). The return distributions
+are assumed to be log-normal, with the empirical
+annual parameters reported in table 14.5 of Levy
+(2015): μF
+ 0.097, σF  0.195, μG
+0.034, σG 0.029.
+Notice that with the empirical parameters we have
+μF/σF 0.497<μG/σG  1.172; that is, we are in the
+case x0(T) ̅̅̅→
+T→∞
++∞. For these empirical parameters we
+have β  1.505 (see Equation (4) and the Appendix). The
+expected utilities of the stock and bond portfolios are
+calculated numerically for various horizons, T. Panels
+(a) and (b) of Figure 2 show the generalized Constant
+Relative Risk Aversion (CRRA) utility function
+U(x) (x+A)1−α
+1−α , with parameters used in table 1 of Levy
+(2016). Panel (a) shows the expected utility difference
+EUF−EUG for the generalized CRRA utility function
+with A = 1 and α 0.5. In this case α<β and condition (4)
+is met. Indeed, the expected utility (EU) difference is
+positive for large horizons T (and in this case also for
+small T). Panel (b) shows the expected utility difference
+EUF−EUG for the generalized CRRA utility function
+with A = 1 and α 10. In this case α>β and condition (4)
+does not hold. The figure reveals that the EU difference
+is negative even for very long horizons; that is, bonds are
+preferred. For the negative exponential utility function
+U(x)  −e−b·x with b = 4, shown in panel (c), stocks are
+preferred in the short run, but bonds are preferred in the
+log run.
+Figure 2. Expected Utility Difference Between the Stock
+and Bond Portfolios as a Function of the Investment
+Horizon, T
+Notes. The empirical return parameters are employed. (a) Generalized
+CRRA preference, with A = 1 and α  0.5. (b) Generalized CRRA
+preference, with A = 1 and α  10. (c) Negative exponential
+preference, with b = 4.
+Figure 3. Optimal Investment Weight in Stocks in a Mixed
+Portfolio When Diversification Between Stocks and Bonds
+Is Allowed
+Note. In the case of the generalized CRRA utility with A = 1 and
+α  0.5 (not shown), the optimal investment proportion is 100% in the
+stock at all horizons.
+Levy: Comment on “Aging Population, Retirement, and Risk Taking”
+Management Science, 2020, vol. 66, no. 6, pp. 2787–2791, © 2018 INFORMS 2789
+The above analysis considers a dichotomist choice
+between stocks and bonds. If diversification between
+bonds and stocks is considered, how does the optimal
+stock–bond mix change with the investment horizon?
+Figure 3 shows the optimal investment proportion in
+stocks as a function of the investment horizon (calculated
+numerically). For both the exponential preference
+and the generalized CRRA preference with α  10, the
+optimal weight in stocks decreases, rather than increases,
+with the investment horizon. This is consistent
+with Levy’s (2016) own numerical analysis in his table 1
+and his conclusion, “For very large and presumably
+irrelevant risk aversion parameter, the optimal portfolio
+tilts to a corporate bond portfolio even for very
+large investment horizons” (p. 1423).3
+This comment shows that maximizing the geometric
+mean may not be the optimal strategy for the long run,
+even if the marginal utility is bounded from above. It is
+interesting to note that even though geometric mean
+maximization is not generally optimal as a long-run
+strategy, in the short run, when realistic borrowing
+constraints are imposed, the geometric mean is more
+correlated with expected utility than popular performance
+measures such as the Sharpe ratio or alpha
+(Levy 2017). Thus, even though the present analysis
+shows that the geometric mean is not an unequivocal
+criterion for fund selection for the long-run, Levy (2017)
+argues that the geometric mean is nonetheless a very
+useful criterion for fund selection for the short run.
+Acknowledgments
+The author thanks Gustavo Manso, the Department Editor,
+the anonymous associate editor, and the two anonymous
+referees for their helpful comments and suggestions.
+Appendix
+If the utility function U and return distribution parameters
+are such that I+ > |I−|, then the stock (F) is preferred over the
+bond (G). We show below that |I−| is bounded from above by
+an expression of the formc · e−DT. Thus, I+ may also converge to
+0 with T, as long as this convergence is slower than the convergence
+of |I−|. A sufficient condition for this is U’(x) ≥x−β, as
+shown below.
+Upper Bound on |I−|
+|I−| 
+∫x0
+0
+[F(x) −G(x)]U’(x)dx < M
+∫x0
+0
+F(x)dx
+(recall that for x< x0 F(x) >G(x) and that U’(x) ≤M). F(x) is
+the cumulative lognormal distribution, thus, log(x) is distributed
+normally, and F(x)  Φ
+(
+log(x) − μF
+σF
+)
+, where Φ is the
+cumulative standard normal. Note that z0  log(x0)<μF, (the
+intersection of the two distributions is in the left tail) hence for
+x <x0 we have log(x0) − μF < 0. For t <0, Φ(t) is bounded from
+above by Φ(t) < 1
+− t e− t2
+2 (see, for example, Abramowitz and
+Stegun 1964). Thus,
+F(x) <
+σF
+μF − log(x) e
+−12
+(
+log(x) − μF
+σF
+)2
+<
+σF
+μF − log(x0) e
+−12
+(
+log(x) − μF
+σF
+)2
+.
+As the horizon T grows, σF grows as
+̅̅
+T
+√
+while μF and
+log(x0)  z0 grow as T. Thus, for a long enough horizon the
+fraction σF
+μF − log(x0)
+̅̅
+T
+√
+T < 1, and we can replace it by 1 in the
+upper bound:
+F(x)< e
+−12
+(
+log(x) − μF
+σF
+)2
+.
+Hence, we have:
+|I−| < M
+∫x0
+0
+e
+−12
+(
+log(x) − μF
+σF
+)2
+dx.
+Using the change of variables: q ≡ μF − log(x)
+σF
+implying x  eμF−qσF
+and dx  −σFeμF−qσFdq, we obtain:
+|I−| < −MσFeμF
+∫
+μF−log(x0)
+σF
+∞
+e−12
+q2−qσFdq  MσFeμF
+∫∞
+μF − z0
+σF
+e−12
+q2−qσFdq
+ MσFeμF
++ σ2
+F
+2
+∫∞
+μF − z0
+σF
+e−12
+(q+σF)2dq
+Defining s ≡ q + σFwe obtain:
+|I−| <MσFeμF
++σ2
+F
+2
+∫∞
+μF − z0+σ2
+F
+σF
+e−12
+s2ds  MσFeμF
++ σ2
+F
+2
+̅̅̅̅
+2π
+√
+·Φ
+(
+− μF − z0 + σ2
+F
+σF
+)
+.
+Using again the bound Φ(t) < 1
+− t e− t2
+2 for t < 0 with
+t ≡ − μF − z0+σ2
+F
+σF
+, and using the fact that t grows indefinitely with
+the horizon, so that eventually 1
+− t <1, we finally have:
+|I−| < MσFeμF
++ σ2
+F
+2
+̅̅̅̅
+2π
+√
+e
+−12
+(
+μF − z0+σ2
+F
+σF
+)2
+ MσF
+̅̅̅̅
+2π
+√
+e
+−12
+(
+μF − z0
+σF
+)2
++z0
+,
+where the last equality is obtained after a little algebraic reorganization
+of the exponent.
+Note that for the T-period horizon μF grows to T · μF, σF grows
+to
+̅̅
+T
+√
+· σF, and z0 grows to T · z0. Thus, as the horizon increases,
+|I−| is bounded from above by c · e−DT, where
+c 
+̅̅̅̅
+2π
+√
+MσF, and D  12
+(
+μF − z0
+σF
+)2
+− z0. With the empirical parameters,
+we have D > 0, and thus |I−| converges to 0 as the
+horizon T increases.
+Lower Bound on I+
+I+ 
+∫∞
+x0
+[G(x) − F(x)]U’(x)dx >
+∫eμF
+eμF − σF
+[G(x) − F(x)]U’(x)dx
+> U’(eμF )
+∫eμF
+eμF − σF
+[G(x) − F(x)]dx,
+Levy: Comment on “Aging Population, Retirement, and Risk Taking”
+2790 Management Science, 2020, vol. 66, no. 6, pp. 2787–2791, © 2018 INFORMS
+where we first restrict the integral to only part of the range
+(from one standard deviation in log(x) to the left of the peak
+of the stock pdf until is peak) and then take the value of U’ at
+the end of the range, which is the minimal value under the
+assumption of risk aversion (U”≤ 0). The choice of taking one
+standard deviation to the left of the mean is rather arbitrary,
+as will become evident. Notice that as μF >μG, when the
+horizon is long enough the pdf of G is negligible in the range
+discussed, and we can approximate G ≈ 1, yielding
+I+ > U’(eμF )
+∫eμF
+eμF − σF
+[G(x) − F(x)]dx ≈ U’(eμF )
+∫eμF
+eμF − σF
+[1 − F(x)]dx.
+At the beginning of the integration range, we have 1 − F(x) 
+1 −Φ( − 1)  0.84, and this decreases monotonically until the
+end of the range, where we have 1 − F(x)  1 −Φ(0)  0.5.
+Thus, the integral is bounded from below by 0.5 times the
+length of the segment over which we integrate:
+I+ > 0.5 ·U’(eμF )(eμF − eμF−σF )  0.5 ·U’(eμF )eμF (1 − e−σF ).
+For the T-period horizon, we have:
+I+ > 0.5 ·U’(eμF · T)eμF · T(1 − e−σF · T).
+For large T, the term 1 − e−σF · Tconverges to 1 and we have:
+I+ > 0.5 ·U’(eμF · T) · eμF · T.
+Sufficient Condition for Preference for the Stock as T
+Becomes Large
+Using the above upper bound on |I−| and lower bound on I+,
+a sufficient condition for I+ > |I−| is:
+0.5 ·U’
+(
+eμF · T)
+· eμF · T >ce−DT,
+or
+U’
+(
+eμF · T)
+> 2ce−(D+μF)T.
+Defining x ≡ eμF · T (and thus T  log(x)/μF), this translates to:
+U’(x) > 2ce
+−
+(
+D+μF
+μF
+)
+log(x)
+ 2c · x
+−
+(
+1+ D
+μF
+)
+ 2c · x−β,
+where we define β ≡ 1 + D
+μF
+ 1 + 1
+2μF
+(
+μF − z0
+σF
+)2
+− z0
+μF
+.
+Notice that the constant 2c is not relevant, as in the right
+tail, the limiting behavior is governed by the value of
+exponent (i.e., if β1 > β2, then for large enough x, C1 · x−β1 <
+C2 · x−β2 for any positive C’s).
+For the empirical parameters, μF
+ 0.097, σF  0.195, μG
+
+0.034, σG  0.029 (Levy 2015, Table 14.5, p. 383), we have
+z0  0.023, and:
+β  1 + 1
+2 · 0.097
+(
+0.097 − 0.023
+0.195
+)2
+−
+0.023
+0.097
+ 1.505.
+Endnotes
+1 μF − z0
+σF
+ μG − z0
+σG
+⇒ z0
+(
+1
+σF
+− 1
+σG
+)
+ μF
+σF
+− μG
+σG
+.
+2 In the context of discrete return distributions, the analogous
+statement is that the ratio inf{U’}/sup{U’} over the relevant range of
+possible outcomes shrinks with T faster than the shrinking of the
+violation area; see Levy (2009).
+3 The author is grateful to the anonymous referee for pointing this
+out.
+References
+Abramowitz M, Stegun IA (1964) Handbook of Mathematical Functions
+(Courier Corporation, North Chelmsford, MA).
+Hadar J, Russell WR (1969) Rules for ordering uncertain prospects.
+Amer. Econom. Rev. 59(1):25–34.
+Hanoch G, LevyH(1969) The efficiency analysis of choices involving
+risk. Rev. Econom. Stud. 36(3):335–346.
+Kelly JL (1956) A new interpretation of information rate. Bell Labs
+Tech. J. 35(4):917–926.
+LatanéHA(1959) Criteria for choice among risky ventures. J. Political
+Econom. 67(2):144–155.
+Leshno M, LevyH (2002) Preferred by “all” and preferred by “most”
+decision makers: Almost stochastic dominance. Management Sci.
+48(8):1074–1085.
+Levy H (2015) Stochastic Dominance: Investment Decision Making
+Under Uncertainty (Springer, Berlin).
+Levy H (2016) Aging population, retirement, and risk taking.
+Management Sci. 62(5):1415–1430.
+Levy M (2009) Almost stochastic dominance and stocks for the long
+run. Eur. J. Oper. Res. 194(1):250–257.
+Levy M (2017) Measuring portfolio performance: Sharpe, alpha, or
+the geometric mean? J. Invest. Management 15(3):1–17.
+Markowitz H (1976) Investment for the long run: New evidence
+for an old rule. J. Finance 31(5):1273–1286.
+Samuelson PA (1989) A case at last for age-phased reduction in
+equity. Proc. Natl. Acad. Sci. USA 86(22):9048–9051.
+Levy: Comment on “Aging Population, Retirement, and Risk Taking”
+Management Science, 2020, vol. 66, no. 6, pp. 2787–2791, © 2018 INFORMS 2791
+Copyright 2020, by INFORMS, all rights reserved. Copyright of Management Science is the
+property of INFORMS: Institute for Operations Research and its content may not be copied or
+emailed to multiple sites or posted to a listserv without the copyright holder's express written
+permission. However, users may print, download, or email articles for individual use.

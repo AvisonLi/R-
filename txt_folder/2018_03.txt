@@ -1,0 +1,683 @@
+Boron-chelating membranes based in hybrid mesoporous silica
+nanoparticles for water purification
+Federica Albertini, Tânia Ribeiro, Sérgio Alves, Carlos Baleizão ⁎, José Paulo S. Farinha ⁎
+Centro de Química-Física Molecular and Institute of Nanoscience and Nanotechnology, Instituto Superior Técnico, Universidade de Lisboa, 1049-001 Lisboa, Portugal
+Centro de Química Estrutural, Instituto Superior Técnico, Universidade de Lisboa, 1049-001 Lisboa, Portugal
+H I G H L I G H T S
+• Mesoporous silica nanoparticles with
+150 nm diameter were synthesized
+and surface-functionalized with vicinal
+diol groups;
+• The functionalized nanoparticles were
+covalently incorporated in cellulose acetate
+membranes using a silane
+crosslinking agent;
+• The level of crosslinking modulate the
+diffusion properties of the membranes
+and their mechanical integrity during
+operation;
+• Functionalized nanoparticles and hybrid
+membrane exhibit up to 93% of boron
+removal efficiency;
+• The hybrid membranes offer the possibility
+to design a simple, efficient and
+inexpensive continuous boron scavenging
+process.
+G R A P H I C A L A B S T R A C T
+a r t i c l e i n f o a b s t r a c t
+Article history:
+Received 4 September 2017
+Received in revised form 31 December 2017
+Accepted 2 January 2018
+Available online
+Boron is a key element for some biological processes,but it becomes toxic for humans and plants in concentrations
+above a few ppm. We have design a new approach for boron scavenging, based in hybrid membranes
+of functional mesoporous silica nanoparticles immobilized in cellulose acetate. The mesoporous
+silica nanoparticles, with diameters around 150 nm, were functionalized with vicinal diol groups that complex
+boron very efficiently. The functional nanoparticles were covalently immobilized in a cellulose acetate
+membrane using a di-terminated alkoxisilane that react with the remaining silanol groups at the nanoparticles
+surfaces and with the hydroxyl groups of the cellulose. The functional nanoparticles and the hybrid
+membranes show boron removal efficiencies of phenyl boronic acid of up to 93%. The membranes can be
+used in multistage filtering systems, with sequential membranes modules in continuous operation, in a
+cheap, simple and efficient process for boron scavenging.
+Keywords:
+Boron chelating membranes
+Mesoporous silica nanoparticles
+Hybrid membranes
+Boron removal
+Fluorescent sensing
+Materials and Design 141 (2018) 407–413
+⁎ Corresponding authors at: Centro de Química-Física Molecular and Institute of Nanoscience and Nanotechnology, Instituto Superior Técnico, Universidade de Lisboa, 1049-001 Lisboa,
+Portugal.
+E-mail addresses: carlos.baleizao@tecnico.ulisboa.pt (C. Baleizão), farinha@tecnico.ulisboa.pt (J.P.S. Farinha).
+http://dx.doi.org/10.1016/j.matdes.2018.01.001
+Contents lists available at ScienceDirect
+Materials and Design
+journal homepage: www.elsevier.com/locate/matdes
+3 January 2018
+© 2018 Elsevier Ltd. All rights reserved.
+0264-1275/© 2018 Elsevier Ltd. All rights reserved.
+1. Introduction
+Boron is an oligoelement essential for life, but only in trace amounts.
+TheWorld Health Organization recommends that the boron concentration
+in water for human consumption is below 2.4 ppm [1,2]. European
+Union legislation establishes 1.0 ppm as the maximum permissible
+value for boron [3], and in some cases it is desirable that irrigation
+water has boron content below 0.5 ppm, namely for the most sensitive
+crops, such as lemon [4]. High levels of boron inwater is usually harmful
+to living organisms. In humans, it affects the reproductive, cardiovascular
+and nervous systems, the kidneys, liver and gastrointestinal tract. In
+plants, it may retard the photosynthesis and therefore affect the plant's
+growth and productivity [5,6].
+High boron contents inwater occur naturally, fromleaching of rocks
+and soils containing borates and borosilicates. However, the most common
+sources are from anthropogenic origin, mainly wastewaters from
+industries such as glass and ceramics, fertilizers, pesticides, soaps and
+detergents, semiconductors, military armors, flame retardants, pharmaceutical
+drugsmanufacturing, aswell as agricultural and urban activities
+[1,2,7].
+Themain formof boron inwater is boric acid, B(OH)3, and its conjugated
+base, tetrahydroxyborate ion, [B(OH)4]−, depending on the pH
+[8]. However, in industrial effluents other forms of boron may also appear,
+like boronic acids, e.g. phenylboronic acid, PhB(OH)2. Boronic
+acids are the preferred form of boron in Suzuki-Miyaura reactions for
+the formation of C\\C bonds. These reactions are often used in the pharmaceutical
+industry [9,10].
+In aqueous media, boric acid, boronic acids and their conjugated
+bases form anionic complexes with vicinal diols, –CH(OH)–CH(OH)–
+[9,11,12], more efficiently at moderately alkaline pH (pH ≈ 9). These
+complexes are the basis of most techniques used to remove boron
+from wastewater, like electrodialysis, membrane filtration, precipitation-
+coagulation, evaporation-crystallization processes, reverse osmosis
+and adsorption [13].
+Of these methods, electrodialysis and other electrochemical techniques
+are effective but energy demanding [14,15].Membrane filtration
+methods are efficient and selective but require complex and expensive
+equipment [14,16]. Precipitation-coagulation methods have low efficiencies
+and lack specificity for boron removal [17,18]. Reverse osmosis
+(RO) is very efficient to remove ions in wastewater, but for boric or boronic
+acids removal shows lower yields due to the reduced ionization of
+boronic species at neutral pH [14,16,19]. Some strategies can be used to
+circumvent this problem, such as changing thewater pH to 9, using seawater
+RO membranes or denser membranes, combining ROmembranes
+with nanofiltration [20], using thin film nanocomposite (TFN) membranes
+[21], and combining RO membranes and boron adsorption compounds,
+like GAC (granular activated carbon), iron (III) hydroxides [13]
+or polyols [22]. However, these strategies still have problems, such as
+membrane corrosion at theworking pH necessary for boron scavenging
+or high energy consumption [23,24,25].
+Adsorption techniques are an alternative to the previous methods.
+These techniques present important design advantages over
+other methods, such as high versatility due to the variety of sorbents
+that can be used, allowing the separation of different pollutants.
+Additionally, they are also conceptually easier to scale up for larger
+scale operation.
+Most published adsorption-based boron removing systems are
+based on resins [26–27,28,29,30,31,32,33], including polymer matrices
+[26,27] and ion-exchange resins [33] or mesoporous silica [18,34–35,
+36,37,38]. Other adsorbents include ashes [39], activated carbon [40],
+clay minerals [41], metal oxides [42], and sugar derivatives such as sorbitol
+[43], mannitol [20], D-methyl glucamine [44], or Dgluconoamidoethyl
+immobilized in polymer nanoparticles [45]. The
+main drawbacks of these adsorbents are the high cost associated with
+the boron removal process or the material itself [13,20]. In the case of
+columns (static method) the process requires heavy equipment and
+the regeneration can be hard. On the other hand, if the materials are
+used in dispersion (dynamic method), the removal is an additional operation
+step. Moreover, if the active removal moiety is a sugar derivative,
+the synthesis can be very challenging.
+Herein, we present a new and simple system for water boron scavenging
+based on membrane filtration with immobilized mesoporous
+material functionalized with boron chelating groups.
+Mesoporous materials based on MCM-41 are composed by amorphous
+mesoporous silica, with high surface area (N700 m2/g) and
+pore volume (N1 cm3/g), and tunable porewidth. They can be prepared
+froma sol-gel procedure using a surfactant as template (typically a quaternary
+ammonium base) [46,47]. The typical applications of these materials
+are in catalysis and adsorption, however, the particle size of
+MCM-41 materials is very large (in the μm range) which hinders their
+use in applications that require fast mass transfer and good size homogeneity
+in the finalmaterials. The synthesis process can be changed (different
+temperatures, reactants concentrations, pH) to reduce the
+particle size to values below 200 nm. Thesemesoporous silica nanoparticles
+(MSNs) are very versatilematerials,which can be selectively functionalized
+at the internal and external surfaces, and are able to
+incorporate different atoms and molecules in the silica network, and
+also accommodatemolecules or even polymers in the pore volume [48].
+Here,we functionalize the MSNs surfacewith vicinal diols groups for
+boron removal. The MSNs were covalently immobilized in a cellulose
+acetate membrane using a crosslinking agent. The performance of the
+final hybrid membrane in the water boron scavenging process was optimized
+for the diol content and the crosslinking density. These hybrid
+active membranes open the opportunity to design versatile and low
+cost continuous removal systems of simple preparation, implementation
+an operation.
+2. Experimental
+2.1. Materials
+Tetraethoxysilane (TEOS, Sigma, 99%), hexadecyltrimethylammonium
+bromide (CTAB, Sigma, 99 + %), sodium hydroxide
+(NaOH, Eka, p.a. pellets), absolute ethanol (Sigma-Aldrich, 99.8%), 3-
+glycidyloxypropyl trimethoxysilane (GOPTS, Sigma-Aldrich, ≥98%),
+poly(dimethylsiloxane), bis(triethoxysilyl) terminated (ABCR
+GmbH&Co), 2,3,6,7,10,11-hexahydroxytriphenylene hydrate (TCI,
+N95%), phenylboronic acid (PBA, Fluka, 97%), ammonium hydroxide
+(NH4OH 25%, Fluka), ethylenediaminetetraacetic acid disodium salt
+dihydrate (EDTA, Riedel-de Haën, 99%) and hydrochloric acid (HCl
+37%, Sigma-Aldrich) were used as received. Deionized water from a
+Millipore system (Milli-Q ≥ 18 MΩ cm) was used in all synthesis and
+characterization steps. WHATMAN® Cellulose Acetate Circle Membranes
+(CA1, 0.2 μmpore size, 47mm) and Sartorius® Cellulose Acetate
+Membrane Filters (CA2, 0.2 μm pore size, 13 mm diameter) were used
+as received. A Plastic syringe holder for 13 mm membranes was used
+in the filtration tests.
+2.2. Synthesis of mesoporous silica nanoparticles (MSNs)
+Mesoporous silica nanoparticles (MSNs) were synthesized under
+basic conditions using TEOS as silica precursor, CTAB as surfactant template,
+NaOH as catalyst and water as solvent [49]. First, 0.5 g of CTAB
+were dissolved in 240 mL of water with vigorous stirring, in a polypropylene
+flask. The mixturewas in an oil bath at 80 °Cwith vigorous magnetic
+stirring. After CTAB was completely dissolved, 1.75 mL of an
+aqueous solution of NaOH (1.7 M) were added, followed by a dropwise
+addition of 2.5 mL of TEOS. After 2 h the nanoparticles were recovered
+by centrifugation and washed three times with a 8:2 water:ethanol solution
+(60,000 g, at 20 °C for 20 min each cycle), and dried in a ventilated
+oven at 50 °C overnight.
+408 F. Albertini et al. / Materials and Design 141 (2018) 407–413
+Surfactant extraction was performed by dispersing 0.5 g of dried
+nanoparticles in 20 mL of an ethanolic solution of HCl (0.5 M). The dispersion
+was kept at 40 °C with magnetic stirring for 2 h. The nanoparticles
+were recovered by centrifugation and washed three times with
+absolute ethanol (60,000 g, at 20 °C for 20 min each cycle), and dried
+in a ventilated oven at 50 °C overnight.
+2.3. Functionalization of mesoporous silica nanoparticles
+The functionalization ofMSNswith GOPTSwas performed following
+the post-synthesis graftingmethod using dry toluene at reflux in argon
+atmosphere or using ethanol at 40 °C. The ratio of graftingmolecules per
+unit area was 40 μmol/m2, an excess to obtain a good surface coverage.
+The specific areaused for theMSNswas 950m2/g (obtained by nitrogen
+sorption measurements).
+Functionalization of MSN1: 0.1 g of MSNs and 5 mL of dry toluene
+were added into a round-bottom flask and placed in an ultrasounds
+bath for 10 min. Then, 0.839 mL of GOPTS were added to the mixture
+and the mixture was brought to reflux for 24 h, with magnetic stirring.
+All these steps were carried out in an argon atmosphere.
+Functionalization of MSN2: 0.35 g of MSNs and 17.6 mL of ethanol
+were added into a polypropylene flask and placed in an ultrasounds
+bath for 10 min. Then, 2.95 mL of GOPTS were added to the mixture
+and the mixture was heated to 40 °C for 48 h, with magnetic stirring.
+In both cases, the nanoparticles were recovered by centrifugation
+and washed with absolute ethanol (3 × 50 mL, 41,200 g, at 20 °C for
+15 min, each cycle), and dried in a ventilated oven at 50 °C overnight.
+To open the epoxy ring of GOPTS, water was added to the functionalizedMSNs
+(10 mLofwater to 0.1 g ofMSN) and the mixturewas heated
+to 70 °C during 48 h, with magnetic stirring. The nanoparticles were
+recovered by centrifugation and washed with absolute ethanol
+(3 × 50 mL, 60,000 g, at 20 °C for 20 min each cycle), and dried in a ventilated
+oven at 50 °C overnight.
+The amount of GOPTSmolecules grafted on the surface ofMSNswas
+determined by 1H NMR (Supporting information, Figs. SI 1–3) [50].
+Samples were prepared with 5 mg of functionalized nanoparticles, a
+known amount of 1,3,5-trioxane (ca. 0.5 mg) as internal standard and
+0.5 mL of D2O/NaOH (pH 13). The samples were placed in an ultrasounds
+bath for 30 min to destroy the nanoparticles, before performing
+the analysis.
+2.4. Films preparation
+Films of MSNs were prepared over cellulose acetate membranes.
+Membranes (CA1 and CA2) have 0.20 μm pores, with pore volumes estimated
+as 74% of the volume of the membrane for CA1 (Supporting Information,
+Section SI 2).
+A Teflon mold was used for the film preparation. In a first batch of
+films for preparation conditions optimization, a mold with squared
+16×16mmholeswas used (Supporting information, Fig. SI 4). A second
+batch of films, to evaluate the boron removal performance, was prepared
+in a mold with circular orifices 13 mm in diameter (Supporting
+information, Fig. SI 5). A solution of 10 wt% MSNs in ethanol was kept
+in a ultrasound bath for 1 min., and transferred to the mold dropwise
+using a micropipette. The film dried overnight at room temperature.
+Poly(dimethylsiloxane), bis(triethoxysilyl) terminated dispersed in
+ethanol was then added for crosslinking the nanoparticles and the
+membranes and left drying overnight at room temperature. The films
+preparation data are collected in the Supporting Information for the
+preparation conditions optimization (S1, Table SI1) and boron removal
+performance (S2, Table SI2).
+2.5. Membrane performance tests to assess the residual boron in water
+All filtrations were performed with the membrane film in a plastic
+syringe holder with a diameter of 13 mm. In all cases, the pH of the
+initial solution was set at around 9 before the filtration, in order to promote
+boron complexation [51]. The fluorescence emission spectra were
+corrected with the value corresponding at 330 nm. For quantification,
+the integrals of the emission spectra were calculated and normalized
+to the initial solution. After each measurement, the pH of the samples
+was measured and in all cases it was between 8.9 and 9.1.
+2.6. Boron detection method
+In order to assess the residual boron in water, we used a previously
+proposed fluorimetric method based on the use of the molecule
+2,3,6,7,10,11-hexahydroxytriphenylene (L) as boron sensor [51,52]. In
+this method, pH was set to 9 in the presence of NH3 buffer and EDTA.
+For each sample, 0.4 mL of the solution to be analyzed were mixed together
+with 0.3 mL of a mixture of 0.133 M NH3 and 0.333 M EDTA
+with pH previously set at 9, and 1.5 mL of a 1.25 μM solution of the
+boron sensor 2,3,6,7,10,11-hexahydroxytriphenylene in water. The
+samples were then left in the dark for 4 h before performing the analysis.
+Care was taken in order to avoid contact between the samples containing
+the sensor and borosilicate glass. At the end, the pH of the
+samples was checked, to be between 8.9 and 9.1.
+2.7. Characterization
+Transmission electron microscopy (TEM) imageswere obtained on a
+Hitachi transmission electron microscope (Model H-8100 with a LaB6
+filament)with an accelerator voltage of 200 kV. The dried nanoparticles
+were dispersed in ethanol. One drop of dispersion was placed on a carbon
+grid and dried in air before observation. The nanoparticle dimensions
+were determined using “Image J” software. Scanning electron
+microscopy (SEM) images were obtained using a JEOL SEM model
+JSM7001F, with an accelerated voltage of 15 kV. The samples were previously
+covered with a chromium layer. Nanoparticle tracking analysis
+(NTA) was performed with a Nanosight instrument, model LM14C. Solution
+proton NMR were performed on a Bruker Avance III 400 spectrometer
+(Bruker BioSpin GmbH, Rheinstetten, Germany) operating at
+400 MHz. Fourier transform infrared (FTIR) spectra were recorded on
+a Bruker Alpha instrument in the region of 4000–400 cm−1 with a resolution
+of 4 cm−1 using KBr pellets. Nitrogen adsorption studies were
+performed in a gas porosimeter (Micromeritics) with accelerated surface
+area and porosimetry system. The specific surface area and the
+total pore volume were determined using the Brunauer-Emmett-Teller
+(BET) isotherm, and the average mesopore diameters assessed by the
+BJH algorithm. X Rays diffraction spectra were obtained on RIGAKU
+MiniFlex II with a X rays tube of CuKa (30 kV/15 mA). The pH of the solutions
+was measured with a bench pH/mV/°C meter pH 1000 L, phenomenal
+®. The fluorescence measurements were obtained on a
+Horiba-JobinYvon Fluorolog-3 spectrofluorimeter.
+3. Results and discussion
+Our novel strategy to harvest boron from residual water relies on
+cellulose acetate membrane incorporating silica mesoporous materials
+functionalized with boron chelating groups (Fig. 1).
+The hybridMSNswere prepared using a modified sol-gel procedure,
+catalyzed by hydroxide as base, and using CTAB as template [49]. The
+synthesis was performed at 80 °C for 2 h, and after cleaning the nanoparticles,
+the surfactant was removed using an acidified ethanolic solution,
+that disrupt the micelles structures and the CTAB is removed from
+the pores. Surfactants (and especially ionic surfactants) tend to adsorb
+on the silica nanoparticles surfaces, and to ensure the complete removal
+of the CTAB, we wash the MSNs exhaustively with ethanol. We have
+prepared two batches of nanoparticles with mean diameters of
+(139 ± 45) nm for MSN1 and (166 ± 68) nm for MSN2. The TEM images
+in Fig. 2 show that, although the shape is not perfectly homogeneous,
+the nanoparticles present a clear mesoporous internal structure.
+F. Albertini et al. / Materials and Design 141 (2018) 407–413 409
+The MSNs were surface-functionalized with an epoxide using 3-
+glycidyloxypropyl trimethoxysilane (GOPTS). The GOPTS was
+immobilized in MSN1 under toluene reflux at 125 °C, and in MSN2
+under ethanol reflux at 40 °C (MSN-epoxide in Fig. 1). After washing
+the nanoparticles at the end of the reaction, the epoxide ring was
+opened, treating the nanoparticles with water at 70 °C (MSN-diols in
+Fig. 1) [53]. The number of vicinal diols immobilized on the MSNs surface
+was obtained from 1H NMR after destroying the MSNs with
+NaOH, using trioxane as internal standard and deuterated water as solvent
+[50]. The obtained diol modification was 1.7 diols/nm2 for MSN1-
+diols and 0.7 diols/nm2 forMSN2-diols (Fig. SI 1-3, Supporting information).
+These values correspond to the functionalization of the internal
+and external surface area of the nanoparticles. A good coverage was obtained
+using either toluene (MSN1-diols) or ethanol (MSN2-diols),
+however the functionalization in ethanol has the advantage to be less
+expensive and a simpler alternative to the functionalization in dry toluene.
+The functionalized nanoparticles (MSN1-diols and MSN2-diols)
+were used as active material in the boron removal cellulose acetate
+(CA) membranes. The functionalization was also confirmed by Fourier
+Transform infrared spectroscopy, with the typical stretching vibration
+bands of CH2 groups at 2890 and 2940 cm−1 present in MSN-diols
+nanoparticles (Fig. SI 4, Supporting information).
+Two different CA membranes were used (pore size of 0.20 μm in
+both cases, SEM images in Fig. SI 6), presenting different structures,
+with CA1 showing larger pores when compared to CA2.
+The nanoparticles were dispersed in the CA membranes, and
+immobilized to the cellulose through a dialkoxysilane crosslinker. The
+films were prepared in two steps: first, a dispersion of the hybrid
+MSNs in ethanol was spread over the CA membrane, and after drying,
+the crosslinker was added to the membrane, reacting with the free
+silanols at the silica nanoparticles surface andwith the hydroxyl groups
+of the cellulose. A first batch of membraneswas preparewith non-functionalized
+nanoparticles, to optimize the membrane preparation conditions
+(Table SI1, Supporting Information). The visual aspect of the films
+is homogeneous without any apparent excess of nanoparticles (Fig. SI7,
+Supporting information). The films were characterized by SEM from the
+central part of the samples (Fig. 3 and Figs. SI 8–16, Supporting
+information).
+Fig. 1. Schematic illustration of the preparation of hybrid MSNs.
+Fig. 2. TEM images of nanoparticles MSN1 (A and B) and MSN2 (C and D).
+Fig. 3. SEM images of membranes S1-1 (A), S1-2 (B), S1-3 (C), S1-4 in top view (D) and
+lateral view (E), S1-6 (F), S1-7 (G), S1-8 (H), S1-9 (I), S1-10 (J).
+410 F. Albertini et al. / Materials and Design 141 (2018) 407–413
+The first samples (S1-1 to S1-4) use 5.3×10−5 g of MSN1 nanoparticles
+per mm2 of membrane (the amount estimated to fill the pores
+of the membrane – Supporting information), and 50 wt%, 10 wt%,
+5 wt% or 1 wt%, respectively, of crosslinker (with respect to the nanoparticles
+weight – Table SI1, Supporting information). The SEM images
+of these samples show low homogeneity, cracks and an excess of nanoparticles
+visible in the aggregates formed (Fig. 3,AtoD).This is especially
+clear from the lateral view of sample S1–4 (Fig. 3E), showing the
+support (1), the tape (2), the CA membrane (3) and the nanoparticle
+film (4), where most of the nanoparticles remain on the surface of the
+CA membrane.
+To overcomethe excess of nanoparticles in the films, we reduced the
+MSN1-diols concentration to half (S1-5 to S1-7, Table SI 1), but the
+problem persisted (Fig. 3 F and G). Only after a 10 times reduction in
+MSN1 nanoparticle concentration (S1-8, S1-9 and S1-10, with 10 wt%,
+5 wt% and 1 wt% of crosslinker, respectively – Table SI1) it was possible
+to obtain films with good quality and no excess of nanoparticles (S1-9
+and S1-10), as shown in the SEM images of Fig. 3H–J.
+The last conditions were used to prepare films with the functionalized
+nanoparticles MSN1-diols (S1-11 and S1-12, Table SI1). The SEM
+images (Fig. 4) show some aggregates on the film surface when compared
+with bare nanoparticles (MSN1) films. Although surface
+functionalization of the nanoparticles increases their aggregation, probably
+by reducing the nanoparticle colloidal stability, the quality of the
+membranes obtained from these particles is still acceptable for their
+use in boron scavenging.
+We also prepared films over CA2 membranes,with the sameMSN1-
+diols concentration and crosslinker (S1-13, S1-14 and S1-15, with
+5 wt%, 2 wt% and 1 wt% crosslinker respectively – Table SI 1). The SEM
+images (Fig. 5) show that the films have lower surface homogeneity
+than the films prepared on CA1 membranes. This probably reflects the
+different morphology of both membranes (Fig. SI 6, Supporting
+information).
+The strategy of our approach is to use the hybrid membranes in a filter
+module to develop a continuous process for boron scavenging from
+water. Although the functionalized nanoparticles are covalently
+immobilized to the cellulose acetate membrane, we evaluated if the
+water flow across the membrane could affect its integrity by filtering
+pure water through the hybrid membrane and analyzing the filtrate
+for the presence of nanoparticles. Using hybrid membranes produced
+from different cellulose acetate membranes (CA1 and CA2) and with
+crosslinker contents of 1, 2 and 5 wt%, we measured the nanoparticle
+concentration in the filtrate by Nanoparticle Tracking Analysis (NTA),
+concluding that the membrane integrity depends essentially on the
+type of cellulose acetate support used (Table 1 and Fig. SI 17, Supporting
+information). Themembrane with CA1 as support and 5% of crosslinker
+does not have any losses, andwith 1% crosslinker the value is negligible.
+However, with CA2 we observed losses of 1.1–2.8 wt% of nanoparticles
+(Fig. SI 17, Supporting information). These values indicate that the immobilization
+of the nanoparticles to the cellulose acetate membrane is
+more efficient in the case of CA1. This confirms the lower quality of
+membranes with CA2 as support (Fig. 5) when compared with CA1
+(Figs. 3 and 4).
+The MSNs nanoparticles have typically high pore volumes (0.7–
+1 cm3/g), an important parameter to applications where fast mass
+transfer is a requisite, as in the case of the present application. In our
+case, since the MSNs are covalently anchored to the CA membranes,
+the diffusion through the MSNs after immobilization could be affected.
+This effect was evaluated by measuring the pore volume using nitrogen
+sorption experiments (Table 2 and Fig. SI 18, Supporting information).
+The surface area obtained from the BET isotherms of the membranes
+is not comparable to the data of the bare MSNs (surface area 950 m2/g
+and pore volume 0.77 cm3/g), because in the hybrid membranes, the
+surface area of the CA membrane is also taken into account. However,
+from Table 2 it is possible to observe a decrease in the surface area
+with the increase in crosslinker content, indicating that the mesopores
+of the MSNs become less accessible when more crosslinker is used.
+Fig. 4. SEM images of membranes S1-11 (A) and S1-12 (B).
+Fig. 5. SEM images of membranes S1-13 (A and B), S1-14 (C and D) and S1-15 (E and F).
+Table 1
+Membranes integrity tests data yielding the amount of lost nanoparticles after submitting
+the hybrid membranes to 12 cycles of filtration with water.
+Sample CA type Crosslinker content (wt%) MSN-diols loss (wt%)
+S1-11 CA1 5 0
+S1-12 CA1 1 0.07
+S1-13 CA2 5 1.7
+S1-14 CA2 2 1.1
+S1-15 CA2 1 2.8
+Table 2
+Nitrogen sorption data for hybrid membranes with different crosslinker content.
+Membrane Amount of
+crosslinker (%)
+BET surface
+area (m2/g)
+Mesopore
+volume (cm3/g)
+Pure MSN – 950 0.77
+S1-4 1 1220 0.4
+S1-3 2 740 0.42
+S1-2 10 560 0.25
+S1-1 50 100 –
+F. Albertini et al. / Materials and Design 141 (2018) 407–413 411
+The mesopore volume follows the same trend, with no mesopore volume
+measured for the membrane with higher amount of crosslinker,
+probably because when high contents of crosslinker are used, the
+mesopore entrance are occluded.
+Preliminary boron scavenging tests were performed by filtering an
+aqueous solution of phenylboronic acid (PBA) through the hybrid membranes.
+The boron remaining in the filtrate was determined by a fluorimetric
+method [51,52] as described in Section 2.6. The boron removal
+efficiency indicates the quantity of boron removed by the membranes.
+The first test was performed with the hybrid nanoparticles MSN2-
+diols in dispersion, to assess the performance of the nanoparticles before
+immobilization (Fig. 6). The pH of the initial solution was set at a
+value around 9 before the filtration [51]. The fluorescence emission
+spectra were corrected with the emission at 330 nm. After each measurement,
+the pH of the samples was re-checked, and it was always in
+the range of 8.9 to 9.1.
+With theMSN2-diols nanoparticles we obtained an 89% removal efficiency
+from a solution of 10 ppm of boron, using the same amount of
+nanoparticles present in the hybrid membranes. If we increase the
+amount of nanoparticles ten times, the boron removal efficiency increases
+to 93%, with the final boron concentration below 1 ppm
+(starting from 10 ppm), which is within the EU maximum permissible
+limit [3]. After storing the nanoparticles for two months, they present
+the same boron removal performance as fresh nanoparticles.
+The boron removal mechanism, in our case for phenylboronic acid,
+relies in the formation of PhB(OH)3
+− in alkalinemedia, followed by complexation
+of a diol groupwith displacement of two hydroxyl groups (SI5
+in the Supporting information) [32,45].
+The membranes used for the boron scavenging tests comprise different
+hybrid nanoparticles (MSN1-diols and MSN2-diols), crosslinker
+content and cellulose acetate membrane (Table SI 2). Before testing
+the hybrid membranes (MSN-diols + cellulose acetate membrane),
+we performed a test with the bare cellulose acetate membrane to evaluate
+if the membrane without active nanoparticles present some interaction
+with boron. The results show no boron interaction with the nonmodified
+membrane (the boron content was exactly the same before
+and after passing the boron solution by the membrane).
+The first membranes tested have 5 wt% (S2-1 and S2-4) and 1 wt%
+(S2-3 and S2-6) crosslinker content. In the case of the higher crosslinker
+content, we don't observe a reduction in the boron concentration (even
+after 10 filtration cycles). These membranes have a reduced mesopore
+volume available due to the dense crosslinking, and the pores are
+obstructed. The membranes with 1% crosslinker content show a high
+level of nanoparticles leaching (Table 1), due to the higher pH of the solution
+(around 9), when compared with the leaching tests with pure
+water (Table 1, pH around 6). These results motivated us to prepare
+membranes with 2% crosslinker content to increase the robustness of
+the hybridmembrane,without compromising theMSN-diolsmesopore
+volume. We prepare membranes with both CA membrane support (S2-
+2 and S2-5, Table SI 2). These newmembranes don't showany nanoparticles
+losses after 10 filtration cycles. In both cases, after one filtration
+cycle, we observe a decrease of up to 70% relative to the initial boron
+concentration. An increase in the number of cycles doesn't decrease
+the boron removal efficiency. The membranes present a good stability
+over time,with similar boron removal efficiency after twomonths storage,
+when compared with fresh membranes.
+Our preliminary results show good prospects for the use of the hybrid
+membranes in boron scavageng from water. The membranes
+showgood robustness and can be used in modules composed of several
+membranes to achieve higher boron removal efficiencies.
+4. Conclusions
+We prepared novel hybrid membranes for boron removal from
+water, based on functional mesoporous silica nanoparticles
+immobilized in cellulose acetate supports. Themesoporous silica nanoparticles,
+with diameter around 150 nm, were functionalized with vicinal
+diols that interact efficiently with boron. These functional
+mesoporous silica nanoparticles were covalently immobilized into cellulose
+acetatemembranes, using a terminal di-alkoxysilane crosslinker.
+The crosslinker reacts with the silanol groups remaining at the surface
+of the silica nanoparticles and with the free hydroxyl groups of the cellulose.
+The hybrid membranes present a homogeneous distribution of
+the nanoparticles, after optimization of the nanoparticles concentration
+and crosslinker content.
+The boron scavenging capability of the newmaterials was evaluated
+with a solution of phenylboronic acid. The hybrid nanoparticles in dispersion
+were able to remove up to 93% of the initial boron content,
+and the hybrid membranes reduce the boron concentration to 70% of
+its initial value in a single filtration step.
+The novel boron-chelating membranes offer good prospects for the
+development of easy and inexpensive boron scavenging technology,
+using multistage membranes modules in continuous operation. This
+boron removal process present important design advantages, in particular,
+the conceptually easy scale up, with simple preparation, implementation
+an operation.
+Acknowledgements
+This work was partially supported by Fundação para a Ciência e a
+Tecnologia (FCT-Portugal) and COMPETE (FEDER), projects UID/NAN/
+50024/2013 and PTDC/CTM-POL/3698/2014. T.R. and S.A. acknowledge
+postdoctoral grants from FCT (SFRH/BPD/96707/2013 and SFRH/BPD/
+74654/2010, respectively).
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.matdes.2018.01.001.
+Fig. 6. Fluorescence emission spectra of the sensor L (0.9 μM) in the presence of the PBA
+remaining in water after scavenging experiments with MSN2-diols. The solid curve
+corresponds to fluorescence emission spectrum of the sensor in the presence of the
+initial PBA concentration in water (10 ppm of boron). The dotted (the same amount of
+nanoparticles that is present in the hybrid membrane) and dashed (10 times the
+concentration of nanoparticles than is present in the membrane) curves correspond to
+the fluorescence emission spectrum of the sensor in the filtrate after being in contact
+with the nanoparticles. The spectra were recorded at an excitation wavelength λexc =
+310 nm in ammonia buffer (18 mM) at pH = 9, in the presence of EDTA (45 mM) at
+20 °C. Insets: efficiency of boron removal.
+412 F. Albertini et al. / Materials and Design 141 (2018) 407–413
+References
+[1] World Health Organization, Guidelines for Drinking-water Quality, fourth ed. first
+addendum World Health Organization, 2017.
+[2] World Health Organization, Boron in drinking-water, Background Document for Development
+of WHO Guidelines for Drinking-water Quality, World Health Organization,
+2009.
+[3] European Council, Commission directive (EU) 2015/1787 of 6 October 2015
+amending Council directive 98/83/EC, Off. J. Eur. Communities (1998) L 260/6 7/
+10/2015.
+[4] N. Nadav, Boron removal from seawater reverse osmosis permeate utilizing selective
+ion exchange resin, Desalination 124 (1999) 131–135.
+[5] L.A. Melnik, I.A. Butnik, V.V. Goncharuk, Sorption–membrane removal of boron compounds
+from natural and waste waters: ecological and economic aspects, J. Water
+Chem. Technol. 30 (2008) 167–179.
+[6] A. Simsek, D. Korkmaz, Y.S. Velioglu, O.Y. Ataman, Determination of boron in hazelnut
+(Corylusavellana L.) varieties by inductively coupled plasma optical emission
+spectrometry and spectrophotometry, Food Chem. 83 (2003) 293–296.
+[7] A.T. Batayneh, Toxic metals (aluminum, beryllium, boron, chromium and zinc) in
+groundwater: health risk assessment, Int. J. Environ. Sci. Technol. 9 (2012) 153–162.
+[8] S. Asim, M.Wasim, A. Sabir, M. Shafiq, H. Andlib, S. Khuram, A. Ahmad, T. Jamil, The
+effect of nanocrystalline cellulose/gum Arabic conjugates in crosslinked membrane
+for antibacterial, chlorine resistance and boron removal performance, J. Hazard.
+Mater. 343 (2018) 68–77.
+[9] C. Peter, A. Derible, J. Parmentier, C. Le Drian, J.-M. Becht, A green direct preparation
+of a magnetic orderedmesoporous carbon catalyst containing Fe–Pd alloys: application
+to Suzuki–Miyaura reactions in propane-1,2-diol, New J. Chem. 41 (2017)
+4931–4936.
+[10] R.J. Procter, J.J. Dunsford, P.J. Rushworth, D.G. Hulcoop, R.A. Layfield,M.J. Ingleson, A.
+Zinc Catalyzed, C(sp3) –C(sp2) Suzuki-Miyaura cross-coupling reaction mediated by
+aryl-zincates, Chem. Eur. J. 23 (2017) 15889–15893.
+[11] R. Pizer, Boron acid complexation reactions with polyols and α-hydroxy carboxylic
+acids: equilibria, reaction mechanisms, saccharide recognition, Inorg. Chim. Acta
+467 (2017) 194–197.
+[12] Z. Guan, J. Lv, P. Bai, X. Guo, Boron removal from aqueous solutions by adsorption —
+a review, Desalination 383 (2016) 29–37.
+[13] G. Zelmanov, R. Semiat, Boron removal from water and its recovery using iron
+(Fe+3) oxide/hydroxide-based nanoparticles (NanoFe) and NanoFe-impregnated
+granular activated carbon as adsorbent, Desalination 333 (2014) 107–117.
+[14] E. Güler, C. Kaya, N. Kabay, M. Arda, Boron removal from seawater: state-of-the-art
+review, Desalination 356 (2015) 85–93.
+[15] S. Bunani, K. Yoshizuka, S. Nishihama, M. Arda, N. Kabay, Application of bipolar
+membrane electrodialysis (BMED) for simultaneous separation and recovery of
+boron and lithium from aqueous solutions, Desalination 424 (2017) 37–44.
+[16] Y.P. Tang, L. Luo, Z. Thong, T.S. Chung, Recent advances in membrane materials and
+technologies for boron removal, J. Membr. Sci. 541 (2017) 434–446.
+[17] Y.P. Tang, S. Yuwen, T.S. Chung, M. Weber, C. Staudt, C. Maletzko, Synthesis of
+hyperbranched polymers towards efficient boron reclamation via a hybrid ultrafiltration
+process, J. Membr. Sci. 510 (2016) 112–121.
+[18] M. Turek, P. Dydo, J. Trojanowska, A. Campen, Adsorption/co-precipitation—reverse
+osmosis system for boron removal, Desalination 205 (2007) 192–199.
+[19] S. Kürklü, S. Velioğlu, M.G. Ahunbay, S.B. Tantekin-Ersolmaz, W.B. Krantz, A novel
+energy-efficient concurrent desalination and boron removal (CDBR) process, Desalination
+423 (2017) 79–94.
+[20] D. Prats, M.F. Chillon-Arias, M. Rodriguez-Pastor, Analysis of the influence of pH and
+pressure on the elimination of boron in reverse osmosis, Desalination 128 (2000)
+269–273.
+[21] N. Geffen, R. Semiat, M.S. Eisen, Y. Balazs, I. Katz, C.G. Dosoretz, Boron removal from
+water by complexation to polyol compounds, J. Membr. Sci. 286 (2005) 45–51.
+[22] A. Subramani, N. Voutchkov, J.G. Jacangelo, Desalination energy minimization using
+thin film nanocomposite membranes, Desalination 350 (2014) 35–43.
+[23] M. Taniguchi, Y. Fusaoka, T. Nishikawa, M. Kurihara, Boron removal in RO seawater
+desalination, Desalination 167 (2004) 419–426.
+[24] A. Subramani,M. Badruzzaman, J. Oppenheimer, J.G. Jacangelo, Energyminimization
+strategies and renewable energy utilization for desalination: a review, Water
+Resour. Res. 45 (2011) 1907–1920.
+[25] J. Redondo, M. Busch, J.P.Witte, Boron removal from seawater using FILMTEC (TM)
+high rejection SWRO membranes, Desalination 156 (2003) 229–238.
+[26] M.M. Nasef, M. Nallappan, Z. Ujang, Polymer-based chelating adsorbents for the selective
+removal of boron from water and wastewater: a review, React. Funct. Polym.
+85 (2014) 54–68.
+[27] S. Samatya, S.A. Tuncel, N. Kabay, Boron removal from RO permeate of geothermal
+water by monodisperse poly(vinylbenzyl chloride-co-divinylbenzene) beads containing
+N-methyl-D-glucamine, Desalination 364 (2015) 75–81.
+[28] N.B. Darwish, V. Kochkodan, N. Hilal, Boron removal from water with fractionized
+Amberlite IRA743 resin, Desalination 370 (2015) 1–6.
+[29] M. Gazi, N. Bicak, Selective boron extraction by polymer supported 2-
+hydroxylethylamino propylene glycol functions, React. Funct. Polym. 67 (2007)
+936–942.
+[30] N. Bicak, M. Gazi, B.F. Senkal, Polymer supported amino bis-(cis-propan 2,3 diol)
+functions for removal of trace boron from water, React. Funct. Polym. 65 (2005)
+143–148.
+[31] N. Bicak, N. Bulutçu, B.F. Senkal, M. Gazi, Modification of crosslinked glycidyl methacrylate-
+based polymers for boron-specific column extraction, React. Funct. Polym.
+47 (2001) 175–184.
+[32] K. Yoshimura, Y. Miyazaki, F. Ota, S. Matsuoka, H. Sakashita, Complexation of boric
+acid with the N-methyl-D-glucamine group in solution and in crosslinked polymer,
+J. Chem. Soc. Faraday Trans. 94 (1998) 683–689.
+[33] C. Su, D.L. Suarez, Coordination of adsorbed boron: a FTIR spectroscopic study, Environ.
+Sci. Technol. 29 (1995) 302–311.
+[34] T. Ben, Amor, I. Dhaouadi, B. Lebeau, M. Tlili, M. Ben amor, synthesis, characterization
+and application of glucamine-modified mesoporous silica type SBA-15 for the
+removal of boron from natural water, Desalination 351 (2014) 82–87.
+[35] L. Xu, Y. Liu, H. Hu, Z. Wu, Q. Chen, Synthesis, characterization and application of a
+novel silica based adsorbent for boron removal, Desalination 294 (2012) 1–7.
+[36] B.Wang, X. Guo, P. Bai, Removal technology of boron dissolved in aqueous solutions
+– a review, Colloids Surf. A 444 (2014) 338–344.
+[37] Y.P. Tang, T.S. Chung, M.Weber, C.Maletzko, Development of novel diol-functionalized
+silica particles toward fast and efficient boron removal, Ind. Eng. Chem. Res. 56
+(2017) 11618–11627.
+[38] D.I. Fried, A. Schlossbauer, T. Bein, Immobilizing glycopyranose onmesoporous silica
+via “click-chemistry” for borate adsorption, Microporous Mesoporous Mater. 147
+(2012) 5–9.
+[39] T.E. Köse, N. Öztürk, Boron removal from aqueous solutions by ion-exchange resin:
+column sorption-elution studies, J. Hazard. Mater. 152 (2008) 744–749.
+[40] M.F. Chong, K.P. Lee, H.J. Chieng, I. Ramli, Removal of boron from ceramic industry
+wastewater by adsorption–flocculation mechanism using palm oil mill boiler
+(POMB) bottom ash and polymer, Water Resour. Res. 43 (2009) 3326–3334.
+[41] Y. Magara, A. Tabata, M. Kohki, M. Kawasaki, M. Hirose, Development of boron reduction
+system for sea water desalination, Desalination 118 (1998) 25–33.
+[42] J. Kluczka, J. Ciba, J. Trojanowska, M. Zolotajkin, M. Turek, P. Dydo, Removal of boron
+dissolved in water, Environ. Prog. 26 (2007) 71–77.
+[43] N. Öztürk, D. Kavak, T.E. Köse, Boron removal from aqueous solution by reverse osmosis,
+Desalination 223 (2008) 1–9.
+[44] N. Bicak, B.F. Senkal, Sorbitol-modified poly(N-glycidyl styrene sulfonamide) for removal
+of boron, J. Appl. Polym. Sci. 68 (1998) 2113–2119.
+[45] S. Alves, C. Santos, A.P. Costa, M. Silva, C. Baleizão, J.P.S. Farinha, Smart polymeric
+nanoparticles for boron scavenging, Chem. Eng. J. 319 (2017) 31–38.
+[46] C. Argyo, V. Weiss, C. Bräuchle, T. Bein, Multifunctional mesoporous silica nanoparticles
+as a universal platform for drug delivery, Chem. Mater. 26 (2014) 435–451.
+[47] M.L. Martínez, H. Falcón, A.R. Beltramone, O.A. Anunziata, Synthesis and characterization
+of 2D-hexagonal, 3D-hexagonal and cubic mesoporous materials using CTAB
+and silica gel, Mater. Des. 104 (2016) 251–258.
+[48] S.-H. Wu, C.-Y. Mou, H.-P. Lin, Synthesis of mesoporous silica nanoparticles, Chem.
+Soc. Rev. 42 (2013) 3862–3875.
+[49] C. Baleizão, J.P.S. Farinha, T. Ribeiro, A.S.G. Rodrigues, Process for the production of
+mesoporous silica nanoparticles with diameters under 100 nanometers and precise
+control of the particle diameter, 2016, PT109110.
+[50] C.I.C. Crucho, C. Baleizão, J.P.S. Farinha, Functional group coverage and conversion
+qualification in nanostructured silica by 1H-NMR, Anal. Chem. 89 (2017) 681–687.
+[51] S. Alves, C. Baleizão, J.P.S. Farinha, A new optical boron detection method, Anal.
+Methods 6 (2014) 5450–5453.
+[52] J.P.S. Farinha, C. Baleizão, S. Alves, Optical Sensors for Boron Detection Based on the
+Use of 2,3,6,7,10,11-Hexahydroxytriphenylene or its Derivatives, WO2014123436,
+2013.
+[53] S.E. Shaw, T. Russo, D.H. Solomon, G.G. Qiao, An alternative pathway for the hydrolysis
+of epoxy ester compounds, Polymer 47 (2005) 8247–8252.
+F. Albertini et al. / Materials and Design 141 (2018) 407–413 413

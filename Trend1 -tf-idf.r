@@ -108,7 +108,10 @@ process_file_tfidf <- function(file, target_terms, idf) {
 target_terms <- c(
   "aging", "population", "elderly", "productivity",
   "retirement", "healthcare", "pension", "dependency",
-  "demographic", "longevity"
+  "demographic", "longevity","social security", "labor market", "chronic disease",
+  "intergenerational", "caregiver", "ageing society",
+  "government policy", "economic burden", "demographic dividend",
+  "life expectancy"
 )
 
 plan(multisession)
@@ -131,17 +134,6 @@ yearly_counts <- tfidf_results %>%
   group_by(year) %>%
   summarize(count = n())
 
-# Print yearly counts
-print("Yearly counts of relevant articles:")
-print(yearly_counts)
-
-print(ggplot(yearly_counts, aes(x = year, y = count, group = 1)) +
-  geom_line(color = "steelblue", size = 1) +
-  geom_point(color = "navy", size = 3) +
-  labs(title = "Aging Population Coverage Trend (TF-IDF Filtered)",
-       x = "Year", y = "Relevant Articles") +
-  theme_minimal())
-
 # Save associated .txt file names into a CSV for Trend2
 output_csv <- "associated_files_for_trend2.csv"
 
@@ -155,3 +147,33 @@ write.csv(associated_files, output_csv, row.names = FALSE)
 
 # Print confirmation
 print(paste("Associated file names and metadata saved to:", output_csv))
+# Print yearly counts
+print("Yearly counts of relevant articles:")
+print(yearly_counts)
+
+dev.off()  # 关闭当前绘图设备
+dev.new()  # 打开一个新的绘图设备
+
+# 定义保存图表的文件路径
+output_plot <- "yearly_trend_plot.png"
+
+# 创建图表
+plot <- ggplot(yearly_counts, aes(x = year, y = count, group = 1)) +
+  geom_line(color = "steelblue", size = 1) +
+  geom_point(color = "navy", size = 1) +
+  labs(
+    title = "Aging Population Coverage Trend (TF-IDF Filtered)",
+    x = "Year",
+    y = "Relevant Articles"
+  ) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+  theme_minimal()
+
+# 显示图表
+print(plot)
+
+# 保存图表
+ggsave(output_plot, plot = plot, width = 8, height = 6, dpi = 300)
+
+# 打印确认信息
+print(paste("Plot saved to:", output_plot))
