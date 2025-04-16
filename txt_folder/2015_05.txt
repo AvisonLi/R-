@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Substance Use & Misuse, 50:1660–1667, 2015
 Copyright C  Taylor & Francis Group, LLC
 ISSN: 1082-6084 print / 1532-2491 online
@@ -686,4 +687,694 @@ treatment in opioid dependence. The Lancet, 353(9148),
 Copyright of Substance Use & Misuse is the property of Taylor & Francis Ltd and its content
 may not be copied or emailed to multiple sites or posted to a listserv without the copyright
 holder's express written permission. However, users may print, download, or email articles for
+=======
+Substance Use & Misuse, 50:1660–1667, 2015
+Copyright C  Taylor & Francis Group, LLC
+ISSN: 1082-6084 print / 1532-2491 online
+DOI: 10.3109/10826084.2015.1027929
+ORIGINAL ARTICLE
+Demographic Trends of Adults in New York City Opioid Treatment
+Programs—An Aging Population
+Benjamin Han1, Soteri Polydorou2,3, Rosie Ferris1, Caroline S. Blaum1, Stephen Ross3
+and Jennifer McNeely2,4
+1Division of Geriatric Medicine and Palliative Care, New York University School of Medicine, New York, New York,
+USA; 2Department of Medicine, NYU Medical Center, New York, New York, USA; 3Department of Psychiatry, New York
+University School of Medicine, New York, New York, USA; 4Department of Population Health, NYU School of Medicine,
+New York, New York, USA
+Background: The population of adults accessing opioid
+treatment is growing older, but exact estimates vary
+widely, and little is known about the characteristics
+of the aging treatment population. Further, there has
+been little research regarding the epidemiology, healt
+h status, and functional impairments in this population.
+Objectives: To determine the utilization of opioid
+treatment services by older adults in New York City.
+Methods: This study used administrative data from
+New York State licensed drug treatment programs to
+examine overall age trends and characteristics of older
+adults in opioid treatment programs in New York City
+from 1996 to 2012. Results: We found significant increases
+in utilization of opioid treatment programs by
+older adults in New York City. By 2012, those aged
+50–59 made up the largest age group in opioid treatment
+programs. Among older adults there were notable
+shifts in demographic background including gender
+and ethnicity, and an increase in self-reported impairments.
+Conclusions/Importance: More research is
+needed to fully understand the specific characteristics
+and needs of older adults with opioid dependence.
+Keywords geriatrics, older adults, opioid dependence,
+methadone, geriatric conditions
+INTRODUCTION
+Opioid dependence is a chronic condition characterized
+by periods of relapse, and accompanied by physical and
+mental health problems and social marginalization. The
+aging baby-boomer cohort has high rates of substance
+use (Patterson & Jeste, 1999) that will place increasing
+demands and costs (Rosen, Heberlein, & Engel, 2013)
+on the substance abuse treatment system, particularly for
+Address correspondence to Benjamin Han, Division of Geriatric Medicine and Palliative Care, New York University School of Medicine, 550 First
+Avenue, BCD 615, New York, NY 10016, USA; E-mail: benjamin.han@nuymc.org
+long-term treatment of opioid dependence. Small studies
+have found that older adults in methadone maintenance
+treatment (MMT) have higher rates of mental health disorders
+along with more medical problems, and general
+poorer health status compared to younger patients, as well
+as premature mortality (Firoz & Carlson, 2004; Lofwall,
+Brooner, Bigelow, Kindbom, & Strain, 2005; Rosen,
+Smith, & Reynolds, 2008; Fareed, Casarella, Amar, Vayalapalli,
+& Drexler, 2009; Jimenez-Trevino et al., 2011).
+However, there has been little research regarding the epidemiology
+of older adults with opioid dependence, and
+little discussion of the models for health care delivery for
+this population. Furthermore, there is no research to date
+regarding the prevalence of geriatric conditions or cognitive
+and physical impairments among older adults in opioid
+treatment.
+Recent years have seen a nationwide increase in the
+proportion of older adults entering substance abuse treatment
+programs (Arndt, Clayton, & Schultz, 2011). We
+also know that drug use patterns for older adults are
+changing; there has been an increase in admissions to
+substance abuse treatment for illicit drug use (Loftwall
+et al., 2005; Substance Abuse and Mental Health Services
+Administration, 2010) and increased injection drug use
+(Substance Abuse and Mental Health Services Administration,
+2011) for adults over the age of 50. Much of what
+we know about individuals in opioid treatment comes
+from the treatment episode dataset (TEDS) which is collected
+and managed by the Office ofApplied Studies, Substance
+Abuse and Mental Health Services Administration.
+TEDS collects admission information for individuals admitted
+to substance abuse treatment facilities that receive
+state or federal funding. While TEDS captures data from
+the majority of treatment programs in the United States,
+one limitation of the TEDS data is that it only includes
+1660
+OLDER ADULTS IN NEW YORK CITY OPIOID TREATMENT PROGRAMS 1661
+information on treatment admissions, and thus may not
+fully capture utilization of substance abuse treatment over
+time. Furthermore, studies that use TEDS data to examine
+aging trends are limited by defining an older adult as
+age greater than 50 or 55 (Lofwall et al., 2005; Substance
+Abuse and Mental Health Services Administration, 2010;
+Substance Abuse and Mental Health Services Administration,
+2011).While it may be reasonable to use a lower age
+cut off to define “geriatric” in this population given the
+possible association of premature mortality with drug dependence
+(Neumark, Van Etten, & Anthony, 2000) it may
+not fully demonstrate how this population is aging.
+Given the lack of research regarding older adults with
+opioid dependence and the limitations of existing data, we
+analyzed age trends for New York City opioid treatment
+programs from 1996–2012, with an emphasis on older
+adults. Our purpose was to examine age trends of adults
+utilizing opioid treatment programs in New York City.We
+also characterize basic demographic, self-reported other
+substance use, and self-reported physical impairments.
+We chose to study the treatment population in New York
+City because it has one of the largest methadone treatment
+systems in the United States and has consistently provided
+access to treatment in the public system. Furthermore, the
+data collected by New York State’s Office of Alcoholism
+and Substance Abuse Services (OASAS) provides more
+descriptive information on the treatment population than
+what is available nationally through the TEDS dataset.
+MATERIALS AND METHODS
+This paper presents a descriptive analysis of aging trends,
+characteristics, and utilization of opioid treatment programs
+by older adults in New York City. We used the
+Client Data System (CDS), which is an administrative
+dataset of the New York State Department of Health,
+OASAS. OASAS provided aggregate data from the CDS
+for this study. The study was exempted from IRB review
+by the New York University School of Medicine’s Institutional
+Review Board, and approved by OASAS.
+Client Data System
+The CDS tracks all admissions, discharges, and updated
+annual status of patients in New York State licensed drug
+treatment programs. The CDS gathers all data using a
+standardized form. It collects demographic information
+including sex, date of birth, and race or ethnicity. The
+CDS collects information on substance use behaviors,
+broken down by primary, secondary, and tertiary substances
+used, including drugs and alcohol. Other opiates
+besides heroin include the self-reported choices of nonprescription
+methadone, buprenorphine, oxycodone, and
+other opiate/synthetics. The CDS also collects information
+on self-reported physical impairments including hearing,
+sight, and mobility through yes/no questions. All data
+in the CDS is self-reported by patients to treatment program
+staff, who enter it into the centralized database.
+Data Analysis
+Included in this analysis were data for adults in opioid
+treatment programs, which are defined in the dataset
+as programs providing MMT, buprenorphine treatment,
+and/or psychosocial treatment for opioid dependence.
+Data were examined for each year from 1996 to 2012.
+Cases were limited to adults residing within the five boroughs
+of New York City.
+For each calendar year, we used aggregate data from
+all unique individuals who received opioid treatment services
+throughout that year. To be enrolled in opioid treatment
+services, opioid use must be reported as the primary
+substance used. The calculated age of individuals in the
+dataset was based on their age on the first day of each calendar
+year. For individuals who receivedmultiple services
+throughout the year, only the cross-sectional data from
+the first admission or service of the calendar year for that
+individual were used. Demographic information is determined
+at the individual’s initial treatment admission and,
+therefore, remains the same throughout each year that they
+are in treatment. For example, for an individual who entered
+treatment in 1995, and remained in treatment continuously
+until 2012, their age for each year was estimated
+by their age on the first day of each calendar year. The
+individual’s other demographic information will be from
+the initial admission form in 1995.
+To ensure that data are confidential and no unique patient
+identifiers are released, OASAS does not release data
+for categories having less than 10 individuals. Therefore,
+when one category or variable had less than 10 individuals,
+it was determined to be too small to report, and it necessitated
+removing information for all categories within
+that group. The aggregate data was created by OASAS
+using the default settings from SAS (Statistical Analysis
+Software) with the PROC TABULATE procedure utilized
+for missing values, which applied only for the physical
+impairment variables and did not impact other variables
+analyzed. Other categories, such as tobacco use, were not
+examined because data were not collected prior to 2009,
+and therefore were not complete for the majority of individuals
+in our analysis.
+To examine age trends we used age groups of ≤40,
+41–49, 50–59, 60–69, and ≥70. For patient characteristics
+including sex, race and ethnicity, primary and secondary
+substance used, and impairments we examined those aged
+50–59, those ≥60, and all ages.
+RESULTS
+A total of 37,038 unique adult individuals received opioid
+treatment in New York City in 1996. Over subsequent
+years, the treatment population increased to a peak
+of 40,328 adults in 2003 and since then has declined to
+34,270 adults in 2012. As illustrated in Figure 1, we observed
+a pronounced age trend in this population from
+1996 to 2012, with adults aged 50 and higher becoming
+the majority treatment population. Specifically, individuals
+aged 50–59 increased from 2,892 (7.8% of total patients)
+to 12,301 (35.9% of total patients); for patients
+1662 B. HAN ET AL.
+FIGURE 1. Percentage of patients in NYC opioid treatment programs
+by age range (1996–2012).
+aged 60–69, there was an increase from 558 (1.5% of total
+patients) to 4,099 (12.0% of total patients); and for patients
+≥70, an increase from 65 (0.2% of total patients)
+to 370 (1.1% of total patients). During the same period,
+those aged ≤40 decreased from 20,804 (56.2% of total
+patients) to 7,035 (20.5% of total patients). In 2012, those
+aged 50–59 made up the largest age group in opioid treatment
+programs.
+Table 1 describes the demographic characteristics of
+older adults in opioid treatment (age 50–59 and age >60),
+and of the general opioid treatment population, over time.
+In the older adult population, the proportion of females increased
+from 1996 to 2012 (a 10.7% increase in the 50–59
+group and a 3.8% increase in the≥60 group).During these
+same years, the proportion of female patients declined in
+the general treatment population (a 2.8% decrease).
+There were also notable shifts in terms of race and
+ethnicity. During this period, older adults over the age
+of 60 were increasingly white (an increase of 10.3%)
+with a decrease in black patients (a decrease of 13.8%).
+Meanwhile, for Hispanics there was a small increase from
+35.0% in 1996 to 38.8% in 2012. These trends, however,
+were different for those aged 50–59. In this age group,
+there were smaller decreases in both the white (3.5%) and
+black (5.9%) populations, and a larger increase in Hispanic
+patients (9.2%). For all age groups, the white population
+remained steady (0.4%) with a decrease in black patients
+(3.5%) and an increase in Hispanic patients (3.4%)
+during the same time period.
+Substance Use Characteristics
+Table 2 shows that from 1996 to 2012 the predominant
+primary substance used on admission for all individuals
+in opioid treatment programs was heroin. However, there
+was a small rise in the use of other opiates as the primary
+substance used for all age groups.
+Table 2 also shows the prevalence of secondary substances
+used within each age group. The majority of patients
+reported use of a secondary drug. The use of cocaine
+was overwhelmingly the most frequently reported secondary
+substance. In each year, more than 30% of adults
+in all age groups reported upon treatment admission that
+they used cocaine. There were small increases during this
+period in all age groups of reported use of alcohol and
+marijuana at the time of treatment admission.
+Self-Reported Physical Impairments
+In each year, older individuals had consistently higher percentages
+of sight and mobility impairments compared to
+other age ranges. Data were not available for self-reported
+hearing impairments for those ≥60, but there was a slight
+increase in those with self-reported hearing impairment
+for those 50–59 and all ages from 1996 to 2012. The overall
+percentages for hearing impairment appear similar in
+2012 with 2.3% for the 50–59 age range, and 2.1% for all
+age groups.
+Sight and mobility impairments increased for all age
+groups from 1996 to 2012. For vision impairment, there
+were increases for all age groups from 1.1% to 4.5% and
+those aged 50–59 from 2.0% to 5.3% during this same
+time period. Vision impairment increased more for older
+adults with those ≥60 from 2.4% in 1996 to 6.0% in 2012.
+The most prevalent self-reported impairment was in mobility.
+For all age groups, there was an increase in mobility
+impairment from 2.3% in 1996 to 6.8% in 2012 and those
+aged 50–59 from 4.4% in 1996 to 8.6% in 2012. Mobility
+impairment increased more for older adults with those
+≥60 from 5.1% to 10.7% during this same time period.
+DISCUSSION
+Contrary to popular perception, the social and health impacts
+of opioid dependence are not limited to younger
+adults, and are increasingly affecting older populations.
+Opioid dependence is a chronic condition that often needs
+life-long treatment, and therefore many individuals who
+are currently in treatment will remain in treatment as they
+age.
+Our study of adults in New York City opioid treatment
+programs shows a striking increase in the proportion of
+older patients in treatment. In 1996, the majority of adults
+in opioid treatment were less than 40 years of age, while
+in 2012, the majority age group in opioid treatment were
+those 50–59, with large increases in those over the age
+of 60. In the aging treatment population, older patients
+had more self-reported physical impairments. This aging
+trend will likely continue into the next decade. The increasing
+age of this population in opioid treatment programs,
+such as methadone treatment, may demonstrate the
+value of such treatment for preserving health. Death rates
+are very high in the untreated opioid dependent population,
+six times that of an age-matched sample in a British
+study (Gossop, Stewart, Treacy, & Marsden, 2002), and
+data supports that methadone treatment reduces mortality
+(Clausen, Anchersen, & Waal, 2008).
+The CDS data also highlights trends in substances used
+by this older population in opioid treatment. There appears
+to be a small but consistent change in the type of primary
+opioid used, with increased reporting of non-heroin
+and prescription opioid use since 1996. There is also a
+high percentage of multiple drug use by older adults in
+OLDER ADULTS IN NEW YORK CITY OPIOID TREATMENT PROGRAMS 1663
+TABLE 1. Characteristics of older adults enrolled in opioid treatment programs from 1996 to 2012
+Characteristic Age 1996 (n = 37,038) 2000 (n = 39,760) 2004 (n = 39,899) 2008 (n = 36,949) 2012 (n = 34,270)
+% change between
+1996–2012
+Age group ≤ 40 56.2% (n = 20, 804) 44.5% (n = 17, 705) 34.4% (n = 13, 744) 25.1% (n = 9, 259) 20.5% (n = 7, 035) −35.7%
+41–49 34.4% (n = 12, 719) 39.1% (n = 15, 561) 38.0% (n = 15, 143) 35.8% (n = 13, 210) 30.5% (n = 10, 465) −3.9%
+50–59 7.8% (n = 2, 892) 14.1% (n = 5, 617) 23.9% (n = 9, 524) 32.1% (n = 11, 874) 35.9% (n = 12, 301) 28.1%
+60–69 1.5% (n = 558) 1.9% (n = 772) 3.3% (n = 1, 327) 6.4% (n = 2, 367) 12.0% (n = 4, 099) 10.5%
+≥ 70 0.2% (n = 65) 0.3% (n = 105) 0.4% (n = 161) 0.6% (n = 239) 1.1% (n = 370) 0.9%
+Gender
+Male 50–59 77.6% (n = 2, 245) 75.5% (n = 4, 241) 71.2% (n = 6, 780) 68.2% (n = 8, 094) 66.9% (n = 8, 226) −10.7%
+60 and older 78.7% (n = 490) 80.5% (n = 706) 79.5% (n = 1, 183) 78.7% (n = 2, 050) 74.9% (n = 3, 349) −3.8%
+All ages 65.9% (n = 24, 391) 66.2% (n = 26, 309) 67.7% (n = 27, 011) 68.6% (n = 25, 351) 68.7% (n = 23, 538) 2.8%
+Female 50–59 22.4% (n = 647) 24.5% (n = 1, 376) 28.8% (n = 2, 744) 31.8% (n = 3, 780) 33.1% (n = 4, 075) 10.7%
+60 and older 21.3% (n = 133) 19.5% (n = 171) 20.5% (n = 305) 21.3% (n = 556) 25.1% (n = 1, 120) 3.8%
+All ages 34.1% (n = 12, 647) 33.8% (n = 13, 451) 32.3% (n = 12, 888) 31.4% (n = 11, 598) 31.3% (n = 10, 732) −2.8%
+White 50–59 19.8% (n = 573) 22.6% (n = 1, 272) 22.3% (n = 2, 126) 19.6% (n = 2, 327) 16.3% (n = 2, 007) −3.5%
+60 and older 10.8% (n = 67) 13.5% (n = 118) 17.0% (n = 253) 21.0% (n = 546) 21.1% (n = 945) 10.3%
+All ages 21.0% (n = 7, 781) 20.9% (n = 8, 310) 19.5% (n = 7, 780) 19.8% (n = 7, 305) 20.6% (n = 7, 050) −0.4%
+Black 50–59 39.1% (n = 1, 131) 38.4% (n = 2, 155) 37.7% (n = 3, 593) 36.2% (n = 4, 301) 33.2% (n = 4, 089) −5.9%
+60 and older 51.7% (n = 322) 45.5% (n = 399) 42.1% (n = 626) 37.2% (n = 969) 37.9% (n = 1, 693) −13.8%
+All ages 27.9% (n = 10, 349) 26.8% (n = 10, 675) 25.8% (n = 10, 310) 25.0% (n = 9, 243) 24.4% (n = 8, 373) −3.5%
+Hispanic 50–59 39.3% (n = 1, 137) 37.5% (n = 2, 105) 37.9% (n = 3, 606) 42.5% (n = 5, 044) 48.5% (n = 5, 966) 9.2%
+60 and older 35.0% (n = 218) 39.8% (n = 349) 39.4% (n = 586) 40.6% (n = 1, 057) 38.8% (n = 1, 734) 3.8%
+All ages 49.0% (n = 18, 167) 50.5% (n = 20, 098) 52.6% (n = 20, 971) 53.4% (n = 19, 722) 52.4% (n = 17, 955) 3.4%
+Other 50–59 1.8% (n = 51) 1.5% (n = 85) 2.1% (n = 199) 1.7% (n = 202) 1.9% (n = 239) 0.1%
+60 and older 2.6% (n = 16) 1.3% (n = 11) 1.5% (n = 23) 1.3% (n = 34) 2.2% (n = 97) −0.4%
+All ages 2.0% (n = 741) 1.7% (n = 677) 2.1% (n = 838) 1.8% (n = 679) 2.6% (n = 892) 0.6%
+1664 B. HAN ET AL.
+TABLE 2. Primary substance used and other substances used of older adults enrolled in opioid treatment programs from 1996–2012
+Age 1996 2000 2004 2008 2012
+Primary substance used
+Heroin 50—59 98.2% (n = 2, 839) 97.7% (n = 5, 490) 97.8% (n = 9, 318) 97.9% (n = 11, 629) 97.8% (n = 12, 032)
+60 and older 98.1% (n = 611) 98.1% (n = 860) 98.1% (n = 1, 460) 97.3% (n = 2, 535) 97.2% (n = 4, 342)
+All ages 98.3% (n = 36, 406) 98.5% (n = 39, 160) 98.6% (n = 39, 337) 98.4% (n = 36, 341) 97.3% (n = 33, 361)
+Other opiates 50—59 1.8% (n = 53) 2.3% (n = 127) 2.2% (n = 206) 2.1% (n = 245) 2.2% (n = 269)
+60 and older 1.9% (n = 12) 1.9% (n = 17) 1.9% (n = 28) 2.7% (n = 71) 2.8% (n = 127)
+All ages 1.7% (n = 632) 1.5% (n = 600) 1.4% (n = 562) 1.6% (n = 608) 2.7% (n = 909)
+Secondary substance used
+None 50—59 38.0% (n = 1, 100) 43.2% (n = 2, 429) 44.3% (n = 4, 218) 42.3% (n = 5, 024) 41.2% (n = 5, 067)
+60 and older ∗ ∗ ∗ 46.5% (n = 1, 212) 44.8% (n = 2, 001)
+All ages 40.7% (n = 15, 072) 46.1% (n = 18, 315) 45.4% (n = 18, 112) 40.9% (n = 15, 119) 38.7% (n = 13, 247)
+Cocaine-Crack 50—59 43.3% (n = 1, 252) 37.3% (n = 2, 093) 36.1% (n = 3, 440) 37.1% (n = 4, 406) 38.0% (n = 4, 662)
+60 and older ∗ ∗ ∗ 31.9% (n = 832) 34.2% (n = 1, 528)
+All ages 41.6% (n = 15, 400) 35.9% (n = 14, 267) 35.6% (n = 14, 210) 37.9% (n = 14, 018) 37.5% (n = 12, 852)
+Alcohol 50—59 5.3% (n = 154) 6.3% (n = 355) 6.2% (n = 586) 6.9% (n = 815) 7.2% (n = 890)
+60 and older ∗ ∗ ∗ 6.6% (n = 173) 7.3% (n = 327)
+All ages 4.7% (n = 1, 723) 5.8% (n = 2, 298) 5.9% (n = 2, 357) 6.4% (n = 2, 356) 6.7% (n = 2, 310)
+Marijuana-Hashish 50—59 2.7% (n = 77) 2.7% (n = 153) 3.2% (n = 304) 3.7% (n = 440) 4.1% (n = 509)
+60 and older ∗ ∗ ∗ 3.5% (n = 93) 3.7% (n = 164)
+All ages 3.5% (n = 1, 307) 3.8% (n = 1, 518) 4.7% (n = 1, 886) 5.4% (n = 2, 028) 6.7% (n = 2, 288)
+Other opiates 50—59 7.3% (n = 207) 7.4% (n = 401) 6.6% (n = 624) 5.9% (n = 699) 5.6% (n = 691)
+60 and older ∗ ∗ ∗ 7.1% (n = 184) 6.4% (n = 286)
+All ages 6.6% (n = 2, 429) 5.7% (n = 2, 262) 5.2% (n = 2, 064) 5.1% (n = 1, 900) 5.9% (n = 2,033)
+Other or unknown 50—59 2.6% (n = 75) 2.7% (n = 150) 3.1% (n = 297) 3.6% (n = 431) 3.5% (n = 426)
+60 and older ∗ ∗ ∗ 3.7% (n = 97) 3.2% (n = 141)
+All ages 2.3% (n = 842) 2.3% (n = 917) 2.8% (n = 1, 106) 3.8% (n = 1, 405) 4.0% (n = 1, 381)
+Heroin 50—59 < 1% (n = 27) < 1% (n = 36) < 1% (n = 55) < 1% (n = 59) < 1% (n = 56)
+60 and older ∗ ∗ ∗ < 1% (n = 15) < 1% (n = 22)
+All ages < 1% (n = 265) < 1% (n = 183) < 1% (n = 164) < 1% (n = 123) < 1% (n = 159)
+∗Information contains numbers <10 and too small to report for entire category.
+OLDER ADULTS IN NEW YORK CITY OPIOID TREATMENT PROGRAMS 1665
+opioid treatment programs, particularly cocaine use. The
+use of other substances in addition to opioids may have
+profound affects on health and complicate treatment. The
+issue of polysubstance use has not been fully explored in
+this older population.
+This study also shows the diversity of the older opioid
+treatment population in New York City. Since 1996 there
+have been large increases in the Hispanic population receiving
+treatment. This highlights the need to further explore
+health disparities among this population, and how
+to culturally tailor treatment to meet the needs of different
+segments of the population. It is unclear, however, how
+representative this specific population is to other cities in
+the United States.Arecent paper by Cicero et al highlights
+the changing demographics of heroin users in the United
+States as being primarily white, younger, and living outside
+of large metropolitan areas (Cicero, Ellis, Surratt, &
+Kurtz, 2014).While there is nationwide growth of a white
+and younger population of current heroin users, New York
+City continues to serve an aging and majority non-white
+population in opioid treatment programs.
+There are limitations to this study. Similar to the TEDS
+dataset, the CDS data does not fully represent trends
+among the in-treatment population, but rather contains a
+cross-sectional snapshot of the older population in opioid
+treatment programs by year, based on their initial admission
+forms. Therefore, these data fail to capture trends in
+substance use and physical impairments among those who
+remain in treatment over time. The CDS data only captures
+individuals receiving treatment in State licensed specialty
+treatment programs. The characteristics of individuals
+with opioid dependence, who are receiving buprenorphine
+treatment in medical settings, or being treated privately,
+may differ from the CDS population and are not
+represented in this study.
+There was a considerable amount of missing data for
+the physical impairment variables. Data regarding selfreported
+hearing, sight, and mobility impairments on admission
+by age group, as described previously, had many
+missing values particularly in earlier years. In 1996 there
+was 14.0% missing values for self-reported hearing, sight,
+and mobility impairment questions. The number missing
+decreased every year to 2.6% missing values in 2012 for
+all impairment questions. However, the data indicate that
+older patients had increased impairments when compared
+to the general treatment population, in every year.
+Another limitation of the CDS data is its reliance on
+patient self-report, which may have recall and socialdesirability
+biases. The data is collected by program staff,
+which introduces the possibility of varying fidelity in how
+the questionnaire is administered. Finally, the CDS does
+not contain comprehensive information on medical comorbidities,
+which are captured only based on the patient’s
+self report and do not specify a diagnosis, or the
+degree of impairment.
+This study shows that the opioid treatment population
+is aging in New York City. It also highlights that there
+is much we do not understand about this population. The
+CDS only provides a snapshot in time of self-reported demographic,
+substance use, and impairment information.
+Most prior studies have focused on the mental health
+(Lofwall et al., 2005) and selected chronic diseases in
+older adults with opioid dependence in methadone maintenance
+(Fareed et al., 2009; Maruyama, Macdonald, Borycki,
+& Zhao, 2013). There have been no studies on geriatric
+conditions and very little research regarding the epidemiology,
+health status, and specific health needs, as well
+as inconsistent quantitative findings on comorbidities for
+this population (Rosen, Hunsaker, Albert, Cornelius, &
+Reynolds, 2011).
+Prior research indicates that medical comorbidities and
+health behaviors associated with prolonged substance use,
+including the high prevalence of co-occurring tobacco
+use and mental health disorders (Rosen et al., 2008; Fareed
+et al., 2009; Maruyama et al., 2013) can accelerate
+the decline in health and contribute to frailty (D¨ursteler-
+MacFarland, Vogel, Wiesbeck, & Petitjean, 2011; Reece,
+2007). In addition, social conditions including homelessness
+(Fischer&Breakey, 1991; Song, Safaeian, Strathdee,
+Vlahov, & Celentano, 2000), and stigma from society at
+large and fromwithin the health care system may also contribute
+fragmented medical care (Gourevitch, Chatterji,
+Deb, Schoenbaum, & Turner, 2007; Rosen et al., 2011),
+and poorer health outcomes. These factors may dramatically
+contribute to an increase in multiple chronic conditions,
+geriatric conditions, and a decline in function for
+adults with opioid dependence as they age.
+In order to deliver appropriate care for this aging population,
+it is important to understand their specific needs in
+terms of functional health, including cognitive and physical
+function and chronic disease care. Long-term opioid
+replacement therapy with methadone is an effective treatment
+for patients with opioid dependence (Ward, Hall,
+& Mattick, 1999). It has been shown to improve health,
+mental health, and socioeconomic integration (Kleber,
+2008), and documented long-term safety (Novick et al.,
+1993). MMT is typically delivered through MMT programs,
+which have been part of the drug treatment landscape
+for decades. MMT programs, which aggregate an
+aging cohort of adults with multiple chronic conditions,
+and have regular and extended treatment contact longitudinally,
+may be optimally positioned to deliver interventions
+for this population.
+To guide more optimal treatment, using evidence-based
+geriatric care processes including addressing geriatric
+conditions (Cigolle, Langa, Kabeto, Tian,&Blaum, 2007)
+and multiple chronic conditions (Norris et al., 2008) need
+to be implemented for this population. Future research
+should define the unique needs of multiple chronic disease
+management and how to maintain physical and cognitive
+function for middle-aged and older adults with opioid dependence.
+CONCLUSION
+There is an increasing population of older adults in opioid
+treatment programs in New York City. This trend is likely
+to continue into the next decade. This study demonstrates
+the changing characteristics of this older population, and
+identifies areas that should be high priority for further
+1666 B. HAN ET AL.
+study. These include understanding how other substance
+use can complicate care and how to address the changing
+ethnic and racial demographics of this population in New
+York City. Much remains unknown, particularly regarding
+geriatric conditions and physical and cognitive function
+in this population. Future studies are needed to better
+understand the specific and unique health needs of this
+growing population from a geriatric perspective. Furthermore,
+new models of care are needed to address what is
+certain to be increasing levels of morbidity as this population
+ages, further emphasizing importance of integrating
+chronic disease management and care processes with substance
+abuse services.
+ACKNOWLEDGMENT
+Gail Dorn, MS, and Dawn Lambert-Wacey, MA, both of
+the New York State Office of Alcoholism and Substance
+Abuse Services, provided the aggregated dataset used in
+this study and assisted in the editing of the article.
+DECLARATION OF INTEREST
+The authors report no conflicts of interest. The authors
+alone are responsible for the content and writing of the
+article.
+THE AUTHORS
+Benjamin Han, MD, MPH, is
+a geriatrician and researcher at
+the NYU School of Medicine
+in the Division of Geriatric
+Medicine and Palliative Care.
+His research interests include
+older adults, substance use, and
+chronic disease.
+Soteri Polydorou, MD, is
+an internist specializing in
+addiction medicine and clinical
+faculty at the NYU School of
+Medicine. His clinical roles
+include Unit Chief of the Opioid
+Treatment Program, Medical
+Director Primary Care in the
+Division of Alcoholism and
+Substance Abuse, and Clinical
+Director of the Opioid Overdose
+Prevention Program at Bellevue
+Hospital Center.
+Rosie Ferris, MPH, is Research
+Coordinator for the Division of
+Geriatric Medicine and Palliative
+Care at the NYU School of
+Medicine. Her research interests
+include health system redesign,
+specifically coordination of
+primary care, specialty care
+and home- and communitybased
+services to improve health
+outcomes of older adults with
+multimorbidities, as well as
+integration of patient goals into
+care.
+Caroline S. Blaum, MD,
+MS, is the Diane and Arthur
+Belfer Professor of Geriatric
+Medicine and Director of the
+NYU School of Medicine
+Division of Geriatric Medicine
+and Palliative Care. She has
+extensive publications and an
+active research program focusing
+on diabetes, functional disability,
+geriatric conditions, frailty, and
+models of care, particularly in
+regards to complex patients with
+multimorbidity.
+Stephen Ross, MD, is an
+addiction psychiatrist and
+research scientist at the NYU
+School of Medicine. He directs
+the Division of Alcoholism and
+Drug Abuse at Bellevue Hospital
+Center.
+Jennifer McNeely, MD,MS,
+is Assistant Professor at the
+NYU School of Medicine in
+the Department of Population
+Health, and a general internist
+specialized in addiction
+treatment. Her research focuses
+on the implications of substance
+use for individuals and health
+systems, and on improving the
+identification and treatment of
+addiction in general medical
+settings.
+OLDER ADULTS IN NEW YORK CITY OPIOID TREATMENT PROGRAMS 1667
+GLOSSARY
+Geriatric conditions: While they continue to lack one
+commonly accepted definition, have a number of distinguishing
+features that set them apart from other
+health conditions: they tend to appear in old age and
+are most common among vulnerable populations, have
+multiple causes, are many times precipitated by an
+acute event, can be episodic in nature and are commonly
+followed by a decline in functional health. Common
+geriatric conditions include falls and gait disorders,
+cognitive impairment, and frailty.
+REFERENCES
+Arndt, S., Clayton, R., & Schultz, S. K. (2011). Trends in substance
+abuse treatment 1998–2008: increasing older adult first-time admissions
+for illicit drugs. The American Journal of Geriatric
+Psychiatry, 19(8), 704–711.
+Cicero, T. J., Ellis, M. S., Surratt, H. L., & Kurtz, S. P. (2014). The
+Changing Face of Heroin Use in the United States: A retrospective
+analysis of the past 50 years. Journal Of The American Medical
+Association Psychiatry, 71(7):821–826.
+Cigolle, C. T., Langa, K. M., Kabeto, M. U., Tian, Z., & Blaum,
+C. S. (2007). Geriatric conditions and disability: the Health
+and Retirement Study. Annals of Internal Medicine, 147(3),
+156–164.
+Clausen, T., Anchersen, K., & Waal, H. (2008). Mortality prior
+to, during and after opioid maintenance treatement (OMT):
+A national prospective cross-registry study. Drug and Alcohol
+Dependence, 94, 151–157.
+D¨ursteler-MacFarland, K. M., Vogel, M., Wiesbeck, G. A., & Petitjean,
+S. A. (2011). There is no age limit for methadone: a retrospective
+cohort study. Substance abuse treatment, prevention,
+and policy, 6(1), 9.
+Fareed, A., Casarella, J., Amar, R., Vayalapalli, S., & Drexler, K.
+(2009). Benefits of retention in methadone maintenance and
+chronic medical conditions as risk factors for premature death
+among older heroin addicts. Journal of Psychiatric Practice,
+15(3), 227–234.
+Firoz, S., & Carlson, G. (2004). Characteristics and treatment outcome
+of older methadone-maintenance patients. The American
+journal of Geriatric Psychiatry, 12(5), 539–541.
+Fischer, P. J., & Breakey, W. R. (1991). The epidemiology of alcohol,
+drug, and mental disorders among homeless persons. The
+American Journal of Psychology, 46,1115–1128.
+Gossop, M., Stewart, D., Treacy, S., & Marsden, J. (2002). Addiction,
+97(1):39–47.
+Gourevitch, M. N., Chatterji, P., Deb, N., Schoenbaum, E. E.,
+Turner, B. J. (2007). Journal of Substance Abuse Treatment,
+32(2):143–151.
+Jimenez-Trevi˜no, L., Saiz, P. A., Garc´ıa-Portilla, M. P., D´ıaz-Mesa,
+E. M., S´anchez-Lasheras, F., Bur´on, P., . . .&Bobes, J. (2011).A
+25-year follow-up of patients admitted to methadone treatment
+for the first time: mortality and gender differences. Addictive
+Behaviors, 36(12), 1184–1190.
+Kleber, A., HD. (2008). Methadone maintenance 4 decades later:
+thousands of lives saved but still controversial. journal Of The
+American Medical Association, 300(19):2303–2305.
+Lofwall, M. R., Brooner, R. K., Bigelow, G. E., Kindbom, K.,
+& Strain, E. C. (2005). Characteristics of older opioid maintenance
+patients. Journal of Substance Abuse Treatment, 28(3),
+265–272.
+Maruyama, A., Macdonald, S., Borycki, E., & Zhao, J. (2013).
+Hypertension, chronic obstructive pulmonary disease, diabetes
+and depression among older methadone maintenance patients
+in British Columbia. Drug and Alcohol Review, 32(4),
+412–418.
+Neumark, Y. D., Van Etten, M. L., & Anthony, J. C. (2000). “Drug
+Dependencexy2 and Death: Survival Analysis of the Baltimore
+ECA Sample from 1981 to 1995. Substance Use & Misuse,
+35(3), 313–327.
+Norris, S. L., High, K., Gill, T. M., Hennessy, S., Kutner, J. S.,
+Reuben, D. B., . . . & Landefeld, C. S. (2008). Health care for
+older Americans with multiple chronic conditions: a research
+agenda. Journal of the American Geriatrics Society, 56(1),
+149–159.
+Novick, D. M., Richman, B. L., Friedman, J. M., Friedman,
+J. E., Fried, C., Wilson, J. P., . . . & Kreek, M. J. (1993).
+The medical status of methadone maintenance patients in
+treatment for 11–18 years. Drug Alcohol Depend, 33(3):
+235–45.
+Patterson, T. L., & Jeste, D. V. (1999). The potential impact of the
+baby-boom generation on substance abuse among elderly persons.
+Psychiatric Services, 50(9), 1184–1188.
+Reece, A. S. (2007). Evidence of accelerated ageing in clinical
+drug addiction from immune, hepatic andmetabolic biomarkers.
+Immun Ageing, 4(6),.
+Rosen, D., Heberlein, E., & Engel, R. J. (2013). Older adults and
+substance-related disorders: Trends and associated costs. ISRN
+Addiction, 2013, article 905368.
+Rosen, D., Hunsaker, A., Albert, S. M., Cornelius, J. R., &
+Reynolds III, C. F. (2011). Characteristics and consequences
+of heroin use among older adults in the United States: A review
+of the literature, treatment implications, and recommendations
+for further research. Addictive Behaviors, 36(4), 279–
+285.
+Rosen, D., Smith, M. L., & Reynolds III, C. F. (2008). The prevalence
+of mental and physical health disorders among older
+methadone patients. The American Journal of Geriatric Psychiatry,
+16(6), 488–497.
+Song, J. Y., Safaeian,M., Strathdee, S. A., Vlahov, D.,&Celentano,
+D. D. (2000). The prevalence of homelessness among injection
+drug users with and without HIV. Journal of Urban Health, 77,
+678–87.
+Substance Abuse and Mental Health Services Administration,
+Center for Behavioral Health Statistics and Quality. (December
+1, 2011). The TEDS Report: Injection Drug Abuse Admissions
+to Substance Abuse Treatment: 1992 and 2009. Retrieved from
+http://www.samhsa.gov/data/2k11/WEB TEDS 012/Injection
+Drug Abuse.pdf
+Substance Abuse and Mental Health Services Administration,
+Office of Applied Studies. (June 17, 2010). The TEDS
+Report: Changing Substance Abuse Patterns among older
+Admissions: 1992 and 2008. Retrieved from http://www.
+samhsa.gov/data/2k10/229/229OlderAdms2k10Web.pdf
+Ward, J., Hall, W., & Mattick, R. P. (1999). Role of maintenance
+treatment in opioid dependence. The Lancet, 353(9148),
+221–226.
+Copyright of Substance Use & Misuse is the property of Taylor & Francis Ltd and its content
+may not be copied or emailed to multiple sites or posted to a listserv without the copyright
+holder's express written permission. However, users may print, download, or email articles for
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
 individual use.

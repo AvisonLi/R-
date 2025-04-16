@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 715
 © The Author(s) 2018. Published by Oxford University Press on behalf of Entomological Society of America.
 All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.
@@ -881,4 +882,889 @@ Zahiri, B., Y. Fathipour, M. Khanjani, S. Moharramipour, and M. P. Zalucki.
 Hypera postica (Coleoptera: Curculionidae): picking the best model.
 Environ. Entomol. 39: 177–189.
 724 Environmental Entomology, 2018, Vol. 47, No. 3
+=======
+715
+© The Author(s) 2018. Published by Oxford University Press on behalf of Entomological Society of America.
+All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.
+Physiological Ecology
+Novel Temperature-Dependent Development Rate
+Models for Postdiapause Egg Eclosion of Three Important
+Arthropod Pests Found in Commercial Christmas Tree
+Plantations of Southern Québec, Canada
+J.-F. Doherty, J.-F. Guay, and C. Cloutier1
+Département de biologie, Université Laval, 1045 avenue de la Médecine, Ville de Québec, QC, G1V 0A6, Canada, and 1Corresponding
+author, E-mail: conrad.cloutier@bio.ulaval.ca
+Subject Editor: Colin Brent
+Received 16 August 2017; Editorial decision 3 January 2018
+Abstract
+The balsam twig aphid Mindarus abietinus Koch (Hemiptera: Aphididae), the spruce spider mite Oligonychus
+ununguis (Jacobi) (Acari: Tetranychidae), and the pine needle scale Chionaspis pinifoliae (Fitch) (Hemiptera:
+Diaspididae) are three important pests for the Christmas tree industry of Québec, Canada. Temperaturedependent
+development rates for postdiapause overwintering eggs of these species have never been studied
+for populations of southern Québec, where the vast majority of Christmas trees are grown. The accumulation of
+physiological time in growing degree days (GDD) is a standard tool to predict egg eclosion dates for pests, when
+first generation immatures are most vulnerable to insecticidal control. Development rates for postdiapause eggs
+were tested at four or five constant temperatures in the 11–23°C range under controlled conditions, based on
+time before hatching for eggs collected in a balsam fir plantation in late winter. The standard linear model and
+three published nonlinear models were fitted to the data and compared for their ability to estimate key biological
+temperature parameters and to predict development rates of postdiapause eggs. Validation of model predictions
+of egg eclosion time on balsam fir in the field was reasonably accurate using the classical linear model where
+field-accumulated GDD were calculated with a particular interpretation of the average method based on daily
+maximum and minimum temperatures. The linear model could predict mean egg eclosion within around 5 d of
+eclosion dates observed in the field.
+Résumé
+Le puceron des pousses du sapin Mindarus abietinus Koch (Hemiptera : Aphididae), le tétranyque de l’épinette
+Oligonychus ununguis (Jacobi) (Acari : Tetranychidae) et la cochenille des aiguilles du pin Chionaspis pinifoliae
+(Fitch) (Hemiptera : Diaspididae) sont d’importants ravageurs des arbres de Noël au Québec. Le développement des
+oeufs hivernants postdiapausants, en fonction de la température, n’a jamais été étudié pour les populations du sud
+du Québec, où cette culture est concentrée. L’accumulation du temps physiologique en degrés-jours de croissance
+(DJ) est un outil essentiel pour prédire la date d’éclosion des oeufs de ravageurs, alors que les immatures de
+première génération sont vulnérables aux traitements insecticides. Le taux de développement des oeufs hivernants
+a été mesuré en conditions contrôlées pour quatre ou cinq températures constantes dans la gamme 11–23°C,
+calculé selon le temps de développement jusqu’à l’éclosion d’oeufs collectés sur le sapin baumier. Le modèle
+linéaire standard et trois modèles non linéaires publiés ont été évalués pour leur capacité à prédire les paramètres
+biologiques de réponse à la température et le taux de développement. La prédiction de l’éclosion des oeufs sur le
+terrain a été validée avec le calcul du temps physiologique accumulé en DJ avec une interprétation particulière de la
+méthode des moyennes basée sur les températures quotidiennes maximales et minimales, en association avec le
+modèle linéaire. Cela a permis de prédire l’éclosion printanière sur le terrain à environ cinq jours près.
+Key words: temperature, modeling, postdiapause, development, Abies balsamea
+Environmental Entomology, 47(3), 2018, 715–724
+doi: 10.1093/ee/nvy003
+Advance Access Publication Date: 17 February 2018
+Research
+Downloaded from https://academic.oup.com/ee/article/47/3/715/4868565 by Hong Kong Metropolitan University user on 08 April 2025
+Introduction
+Temperature-dependent development in insects and mites is an
+important physiological trait that can strongly influence population
+dynamics, therefore it is often studied for pest management purposes
+(Roy et al. 2002, Trudgill et al. 2005, Sandhu et al. 2010, Moore and
+Remais 2014). Apart from rare exceptions (Heinrich 1974), poikilothermic
+life processes respond to daily temperature fluctuations and,
+on a larger time scale, to seasonal trends in temperature (Speight et al.
+2008). When testing the effects of temperature on arthropod development,
+models can be used to describe this relation and predict pest
+activity. In turn, reasonably accurate models can help reduce the use
+of pesticides and the costs of treatments. For these reasons, this study
+focuses on three conifer arthropods notably considered as pests in
+commercial Christmas tree plantations of southern Québec, Canada.
+The rate of development Rdev for poikilotherms, simply estimated
+as the reciprocal of time (e.g., hours or days) taken to reach maturity
+or to complete specific life stages (Roy et al. 2002), varies systematically
+according to temperatures above freezing and below the tolerable
+maximum (Speight et al. 2008, Moore and Remais 2014). This
+relation has been variously described mathematically first with the
+classical linear model (Ikemoto and Takai 2000, Trudgill et al. 2005)
+and also with several nonlinear models (e.g., Table 1 in Zahiri et al.
+2010). With nonlinear models, the thermal dependence of development
+rates is characterized by three theoretical biological temperature
+parameters: the low and high temperature thresholds (Tmin and
+Tmax), and the optimal temperature (Topt). In this three-parameter
+mathematical representation, the Rdev is nil at Tmin, increases in a
+quasilinear fashion between Tmin and Topt where, rather than increasing
+further linearly, it is maximal and plummets rapidly to become
+nil again at Tmax (Brière et al. 1999, Trudgill et al. 2005, Paaijmans
+et al. 2013).
+For Christmas tree growers targeting timely control of pests
+during their most vulnerable development stages, thermal requirements
+are most easily approximated using physiological time or time
+needed to develop at temperatures above threshold, expressed as
+growing degree days (GDD), which is derived from the linear model.
+This time is assumed to be fixed for a given life stage and is thus
+often reported as a ‘thermal constant’ (K), directly obtained using
+the reciprocal of the slope from the linear model (Ikemoto and Takai
+2000, Trudgill et al. 2005). The linear model can provide an accurate
+prediction of emergence for a target pest stage if field temperatures
+generally fall within the intermediate viable range below Topt,
+where development rate is linearly related to temperature or nearly
+so (Bergant and Trdan 2006). The most commonly used method to
+calculate the amount of GDD accumulated daily is based on the difference
+between the mean temperature, calculated from the maximum
+and minimum, and the development threshold (McMaster
+and Wilhelm 1997). In practice, the linear model-based prediction
+for the occurrence of a final step (e.g., egg eclosion) is based simply
+on cumulative daily GDD to reach the specific thermal constant of
+the development stage of interest. Thus, for linear modeling in pest
+monitoring, Tmin and K are needed along with temperatures that generally
+represent those experienced by arthropods in the field, in order
+to predict when a pest completes a given life stage.
+From the many nonlinear models available, some are more commonly
+used than others to model temperature-dependent development
+rates in poikilotherms (Roy et al. 2002). Although they do not
+estimate a thermal constant like the linear model, they could also
+be used in modeling and provide three critical temperature parameters
+(i.e., Tmin, Topt, and Tmax), which are useful for quantifying the
+thermal limits of the organism at a particular stage. The Hilbert
+and Logan, Lactin-2, and Kontodimas-16 models tested here can
+estimate all three parameters mentioned above (Hilbert and Logan
+1983, Lactin et al. 1995, Kontodimas et al. 2004). These nonlinear
+models account for the curvilinear nature of development rates for
+the whole range of temperatures, including limiting ones near the
+thresholds for the studied species.
+In commercial Christmas tree plantations, the balsam twig aphid
+Mindarus abietinus Koch (Hemiptera: Aphididae) is an important
+pest of balsam fir Abies balsamea (L.) Miller (Pinaceae) and Fraser
+fir Abies fraseri (Pursh) Poiret (Pinaceae) (Nettleton and Hain 1982,
+Bradbury and Osgood 1986, Fondren and McCullough 2003). Its
+life cycle is complex and begins in the spring with the asexual fundatrix,
+or stem mother, which emerges from an overwintering egg in
+early May in southern Québec (Deland et al. 1998, Doherty et al.
+2017). When fir buds break open, developing aphids of this first generation,
+which up to bud break had fed on shoots of the previous
+year, migrate onto the young current-year shoots to feed, where they
+mature and viviparously produce the second generation of aphids,
+thus forming a colony (Varty 1968). The growing colony stunts the
+growth of shoots and deforms their needles, thus creating a pseudogall,
+which protects the aphid colony, but reduces the aesthetic
+value of commercial Christmas trees, especially during the last 2 yr
+before tree harvest (Nettleton and Hain 1982). Therefore, insecticidal
+treatments against M. abietinus should be most effective before
+the migration of the immature stem mothers onto the newly expanding
+shoots, when they are most exposed (Kleintjes 1997). Estimates
+of M. abietinus for Tmin and K for egg eclosion are available for
+New Brunswick, Canada and southern Québec (Varty 1968, Deland
+et al. 1998), but are based primarily on field observations (Table 1),
+instead of determination under controlled conditions at experimentally
+fixed temperatures, as usually indicated (Brière et al. 1999, Roy
+et al. 2002, Trudgill et al. 2005).
+The spruce spider mite Oligonychus ununguis (Jacobi) (Acari:
+Tetranychidae) is also considered a pest in commercial Christmas
+tree plantations, especially on Fraser fir (Boyne and Hain 1983,
+Table 1. Previous estimates of physiological time required for egg eclosion of three arthropod species overwintering as diapause eggs on
+fir. GDD estimates assume that development rates increase linearly with temperature
+Species Estimate of thermal constant over
+development threshold
+Estimation method (source)
+Mindarus abietinus 95 GDD over 2°C Field observations only (Deland et al. 1998)
+Oligonychus ununguis 143.3 GDD over 7.1°C One experimental temperature tested (Richmond
+and Shetlar 1996)
+Chionaspis pinifoliae 136.0 GDD over 10.8°Ca Eight experimental temperatures tested (Burden
+and Hart 1989)
+aGDD model for C. pinifoliae egg development based solely on hatching time at a constant 18.5°C (threshold estimated between 10.8°C and 11.8°C); first
+generation.
+716 Environmental Entomology, 2018, Vol. 47, No. 3
+Downloaded from https://academic.oup.com/ee/article/47/3/715/4868565 by Hong Kong Metropolitan University user on 08 April 2025
+Richmond and Shetlar 1996, Cloutier et al. 2009). In southern
+Québec, its life cycle typically begins in mid-May when first-generation
+mites emerge from overwintering eggs (Cloutier et al. 2009).
+The larvae and nymphs feed by sucking out the cellular contents
+of fir needles, which causes the yellowing and bronzing of foliage
+(Kielczewski 1966). During severe infestations of O. ununguis on
+fir, needle abscission, reduction in shoot growth, and even premature
+death of the host tree can occur (Löytteniemi 1971, Johnson
+and Lyon 1991). Relatively warm and dry conditions increase the
+fecundity of females, and four to five generations may be observed
+from late spring to early fall in southern Québec (Boyne and Hain
+1983, Cloutier et al. 2009). As for the balsam twig aphid, the
+period for optimal control of O. ununguis rests just after the larvae
+of the first generation have emerged from the overwintering
+eggs. A thermal constant for overwintering egg hatching is available
+for populations of O. ununguis in Ohio (Table 1) (Richmond
+and Shetlar 1996).
+As for the pine needle scale Chionaspis pinifoliae (Fitch)
+(Hemiptera: Diaspididae), its presence is commonly reported not
+only on both balsam and Fraser firs in commercial Christmas tree
+plantations but also on other ornamental pine and spruce conifer
+species (Miller et al. 2005). In Québec, C. pinifoliae has the status of
+an emerging pest of Christmas trees and is not known to cause any
+significant damage. Although not generally monitored by growers,
+it can be an obstacle for exportation. In Canada, it is a univoltine
+species, whereas in the United States, a second generation has been
+observed (Cumming 1953, Nielsen and Johnson 1973). Both sexual
+and parthenogenetic forms have been documented (Stimmann 1969,
+Luck and Dahlsten 1974). Typically, the hatching of overwintering
+eggs occurs around mid-June, after which the mobile crawlers settle
+rapidly on the needles to pursue development and secrete their protective
+scale (Cumming 1953, Martel and Sharma 1968), thus limiting
+the time window when these insects are exposed and vulnerable
+to insecticide treatments. GDD models and thermal response data
+exist for the pine needle scale (Table 1), but are based on populations
+in Iowa and Michigan, USA (Burden and Hart 1989, Fondren and
+McCullough 2005).
+The objective of this study was to test the effect of temperature
+on postdiapause egg development rates for populations of M. abietinus,
+O. ununguis, and C. pinifoliae in southern Québec. Also, we
+aimed to develop practical models to estimate thermal requirements
+(i.e., physiological time) for egg eclosion and associated temperature
+parameters (Tmin, Topt, Tmax, and K) for all three species. We hypothesize
+that the available thermal constants previously estimated
+for these arthropod pests are not representative of the populations
+found in southern Québec. Optimizing development models for local
+populations of these species could provide a better understanding of
+the effects of climate on spring hatching and facilitate their control,
+thus maximizing the efficacy of pesticide treatments and reducing
+their frequency in commercial Christmas tree plantations.
+Materials and Methods
+Sample Collection and Experimental Arenas
+Eggs from M. abietinus and O. ununguis were collected on balsam
+fir shoots in a commercial Christmas tree plantation (45.905°N,
+71.036°W) near the municipality of Courcelles, in the Estrie administrative
+region of southern Québec, Canada. Samples were collected
+on the 6-III-2017, 13-III-2017, and 20-III-2017, when fir trees were
+still partially covered with snow. Since development rates calculated
+from all three collection dates did not vary significantly and only
+a small number of eggs were collected at each date, all data were
+pooled for analysis. Shoots (n = 200) were randomly cut in a plot
+of ~675 trees (i.e., 15 rows of 45 trees), from their southern side.
+To avoid premature development within the egg after collection, all
+samples were kept at ~2°C, assumed to be near Tmin, until examined
+in the laboratory. When an egg was found, the shoot was cut down
+to about 1 cm in length and the needles were carefully removed with
+a razor blade. Shoot sections with eggs were placed in 2-ml microtubes
+(Starstedt AG & Co., Nümbrecht, North Rhine-Westphalia,
+Germany) with small holes pierced through the lid for air circulation.
+For manipulation purposes, two M. abietinus eggs were put
+into each microtube. Oligonychus ununguis eggs were usually clustered
+onto single shoots, so one randomly selected shoot section,
+containing several eggs, was allotted per microtube. All C. pinifoliae
+eggs were collected on the 13-III-2017 from another plantation
+(45.950°N, 70.923°W) near the municipality of Saint-Évariste-de-
+Forsyth, ~10 km from the first site, from a single-generation parthenogenetic
+form of the scale. Egg clusters, hidden beneath the waxy
+scale, were carefully removed with a fine brush, mixed together, and
+randomly distributed in microtubes (~20 eggs per microtube, see
+above). Throughout the experiment, we ensured that around 10 μl
+of water was kept inside the lid of all microtubes with eggs, in order
+to maintain constant high humidity.
+Preliminary data, obtained in 2015 for a 25°C constant temperature
+regime for M. abietinus and O. ununguis and a fluctuating
+temperature regime for C. pinifoliae (i.e., 16 h at 25°C and 8 h at
+30°C), were used as starting points to estimate the high temperature
+threshold Tmax for nonlinear development rate models. In 2016,
+eggs of all three species were collected similarly in the plantations
+described above on the 4-IV-2016, for a preliminary experiment on
+their developmental response to temperature. Unfortunately, eggs
+were collected too late in 2016 to provide meaningful estimates, but
+these preliminary data provided key information on appropriate collection
+dates and experimental temperatures for the critical experiment
+in 2017.
+Experimental Temperatures
+Experiments on postdiapause development of overwintering eggs
+as a function of temperature were started in March 2017. We used
+Conviron E15 (Controlled Environments Ltd., Winnipeg, Manitoba,
+Canada) growth chambers set to provide a photoperiod of 16:8
+(L:D) h and 65% RH. On the basis of preliminary data (see above),
+five constant temperature regimes (11, 14, 17, 20, and 23°C) were
+used. Only the four higher temperatures were tested for O. ununguis
+due to a limiting number of egg clusters. Experimental temperature
+and relative humidity were recorded hourly inside each growth
+chamber with an HOBO Pro v2 data logger (Onset, Cape Cod, MA,
+USA), which confirmed that experimental temperatures remained
+within ±0.5°C.
+Analytical Methods
+Eggs were inspected daily for hatching and mortality (i.e., failure
+to hatch). The estimated time to egg eclosion was assumed to have
+occurred at midpoint between two consecutive observations (±12-h
+precision). In addition, all unhatched eggs were kept for at least a
+week after the last observed hatch in the growth chamber, in order
+to assure that an accurate rate of survival was recorded.
+Development Rate Models
+Apart from the GDD linear model, three nonlinear development
+rate models, commonly used for illustrating temperature-dependent
+development in poikilotherms (Kontodimas et al. 2004), were tested
+Environmental Entomology, 2018, Vol. 47, No. 3 717
+Downloaded from https://academic.oup.com/ee/article/47/3/715/4868565 by Hong Kong Metropolitan University user on 08 April 2025
+(Table 2). For model selection, two criteria were used (Roy et al.
+2002): first, the model should describe the experimental data accurately,
+therefore the coefficient of determination (R2) and the mean
+squared error (MSE) were compared between nonlinear models; second,
+the model should be able to predict field egg eclosion within
+an acceptable timeframe in order to apply the appropriate control
+measures in a timely fashion in a plantation (Trudgill et al. 2005).
+Field Validation
+To validate development rate models parametrized in the laboratory,
+the appearance of newly hatched immatures for the three species was
+recorded in the field, if present, during three consecutive springs (i.e.,
+from 2015 to 2017) and compared with model predictions. For M. abietinus
+and O. ununguis, ~50 eggs or larvae were examined on shoots in
+the plantations described above on a weekly basis in 2015 and 2016,
+around the time when eggs supposedly hatched in the region, for at
+least 3 wk. For C. pinifoliae, shoots bearing scales were brought to the
+laboratory for closer inspection. In 2017, model predictions for egg
+eclosion of M. abietinus and C. pinifoliae were validated by observing
+shoots collected on the mean hatching day as predicted by the linear
+model. To calculate the accumulation of GDD in the plantation for a
+given day, we used an alternative interpretation of the average method
+(Equation 1) employed primarily in crop research (McMaster and
+Wilhelm 1997, Moore and Remais 2014), which accounts for frequent
+temperature fluctuation around the developmental threshold (Tmin):
+GDD max min
+min = +  
+ 
+  −
+2
+T
+(1)
+In this interpretation, the daily temperature minimum δmin equals Tmin
+if it falls below the developmental threshold (the same would go if the
+daily temperature maximum δmax falls below Tmin). This modification
+allows for the accumulation of physiological time even when daily
+minimum temperatures do not exceed Tmin. In 2015 and 2016, field
+temperatures were recorded hourly in both plantations throughout
+the spring with a HOBO Pro v2 data logger installed in the middle
+height section of a tree in the southeastern corner of the plantation.
+Since temperatures from both plantations actually varied within 1°C
+from each other (not shown here), we assumed that these recordings
+were representative of all eggs located in the area. Therefore, only one
+temperature logger was used in the Courcelles plantation in 2017.
+Statistical Analyses: Fitting Development
+Rate Models
+Data were analyzed with SAS 9.4 (SAS Institute, Cary, NC), using the
+reciprocal of eclosion time as the development rate for each experimental
+temperature T, in order to fit the four development rate models
+(Table 2). For nonlinear models, development rate data were used
+to parametrize each model by iterative nonlinear regression based
+on the Marquardt algorithm (Marquardt 1963). PROC NLIN was
+used to fit all nonlinear development rate models with initial values
+of graphically-estimated parameters (Brière et al. 1999). Later, biological
+temperature parameters were estimated either directly from
+the model or indirectly using other model parameters or the first derivative,
+where d(Rdev)/d(T) = 0 for T in the Kontodimas-16 model.
+PROC REG was used to fit the linear model, with Tmin calculated
+indirectly as the unique extrapolated value of T when Rdev = 0, and
+the thermal constant K calculated as the reciprocal of the regression
+slope b (Table 2) (Ikemoto and Takai 2000, Trudgill et al. 2005).
+Results
+Development Time Between Species
+All results are provided in Table 3 for this section. Of all three species,
+M. abietinus always had the shortest egg eclosion time for a
+given temperature regime. In comparison with the aphid, the development
+of O. ununguis eggs required almost twice the amount of
+time before hatching for a given temperature. Eggs of C. pinifoliae
+took the longest to hatch for a given temperature regime, more than
+doubling the development times of the mite eggs.
+Accuracy and Precision of Development
+Rate Models
+For M. abietinus, explained variation of development rate by the
+tested models (R2) was relatively high, varying from 0.8784 to 0.9995,
+with MSE varying accordingly (Table 4A). The Kontodimas-16
+model failed to match the developmental rates of M. abietinus eggs
+observed for temperatures below 14°C and above 20°C (Fig. 1A). Of
+the three nonlinear models tested, the Lactin-2 model scored highest
+overall and best predicted the development rates measured for
+M. abietinus as a function of temperature.
+Table 2. Linear and three nonlinear models of development rate as a function of ambient temperature, which are among the most
+commonly used to estimate insect biological temperature parameters (Tmin, Topt, Tmax, and K)
+Model Equation Estimated parameters
+Linear (GDD) Rdev a bT = + Tmin and KGDD
+Hilbert and Logan (1983)
+R
+T T
+T T d
+T TT
+T
+dev
+min
+min
+e
+max min
+=
+−
+− +
+
+
+
+
+
+
+−
+ − − −
+
+
+
+( ) 
+( )
+( ( ))
+2
+2 2
+
+
+
+
+
+
+
+
+
+
+Tmin, Topt, and Tmax
+Lactin-2 (Lactin et al. 1995)
+R T
+T
+T T
+T
+dev e e
+max
+max
+= −
+− −
++
+
+
+
+
+
+
+
+
+
+
+Tmin, Topt, and Tmax
+Kontodimas-16 (Kontodimas et al. 2004) R a T T T T dev = ( − min ) ( max − ) 2 Tmin, Topt, and Tmax
+Empirical constants to estimate are a, b, d, and λ; ψ represents the maximal development rate and ρ represents the development rate at Topt. In the Lactin-2 and Hilbert
+and Logan models, ΔT is the range of temperatures above Topt over which physiological breakdown becomes the overriding factor causing rapid development rate decline.
+718 Environmental Entomology, 2018, Vol. 47, No. 3
+Downloaded from https://academic.oup.com/ee/article/47/3/715/4868565 by Hong Kong Metropolitan University user on 08 April 2025
+As for O. ununguis eggs, R2 values varied between 0.8963 and
+0.9982, with the MSE varying accordingly (Table 4B). Similar to
+M. abietinus, the Lactin-2 model scored highest and best predicted
+the development rates of the mite for all experimental temperatures.
+The Kontodimas-16 failed to predict development rates for at least
+half of the experimental temperatures (Fig. 1B) and the Hilbert
+and Logan model failed to converge and was thus excluded for
+O. ununguis.
+Finally, C. pinifoliae development rate models showed similar
+trends, with the Lactin-2 model scoring highest among the nonlinear
+models and predicting similar development rates for experimental
+temperatures as the linear model (Table 4C, Fig. 1C). For this species,
+the Hilbert and Logan model failed to predict the development
+rates for all five experimental temperatures. For all three species, the
+linear model had a relatively high R2 and accurately predicted development
+rates (Table 4).
+Biological Temperature Parameters
+Estimated parameters provided by all four tested models are given
+in Table 4, according to species. Although the nonlinear models estimated
+all three critical temperature parameters (i.e., Tmin, Topt, and
+Tmax), the Lactin-2 model provided the Tmin closest to those estimated
+by the linear model. Since Tmax was estimated based on preliminary
+data only, nonlinear model predictions most likely provide a minimum
+estimate for the actual thermal maximum. Fitted model parameter
+estimates (± SE) can be found in the Supp Table 1 (online
+only).
+Field Validation of the Linear and Lactin-2
+Development Rate Models
+For 2015, 2016, and 2017, predicted dates for egg eclosion in the
+field were estimated using temperatures recorded in situ from the
+plantation where eggs came from (Table 5). For validation of the
+Lactin-2 model, hourly development rates (and corresponding
+physiological time) were calculated for continuously recorded field
+temperatures (i.e., one measure per hour) and added sequentially
+until a total of 1.00 was reached, indicating that egg development
+should then be complete on average. For all three species, the accumulation
+of physiological time in the field was assumed to have
+begun on March 1, based on preliminary data (not shown here).
+Parameters of the linear model, in conjunction with daily maximum
+and minimum temperatures (see Equation 1), were used to follow
+Table 3. Mean development time and percentage of hatching for postdiapause eggs of three species of Christmas tree herbivores reared
+in the laboratory under five experimental constant temperature regimes.
+Species Temp (°C) Initial no. of eggs Mean development time ± 95% CI (d) Hatching (%) [95% CIa]
+Mindarus abietinus 11 52 17.9 ± 0.5 78.8 [65.8 to 87.9]
+14 46 11.3 ± 0.4 71.7 [57.4 to 82.8]
+17 45 9.3 ± 0.4 84.4 [70.9 to 92.6]
+20 46 7.7 ± 0.3 76.1 [61.9 to 86.2]
+23 46 6.2 ± 0.3 65.2 [50.7 to 77.4]
+Oligonychus ununguisb 14 31 20.6 ± 0.8 87.1 [70.5 to 95.5]
+17 44 17.1 ± 0.8 77.3 [62.8 to 87.3]
+20 39 13.4 ± 0.5 89.7 [75.9 to 96.5]
+23 29 10.4 ± 0.8 82.8 [65.0 to 92.9]
+Chionaspis pinifoliae 11 97 144.9 ± 12.9 33.0 [24.4 to 42.9]
+14 87 52.4 ± 2.6 19.5 [12.5 to 29.2]
+17 122 35.6 ± 1.2 29.5 [22.1 to 38.2]
+20 124 27.3 ± 0.7 49.2 [40.6 to 57.9]
+23 125 21.1 ± 0.7 64.0 [55.3 to 71.9]
+a95% CI of hatching rates were estimated with the modified Wald method for binomial proportions.
+bNote that only four constant temperature regimes were tested for O. ununguis.
+Table 4. Parametrization of the linear and three nonlinear models for (A) Mindarus abietinus, (B) Oligonychus ununguis, and (C) Chionaspis
+pinifoliae postdiapause egg development rate, with goodness-of-fit statistics (MSE and R2) and biological temperature parameters estimated
+directly (±95% CI) or indirectly from the model.
+Species Model Mean squared error R2 Biological temperature parameters
+Tmin (°C) Topt (°C) Tmax (°C) Ka (GDD)
+A Linear 0.0002 0.9992 5.4 ± 0.1 n/a n/a 105.9 ± 6.3
+Hilbert & Logan 0.0002 0.8401 −0.3 ± 3.0 25.7 25.7 ± 3.1 n/a
+Lactin-2 0.0002 0.9995 4.9 25.5 25.7 ± 0.0 n/a
+Kontodimas-16 0.0008 0.8784 7.7 ± 0.6 19.6 25.6 ± 0.2 n/a
+B Linear 0.0001 0.9922 7.1 ± 0.1 n/a n/a 161.2 ± 16.6
+Lactin-2 0.0001 0.9982 6.8 25.6 25.8 ± 0.0 n/a
+Kontodimas-16 0.0002 0.8963 10.5 ± 0.6 20.5 25.5 ± 0.1 n/a
+C Linear 0.0000188 0.9999 9.3 ± 0.1 n/a n/a 277.8 ± 11.2
+Hilbert & Logan 0.0000189 0.6294 6.7 ± 1.1 22.3 23.1 ± 1.1 n/a
+Lactin-2 0.0000188 0.9999 9.4 24.1 26.9 ± 1.3 n/a
+Kontodimas-16 0.0000284 0.5818 8.3 ± 0.7 23.3 30.9 ± 0.0 n/a
+aK is the reciprocal of the slope parameter b in the linear model.
+Environmental Entomology, 2018, Vol. 47, No. 3 719
+Downloaded from https://academic.oup.com/ee/article/47/3/715/4868565 by Hong Kong Metropolitan University user on 08 April 2025
+the accumulation of physiological time (i.e., K in GDD) in the field
+for all 3 yr (Fig. 2). Here, daily GDD accumulation predicts eclosion,
+based on the linear model, to occur where it crosses the gray band.
+On the basis of field observations, the egg hatching period lasted less
+than a week in 2015 and 2016 (not shown here). Therefore, we can
+conclude that the linear model predicted egg eclosion within more
+or less 5 d of the observed date in the field for all three species, most
+likely within 1 or 2 d of the actual median date of eclosion (Table 5).
+In 2017, we observed near complete hatching of M. abietinus eggs
+on 28 April, according to the linear model prediction. For C. pinifoliae,
+we observed ~50% hatching on the very date predicted by
+the linear model. The Lactin-2 model predicted field egg eclosion to
+occur between 4 and 11 d later than field observations, relatively late
+in the actual eclosion period, depending on species (Table 5).
+Discussion
+No published study has experimentally examined the effect of such a
+range of ambient temperatures on the development rates of M. abietinus
+and O. ununguis, the two most important arthropod pests in
+commercial Christmas tree plantations of southern Québec. As for
+C. pinifoliae, which is known mainly to attack Pinus trees (Nielsen
+and Johnson 1973), we hereby provide new insight on its temperature
+requirements for populations of southern Québec. Interestingly,
+the Lactin-2 model did not provide sufficiently accurate predictions
+for egg eclosion in the field when compared with the linear model.
+Predicted eclosion dates with this model using hourly-cumulated
+field temperatures apparently overestimated development time in
+the field because predictions for all three species fell behind those
+provided by the traditional linear model (Table 5). In the case of
+C. pinifoliae, the Lactin-2 model predicted mean egg eclosion by
+up to 11 d later than field-observed hatching. Since the scale eggs
+hatched around a month later than both other species, the predictive
+error of the Lactin-2 model on hatching could have increased with
+time since March 1, which may explain such a difference between
+predicted and observed eclosion dates for this species. Temperatures
+around 25°C were recorded in May of 2015 and 2017 (J.-F. Doherty,
+Université Laval, unpublished data), which would have decreased
+development rates according to the Lactin-2 model for C. pinifoliae
+and delayed hatching predictions for both years (Fig. 1).
+Fitting the Lactin-2 model including the high temperature
+threshold, based on preliminary observations, may have decreased
+Fig. 1. Observed eclosion of postdiapause eggs of (A) Mindarus abietinus, (B) Oligonychus ununguis, and (C) Chionaspis pinifoliae (data points), as a function
+of temperature, with the linear and three nonlinear development rate models fitted to the 2017 data.
+720 Environmental Entomology, 2018, Vol. 47, No. 3
+Downloaded from https://academic.oup.com/ee/article/47/3/715/4868565 by Hong Kong Metropolitan University user on 08 April 2025
+overall development rate predictions for lower temperatures. Since
+nonlinear models usually include critical temperature thresholds, the
+assumption that development rates are nil at precisely-determined
+temperatures may limit their capacity to predict actual development
+rates around Tmin and Tmax. Experimental fluctuating temperature
+regimes around these critical thresholds could be tested to better estimate
+corresponding development rates, which might improve our
+capacity to predict field egg eclosion using nonlinear models.
+We conclude that the linear model predicted within 5 d before or
+after the mean date of eclosion, despite the assumption that physiological
+time for egg hatching in the spring is a constant (K) in this
+modeling approach. This evidently cannot be true if the development
+rate–temperature relation is curvilinear, except for temperatures
+between Tmin and Topt. However, our field data from 2017 indicate
+that a linear model was useful to predict postdiapause egg eclosion
+for the last 3 yr, especially for M. abietinus. The hatching periods in
+the field for all three species, depending on temperature conditions,
+were short and rarely took more than 5 d. On relatively hot days,
+hatching could be near complete in a single day, which was observed
+in 2017 for M. abietinus. Therefore, the 95% CI of K could indicate
+the emergence period of first generation immatures of the aphid with
+sufficient accuracy. Since field consultants and growers usually monitor
+pest emergence on a weekly basis, these models can help focus
+screening efforts in the field to a certain period of the season for
+plantations located in southern Québec.
+The average method (i.e., Equation 1) for calculating daily accumulation
+of GDD is generally accurate when daily temperatures
+oscillate between δmin < Tmin and δmax < Tmax (Moore and Remais
+2014), which usually occurs during springtime. Since all five experimental
+temperatures tested are most likely within the intermediate
+linear response range, sufficient data to efficiently parametrize the
+models were provided only by the linear part of the realistic asymmetrical
+curve. However, more experimental temperatures, especially
+below those of this study, may still improve field predictions of egg
+eclosion with nonlinear development rate models, five temperatures
+being a recommended minimum (Bergant and Trdan 2006). The
+estimation of Tmin by extrapolation beyond the linear fit from five
+temperatures tested exposes a weakness in the linear model’s ability
+to properly estimate this lower threshold, as it is quite possible that
+the actual Tmin lies somewhere below the one provided by the linear
+model and that some development does occur below Tmin, despite
+being very slow (Lamb 1992).
+There is a trend between all three species with regard to their development
+times and hatching periods in the field. Predictions based
+on the linear model with daily GDD updating indicate a similar
+pattern of eclosion (Table 5), verified by field monitoring, except for
+O. ununguis in 2016 and 2017, due to very low mite population
+densities. This pattern of field eclosion is inversely correlated with
+postdiapause development rates. Chionaspis pinifoliae had the lowest
+egg development rates at all experimental temperatures and its
+eggs also hatched later in the field. The development times of these
+species are also correlated with estimated low temperature thresholds.
+Chionaspis pinifoliae, which has the highest Tmin estimated at
+9.3 ± 0.1°C, is also the last species to emerge in late spring.
+The first species to emerge is M. abietinus. Its Holarctic distribution
+matches that of its principal host tree, the balsam fir (Martineau
+1984). An estimated Tmin of 5.4 ± 0.1°C and a relatively fast postdiapause
+development rate in the 11–23°C range can help explain its
+early eclosion in the field, relative to both other species. Since stem
+mothers must hatch and complete their early nymphal stages before
+bud break around mid-May (Doherty et al. 2017), faster postdiapause
+development rates than the mite and the scale are expected.
+Early egg eclosion may assure the timely migration of stem mothers
+onto newly exposed shoots to start producing colonial offspring
+on the youngest stages of fir shoot growth. For this timely development
+to occur in southern Québec, postdiapause egg development
+should be possible at temperatures as low as 5°C, which currently
+are most likely experienced in late April. Previous estimates for Tmin
+and K dating back from the 1990s in southern Québec for M. abietinus
+(i.e., 95 GDD above 2°C), based solely on field observations
+(Deland et al. 1998, Berthiaume et al. 2001), underestimate development
+times when compared with those estimated here (i.e., 105.9
+GDD above 5.4°C). For a slightly more southern climate, thermal
+requirements for M. abietinus egg eclosion were estimated at around
+53 GDD above 10°C in Lower Michigan, based on field observations
+(in this case, Tmin was arbitrarily set to an agricultural standard
+for crop plants) (Fondren and McCullough 2003).
+The emergence of O. ununguis came second during springtime,
+about 2 wk later than the aphid in the plantation. We speculate that
+unrequired synchronicity between the hatching of O. ununguis immatures
+and fir bud break, assuming that the earliest active stages of the
+mite can feed on both the new and past-year foliage, may partly explain
+why the mite eggs hatch later in the season than M. abietinus,
+whose colonies in pseudogalls can only form on early-stage shoots
+before elongation. In Ohio, spruce spider mite eggs hatched during
+the final 2 wk of April 1993 and 1994 at 143.3 ± 30.1 GDD above
+a Tmin of 7.1°C (Richmond and Shetlar 1996). In this Québec study,
+the mite population of a higher latitude requires approximately the
+same amount of physiological time above a similar threshold for
+egg eclosion (i.e., 161.2 GDD above 7.1°C). Since only 1 yr of field
+Table 5. Predicted eclosion time (date, dd-mm) for eggs of Mindarus abietinus, Oligonychus ununguis, and Chionaspis pinifoliae in
+Christmas tree plantations, with observed proportions of egg eclosion for 2015, 2016, and 2017
+Species 2015 2016 2017
+Date
+(% egg hatch)
+Linear model Lactin-2 model Date
+(% egg hatch)
+Linear model Lactin-2 model Date
+(% egg hatch)
+Linear model Lactin-2 model
+Mindarus abietinus 5-V (~90%) 6-V 9-V 5-V (~75%) 5-V 12-V 28-IV (~75%) 28-IV 6-V
+Oligonychus
+ununguisa
+15-V (~40%) 17-V 25-V n/a n/a n/a n/a n/a n/a
+Chionaspis
+pinifoliaeb
+11-VI (~45%) 9-VI 22-VI n/a n/a n/a 14-VI (~50%) 15-VI 24-VI
+Predictions based on the linear model (summated with Equation 1) and the Lactin-2 model. See Table 2 for model equations.
+aDue to very low population densities of O. ununguis in the field, accurate validation of the models based on field observations of egg eclosion in 2016 and
+2017 was not possible.
+bDue to insufficient sampling, model validation based on field observations of eclosion for C. pinifoliae in 2016 was not possible.
+Environmental Entomology, 2018, Vol. 47, No. 3 721
+Downloaded from https://academic.oup.com/ee/article/47/3/715/4868565 by Hong Kong Metropolitan University user on 08 April 2025
+sampling in 2015 was performed due to very low mite population
+densities in the area, it is difficult to say to which extent this new
+model is generally valid for populations in southern Québec.
+The last species to emerge in late spring, C. pinifoliae, has the
+highest estimated Tmin and clearly requires more physiological time
+than the aphid and the mite for spring egg hatching, with field eclosion
+occurring considerably later during the second week of June
+(Table 5). Relatively lower hatch rates were observed for this species
+in the growth chambers (Table 3), possibly due to the removal
+of the protective waxy scale covering egg clusters, which was done
+to allow random assignation to experimental temperatures. Since
+eggs in the microtubes were not protected by their scale as in the
+field, these unnatural conditions could partly account for the lower
+survivorship observed (Table 3). The presence of the waxy scale on
+unaltered fir needles and the fact that C. pinifoliae scales were concentrated
+on the lower branches of fir trees (personal observation),
+microclimatic conditions could differ when temperatures plummet
+at sunset. This could partly account for the slight differences in
+the observed proportions of egg eclosion in the field when compared
+with what was predicted by the linear model and the average
+method of GDD accumulation (Table 5). Because proper identification
+of the pine needle scale is complex, due to its close proximity
+with C. heterophyllae (Philpott et al. 2009), the possibility of cryptic
+species (Gwiazdowski et al. 2011, Vea et al. 2012), and the
+existence of both sexual and parthenogenetic forms (Stimmann
+1969, Luck and Dahlsten 1974), our development rate models for
+this scale may not apply generally to different populations. More
+work would be needed to determine whether heat requirements
+vary among these forms/species. As for the existing model for populations
+of lower latitudes (Table 1), it underestimates field egg
+eclosion for temperatures recorded in southern Québec.
+The fact that all three species overwinter as diapausing eggs
+implies that the collection date is a crucial point in calculating the
+accumulation of physiological time in the field, assuming that the
+linear model is correct and that GDD accumulation for egg development
+is a constant. In this study, we assumed that eggs collected
+around mid-March had not yet accumulated GDD. On the basis of
+preliminary observations (2015 and 2016, unpublished data), we
+assumed that overwintering eggs had completed their diapause by
+this time and were thus ready to accumulate physiological time in
+our experiment. However, if eggs were collected either prior to diapause
+termination or after egg development had started, the models
+could either overestimate or underestimate eclosion time in the
+field. For this experiment, we can assume that eggs had not started
+Fig. 2. Cumulative field GDD above threshold Tmin (°C) (summated with Equation 1) based on the linear model, with the observed proportion of eggs hatched in
+the field ± 95% CI (calculated with the modified Wald method for binomial proportions) for (A) Mindarus abietinus, (B) Oligonychus ununguis, and (C) Chionaspis
+pinifoliae. Gray horizontal bands delimit the 95% CI of the thermal constant K, which is represented by a thin horizontal line.
+722 Environmental Entomology, 2018, Vol. 47, No. 3
+Downloaded from https://academic.oup.com/ee/article/47/3/715/4868565 by Hong Kong Metropolitan University user on 08 April 2025
+developing by mid-March when they were collected, or that prior
+development was negligible, based on temperature recordings in the
+plantation (data not shown here).
+In conclusion, this study has provided new linear models for
+postdiapause egg development of three foliage-feeding arthropod
+pests in commercial Christmas tree plantations of southern Québec.
+The data support our hypothesis that the existing prediction tools,
+based on thermal requirements for other parts of North America
+or only from field observations, are not applicable to current populations
+from southern Québec, except perhaps to O. ununguis,
+whose low population densities prevented model validation. The
+sequential pattern of field eclosion for each species can be predicted
+from egg development rates measured in the laboratory for temperatures
+within their tolerable range. The linear models predicted
+mean hatching in the field with sufficient accuracy, as confirmed
+using field data from three consecutive years. Modeling based on
+experimental temperatures near the low and high thresholds (i.e.,
+Tmin and Tmax) should increase the value of nonlinear models in predicting
+development rates and field egg eclosion, considering that
+they do not depend on the unrealistic assumption that the effect of
+temperature on development rates remains linear over the whole
+range of viable and developmentally useful thermal conditions.
+Acknowledgements
+We thank William Champagne-Cauchon (Université Laval) for assistance in
+the field and in the laboratory. We also thank Martin Charest for his technical
+assistance with the growth chambers and consultant Aurélien Nicosia for
+his help in model and statistical analyses (Université Laval). We are equally
+thankful toward Gérald Couture (Québec Balsams Export Inc.) for allowing
+us to sample in his Christmas tree plantations. This study was supported by
+the MAPAQ—Programme Innov’Action agroalimentaire grant #IA113043 to
+Conrad Cloutier.
+Supplementary Data
+Supplementary data is available at Environmental Entomology online.
+References Cited
+Bergant, K., and S. Trdan. 2006. How reliable are thermal constants for insect
+development when estimated from laboratory experiments. Entomol. Exp.
+Appl. 120: 251–256.
+Berthiaume, R., C. Hébert, and C. Cloutier. 2001. Le puceron des pousses du
+sapin. Natural Resources Canada, Québec City, Canada.
+Boyne, J. V., and F. P. Hain. 1983. Effects of constant temperature, relative
+humidity, and simulated rainfall on development and survival of the
+spruce spider mite (Oligonychus ununguis). Can Entomol. 115: 93–105.
+Bradbury, R. L., and E. A. Osgood. 1986. Chemical control of balsam twig
+aphid, Mindarus abietinus Koch (Homoptera: Aphididae). MAFES Tech.
+Bull. 124: 1–12.
+Brière, J.-F., P. Pracros, A.-Y. Le Roux, and J.-S. Pierre. 1999. A novel rate
+model of temperature-dependent development for arthropods. Environ.
+Entomol. 28: 22–29.
+Burden, D. J., and E. R. Hart. 1989. Degree-day model for egg eclosion of
+the pine needle scale (Hemiptera: Diaspididae). Environ. Entomol. 18:
+223–227.
+Cloutier, C., M. Roy, and S. Boudreault. 2009. Développement d’outils en
+lutte intégrée contre le tétranyque de l’épinette. Ministère de l’agriculture,
+des pêcheries et de l’alimentation du Québec, Québec City, Canada.
+Cumming, M. E. P. 1953. Notes on the life history and seasonal development
+of the pine needle scale, Phenacaspis pinifoliae (Fitch), (Diaspididae:
+Homoptera). Can. Entomol. 85: 347–352.
+Deland, J.-P., R. Berthiaume, C. Hébert, and C. Cloutier. 1998. Programme
+alternatif de protection du sapin de Noël contre le puceron des pousses dans
+le contexte d’une saine gestion des ressources environnementales. Ministère
+de l’environnement et de la faune du Québec, Québec City, Canada.
+Doherty, J.-F., J.-F. Guay, and C. Cloutier. 2017. Temperature-manipulated
+dynamics and phenology of Mindarus abietinus (Hemiptera: Aphididae) in
+commercial Christmas tree plantations in Québec, Canada. Can. Entomol.
+149: 801–812.
+Fondren, K. M., and D. G. McCullough. 2003. Phenology and density of balsam
+twig aphid, Mindarus abietinus Koch (Homoptera: Aphididae) in
+relation to bud break, shoot damage, and value of fir Christmas trees. J.
+Econ. Entomol. 96: 1760–1769.
+Fondren, K. M., and D. G. McCullough. 2005. Phenology, natural enemies,
+and efficacy of horticultural oil for control of Chionaspis pinifoliae
+(Homoptera: Diaspididae) on Christmas tree plantations. J. Econ.
+Entomol. 98: 1603–1613.
+Gwiazdowski, R. A., I. M. Vea, J. C. Anderson, and B. B. Normark. 2011.
+Discovery of cryptic species among North American pine-feeding Chionsaspis
+scale insects (Hemiptera: Diaspididae). Biol. J. Linnean Soc. 104: 47–62.
+Heinrich, B. 1974. Thermoregulation in endothermic insects. Science 185:
+747–756.
+Hilbert, D. W., and J. A. Logan. 1983. Empirical model of nymphal development
+for the migratory grasshopper, Melanoplus sanguinipes (Orthoptera:
+Acrididae). Environ. Entomol. 12: 1–5.
+Ikemoto, T., and K. Takai. 2000. A new linearized formula for the law of total
+effective temperature and the evaluation of line-fitting methods with both
+variables subject to error. Environ. Entomol. 29: 671–682.
+Johnson, W. T., and H. H. Lyon. 1991. Insects that feed on trees and shrubs.
+Cornell University Press, Ithaca, NY.
+Kielczewski, B. 1966. Common mite species of forest biotypes occurring on trees and
+accompanying certain insects. Zesz. Probl. Nauki. Rolniczych. 65: 217–232.
+Kleintjes, P. K. 1997. Midseason insecticide treatment of balsam twig
+aphids (Homoptera: Aphididae) and their aphidophagous predators in a
+Wisconsin Christmas tree plantation. Environ. Entomol. 26: 1393–1397.
+Kontodimas, D. C., P. A. Eliopoulos, G. J. Stathas, and L. P. Economou. 2004.
+Comparative temperature-dependent development of Nephus includens
+(Kirsch) and Nephus bisignatus (Boheman) (Coleoptera: Coccinellidae)
+preying on Planococcus citri (Risso) (Homoptera: Pseudococcidae): evaluation
+of a linear and various nonlinear models using specific criteria.
+Environ. Entomol. 33: 1–11.
+Lactin, D. J., N. J. Holliday, D. L. Johnson, and R. Craigen. 1995. Improved
+rate model of temperature-dependent development by arthropods.
+Environ. Entomol. 24: 68–75.
+Lamb, R. J. 1992. Developmental rate of Acyrthosiphon pisum (Homoptera:
+Aphididae) at low temperatures: implications for estimating rate parameters
+for insects. Environ. Entomol. 21: 10–19.
+Löytteniemi, K. 1971. Influence of damage caused to needles of Norway
+spruce by spruce spider mite, Oligonychus ununguis (Jacobi), on seedling
+growth. Silva Fenn. 5: 32–35.
+Luck, R. F., and D. L. Dahlsten. 1974. Bionomics of the pine needle scale,
+Chionaspis pinifoliae, and its natural enemies at South Lake Tahoe, Calif.
+Ann. Entomol. Soc. Am. 67: 309–316.
+Marquardt, D. W. 1963. An algorithm for least-squares estimation of nonlinear
+parameters. SIAM J. Appl. Math. 11: 431–441.
+Martel, P., and M. L. Sharma. 1968. Quelques précisions sur la biologie et l’écologie
+de la cochenille, Phenacaspis pinifoliae (Fitch), (Homoptera : Diaspididae),
+dans le Québec. Université de Sherbrooke, Sherbrooke, Canada.
+Martineau, R. 1984. Insects harmful to forest trees. Canadian Forestry Service,
+Ottawa, Canada.
+McMaster, G. S., and W. W. Wilhelm. 1997. Growing degree-days: one equation,
+two interpretations. Agr. Forest Meteorol. 87: 291–300.
+Miller, D. R., and J. A. Davidson. 2005. Armored scale insect pests of trees
+and shrubs (Hemiptera: Diaspididae). Cornell University Press, Ithica, NY.
+Moore, J. L., and J. V. Remais. 2014. Developmental models for estimating
+ecological responses to environmental variability: structural, parametric,
+and experimental issues. Acta Biotheor. 62: 69–90.
+Nettleton, W. A., and F. P. Hain. 1982. The life history, foliage damage, and
+control of the balsam twig aphid, Mindarus abietinus (Homoptera:
+Aphididae), in Fraser fir Christmas tree plantations of western North
+Carolina. Can. Entomol. 114: 155–165.
+Environmental Entomology, 2018, Vol. 47, No. 3 723
+Downloaded from https://academic.oup.com/ee/article/47/3/715/4868565 by Hong Kong Metropolitan University user on 08 April 2025
+Nielsen, D. G., and N. E. Johnson. 1973. Contribution to the life history and
+dynamics of the pine needle scale, Phenacaspis pinifoliae, in central New
+York. Ann. Entomol. Soc. Am. 66: 34–43.
+Paaijmans, K. J., R. L. Heinig, R. A. Seliga, J. I. Blanford, S. Blanford, C.
+C. Murdock, and M. B. Thomas. 2013. Temperature variation makes ectotherms
+more sensitive to climate change. Glob. Change Biol. 19: 2373–2380.
+Philpott, D. E., S. H. Berlocher, R. F. Mitchell, and L. M. Hanks. 2009. Molecular
+validation of a morphological character for distinguishing between the
+armored scale insects Chionaspis pinifoliae and Chionaspis heterophyllae
+(Hemiptera: Diaspididae). Ann. Entomol. Soc. Am. 102: 381–385.
+Richmond, D. S., and D. J. Shetlar. 1996. Eclosion time and spatial distribution
+of overwintering spruce spider mite (Acari: Tetranychidae) eggs on
+Colorado spruce. J. Econ. Entomol. 89: 447–452.
+Roy, M. R., J. Brodeur, and C. Cloutier. 2002. Relationship between temperature
+and developmental rate of Stethorus punctillum (Coleoptera:
+Coccinellidae) and its prey Tetranychus mcdanieli (Acarina: Tetranychidae).
+Environ. Entomol. 31: 177–187.
+Sandhu, H. S., G. S. Nuessly, S. E. Webb, R. H. Cherry, and R. A. Gilbert.
+2010. Temperature-dependent development of Elasmopalpus lignosellus
+(Lepidoptera: Pyralidae) on sugarcane under laboratory conditions.
+Environ. Entomol. 39: 1012–1020.
+Speight, M. R., M. D. Hunter, and A. D. Watt. 2008. Ecology of insects: concepts
+and applications. Wiley-Blackwell, Hoboken, NJ.
+Stimmann, M. W. 1969. Seasonal history of a unisexual population of the pine
+needle scale, Phenacaspis pinifoliae. Ann. Entomol. Soc. Am. 62: 930–931.
+Trudgill, D. L., A. Honek, D. Li, and N. M. van Straalen. 2005. Thermal time
+– concepts and utility. Ann. Appl. Biol. 146: 1–14.
+Varty, I. W. 1968. The biology of the balsam twig aphid, Mindarus abietinus
+Koch, in New Brunswick: polymorphism, rates of development, and
+seasonal distribution of populations. Canada Department of Forestry,
+Fredericton, Canada.
+Vea, I. M., R. A. Gwiazdowski, and B. B. Normark. 2012. Corroborating
+molecular species discovery: four new pine-feeding species of Chionaspis
+(Hemiptera, Diaspididae). ZooKeys 270: 37–58.
+Zahiri, B., Y. Fathipour, M. Khanjani, S. Moharramipour, and M. P. Zalucki.
+2010. Preimaginal development response to constant temperatures in
+Hypera postica (Coleoptera: Curculionidae): picking the best model.
+Environ. Entomol. 39: 177–189.
+724 Environmental Entomology, 2018, Vol. 47, No. 3
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
 Downloaded from https://academic.oup.com/ee/article/47/3/715/4868565 by Hong Kong Metropolitan University user on 08 April 2025

@@ -137,22 +137,17 @@ yearly_counts <- tfidf_results %>%
 # Save associated .txt file names into a CSV for Trend2
 output_csv <- "associated_files_for_trend2.csv"
 
-# Extract relevant file names and metadata
 associated_files <- tfidf_results %>%
-  select(file, term, tfidf, year) %>%  # Include relevant columns
-  distinct(file, .keep_all = TRUE)    # Ensure unique file entries
+  select(file, term, tfidf, year) 
 
-# Write to CSV
 write.csv(associated_files, output_csv, row.names = FALSE)
+
 
 # Print confirmation
 print(paste("Associated file names and metadata saved to:", output_csv))
 # Print yearly counts
 print("Yearly counts of relevant articles:")
 print(yearly_counts)
-
-dev.off()  # 关闭当前绘图设备
-dev.new()  # 打开一个新的绘图设备
 
 # 定义保存图表的文件路径
 output_plot <- "yearly_trend_plot.png"

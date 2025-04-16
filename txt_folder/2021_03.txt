@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
 Contents lists available at ScienceDirect
 Nuclear Inst. andMethods in Physics Research, A
@@ -1236,4 +1237,1244 @@ R. Romani, The imaging X-ray polarimetry explorer (IXPE), Results Phys. (ISSN:
 Y. Liu, Electron track reconstruction and improved modulation for photoelectric
 X-ray polarimetry, Nucl. Instrum. Methods Phys. Res. A (ISSN: 01689002) 858
 (2017) 62–68, http://dx.doi.org/10.1016/j.nima.2017.03.050, arXiv:1611.07244.
+=======
+Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+Contents lists available at ScienceDirect
+Nuclear Inst. andMethods in Physics Research, A
+journal homepage: www.elsevier.com/locate/nima
+Deep ensemble analysis for Imaging X-ray Polarimetry
+A.L. Peirson a,∗, R.W. Romani a, H.L. Marshall b, J.F. Steiner c, L. Baldini d
+a Department of Physics & Kavli Institute for Particle Astrophysics and Cosmology, Stanford, CA, 94305, United States of America
+b Kavli Institute for Astrophysics and Space Research, MIT, 77 Massachusetts Ave., Cambridge, MA, 02139, United States of America
+c Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge, MA 02138, United States of America
+d Universitá di Pisa and INFN-Sezione di Pisa, Pisa, I-56127, Italy
+A R T I C L E I N F O
+Keywords:
+Polarization
+Deep learning
+Machine learning
+X-ray polarimeter
+Gas pixel detector
+IXPE
+A B S T R A C T
+We present a method for enhancing the sensitivity of X-ray telescopic observations with imaging polarimeters,
+with a focus on the gas pixel detectors (GPDs) to be flown on the Imaging X-ray Polarimetry Explorer
+(IXPE). Our analysis determines photoelectron directions, X-ray absorption points and X-ray energies for 1-
+9 keV event tracks, with estimates for both the statistical and model (reconstruction) uncertainties. We use a
+weighted maximum likelihood combination of predictions from a deep ensemble of ResNet convolutional neural
+networks, trained on Monte Carlo event simulations. We define a figure of merit to compare the polarization
+bias–variance trade-off in track reconstruction algorithms. For power-law source spectra, our method improves
+on the current planned IXPE analysis (and previous deep learning approaches), providing ∼ 45% increase in
+effective exposure times. For individual energies, our method produces 20%–30% absolute improvements in
+modulation factor for simulated 100% polarized events, while keeping residual systematic modulation within
+1𝜎 of the finite sample minimum. Absorption point location and photon energy estimates are also significantly
+improved. We have validated our method with sample data from real GPD detectors.
+1. Introduction
+X-ray polarization measurements offer rich opportunities to probe
+the magnetic field topology and emission physics of high energy astrophysical
+sources [1]. However, in the classical soft X-ray band
+(1–10 keV) such measurements have long been elusive, with only the
+Crab nebula providing a solid detection [2]. Happily, the recent development
+of photo-electron tracking detectors [3] has greatly improved
+soft X-ray polarimetry prospects. These imaging X-ray polarimeters
+offer lower background and better control of systematic signals, and
+allow the study of important extended sources, such as Supernova
+Remnants (SNR) and Pulsar Wind Nebulae (PWNe). The gas pixel
+detector (GPD) [see 4] has brought this capability to the PolarLight
+CubeSat test [5], the scheduled IXPE mission [6], and the potential
+Chinese mission, eXTP [7].
+IXPE [8,9, planned for launch in 2021] will use three co-aligned Xray
+telescopes, whose focal planes are imaged by GPDs with hexagonal
+pixels. IXPE’s sensitivity is limited by the track analysis algorithm used
+to recover source polarization, spatial structure and energy, given a
+measured set of electron track images. In this work, we demonstrate
+a substantial improvement over the current state of-the-art track reconstruction.
+While the results shown here are specific to IXPE’s GPDs,
+the methods are general, and can be applied to other imaging detector
+geometries.
+∗ Corresponding author.
+E-mail address: alpv95@stanford.edu (A.L. Peirson).
+In the 1−10 keV range, the cross-section for photoelectron emission
+is proportional to cos2(𝜃), where 𝜃 is the angle between the normal incidence
+X-ray’s electric vector position angle (EVPA) and the azimuthal
+emission direction of the photoelectron. By measuring a large number
+of individual photoelectron emission angles, one can recover the above
+distribution to extract the source polarization parameters: polarization
+fraction (0% ≤ 𝛱 ≤ 100%, or equivalently 0 ≤ 𝛱 ≤ 1) and EVPA
+(−𝜋∕2 ≤ 𝜙 < 𝜋∕2). In practice, the recovery of photoelectron emission
+angles from track images is imperfect. Track images are noisy due to
+Coulomb scattering and diffusion, and, especially for low energies, are
+often barely resolved from the Bragg peak emission at their ends. In
+many cases a secondary Auger electron track further complicates the
+analysis. The modulation factor 𝜇100, defined as the recovered 𝛱 for a
+100% polarized source, provides a useful description of the quality of
+the image reconstruction. For a measured source the true polarization
+is then given by calibrating: 𝛱true = 𝛱meas∕𝜇100. In practice, track
+reconstruction challenges make 𝜇100 highly energy dependent [10].
+Critically, track reconstruction methods must not introduce significant
+bias for an unpolarized source (𝛱 = 0). For IXPE the hexagonal
+GPD pixels and a 120◦ rotation between the telescopes are designed
+to minimize such x-y systematic biases. Thus the efficacy of an X-ray
+polarimeter depends on the recovered 𝜇 at both 100% and 0% polarization.
+For imaging X-ray polarimeters one also wishes to reconstruct
+the X-ray absorption (conversion) points and event energy.
+https://doi.org/10.1016/j.nima.2020.164740
+Received 6 July 2020; Received in revised form 29 September 2020; Accepted 5 October 2020
+Available online 13 October 2020
+0168-9002/© 2020 Elsevier B.V. All rights reserved.
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+The current track reconstruction method for the GPD is a moment
+analysis described by Bellazzini et al. [11]. Impressive accuracies for
+the absorption point and EVPA angle are achieved from a simple reweighted
+combination of track moments, with the track barycenter
+replacing the moment localization at low energies. Track energy estimates
+are proportional to the total collected GPD charge. The track
+ellipticity also provides a rough predictor for track reconstruction quality.
+High ellipticity tracks typically have more accurate angle estimates.
+However, simple moments cannot capture all of the image information,
+especially for long high energy tracks, and so a more sophisticated
+image analysis scheme should allow improved track parameters, as
+well as better assessment of reconstruction quality. Recently, machine
+learning techniques have been discussed as useful for X-ray polarization
+measurements [12]; this is an ideal problem for such image analysis.
+1.1. Deep learning for X-ray polarimetry
+Deep neural networks (NNs) have achieved state-of-the-art performance
+on a wide variety of machine learning tasks and are becoming
+increasingly popular in domains such as speech recognition [13],
+natural language processing [14], bioinformatics [15] and especially
+computer vision [16]. Going from track images to numerical estimates
+can be classified as a computer vision problem, so it is not surprising
+that NNs would be well suited to track reconstruction. The Cherenkov
+Telescope Array (CTA) [17] team have applied related deep learning
+methods to differentiate between cosmic rays and gamma rays. Notably
+they also have to deal with a hexagonal pixel grid. The IceCube
+collaboration has begun use of graph neural networks to identify 3D
+neutrino tracks with great success [18].
+Kitaguchi et al. [19] have recently described a NN photoelectron
+track analysis for the non-imaging detector geometry that was intended
+for the PRAXyS X-ray polarimetry mission [20]. Using convolutional
+neural networks (CNNs), they show significant improvements in modulation
+factor over a standard moment analysis for a square pixel
+grid polarimeter while maintaining ≲ 1% modulation for unpolarized
+data. While an excellent start, this analysis did not recover energies,
+showed unexplained biases at the 1% level, used event cuts rather
+than weights and provide only a binned polarization analysis. They
+also trained for only a handful of event energies and were not able to
+validate against real detector data. We have been able to improve on
+this analysis addressing all of the issues above while delivering superior
+performance across a wide (and continuous) range of energies.
+The cornerstone of our approach involves deep ensembles [21].
+These not only provide more accurate and less biased estimates than
+single NNs, but also give state-of-the-art estimates of predictive uncertainty.
+Using uncertainties in each of our track angle estimates,
+we developed an unbinned weighted maximum likelihood estimate
+(WMLE) approach to determine the final polarization parameters. This
+removes the need for excising data, making use of all measurements.
+With bootstrap analysis [22] we are able to infer the final error on our
+polarization estimates and define an appropriate figure-of-merit (FoM)
+to compare different track reconstruction approaches.
+This paper describes our track reconstruction algorithm using deep
+ensembles. Section 2 explains the extraction of angles, absorption
+points and energies from individual tracks. Section 3 briefly outlines
+our NN training procedure and selection. In Section 4 we describe
+our WMLE approach that takes an ensemble of track angles and uncertainties
+to final polarization parameters and their errors. There we
+define a figure-of-merit to compare the moment analysis, our approach
+and that of Kitaguchi et al. [19]. Section 5 shows our results and
+their interpretation. We conclude the study, mentioning prospects for
+additional improvements, in Section 6.
+Fig. 1. Example IXPE GPD electron track images. The colormap represents charge
+deposited in each pixel. The top row is simulated (5.9 keV, 2.7 keV), the bottom shows
+real events of similar energy. For the simulated events, the blue dots and lines mark the
+true absorption point and initial 𝑒− direction. Lower energy tracks are typically smaller
+and less elliptical, thus harder to reconstruct. (For interpretation of the references to
+colour in this figure legend, the reader is referred to the web version of this article.)
+2. Deep ensembles for track reconstruction
+We considered end-to-end deep learning approaches (as suggested
+by Kitaguchi et al. [19]) to go directly from a set of tracks to source
+polarization. There are a number of difficulties with this approach.
+Training would be very expensive (perhaps infeasible) and it is not
+obvious how to account for different track ensemble sizes. Also the
+observer may wish to adjust partitioning of the data set into e.g. time,
+energy and spatial subsets, with differing polarization. The best partition
+will often not be obvious before analysis starts, thus combining
+the properties of individual tracks allows a more efficient exploration
+of binning options. Finally detector-dependent artifacts can best be
+handled from individual tracks (with fine spatial positioning), rather
+than point spread function (PSF) weighted ensembles. Forming such
+ensembles in a second analysis tier allows additional flexibility.
+For these reasons we do not consider a direct end-to-end approach
+but use a two step process: (1) extract features from individual tracks
+(angles, uncertainties, absorption points, energies) (2) combine an
+ensemble of the features to measure the final polarization statistics.
+However we do use the expected properties of polarized and unpolarized
+ensembles to guide the training and select the most effective
+networks. We first describe step (1): the event characterization.
+2.1. Deep ensembles
+To extract the angles, absorption points and energies from individual
+tracks we use a supervised deep learning technique known as
+deep ensembles [21]. Deep ensembles are made up of an ensemble of
+individual NNs, each trained independently on the same data set to
+predict the desired output features. It has been shown that different
+random initializations of the same NN at the start of training leads
+to widely different prediction functions [23]. Deep ensembles exploit
+this property by incorporating the results of many differently initialized
+NNs, increasing the diversity of predictors. Considering all of the
+individual NN predictions together leads to a more robust, accurate,
+and generalizable model with better uncertainty estimates [24].
+2
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+Fig. 2. Example square conversions of a 6.4 keV hexagonal track (left panel). The six panels to the right show shifts along the 120◦ GPD axes; shifting odd rows (upper) or even
+rows (lower). For each hexagonal track, NNs are fed column-wise pairs of square conversions, along with the energy, absorption point (blue dot) and initial photoelectron direction
+(blue line) as labels. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+In our case, we have an image to feature(s) regression problem.
+CNNs have been designed with an inductive bias appropriate for image
+regression problems. So our deep ensemble will be made up of
+individual CNNs.
+Deep ensembles provide estimates of the predictive uncertainty.
+There are two germane types of uncertainty one can model [25].
+‘Aleatoric uncertainty’ captures noise inherent in the observations. This
+is equivalent to statistical uncertainty. On the other hand, ‘epistemic
+uncertainty’ accounts for uncertainty in the model parameters — uncertainty
+which captures our ignorance about which model generated
+our collected data. This uncertainty can be reduced given enough data,
+and is often referred to as model uncertainty. We will model both of
+these uncertainties using deep ensembles and use them in our final
+polarization predictions in Section 4.
+2.2. Hexagonal to square conversion
+The hexagonal grid used in the IXPE GPDs is designed to minimize
+polarization systematics, since hexapolar grid effects are orthogonal
+to the quadrupolar polarization signal. Example imaged photoelectron
+tracks at different energies are shown in Fig. 1. Unfortunately,
+a hexagonal grid is not natively compatible with typical CNNs. It is
+possible to transform from a hexagonal to a square grid, however a
+naive transformation can lead to polarization biases and suboptimal NN
+performance. This is partly because the CNN convolutional kernels are
+not spatially equivariant in hexagonal space.
+There are two main ways of converting between hexagonal and
+square grids: interpolation and pixel shifting. Interpolation places a
+fine square grid on top of the hexagonal image and interpolates. We
+avoid using interpolation since it adds noise to the raw data and is not
+easily reversible. Pixel shifting rearranges pixels by shifting alternate
+rows and then rescaling. The HexagDLy [26] software, designed for
+use in CTA, allows standard CNNs to operate on hexagonal images.
+It does this by pixel shifting the images to square arrays and then
+applying specialized convolutional kernels that preserve equivariance
+in hexagonal space. Unfortunately, in practice, this method proved
+too slow to train for the large event sets required for polarization
+estimation. Accordingly, we simply pixel shift each track along each of
+the six hexagonal axes (to avoid bias). Hexagonal tracks are rotated so
+that rows align horizontally (this can be done in three different ways,
+separated by 120◦), then alternate rows are shifted (this can be done
+in two different ways, left and right) so that the track resembles a
+rectangular grid, as in HexagDLy. We convert the rectangular grid into
+a square image by defining the leftmost track pixel and bottom track
+pixel as the left edge and the base of the image respectively. We use
+a square image size of 50 × 50 pixels to fit all track sizes for energies
+up to 9 keV. Since square track images are defined independently of
+the absolute hexagonal coordinate values, the initial hexagonal track
+rotation can be performed about any axis.
+A single hexagonal track produces six square conversions (Fig. 2),
+two for each 120◦ angle. A single training example for the NNs is formed
+by stacking the corresponding square conversion pair, similarly to color
+channels in a rgb image CNN problem – in this case with only two
+channels. At test time all 3 pairs are evaluated by the NNs and the
+predicted angles are rotated back to their original direction.
+It should be noted that clean track images, such as those shown
+in Fig. 1, already require a set of thresholding and clustering steps to
+isolate individual tracks from a detector (or simulation) snapshot. These
+are at present handled by IXPE’s GPD software. The track rectification
+into the six square projections is simply an additional pre-processing
+step that we apply in collecting a dataset for supervised training.
+2.3. Training criteria
+In a typical CNN regression problem, during training the CNN takes
+as input a single image 𝐱𝑖 with feature label 𝑦𝑖 and outputs single prediction
+𝑦̂𝑖. The NN parameters are optimized to minimize to the mean
+squared error (MSE) on the training data set 𝛴𝑁
+𝑖=1(𝑦𝑖−𝑦̂(𝐱𝑖))2∕𝑁. In order
+to model the statistical uncertainty in predictions, individual networks
+in a deep ensemble each minimize the negative log-likelihood:
+𝐿(𝑦𝑖 ∣ 𝐱𝑖) =
+log( ̂ 𝜎2(𝐱𝑖))
+2
++
+‖𝑦𝑖 − ̂ 𝑦(𝐱𝑖)‖22
+2 ̂ 𝜎2(𝐱𝑖) . (1)
+where 𝑦̂(𝐱𝑖) corresponds to the predicted mean and 𝜎̂ (𝐱𝑖)2 to the predicted
+variance. The 𝐿2-norm is denoted by ‖.‖2. Thus the NN produces
+an estimate of the feature and its statistical error (𝑦̂(𝐱𝑖), 𝜎̂ (𝐱𝑖)). In
+practice however we train the NN to predict the log variance ̂ 𝑠(𝐱𝑖) =
+log( ̂ 𝜎2(𝐱𝑖))
+𝐿(𝑦𝑖 ∣ 𝐱𝑖) = ̂ 𝑠(𝐱𝑖)
+2
++
+𝑒−̂ 𝑠(𝐱𝑖)‖𝑦𝑖 − ̂ 𝑦(𝐱𝑖)‖22
+2
+(2)
+since this is more numerically stable [25].
+We estimate the track angle and its statistical error with the following
+loss function,
+𝐿𝜃 (𝜃𝑖 ∣ 𝐱𝑖) = ̂ 𝑠(𝐱𝑖)
+2
++ 𝑒−̂ 𝑠(𝐱𝑖)
+2
+‖𝐯𝑖
+2 − ̂
+𝐯
+2(𝐱𝑖)‖22
++ 𝛼.‖𝐯𝑖
+1 − ̂
+𝐯
+1(𝐱𝑖)‖22
+(3)
+where 𝐯𝑖
+2 = (cos 2𝜃𝑖, sin 2𝜃𝑖) and 𝐯𝑖
+1 = (cos 𝜃𝑖, sin 𝜃𝑖) play the roles of the
+features 𝑦𝑖. We parameterize the track angle 𝜃𝑖 as a unit 2D vector 𝐯𝑖
+1 to
+incorporate periodicity. By including a dipolar loss term ‖𝐯𝑖
+2 −̂
+𝐯
+2(𝐱𝑖)‖22
+,
+we account for the 180◦ EVPA ambiguity. Without this additional term
+the sign of the principal axis for poorly resolved tracks is ambiguous
+3
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+and the CNN hedges its bets by selecting ̂
+𝜃
+orthogonal to the principal
+axis; low energy polarization resolution suffers. The hyperparameter
+𝛼 controls the relative importance of the monopole and dipole loss
+terms. Since polarization estimation depends only on 2𝜃𝑖, we estimate
+the statistical error only for the dipole term. Kitaguchi et al. [19]
+include only the dipole term in their loss function. Recovering the full
+directional information is, however, important for reducing detector
+bias and aids in post-processing analysis; a loss function with both
+terms produces the best results.
+Since we also want to measure the absorption point and event
+energy, we include the two additional loss function terms:
+𝐿abs(𝑥𝑖, 𝑦𝑖 ∣ 𝐱𝑖) = 12
+‖(𝑥𝑖, 𝑦𝑖) − ( ̂ 𝑥(𝐱𝑖), ̂ 𝑦(𝐱𝑖))‖22
+(4)
+𝐿E(𝐸𝑖 ∣ 𝐱𝑖) =
+{
+12
+(
+𝐸𝑖 − ̂
+𝐸
+(𝐱𝑖)
+)2
+, if 𝐸𝑖 − ̂
+𝐸
+(𝐱𝑖) ≤ 𝜖
+𝜖|𝐸𝑖 − ̂
+𝐸
+(𝐱𝑖)| − 12
+𝜖2, otherwise
+(5)
+where 𝐸𝑖 are the event energies and 𝑥𝑖, 𝑦𝑖 the coordinates of the
+absorption point in the rectified grid. We use an asymmetric Huber
+loss function (Eq. (5)) for the energy to avoid high energy tails in
+predictions. These are destructive to IXPE’s energy resolution since
+astrophysical spectra and IXPE’s effective area will yield significantly
+more low energy events. The same result can be effected by training the
+NNs on a power law of track energies, instead of a flat distribution. The
+hyperparameter 𝜖 controls the degree of asymmetry. Since our primary
+objective is polarization, we do not include separate location and
+energy statistical error parameters in the minimization. Nevertheless,
+as we will show, this method demonstrably improves localization and
+energy resolution.
+In sum, our total multi-component loss function is
+𝐿(𝜃𝑖, 𝑥𝑖, 𝑦𝑖,𝐸𝑖 ∣ 𝐱𝑖) = 𝐿𝜃 + 𝛽𝐿abs + 𝛾𝐿E(𝜖) + 𝛿‖𝑤‖2 (6)
+with hyperparameters 𝛼, 𝛽, 𝛾, 𝛿, 𝜖 that are tuned during training (Section
+4). The final term is a 𝐿2-norm regularization on the NN parameters
+𝑤. This is a common machine learning regularization scheme
+which prevents overfitting. Each individual CNN is trained to minimize
+Eq. (6). The CNN computations take individual (square) track images
+𝐱𝑖 as input and output the feature vector
+(cos 𝜃𝑖, sin 𝜃𝑖, 𝜎𝐬
+𝑖 , 𝑥𝑖, 𝑦𝑖,𝐸𝑖), (7)
+where superscript 𝐬 in 𝜎𝐬
+𝑖 denotes the predicted statistical, or aleatoric,
+error.
+In practice, after training a set of NNs, we select a best-performing
+subset for inclusion in the final deep ensemble. This selection is described
+in Section 3. We can model the epistemic uncertainty in our
+feature estimates by combining the final feature predictions from all
+the NNs in our ensemble. For each track, 𝐱𝐢, a deep ensemble of 𝑀
+networks 𝑗 = 1,…,𝑀 produces 𝑀 output feature vectors (Eq. (7)). We
+calculate the epistemic uncertainty as the standard deviation of 2𝜃𝑖𝑗
+over the NN ensemble predictions 𝑗. Since 2𝜃𝑖𝑗 are periodic, we use a
+von Mises distribution to estimate the standard deviation in 2𝜃𝑖𝑗 over
+𝑗:
+𝑅𝑖 =
+[
+1
+𝑀
+𝑀Σ
+𝑗=1
+cos 2𝜃𝑖𝑗 ,
+1
+𝑀
+𝑀Σ
+𝑗=1
+sin 2𝜃𝑖𝑗
+]
+, (8)
+𝜎𝐞
+𝑖 =
+√√√√
+1 − ‖𝑅𝑖‖22
+‖𝑅𝑖‖2(2 − ‖𝑅𝑖‖22
+)
+. (9)
+For small scatter this reduces to the normal standard deviation. The
+total error 𝜎𝑖 on angle prediction 𝜃𝑖 for track 𝐱𝐢 is then given by the
+quadrature combination
+𝜎2
+𝑖 =
+(
+𝜎𝐞
+𝑖
+2
+)2
++ 1
+𝑀
+𝑀Σ
+𝑗=1
+(
+𝜎𝐬
+𝑖𝑗
+2
+)2
+, (10)
+where the factors of 1∕2 transform from errors on 2𝜃𝑖 to errors on 𝜃𝑖.
+3. NN training and selection
+Here we describe the training procedure for individual NNs (Section
+4.1) in the ensemble and the process of NN selection for ensemble
+membership.
+3.1. Data sets
+Our training and validation data sets consist of simulated tracks
+(e.g. Fig. 1) generated via a Monte Carlo Geant4 [27] simulation, part
+of IXPE’s GPD software suite [11]. The track energies uniformly span
+1.0–9.0 keV, IXPE’s most sensitive range and are unpolarized (uniform
+track angle distribution). We simulate for the expected IXPE gas pressure
+of 687 mbar. Each track is labeled with its 2D track angle vector
+(cos 𝜃, sin 𝜃), absorption point coordinates (on the square grid) (𝑥, 𝑦) and
+its energy 𝐸. This gives a final feature vector (cos 𝜃, sin 𝜃, 𝑥, 𝑦,𝐸). We
+simulate 3.5 million tracks with a flat energy distribution. We split
+these 3.5 million tracks into a training set, validation set and test set
+where the validation set and test set make up 5% of the total. Finally we
+have tested the performance on tracks from real GPDs; while we do not
+describe the detailed response here, we find polarization performance
+very similar to that realized from the simulated tracks.
+3.2. Training
+We use a ResNet-19 [28] CNN architecture as our base NN. ResNets
+and their variants (like DenseNet [29]) are the current state of the
+art in image classification. They contain ‘skip’-connections in between
+their layers that lead to faster and more robust training. This particular
+architecture is large enough to over-fit the training set, and trains
+in a reasonable amount of time (∼15 h for 150 epochs on 4 Nvidia
+Titan GPUs, using a batch size of 2048). Before training we normalize
+the track images, subtracting the pixel-wise mean from each track
+image and dividing by the pixel-wise standard deviation (where the
+mean and standard deviation are calculated over the full training set).
+The track energy and absorption point labels are similarly processed.
+Normalizing the training data helps prevent vanishing and exploding
+gradients during the NN training procedure and lead to faster convergence.
+We use stochastic gradient descent with momentum as our
+optimizing algorithm, typical in computer vision tasks [30], with a
+stepped decaying learning rate starting at 0.01. We choose batch sizes
+of 512, 1024, 2048 tracks. The training procedure seeks to minimize
+the loss function given by Eq. (6) over the NN parameters. We tune
+the hyperparameters 𝛼, 𝛽, 𝛾, 𝛿, 𝜖 to minimize the MSE on the predicted
+track angle for the validation set, while retaining energy and absorption
+point accuracy. We find, typically, 𝛼 ∼ 1, 𝛽 ∼ 0.2, 𝛾 ∼ 0.2, 𝛿 ∼ 5 × 10−5
+and 𝜖 ∼ 0.5 keV work well for angle accuracy and energy resolution.
+Absorption point and energy resolution depend weakly on the choice
+of 𝛽 and 𝛾. The values of 𝛽 and 𝛾 are < 1, reflecting our choice to focus
+on the measurement of track angles.
+3.3. Selection
+For our deep ensemble, we train 27 individual NNs in the manner
+described above – 9 NNs for each of the 3 different batch sizes
+(encouraging model diversity). We use the entire training data set for
+each NN since deep NNs typically perform better with more data. After
+training these individual NNs, we down-select to the best performing
+10, as measured by the track angle MSE loss 𝐿𝜃 (Eq. (3)) on the
+reserved test set. For the test set all three rectified track image pairs are
+evaluated, and the resulting track angle predictions are rotated back,
+to remove any imprinted hexagonal angle prediction bias. Since we
+save a checkpoint every 10 epochs during the training, we evaluate the
+NNs at all middle-late stages of their training in our selection, retaining
+the best stage. This form of early-stopping helps prevent over-fitting of
+the training set. Fig. 3 shows the photoelectron angle recovery for an
+4
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+Fig. 3. NN (left) and moments (middle) predicted photoelectron angle ̂
+𝜃
+vs. true photoelectron angle 𝜃 for 3.0 (top) and 6.4 (bottom) keV. Right: histograms of the angle differences.
+Our NN predictions have more measurements at the true angle (fewer 𝜋 offsets at low energy), and better recovery of the true 𝜃, especially at higher energies. Note that a 𝜋
+ambiguity in prediction does not affect polarization measurement, which depends on 2̂𝜃
+.
+Fig. 4. Distribution of deep ensemble predicted total errors 𝜎 (Eq. (10)) across the IXPE energy spectrum (left). The right-hand plot shows the 𝜎 distribution for two specific
+energies 3.0 keV (red), 6.4 keV (blue). Low energy tracks tend to cluster around higher predictive uncertainty. High energy tracks have a tail of poorly predicted examples. Many
+of these correspond to the events converting outside the gas volume (see falling black curve in Fig. 5). (For interpretation of the references to colour in this figure legend, the
+reader is referred to the web version of this article.)
+ensemble of NNs and the moment analysis at two example energies, 3.0
+and 6.4 keV.
+In principle, absorption point and energy resolution errors could
+be factored into the NN down-selection, but since polarization is our
+principal interest (and the most difficult to train), we focus on 𝐿𝜃 . The
+results in Section 5 obtain from ensembles of the 10 networks with the
+lowest 𝐿𝜃 .
+4. Polarization estimation
+Unlike many typical deep learning problems, polarization estimation
+requires predicting a distribution measurement from a large number
+of events. We have split the problem in two, first extracting features
+via NNs (Section 2), then forming the required measurement. Here
+we combine our deep ensemble’s feature predictions to produce best
+estimates for the polarization fraction 𝛱, EVPA 𝜙 and their errors.
+The basic problem is to estimate 𝛱 and 𝜙 from a set of measured
+track angles {𝜃𝑖}𝑁𝑖
+=1. As described in the introduction, the track angles
+exhibit a sinusoidal modulation with period 𝜋
+𝑝(𝜃|𝜇, 𝜙) = 1
+2𝜋
+(
+1 + 𝜇 cos
+[
+2(𝜃 − 𝜙)
+])
+(11)
+where 0 ≤ 𝜇 ≤ 1, −𝜋∕2 ≤ 𝜙 < 𝜋∕2 and −𝜋 ≤ 𝜃 < 𝜋. The intrinsic
+polarization fraction is then given by 𝛱 = 𝜇∕𝜇100. While simple
+analyses often bin the data set {𝜃𝑖}𝑁𝑖
+=1 and then fit to estimate 𝜇, 𝜙, this
+provides an inevitable loss of information, and poor performance when
+the bin counts are limited. Maximum likelihood methods are preferable,
+being unbinned. Kislat et al. [31] have developed an unbinned method,
+working with total Stokes parameters. They define
+𝑄 = 2
+𝑁Σ
+𝑖=1
+cos 2𝜃𝑖 (12a)
+5
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+𝑈 = 2
+𝑁Σ
+𝑖=1
+sin 2𝜃𝑖 (12b)
+where 𝑁 is total number of track angles 𝜃𝑖. Then 𝜇, 𝜙 can be simply
+calculated as
+𝜇 = 1
+𝑁
+√(
+𝑄2 + 𝑈2
+)
+(13a)
+𝜙 = 1
+2
+arctan 𝑈
+𝑄
+(13b)
+The strength of this kind of analysis is that the errors on the Stokes
+parameter are easily computed and well behaved. This method is
+unbiased and faster than a full maximum likelihood fit.
+However, the different events can give quite varied constraining
+power. For example, low-energy short tracks inevitably have poorly
+constrained 𝜃 (and, given the typical astrophysical energy spectrum and
+the detector response, most events will have low energy!). A subset of
+events with higher energy or cleaner, longer tracks may be most useful.
+For this reason it is essential to incorporate some form of quality control
+in the tracks we use for our polarization estimates. Traditionally one
+applies track cuts, but this is a sub-optimal since one can throw away
+a large fraction of the data. A weighting scheme should be preferred.
+It is possible to incorporate event weights into the Stokes parameters
+method by defining:
+𝑄 = 2
+𝑁Σ
+𝑖=1
+𝑤𝑖 cos 2𝜃𝑖, (14a)
+𝑈 = 2
+𝑁Σ
+𝑖=1
+𝑤𝑖 sin 2𝜃𝑖, (14b)
+𝐼 =
+𝑁Σ
+𝑖=1
+𝑤𝑖 (14c)
+where 𝑤𝑖 is the relative weight for the event angle 𝜃𝑖 and 𝐼 is used
+instead of 𝑁 in Eq. (13).
+Fig. 4 shows the distribution of NN predicted total errors 𝜎 for
+track data sets spanning all energies. These are equivalent to the track
+reconstruction quality. Even high energy data sets show tails of poorly
+reconstructed tracks.
+4.1. Importance weighted maximum likelihood
+Our deep NN ensembles provide us with statistical and epistemic
+error estimates for each event. Our approach is to incorporate these
+into our measurement of the polarization parameters. In maximum
+likelihood estimation, the negative log-likelihood of the polarization
+parameters given the measured track angles is minimized over the
+likelihood domain:
+minimize
+over𝜇,𝜙
+−
+𝑁Σ
+𝑖=1
+log
+(
+1 + 𝜇 cos
+(
+2(𝜃𝑖 − 𝜙)
+))
+subject to 0 ≤ 𝜇 ≤ 1
+−𝜋∕2 ≤ 𝜙 < 𝜋∕2,
+(15)
+where Eq. (11) is used as the likelihood function 𝐿({𝜃𝑖}|𝜇, 𝜙) and we
+have dropped constant terms, since they do not affect the minimization.
+The optimal values of Eq. (15), (𝜇⋆, 𝜙⋆), are the final polarization estimates.
+An approximation of errors on these estimates (or equivalently
+on the Stokes fluxes from the source) can be calculated analytically
+using Fisher information. We make the substitution 𝜇 = 𝛱𝜇100 to get
+𝜎(𝛱) ≈ 1
+𝜇100
+√
+2 − (𝛱𝜇100)2
+(𝑁 − 1)
+(16a)
+𝜎(𝜙) ≈ 1
+𝛱𝜇100
+√
+2(𝑁 − 1)
+. (16b)
+Note both errors depend strongly on the modulation factor 𝜇100, with
+higher modulation factors leading to smaller prediction errors. There is
+also a dependence on the total number of measured tracks 𝑁, making
+extensive track cuts detrimental.
+We modify Eq. (15) to an importance-weighted maximum likelihood
+estimate
+minimize
+over𝜇,𝜙
+−
+𝑀Σ
+𝑗=1
+𝑁Σ
+𝑖=1
+𝜎−𝜆
+𝑖𝑗 log
+(
+1 + 𝜇 cos
+(
+2(𝜃𝑖𝑗 − 𝜙)
+))
+subject to 0 ≤ 𝜇 ≤ 1
+−𝜋∕2 ≤ 𝜙 < 𝜋∕2,
+(17)
+where 𝑀 is the number of NNs in the deep ensemble, 𝜃𝑖𝑗 are the
+predicted track angles and 𝜎𝑖𝑗 =
+√
+(𝜎𝐬
+𝑖𝑗∕2)2 + (𝜎𝐞
+𝑖 ∕2)2 are the total
+predicted errors on 𝜃𝑖𝑗 (Section 2.3). The 𝑗th NN in the ensemble makes
+a prediction (𝜃𝑖𝑗 , 𝜎𝑖𝑗 ) for the 𝑖th track. The predicted errors 𝜎−1
+𝑖𝑗 are
+used as importance weights [32,33], so that low 𝜎 tracks are weighted
+more strongly. The parameter 𝜆 controls a simple weighting scheme:
+for 𝜆 = 0 the log-likelihood is unweighted and we recover the Stokes
+method (Eqs. (9) and (10)). With high 𝜆 the best-measured tracks
+dominate the polarization estimate. This increases 𝜇100 but leads to
+larger fluctuations in the estimated values, as well as increased sensitivity
+to reconstruction biases (e.g. when 𝜃 aligns with the underlying
+hexagonal grid, giving cleaner tracks). In Section 4.2 we provide a
+prescription for selecting 𝜆. The best 𝜆 will depend on the source
+spectrum.
+We can rewrite Eq. (17) as a convex optimization problem:
+minimize
+over 𝐱
+−
+𝑀Σ
+𝑗=1
+𝑁Σ
+𝑖=1
+𝜎−𝜆
+𝑖𝑗 log
+(
+1 + 𝐯𝑇
+𝑖𝑗𝐱
+)
+subject to ‖𝐱‖2 ≤ 1
+(18)
+where 𝐯𝑖𝑗 = (cos 𝜃𝑖𝑗 , sin 𝜃𝑖𝑗 ) and 𝐱 = (𝜇 cos 𝜙, 𝜇 sin 𝜙). By recasting
+Eq. (17) as a convex optimization problem, we have a guaranteed
+globally optimal solution for (𝜇, 𝜙). We can solve Eq. (18) quickly and
+efficiently using second order Newton methods. In practice we use the
+robust open source software Ipopt [34].
+When we include the full distribution of 𝑀 track angle predictions,
+we most accurately approximate the true model uncertainty. However,
+it is possible to simplify the analysis by averaging the track angle
+predictions 𝜃𝑖𝑗 over 𝑗:
+𝜃𝑖 = 1
+2
+atan2
+( 1
+𝑀
+𝑀Σ
+𝑗=1
+sin 2𝜃𝑖𝑗 ,
+1
+𝑀
+𝑀Σ
+𝑗=1
+cos 2𝜃𝑖𝑗
+)
+(19)
+and using 𝜎𝑖 (Eq. (10)) for the total error on 𝜃𝑖. This allows the
+importance weighted maximum likelihood to recover the weighted
+Stokes analysis (Eqs. (13)–(14)), where 𝑤𝑖 = 𝜎−𝜆
+𝑖 . This approximation
+is much easier to compute, but does not fully exploit the epistemic
+uncertainty.
+4.2. Figure of merit
+We require a figure-of-merit (FoM) for the polarization measurement,
+a scalar value representing the signal to noise ratio of a given
+detector and analysis scheme. The standard figure-of-merit used in
+X-ray polarimetry currently is the minimum detectable polarization
+(MDP) [35]. MDP99 is the polarization fraction that has a 1% probability
+of being exceeded by chance for an unpolarized source. The
+probability 𝑝(𝜇, 𝜙) of measuring modulation 𝜇 and EVPA 𝜙 given that
+the true modulation and phase are 𝜇0 and 𝜙0 is [35]
+𝑝(𝜇, 𝜙) = 𝑁𝜇
+4𝜋
+exp
+(
+−𝑁4
+[
+𝜇2 + 𝜇2
+0 − 2𝜇𝜇0 cos 2(𝜙 − 𝜙0)
+])
+. (20)
+Here 𝑁 is the total number of measured tracks as usual. The MDP99
+may be found by integrating Eq. (20) for 𝜇0 = 0, resulting in
+MDP99 ≈ 4.29
+𝜇100
+√
+𝑁
+(21)
+6
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+where 𝜇100 accounts for imperfect polarization recovery; the source
+polarization will be 𝛱 = 𝜇∕𝜇100. Note the similarity to Eq. (16a): MDP
+is effectively a (inverse) ratio of recovered signal 𝜇100 to noise ∼ 1∕
+√
+𝑁.
+For a given detector, track reconstruction algorithms with lower MDPs
+are better.
+For a weighted polarization estimate, the error on recovered 𝛱, 𝜙,
+and equivalently the noise denominator term
+√
+𝑁, is no longer given by
+the total number of tracks since some tracks can contribute significantly
+more than others. We define 𝑁eff to replace 𝑁 in the MDP99, and in
+Eq. (16b), for a weighted scheme. For the weighted Stokes method
+(Eq. (14)),
+𝑁eff = 𝐼2∕
+𝑁Σ
+𝑖=1
+𝑤2
+𝑖
+. (22)
+For an importance weighted maximum likelihood incorporating all 𝑀
+NN ensemble predictions (Eq. (17)) there is no closed form solution for
+𝑁eff . However, with numerical simulations we can study the variance
+of our importance weighted maximum likelihood results and measure
+the effective 𝜇0, if any, from the offset and 𝑁eff from the width. This
+allows us to use MDP99 as our ’Figure of Merit’ for comparing analysis
+schemes, including cuts and weights, when we replace 𝑁 by 𝑁eff in
+Eq. (21), where we determine 𝑁eff by fitting Eq. (20) to a bootstrapsampled
+distribution of (𝜇, 𝜙) for an unpolarized source. In this fit, we
+maximize the likelihood 𝑝({𝜇, 𝜙} ∣ 𝑁, 𝜇0, 𝜙0), where {𝜇, 𝜙} is our set of
+bootstrap samples. The optimal value (𝑁⋆, 𝜇⋆
+0 , 𝜙⋆
+0 ) defines 𝑁eff = 𝑁⋆.
+We do not include the estimator bias 𝜇⋆
+0 directly in the FoM because
+any useful estimator should either have a negligible bias or the bias, if
+known, should be divided out (as in Kitaguchi et al. [19]); 𝜇⋆
+0 is simply
+a tool to evaluate any residual bias in the track reconstruction. Indeed,
+we find that the 𝜇⋆
+0 are small, consistent with the residual statistical
+polarization in our finite-sized event sets.
+Bootstrapping works for any algorithm (when one can compute sufficient
+bootstrap samples), so this FoM can be used for all polarization
+estimation methods discussed, with or without event cuts or weights.
+For a given set of tracks, the weighting scheme 𝜆 for our importance
+weighted MLE (Eq. (17)) is chosen by evaluating the MDP99 for a
+set of 𝜆s and choosing the best performer. Using the weighted Stokes
+approximation – where prediction from the 𝑀 NNs in the ensemble are
+averaged for each track – the best 𝜆 is faster to compute since 𝑁eff is
+given analytically (Eq. (22)); no bootstrapping is required. In Section 5
+we identify the best 𝜆 using the weighted Stokes approximation first,
+then apply the full importance weighted MLE, using the bootstrap
+analysis to find the final MDP99. We show examples of the bootstrap
+fits in Section 5.
+5. Results
+All of the training, testing and validation have been performed
+on the simulated event track images. These have been used to train
+NNs and down-select to an ensemble having maximum sensitivity and
+minimum residual error. We have performed limited tests with real
+GPD data and confirm that we can obtain comparable accuracy with
+these images, but unsimulated physical effects in the GPD hardware and
+the peculiarities of individual flight GPD will require networks tuned
+for specific devices. Here we focus on the general performance.
+5.1. Polarization
+To maximize polarization sensitivity, the appropriate metric for performance
+is the FoM defined in Section 4.2. However, it is instructive
+to examine the 𝜇100 and unpolarized 𝜇0 energy dependence across
+the IXPE spectral range. We show these results for simulated data in
+Fig. 5 for our method with and without weights, and the moment
+analysis with and without cuts. In the upper panel, the black line at top
+shows the modulated signal from a simulated data set corresponding
+to a 100% polarized (𝛱 = 1) source. The decrease toward high
+Fig. 5. Modulation response for analysis of simulated GPD tracks. Top: The available
+signal 𝜇 for a 100% polarized source, after dilution by window/GEM conversion events
+(black dotted line). Standard moments analysis and moments with a 20% ellipticity cuts
+are compared with the deep ensemble NN analysis with uniform weighting. The NN
+𝜇 improves using 𝜆 = 1 (dots) and 𝜆 = 2 (crosses) weights. Middle: Response to an
+unpolarized signal. Triangular points show the residual polarization of the ∼ 3.4 × 105
+event simulation, with 1𝜎 error bars. Solid (moments with 20% cuts) and dashed (NN
+𝜆 = 1) bands show the recovered signal 1𝜎 statistical uncertainty ranges. Bottom:
+Recovered EVPA error for a polarized signal. Triangular error bars show the residual
+EVPA from the finite simulation. (For interpretation of the references to colour in this
+figure legend, the reader is referred to the web version of this article.)
+energy represents the increasing fraction of events which convert in
+the detector window or the GEM foil. These are truncated and/or highly
+scattered, with a fraction of the normal gas energy deposition and retain
+little polarization information. Thus perfect reconstruction can at best
+reach the black line. The blue solid line shows the performance of the
+mission default (Moments) analysis. If one knows the event energy a
+priori (e.g. for a calibration source) one can cut on recovered energy
+to remove many of the incomplete tracks, improving the polarization
+response (blue dotted line). For astrophysical sources with unknown
+event energies, this simple effective prescription cannot be applied.
+More sophisticated shape cuts could in principle recover a fraction of
+this improvement — however one must recall that these cuts decrease
+the sample size and when considering the polarization sensitivity of a
+given data set, this substantially reduces the gains from the cuts.
+The performance of our initial NN analysis (red dashed line) is
+better than the moments analysis and at high energies, even matches
+moments after the ellipticity cuts. Of course, we can use our event quality
+metric to make a better weighted measurements (red starred and
+dotted lines) and this substantially increases the modulation sensitivity,
+at a modest cost in the effective number of sample events.
+While high polarization sensitivity 𝜇100 is desired, it is essential that
+the analysis chain not induce spurious signals from unpolarized sources.
+7
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+Fig. 6. Track angle recovery for unpolarized (top row) and polarized (bottom row) simulated data for 3.0 and 6.4 keV. The original photoelectron angle distribution is shown in
+black; standard moment analysis reconstruction is in blue and unweighted NNs in red. The top panels show negligible residual polarization, the bottom panels show lack of bias
+and a modest increase in NN sensitivity, especially at higher energies. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version
+of this article.)
+Table 1
+Sensitivity analysis for 105 2-8 keV photons with a 𝑑𝑁∕𝑑𝐸 ∼ 𝐸−2 spectrum and IXPE’s
+energy response. MDP99 gives the sensitivities for the various cuts and weights; smaller
+MDP99 is better. The arrows show the minimum MDP99 found by optimizing over 𝜆.
+With a bootstrap analysis (Fig. 7), the weighting takes better advantage of the epistemic
+uncertainty for a small additional MDP99 decrease at this 𝜆.
+Method 𝜇100(%) 𝑁eff ∕𝑁 𝜆 MDP99(%)
+Mom. 27.0 1.0 0 5.03 ± 0.02
+Mom. w/ cut 31.3 0.796 – 4.88 ± 0.03
+Mom. w/ weights 31.4 0.878 0.67 4.61 ± 0.01 ←
+NN 28.7 1.0 0 4.72 ± 0.02
+NN w/ weights 32.6 0.954 1 4.26 ± 0.02
+NN w/ weights 36.8 0.812 1.83 4.09 ± 0.02 ←
+NN w/ weights (bootstrap) 36.1 0.852 1.83 4.07 ± 0.02 ←
+NN w/ weights 37.7 0.763 2 4.12 ± 0.02
+The middle panel summarizes tests for this effect. The finite size of
+the simulated unpolarized data set guarantees a residual statistical polarization.
+This is shown by the black triangles; an ideal measurement
+should not induce polarization significantly in excess of this value. The
+colored traces show the 1𝜎 range for weighted NNs and the moment
+analysis with cuts. We see that the NN analysis induces no significant
+polarization and, like the moments analysis, meets mission requirements
+at all energies. The slightly larger 1𝜎 range on the moment
+Table 2
+Sensitivity analysis, as for Table 1, but for 105 2-8 keV photons with a 𝑑𝑁∕𝑑𝐸 ∼ 𝐸−1
+spectrum and IXPE’s energy response.
+Method 𝜇100(%) 𝑁eff ∕𝑁 𝜆 MDP99(%)
+Mom. 29.9 1.0 0 4.55 ± 0.02
+Mom. w/ cut 34.7 0.804 – 4.36 ± 0.01
+Mom. w/ weights 35.1 0.867 0.60 4.15 ± 0.01 ←
+NN 32.1 1.0 0 4.22 ± 0.02
+NN w/ weights 37.3 0.935 1 3.76 ± 0.01
+NN w/ weights 41.2 0.812 1.65 3.65 ± 0.01 ←
+NN w/ weights (bootstrap) 40.9 0.835 1.65 3.63 ± 0.01 ←
+NN w/ weights 43.6 0.707 2 3.70 ± 0.01
+analysis with cuts are a marker for increased measurement noise —
+the trade off between increased signal vs. noise is best evaluated with
+our FoM. Here we are measuring a small residual signal so the energy
+bins are larger, containing ∼ 340, 000 test tracks.
+We can compare with the PRAXyS NN simulation results of
+Kitaguchi et al. [19] for the non-imaging low pressure PRAXyS detector.
+While their 𝜇100 sensitivity (at three energies) is roughly at the position
+of our 𝜆 = 1 (red dotted–dashed) curve, their unpolarized signal had
+large systematics. In part this is because their networks had very large
+prediction biases (large 𝜇0 in the middle panel) – they were forced
+8
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+Fig. 7. Bootstrapped modulation distributions for a PL2 test data set (0.6 million
+simulated tracks with 5000 bootstrap samples). The residual modulation from the
+original simulated photoelectron directions are the black histogram, weighted NNs
+𝜆 = 1.83 are in red and moment analysis with standard cuts in blue. The solid lines show
+the fits of Eq. (20) to these distributions (the fitting also includes the bootstrapping
+distribution on 𝜙, not shown here). From these fits we get an estimate of 𝑁eff for
+each method to use in the FoM (Eq. (21)). For weighted NN, the result gives a slightly
+improved MDP99, as listed in Table 1. (For interpretation of the references to colour
+in this figure legend, the reader is referred to the web version of this article.)
+to divide out the 𝜃 pattern of these biases to obtain acceptable ∼1%
+polarization levels. Our NN ensemble produces negligible bias at these
+energies, so we did not have to perform such a normalization, yet our
+residual polarization is substantially lower at all energies for the same
+number of test tracks.
+The bottom panel of Fig. 5 shows the quality of EVPA recovery
+for the 100% polarized case. Again NN performance is comparable to
+moments in 𝜙 recovery. Both methods have somewhat increased error
+at low energy, due to low recovered 𝜇100 and limited counts analyzed
+in these energy bins (Eq. (16b)). For 𝜇 ∼ 0, 𝜙 becomes undefined.
+To help visualize the reconstruction accuracy, we show the binned
+modulation curves for 0% and 100% polarization for two energies
+in Fig. 6. Recall that we do not simply fit these histograms to recover
+polarization parameters (as in some less sophisticated analyses).
+Nevertheless, these are useful to show the lack of bias in our angle
+predictions. Some ML polarization analyses suffer from strong prediction
+bias, producing imperfect 2𝜋 symmetry and narrow peaks in
+the angular distribution, e.g. Moriakov et al. [12]; no such artifacts
+are evident in our reconstructions. We can see that the unpolarized
+distributions for our NN method are as flat as those for the moments,
+but the NNs recover significantly more modulation in the polarized
+data.
+Fig. 7 shows the bootstrap distributions used to calculate 𝑁eff for
+the full importance weighted maximum likelihood method.
+Tables 1 and 2 show our FoM results for two power law datasets and
+several values of the importance weighting control parameter 𝜆. These
+source spectrum power laws PL1 (𝑑𝑁∕𝑑𝐸 = 𝐴𝐸−1), and PL2 (𝑑𝑁∕𝑑𝐸 =
+𝐴𝐸−2) extend across the IXPE energy spectrum. They are convolved
+with IXPE’s effective area function [36], to provide event energy distributions
+expected for real astrophysical sources. We include a moment
+analysis weighted by track ellipticities for comparison, although this
+analysis is not currently used by IXPE. We compute modulations for
+the 2–8 keV events only, with values normalized to 105 events in this
+range, as achievable for a moderately bright X-ray source.
+In Table 1 optimal 𝜆 weighted NNs outperform the uncut moment
+analysis by ∼ 1.25× in this FoM, and by ∼ 1.20× with ellipticity cuts
+or ∼ 1.14× with ellipticity weights for both PL2 and PL1 (Tables 1 and
+2). NN improvements in PL1 are slightly higher than PL2 since there
+are more high energy tracks. Note also that the improvement of our
+method comes in 3 parts: an improvement in track angle prediction
+(NN > Mom.), an improvement in the track error predictions (NN
+w/ weights > Mom. w/ weights) and an improvement from using a
+weighted scheme (NN w/ weights > NN, Mom. w/ weights > Mom. w/
+cut).
+Since (for an unbiased estimator) the FoM is proportional to
+𝑁−1∕2
+eff ∼ 𝑡−1∕2, the FoM improvement corresponds to a 1-1.22 ≈ 45%
+increase in effective exposure time vs. cut moments analysis, or ≈ 30%
+if moments weights are employed. The effective area peaks at ∼ 2.5 keV,
+greatly favoring low energy tracks in the analyzed data set. Of course
+this disfavors our NN analysis which tends to perform best at high
+energies, but is conservative and realistic for soft astrophysical sources.
+Sources with harder spectra (e.g. highly absorbed AGN or accreting Xray
+pulsars) will show even larger NN performance boosts. Note that we
+also do not include the events detected outside of the 2 − 8 keV energy
+range. A small MDP99 improvement can be expected from inclusion of
+the many (poorly measured) low energy events, especially for very soft
+sources.
+While all results shown here are for simulated tracks, we have
+applied this analysis to sample data from real GPD events, and find
+similar sensitivity improvements. More extensive comparisons with
+individual GPDs will be needed to optimize the analysis.
+5.2. Absorption points
+Our NN analysis also returns the photon absorption point and
+energy. Fig. 8 shows the performance compared with the standard moment
+analysis for the localization in terms of root mean squared error
+(RMSE). In the standard pipeline, the localization shifts to the event
+barycenter (dashed curve) at low energies. It seems that our trained
+NN automatically shifts to a similar estimate at low energies as the red
+curve is better at all 𝐸. In practice the performance of all methods is
+adequate for IXPE imaging; the dotted line shows one quarter of the
+mirror half power diameter (HPD). However, the excellent NN photon
+localization on the detector can be very helpful in characterizing and
+mitigating position-dependent detector effects. We can compare our
+recovered absorption point localization HPDs at 2.7, 4.5, 6.4 and 8.0
+keV (1.7, 1.6, 1.6, and 1.9 pixels, respectively) to those of Li et al. [37]
+(2.3, 3.4, 3.2, 3.7 pixel) and Kitaguchi et al. [19] (1.9, 1.6, 1.5, 1.6),
+finding that they compare favorably.
+5.3. Energy
+For the energy resolution, we find that the NN out-performs moments
+for all energies in the IXPE spectrum. Results are shown in Figs. 8
+and 9. While we expect that all sources observed by IXPE will have
+much higher resolution spectra available (e.g. from CCD data), this
+energy improvement can help in isolating polarization signatures to
+narrow spectra features, e.g. the Fe K𝛼 line. Further simulation with
+real astronomical spectra are needed to see if such line affects are
+within IXPE’s reach.
+6. Summary and discussion
+We have developed a state-of-the-art track reconstruction and polarization
+prediction framework for imaging X-ray polarimeters. We
+reconstruct X-ray photon track angles, absorption points and energies
+using deep ensembles; predictive errors in track angle are used to inform
+a weighted maximum likelihood estimation of source polarization
+parameters. We define a new FoM for polarization recovery, using
+bootstrap error distributions, which allows us to compare, on equal
+footing, our method with the IXPE project’s current moment analysis,
+including cuts to the data sets and weights from the reconstruction
+quality measurements. We have tested our method with simulated and
+real detector data. On simple simulated power law spectra, our analysis
+implies that the increases to IXPE’s polarization sensitivity provided by
+this method can increase the effective exposures by as much as ∼ 45%.
+Preliminary results suggest improvements on real data are similar.
+9
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+Fig. 8. Left: Photon absorption point localization. The NN analysis (red) does appreciably better than the moments analysis and matches the barycenter estimate at the lowest
+energies. All methods are adequate, as localization is much better than the size of the point source image produced by IXPE’s mirrors. Right: Fractional width of the event energy
+estimate. The distributions are measured with the Median Absolute Deviation (MAD) statistic, which is less sensitive to the long tail from partial tracks (see Fig. 9). Values are
+converted as FWHM = 3.46MAD, appropriate for a Gaussian peak. The NN analysis does slightly better than the standard PI count summing, especially at high energy. The
+theoretical resolution limit for the GPD Fano factor is shown by the dotted line. (For interpretation of the references to colour in this figure legend, the reader is referred to the
+web version of this article.)
+Fig. 9. Left: Recovered energy distributions. The main peak is slightly higher (smaller FWHM) for NN estimates, while the low energy tail of window/GEMS conversion partial
+tracks is somewhat suppressed.
+Further verification with real X-ray calibration data sets is needed
+before this method can be applied to flight data. The networks would
+also need to be tuned, with calibration data, for the peculiarities of
+each flight detector. Of course the weighting scheme should be tuned
+for individual source spectra. Indeed, considering variation in Fig. 4 the
+optimal weighting will be an energy dependent 𝜆(𝐸𝑖). The method that
+we present here is general and may offer even larger gains for future
+missions with larger effective areas and higher spatial resolution from
+tighter mirror PSFs, such as eXTP and future proposed electron tracking
+polarization projects.
+CRediT authorship contribution statement
+A.L. Peirson: Conceptualization, Methodology, Software, Writing -
+original draft, Formal analysis, Visualization. R.W. Romani: Supervision,
+Validation, Writing - original draft, Conceptualization, Resources.
+H.L. Marshall: Project administration, Writing - review & editing,
+Resources. J.F. Steiner: Writing - review & editing, Investigation. L.
+Baldini: Writing - review & editing, Software.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to
+influence the work reported in this paper.
+Acknowledgments
+We would like to thank Bruce Tidor and Kevin Shi of MIT for
+early efforts related to this project and Marius Tirlea for discussions
+on statistical models. We would also like to thank the NASA FINESST,
+United States of America grant 80NSSC19K1407 and NASA, United
+States of America grant NNM17AA26C for supporting this work. The
+Italian contribution to IXPE is supported by the Italian Space Agency
+through the agreement ASI-INFN n.2017-13-H.O. Funding for this work
+was provided in part by contract 80MSFC17C0012 from the Marshall
+Space Flight Center (MSFC), United States to MIT in support of IXPE,
+a NASA Astrophysics Small Explorers mission.
+References
+[1] H. Krawczynski, G. Matt, A.R. Ingram, R. Taverna, R. Turolla, F. Kislat, C.C.T.
+Cheung, A. Bykov, K. Sinha, H. Zhang, J. Heyl, N. Bucciantini, G. Madejski,
+T. Kallman, K.M. Jahoda, Q. Abarr, M.G. Baring, L. Baldini, M. Begelman, M.
+Böttcher, E. Cackett, I. Caiazzo, P. Coppi, E. Costa, J. Dexter, J.-F. Fortin, C.
+Gammie, J.A. Gaskin, D. Giannios, P. Ghosh, A.K. Harding, D.H. Hartmann, K.
+Hayashida, S.G. Jorstad, P. Kaaret, T. Kitaguchi, L. Latronico, T. Maccarone,
+A. Marscher, H. Marshall, M. McConnell, J.M. Miller, S.L. O’Dell, F. Özel, T.
+Okajima, M. Pearce, J. Perkins, B.D. Ramsey, R.W. Romani, J.D. Schnittman,
+C. Sgro, P. Soffitta, H. Takahashi, T. Tamagawa, J. Tomsick, M.C. Weisskopf, G.
+Younes, Using X-ray polarimetry to probe the physics of black holes and neutron
+stars, 51, 2019, p. 150, Conference Name: Bulletin of the American Astronomical
+Society.
+[2] M.C. Weisskopf, G.G. Cohen, H.L. Kestenbaum, K.S. Long, R. Novick, R.S. Wolff,
+Measurement of the X-ray polarization of the Crab Nebula, Astrophys. J. Lett.
+(ISSN: 0004-637X) 208 (1976) L125–L128, http://dx.doi.org/10.1086/182247.
+10
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+[3] E. Costa, P. Soffitta, R. Bellazzini, A. Brez, N. Lumb, G. Spandre, An efficient
+photoelectric X-ray polarimeter for the study of black holes and neutron stars,
+Nature (ISSN: 0028-0836) 411 (2001) 662–665.
+[4] R. Bellazzini, G. Spandre, M. Minuti, L. Baldini, A. Brez, L. Latronico, N. Omodei,
+M. Razzano, M.M. Massai, M. Pesce-Rollins, C. Sgró, E. Costa, P. Soffitta, H.
+Sipila, E. Lempinen, A sealed gas pixel detector for X-ray astronomy, Nucl.
+Instrum. Methods Phys. Res. A (ISSN: 0168-9002) 579 (2007) 853–858, http:
+//dx.doi.org/10.1016/j.nima.2007.05.304.
+[5] H. Feng, R. Bellazzini, The X-ray polarimetry window reopens, Nat. Astronom.
+(ISSN: 2397-3366) 4 (5) (2020) 547, http://dx.doi.org/10.1038/s41550-020-
+1103-6, Publisher: Nature Publishing Group.
+[6] C. Sgrò, IXPE Team, The imaging X-ray polarimetry explorer (IXPE), Nucl.
+Instrum. Methods Phys. Res. A (ISSN: 0168-9002) 936 (2019) 212–215, http:
+//dx.doi.org/10.1016/j.nima.2018.10.111.
+[7] S.N. Zhang, M. Feroci, A. Santangelo, Y.W. Dong, H. Feng, F.J. Lu, K. Nandra,
+Z.S. Wang, S. Zhang, E. Bozzo, S. Brandt, A.D. Rosa, L.J. Gou, M. Hernanz,
+M.v.d. Klis, X.D. Li, Y. Liu, P. Orleanski, G. Pareschi, M. Pohl, J. Poutanen, J.L.
+Qu, S. Schanne, L. Stella, P. Uttley, A. Watts, R.X. Xu, W.F. Yu, J.J.M.i.t. Zand,
+S. Zane, L. Alvarez, L. Amati, L. Baldini, C. Bambi, S. Basso, S. Bhattacharyya,
+R. Bellazzini, T. Belloni, P. Bellutti, S. Bianchi, A. Brez, M. Bursa, V. Burwitz,
+C. Budtz-Jørgensen, I. Caiazzo, R. Campana, X.L. Cao, P. Casella, C.Y. Chen, L.
+Chen, T. Chen, Y. Chen, Y. Chen, Y.P. Chen, M. Civitani, F.C. Zelati, W. Cui, W.W.
+Cui, Z.G. Dai, E.D. Monte, D.d. Martino, S.D. Cosimo, S. Diebold, M. Dovciak, I.
+Donnarumma, V. Doroshenko, P. Esposito, Y. Evangelista, Y. Favre, P. Friedrich,
+F. Fuschino, J.L. Galvez, Z.L. Gao, M.Y. Ge, O. Gevin, D. Goetz, D.W. Han, J.
+Heyl, J. Horak, W. Hu, F. Huang, Q.S. Huang, R. Hudec, D. Huppenkothen,
+G.L. Israel, A. Ingram, V. Karas, D. Karelin, P.A. Jenke, L. Ji, S. Korpela, D.
+Kunneriath, C. Labanti, G. Li, X. Li, Z.S. Li, E.W. Liang, O. Limousin, L. Lin,
+Z.X. Ling, H.B. Liu, H.W. Liu, Z. Liu, B. Lu, N. Lund, D. Lai, B. Luo, T. Luo, B.
+Ma, S. Mahmoodifar, M. Marisaldi, A. Martindale, N. Meidinger, Y.P. Men, M.
+Michalska, R. Mignani, M. Minuti, S. Motta, F. Muleri, J. Neilsen, M. Orlandini,
+A.T. Pan, A. Patruno, E. Perinati, A. Picciotto, C. Piemonte, M. Pinchera, A.
+Rachevski, M. Rapisarda, N. Rea, E.M.R. Rossi, A. Rubini, G. Sala, X.W. Shu, C.
+Sgro, Z.X. Shen, P. Soffitta, L.M. Song, G. Spandre, G. Stratta, T.E. Strohmayer,
+L. Sun, J. Svoboda, G. Tagliaferri, C. Tenzer, T. Hong, R. Taverna, G. Torok,
+R. Turolla, S. Vacchi, J. Wang, D. Walton, K. Wang, J.F. Wang, R.J. Wang,
+Y.F. Wang, S.S. Weng, J. Wilms, B. Winter, X. Wu, X.F. Wu, S.L. Xiong, Y.P.
+Xu, Y.Q. Xue, Z. Yan, S. Yang, X. Yang, Y.J. Yang, F. Yuan, W.M. Yuan, Y.F.
+Yuan, G. Zampa, N. Zampa, A. Zdziarski, C. Zhang, C.L. Zhang, L. Zhang, X.
+Zhang, Z. Zhang, W.D. Zhang, S.J. Zheng, P. Zhou, X.L. Zhou, eXTP: Enhanced
+X-ray timing and polarization mission, in: Space Telescopes and Instrumentation
+2016: Ultraviolet to Gamma Ray, Vol. 9905, International Society for Optics and
+Photonics, 2017, p. 99051Q, http://dx.doi.org/10.1117/12.2232034.
+[8] M. Weisskopf, An overview of X-ray polarimetry of astronomical sources,
+Galaxies 6 (2018) 33, http://dx.doi.org/10.3390/galaxies6010033.
+[9] S.L. O’Dell, L. Baldini, R. Bellazzini, E. Costa, R.F. Elsner, V.M. Kaspi, J.J.
+Kolodziejczak, L. Latronico, H.L. Marshall, G. Matt, F. Mulieri, B.D. Ramsey,
+R.W. Romani, P. Soffitta, A.F. Tennant, M.C. Weisskopf, D.Z. Allen, F. Amici,
+S. Antoniak, P. Attina, M. Bachetti, M. Barbanera, W.H. Baumgartner, J. Bladt,
+S.D. Bongiorno, F. Borotto, T. Brooks, S. Bussinger, H.K. Bygott, E. Cavazzuti,
+M. Ceccanti, S. Citraro, W.D. Deininger, E. Del Monte, K.L. Dietz, N. Di Lalla, G.
+Di Persio, I. Donnarumma, J. Erickson, Y. Evangelista, S. Fabiani, R. Ferrazzoli,
+M. Foster, M. Giusti, S. Gunji, L. Guy, S. Johnson, W. Kalinowski, A.R. Kelley,
+K. Kilaru, C. Lefevre, S. Maldera, A. Manfreda, M. Marengo, J. Masciarelli, M.
+McEachen, P. Mereu, M. Minuti, M.A. Mitchell, S. Mitchell, I. Mitsuishi, A.
+Morbidini, F. Mosti, H. Nasimi, B. Negri, L. Orsini, D. Osborne, S.D. Pavelitz,
+C. Pentz, M. Perri, M. Pesce-Rollins, C. Peterson, R. Piazzolla, S. Pieraccini,
+M. Pilia, M. Pinchera, S. Puccetti, J. Ranganathan, T. Read, A. Rubini, F.
+Santoli, P. Sarra, S. Schindhelm, A. Sciortino, C. Seckar, C. Sgrò, B.T. Smith,
+C.O. Speegle, T. Tamagawa, M. Tardiola, A. Tobia, A. Tortosa, A. Trois, B.
+Weddendorf, J. Wedmore, D. Zanetti, The imaging X-ray polarimetry explorer
+(IXPE): technical overview, 0699, 2018, p. 106991X, http://dx.doi.org/10.1117/
+12.2314146, Conference Name: Space Telescopes and Instrumentation 2018:
+Ultraviolet to Gamma Ray.
+[10] F. Muleri, P. Soffitta, L. Baldini, R. Bellazzini, A. Brez, E. Costa, S. Fabiani, F.
+Krummenacher, L. Latronico, F. Lazzarotto, M. Minuti, M. Pinchera, A. Rubini,
+C. Sgró, G. Spandre, Spectral and polarimetric characterization of the Gas
+Pixel Detector filled with dimethyl ether, Nucl. Instrum. Methods Phys. Res. A
+(ISSN: 0168-9002) 620 (2010) 285–293, http://dx.doi.org/10.1016/j.nima.2010.
+03.006.
+[11] R. Bellazzini, F. Angelini, L. Baldini, A. Brez, E. Costa, G.D. Persio, L. Latronico,
+M.M. Massai, N. Omodei, L. Pacciani, P. Soffitta, G. Spandre, Novel gaseous
+x-ray polarimeter: data analysis and simulation, in: Polarimetry in Astronomy,
+Vol. 4843, International Society for Optics and Photonics, 2003, pp. 383–393,
+http://dx.doi.org/10.1117/12.459381.
+[12] N. Moriakov, A. Samudre, M. Negro, F. Gieseke, S. Otten, L. Hendriks, Inferring
+astrophysical X-ray polarization with deep learning, 2020, arXiv:2005.08126
+[astro-ph].
+[13] A. Graves, S. Fernández, F. Gomez, J. Schmidhuber, Connectionist temporal classification:
+labelling unsegmented sequence data with recurrent neural networks,
+in: Proceedings of the 23rd International Conference on Machine Learning, ICML
+’06, Association for Computing Machinery, Pittsburgh, Pennsylvania, USA, ISBN:
+978-1-59593-383-6, 2006, pp. 369–376, http://dx.doi.org/10.1145/1143844.
+1143891.
+[14] T. Young, D. Hazarika, S. Poria, E. Cambria, Recent trends in deep learning
+based natural language processing, 2018, arXiv:1708.02709 [cs].
+[15] B. Tang, Z. Pan, K. Yin, A. Khateeb, Recent advances of deep learning in
+bioinformatics and computational biology, Front. Genet. (ISSN: 1664-8021) 10
+(2019) http://dx.doi.org/10.3389/fgene.2019.00214, Publisher: Frontiers.
+[16] A. Krizhevsky, I. Sutskever, G.E. Hinton, Imagenet classification with deep
+convolutional neural networks, in: F. Pereira, C.J.C. Burges, L. Bottou, K.Q.
+Weinberger (Eds.), Advances in Neural Information Processing Systems 25,
+Curran Associates, Inc., 2012, pp. 1097–1105.
+[17] A. Brill, Q. Feng, T.B. Humensky, B. Kim, D. Nieto, T. Miener, Investigating a
+deep learning method to analyze images from multiple gamma-ray telescopes,
+in: 2019 New York Scientific Data Summit, NYSDS, 2019, pp. 1–4, http://dx.
+doi.org/10.1109/NYSDS.2019.8909697, arXiv:2001.03602.
+[18] N. Choma, F. Monti, L. Gerhardt, T. Palczewski, Z. Ronaghi, Prabhat, W. Bhimji,
+M.M. Bronstein, S.R. Klein, J. Bruna, Graph neural networks for IceCube signal
+classification, 2018, arXiv:1809.06166 [astro-ph, stat].
+[19] T. Kitaguchi, K. Black, T. Enoto, A. Hayato, J.E. Hill, W.B. Iwakiri, P. Kaaret,
+T. Mizuno, T. Tamagawa, A convolutional neural network approach for reconstructing
+polarization information of photoelectric X-ray polarimeters, Nucl.
+Instrum. Methods Phys. Res. A (ISSN: 01689002) 942 (2019) 162389, http:
+//dx.doi.org/10.1016/j.nima.2019.162389, arXiv:1907.06442.
+[20] T. Tamagawa, PRAXyS Team, X-ray polarimetry mission PRAXyS, 2017, p. 305.
+[21] B. Lakshminarayanan, A. Pritzel, C. Blundell, Simple and scalable predictive
+uncertainty estimation using deep ensembles, in: Proceedings of the 31st International
+Conference on Neural Information Processing Systems, NIPS’17, Curran
+Associates Inc., Long Beach, California, USA, ISBN: 978-1-5108-6096-4, 2017,
+pp. 6405–6416.
+[22] B. Efron, R.J. Tibshirani, An Introduction to the Bootstrap, CRC Press, ISBN:
+978-0-412-04231-7, 1994, Google-Books-ID: gLlpIUxRntoC.
+[23] S. Fort, H. Hu, B. Lakshminarayanan, Deep ensembles: A loss landscape
+perspective, 2019, arXiv:1912.02757 [cs, stat].
+[24] Y. Ovadia, E. Fertig, J. Ren, Z. Nado, D. Sculley, S. Nowozin, J.V. Dillon, B.
+Lakshminarayanan, J. Snoek, Can you trust your model’s uncertainty? Evaluating
+predictive uncertainty under dataset shift, 2019, arXiv:1906.02530 [cs, stat].
+[25] A. Kendall, Y. Gal, What uncertainties do we need in Bayesian deep learning for
+computer vision? in: I. Guyon, U.V. Luxburg, S. Bengio, H. Wallach, R. Fergus,
+S. Vishwanathan, R. Garnett (Eds.), Advances in Neural Information Processing
+Systems 30, Curran Associates, Inc., 2017, pp. 5574–5584.
+[26] C. Steppa, T.L. Holch, HexagDLy - Processing hexagonally sampled data with
+CNNs in PyTorch, SoftwareX (ISSN: 23527110) 9 (2019) 193–198, http://dx.
+doi.org/10.1016/j.softx.2019.02.010, arXiv:1903.01814.
+[27] S. Agostinelli, J. Allison, K. Amako, J. Apostolakis, H. Araujo, P. Arce, M. Asai,
+D. Axen, S. Banerjee, G. Barrand, F. Behner, L. Bellagamba, J. Boudreau, L.
+Broglia, A. Brunengo, H. Burkhardt, S. Chauvie, J. Chuma, R. Chytracek, G.
+Cooperman, G. Cosmo, P. Degtyarenko, A. Dell’Acqua, G. Depaola, D. Dietrich,
+R. Enami, A. Feliciello, C. Ferguson, H. Fesefeldt, G. Folger, F. Foppiano, A. Forti,
+S. Garelli, S. Giani, R. Giannitrapani, D. Gibin, J.J. Gómez Cadenas, I. González,
+G. Gracia Abril, G. Greeniaus, W. Greiner, V. Grichine, A. Grossheim, S. Guatelli,
+P. Gumplinger, R. Hamatsu, K. Hashimoto, H. Hasui, A. Heikkinen, A. Howard, V.
+Ivanchenko, A. Johnson, F.W. Jones, J. Kallenbach, N. Kanaya, M. Kawabata, Y.
+Kawabata, M. Kawaguti, S. Kelner, P. Kent, A. Kimura, T. Kodama, R. Kokoulin,
+M. Kossov, H. Kurashige, E. Lamanna, T. Lampén, V. Lara, V. Lefebure, F.
+Lei, M. Liendl, W. Lockman, F. Longo, S. Magni, M. Maire, E. Medernach, K.
+Minamimoto, P. Mora de Freitas, Y. Morita, K. Murakami, M. Nagamatu, R.
+Nartallo, P. Nieminen, T. Nishimura, K. Ohtsubo, M. Okamura, S. O’Neale, Y.
+Oohata, K. Paech, J. Perl, A. Pfeiffer, M.G. Pia, F. Ranjard, A. Rybin, S. Sadilov,
+E. Di Salvo, G. Santin, T. Sasaki, N. Savvas, Y. Sawada, S. Scherer, S. Sei, V.
+Sirotenko, D. Smith, N. Starkov, H. Stoecker, J. Sulkimo, M. Takahata, S. Tanaka,
+E. Tcherniaev, E. Safai Tehrani, M. Tropeano, P. Truscott, H. Uno, L. Urban, P.
+Urban, M. Verderi, A. Walkden, W. Wander, H. Weber, J.P. Wellisch, T. Wenaus,
+D.C. Williams, D. Wright, T. Yamada, H. Yoshida, D. Zschiesche, Geant4—a
+simulation toolkit, Nucl. Instrum. Methods Phys. Res. A (ISSN: 0168-9002) 506
+(3) (2003) 250–303, http://dx.doi.org/10.1016/S0168-9002(03)01368-8.
+[28] K. He, X. Zhang, S. Ren, J. Sun, Deep residual learning for image recognition,
+2015, arXiv:1512.03385 [cs].
+[29] G. Huang, Z. Liu, L. van der Maaten, K.Q. Weinberger, Densely connected
+convolutional networks, 2018, arXiv:1608.06993 [cs].
+[30] I. Sutskever, J. Martens, G. Dahl, G. Hinton, On the importance of initialization
+and momentum in deep learning, in: Proceedings of the 30th International
+Conference on International Conference on Machine Learning - Volume 28,
+ICML’13, JMLR.org, Atlanta, GA, USA, 2013, pp. III–1139–III–1147.
+[31] F. Kislat, B. Clark, M. Beilicke, H. Krawczynski, Analyzing the data from Xray
+polarimeters with Stokes parameters, Astropart. Phys. (ISSN: 0927-6505) 68
+(2015) 45–51, http://dx.doi.org/10.1016/j.astropartphys.2015.02.007.
+11
+A.L. Peirson, R.W. Romani, H.L. Marshall et al. Nuclear Inst. and Methods in Physics Research, A 986 (2021) 164740
+[32] N. Karampatziakis, J. Langford, Online importance weight aware updates, in:
+Proceedings of the Twenty-Seventh Conference on Uncertainty in Artificial
+Intelligence, UAI’11, AUAI Press, Barcelona, Spain, ISBN: 978-0-9749039-7-2,
+2011, pp. 392–399.
+[33] F. Hu, J.V. Zidek, The weighted likelihood, Canad. J. Statist. (ISSN: 1708-945X)
+30 (3) (2002) 347–371, http://dx.doi.org/10.2307/3316141.
+[34] A. Wächter, L.T. Biegler, On the implementation of an interior-point filter linesearch
+algorithm for large-scale nonlinear programming, Math. Program. (ISSN:
+1436-4646) 106 (1) (2006) 25–57, http://dx.doi.org/10.1007/s10107-004-0559-
+y.
+[35] M.C. Weisskopf, R.F. Elsner, S.L. O’Dell, On understanding the figures of merit
+for detection and measurement of x-ray polarization, 2010, 77320E, http://dx.
+doi.org/10.1117/12.857357, arXiv:1006.3711 [astro-ph].
+[36] M.C. Weisskopf, B. Ramsey, S.L. O’Dell, A. Tennant, R. Elsner, P. Soffita, R.
+Bellazzini, E. Costa, J. Kolodziejczak, V. Kaspi, F. Mulieri, H. Marshall, G. Matt,
+R. Romani, The imaging X-ray polarimetry explorer (IXPE), Results Phys. (ISSN:
+2211-3797) 6 (2016) 1179–1180, http://dx.doi.org/10.1016/j.rinp.2016.10.021.
+[37] T. Li, M. Zeng, H. Feng, J. Cang, H. Li, H. Zhang, Z. Zeng, J. Cheng, H. Ma,
+Y. Liu, Electron track reconstruction and improved modulation for photoelectric
+X-ray polarimetry, Nucl. Instrum. Methods Phys. Res. A (ISSN: 01689002) 858
+(2017) 62–68, http://dx.doi.org/10.1016/j.nima.2017.03.050, arXiv:1611.07244.
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
 12

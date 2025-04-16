@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Article https://doi.org/10.1038/s41467-023-36368-5
 MORF and MOZ acetyltransferases target
 unmethylated CpG islands through the
@@ -1447,4 +1448,1455 @@ Nature Communications | ( 2023)1 4:697 20
 © The Author(s) 2023. This work is published under
 http://creativecommons.org/licenses/by/4.0/(the “License”). Notwithstanding
 the ProQuest Terms and Conditions, you may use this content in accordance
+=======
+Article https://doi.org/10.1038/s41467-023-36368-5
+MORF and MOZ acetyltransferases target
+unmethylated CpG islands through the
+winged helix domain
+Dustin C. Becht 1,10, Brianna J. Klein 1,10, Akinori Kanai 2,10, SukMin Jang3,10,
+Khan L.Cox4, Bing-Rui Zhou 5, Sabrina K. Phanor6, Yi Zhang 1, Ruo-Wen Chen4,
+Christopher C. Ebmeier 7, Catherine Lachance3, Maxime Galloy3,
+Amelie Fradet-Turcotte 3, Martha L. Bulyk 6,8, Yawen Bai 5,
+Michael G. Poirier4, Jacques Côté 3 , Akihiko Yokoyama 9 &
+Tatiana G. Kutateladze 1
+Human acetyltransferases MOZ and MORF are implicated in chromosomal
+translocations associated with aggressive leukemias. Oncogenic translocations
+involve the far amino terminus of MOZ/MORF, the function of which
+remains unclear. Here, we identified and characterized two structured winged
+helix (WH) domains, WH1 and WH2, in MORF and MOZ. WHs bind DNA in a
+cooperative manner, with WH1 specifically recognizing unmethylated CpG
+sequences. Structural and genomic analyses show that the DNA binding
+function of WHs targets MORF/MOZ to gene promoters, stimulating transcription
+and H3K23 acetylation, andWH1 recruits oncogenic fusions to HOXA
+genes that trigger leukemogenesis. Cryo-EM, NMR, mass spectrometry and
+mutagenesis studies provide mechanistic insight into the DNA-binding
+mechanism, which includes the association of WH1 with the CpG-containing
+linker DNA and binding of WH2 to the dyad of the nucleosome. The discovery
+of WHs in MORF and MOZ and their DNA binding functions could open an
+avenue in developing therapeutics to treat diseases associated with aberrant
+MOZ/MORF acetyltransferase activities.
+Fundamental processes in eukaryotic cells are commonly regulated
+through covalent modifications of DNA and posttranslational modifications
+(PTMs) of proteins. One of the canonical PTMs associated
+with transcriptionally active chromatin is acetylation of lysine residues
+of histones1,2. Acetylation removes the positive charge from the lysine
+side chain, weakening electrostatic contacts between histones and
+DNA, relaxing chromatin, and making DNA more accessible. Acetyllysine
+also serves as a docking site for numerous proteins and
+Received: 30 June 2022
+Accepted: 26 January 2023
+Check for updates
+1Department of Pharmacology, University of Colorado School of Medicine, Aurora, CO 80045, USA. 2Department of Computational Biology and Medical
+Sciences, Graduate School of Frontier Sciences, the University of Tokyo, Kashiwa, Chiba 277-0882, Japan. 3Laval University Cancer Research Center, CHU
+de Québec-UL Research Center-Oncology Division, Quebec City, QC G1R 3S3, Canada. 4Department of Physics, Ohio State University, Columbus, OH
+43210, USA. 5Laboratory of Biochemistry and Molecular Biology, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.
+6Division of Genetics, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA 02115, USA. 7Department of
+Biochemistry, University of Colorado, Boulder, CO 80303, USA. 8Department of Pathology, Brigham and Women’s Hospital and Harvard Medical School,
+Boston,MA 02115, USA. 9Tsuruoka Metabolomics Laboratory, National Cancer Center, Tsuruoka, Yamagata 997-0052, Japan. 10These authors contributed
+equally: Dustin C. Becht, Brianna J. Klein, Akinori Kanai, Suk Min Jang. e-mail: jacques.cote@crchudequebec.ulaval.ca; ayokoyam@ncc-tmc.jp;
+tatiana.kutateladze@cuanschutz.edu
+Nature Communications | ( 2023)1 4:697 1
+1234567890():,;
+1234567890():,;
+complexes essential in gene transcription and DNA damage repair3. In
+mammals, acetylation is catalyzed by lysine acetyltransferase (KAT)
+complexes, including the MYST (Moz, Ybf2/Sas3, Sas2, Tip60) family
+of KATs. Among five members of the MYST family are the MOZ
+(monocytic leukemic zinc-finger protein) complex and the MORF
+(MOZ-related factor) complex4,5. The MOZ/MORF complexes play critical
+roles in embryogenesis, development, hematopoiesis, skeletogenesis,
+and cellular senescence and are involved in chromosomal
+translocations known to induce aggressive forms of blood cancer6–14.
+Acute leukemias derived from oncogenic MOZ/MORF translocations
+and aberrant acetyltransferase activities are associated with poor
+prognosis and grim survival rates, prompting and accelerating the
+development of inhibitors for MOZ/MORF with several already showing
+promising results as anti-cancer therapeutics15,16. PathogenicMOZ/
+MORF have also been linked to developmental disorders, epilepsy, and
+intellectual disability17–20.
+The MOZ/MORF complexes acetylate primarily lysine 23 of histone
+H3 (H3K23ac) and contain four subunits7,21,22. A bromodomain
+PHD finger protein 1 (BRPF1) forms a scaffold for the assembly of other
+three subunits—the catalytic subunit MOZ/MORF, also known as
+KAT6A/KAT6B, inhibitor of growth 4/5 (ING4/5), and MYST/Esa1-
+associated factor 6 (MEAF6). The catalytic MOZ/MORF subunits are
+large, 2004/2073-amino acid proteins characterized by similar domain
+architecture. Both contain a double PHD finger (DPF) that recognizes
+acylated lysine 14 of histone H3 (H3K14acyl), the catalytic MYST
+domain, and the ED (glutamate/aspartate-rich) and SM (serine/
+methionine-rich) regions that were proposed to have a role in transcriptional
+activation23–29 (Fig. 1a). Genetic and biochemical studies
+have shown that binding of the DPF domain to H3K14ac contributes to
+chromatin targeting by MOZ/MORF23,24. It stimulates H3K23 acetylation,
+activating gene transcription, and there is a positive crosstalk
+between H3K23ac and H3K14ac at the genomic sites occupied by
+MORF21. The functional importance of other regions of MOZ/MORF,
+beyond the DPF and MYST domains, particularly their N-termini,
+remains unclear.
+In this study, we identified and characterized the tandem winged
+helix (WH) domains of MORF (MORFWH1 and MORFWH2) and MOZ
+(MOZWH1 and MOZWH2). We show that both WHs bind DNA but select
+for distinctive sequences, with MORF/MOZWH1 being highly specific
+toward unmethylated CpG. DNA binding function of WHs is required
+for the recruitment of MORF/MOZ to target gene promoters and
+H3K23 acetylation. Together, our structural, biochemical and in vivo
+findings reveal a previously uncharacterized mechanism by which a
+tandem of WH domains binds to the nucleosome, mediating the
+association of the major human acetyltransferases with specific
+genomic loci and their enzymatic functions.
+Results and discussion
+MORF and MOZ contain two DNA-binding winged helix (WH)
+domains
+We have previously shown that DPF of MORF (MORFDPF) associates
+with H3K14acyl and DNA, however, its low μMbindingaffinity suggests
+that this domain is not a major driver for the recruitment of the large
+MORF protein to chromatin. Searching for uncharacterized regions of
+MORF that could contribute to binding to chromatin, we explored the
+N-terminus of MORF (aa 1–182 of MORF, MORF182). Dispersion of
+amide resonances in 1H,15N heteronuclear single quantum coherence
+(HSQC) NMR spectrum of 15N-labeled MORF182 indicated that this
+region is folded (Fig. 1b). Shorter constructs, generated by splitting
+MORF182 in two halves, retained the fold, and their 1H,15N HSQC spectra
+overlaid very well with the 1H,15N HSQC spectrum of MORF182. These
+results suggest that MORF182 is comprised of two independent folded
+domains that have similar chemical environments either as linked or
+isolated modules and therefore likely do not interact with each other.
+We identified the first half of MORF182 as a winged helix 1 (MORFWH1)
+and the second half as a winged helix 2 (MORFWH2) based on the data
+described below, and from here on refer to them as MORFWHs.
+To determine whether MORFWHs are capable of binding to DNA,
+we examined the association of MORFWH1 and MORFWH2 with 147 bp
+601 Widom DNA (DNA147) in an electrophoretic mobility shift assay
+(EMSA). DNA147 was incubated with increasing amounts of MORFWH1
+and MORFWH2 and the reaction mixtures were resolved on native
+polyacrylamide gels (Fig. 1c, d). A gradual increase in the amounts of
+added MORFWH1 and MORFWH2 caused a shift of the DNA147 band and
+the appearance of several bands corresponding to the complexes
+formed between MORFWH1 and MORFWH2 and multiple major/minor
+grooves30 of DNA147. The binding to DNA147 was confirmed by NMR
+titration experiments. Upon addition of DNA147, amide crosspeaks of
+MORFWH2 broadened beyond detection due to the formation of large
+MORFWH2-DNA147 complexes (Supplementary Fig. 1).
+A high degree similarity of amino acid sequences between MORF
+and homologous MOZ suggested that MOZ also contains two
+N-terminal WHs, MOZWH1, and MOZWH2 (Fig. 1e). Indeed, the dispersion
+of amide resonances in 1H,15N HSQC spectra of MOZWH1 and
+MOZWH2 pointed to the presence of independent folded modules
+(Supplementary Fig. 2a). BothMOZWH1 andMOZWH2 readily shifted the
+DNA147 band in EMSA, confirming that the DNA binding activity is
+conserved in MORF and MOZ (Supplementary Fig. 2b).
+MORFWHs are required for MORF recruitment to chromatin and
+H3K23 acetylation
+Are MORFWHs essential for biological functions of MORF? We investigated
+the role ofMORFWHs in genomic occupancy ofMORF andMORFdependent
+H3K23 acetylation in vivo by chromatin immunoprecipitation
+(ChIP) experiments (Fig. 1f–h and Supplementary Fig. 3a).
+Human K562 cells expressing FLAG-taggedMORFN (aa 1–716 ofMORF,
+containing MORFWH1, MORFWH2, MORFDPF and MORFMYST), wild type
+(WT) or mutants in which MORFWH1 (MORFN ΔWH1), MORFWH2
+(MORFN ΔWH2) or both MORFWHs (MORFN ΔWH1-WH2) are deleted,
+were generated and used to measure MORFN, H3K23ac and H3K14ac
+levels at promoters of a set of target genes. Compared to the binding
+of WT MORFN, lossofMORFWH1 substantially decreased the binding of
+MORFN to promoters of all genes tested, and while loss of MORFWH2
+had a milder impact, deletion of both MORFWHs had a cumulative
+effect in disrupting the recruitment of MORFN to chromatin (Fig. 1f).
+Furthermore, expression ofMORFN with bothMORFWHs being deleted
+led to a decrease in the level of H3K23 acetylation at these promoters
+compared to the H3K23ac level observed upon expression of WT
+MORFN, with the loss ofMORFWH1 resulting in a more notable change
+than the loss of MORFWH2 (Fig. 1g). As expected, H3K14ac level was
+reduced by the deletion of MORFWHs to a lesser extent than the
+H3K23ac level and was essentially unaffected by the deletion of
+MORFWH2 (Fig. 1h). Together, these data demonstrate that both functional
+MORFWH1 and MORFWH2 are required for MORF to occupy its
+target genes and acetylate H3K23 in vivo.
+MORFWH2 binds DNA via its α3 and α2 helices
+To gain insight into the DNA binding mechanisms of MORFWHs, we
+assessed the minimal size of DNA to which these domains can bind.
+EMSA experiments using increasing amounts of MORFWH1 and
+MORFWH2 and a 10 bp to 100 bpDNAladder revealed that either domain
+interacts with a double-stranded DNA at least or larger than 15 bp in
+length (Supplementary Fig. 4). In support, GST-MORFWH2 immobilized
+onto glutathione sepharose beads pulled down fluorescein (FAM)-
+labeled 37 bp dsDNA (FAM-DNA37) in a confocal microscopy assay
+(Fig. 2a), and a 15 bp A-rich dsDNA (A-DNA15) induced chemical shift
+perturbations (CSPs) in 15N-labeled MORFWH2 in 1H,15N HSQC titration
+experiments (Fig. 2b). To identify residues of MORFWH2 responsible for
+binding to DNA, we collected and analyzed triple resonance NMR
+spectra of uniformly 13C,15N-labeled MORFWH2 and assigned backbone
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 2
+Fig. 1 | MORF and MOZ contain two DNA-binding WH domains. a Domain
+architecture of MORF with the MORFWH1, MORFWH2 and MORFDPF colored blue,
+green and wheat, respectively. b Overlay of 1H,15N HSQC spectra of 15N-labeled
+MORFWH1-WH2 (black), MORFWH1 (blue) and MORFWH2 (green). c, d EMSA of 147 bp
+601 DNA in the presence of increasing amounts of His-MORFWH1 and MORFWH2.
+DNA:protein ratio is shown below the gel images. e Alignment of amino acid
+sequences of theN-terminal regions (1–200) ofMORF andMOZ.Boundaries ofWH1
+and WH2 are indicated by arrows. f–h Anti-FLAG ChIP-qPCR analysis in K562 cells
+stably expressingWT,ΔWH1, ΔWH2, and ΔWH1-WH2 FLAG-MORFN (1-716), presented
+as IP/input % at the indicated genes (near TSS). ChIP analysis of H3K23ac (g) and
+H3K14ac (h) inK562 cells as in (f). Acetylation levelswere corrected for nucleosome
+occupancy (total H3 signal), presented as a ratio of IP/input (H3ac/total H3). Data
+represent mean ± SEM from three independent experiments. n = 3 Statistical tests
+were two-sided. Student’s t-test, ***P<0.005, 0.005 < **P<0.01, and
+0.01 < *P < 0.05. Source data are provided as a Source Data file.
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 3
+amide resonances. In solution, A-DNA15 induced CSPs primarily in two
+regions, encompassing residues L126-I129 and R151-R158 of MORFWH2
+(Fig. 2c). We then determined the three-dimensional solution NMR
+structure of MORFWH2 and mapped themost perturbed residues onto
+the structure (Fig. 2d). The structure revealed a winged helix fold
+consisting of three α-helices, a double-stranded β-sheet, one short wing
+connecting two β-strands, and an additional α2’-helix is present
+between α2 and α3 (Fig. 2d–f and Supplementary Table 1).
+Analysis of electrostatic surface potential of MORFWH2 showed
+that themost perturbed residues of MORFWH2 are located in the highly
+Fig. 2 | Structural basis for binding of MORFWH2 to DNA. a Confocal images of
+GST-MORFWH2 or GST (control) bound to glutathione Sepharose beads in the
+presence of FAM-labeled 37 bp dsDNA. Scale bar, 20 μm. b Overlay of 1H,15N HSQC
+spectra ofMORFWH2 in the presence of increasing amount of 15 bpA-rich dsDNA (ADNA15).
+Spectra are color coded according to the protein:DNA molar ratio.
+c Histogram of normalized CSPs in 1H,15N HSQC spectra of MORFWH2 induced by a
+fourfold molar excess of A-DNA15 as a function of residue. d–f The solution NMR
+structure of MORFWH2. Residues of MORFWH2 that exhibited large CSPs upon
+addition of A-DNA15 (greater than average plus one standard deviation, indicated by
+the dotted line inc) aremapped on the structure ofMORFWH2, colored orange and
+labeled in d. Electrostatic surface potential of MORFWH2, with blue and red colors
+representing positive and negative charges, respectively, is shown in e. Two positively
+charged regions ofMORFWH2 are indicated by green dotted ovals, with lysine
+and arginine residues labeled. Ribbon diagram of the MORFWH2 structure in the
+same orientation as in d and e is shown in f. Lysine and arginine residues of the two
+positively charged regions are shown in sticks and labeled. g EMSA of 147 bp 601
+DNA in the presence of increasing amounts of K127A/K131A MORFWH2 and R151A/
+R153A/K157A/R158A MORFWH2 mutants. DNA:protein ratio is shown below the gel
+images. Source data are provided as a Source Data file.
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 4
+positively charged patch of the domain that could electrostatically
+interact with the negatively charged DNA (Fig. 2e). We mutated K127
+and K131 in the α2 helix and separately R151, R153, K157 and R158 in the
+α3 helix to alanine and tested thesemutants in EMSA (Fig. 2f, g).While
+the K127A/K131A MORFWH2 mutant retained a weak DNA binding
+ability, binding of the R151A/R153A/K157A/R158A MORFWH2 mutant to
+DNA147 was abolished, indicating that both α2 andα3 arenecessary for
+the strong interaction with DNA, with the α3 helix ofMORFWH2 being
+critical. We note that R151, K157, and R158 of MORFWH2 are found
+mutated in adenocarcinoma, malignant melanoma and breast and
+stomach cancers (Cosmic).
+MORFWH1 selects for CpG-rich DNA
+To assess whether MORFWHs recognize specific DNA sequences, we
+tested them in universal oligonucleotide arrays that contain all
+possible combinations of 10 bp sequences within ~44,000 60-bp
+probes31,32. As shown in Fig. 3a, MORFWH2 has a slight preference for
+an AT-rich DNA sequence. This minor selectivity of MORFWH2
+was confirmed by EMSA with A-DNA15 and a 15 bp C-rich dsDNA
+(C-DNA15) (Fig. 3b and Supplementary Fig. 4). Quantitative analysis
+of EMSAs yielded a 7.8 μM binding affinity of MORFWH2 to A-DNA15
+and a two-fold weaker binding affinity of MORFWH2 to C-DNA15
+(Kd=18 μM) (Fig. 3c, d). Methylation of cytosine did not affect binding,
+as MORFWH2 associated with unmethylated 16 bp CpG dsDNA
+(CpG-DNA16) and methylated CpG-DNA16 (mCpG-DNA16) equally
+well (Fig. 3b).
+In contrast, MORFWH1 bound specifically to the CpG-rich DNA
+sequences and did not recognize the AT-rich sequences in universal
+oligonucleotide arrays and EMSA (Fig. 3e, f). The dissociation constant
+for the interaction of MORFWH1 with CpG-DNA16 was found to
+be 2 μM, however this interaction was substantially diminished by
+methylation of the CpG motif (Fig. 3f, g). A computational model of
+MORFWH1 suggested a winged three-helix fold; however the α3 helix,
+which contains a set of DNA-interacting lysine and arginine residues
+in MORFWH2, does not contain the positively charged residues in
+MORFWH1 and therefore likely does not mediate binding ofMORFWH1
+to DNA. Instead, electrostatic surface potential of this model shows
+two positively charged regions encompassing the α1 helix, the loop
+connecting α1 and α2 and the loop connecting two β-strands in the
+β-hairpin (Fig. 3h). The model of MORFWH1 superimposes with the
+crystal structure of WH from SAMD1 (rmsd of 0.6 Å) (Fig. 3i), an
+atypical WH that binds to DNA by a mechanism distinctly different
+from that of typical WHs33. While the C-terminal end of α1 helix and
+the loop connecting α1 and α2 in SAMD1 WH insert in the CpGcontaining
+major groove of DNA, the atypically long β-hairpin
+inserts into a neighboring minor groove of DNA33. The overlay with
+the SAMD1 WH structure suggested that MORFWH1 has a similar
+mode of binding to DNA (Fig. 3i). To test this, we generated the
+K19A/K21A/K22A mutant of MORFWH1, harboring mutations in α1,
+and the K24A/R26A/K66A mutant of MORFWH1, harboring mutations
+in the loops, and evaluated binding of these mutants to DNA147 by
+EMSA (Fig. 3j, k). We found that mutation of K24, R26, and K66
+completely disrupts binding of MORFWH1 to DNA147 and mutation of
+K19, K21 and K22 substantially decreases this interaction. In agreement,
+NMR titration experiments showed that wild-type MORFWH1
+tightly binds to CpG-DNA16, exhibiting CSPs in the intermediate
+exchange regime on the NMR time scale (Fig. 3l and Supplementary
+Fig. 5), however the ability to bind CpG-DNA16 was lost by the K24A/
+R26A/K66A mutant of MORFWH1 or notably reduced by the K19A/
+K21A/K22A mutant of MORFWH1 (Fig. 3m, n and Supplementary
+Fig. 5). Collectively, NMR and EMSA results suggest that similar to
+the DNA binding mode of atypical WH from SAMD1, the two loops
+and α1 of MORFWH1 mediate binding to DNA and that the DNA
+binding mechanism of MORFWH1 differs from the DNA binding
+mechanism of the typical MORFWH2.
+MOZWH1 targets CpG genome wide
+Analysis of DNA binding selectivity ofMOZWH1 andMOZWH2 in universal
+oligonucleotide PBMarrays revealed that, similar toMORFWHs,MOZWH1
+specifically binds to the CpG-rich DNA sequences and MOZWH2 shows
+essentially no sequence selectivity (Supplementary Fig. 2c). We examined
+genomic localization of endogenous full-length MOZ (MOZFL) and
+a series of exogenously expressed FLAG-tagged shorter MOZ constructs,
+including MOZWH1, MOZWH2-DPF, andMOZWH1-WH2-DPF in human
+HEK293T cells by chromatin immunoprecipitation coupled with deep
+sequencing (ChIP-seq). Analysis of ChIP-seq showed that the genomewide
+occupancy of MOZWH1 centered around the transcription start
+sites (TSS) and correlated well with the distribution of unmethylated
+CpG, which was identified by CpG island recovery assay for unmethylated
+CpGs coupled with deep sequencing (CIRA-seq), as well as with
+non-phosphorylated RNAP2 (Fig. 4a, b). The ChIP signal intensities of
+MOZWH1 correlated with the signal intensities of MOZFL (r=0.92) and
+unmethylated CpG (r=0.86) (Fig. 4c, d). In HEK293T cells, ~89% (11,021
+out of 12,386) of the MOZFL-bound genes overlapped with ~97% (11,021
+out of 11,381) of the MOZWH1-bound genes, and ~87% (10,840 out of
+12,587) of the unmethylated CpG-enriched genes overlapped with ~96%
+(10,840 out of 11,381) of the MOZWH1-bound genes (Fig. 4e). Loss of
+MOZWH1 resulted in a relatively non-specific chromatin association of
+MOZWH2-DPF (Fig. 4a, b) and only ~14% of the MOZFL-bound genes and
+~12% of the unmethylated CpG-enriched genes were co-occupied by
+MOZWH2-DPF (Fig. 4f). No correlation was observed between the ChIP/
+CIRA signals of MOZWH2-DPF and MOZFL (r = −0.06) and unmethylated
+CpG (r = −013) (Fig. 4g, h). Co-occupancy with unmethylated CpG sites
+however was restored for MOZWH1-WH2-DPF (Fig. 4a, b). The high degree
+correlation between the ChIP/CIRA signals of MOZWH1-WH2-DPF and
+MOZFL (r = 0.87) and unmethylated CpG (r = 0.84) mirrored the correlation
+between MOZFL and unmethylated CpG (r = 0.88) (Fig. 4i–k). We
+noticed a moderate enrichment ofMOZFL andMOZWH2-DPF downstream
+of TSS (Fig. 4a, b). The ChIP signal intensity of H3K14ac also increased
+downstream of TSS, suggesting that binding of MOZDPF to H3K14ac in
+transcribed regions contributes to the association of MOZ with chromatin
+(Fig. 4a, b). Together, the ChIP-seq and CIRA-seq data demonstrate
+that MOZWH1 targets MOZ to unmethylated CpG-rich regions,
+whereas the MOZDPF-H3K14ac interaction can provide additional
+anchoring in transcribed regions.
+MOZ/MORFWH1 is required for binding of MOZ/MORF to
+target genes
+The positive correlation between MOZWH1 or MOZWH1-WH2-DPF levels
+and unmethylated CpG levels at TSS was also observed at individual
+genes, such as the HOXA family, MYC and CDKN2C (Fig. 5a). The distribution
+pattern ofMOZWH1 andMOZWH1-WH2-DPFwas similar to that of
+MOZFL and other components of theMOZ complex, ING4 andMEAF6,
+and replicated the distribution of unmethylated CpG in gene promoters,
+including promoters of oncogenic HOXA9 and MYC, known to
+induce leukemogenesis. Loss of MOZWH1 led to a non-specific binding
+ofMOZWH2-DPF throughout the genomic regions tested, supporting the
+notion that the major determinant of genomic occupancy of MOZ is
+MOZWH1, which binds unmethylated CpG-rich promoters.
+Occupancy of MORFWH1 at the promoter regions mirrored occupancy
+of MOZWH1 (Fig. 5b). The localization patterns of MORFWH1 and
+MOZWH1 at the leukemic oncogenes HOXA9 and MYC were nearly
+identical (Fig. 5c). ChIP-qPCR analysis confirmed that MORFWH1 specifically
+occupies the promoters ofMYC and HOXA9, whereas theK19A/
+K21A/K22A and K24A/R26A/K66A mutants of MORFWH1, defective in
+unmethylated CpG binding (Fig. 3 j, k, m, n) were unable to localize to
+the specific genomic sites (Fig. 5d). These results indicate that recognition
+of the CpG sequence by WH1 is conserved in MORF and MOZ
+and is required for binding to chromatin in vivo.
+One of the chromosomal translocations directly linked to the
+development of acute myeloid leukemia (AML) is the fusion of MOZ
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 5
+with a transcriptional co-activator TIF2 (Fig. 6a), which in turn associates
+with another co-activator, CPB/p30034–36. As shown in Fig. 5a,
+MOZ-TIF2 co-localized with endogenous MOZFL, unmethylated CpGs,
+MOZWH1 and MOZWH1-WH2-DPF at the same gene promoters, indicating
+that MOZWH1 drives the recruitment of the leukemogenic MOZ-TIF2
+chimera to chromatin. To further characterize this recruitment, we
+tested occupancy of MOZFL, MOZ-TIF2 and MOZ-TIF2 ΔWH1 at the
+target genes MYC, HOXA9, and CDKN2C, as well as negative control
+CD4, by ChIP-qPCR (Fig. 6b and Supplementary Fig. 3b). MOZFL and
+MOZ-TIF2 showed similar chromatin binding patterns within all three
+regions tested, whereas the deletion of MOZWH1 abolished chromatin
+binding activity of MOZ-TIF2 ΔWH1 (Fig. 6b). Recruitment of the
+MORF-TIF2 fusion to chromatin also depended on MORFWH1 because
+MORF-TIF2 ΔWH1 was unable to bind to the MYC, HOXA9, and CDKN2C
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 6
+genes (Fig. 6c and Supplementary Fig. 3b).Mutations inMORFWH2 that
+impair its DNA binding (R151A/R153A/K157A/R158A) reduced the genespecific
+localization of MORF-TIF2 WH2-mutant compared to localization
+of MORF-TIF2. Much like MORF-TIF2 ΔWH1, MORF-TIF2
+ΔWH1 + R151A/R153A/K157A/R158A mutant completely lost its ability
+to associate with MYC, HOXA9 and CDKN2C genes (Fig. 6c), confirming
+that this region is indispensable for the retention of MOZ/MORF-TIF2
+at chromatin.
+MOZ/MORFWH1 is essential in leukemogenicity of MOZ/
+MORF-TIF2
+To determine the role of WHs in leukemogenic activity of the MOZ/
+MORF-TIF2 fusions, we performed myeloid progenitor transformation
+assay, in which c-Kit positive hematopoietic progenitors were transduced
+with the MOZ fusions (MOZ-TIF2 and MOZ-TIF2 ΔWH1) and the
+MORF counterparts (MORF-TIF2, MORF-TIF2 ΔWH1, the MORF-TIF2
+MORFWH2 mutant, and MORF-TIF2 ΔWH1 +MORFWH2 mutant) and
+cultured in a semi-solid media ex vivo (Fig. 6d). Consistent with their
+chromatin binding abilities (Fig. 6b, c), MORF-TIF2 ΔWH1 and MOZTIF2
+ΔWH1, in which WH1 was deleted, failed to activate Hoxa9 gene
+expression and immortalize hematopoietic progenitors, a characteristic
+feature of oncogenic MOZ fusions (Fig. 6e, f). These results indicate
+thatWH1 is a critical chromatin targetingmodule for theMOZ and
+MORF fusions and is necessary for leukemogenesis. The inactivating
+mutation of MORFWH2 modestly hampered Hoxa9 expression in the
+second passage in cells transduced with the MORF-TIF2 MORFWH2
+mutant compared to the cells transduced with wild-type MORF-TIF2
+(Fig. 6e). The MORF-TIF2 MORFWH2 mutant expressing cells gradually
+lost their clonogenicities and failed to form colonies in the fourth
+round passage, indicating that the intact MORFWH2 is required for the
+full leukemogenicity of MORF-TIF2 (Fig. 6f). Collectively, these data
+demonstrate that the WH1-mediated binding to unmethylated CpGrich
+DNA is crucial for the oncogenic activity of the MOZ/MORF
+fusions, and while WH2 also plays a role, it appears to be less drastic
+than that of WH1.
+Concomitant engagement ofMORFWHs augments binding to the
+nucleosome
+To characterize the DNA binding mechanism of WHs in detail, we
+investigated the association of MORFWH1 and MORFWH2 with the
+nucleosome core particle (NCP) by EMSA and fluorescence anisotropy
+assays (Fig. 7a–i). For EMSA, we used nucleosomes containing a 147 bp
+601 DNA (NCP147) and a 187bp 601 DNA (NCP187) and for fluorescence
+anisotropy measurements, we reconstituted fluorescein-labeled
+NCP147 and NCP207. NCP207 was generated using a 207 bp DNA in
+which 147 bp 601DNA is flanked by 30 bp linkerDNA on either side and
+internally labeled with fluorescein 27 bp in from the 5’ end. Both
+MORFWH1 andMORFWH2 shifted the NCP147 and NCP187 bands in EMSA,
+indicating the formation of the MORFWH1-NCP and MORFWH2-NCP
+complexes (Fig. 7a, b, d, e). While the presence of an extranucleosomal
+linker DNA in NCP187 increased the association of
+MORFWH1, binding ofMORFWH2 was unaffected. In support, quantitative
+measurements of binding affinities by fluorescence polarization
+revealed that MORFWH2 does not discriminate between NCP147 and
+NCP187 and interacts equallywell with either nucleosome (S1/2 = 1.0μM
+and 1.4 μM, respectively) (Fig. 7c). These data suggest that MORFWH2
+utilizes the samemechanism for binding to the nucleosome regardless
+of the presence of extra-nucleosomal DNA fragments, still, the
+nucleosome organization is essential because binding of MORFWH2 to
+the nucleosomes was ~4–6-fold tighter than its binding to DNA147.
+Titration ofMORFWH1 against NCP147 yielded a S1/2 of 9 μMfor the
+MORFWH1-NCP147 complex formation, however MORFWH1 associated
+30-fold tighter with NCP207 (S1/2=0.3μM), indicating its preference for
+a linear, free of the nucleosome DNA (Fig. 7f). Binding affinity of
+MORFWH1 to DNA147 (S1/2 = 15 μM) was only slightly weaker compared
+to its binding affinity to NCP147 (S1/2=9 μM). The linked MORFWH1-WH2
+construct exhibited affinities of 7 nM to NCP207, 12nM to NCP147, and
+62nM to DNA147, which indicated a cooperative binding of two independent
+MORFWHs (Fig. 7i) and similar behavior was observed for
+MOZWH1-WH2 (Supplementary Fig. 6). The absence of CSPs in
+15N-labeledMORFWH2 upon addition of unlabeledMORFWH1 confirmed
+that the two MORFWHs do not interact (Fig. 7j and Supplementary
+Fig. 7). In support of EMSA and NMR titration data (Fig. 3j–n), the
+K24A/R26A/K66A and K19A/K21A/K22A mutants of MORFWH1 were
+essentially incapable of binding to NCP147 (Fig. 7k).
+MORFWH2 binds to the dyad of the nucleosome and MORFWH1
+binds to the CpG linker DNA
+To define the structural basis for the association of MORFWHs with
+the nucleosome, we obtained a 7 Å resolution map of a 197 bp NCP
+(NCP197) in complex with MORFWH1-WH2 by cryo-electron microscopy
+(cryo-EM) (Fig. 8a, b). For reconstitution of NCP197 we used DNA197 in
+which 147 bp Widom 601 DNA is flanked by two linker DNA fragments.
+One linker contains three CpGs and another contains one
+CpG. The formation of the MORFWH1-WH2-NCP197 complex was
+monitored in EMSA. The cryo-EM map of the MORFWH1-WH2-NCP197-
+scFv complex showed extra density near the nucleosome dyad
+region. DNA and histones of the NCP197 structure (PDB ID: 7K5X) and
+MORFWH2 were readily docked into the cryo-EM density map
+(Fig. 8a, b and Supplementary Fig. 8). In addition to the density of
+MORFWH2 at the NCP dyad, colored green in Fig. 8a, b, we observed
+weaker extra density on the linker DNA around the C22, G23 DNA
+sequence, colored blue. Excellent superimposition of the structure
+of the CpG-bound atypical SAMD1 WH with the CpG (C22 and G23)
+region of the cryo-EM structure suggested that this weaker extra
+density belongs to MORFWH1 (Fig. 8c, d).
+To verify the mechanism by which MORFWH1 recognizes CpGNCP197,
+we tested wild-type MORFWH1 and the impaired in binding to
+CpG-DNA16 mutants K19A/K21A/K22A and K24A/R26A/K66A in EMSA
+(Fig. 8e and Supplementary Fig. 9).While wild typeMORFWH1 formed a
+complex with NCP197, both mutants were unable to bind to the
+nucleosome. These results are in agreement with the NMR data
+Fig. 3 | DNA sequence selectivity of MORFWHs. a Analysis of DNA binding
+selectivity of MORFWH2 in universal oligonucleotide PBMs. One of the replicates
+met significance criteria. b EMSAs of 15 bp A-rich, 16 bp unmethylated CpG, and
+16 bp methylated CpG dsDNA in the presence of increasing amounts of GSTMORFWH2.
+DNA:protein ratio is shown below the gel images. c, d EMSA-derived
+binding curves used to determine Kd values for the interaction ofMORFWH2 with the
+indicated DNA. Data represent average ± SD of three independent experiments.
+n=3. e Analysis ofDNA binding specificity ofMORFWH1 in universal oligonucleotide
+PBMs. f EMSAs of 16 bp unmethylated CpG, 16 bpmethylated CpG, and 15 bp A-rich
+dsDNA in the presence of increasing amounts of His-MORFWH1. DNA:protein ratio is
+shown below the gel images. g EMSA-derived binding curves used to determine Kd
+values for the interaction of His-MORFWH1 with 16 bp unmethylated CpG dsDNA.
+Data represent average ± SDof four independent experiments. n=4. h Electrostatic
+surface potential of the alpha fold (AF) computational model of MORFWH1 from
+UniProt (Q8WYB5), with blue and red colors representing positive and negative
+charges, respectively. Two positively charged regions ofMORFWH1 are indicated by
+green dotted ovals, with lysine and arginine residues labeled. i Superimposition of
+the AFmodel ofMORFWH1 from UniProt (Q8WYB5) (blue) and the crystal structure
+of the DNA-bound WH from SAMD1 (salmon), with CpG colored green (PDB ID
+6LUI). Themutated residues ofMORFWH1 are shown as sticks and labeled. j, k EMSA
+of 147 bp 601 DNA in the presence of increasing amounts of K19A/K21A/K22A
+MORFWH1 (j) and K24A/R26A/K66A MORFWH1 (k) mutants. DNA:protein ratio is
+shown below the gel images. l–n Overlay of 1H,15N HSQC spectra of His-MORFWH1,
+wild type (l), K19A/K21A/K22A (m) or K24A/R26A/K66A (n) in the presence of
+increasing amount of CpG-DNA16. Spectra are color coded according to the protein:
+DNA molar ratio. Source data are provided as a Source Data file.
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 7
+Fig. 4 |MOZWH1 targets unmethylated CpG genome wide. a Average distribution
+of various MOZ proteins near the TSSs. The ChIP signal distribution of endogenous
+full length MOZ (MOZFL), FLAG-tagged MOZ (MOZWH1, MOZWH2, MOZWH2-DPF,
+MOZWH1-WH2-DPF), endogenous H3K14ac, and RNA Polymerase II with the nonphosphorylated
+CTD heptapeptide motif (RNAP2 non-P) within the 5 kb range of TSS
+is shown using ngsplot. The distribution of unmethyated CpGs was determined by
+CpG island recovery assay coupled with deep sequencing (CIRA-seq). b Heatmaps of
+ChIP signal intensities of indicated proteins/modifications at TSS are shown using
+ngsplot. c, d Correlations between the ChIP/CIRA signal intensities of MOZWH1 and
+unmethylated CpGs (c) or MOZFL (d). The ChIP/CIRA-seq tags were clustered into a
+1 kb bin (0 to +1 kb from the TSS) and are presented as XY scatter plots with the
+Spearman’s rank correlation coefficient (r). e, f Venn diagrams of the MOZWH1-occupied
+genes and MOZFL-occupied genes or unmethylated CpG-rich genes are shown.
+The ChIP/CIRA-seq tag counts in the 1 kb bin were divided by the corresponding input
+chromatin/DNA tag counts, and the genes whose relative values are larger than 2 were
+used for analysis. g–k Correlations between the ChIP/CIRA signal intensities of the
+indicated MOZ proteins and unmethylated CpGs. The data were analyzed as in c, d.
+Source data are provided as a Source Data file.
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 8
+described above for the interaction of MORFWH1 with CpG-DNA16
+(Fig. 3), reinforcing the idea that the atypicalMORFWH1 requires intact
+α1 and the two loops for its binding to CpG-NCP.
+In contrast to MORFWH1, MORFWH2 is a typical WH that binds to
+DNA through its α3 and α2 helices37. The structure of MORFWH2 aligns
+well (rmsd of 0.9 Å) with the structures of H1 and H5, the linker histones
+known to bind to the dyad of the nucleosome, decreasing
+spontaneous DNA unwrapping or breathing of the nucleosome38–40.
+We examined the impact of the MORFWH2 binding to the dyad on the
+nucleosome dynamics and unwrapping-wrapping equilibrium by Förster
+Resonance Energy Transfer (FRET)41. We prepared NCP273 using
+273 bp DNA, which contains the 601 sequence flanked by 50/76 bp
+linkers at the 5’/3’ ends without the CpG-binding site for MORFWH1 and
+the Cy3 donor fluorophore positioned 54 bp from the 5’ end. The Cy5
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 9
+acceptor fluorophore was attached to histone H2A(K119C) (Fig. 8f).
+Titration of His-MORFWH1-WH2 into NCP273 led to an increase in FRET
+efficiency, indicating stabilization of the wrapped state (Fig. 8g). We
+concluded thatmuch like binding of linkerH1/H5, binding ofMORFWH2
+to the nucleosome reduces DNA unwrapping. Altogether, cryo-EM,
+FRET and EMSA results suggest a model for the cooperative association
+of two independent DNA-binding domains of MORF with the
+nucleosome, in which the typical MORFWH2 binds to the dyad of the
+nucleosome, whereas the atypical MORFWH1 associates with the CpGcontaining
+linker DNA.
+Fig. 5 | CpG recognition is conserved in MOZ/MORFWH1. a Representative
+images of genomic localization of endogenous proteins and the indicated FLAGtagged
+MOZ proteins. FLAG-tagged MOZ proteins were transiently expressed in
+HEK293T cells and analyzed by ChIP-seq. ChIP/CIRA-seq data at the HOXA, MYC,
+CDKN2C, and CD4 genes are visualized using the Integrative Genomics Viewer
+(The Broad Institute). ChIP-seq analysis for MOZWH1 was performed in two independent
+replicates. The data range for each sample is shown on the right.
+b Average distribution of MOZ WH1 and MORF WH1 near the TSSs. FLAG-tagged
+MOZ WH1 and MORF WH1 were transiently expressed in HEK293T cells and
+analyzed by ChIP-seq as in Fig. 4a. c Representative images of genomic localization
+of the FLAG-tagged MOZ WH1 and MORF WH1. ChIP-seq analysis for MORF WH1
+was performed in two independent replicates. d Occupancy of the indicated wild
+type and mutated MORF WH1. ChIP-qPCR was performed for the CD4, MYC and
+HOXA9 gene loci using qPCR probes designed for the pre-TSS (−1 to −0.5 kb of
+TSS), TSS (0 to +0.5 kb of TSS) and post-TSS regions (+1 to +1.5 kb of TSS) of each
+gene. ChIP signals are expressed as a percentage of input (mean ± SD of technical
+replicates; n = 3). Source data are provided as a Source Data file.
+Fig. 6 | MOZ/MORFWH1-mediated association with unmethylated CpG-rich
+gene promoters is essential for leukemic MOZ/MORF fusions. a Schematic of
+the MOZ/MORF-TIF2 fusion. b Localization of the indicated MOZ-TIF2 proteins at
+CD4, MYC, HOXA9, and CDKN2C genes. ChIP-qPCR was performed for the indicated
+gene loci using qPCR probes designed for the pre-TSS (−1 to −0.5 kb of TSS), TSS (0
+to +0.5 kb of TSS), and post-TSS regions (+1 to +1.5 kb of TSS) of each gene. ChIP
+signals are expressed as a percentage of input (mean ± SD of four technical replicates;
+n = 4).2wayANOVAwas performed and the statistical significance of the ChIP
+signals to the non-target gene CD4 is shown. P values are shown above bars.
+c Localization of the indicated MORF-TIF2 proteins at CD4, MYC, HOXA9, and
+CDKN2C genes. ChIP-qPCR was performed and analyzed as in b. d A schematic of
+myeloid progenitor transformation assay. e Expression of Hoxa9 in hematopoietic
+progenitors transfected with the indicated MOZ/MORF fusions. Hoxa9 expression
+is normalized to Gapdh relative toMOZ-TIF2.Data representmean of two biological
+replicates. Expression levels of MOZ-TIF2-transudced cells were arbitrarily set to 1
+at each passage. f Leukemic transformation byMOZ/MORF fusions. Data represent
+mean ± SDof three biological replicates ofColony-forming units (CFUs) per 40,000
+cells of hematopoietic progenitors transduced with the indicated MOZ/MORF
+fusions at the third and fourth passages. Source data are provided as a Source
+Data file.
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 10
+Fig. 7 | Cooperative binding of MORFWH1-WH2 to the nucleosome. a, b EMSAs
+of 147 bp NCP (NCP147) and 187 bp NCP (NCP187) in the presence of increasing
+amounts of MORFWH2. NCP:protein ratio is shown below the gel images. c Binding
+curves for the interactions of MORFWH2 with NCP207, NCP147, and DNA147 as measured
+by fluorescence polarization.Data representmean ± SDof three independent
+experiments. n =3. d, e EMSAs of NCP147 and NCP187 in the presence of increasing
+amounts of His-MORFWH1. NCP:protein ratio is shown below the gel images.
+f Binding curves for the interactions ofMORFWH1 withNCP207, NCP147 andDNA147 as
+measured by fluorescence polarization. Data represent mean ± SD of three independent
+experiments. n =3. g, h EMSAs of NCP147 and NCP187 in the presence of
+increasing amounts of MORFWH1-WH2. NCP:protein ratio is shown below the gel
+images. i Binding curves for the interactions of MORFWH1-WH2 with NCP207, NCP147,
+and DNA147 as measured by fluorescence polarization. Data representmean ± SD of
+three independent experiments. n =3. j Overlay of 1H,15N HSQC spectra of
+15N-labeled MORFWH2 in the presence of increasing amount of unlabeled His-
+MORFWH1. Spectra are color coded according to the protein:ligand molar ratio.
+k Fluorescence polarization of NCP147 observed upon titration with the indicated
+MORFWH1 mutants. Data represent mean ± SD of three independent experiments.
+n = 3 Source data are provided as a Source Data file.
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 11
+MORFWH1 binding to the linker DNA increases HAT activity
+The selectivity of MORFWH1 toward the extra-nucleosomal linker DNA
+was observed in in vitro HAT assays. The native MORF complexes,
+containing 3xFLAG-2xStrep tagged MORFN, WT or the deletion
+mutants of MORFN (ΔWH1, ΔWH2, and ΔWH1/2), were affinity purified
+from nuclear extracts of K562 cells, and acetyltransferase function of
+these complexes was assessed on NCP147 and NCP207 (Fig. 9a and
+Supplementary Fig. 11). The catalytic activity of the complex containingWT
+MORFN was increased on the nucleosome with the linker DNA,
+NCP207, compared to the activity of this complex on the nucleosome
+without the linker DNA, NCP147. ThedeletionofMORFWH1 or bothWHs
+abolished the selectivity of the MORFN complexes toward NCP207,
+whereas the deletion of MORFWH2 had little effect on the selectivity.
+These results imply that although both functional WHs are critical,
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 12
+strong acetyltransferase activity of MORF depends on the interaction
+of MORFWH1 with extra-nucleosomal DNA to a higher degree.
+MORFWH2-DPF binding to DNA is modulated by auto-acetylation
+MORF has been shown to be acetylated in the post-MYST region42. To
+test whether MORF self-acetylates its N-terminus, we co-purified catalytically
+activeMORFWH2-DPF-MYST and BRPF1 and assessed acetylation
+by liquid chromatography-mass spectrometry (LC-MS). As control,
+MORFWH2-DPF-MYST/BRPF1 was treated with the NAD+-dependent histone
+deacetylase SIRT2 to remove acetylation. We found two autoacetylation
+sites in MORFWH2-DPF-MYST, K167, located inMORFWH2 and
+K182, located in the linker between MORFWH2 and MORFDPF (Fig. 9b).
+Wemutated both lysine residues to alanine and examinedDNAbinding
+activity of the K167A and K182A mutants of MORFWH2-DPF in EMSA
+(Fig. 9c–e). Quantitative densitometry analysis of the DNA147 band
+revealed that while the K182A mutation increases binding of
+Fig. 8 | A model for the association of MORFWH1-WH2 with the nucleosome.
+a, b Cryo-EMmap (transparent surface representation) of theMORFWH1-WH2-197 bp
+nucleosome-scFv complex shows extra density near the nucleosome dyad region
+(map threshold level at 0.15). DNA and histones of 197 bp chromatosome structure
+(PDB ID: 7K5X) and MORFWH2 (green) were docked into the density. The extra
+density observed on the linker DNA is colored blue. CpGs are colored red and
+labeled. c A model for the interaction of MORFWH1-WH2 with the nucleosome.
+MORFWH2 (green) is superimposed with H5 (gray) from the structure of NCP167 in
+complex with H5 (PDB ID: 4QLC), and the AF model of MORFWH1 from UniProt
+(Q8WYB5) (blue) is superimposed with the crystal structure of the DNA-boundWH
+fromSAMD1 (salmon) (PDB ID 6LUI), as in Fig. 3i. The CpG sequence in the SAMD1-
+DNA structure is colored green, and the CpG sequence (C22, G23 in a, b) in NCP is
+colored red. d A zoom-in viewof themodel shown in cwith the secondary structure
+elements labeled. e EMSA of 197 bp NCP (NCP197) in the presence of increasing
+amounts of indicated WT or mutated His-MORFWH1. f A model of Cy3-Cy5 labeled
+NCP273 with Cy5 (red circles) positioned at H2AK119C and Cy3 (green circle) positioned
+at 54 bp from the DNA 5’ end. Histone H1 bound at the dyad is depicted as
+tan circle. g FRET efficiency of Cy3-Cy5 NCP273 upon addition of His-MORFWH1-WH2.
+Data represent mean ± SD of at least three separate independent experiments.
+n≥3 A similar increase in FRET efficiency is observed due to binding of the linker
+histone H140. Either H140 or His-MORFWH1-WH2 above 10 nMinduce nucleosome selfassociation,
+leading to a reduction in the FRET efficiency (Supplementary Fig. 10).
+Source data are provided as a Source Data file.
+Fig. 9 | Impact of auto-acetylation and the DNA linker on the HAT activity and
+binding to DNA. a In vitro liquid HAT assays show acetyltransferase activity of
+nativeWTandmutatedMORFN complexes, purified fromK562 cells on NCP207 and
+NCP147. Values for NCP207 are normalized to the corresponding values for NCP147.
+Data represent mean ± SEM from three independent experiments. n = 3 Statistical
+tests were two-sided. Student’s t‐test, ***P < 0.005, 0.005 < **P<0.01 and
+0.01 < *P<0.05. b Acetylated MORFWH2-DPF-MYST sequences detected by MS.
+c–e EMSAs of 147 bp DNA in the presence of increasing amounts ofWT ormutated
+MORFWH2-DPF. DNA:protein ratio is shown below the gel images. f Quantitative
+densitometry analysis of the DNA147 band in c–e. g EMSAs of NCP147 and NCP187 in
+the presence of increasing amounts of MORFWH2-DPF. NCP:protein ratio is shown
+below the gel images. h Quantitative densitometry analysis of the NCP147 and
+NCP187 bands in g. i A model for the interaction of MORFWH1-WH2-DPF-MYST with the
+nucleosome. Source data are provided as a Source Data file.
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 13
+MORFWH2-DPF to DNA147, the K167A mutation decreases it (Fig. 9f).
+These data imply that autoacetylation of MORF can mediate its associationwith
+chromatin. EMSA assays further showed thatMORFWH2-DPF
+prefers the nucleosome with an extra-nucleosomal linker DNA, as
+MORFWH2-DPF more readily forms the complex with NCP187 than with
+NCP147 (Fig. 9g, h). These results highlight the ability of MORFWH1 and
+MORFDPF, the two domains flanking MORFWH2, to select for the linear,
+free of the nucleosome DNA.
+In conclusion, in this study we identified a tandem of winged helix
+domains, WH1 and WH2, in the N-terminal regions of the human
+acetyltransferases MORF and MOZ. We found that both WHs interact
+with DNA but display selectivity for distinct sequences and use dissimilar
+mechanisms to engage DNA. The atypical WH1 binds exclusively
+to unmethylated CpG sequences through its α1 and two loops,
+whereas WH2 belongs to the family of typical WHs, has only a slight
+preference for the AT sequences, and associates with DNA via α3 and
+α2. In vivo data analyses reveal that the DNA binding of WHs (particularly
+of WH1) is essential for the recruitment of MORF/MOZ to
+promoters of target genes, stimulation of gene transcription and
+H3K23 acetylation, and thus is vital to physiological functions of these
+acetyltransferases. The WH1-mediated binding to unmethylated CpGislands
+and the intactWH2 are also required for leukemogenic activity
+of the MOZ and MORF fusions. These results suggest a strategy
+directed at the inhibition of oncogenicMOZ andMORF translocations
+through targeting their WHs.
+Two MORFWHs are followed by MORFDPF that was shown to bind
+H3K14acyl and DNA and the catalytic MORFMYST domain that acetylates
+H3K2321,25. The multivalent contacts of the four sequentially
+connected domains of MORF with DNA and histones and autoacetylation
+of MORF point to an intricate mechanism by which MORF
+targets specific sites and is activated there or inactivated when its
+catalytic activity is no longer needed. Our structural and biochemical
+findings suggest amodel for the engagement ofMORFwith chromatin,
+in whichMORFWH1 binds to unmethylated CpG-containing linker DNA,
+MORFWH2 occupies the dyad of the nucleosome, and MORFDPF interacts
+with H3K14acyl and the linker DNA (Fig. 9i). How the combination
+of these interactions stabilizes the MORF complex at chromatin and
+how autoacetylation, intermolecular contacts, and the presence of
+other subunits in the complex, such as ING4/5 and BRPF1 that recognize
+H3K4me3, H3K36me3, and acetylated histones5,mediate function
+of the MORF/MOZ complexes, require further investigation.
+Methods
+Protein purification
+The human MORFWH1 (aa 5–84, His- and GST-tagged), MORFWH2 (aa
+100–182, His- and GST-tagged), MORFWH1-WH2 (aa 1–182, His-tagged),
+MORFWH2-DPF (aa 100–322), MORFDPF (aa 211–322), BRPF1 (aa 89–139),
+MORFWH2-DPF-MYST (aa 100–703 with additional 3 lysine residues at the
+C-terminus), His-MOZWH1 (aa 1–86), GST-MOZWH1 (aa 2–86), MOZWH2
+(aa 92–177, both GST- and His-tagged), and His-MOZWH1-WH2 (aa 1–177)
+constructs were cloned into pGEX-6P-1, pET22b, pET28a, pDESTsumo,
+pDONR, pDEST15 or pDEST17 vectors. The mutant constructs
+MORFWH1 (K19A/K21A/K22A),MORFWH1 (K24A/R26A/K66A),MORFWH2
+(K127A/K131A),MORFWH2 (R151A, R153A, K157A, and R158A),MORFWH2-
+DPF (K167A), and MORFWH2-DPF (K182A) were generated using the Agilent
+QuikChange Lightning Site-Directed Mutagenesis kit. All constructs
+were confirmed by DNA sequencing. Unlabeled and 15N-labeled
+proteins were expressed in E. coli Rosetta-2 (DE3) pLysS cells grown in
+LB, TB, or 15NH4Cl (Sigma-Aldrich) minimal media supplemented with
+ZnCl2. After inductionwith IPTG(final concentration 0.2–0.5mM,Gold
+biotechnology) for 16–20 h at 16 °C, cells were harvested via centrifugation
+and lysed in buffer (1× PBS or 25–50mM Tris-HCl pH
+7.0–7.5, 150–500mM NaCl, 0.05% (v/v) Nonidet P 40, 0–10% glycerol,
+5mM dithiothreitol (DTT) or 2.5mM (BME), phenylmethanesulfonylfluoride
+(PMSF), and DNase) by freeze-thaw followed by sonication.
+The unlabeled and 15N-labeled GST-fusion proteins were purified on
+glutathione agarose beads (Thermo Fisher Sci). The GST-tag was
+cleaved with PreScission, tobacco etch virus (TEV) protease or
+Thrombin protease (MP Biomedicals) overnight or left on, and the
+proteins were eluted off the resin with 50mM reduced L-glutathione
+(Fisher). His-tag fusion proteins were purified using nickel–NTA resin
+(ThermoFisher), the proteins were eluted from the resin with a gradient
+of imidazole. The His-tag was either cleaved with TEV protease
+during dialysis overnight at 4 °C or left on. When necessary, proteins
+were further purified by size exclusion chromatography (SEC) and
+concentrated in Millipore concentrators. His-SUMO-SIRT2 (aa 38–356)
+was purified as described43. For protein expression in HEK293T cells,
+cDNAs were obtained fromKazusa Genome Technologies Inc. or DNA
+fragments were synthesized and cloned into the pMSCV (for retrovirus
+production) or pCMV5 (for transient expression) vectors as
+described13.
+DNA purification
+Double-stranded DNA containing the 601 Widom sequence cloned
+into the pJ201 plasmid (147 bp) was transformed into DH5α cells. The
+plasmids were purified either as previously described44 or by the
+PureLink HiPure Expi Plasmid Gigaprep Kit (Invitrogen K210009XP).
+Separation of the individual sequences was completed by digestion of
+the plasmid with EcoRV followed by PEG and ethanol precipitation.
+Short DNAs were either purchased as single-stranded DNA (IDT) and
+annealed or ordered as pre-annealed double-stranded DNA (IDT).
+Complimentary DNA strands were combined in a 1:1 molar ratio in
+water in PCR tubes. Using a thermocycler to regulate temperature, the
+samples were brought to 95 °C for 20min and then to 16 °C at a rate of
+0.1 °C/s. All DNA samples were evaluated for purity by native polyacrylamide
+gel electrophoresis.
+EMSA
+Increasing amounts of WT ormutant (tagged or untagged) MORF and
+MOZ proteins were incubated with DNA147 (0.1–0.25 pmol/lane, 601
+Widom sequence), DNA15/16 (0.25–1.0 pmol/lane), DNAladder (25 ng/
+lane) or NCP (0.5 pmol/lane) in buffer (20–25mM Tris-HCl pH 7.5,
+20–150mM NaCl, 0–0.2mM ethylenediaminetetraacetic acid (EDTA),
+0–5mMDTT, and 0–20% glycerol) in a 10 μL reaction volume. For the
+samples containing the DNA ladder (O’RangeRuler 5 bp DNA Ladder,
+ThermoSci) the buffer was 25mM Tris-HCl pH 7.5, 150mM NaCl.
+Reaction mixtures were incubated at 4 °C for 10min (2.5 μl of loading
+dye was added to each sample) and loaded onto a 5–10% native polyacrylamide
+gel. Electrophoresis was performed in 0.2 × TBE buffer (1 ×
+TBE = 90mMTris, 64.6mMboric acid, and 0–2mMEDTA) at80–130 V
+on ice. Gels were stained with SYBR Gold (Thermo Fisher) and visualized
+by Blue LED (UltraThin LED Illuminator- GelCompany). Uncropped
+gels are shown in the Source Data file.
+Quantification of gel bands was performed using ImageJ using at
+least three independent experiments. Kd values were determined using
+a nonlinear least-squares analysis and the equation:
+ΔI = ΔImax
+½P + ½D + Kd  ffiffiffi½ffiPffiffiffiffiffi+ffiffiffiffi½ffiDffiffiffiffiffi+ffiffiffiffiKffiffiffidffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi  q 2  4½D½PÞ
+2½D
+ð1Þ
+where [P] is the concentration of the MORF protein, [D] is the concentration
+of DNA, ΔI is the observed change of band intensity, and
+ΔImax is the difference in band intensity of the free DNA and DNA
+bound by the protein. Kd values were averaged over at least three
+separate experiments, and error was calculated as the standard
+deviation between the runs.
+Binding of His-MORFWH1, WT and mutants, to NCP197 was monitored
+in buffer containing 10mMTris, 1mMEDTA, 10mMNaCl, 1mM
+TCEP. 200 nM nucleosome was titrated with 0.4, 0.8, 1.2 and 2.0 μM
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 14
+(replicate 1) or 1.6 μM (replicate 2) of His-MORFWH1. Reactions were
+loaded on a 5% acrylamide gel and electrophoresis in 0.2 × TBE buffer
+at 120 V and at 4 °C.
+PBM experiments
+Purified GST-MORFWH1 (aa 5–84), GST-MORFWH2 (aa 100–182), GSTMOZWH1
+(aa 2–86), and GST-MOZWH2 (aa 92–177) were assayed at
+300 nMfinal concentration in the PBMbinding reaction on 8x60K GSE
+‘all 10-mer universal’ oligonucleotide arrays (AMADID #030236; Agilent
+Technologies, Inc.), and proteins were detected using Alexa488
+conjugated anti-GST antibody (Invitrogen A-11131) at a dilution of 1:40.
+Double-stranding of the arrays and PBM experiments were otherwise
+performed as described previously, and PBMdata were quantified and
+analyzed using the PBM Universal Analysis Suite31,32.
+Cell lines
+Isogenic K562 cell lines expressing 3xFlag2xStrep-tagged MORFN WT
+(aa 2–716), ΔWH1(aa 86–716), ΔWH2(aa 2–99 + aa 183–716) and ΔWH1/
+2 (aa 183–716) were generated by integration at the AAVS1 safe harbor
+locus after DSB induction and recombination targeted by cotransfection
+with a ZFN expression plasmid, as previously
+described45. The forwards primers for WT For 5′- atatagcggccgcttc
+caccATGGTAAAACTTGCAAAC, ΔWH1 For 5′- atatagcggccgcttccaccA
+TGGGCACTTTTCCTAAGTCA and ΔWH1/2 For 5′- atatagcggccgcttcc
+accATGGGGGCACCTCAGTATCCC were used with the Rev 5′- atatagg
+ccggcCTCTTTCTCAGCTTCTCG. The MORF ΔWH2 (aa2–99 + 183–716)
+was generated by PCR amplification of the WT MORF (aa2–716) using
+For 5′- GGGGTCTAGAGGATCATGTGGGGCACCTC and Rev 5′- GAG
+GTGCCCCACATGATCCTCTAGACCCC primers designed by the Quick
+Change Primer Design-Agilent. 2 × 105 cells were transfected with
+400 ng of ZFN expression vector and 4 μg of donor constructs.
+Selection and cloningwere performed in RPMI mediumsupplemented
+with 0.5 μg/mL puromycin starting 2–3 days post transfection. Clones
+were obtained by limiting dilution and expanded before harvest for
+western blot analysis.
+HEK293T cells were purchased fromATCC. Cells were cultured in
+Dulbecco’smodified Eaglesmedium (DMEM), supplemented with 10%
+fetal bovine serum (FBS) and penicillin-streptomycin (PS). The
+platinum-E (PLAT-E) ecotropic virus-packaging cell line (a gift from
+Toshio Kitamura) was cultured in DMEM supplemented with 10% FBS,
+puromycin, blasticidin, and PS. Cells were cultured in an incubator at
+37 °C and 5% CO2 and routinely tested for mycoplasma using a
+MycoAlert Mycoplasma Detection Kit (Lonza).
+ChIP
+Chromatin preparation from K562 cells was performed as previously
+described46. For chromatin immunoprecipitation, 150 μg of chromatin
+(for FLAG ChIP) and 50 μg of chromatin (for histones ChIP)
+was incubated with 3 μg anti-FLAG M2 (F1804, Sigma) or 1 μg anti-H3
+(ab1791, Abcam), anti-H3K14ac (07–353, Upstate) and anti-H3K23ac
+(07–355, Upstate) antibodies overnight at 4 °C. 50 μl of Protein G
+Dynabeads for FLAG ChIP or 25 μl of Protein A Dynabeads were then
+added to each sample, and the mixtures were incubated at 4 °C for
+4 h. The beads were washed extensively and eluted with 1% SDS and
+0.1M NaHCO3. Cross-linked samples were reversed by heating
+overnight at 65 °C in the presence of 0.2M NaCl. Samples were then
+treated with RNase A and proteinase K for 2 h, and DNA was recovered
+using MinElute PCR purification Kit (Qiagen, 28004) according
+to the manufacturer’s instructions. Quantitative real-time PCR corrected
+for primer efficiencies in the linear range was performed
+using SYBR Green I (Roche, 04877352001) on a LightCycler 480
+(Roche). Expression levels of MORFN1-716 WT, ΔWH1, ΔWH2 and
+ΔWH1/2 were monitored by running SDS-PAGE and transferring onto
+nitrocellulose membrane. Anti-FLAG M2 conjugated to horseradish
+peroxidase (A8592, Sigma) was used at 1:10,000 dilution.
+Immunoblots were visualized using a Western Lightning plus ECL
+reagent (Perkin-Elmer).
+RT-qPCR
+RNA was prepared using the RNeasy kit (Qiagen) and reverse transcribed
+using a Superscript III First Strand cDNA Synthesis kit, with
+oligo(dT) primers (Life Technologies).Gene expression was confirmed
+by qPCR using TaqMan probes (Life Technologies). Expression levels,
+normalized to those of Gapdh, were determined using a standard
+curve and the relative quantification method as described in ABI User
+Bulletin #2.
+Fractionation-assisted native chromatin immunoprecipitation
+(fanChIP)
+Chromatin fractions from HEK293T cells were prepared using the
+fanChIP method as previously described47. Cells were suspended in
+CSK buffer and centrifuged to remove the soluble fraction in the same
+manner as the nucfrIP analysis. The pellet was resuspended in MNase
+buffer and treated with MNase at 37 °C for 3–6min to obtain oligonucloesomes.
+The MNase reaction was stopped by adding EDTA (pH
+8.0) to a final concentration of 20mM. Lysis buffer (250mM NaCl,
+20mM sodium phosphate [pH 7.0], 30mM sodium pyrophosphate,
+5mM EDTA, 10mM NaF, 0.1% NP-40, 10% glycerol, 1mM DTT, and
+EDTA-free protease inhibitor cocktail)was added to increase solubility.
+The chromatin fraction was cleared by centrifugation and subjected to
+immunoprecipitation with specific antibodies [FLAG (Sigma-Aldrich
+F3165/M2, 1:400 dilution), MOZ (active motif 39868, 1:400 dilution),
+MEAF6 (STJ 116836, 1:400 dilution), ING4 (Abcam 108621, 1:400 dilution),
+HistoneH3K14ac (Abcamab52946, 1:400 dilution), RNAP2 non-P
+(Abcam 8WG16/ab817, 1:400 dilution), RNAP2 Ser5-P (Millipore
+CTD4H8/05-623, 1:400 dilution)] and magneticmicrobeads (Protein-G
+magnet beads [Invitrogen]). Immunoprecipitates were washed five
+times with washing buffer (1:1mixture of lysis buffer andMNase buffer
+with 20mM EDTA) and then eluted in elution buffer. The eluted
+material was analyzed by qPCR and deep sequencing.
+ChIP-qPCR and ChIP-seq
+The eluted material obtained by fanChIP was extracted by phenol/
+chloroform/isoamyl alcohol. DNA was precipitated with glycogen
+(Nacalai Tesque), dissolved in TE, and analyzed by qPCR and deep
+sequencing. For deep sequencing, Purified DNA was further fragmented
+(~150 bp long) using the Covaris M220 DNA shearing system
+(M&M Instruments Inc.). Deep sequencing was performed using a
+TruSeq ChIP Sample Prep Kit (illumina) and HiSeq2500 (illumina) at
+the core facility of Hiroshima University and the University of Tokyo.
+Data were visualized using the Integrative Genome Viewer (Broad
+Institute). Raw reads in fastq format were trimmed using cutadapt and
+aligned to the reference genome hg19 with BWA48,49. The alignment
+tags were counted, and ppm was calculated every 25 bp from TSS and
+TES of the genes. Heatmaps of ChIP signals on each TSS were generated
+by ngsplot50. Quantitative PCR (qPCR) analysis of the precipitated
+DNA was performed using the custom-made primer sets listed in
+Supplementary Tables 2 and 3. The values relative to inputs were
+determined using a standard curve and the relative quantification
+method.
+CpG island recovery assay
+CpG island recovery assays for unmethylated CpGs (CIRA) were performed
+using the Unmethyl Collector kit (Active Motif) according to
+themanufacturer’s instruction13. Briefly, genomic DNAs were prepared
+from HEK293T cells using DNeasy Blood & Tissue Kit (QIAGEN) and
+fragmented to the average size of 1 kb by sonication. The sonicated
+DNAs (100 ng) were incubated with the Histidine-tagged recombinant
+CXXC domain (6.5 μg) and magnetic nickel beads for 30min at room
+temperature in the complete AM8 buffer supplied in the kit. The
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 15
+reaction mixture was washed four times with the complete AM8 buffer
+and then eluted with the AM3 elution buffer supplied in the kit. For
+deep sequencing, purified DNA was further fragmented to the average
+size of 150 bp by sonication using aCovarisM220DNA shearing system
+(M&M Instruments Inc.) and sequenced as described above.
+Virus production
+Ecotropic retrovirus was produced using PLAT-E packaging cells51. The
+supernatant medium containing the virus was harvested 24–48 h following
+transfection and used for viral transduction.
+Myeloid progenitor transformation assay
+The myeloid progenitor transformation assay was carried out as previously
+described52. Bone marrow cells were harvested from the
+femurs and tibiae of 5-week-old female C57BL/6mice (purchased from
+CLEA Japan, Inc). c-Kit-positive cells were enriched using magnetic
+beads conjugated with an anti-c-Kit antibody (Miltenyi Biotec, 1:50
+dilution), transduced with a recombinant retrovirus by spinoculation,
+and then plated in a methylcellulose medium (Iscove’s Modified Dulbecco’s
+Medium, 20% FBS, 1.6% methylcellulose, and 100 μM β-mercaptoethanol)
+containing murine stem cell factors, interleukin-3, and
+granulocyte-macrophage colony-stimulating factor (10 ngml−1 of
+each). G418 (1mgml−1) was added to the first round of culture to select
+for transduced cells. Hoxa9 expression was quantified by RT-qPCR
+after the first round of culture. Colony-forming units (CFUs) were
+quantified per 104 plated cells after 4–6 days in culture. This protocol
+was approved by the National Cancer Center Institutional Animal Care
+and Use Committee of the National Cancer Center, Tsuruoka, Japan.
+Microscopy protein–protein interaction
+GST-tagged MORFWH2 (100 μM) was incubated with glutathione
+Sepharose 4B beads (Thermo Fisher Sci) at 4 °C for 0.5–1 h then
+washed with buffer (50mM Tris-HCl pH 7.5, 150mM NaCl, and 5mM
+BME). Buffer was removed and the beads were resuspended in 1:1
+washing buffer. To prepare for imaging, 10 μM fluorescein (FAM)-
+labeled 37 bp dsDNA (10–20 μM) was incubated with 10 μM of the
+suspended beads for 0.5–1 hour at room temperature. Confocal images
+were acquired on a Zeiss Observer.Z1 inverted microscope using a
+488 nm laser for the excitation and emission of FAM. Images were
+processed using ImageJ.
+NMR experiments
+Nuclear magnetic resonance (NMR) experiments were performed at
+298 K on Bruker 600MHz and Varian 900MHz spectrometers. The
+1H,15N HSQC spectra of 0.1–0.2mM uniformly 15N-labeled WT or
+mutant proteins were collected in the presence of increasing amount
+of unlabeled proteins or DNA (IDT). NMR data were processed and
+analyzed with NMRPipe and NMRDraw as previously described53.
+Normalized chemical shift changes were calculated using the equation
+Δδ =qffiðffiΔffiffiffiδffiffiffiHffiffiffiffiÞffi2ffiffiffi+ffiffiffiffiðffiffiΔffiffiffiδffiffiffiNffiffiffi=ffiffiffi5ffiffiÞffiffi2ffiffi, ð2Þ
+where Δδ is the change in chemical shift in parts per million (ppm).
+Structure determination for MORFWH2
+NMR samples for structure determination contained 1.3mM 13C/
+15N-labeledMORFWH2were prepared in 25mMTris-HCl (pH 6.8) buffer,
+supplemented with 150mM NaCl and 8% D2O. Backbone and side
+chain chemical shift assignments for MORFWH2 were obtained by collecting
+and processing a set of triple resonance experiments (HNCACB,
+CBCA(CO)NH, CC(CO)NH, HBHA(CO)NH, HNCA) with nonlinear sampling.
+3D 15N- and 13C-edited NOESY-HSQC (mixing time of 100ms)
+were collected to obtain distance restraints.
+Calculation of the structure of MORFWH2 (aa 100–182) was
+carried out using interproton NOE-derived distance restraints and
+dihedral angle restraints. NMR spectra were processed and analyzed
+with NMRDraw and CcpNmr Suite54. The program DANGLE in
+CcpNmr Suite was used to predict dihedral angles ψ and φ
+restraints. Hydrogen bonds were derived from characteristic NOE
+patterns in combination with dihedral angles. The structures were
+calculated and refined with XPLOR-NIH55. 100 structures were calculated,
+and the ensemble of 15 conformers with the lowest total
+energy was selected to represent MORFWH2. The quality of the
+structures was validated using the program PROCHECK-NMR. The
+percentage of residues in the most favored, additionally allowed,
+generously allowed and disallowed regions is 86.1, 12.5, 1.4, and 0.0,
+respectively. The structural statistics are listed in Supplementary
+Table 1.
+Nucleosome assembly
+Human H2A, H2B, H3.2, and H4 histone proteins were expressed in
+Escherichia coli BL21 (DE3) pLysS cells, separated frominclusion bodies
+and purified using SEC and ion exchange chromatography. Histones
+were then combined in 7Mguanidine HCl, 20mMTris-HCl pH 7.5, and
+10mM dithiothreitol in appropriate molar ratios and refolded into
+octamer by slow dialysis into 2M NaCl, 20mM Tris-HCl pH 7.5, 1mM
+ethylenediaminetetraacetic acid (EDTA) pH 8.0, and 2mM β-
+mercaptoethanol. The octamer was purified from tetramer and
+dimer by SEC. Octamer was then mixed with DNA (147 bp or 207 bp
+601 Widom sequence) in 5–10mM Tris pH 8.0, 2M NaCl and
+0.5–1.0mM EDTA, and NCPs were reconstituted by slow desalting
+dialysis into 5–10mMTris pH 8.0 and 0.5–1.0mMEDTA. DNAs used in
+fluorescence polarization were 147 bp 601 Widom DNA fluoresceinlabeled
+on the 5’ end (for NCP147) and 207 bp DNA (147 bp 601 DNA
+flankedwith 30 bp linkerDNA on either side and internally labeled with
+fluorescein27bp infromthe 5’ end) (for NCP207). NCPswere separated
+fromfreeDNA via sucrose gradient purification.When necessary,NCPs
+were purified by SEC and peak fractions were pooled. All NCPs were
+confirmed by SDS and native-PAGE. NCP187 was purchased from
+Epicypher.
+Fluorescence polarization
+Fluorescence polarization measurements were carried out by mixing
+increasing amounts of His-MORFWH1 (aa 5–84), WT and mutants,
+MORFWH2 (aa 100–182), or His-MORFWH1-WH2 (aa 1–182) with 5 nM
+NCP207 or NCP147 in 75mM NaCl, 25mM Tris-HCl pH 7.5, 0.00625%
+Tween20, and 5mM dithiothreitol in a 30 μL reaction volume. The
+samples were loaded into a Corning round-bottom polystyrene plate
+and allowed to incubate at 4 °C for 30 min. The polarization measurements
+were acquired with a Tecan infinite M1000Pro plate reader
+by exciting at 470 nm and measuring polarized emission at 519 nm
+with 5 nm excitation and emission bandwidths. The fluorescence
+polarization was calculated from the emission polarized parallel and
+perpendicular to the polarized excitation light as described
+previously56. The data were then fit to a non-cooperative binding isotherm
+to determine S1/2. The S1/2 values were averaged over three
+separate experiments with error calculated as the standard deviation
+between the runs.
+Förster resonance energy transfer
+The Cy3-Cy5 labeled NCP273 with Cy5 positioned at H2AK119C and Cy3
+positioned at 54 bp from the DNA 5’ end were prepared using a protocol
+described in ref. 40. To perform FRET efficiency measurements,
+0.5 nM NCP273 were incubated with 0–300 nM His-MORFWH1-WH2 in
+T130 buffer (10mM Tris, 130mM NaCl, 10% glycerol, and 0.0075%
+TWEEN20) for 20min at room temperature. Fluorescence spectra
+were collected on a FluoroMax 4 fluorometer (Horiba) by exciting Cy3
+at 510 nm and Cy5 at 610 nm and measuring emission from 530 to
+750 nm. RatioA method was used to calculate FRET efficiency40 from
+six separate experiments.
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 16
+Trypsin digestion of MORF
+6 μl of 31μM MORFWH2-DPF-MYST (aa 100–703 with additional 3 lysine
+residues at the C-terminus) co-expressed and purified with BRPF1 (aa
+89–139) was treated with or without SIRT2 at 4 °C overnight in 30mM
+Tris-HCl pH 7.5, 300mMNaCl, 5% glycerol, 5mMDTT, 0.5–1mMNAD,
+5mMMgCl2, and 50μMZnCl2. Samples were denatured, reduced, and
+alkylated in 5% (w/v) sodium dodecyl sulfate (SDS), 10mM tris (2-carboxyethyl)
+phosphine hydrochloride (TCEP-HCl), 40mM 2-chloroacetamide,
+50mMTris pH 8.5 and boiled at 95 °C for 10 min. Samples
+were prepared for mass spectrometry analyses using the SP3 method.
+Carboxylate-functionalized speedbeads (GE Life Sciences) were added
+to protein samples. Acetonitrile was added to 80% (v/v) to precipitate
+protein and bind it to the beads. The protein-bound beads were
+washed twice with 80% (v/v) ethanol and twice with 100% acetonitrile.
+Lys-C/Trypsin mix (Promega) was added for 1:50 protease to protein
+ratio in 50mM Tris pH 8.5 and incubated rotating at 37 °C overnight.
+To clean up tryptic peptides, acetonitrile was added to 95% (v/v) to
+precipitate and bind peptides to the beads. One wash with 100%
+acetonitrile was performed and tryptic peptides were eluted twicewith
+1% (v/v) trifluoroacetic acid (TFA), 3% (v/v) acetonitrile in water. Eluate
+were dried using a speed-vac rotatory evaporator.
+Liquid chromatography and tandem mass spectrometry (LCMS/
+MS) analysis
+For acetylation sites analysis, the trypsinized peptides for the control (−)
+SIRT (n = 1) and the acetylated (+) SIRT (n = 1) were resuspended in 0.1%
+TFA, 3% acetonitrile in water, of which approximately 1 picomole of the
+peptides for each sample was directly injected onto a Waters M-class
+column (1.7 μm, 120 A, rpC18, 75 μm × 250mm) and gradient eluted
+from 2% to 40% acetonitrile over 40 min at 0.3 μL/minute using a
+Thermo Ultimate 3000 UPLC (Thermo Scientific). Peptides were
+detected with a Thermo Q-Exactive HF-X mass spectrometer (Thermo
+Scientific) scanning MS1 spectra at 120,000 resolution from 380 to
+1580 m/z with a 45ms fill time and 3E6 AGC target. The top 12 most
+intense peaks were isolated with 1.4 m/z window with a 100 ms fill time
+and 1E6 AGC target and 27% HCD collision energy for MS2 spectra
+collected at 15,000 resolution. Dynamic exclusion was enabled for
+5 seconds. MS data raw files were searched against the single Uniprot
+sequence for MORF (Uniprot accession number Q8WYB5-3) using
+Maxquant v.1.6.14.0 using Trypsin/P protease cleavage specificity
+allowing for two missed cleavages. Cysteine carbamidomethylation was
+searched as a fixed modification, while methionine oxidation, protein
+N-terminal and lysine side chain acetylation were treated as variable
+modifications. The mass tolerances for the database search were 4.5
+ppm for the precursors and 20 ppm for the MS2 fragment ions, the
+minimumpeptide length was seven residues with no additional applied
+score cutoffs. Peptide and protein level FDR were set at 0.01.
+Cryo-EM sample preparation, data collection, and processing
+197 bp Widom 601 nucleosome and PL2-6 nucleosome antibody fragment
+(scFv) were prepared according to previous publication39. 197bp
+DNA sequence (center 147 bp Widom 601 sequence underlined, CG
+sequence in the linker DNA colored in red):
+GGGCTGGACCCTATACGCGGCCGCCCTGGAGAATCCCGGTGCC
+GAGGCCGCTCAATTGGTCGTAGACAGCTCTAGCACCGCTTAAACGCA
+CGTACGCGCTGTCCCCCGCGTTTTAACCGCCAAGGGGATTACTCCCT
+AGTCTCCAGGCACGTGTCAGATATATACATCCTGTGCATGTATTGAAC
+AGCGACCACCCC. 10 μMMORFWH1-WH2 was added step-wise to 0.2 μM
+197 bp nucleosome to a final 6:1 molar ratio (MORFWH1-
+WH2:nucleosome) in 500 μl binding buffer (10mM HEPES, 0.1mM
+EDTA, 10mM NaCl, 5mM 2-mercaptalethanol). After incubating the
+mixture at room temperature for 30min, 100 μl of 3μM scFv was
+added to the complex (threefold excess of scFv relative to the
+nucleosome). The MORFWH1-WH2-nucleosome-scFv complex was then
+dialyzed to binding buffer overnight and concentrated to 1 ~ 2 μMusing
+a 30 kDa cut-off centrifugal filter unit (Millipore). 4 μl of prepared
+complexwas applied to Lacey 300mesh carbon grids (Ted Pella), glow
+discharged with a easiGlow discharger (Ted Pella) for 1min at 15 mA.
+The grids were blotted using Whatman filter paper with 15 s waiting
+time, 2–3 s blotting time, and 20 blotting force at 4 °C and 100%
+humidity, then flash frozen in liquid ethane using a Vitrobot Mark IV
+(Thermo Fisher Scientific). A total of 2204 cryo-EM images were collected
+on a Talos Arctica microscope (Thermo Fisher Scientific) at
+200 kV with a Gatan K3 Summit direct detection camera at the NCIFrederick
+cryo-EM Facility. A magnification of 56 K was used, yielding
+pixel size of 0.91 Å/pixel. The movie frames were recorded at a dose
+rate of 18e-/px/s for 2.4 s exposure with 40 frames. SerialEM57 was used
+for automatic data collection with defocus values set at a range from
+−0.8 to −1.8 μm.
+Cryo-EM data were processed using cryoSPARC v3 software
+package58. Movie frames were aligned with Patch motion correction
+and contrast-transfer function (CTF) estimation was performed by
+Patch CTF estimation tools with cryoSPARC live during the data collection.
+Particles picking were performed with Blob picker followed by
+Template picker tools. Initial picked 219800 particles were cleaned by
+one round of 2D classification, 66885 particles were selected for ab
+initio model generation. Non-Uniform refinement were then performed
+with the ab initio model and selected particles as input. A
+generous mask was generated using the non-uniform refined map. 3D
+variability analysis was performed using the generated mask and particles
+from non-uniform refinement. A cluster reconstructed from
+4629 particles were selected with the 3D variability analysis (4 cluster
+mode) which shows extra density on the nucleosome dyad region. A
+final non-uniform refinement was performed with particles from the
+selected cluster, yielding an overall 7 Å cryo-EM map (See Supplementary
+Fig. 8). Cryo-EM maps were illustrated using UCSF ChimeraX
+(https://www.rbvi.ucsf.edu/chimerax).
+Purification of native MORF complexes
+For purification of native complexes, after large-scale expansion of
+K562 clones, affinity purifications of tagged MORFN WT (aa 2–716),
+ΔWH1 (aa 86–716), ΔWH2 (aa 2–99 + aa 183–716) and ΔWH1/2 (aa
+183–716), were performed on nuclear extracts as previously
+described59. Briefly, nuclear extracts were prepared following standard
+procedures and pre-cleared with CL6B Sepharose beads. FLAG
+immunoprecipitations with anti-FLAG agarose affinity gel (Sigma M2,
+250 μl) were performed, followed by elution with 3xFLAG peptide
+(200 μg/mL fromSigma) in the following buffer: 20mMHEPES pH 7.5,
+150mMKCl, 0.1mMEDTA, 10%glycerol, 0.1%Tween20, 1mMDTTand
+supplemented with proteases, deacetylases, and phosphatase inhibitors.
+Expression was measured by WB (Supplementary Fig. 3a) using
+anti-FLAG M2 (Sigma, F1804, 1:10,000 dilution) and anti-WDR5 (a gift
+from Edwin Smith, 1:1000 dilution) antibodies.
+In vitro HAT assays of the MORFN complexes
+Acetyltransferase activity of the purified complexes containing
+MORFN WT (aa 2–716), ΔWH1 (aa 86–716), ΔWH2 (aa 2–99 + aa
+183–716) or ΔWH1/2 (aa 183–716) was measured using 0.125 μCi of 3H
+labeled Ac-CoA (2.1 Ci/mmol; PerkinElmer Life Sciences) or 150 μM of
+unlabeled (cold) Ac-CoA. The HAT reactions were performed in a
+volume of 15 μl using 0.5 μg of NCP207 (30 bp linker DNA flanking both
+sides of 147 bp 601WidomDNA) (produced as previously described60)
+and NCP147, in HAT buffer (50mM Tris-HCl pH 8, 50mM KCl, 10mM
+sodium butyrate, 5% glycerol, 0.1mM EDTA, 1mM dithiothreitol) for
+30 min at 30 °C. The reactions were then captured on P81 filter paper,
+the free 3H-labeled Ac-CoA was washed away, and the paper was analyzed
+by liquid scintillation. For in vitro HAT assays with cold Ac-CoA,
+the HAT activity of WT and mutated MORFN complexes on specific
+sites of histone H3 were monitored by western blot. Wild type and
+mutant complexes were normalized by western blot and the HAT
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 17
+activity on free histones. The following antibodies were used: anti-
+H3K23ac (Upstate, 07–355, 1:1000 dilution) and anti-H3 (Abcam,
+ab1791, 1:20,000 dilution).
+Statistics and reproducibility
+Statistical analysis shown in Fig. 6 was performed using GraphPad
+Prism 8 and Microsoft Excel software. Data are presented as mean ±
+standard deviation (SD). EMSA experiments were performed at least
+twice. Multiple comparisons were performed using one-way or twoway
+ANOVA; all statistical tests were two-sided. Statistical significance
+was set at P ≤ 0.05. n.s.: P>0.05, *P ≤ 0.05, **P ≤ 0.01, ***P ≤ 0.001, and
+****P ≤ 0.0001 (Fig. 1f–h), and ***P<0.005, 0.005 < **P<0.01 and
+0.01 < *P<0.05 by student’s t‐test (Fig. 9a).
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+The data that support this study are available from the corresponding
+authors upon reasonable request. Coordinates and structure factors
+have been deposited in the Protein Data Bank under accession code
+8E4V. NMR data have been deposited in the Biological Magnetic Resonance
+Bank under accession number 31040. Cryo-EM map of the
+MORFWH1-WH2 and 197 bp nucleosome complex has been deposited in
+the Electron Microscopy Data Bank under accession number EMD-
+27243. ChIP-seq and CIRA-seq data have been deposited to the DDBJ
+(DNA Data Bank of Japan) Sequence Read Archive as fastq files and as
+WIG files under accession numbers DRA008734, DRA012473,
+DRA008732, DRA014291, DRA014290, DRA010562, DRA015383,
+E-GEAD-324, E-GEAD-446, E-GEAD-322, E-GEAD-497, E-GEAD-498,
+E-GEAD-381 and E-GEAD-584 [https://ddbj.nig.ac.jp/public/ddbj_
+database/dra/fastq/] and [https://ddbj.nig.ac.jp/public/ddbj_database/
+gea/experiment/E-GEAD-000/] (Supplementary Table 4). The mass spec
+data have been deposited to the PRIDE database under accession
+number PXD036192. Source data are provided with this paper.
+References
+1. Grunstein, M. Histone acetylation in chromatin structure and transcription.
+Nature 389, 349–352 (1997).
+2. Verdin, E. & Ott, M. 50 years of protein acetylation: from gene
+regulation to epigenetics, metabolism and beyond. Nat. Rev. Mol.
+cell Biol. 16, 258–264 (2015).
+3. Musselman, C. A., Lalonde,M. E., Cote, J. & Kutateladze, T.G. Perceiving
+the epigenetic landscape through histone readers. Nat.
+Struct. Mol. Biol. 19, 1218–1227 (2012).
+4. Avvakumov, N. & Cote, J. The MYST family of histone acetyltransferases
+and their intimate links to cancer. Oncogene 26,
+5395–5407 (2007).
+5. Klein, B. J., Lalonde, M. E., Cote, J., Yang, X. J. & Kutateladze, T. G.
+Crosstalk between epigenetic readers regulates the MOZ/MORF
+HAT complexes. Epigenetics 9, 186–193 (2014).
+6. Yan, F. et al. KAT6A and ENL form an epigenetic transcriptional
+control module to drive critical leukemogenic gene-expression
+programs. Cancer Discov. 12, 792–811 (2022).
+7. Zhao, W. et al. Matrix stiffness-induced upregulation of histone
+acetyltransferase KAT6A promotes hepatocellular carcinoma progression
+through regulating SOX2 expression. Br. J. Cancer 127,
+202–210 (2022).
+8. Perez-Campo, F. M., Costa, G., Lie-a-Ling,M., Kouskoff, V. & Lacaud,
+G. TheMYSTerious MOZ, a histone acetyltransferase with a key role
+in haematopoiesis. Immunology 139, 161–165 (2013).
+9. Voss, A. K., Collin, C., Dixon, M. P. & Thomas, T. Moz and retinoic
+acid coordinately regulate H3K9 acetylation, Hox gene expression,
+and segment identity. Dev. Cell 17, 674–686 (2009).
+10. Perez-Campo, F. M., Borrow, J., Kouskoff, V. & Lacaud, G. The histone
+acetyl transferase activity ofmonocytic leukemia zinc finger is
+critical for the proliferation of hematopoietic precursors. Blood 113,
+4866–4874 (2009).
+11. Katsumoto, T. et al. MOZ is essential for maintenance of hematopoietic
+stem cells. Genes Dev. 20, 1321–1330 (2006).
+12. Crump, J. G., Swartz, M. E., Eberhart, J. K. & Kimmel, C. B. Mozdependent
+Hox expression controls segment-specific fatemaps of
+skeletal precursors in the face. Development 133,
+2661–2669 (2006).
+13. Miyamoto, R. et al. Activation of CpG-rich promoters mediated by
+MLL drivesMOZ-rearranged leukemia. Cell Rep. 32, 108200 (2020).
+14. Vanyai, H. K. et al. MOZ directs the distal-less homeobox gene
+expression program during craniofacial development. Development
+146, dev175042 (2019).
+15. Baell, J. B. et al. Inhibitors of histone acetyltransferases KAT6A/B
+induce senescence and arrest tumour growth. Nature 560,
+253–257 (2018).
+16. Sheikh, B. N. et al. MOZ regulates B-cell progenitors and, consequently,
+Moz haploinsufficiency dramatically retards MYC-induced
+lymphoma development. Blood 125, 1910–1921 (2015).
+17. Troisi, S. et al. Epilepsy in KAT6A syndrome: description of two
+individuals and revision of the literature. Eur. J. Med. Genet. 65,
+104380 (2022).
+18. Arboleda, V. A. et al. De novo nonsense mutations in KAT6A, a lysine
+acetyl-transferase gene, cause a syndrome includingmicrocephaly
+and global developmental delay. Am. J. Hum. Genet. 96,
+498–506 (2015).
+19. Trinh, J. et al. A KAT6A variant in a familywith autosomal dominantly
+inherited microcephaly and developmental delay. J. Hum. Genet.
+63, 997–1001 (2018).
+20. Brea-Fernandez, A., Dacruz, D., Eiris, J., Barros, F. & Carracedo, A.
+Novel truncating variants expand the phenotypic spectrum of
+KAT6B-related disorders.Am. J.Med. Genet.A179, 290–294 (2019).
+21. Klein, B. J. et al. Histone H3K23-specific acetylation by MORF is
+coupled to H3K14 acylation. Nat. Commun. 10, 4724 (2019).
+22. Lv, D. et al. Histone acetyltransferase KAT6A upregulates PI3K/AKT
+signaling through TRIM24 binding. Cancer Res. 77,
+6190–6201 (2017).
+23. Qiu, Y. et al. Combinatorial readout of unmodified H3R2 and
+acetylated H3K14 by the tandem PHD finger of MOZ reveals a
+regulatory mechanism for HOXA9 transcription. Genes Dev. 26,
+1376–1391 (2012).
+24. Ali, M. et al. TandemPHD fingers of MORF/MOZ acetyltransferases
+display selectivity for acetylated histone H3 and are required for the
+association with chromatin. J. Mol. Biol. 424, 328–338 (2012).
+25. Klein, B. J. et al. Recognition of histone H3K14 acylation by MORF.
+Structure 25, 650–654.e652 (2017).
+26. Yang, X. J. MOZ and MORF acetyltransferases: molecular interaction,
+animal development and human disease. Biochim. Biophys.
+Acta 1853, 1818–1826 (2015).
+27. Holbert, M. A. et al. The human monocytic leukemia zinc finger
+histone acetyltransferase domain contains DNA-binding activity
+implicated in chromatin targeting. J. Biol. Chem. 282,
+36603–36613 (2007).
+28. Dreveny, I. et al. The double PHD finger domain of MOZ/MYST3
+induces alpha-helical structure of the histone H3 tail to facilitate
+acetylation and methylation sampling and modification. Nucleic
+Acids Res. 42, 822–835 (2014).
+29. Xiong, X. et al. Selective recognition of histone crotonylation by
+double PHD fingers of MOZ and DPF2. Nat. Chem. Biol. 12,
+1111–1118 (2016).
+30. Davey, C. A., Sargent,D. F., Luger, K.,Maeder,A. W.&Richmond, T.
+J. Solventmediated interactions in the structure of the nucleosome
+core particle at 1.9 a resolution. J. Mol. Biol. 319, 1097–1113 (2002).
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 18
+31. Berger, M. F.&Bulyk,M. L.Universal protein-bindingmicroarrays for
+the comprehensive characterization of the DNA-binding specificities
+of transcription factors. Nat. Protoc. 4, 393–411 (2009).
+32. Berger, M. F. et al. Compact, universal DNA microarrays to comprehensively
+determine transcription-factor binding site specificities.
+Nat. Biotechnol. 24, 1429–1435 (2006).
+33. Stielow, B. et al. The SAMdomain-containing protein 1 (SAMD1) acts
+as a repressive chromatin regulator at unmethylated CpG islands.
+Sci. Adv. 7, eabf2229 (2021).
+34. Deguchi, K. et al. MOZ-TIF2-induced acute myeloid leukemia
+requires the MOZ nucleosome binding motif and TIF2-mediated
+recruitment of CBP. Cancer Cell 3, 259–271 (2003).
+35. Carapeti, M., Aguiar, R. C., Goldman, J. M. & Cross, N. C. A novel
+fusion between MOZ and the nuclear receptor coactivator TIF2 in
+acute myeloid leukemia. Blood 91, 3127–3133 (1998).
+36. Liang, J., Prouty, L., Williams, B. J., Dayton, M. A. & Blanchard, K. L.
+Acute mixed lineage leukemia with an inv(8)(p11q13) resulting in
+fusion of the genes for MOZ and TIF2. Blood 92, 2118–2122 (1998).
+37. Harami, G. M., Gyimesi, M. & Kovacs, M. From keys to bulldozers:
+expanding roles for winged helix domains in nucleic-acid-binding
+proteins. Trends Biochem. Sci. 38, 364–371 (2013).
+38. Bednar, J. et al. Structure and dynamics of a 197 bp nucleosome in
+complex with linker histone H1. Mol. Cell 66, 384–397.e8 (2017).
+39. Zhou, B. R. et al. Distinct structures and dynamics of chromatosomes
+with different human linker histone isoforms. Mol. Cell 81,
+166–182 e166 (2021).
+40. Burge, N. L. et al. H1.0 C terminal domain is integral for altering
+transcription factor binding within nucleosomes. Biochemistry 61,
+625–638 (2022).
+41. Li, G. & Widom, J. Nucleosomes facilitate their own invasion. Nat.
+Struct. Mol. Biol. 11, 763–769 (2004).
+42. Choudhary, C. et al. Lysine acetylation targets protein complexes
+and co-regulates major cellular functions. Science 325,
+834–840 (2009).
+43. Zhang, Y. et al. Nuclear condensates of p300 formed though the
+structured catalytic core can act as a storage pool of p300 with
+reduced HAT activity. Nat. Commun. 12, 4618 (2021).
+44. Musselman, C. A. et al. Binding of PHF1 Tudor to H3K36me3
+enhances nucleosome accessibility. Nat. Commun. 4, 2969 (2013).
+45. Dalvai, M. et al. A scalable genome-editing-based approach for
+mapping multiprotein complexes in human cells. Cell Rep. 13,
+621–633 (2015).
+46. Jacquet, K. et al. The TIP60 complex regulates bivalent chromatin
+recognition by 53BP1 through direct H4K20me binding and H2AK15
+acetylation. Mol. Cell 62, 409–421 (2016).
+47. Miyamoto, R. & Yokoyama, A. Protocol for fractionation-assisted
+native ChIP (fanChIP) to capture protein-protein/DNA interactions
+on chromatin. STAR Protoc. 2, 100404 (2021).
+48. Martin, M. Cutadapt removes adapter sequences from highthroughput
+sequencing reads. EMBnet J. 17, 10–12 (2011).
+49. Li, H. & Durbin, R. Fast and accurate short read alignment with
+Burrows-Wheeler transform. Bioinformatics 25, 1754–1760 (2009).
+50. Shen, L., Shao, N., Liu, X. & Nestler, E. ngs.plot: Quick mining and
+visualization of next-generation sequencing data by integrating
+genomic databases. BMC Genomics 15, 284 (2014).
+51. Morita, S., Kojima, T. & Kitamura, T. Plat-E: an efficient and stable
+system for transient packaging of retroviruses. Gene Ther. 7,
+1063–1066 (2000).
+52. Okuda,H. & Yokoyama, A. Myeloid progenitor transformation assay.
+Bio-Protoc. 7, e2626 (2017).
+53. Klein, B. J. et al. The histone-H3K4-specific demethylase KDM5B
+binds to its substrate and product through distinct PHD fingers. Cell
+Rep. 6, 325–335 (2014).
+54. Vranken, W. F. et al. The CCPN data model for NMR spectroscopy:
+development of a software pipeline. Proteins 59, 687–696 (2005).
+55. Schwieters, C. D., Kuszewski, J. J., Tjandra, N. & Clore, G.M. The
+Xplor-NIH NMR molecular structure determination package. J.
+Magn. Reson. 160, 65–73 (2003).
+56. Tencer, A. H. et al. Covalentmodifications of histone H3K9 promote
+binding of CHD3. Cell Rep. 21, 455–466 (2017).
+57. Mastronarde, D. N. Automated electron microscope tomography
+using robust prediction of specimenmovements. J. Struct. Biol. 152,
+36–51 (2005).
+58. Punjani, A., Rubinstein, J. L., Fleet, D. J. & Brubaker, M. A. cryoSPARC:
+algorithms for rapid unsupervised cryo-EM structure determination.
+Nat. Methods 14, 290–296 (2017).
+59. Klein, B. J. et al. Structural and biophysical characterization of the
+nucleosome-binding PZP domain. STAR Protoc. 2, 100479 (2021).
+60. Galloy, M. et al. Approaches to study native chromatin-modifying
+complex activities and functions. Front. Cell Dev. Biol. 9,
+729338 (2021).
+Acknowledgements
+We thank Tina Holt, Hagumu Sato, Ikuko Yokoyama, Kanae Ito, Etsuko
+Kanai, and Ayako Yokoyama for technical assistance, members of the
+Shonai Regional Industry Promotion Center for their administrative
+support, Stephen Gisselbrecht for discussion, and Dan Shi of the NCIFrederick
+cryo-EM Facility for help with cryo-EM data collection. This
+work utilized the computational resources of the NIH HPC Biowulf
+cluster [http://hpc.nih.gov]. This work was supported in part by grants
+from the NIH: HL151334, GM135671, GM125195, CA252707, and
+AG067664 to T.G.K., GM131626 and GM139564 to M.G.P., and
+HG010501 to M.L.B., from the Japan Society for the Promotion of Science
+(JSPS) KAKENHI grants (19H03694, 22H03109 and 22KK0119) to
+A.Y., from the Canadian Institutes of Health Research (CIHR) (FDN-
+143314) to J.C. and from a Natural Sciences and Engineering Research
+Council of Canada (RGPIN-2016-05844) to A.F.T. M.G. is supported by a
+doctoral fellowship from the Fonds de Recherche du Québec - Santé
+(FRQS). This work was also supported in part by research funds from the
+Yamagata prefectural government and the city of Tsuruoka. B-R.Z. and
+Y.B. are supported by the intramural research program of the National
+Cancer Institute, NIH. The content is solely the responsibility of the
+authors and does not necessarily represent the official views of the NIH.
+Author contributions
+D.C.B., B.J.K., A.K., S.M.J., K.L.C., B-R.Z., S.K.P., Y.Z., R-W.C., C.C.E., C.L.,
+and M.G. performed experiments and together with A.F.T., M.L.B., Y.B.,
+M.G.P., J.C., A.Y., and T.G.K. analyzed the data. A.Y. and T.G.K. wrote the
+manuscript with input from all authors.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-023-36368-5.
+Correspondence and requests for materials should be addressed to
+Jacques Côté, Akihiko Yokoyama or Tatiana G. Kutateladze.
+Peer review information Nature Communications thanks the other
+anonymous reviewer(s) for their contribution to the peer review of this
+work. Peer reviewer reports are available.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional
+claims in published maps and institutional affiliations.
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 19
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons license and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this license, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2023
+Article https://doi.org/10.1038/s41467-023-36368-5
+Nature Communications | ( 2023)1 4:697 20
+© The Author(s) 2023. This work is published under
+http://creativecommons.org/licenses/by/4.0/(the “License”). Notwithstanding
+the ProQuest Terms and Conditions, you may use this content in accordance
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
 with the terms of the License.

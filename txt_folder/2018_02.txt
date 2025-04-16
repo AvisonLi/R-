@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Physica A 505 (2018) 490–499
 Contents lists available at ScienceDirect
 Physica A
@@ -569,4 +570,577 @@ Statist. 33 (1) (2015) 1–9.
 41–66.
 [31] C. Christiansen, Volatility-spillover effects in European bond markets, Eur. Financ. Manag. 13 (5) (2007) 923–948.
 [32] L. Baele, Volatility spillover effects in European equity markets, J. Financ. Quant. Anal. 40 (2) (2005) 373–401.
+=======
+Physica A 505 (2018) 490–499
+Contents lists available at ScienceDirect
+Physica A
+journal homepage: www.elsevier.com/locate/physa
+How does stock market volatility react to NVIX? Evidence
+from developed countries✩
+Libing Fang, Yichuo Qian, Ying Chen, Honghai Yu *
+School of Management and Engineering, Nanjing University, Nanjing, China
+h i g h l i g h t s
+• We use a new measure called news implied volatility (NVIX) to measure uncertainty.
+• Our analysis is based on a GARCH–MIDAS model.
+• Higher NVIX leads to increases in developed stock market volatility.
+• Incorporating NVIX can improve forecasts from GARCH–MIDAS model.
+a r t i c l e i n f o
+Article history:
+Received 21 December 2017
+Received in revised form 23 February 2018
+Available online 7 April 2018
+Keywords:
+News-based implied volatility
+Uncertainty
+Stock market volatility
+GARCH–MIDAS
+a b s t r a c t
+This paper investigates the role of news implied volatility (NVIX), a measure of uncertainty,
+in long-term stock market volatility in developed markets. The results showed that NVIX
+has a positive and significant impact on stock market variances in the full sample period
+using the GARCH–MIDAS model. Furthermore, out-of-sample forecasting results showed
+that including NVIX generally improves forecasting performance; that is, the GARCH–
+MIDAS model, with the long-term component driven by realized volatility (RV) and NVIX,
+outperforms those with only RV in terms of forecasting performance.
+© 2018 Elsevier B.V. All rights reserved.
+1. Introduction
+The impact of uncertainty is intuitively appealing in financial asset pricing among academics and practitioners [1].
+Despite its importance, the measurement of uncertainty is challenging due to the inherent difficulty of observing individuals’
+subjective magnitudes and the complexity of stock market [2]. Between the financial systems and the traders, there may
+be reciprocal ties, of irregular number and weight, which create a highly connected structure with the features of a
+complex network [3]. The existed literature has previously constructed various uncertainty indices, such as macroeconomic
+uncertainty [4], common volatility [5,6], and newspaper coverage frequency [7]. However, the literature only focuses on
+macroeconomic conditions, ignoring the vital roles of public media and investor attentions, which are more flexible and
+timely than economic data. Fortunately, a new measure of uncertainty called news implied volatility (NVIX) was proposed
+by Manela and Moreira [8]. It is a good proxy for the evolution of investors’ concerns regarding these topics. It has four useful
+features that allow us to further investigate the relation between uncertainty and stock market returns. First, it measures
+uncertainty from the perspective of investors’ concerns. It was constructed from the co-movement between the front-page
+✩ Weare grateful to the editors and anonymous reviewers for their helpful comments, which greatly improved the earlier draft. This work was supported
+by the National Science Foundation of China [grant numbers 71472085, 71401071, 71672081, 71771117 and 71720107001].
+* Correspondence to: #22 Hankou Road, Gulou District, Nanjing, 210093, China.
+E-mail address: hhyu@nju.edu.cn (H. Yu).
+https://doi.org/10.1016/j.physa.2018.03.039
+0378-4371/© 2018 Elsevier B.V. All rights reserved.
+L. Fang et al. / Physica A 505 (2018) 490–499 491
+coverage of the Wall Street Journal and options implied volatility (VIX). NVIX strongly focuses on investors’ concerns or
+attention to events. Second, the time-varying NVIX dates back to the last decade of the 19th century and includes some global
+events. We can directly test whether NVIX predicts economic disasters in stock markets. Third, there are five categories of
+NVIX that are plausibly related, in varying degrees, to disaster concerns and allow us to identify the kinds of risks that are
+important to investors. Fourth, it is estimated through machine learning techniques that uncover information from this rich
+and unique text data set [9]. The performance of NVIX is better and more stable that ordinary least squares (OLS) for outof-
+sample predictions. It is widely recognized that uncertainties have significant influence on stock market volatilities [10–
+13]. US, the largest economy in the world, is the largest trade partner of developed countries, whose economic conditions
+are highly correlated with economic conditions of the countries. As stock prices do not depend on internal factors only
+to companies, but also the behavior of the global market, it is natural that markets suffer externalities, especially of the
+oscillations of the economies of developed countries [14]. Stock market volatility is strongly influenced by foreign factors
+when the stock markets are integrated [15], US uncertainty may have great predictive power for other developed countries.
+Therefore, we would like to provide more evidence of the relations between developed stock market volatility and NVIX.
+Our theoretical contribution to uncertainty and asset pricing is twofold. First, our results provide empirical evidence
+for the role of uncertainty in determining stock market volatility. We employed the GARCH–MIDAS model proposed by
+Engle et al. [16], which enables us to directly identify the effect of uncertainty on the secular component of stock market
+volatility. Second, we use NVIX as a proxy of uncertainty, which, being an index related to investor attention. On the other
+hand, previous studies involved research on uncertainty in fundamental levels. Thus, little evidence of uncertainty related
+to investor behaviors has been found. Actually, individual investors as one important kind of agents in the stock market,
+their decision may affect the movements of the market price and volatility [17]. We provide evidence on the positive and
+significant relationship between NVIX and stock market volatility.
+The paper proceeds as follows. Section 2 describes the methodology. Section 3 provides the data diagnostics. The empirical
+results are presented in Section 4, and Section 5 concludes our study.
+2. Methodology
+2.1. GARCH–MIDAS model
+To investigate the effects of macroeconomic uncertainty on long-run stock market volatility, we use the GARCH–MIDAS
+model of Engle et al. [16].Weallow the long-run variance to depend on the lagged NVIX and a MIDAS polynomial that applies
+to monthly NVIX. We refer to gi,t and τt as the short- and long-run variance components, respectively. While the transitory
+volatility component changes with daily frequency, i, and the long-run component changes with monthly frequency, t. We
+denote N(t) as the number of days in month t. N(t) is incorporated into model as RVt , the realized volatility, which is the
+sum of squared daily returns of N(t) days in month t. The GARCH–MIDAS model is specified as follows:
+ri,t = μ +
+√
+τt · gi,tξi,t (1)
+where short-run component, gi,t , follows a GARCH (1,1) process,
+gi,t = (1 − α − β) + α
+(ri−1,t − μ)2
+τt
++ βgi−1,t (2)
+with α > 0 and β > 0, α + β < 1.
+The daily realized volatility (RV) is equal to the sum of the squared intraday returns over a given day, and thus, uses
+intraday information to define an aggregated daily volatility measure. The method is based on the notion of realized volatility,
+which was introduced in the literature by Taylor and Xu [18] and Andersen and Bollerslev [19]. Then, we specify the longterm
+component, τt by smoothing RV in the spirit of MIDAS regression and MIDAS filtering. we get
+log(τt ) = m + θ
+ΣK
+k=1
+ϕk(ωRV
+1 , ωRV
+2 )RVt−k
+RVt =
+ΣN(t)
+i=1
+r2
+i,t
+(3)
+where K is the number of periods over which we smooth volatility. To study the impact of NVIX on the return variance, we
+further modify Eq. (3) by involving NVIX along with RV,
+log(τt ) = m + θRV
+ΣK
+k=1
+ϕk(ωRV
+1
+, ωRV
+2 )RVt−k + θNVIX
+ΣK
+k=1
+ϕk(ωNVIX
+1
+, ωNVIX
+2 )XNVIX
+t−k (4)
+where XNVIX
+t−k represents the change of NVIX, which is denoted as log differences of NVIX. The weighting scheme in
+specifications (3) and (4) comprises so-called beta weights, and is defined as
+ϕk(ωX
+1 , ωX
+2 ) =
+(k/K)ωX
+1 −1 · (1 − k/K)ωX
+2 −1
+ΣKj
+=1(j/K)ωX
+1 −1 · (1 − j/K)ωX
+2 −1
+492 L. Fang et al. / Physica A 505 (2018) 490–499
+where X refers to a specific GARCH–MIDAS-X model. Following Engle et al. [16], we fix the weight ωX
+2 as one, which makes
+the weights monotonically decreasing over the lags; then, we obtain
+ϕk(ωX
+2 ) =
+(1 − k/K)ωX
+2 −1
+ΣKj
+=1(1 − j/K)ωX
+2 −1
+, ∀k = 1, . . . , K.
+Eqs. (1) through (3) and (5) form a GARCH–MIDAS model for time-varying conditional variance with fixed time span RVs
+and parameter space, given byΘ =
+{
+μ, α, β,m, θ, ωRV
+2
+}
+. Eqs. (1) through (5) form a GARCH–MIDAS model with RV+NVIX
+and parameter space, Θ = {μ, α, β,m, θRV , θNVIX , ωRV
+2 , ωNVIX
+2 }.
+Finally, the total conditional variance is defined as follows:
+σ2
+i,t = τt · gi,t . (5)
+2.2. Estimation of models
+We follow Engle et al. [16] and take the conventional approach to estimate GARCH-type models. The parameters are
+estimated by Quasi-maximum likelihood estimation (QMLE). It is proved that the innovation of the returns is asymptotically
+consistent and the asymptotic standard errors can be estimated consistently under the assumption of conditional normality,
+even though the true density could be of some other type. Robust standard errors and the outer product of gradients (OPG)
+estimate are used when estimating covariance matrix through maximum likelihood. Similar to Asgharian et al. [20], we use
+two different model specifications. The models differ with respect to the definition of the long-term variance component,
+τt , while Eqs. (2) and (5) for short-term variance, gi,t , remain the same.
+The realized volatility is a good measure of the volatility of the long-term component [21]. To compare the effect of RV
+and NVIX on the long-term component of the variance, and following prior literature [12,16,22], we use only RV, defined
+by the MIDAS model in Eq. (3), in the long-term component of the variance as a benchmark model. The specification
+employs monthly RV as an explanatory variable; it is labeled as GARCH–MIDAS with RV. We progress by focusing on an
+empirical measure of daily return variability called realized volatility, which is easily computed from high-frequency intraperiod
+returns. The theory of quadratic variation suggests that, under suitable conditions, realized volatility is an unbiased
+and highly efficient estimator of return volatility, as discussed in [23] (hereafter, ABDL), as well as in concurrent work
+by Barndorff-Nielsen and Shephard, Barndorff-Nielsen and Shephard [24,25]. In addition, to formally investigate whether
+the NVIX variables have additional explanatory power over RV, we modify the long-term component by simultaneously
+including RV and a macro variable, XNVIX
+t−k . This modification is supposed to capture the information explained by both the
+NVIX and RV. We refer to this model as GARCH–MIDAS with RV+NVIX. In line with our previous findings, we set ωX
+1 = 1,
+and estimate weighting schemes for RV and NVIX.
+2.3. Forecasting performance
+One of the commonly cited arguments for using a wide array of forecast error statistics is that there is no consensus on
+using a single loss function that is most appropriate for the evaluation of volatility models [26]. Thus, to evaluate the variance
+prediction of a specific model, we employ alternative measures of forecast accuracy to six loss functions, root mean squared
+prediction error, and root mean absolute error for conditional variance (RMSE and RMAE, respectively), and for standard
+deviation (RMSD and RMAD, respectively), along with MMEO and MMEU, as follows:
+RMSE =
+√
+1
+T
+ΣT
+i=1
+(σ2
+i+1 − Ei(σ2
+i+1))2 (6)
+RMAE =
+√
+1
+T
+ΣT
+i=1
+⏐⏐
+σ2
+i+1 − Ei(σ2
+i+1)
+⏐⏐
+(7)
+RMSD =
+√
+1
+T
+ΣT
+i=1
+(σi+1 − Ei(σi+1))2 (8)
+RMAD =
+√
+1
+T
+ΣT
+i=1
+|σi+1 − Ei(σi+1)| (9)
+L. Fang et al. / Physica A 505 (2018) 490–499 493
+Table 1
+Descriptive statistics for stock market returns and NVIX index.
+Obs Mean Max Min SD ADF PP AC(1)
+US 4589 0.02 10.96 −9.47 1.26 −52.23*** −73.58*** −0.07***
+UK 4597 0.00 9.38 −9.27 1.23 −31.77*** −70.60*** −0.03*
+Germany 4415 0.02 10.80 −11.83 1.59 −69.30*** −67.40*** −0.02
+France 4415 0.01 12.77 −11.48 1.55 −32.52*** −69.32*** −0.03**
+Italy 4628 −0.01 10.87 −8.60 1.58 −69.08*** −69.10*** −0.02
+Canada 4587 0.02 9.37 −9.79 1.15 −67.74*** −67.86*** 0.00
+Japan 4481 0.00 13.23 −12.11 1.55 −69.43*** −69.60*** −0.04**
+NVIX 219 25.93 57.90 13.62 6.88 −3.03** −3.80*** 0.85***
+Note: The reported statistics include the number of observations (Obs), minimum (Min) and maximum (Max), mean, standard deviation (SD), Augmented
+Dickey–Fuller (ADF) and Phillips–Perron (PP). The last column (AC[1]) shows the first-order autocorrelation coefficient.
+* Indicate significance at the 10% level.
+** Indicate significance at the 5% level.
+*** Indicate significance at the 1% level.
+MMEO =
+1
+T
+[
+Σ
+i∈U
+|σ2
+i+1 − Ei(σ2
+i+1)| +
+Σ
+i∈O
+√
+|σ2
+i+1 − Ei(σ2
+i+1)|
+]
+(10)
+MMEU =
+1
+T
+[
+Σ
+i∈O
+|σ2
+i+1 − Ei(σ2
+i+1)| +
+Σ
+i∈U
+√
+|σ2
+i+1 − Ei(σ2
+i+1)|
+]
+(11)
+where σ2
+i+1 is actual RV on day i + 1 and Ei(σ2
+i+1) is the forecast of RV, where σ2
+i+1 follows Eq. (6). U is the index set
+U = {i : Ei(σ2
+i+1) > σ2
+i+1}; O is the index set O = {i : Ei(σ2
+i+1) ≤ σ2
+i+1}; and T is the number of forecasts. The volatility proxy –
+Realized Volatility – we use in implementing the loss functions is the realized quadratic variation, and can be written as
+RVt=
+ΣNt
+i=1
+r2
+i,t . (12)
+Patton [27] showed that when using squared returns as a volatility proxy, as we do in our paper, some of the loss functions
+are, in fact, not robust. Thus, we further use DM test proposed by Diebold and Mariano [28] to compare the prediction
+accuracy of the two competing models. They propose and evaluate explicit tests for the null hypothesis of no difference
+in the accuracy of two competing forecasts. In contrast to previously developed tests, a wide variety of accuracy measures
+called the DM test can be used when comparing models. Next, we show the many advantages of the DM test. As Diebold and
+Mariano [28] show, the DM test has general applicability, when the forecast errors of models can be non-Gaussian, nonzero
+mean, serially correlated, and contemporaneously correlated. Further, the framework is obvious and extremely simple. Most
+importantly, DM test is applicable under a very wide variety of models and loss structures [29].
+3. Data
+In this study, we investigate the role ofmonthly NVIX on daily stock market volatility. We obtain G7 stock market indices
+from Bloomberg as proxies for developed markets, including the S&P index for the US, FTSE index for the UK, CAC index
+for France, DAX index for Germany, FTSEMIB index for Italy, TSX index for Canada, and Nikkei index for Japan. The monthly
+NVIX is a text-based uncertainty constructed by Manela and Moreira [8].1 The sample period spans from the first trading day
+of January 1998 to the last trading day of March 2016 through our manuscript. Since the trading days of different markets
+differ, the observations are different among different countries.
+Table 1 reports the summary statistics of daily returns of G7 stock markets, along with the NVIX index. According to unit
+root tests, such as the Augment Dickey–Fuller (ADF) and Phillips–Perron (PP) test, the calculated statistics for the daily return
+of G7 stock markets and NVIX index are much less than their critical values, indicating that all the variables are stationary. All
+the variables are stationary according to unit root test. Meanwhile, the movements of monthly NVIX index data are displayed
+in Fig. 1. We observe that NVIX is highly volatile; it shows peaks around the recession periods.
+4. Empirical results
+In this section, we cover the estimation of GARCH–MIDAS volatility models for the whole sample period. Then, we
+consider the return predictability for the GARCH–MIDAS model with RV + NVIX.
+1 NVIX data is available at http://apps.olin.wustl.edu/faculty/manela/data.html.
+494 L. Fang et al. / Physica A 505 (2018) 490–499
+Fig. 1. Monthly news-based implied volatility index data. Note: This figure plots the monthly NVIX index from January 1998 to March 2016.
+4.1. Impact of NVIX on the stock market volatility for the full sample
+To evaluate the extent to which volatility is related to NVIX, we include NVIX in the GARCH–MIDAS model. Since RV
+is fairly persistent, we include lags of stock market volatility in the model. Table 2 presents the use of full-sample QMLE
+parameter estimates of the GARCH–MIDAS models with RV and RV + NVIX.
+Before parameter estimation of GARCH–MIDAS models, we need to determine the lag length of RV and NVIX. Based on
+previous literature,weassume that 12 is an appropriate lag length for all variables [12,16]. In addition,wecalculate the values
+of log-likelihood function (LLF), Akaike information criterion (AIC), and Bayesian information criterion (BIC) for different lag
+lengths and find that their values are minimum for a lag length of 12.
+First, we note that the results in the table show that almost all parameters are significant. Another interesting feature of
+the GARCH–MIDAS model in Table 2 is that the sums of α and β are noticeably less than 1. Though the sum in a standard
+GARCH model is typically 1, our results are still within the stationarity boundary, α + β < 1, so the difference will
+not influence the results and conclusions, which remain accurate and reliable. This finding is similar to Engle and Rangel
+[22], where the sum of mean values of these two parameters is significantly smaller than 1, which indicates that in all
+specifications the short-term volatility component mean-reverts to the long-term trend. The estimated α represents the
+effect of the past innovation on the conditional volatility and the estimated β represents the volatility persistence effect. All
+the estimated α > 0 in Table 2 indicates that the past innovation has positive impacts on the volatility. All the estimated
+β < 1 indicates that the log returns of different markets have limited variance and the time series has weak stationarity,
+and thus, there are obvious volatility clustering and persistence effects in all the G7 markets.
+Next, we take a closer look at the estimates of the long-run component, τt . The sign of θRV indicates the response of
+long-run volatility to RVs. The parameter estimates of θNVIX for NVIX range from 0.824 for Canada to 1.752 for the UK. Hence,
+in all cases, the parameters are positive and statistically significant, implying that a higher NVIX would bring higher longterm
+volatilities, and thus, NVIX could better anticipate long-term volatility in G7 markets. The results mainly reflect that
+uncertainty for the US may be ‘‘bad news’’ for developed countries, leading to higher stock volatility.
+To assess the economic information content and find out how much of the variation in the expected quarterly variance of
+a specific GARCH–MIDAS-X model can be attributed to the variation in NVIX, we provide the value of the variance ratio (VR)
+statistic proposed by Lo and MacKinlay [30] for each model. By comparing variance estimators derived from data sampled at
+different frequencies, they rejected the random walk hypothesis for weekly stock market returns. In general, we define VR as
+the fraction of the sample variance of the log of total quarterly conditional volatility, var(log(τ X
+t gX
+t )), which can be explained
+by the sample variance of the log long-term component, var(log(τ X
+t )), as follows,
+VR(X) =
+var(log(τ X
+t ))
+var(log(τ X
+t gX
+t ))
+(13)
+where X refers to a specific GARCH–MIDAS-X model. The VR we defined here relates the sample variance of the log of the
+long-term component of a specific GARCH–MIDAS-X model to the sample variance of the log of the total expected variance
+of the baseline GARCH–MIDAS-RV model with restricted filter [12]. The VR estimates indicate that the long-run volatility
+of the MIDAS model with RV + NVIX contributes substantially more than the long-run volatility of the MIDAS model with
+L. Fang et al. / Physica A 505 (2018) 490–499 495
+Table 2
+Parameter estimates of GARCH–MIDAS models for the whole sample period.
+Markets Model μ α β θRV θNVIX ωRV ωNVIX mv
+US
+RV 0.048*** 0.095*** 0.887*** 0.007*** 1.003*** 0.049
+(0.014) (0.007) (0.009) (0.002) (0.063) (0.165)
+RV + NVIX 0.047*** 0.093*** 0.877*** 0.011*** 1.545*** 1.001*** 1.575*** −0.166
+(0.014) (0.008) (0.011) (0.002) (0.365) (0.043) (0.348) (0.106)
+UK
+RV 0.034*** 0.123*** 0.848*** 0.014*** 1.849*** −0.163
+(0.013) (0.010) (0.012) (0.002) (0.585) (0.140)
+RV + NVIX 0.032** 0.117*** 0.845*** 0.012*** 1.752*** 1.001*** 1.343*** −0.194*
+(0.013) (0.010) (0.013) (0.002) (0.326) (0.039) (0.219) (0.111)
+Germany
+RV 0.059*** 0.104*** 0.873*** 0.008*** 1.531*** 0.441***
+(0.018) (0.006) (0.009) (0.002) (0.587) (0.148)
+RV + NVIX 0.056*** 0.097*** 0.867*** 0.009*** 1.664*** 1.001*** 1.470*** 0.268***
+(0.018) (0.006) (0.010) (0.001) (0.248) (0.031) (0.267) (0.097)
+France
+RV 0.076*** 0.094*** 0.886*** 0.008*** 1.495** 0.458***
+(0.018) (0.007) (0.011) (0.002) (0.641) (0.176)
+RV + NVIX 0.072*** 0.087*** 0.886*** 0.009*** 1.502*** 1.001*** 1.235*** 0.284**
+(0.018) (0.008) (0.011) (0.002) (0.220) (0.029) (0.241) (0.125)
+Italy
+RV 0.035** 0.099*** 0.893*** 0.009*** 1.001*** 0.809**
+(0.017) (0.007) (0.008) (0.003) (0.033) (0.365)
+RV + NVIX 0.033* 0.093*** 0.881*** 0.013*** 1.613*** 1.007*** 1.843*** 0.057
+(0.017) (0.007) (0.010) (0.002) (0.294) (0.029) (0.410) (0.137)
+Canada
+RV 0.046*** 0.082*** 0.906*** 0.009*** 1.007*** −0.104
+(0.013) (0.006) (0.007) (0.004) (0.066) (0.216)
+RV + NVIX 0.047*** 0.082*** 0.901*** 0.011*** 0.824** 1.001*** 1.265*** −0.266*
+(0.013) (0.006) (0.008) (0.003) (0.351) (0.047) (0.461) (0.149)
+Japan
+RV 0.053*** 0.110*** 0.865*** 0.003 1.070 0.735***
+(0.019) (0.008) (0.011) (0.002) (0.722) (0.171)
+RV + NVIX 0.052*** 0.106*** 0.861*** 0.004** 1.146*** 1.032*** 1.421*** 0.608***
+(0.019) (0.008) (0.011) (0.002) (0.311) (0.168) (0.363) (0.131)
+Note: The table reports the estimates of GARCH–MIDAS coefficients via QMLE for G7 countries for the full sample. The sample covers the period from
+January 1998 to March 2016. Robust standard errors and OPG estimate are used when estimating covariance matrix in the maximum likelihood. The values
+in parentheses are standard deviations.
+* Indicate significance at the 10% level.
+** Indicate significance at the 5% level.
+*** Indicate significance at the 1% level.
+RV. The results in Table 3 suggest that NVIX carries information about long-term volatility that is complementary to that
+contained in realized volatility. There is also extensive literature applying the variance ratio test to support their idea. Engle
+et al. [16] computed the ratio to measure how much of the expected volatility can be explained by economic variables.
+Christiansen [31] and Baele [32] obtained a measure of the impact of global, regional, and local volatility-spillover effects on
+the local variance from VR. Bastos and Caiado [33] employed variance ratio tests of the random walk hypothesis to investigate
+the interdependence of global equity markets in terms of index return predictability. In addition, the finding suggests that,
+among all the stock markets, Italy has the most important long-run component contribution – approximately 44% – during
+the full sample period. In addition, we observe that the levels of likelihood, the AIC, and BIC of the GARCH–MIDAS model
+with RV + NVIX are extremely close to those in the model with RV. The results of the loss functions are not all consistent;
+thus, we cannot identify which model performs better. We appraise the forecast performance of RV and RV+NVIX models in
+Section 4.2, wherein we revisit this issue.
+The variances and long-run volatilities for the GARCH–MIDAS models are plotted in Fig. 2. As expected, the two
+components of the models follow a similar trend, although the long-run correlation is smoother. In addition, Fig. 2 implies
+a very interesting cyclical pattern in the evolution of long-run volatility. During recession periods, the high NVIX indicates
+a volatile macroeconomic policy environment, which dampened investors’ confidence. It further caused the synchronously
+steep fall in the stock markets. In addition, we notice that the MIDAS models with RV and NVIX provide a better fit than
+those with RV.
+4.2. Out-of-sample prediction
+The extensive literature on volatility predictability shows that, although the in-sample analysis provides more efficient
+parameter estimates, out-of-sample tests seem to be a more relevant standard for assessing genuine predictability in real
+time. This is because they implicitly examine the stability of the data-generating process, and guard against in-sample overfitting
+[10,15].
+496 L. Fang et al. / Physica A 505 (2018) 490–499
+Table 3
+In-sample evaluation of GARCH–MIDAS models.
+Markets Model AIC BIC LLF VR RMSE RMAE RMSD RMAD
+US RV 12 468 12 506 −6228 0.097 4.313 1.283 0.856 0.805
+RV+NVIX 12 457 12 509 −6221 0.353 4.290 1.285 0.857 0.804
+UK RV 12 454 12 493 −6221 0.252 3.827 1.263 0.838 0.796
+RV+NVIX 12 440 12 491 −6212 0.393 3.846 1.264 0.839 0.795
+Germany RV 14 064 14 102 −7026 0.172 6.443 1.608 1.098 0.910
+RV+NVIX 14 046 14 098 −7015 0.357 6.535 1.609 1.099 0.908
+France RV 14 226 14 264 −7107 0.171 6.353 1.643 1.114 0.925
+RV+NVIX 14 214 14 265 −7099 0.320 6.389 1.644 1.115 0.924
+Italy RV 14 760 14 798 −7374 0.128 5.526 1.621 1.074 0.911
+RV+NVIX 14 736 14 787 −7360 0.440 5.594 1.613 1.071 0.904
+Canada RV 11 586 11 625 −5787 0.131 3.810 1.171 0.783 0.759
+RV+NVIX 11 586 11 637 −5785 0.260 3.818 1.171 0.783 0.758
+Japan RV 14 672 14 711 −7330 0.029 6.011 1.582 1.058 0.910
+RV+NVIX 14 668 14 719 −7326 0.198 6.098 1.589 1.061 0.910
+Note: The table reports the in-sample evaluation of GARCH–MIDAS coefficients via QMLE for G7 countries for the full sample. The sample covers January
+1998 to March 2016. AIC is the Akaike information criterion and BIC the Bayesian information criterion. LLF is the log-likelihood function and VR(X) denotes
+the variance ratio statistic (see Eq. (13). RMSE, RMAE, RMSD, and RMAD are all loss functions to evaluate the estimated volatility for the full sample.
+Table 4
+Comparisons of the out-of-sample prediction errors for the stock market volatility.
+Markets Model RMSE RMAE RMSD RMAD MMEO MMEU
+US RV 6.493 1.468 1.001 0.844 28.299 28.109
+RV+NVIX 5.628 1.415 0.932 0.819 23.912 23.963
+UK RV 4.729 1.356 0.904 0.823 19.764 19.838
+RV+NVIX 4.712 1.344 0.897 0.813 18.986 19.058
+Germany RV 7.011 1.719 1.179 0.940 40.091 40.039
+RV+NVIX 6.652 1.670 1.113 0.913 37.013 37.121
+France RV 6.721 1.665 1.145 0.931 38.745 38.770
+RV+NVIX 6.557 1.619 1.093 0.905 37.212 37.414
+Italy RV 8.247 1.939 1.308 0.998 40.525 40.133
+RV+NVIX 6.619 1.862 1.213 0.972 32.782 32.715
+Canada RV 4.800 1.277 0.850 0.781 19.747 19.872
+RV+NVIX 4.746 1.261 0.828 0.762 19.291 19.401
+Japan RV 9.839 1.877 1.273 0.961 51.899 51.441
+RV+NVIX 7.633 1.708 1.122 0.915 46.552 46.724
+Note: The table shows the loss functions of the different models in predicting G7 stock market volatilities. We use two alternative specifications in the
+GARCH–MIDAS equation, RV model, and RV + NVIX model. The out-of-sample forecasts cover the period from January 2008 to March 2016.
+In this sub-section, we analyze the ability of the GARCH–MIDAS model to forecast variances. Given that the parameters
+of the GARCH–MIDAS model may be time-varying, we use a 21-day rolling window to undertake out-of-sample variance
+prediction. Our out-of-sample forecast covers the period from January 2008 to March 2016. The initial estimation period
+is January 1998 to December 2007, and we use the estimated parameters for this period to forecast variances of the first
+21 days in the out-of-sample period. Then, we incorporate the 21 days into the estimation period, and use the estimated
+parameters for the new estimation period to forecast variances of the second 21 days in the out-of-sample period. By letting
+the window roll forward, we can obtain all the forecasts of variances in the out-of-sample period.
+Since GARCH volatility is commonly used in the literature on volatility forecasting, we investigate whether the NVIX
+variable can improve the performance of the GARCH–MIDAS model. As Table 4 shows, the stock market volatility forecast
+based on the MIDAS models with RV and NVIX produces substantially smaller function values than the forecast based on
+the GARCH–MIDAS model with RV in all the loss functions. Furthermore, we present the results of the DM tests for outof-
+sample performance of different models in Table 5. In comparison with the RV model, the RV + NVIX models for most
+of the loss functions generate positive DM statistics, which are statistically significant and economically large. Hence, our
+out-of-sample analysis shows that adding NVIX information to the long-term variance component of the GARCH–MIDAS
+model significantly improves the prediction ability of the model.
+5. Conclusion
+In this paper, we investigated the impact of NVIX on the stock market volatilities in developed markets by employing a
+GARCH–MIDAS model. NVIX is a news-based implied volatility index proposed by Manela and Moreira [8] that measures
+L. Fang et al. / Physica A 505 (2018) 490–499 497
+Fig. 2. Variances and long-run volatilities for MIDAS models. Note: This figure plots the variances and long-term volatilities of G7 stock markets estimated
+by the GARCH–MIDAS model. The MIDAS equation includes only RV (RV model), as well as RV and NVIX (RV + NVIX model). The sample period spans from
+January 1998 to March 2016.
+498 L. Fang et al. / Physica A 505 (2018) 490–499
+Table 5
+DM tests of out-of-sample prediction errors for stock market volatility.
+Markets RMSE RMAE RMSD RMAD MMEO MMEU
+US −0.864* −0.053** −0.069** −0.025*** −4.387 −4.146**
+(−1.803) (−2.037) (−2.459) (−5.088) (−0.655) (−2.449)
+UK −0.017 −0.013** −0.008 −0.010*** −0.778*** −0.780
+(−0.335) (−2.164) (−1.279) (−4.235) (−3.605) (−1.327)
+Germany −0.359** −0.049*** −0.066*** −0.026*** −3.079*** −2.919***
+(−2.326) (−4.219) (−4.953) (−5.560) (−2.826) (−4.389)
+France −0.164 −0.046*** −0.052*** −0.026*** −1.533** −1.356***
+(−1.330) (−4.755) (−5.063) (−5.481) (−2.099) (−7.437)
+Italy −1.628*** −0.077*** −0.095*** −0.026*** −7.744 −7.419***
+(−2.665) (−3.024) (−3.412) (−4.889) (−1.058) (−3.238)
+Canada −0.054 −0.016 −0.022* −0.019*** −0.456*** −0.471
+(−0.506) (−1.383) (−1.762) (−4.658) (−3.388) (0.002)
+Japan −2.207*** −0.169*** −0.150*** −0.046*** −5.346*** −4.717***
+(−2.868) (−4.809) (−4.554) (−6.991) (−3.237) (−4.606)
+Note: The table presents the results of DM tests for out-of-sample performance of the different models in predicting G7 stock market volatilities. The
+out-of-sample forecasts cover the period from January 2008 to March 2016. The models in each column all represent the value by subtracting the loss
+functions of RV model with function values of the RV + NVIX model for each stock market. Numbers in parentheses are t values of the DM test.
+* Indicate significance at the 10% level, according to the DM test.
+** Indicate significance at the 5%, level, according to the DM test.
+*** Indicate significance at the 1% level, according to the DM test.
+uncertainty and disaster concerns. Our empirical results showed that NVIX has a positive and significant influence on the
+volatility of all the G7 stock markets, especially for the long-run component. Furthermore, out-of-sample tests showed that
+the GARCH–MIDAS model with RV and NVIX outperforms the model with RV. NVIX significantly improve the prediction of
+volatilities for the developed markets. The results have implications for market participants, as well as policymakers. First,
+this finding implies that when news and investor confidence in US changes, the stock markets in other G7 countries may
+experience fluctuations in the future. This confirms the spillover effects of US uncertainty on other developed stock markets.
+Therefore, investors in developed markets should pay more attention to the US, which is the main driver of uncertainty and
+a key factor in determining market volatilities. With increased efficiency after the financial crisis in 2007–2009, investors
+should be aware of the important role of NVIX in asset allocation. They should be careful of the increased volatility of stock
+markets in developed countries in periods of uncertainty and can probably consider NVIX to avoid investment risk through
+derivatives trading and policy making. Second, our empirical evidence shows that various stock markets in developed
+countries will be influenced more or less by the shocks from the US. Policymakers and financial institutions should pay
+more attention to the information contained in news related to the US and investors’ concern to decrease the volatility of
+markets and manage risk.
+References
+[1] P.R. Kaltwasser, Uncertainty about fundamentals and herding behavior in the FOREX market, Physica A 389 (6) (2010) 1215–1222.
+[2] J. Abel, R. Rich, J. Song, J. Tracy, The measurement and behavior of uncertainty: evidence from the ECB Survey of Professional Forecasters, J. Appl.
+Econometrics 31 (3) (2016) 533–550.
+[3] L. Xia, D. You, X. Jiang, Q. Guo, Comparison between global financial crisis and local stock disaster on top of Chinese stock network, Physica A 490
+(2018) 222–230.
+[4] T.G. Bali, S.J. Brown, Y. Tang, Macroeconomic uncertainty and expected stock returns. Working Paper, 2014.
+[5] J. Strobel, On the different approaches of measuring uncertainty shocks, Econom. Lett. 134 (2015) 69–72.
+[6] K. Jurado, S.C. Ludvigson, S. Ng, Measuring uncertainty, Amer. Econ. Rev. 105 (3) (2015) 1177–1216.
+[7] S.R. Baker, N. Bloom, S.J. Davis, Measuring economic policy uncertainty, Q. J. Econ. 131 (2016) 1593–1636.
+[8] A. Manela, A. Moreira, News implied volatility and disaster concerns, J. Financ. Econ. 123 (1) (2017) 137–162.
+[9] Z. Su, T. Fang, L. Yin, The role of news-based implied volatility among US financial markets, Econom. Lett. (2017).
+[10] B.S. Paye, ‘Déjà vol’: Predictive regressions for aggregate stock market volatility using macroeconomic variables, J. Financ. Econ. 106 (3) (2012) 527–546.
+[11] L. Karnizova, J.C. Li, Economic policy uncertainty, financial markets and probability of US recessions, Econom. Lett. 125 (2) (2014) 261–265.
+[12] C. Conrad, K. Loch, Anticipating Long-Term Stock Market Volatility, J. Appl. Econometrics 30 (7) (2015) 1090–1114.
+[13] Z. Liu, Y. Ye, F. Ma, J. Liu, Can economic policy uncertainty help to forecast the volatility: A multifractal perspective, Physica A 482 (2017) 181–188.
+[14] H. Boubaker, S.A. Raza, On the dynamic dependence and asymmetric co-movement between the US and Central and Eastern European transition
+markets, Physica A 459 (2016) 9–23.
+[15] J. Chen, F. Jiang, H. Li, W. Xu, Chinese stock market volatility and the role of US economic variables, Pac.-Basin Financ. J. 39 (2016) 70–83.
+[16] R.F. Engle, E. Ghysels, B. Sohn, Stock market volatility and macroeconomic fundamentals, Rev. Econ. Stat. 95 (3) (2013) 776–797.
+[17] K. Guo, Y. Sun, X. Qian, Can investor sentiment be used to predict the stock price? Dynamic analysis based on China stock market, Physica A 469 (2017)
+390–396.
+[18] S.J. Taylor, X. Xu, The incremental volatility information in one million foreign exchange quotations, J. Empir. Finance 4 (4) (1997) 317–340.
+[19] T.G. Andersen, T. Bollerslev, Answering the skeptics: Yes, standard volatility models do provide accurate forecasts, Internat. Econom. Rev. (1998)
+885–905.
+L. Fang et al. / Physica A 505 (2018) 490–499 499
+[20] H. Asgharian, A.J. Hou, F. Javed, The importance of the macroeconomic variables in forecasting stock return variance: A GARCH–MIDAS approach, J.
+Forecast. 32 (7) (2013) 600–612.
+[21] T.G. Andersen, T. Bollerslev, F.X. Diebold, P. Labys, Modeling and forecasting realized volatility, Econometrica 71 (2) (2003) 579–625.
+[22] R.F. Engle, J.G. Rangel, The spline-GARCH model for low-frequency volatility and its global macroeconomic causes, Rev. Financ. Stud. 21 (3) (2008)
+1187–1222.
+[23] T.G. Andersen, T. Bollerslev, F.X. Diebold, P. Labys, The distribution of realized exchange rate volatility, J. Amer. Statist. Assoc. 96 (453) (2001) 42–55.
+[24] O.E. Barndorff-Nielsen, N. Shephard, Non-Gaussian Ornstein–Uhlenbeck-based models and some of their uses in financial economics, J. Roy. Statist.
+Soc.: Ser. B (Statist. Methodol.) 63 (2) (2001) 167–241.
+[25] O.E. Barndorff-Nielsen, N. Shephard, Econometric analysis of realized volatility and its use in estimating stochastic volatility models, J. Roy. Statist.
+Soc.: Ser. B (Statist. Methodol.) 64 (2) (2002) 253–280.
+[26] J.A. Lopez, Evaluating the predictive accuracy of volatility models, Forecast 20 (2001) 87–109.
+[27] A.J. Patton, Volatility forecast comparison using imperfect volatility proxies, J. Econometrics 160 (1) (2011) 246–256.
+[28] F.X. Diebold, R.S. Mariano, Comparing predictive accuracy, J. Bus. Econom. Statist. 20 (1) (2002) 134–144.
+[29] F.X. Diebold, Comparing predictive accuracy, twenty years later: A personal perspective on the use and abuse of Diebold–Mariano tests, J. Bus. Econom.
+Statist. 33 (1) (2015) 1–9.
+[30] A.W. Lo, A.C. MacKinlay, Stock market prices do not follow random walks: Evidence from a simple specification test, Rev. Financ. Stud. 1 (1) (1988)
+41–66.
+[31] C. Christiansen, Volatility-spillover effects in European bond markets, Eur. Financ. Manag. 13 (5) (2007) 923–948.
+[32] L. Baele, Volatility spillover effects in European equity markets, J. Financ. Quant. Anal. 40 (2) (2005) 373–401.
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
 [33] J.A. Bastos, J. Caiado, Clustering global equity markets with variance ratio tests. CEMAPRE Working paper 0904, 2009.

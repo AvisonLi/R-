@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Full length article
 Genipin cross-linked type II collagen/chondroitin sulfate composite
 hydrogel-like cell delivery system induces differentiation of adiposederived
@@ -1005,4 +1006,1013 @@ artificial nucleus pulposus, Biomacromolecules 18 (8) (2017) 2360–
 [72] J.C. Iatridis, M. Weidenbaum, L.A. Setton, V.C. Mow, Is the nucleus pulposus a
 solid or a fluid? Mechanical behaviors of the nucleus pulposus of the human
 intervertebral disc, Spine (Phila Pa 1976) 21 (10) (1996) 1174–1784.
+=======
+Full length article
+Genipin cross-linked type II collagen/chondroitin sulfate composite
+hydrogel-like cell delivery system induces differentiation of adiposederived
+stem cells and regenerates degenerated nucleus pulposus
+Xiaopeng Zhou a,b,1, Jingkai Wang a,b,1, Weijing Fang a,b,1, Yiqing Tao a,b, Tengfei Zhao a,b, Kaishun Xia a,b,
+Chengzhen Liang a,b, Jianming Hua c, Fangcai Li a,b, Qixin Chen a,b,⇑
+a Department of Orthopedics Surgery, 2nd Affiliated Hospital, School of Medicine, Zhejiang University, 88 Jiefang Road, Hangzhou 310009, Zhejiang, People’s Republic of China
+b Department of Orthopedics Research Institute of Zhejiang University, Hangzhou, Zhejiang, People’s Republic of China
+c Department of Radiology, 2nd Affiliated Hospital, School of Medicine, Zhejiang University, 88 Jiefang Road, Hangzhou 310009, Zhejiang, People’s Republic of China
+a r t i c l e i n f o
+Article history:
+Received 6 November 2017
+Received in revised form 1 March 2018
+Accepted 8 March 2018
+Available online 16 March 2018
+Keywords:
+Adipose-derived stem cells
+Nucleus pulposus
+Hydrogel-like cells delivery system
+Genipin
+Tissue engineering
+a b s t r a c t
+Nucleus pulposus (NP) degeneration is usually the origin of intervertebral disc degeneration and consequent
+lower back pain. Although adipose-derived stem cell (ADSC)-based therapy is regarded to be
+promising for the treatment of degenerated NP, there is a lack of viable cell carriers to transplant
+ADSCs into the NP while maintaining cell function. In this study, we developed a type II collagen/chondroitin
+sulfate (CS) composite hydrogel-like ADSC (CCSA) delivery system with genipin as the crosslinking
+agent. The induction effect of the scaffold on ADSC differentiation was studied in vitro, and a
+rat coccygeal vertebrae degeneration model was used to investigate the regenerative effect of the
+CCSA system on the degenerated NP in vivo. The results showed that the CCSA delivery system crosslinked
+with 0.02% genipin was biocompatible and promoted the expressions of NP-specific genes. After
+the injection of the CCSA system, the disc height, water content, extracellular matrix synthesis, and structure
+of the degenerated NP were partly restored. Our CCSA delivery system uses minimally invasive
+approaches to promote the regeneration of degenerated NP and provides an exciting new avenue for
+the treatment of degenerative disc disease.
+Statement of Significance
+Nucleus pulposus (NP) degeneration is usually the origin of intervertebral disc degeneration and consequent
+lower back pain. Stem cell-based tissue engineering is a promising method in NP regeneration, but
+there is a lack of viable cell carriers to transplant ADSCs into the NP while maintaining cell function. In
+this study, we developed a type II collagen/chondroitin sulfate (CS) composite hydrogel-like ADSC (CCSA)
+delivery system with genipin as the cross-linking agent. Although several research groups have studied
+the fabrication of injectable hydrogel with biological matrix, our study differs from other works. We
+chose type II collagen and CS, the two primary native components in the NP, as the main materials
+and combined them according to the natural ratio of collagen and sGAG in the NP. The delivery system
+is preloaded with ADSCs and can be injected into the NP with a needle, followed by in situ gelation.
+Genipin is used as a cross-linker to improve the bio-stability of the scaffold, with low cytotoxicity. We
+investigated the stimulatory effects of our scaffold on the differentiation of ADSCs in vitro and the regenerative
+effect of the CCSA delivery system on degenerated NP in vivo.
+ 2018 Acta Materialia Inc. Published by Elsevier Ltd. All rights reserved.
+1. Introduction
+Intervertebral disc (IVD) degeneration and consequent lower
+back pain affect approximately 80% of people at some point in their
+lives [1]. The IVD consists of three major components: the inner
+nucleus pulposus (NP), the outer annulus fibrosus, and cartilage
+https://doi.org/10.1016/j.actbio.2018.03.019
+1742-7061/ 2018 Acta Materialia Inc. Published by Elsevier Ltd. All rights reserved.
+⇑ Corresponding author.
+E-mail address: zrcqx@zju.edu.cn (Q. Chen).
+1 These authors contributed equally to this work.
+Acta Biomaterialia 71 (2018) 496–509
+Contents lists available at ScienceDirect
+Acta Biomaterialia
+journal homepage: www.elsevier.com/locate/actabiomat
+endplates [2]. The NP is a highly hydrophilic substance, which contributes
+to the flexibility of the spinal column and load-bearing
+capacity of the IVD [3]. The degeneration of NP caused by extracellular
+matrix (ECM) loss is thought to be the cause of IVD degeneration
+[4].
+Stem cell-based tissue engineering is a promising method for
+NP regeneration. Bio-scaffolds are essential to transplant stem cells
+into specific locations and create an appropriate microenvironment
+[5]. Scaffolds fabricated by synthetic polymers such as polylactic
+acid [6], polycaprolactone [7], and polyethylene glycol [8]
+have good mechanical properties, but have poor cell adhesion
+without surface modification. Additionally, the IVD is an avascular
+tissue and exchange of substances in this area is difficult [9]; thus,
+the synthetic polymers and their degradation products are not easy
+to remove. The accumulation of foreign substances may aggravate
+the suboptimal microenvironment in the IVD and reduce the pH
+and oxygen concentration, thereby inhibiting cell survival [10].
+The principle of a bio-scaffold is to emulate the biological environment
+of the local tissue [11], and from this point of view, the acellular
+NP scaffolds seem to be a good choice. However,
+decellularization can cause matrix loss and denaturation [12].
+Additionally, allogeneic NP tissues are difficult to obtain. These disadvantages
+limit the use of acellular NP scaffolds.
+The NP contains an amorphous matrix of highly hydrated proteoglycans
+embedded in a loose network of collagen [13]. Proteoglycans
+consist of a protein core modified by sulfated
+glycosaminoglycans (sGAG). Chondroitin sulfate (CS) is the most
+important sGAG in the NP and enables the NP to withstand substantial
+compressive loads by attracting water [14,15]. The most
+abundant collagen type in the NP is type II collagen [16], which
+gives the disc its form and tensile strength [13]. Several studies
+have demonstrated that the ratio of sGAG to hydroxyproline in
+the normal NP is approximately 27:1 [17], and the hydroxyproline
+content is equivalent to 10% of the weight of collagen [18]. Using
+type II collagen and CS, we can fabricate a scaffold with better biological
+properties.
+Injectable scaffolds can mostly avoid the degeneration of the
+IVD structure during the transplant; hence, hydrogel scaffolds
+composed of type II collagen and CS are adequate. An ideal hydrogel
+would have low viscosity during injection followed by in situ
+gelation, deliver cells, fill micro and macro fissures, and restore disc
+height [19]. Cross-linking is the most common approach to stabilize
+the biomaterials [20,21]. In addition, the gelation velocity of
+many hydrogel scaffolds is regulated by cross-linking. The most
+widely used cross-linking treatments can be mainly divided into
+two types: chemical and physical. Physical cross-linking methods
+such as photo-cross-linking can result in toxicity to the cells being
+delivered [22]. Chemical cross-linking is applicable in fixing ECMderived
+scaffolds and the agents are mainly classified as chemical
+and natural agents. Glutaraldehyde and 1-ethyl-3-(3-dimethyl
+aminopropyl)-carbodiimide (EDC) are representative chemical
+agents, and they effectively increase the mechanical stability of
+bio-scaffolds. However, the toxicity and induced calcification of
+these agents limit long-term implantation [23,24]. Genipin is
+obtained from the natural compound geniposide, which is
+extracted from the fruit of the Gardenia jasminoides Ellis plant
+[25]. Genipin has low toxicity and is regarded as a natural crosslinking
+agent; the cross-linking processes are controllable and subtle
+and products are stable [25,26].
+Type II collagen/CS composite scaffolds have already been
+reported in previous studies [27,28]. However, these studies
+focused on fabricating three-dimensional porous scaffolds and
+the usage of toxic chemical cross-linking agents limits the construction
+of the cell delivery system. Genipin at proper concentrations
+provides the possibility of fabricating a cell-mixed type II
+collagen/CS composite hydrogel, which has no cytotoxicity
+towards the delivered cells. Adipose-derived stem cell (ADSC) is a
+kind of stem cell that is derived from the adipose tissues. ADSCs
+have the ability to differentiate into different kinds of cells in specific
+environments; hence, they are widely used in stem cell-based
+tissue engineering [29,30]. Our previous study has demonstrated
+that ADSCs can be guided to differentiate into an NP-like phenotype
+with the stimulation of type II collagen [31]. Similar conclusions
+have also been reported by other researchers [32]. Thus,
+ADSCs are suitable seeding cells in our type II collagen/CS composite
+hydrogel-like cell delivery system.
+In the current study, we chose type II collagen and CS, the main
+components of a healthy NP, and combined them at a specific ratio
+according to ECM composition of the NP. A suitable concentration
+of genipin was used to cross-link the ADSC mixed type II collagen/
+CS hydrogel. We aimed to fabricate an NP-like injectable cell delivery
+system based on type II collagen and CS, investigating its biological
+effects on ADSCs in vitro and verifying its regenerative
+effects on degenerated IVDs. We hope our study will provide
+new insights into stem cell-based tissue engineering and the construction
+of a ECM-based injectable cell delivery system.
+2. Materials and methods
+2.1. Cell culture
+Sprague–Dawley (SD) rat ADSCs bought from Cyagen Biosciences
+(RASMD-01001; Guangzhou, China) were cultured in Dulbecco’s
+Modified Eagle Medium (DMEM) supplemented with 10%
+fetal bovine serum, 2 mM L-glutamine, and 1% penicillin–streptomycin
+solution under static conditions in a humidified incubator
+at 37 C with 5% CO2. The culture medium was completely replaced
+every 3 days, and cells from passages 4–6 were then harvested for
+subsequent experiments.
+2.2. Scaffold preparation
+The type II collagen/CS composite hydrogel-like ADSC (CCSA)
+delivery system was prepared by the following steps: First, 6 mg/
+mL type II collagen (chicken sternal cartilage; Sigma Aldrich,
+USA) and 20 mg/mL CS (Sigma Aldrich) were mixed on ice, and
+0.1 M NaOH, 10X PBS, and DMEM were used to adjust the pH to
+approximately 7.2. Then, a suspension of ADSCs in DMEM was
+added into the mixed solution to a final concentration of 3 mg/
+mL type II collagen, 8.1 mg/mL CS, 1X PBS, and 2 * 106/mL ADSCs
+[33]. The blank type II collagen/CS composited hydrogel (CCS)
+was prepared by the same method except without ADSCs. Various
+concentrations of genipin (0, 0.01, 0.02, 0.1, 0.5, and 1% w/v; Aladdin,
+China) dissolved in 75% EtOH were added into the gel forming
+solution for subsequent cross-linking.
+2.3. Cytotoxicity assay
+The cytotoxicity of genipin cross-linked scaffolds was determined
+after 3, 7, and 14 days of cultivation. The supernatant of
+each group was collected and tested for lactate dehydrogenase
+(LDH) content. The LDH assay kit (Jiancheng Bioengineering Institute,
+China), by following the manufacturer’s protocol, was used
+to determine the LDH content. Absorbance values were detected
+at 440 nm to reflect the LDH content.
+2.4. Cell proliferation
+The CCK-8 assay kit (Dojindo Molecular Technologies, Japan) was
+used to detect cell proliferation. ADSCs were cultured for 3, 7, and 14
+days before determination. At each time point, the complete med-
+X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509 497
+ium was replaced with 200 mL of prepackaged CCK-8 solution (180
+mL of DMEM and 20 mL of CCK-8). Each group was incubated at 37 C
+under 5% CO2 for 4 h, and then 150 mL of the supernatant was collected
+and measured by reading the absorbance values at 450 nm
+using a Model 680 microplate reader (Bio-Rad, USA).
+2.5. Gene and protein expression analyses
+The CCSA delivery systems were allowed to form gels in 12-well
+plates, and equal amount of ADSCs cultured as a monolayer were
+served as the control. All the groups were cultured in NP cells
+inductive differentiation medium (DMEM supplemented with 5
+mg/mL of transferrin, 5 mg/mL of selenous acid, 0.1 mM dexamethasone,
+1 mM sodium pyruvate, 0.35 mM proline, 1.25 mg/mL
+BSA, 5 mg/mL insulin, 0.17 mM ascorbic acid-2-phosphate, 10 ng/
+mL TGF-b3, and 10 ng/mL IGF-1) [34]. The expression levels of target
+genes (Table 1) were determined after 7 and 14 days of treatment.
+Total RNA was extracted using the RNAiso reagent (TaKaRa
+Bio, Japan), followed by reverse transcription utilizing the Prime-
+ScriptTM RT Reagent Kit (TaKaRa Bio). mRNA was analyzed using
+the StepOnePlus Real-time PCR System (Applied Biosystems, CA,
+USA) and SYBR Green (TaKaRa Bio). The housekeeping gene was
+18s rRNA, and all of the primers were synthesized by Sangon Biotech
+(Shanghai, China). The results were calculated using the
+2DDCt method.
+Protein analysis was carried out after 21 days of treatment. The
+total protein in each group was extracted in RIPA buffer containing
+1% PMSF, and the concentration was measured by the BCA method.
+Proteins were separated by sodium dodecyl sulfate–polyacrylamide
+gel electrophoresis and transferred onto polyvinylidene fluoride
+membranes (Millipore, MA, USA). The membranes were
+blocked with 5% skim milk in Tris-buffered saline with 0.1%
+Tween-20 (TBST) at room temperature for 1 h and were hybridized
+overnight at 4 C in TBST with the appropriate primary antibody:
+SOX9 (1:1000, Abcam, UK), ACAN (1:1000, Abcam), COL1
+(1:1000; Abcam), COL2 (1:5000; Abcam), or GAPDH (1:5000; Santa
+Cruz, USA). Then, the membranes were incubated with a horseradish
+peroxidase (HRP)-labeled secondary antibody (1:5000; Santa
+Cruz) for 1 h at room temperature, and immunoreactivity was
+detected with an enhanced chemiluminescence substrate. The relative
+protein levels were quantified by densitometry using Quantity
+One software (Bio-Rad Laboratories Inc., Munich, Germany).
+2.6. Microstructure
+Before microstructure observation with scanning electron
+microscopy (SEM; SU8010, Hitachi, Japan), samples were frozen
+at 80 C and lyophilized for 24 h. Then, all samples were mounted
+onto aluminum stubs with carbon tape and sputter coated with a
+thin gold film (Emitech, K550) to avoid electrical charging.
+2.7. In vitro biodegradation
+The stability of scaffolds was determined by measuring the
+biodegradation in vitro using bacterial collagenase and chondroitinase
+ABC at a concentration of 10 and 0.4 U/mL without the disturbance
+of cells [35]. Two hundred microliters of CCS with or without
+cross-linking by 0.02% genipin were immersed in 1 mL of enzymatic
+digestion solution for up to 24 days. The complete medium
+after 4, 8, 12, 16, 20, and 24 days of incubation was collected for
+the next measurement. The hydroxyproline content was detected
+to reflect the type II collagen biodegradation using the Hydroxyproline
+Assay Kit (Jiancheng Bioengineering Institute, China).
+The CS biodegradation was detected by the 1,9-dimethyl methylene
+blue (DMMB) assay [36], and the standard curve was prepared
+with CS.
+2.8. Evaluation of the degree of cross-linking
+A ninhydrin assay was performed to determine the degree of
+cross-linking, as previously described [37]. Briefly, 1 mL of ninhydrin
+solution (170 mg of ninhydrin and 30 mg of hydrindantin dissolved
+in 20 mL of ethylene glycol monomethyl ether) was added
+to the samples and incubated in a boiling water bath for 15 min.
+The reacted ninhydrin solution was then cooled to room temperature
+and diluted in 60% ethanol. The optical absorbance of the solutions
+at 570 nm was recorded using a Model 680 microplate reader
+(Bio-Rad). The cross-linking degree was calculated using the following
+equation:
+Cross - linking degree ¼ 1  ODðcross - linkedÞ
+ODðnon - cross - linkedÞ
+ 100%
+2.9. Determination of the viscoelastic properties
+The viscoelastic properties of samples were determined using a
+rheometer (MCR302; Anton Paar, Graz, Austria) with 25 mm paral-
+Table 1
+Primers used in quantitative RT-PCR.
+Gene Forward primer (50 to 30) Reverse primer (50 to 30)
+18s GAATTCCCAGTAAGTGCGGGTCATA CGAGGGCCTCACTAAACCATC
+Acan CTAGCTGCTTAGCAGGGATAACG GATGACCCGCAGAGTCACAAAG
+Sox9 AGGAAGCTGGCAGACCAGTACC GGGTCTCTTCTCGCTCTCGTTCA
+Col2 CTGGTGGAGCAGCAAGAGC GTGGACAGTAGACGGAGGAAAG
+Col1 ACCTCCGGCTCCTGCTCCTCTTA GACAGCACTCGCCCTCCCGTTTTT
+Krt19 CCGACCTGGAGATGCAGATAGAG TAGGTCAATGCCTGGTGTGGAA
+Gdf10 ACAGTGTGCAGAGGGACAGG CTTCTGGTCGATCACATCCAGC
+Pax1 CTCCTTAGGGCCACCGCT TTAATTGACGTTCCGATCCTGC
+Table 2
+Histological grading of the disc degeneration.
+Cellularity and morphology Grade
+Cellularity of the annulus
+fibrosus
+1. Fibroblasts comprise more than 75% of
+the cells
+2. Neither fibroblasts nor chondrocytes
+comprise more than 75% of the cells
+3. Chondrocytes comprise more than 75% of
+the cells
+Morphology of the annulus
+fibrosus
+1. Well-organized collagen lamellae
+without ruptured or serpentine fibers
+2. Inward bulging, ruptured or serpentine
+fibers in less than one third of the annulus
+3. Inward bulging, ruptured or serpentine
+fibers in more than one third of the annulus
+Border between the annulus
+fibrosus and nucleus
+pulposus
+1. Normal, without any interruption
+2. Minimal interruption
+3. Moderate or severe interruption
+Cellularity of the nucleus
+pulposus
+1. Normal cellularity with stellar-shaped
+nuclear cells evenly distributed throughout
+the nucleus
+2. Slight decrease in the number of cells
+with some clustering
+3. Moderate or severe decrease (>50%) in
+the number of cells with all the remaining
+cells clustered and separated by dense
+areas of proteoglycans
+Morphology of the nucleus
+pulposus
+1. Round, comprising at least half of the
+disc area in mid-sagittal sections
+2. Rounded or irregularly shaped,
+comprising one quarter to half of the disc
+area in mid-sagittal sections
+3. Irregularly shaped, comprising less than
+one quarter of the disc area in mid-sagittal
+sections
+498 X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509
+lel plates at 0, 0.1, 1, 4, 24, and 48 h after the hydrogels were crosslinked
+with 0.02% genipin. A total of 800 mL of sample was loaded
+onto the stage and the upper plate was lowered up to a 1 mm
+gap. Strain amplitude sweep mode was chosen, and a sweep strain
+from 0.01% to 100% at constant frequency (1 Hz) was performed.
+The storage modulus (G0) and loss modulus (G00), which represent
+the energy stored and dissipated, respectively [38,39], during the
+shear process were recorded. The temperature of tests was controlled
+at 37 C.
+To determine the gelation time of the CCSA delivery system,
+800 mL of sample was loaded on the stage with 1% strain at constant
+frequency (1 Hz) at 37C. The change in G0 and G00 was
+recorded every 30 s for a duration of 30 min. The gelation time
+was determined at the time point when the G0 curve intersected
+the G00 curve [40].
+2.10. Animal and surgical procedures
+SD rats weighting 150 g were used for the in vivo experiments.
+All the animals were obtained from the Animal Center of the Academy
+of Medical Science of Zhejiang Province, and all procedures
+were approved by the Institutional Animal Care and Use Committee
+of Zhejiang University. The surgical procedures had already
+been reported in our previous study [41]. Anesthesia was administered
+by intraperitoneal injection with 1% pentobarbital sodium.
+The coccygeal vertebrae (Co)7/Co8 and Co8/Co9 were located by
+digital palpation and confirmed by a trial radiograph. A 20-G sterile
+needle with an outer diameter of 0.91 mm was inserted through
+the AF into the NP at a depth from the skin to the middle of the
+disc, which is controlled by a handmade stopper [42,43]. Then,
+the needle was rotated 360 and held for 30 s. After 2 weeks, 80
+male rats were divided into five groups: the control group (without
+needle puncture and other treatments); the degeneration group
+(with needle puncture and DMEM injection); the CCS group (with
+needle puncture and 0.02% genipin cross-linked CCS injection); the
+ADSC group (with needle puncture and ADSC injection); and the
+CCSA group (with needle puncture and CCSA delivery system injection).
+Injection of the CCS and CCSA was delayed for approximately
+5 min to decrease the diffusion of hydrogel. The injection volume
+for each group was 2 mL, and a microsyringe attached to a 31-G
+needle was used to deliver the materials to the NP [44].
+2.11. Cell tracking
+To allow cell tracking, the ADSCs were labeled with a fluorescent
+intracellular carboxyfluorescein N-hydroxysuccinimidyl ester
+(CFSE) cell labeling kit (Abcam) by following the manufacturer’s
+protocol. At 1, 2, and 4 weeks after injection, specimens were harvested
+and cross-sectioned (5 lm) with a freezing microtome
+(CM1860; Leica, Wetzlar, Germany). Then, the specimens were
+stained with DAPI (Sigma Aldrich) for 3 min and observed under
+a fluorescence microscope (DM5500, Leica).
+2.12. Disc height measurement
+A molybdenum target radiographic image unit (GE Mammography
+DMR Bucky 18  24, GE Healthcare, UK) was used to detect the
+disc height of rats at 0, 4, 8, and 16 weeks after injection. The rats
+Fig. 1. (A) Cytotoxicity of different concentrations of genipin-cross-linked CCSs on ADSCs. (B) The proliferation of ADSCs cultured in different concentrations of genipin-crosslinked
+CCSs. SEM images of (C) 0%, (D) 0.01%, (E) 0.02%, (F) 0.1%, (G) 0.5%, and (G) 1% genipin-cross-linked CCSs. Data represent mean ± SD; *p < 0.05, **p < 0.01, vs control
+group; #p < 0.05, ##p < 0.01, vs 0.02% genipin group. Scale bar = 100 mm.
+X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509 499
+were anesthetized and placed in the prone position and kept their
+tails straight. A computed radiographic plate system (AGFA Diagnostic
+Center Compact Plus, AGFA HealthCare, Belgium) was used
+to manipulate the digital images. Disc height index (DHI%)
+obtained from digitized radiographs using NIH software was used
+to quantitatively describe disc height changes. All image assessments
+were conducted by two independent, blinded observers.
+2.13. Magnetic resonance imaging (MRI) procedures and data
+processing
+T2-weighted sections in the sagittal plane obtained by a 3.0-T
+MRI scanner (GE Medical Systems, UK) were used to reveal the
+water content and the structure of the NP after 0, 4, 8, and 16
+weeks of injection. The rats were anesthetized and placed in the
+prone position with their tails straight. The parameter settings
+were as follows: spin echo repetition time, 2275 ms; echo time,
+80 ms; number of excitations, 8; field of view, 5 cm; slice thickness,
+1.5 mm; and no phase wrap. Quantitative analysis of the
+image slices was processed using a GE ADW4.2 workstation. The
+alterations of the NP were evaluated by the MRI index (the area
+of the NP multiplied by average signal intensity) proposed by Sobajima
+et al [45]. Two researchers measured the disc height independently
+in a blinded fashion.
+2.14. Histological analysis
+At 0, 4, 8, and 16 weeks after injection, specimens were harvested
+by euthanizing the rats with intraperitoneal injection of
+10% chloral hydrate. Specimens were rinsed with PBS, fixed in 4%
+paraformaldehyde, embedded in paraffin, and cross-sectioned (5
+lm). Specimens were stained with safranin O–fast green (S-O) or
+hematoxylin and eosin (H&E). The cellularity and morphology of
+the IVD were evaluated using a grading scale (Table 2) by two
+Fig. 2. (A) The volume change of 0.02% genipin-cross-linked CCSA delivery system during gelation. (B) The gelation time of the CCSA delivery system was measured using a
+rheometer. (C) The biodegradation speeds of 0% and 0.02% genipin-cross-linked CCSs was established by measuring the type II collagen and CS release. (D) The viscoelastic
+properties of CCS and CCSA delivery system after cross-linking with 0.02% genipin for 0, 0.1, 1, 4, 24, and 48 h. (E) Degree of cross-linking of CCS and CCSA delivery system
+with the function of cross-linking time. (F) Cellular morphology of ADSCs on monolayer culture and in the cell delivery system; actin was stained green and cell nuclei were
+stained blue. Data represent mean ± SD; *p < 0.05, **p < 0.01.
+500 X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509
+experienced histology researchers independently in a blinded fashion
+as described previously [41].
+2.15. Immunohistochemistry, sGAG, and hydroxyproline content
+measurement
+Specimens were deparaffinized in xylene and rehydrated. After
+that, the specimens were treated with 3% H2O2 for 10 min to inhibit
+endogenous peroxidase and were blocked with goat serum for
+30 min at room temperature. Then, the specimens were hybridized
+with rabbit anti-rat type II collagen antibody (diluted at 1:100;
+Abcam) at 4 C overnight. After washing with PBS for 5 min, the
+specimens were incubated with goat anti-rabbit second antibody
+conjugated with biotin for 1 h at room temperature and were
+detected by the SABC method.
+The contents of sGAG and hydroxyproline for each group were
+detected using the DMMB assay and Hydroxyproline Assay Kit
+(Jiancheng Bioengineering Institute), respectively, and normalized
+with dry weight. The experimental procedures were carried out
+following the manufacturer’s protocol.
+2.16. Statistical analysis
+The results were expressed as the mean ± standard deviation
+(SD), and a value of p < 0.05 was considered statistically significant.
+The statistical significance of the differences between experimental
+groups was assessed using a two-tailed Student’s t-test or one-way
+analysis of variance (ANOVA) following the Tukey post hoc test.
+Statistical analyses were performed using the SPSS software package
+(Version 22.0 for Windows; SPSS Inc., USA). All experiments
+were repeated at least three times using independent samples.
+3. Results
+3.1. The proper concentration of genipin
+The LDH content reflected the cytotoxicity of genipin crosslinked
+CCSA system on delivered cells. When the concentration
+of genipin was more than 0.02%, the LDH release by ADSCs
+increased significantly at each time point, especially on days 7
+and 14 (Fig. 1A). In addition, the proliferation of ADSCs decreased
+on days 7 and 14, when the concentration of genipin was more
+than 0.02%. The concentrations 0.01% and 0.02% showed no significant
+difference on cell proliferation on day 7; however, there was
+a significant difference on day 14 (Fig. 1B). The microstructure of
+noncross-linked CCS was porous, with a smooth and regular skeleton.
+However, after genipin was added, the microstructure of the
+hydrogel turned tough with twists and the pores became irregular
+and indiscernible. As the concentration of genipin increased, the
+Fig. 3. Gene and protein expression levels of ADSCs cultured in 0.02% genipin cross-linked CCS. Gene expression levels of (A) Acan, (B) Sox9, (C) Col2, and (D) Col1 were
+measured on days 7 and 14 and normalized to 18s and to the control group. (E) Protein expression levels of COL1, COL2, aggrecan, and SOX9 were measured on day 21. (F)
+Krt19, (G) Pax1, and (H) Gdf10 were measured on days 7 and 14 and normalized to 18s and to the control group. Data represent mean ± SD; *p < 0.05, **p < 0.01.
+X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509 501
+microstructure transformation of the hydrogel became increasingly
+obvious (Fig. 1C–H). Therefore, we considered that the proper
+concentration of genipin for cross-linking was 0.02%.
+3.2. The physical, chemical, and biological properties of 0.02% genipin
+cross-linked CCS or CCSA system
+The genipin cross-linked CCSA delivery system formed a gel at
+37C; the volume change upon gelation was not significant
+(Fig. 2A). We used a rheometer to measure the gelation time of
+the CCSA delivery system and found that the gelation time was
+approximately 6 min and the G0 was approximately 5.91 Pa (Fig.
+2B). The stability of the scaffolds was determined in vitro using
+bacterial collagenase and chondroitinase ABC without disturbing
+the cells. After cross-linking with 0.02% genipin, the stability of
+CCS increased obviously (Fig. 2C). The type II collagen and CS remnants
+of genipin cross-linked CCSs were approximately 26% and
+40%, respectively, after 24 days, which were significantly higher
+than that of noncross-linked scaffold (approximately 10% and
+14%, respectively). The ADSC-laden CCS showed higher values of
+G0 and G00 than those of blank CCS, but the difference was not significant.
+When the CCSA delivery system was mixed, the value of
+G00 (2.45 ± 0.16 Pa) was higher than G0 (1.30 ± 0.14 Pa). At 0.1 h,
+the value of G00 (6.04 ± 0.20 Pa) turned nearly equal to G0 (6.14 ±
+0.20 Pa). G0 remained higher than G00 after gelation for 1 h, and
+the values were 2488.94 ± 45.67 and 231.03 ± 1.89 Pa, respectively,
+at 48 h (Fig. 2D). As cross-linking time extended, the cross-linking
+degree increased and the existence of ADSCs did not influence the
+cross-linking degree. The values were, respectively, 37% ± 2% and
+36% ± 2% (ADSCs laden and free) at 72 h (Fig. 2E). We also observed
+the cellular morphology of ADSCs in the cell delivery system, and
+the results showed that ADSC appeared to have a spherical shape,
+distinctly different from the shape on monolayer culture (Fig. 2F).
+3.3. In vitro study of the effects of CCSA delivery system on the laden
+ADSCs
+The gene and protein expression levels of aggrecan, SOX9, COL2,
+and COL1 represent the matrix synthesis function of ADSCs. The
+0.02% genipin cross-linked CCSA group showed higher gene
+expression level of Acan than the other two groups on days 7 and
+14 (Fig. 3A), which is similar to that of Sox9 (Figure 3B). The 0%
+and 0.02% genipin group exhibited no significant difference in
+Col2 expression on day 7, but there was a significant difference
+on day 14 (Fig. 3C). All groups had no significant difference in
+Col1 expression on day 7 or 14 (Fig. 3D). The protein expression
+levels were similar to those of the relevant gene markers. The
+0.02% genipin group showed significantly higher expression of
+aggrecan than that of the control and 0% genipin groups. The 0%
+and 0.02% genipin groups had similar expression levels of COL2
+and SOX9 but were higher than those of the control group (Fig.
+3E). Krt19 and Pax1 are specific gene markers of NP cells, while
+Gdf10 specifically indicates the chondrogenic differentiation of
+ADSCs [46,47]. The expression level of Krt19 in the 0.02% genipin
+group was almost 3.29- and 4.87-fold higher than that of 0% genipin
+and the control group, respectively, on day 14 (Fig. 3F). The
+gene expression level of Pax1 in the 0.02% genipin group was
+almost 4.99- and 11.62-fold higher than that of the control group
+on days 7 and 14, respectively, and 2.44-fold higher than that of
+the 0% genipin group on day 14 (Fig. 3G). There was no significant
+difference between the three groups in the gene expression level of
+Gdf10 (Fig. 3H).
+3.4. Tracking injected ADSCs
+CFSE-positive ADSCs could only be identified in the ADSC and
+CCSA groups. The CFSE-positive ADSCs delivered by CCS remained
+in clusters in the first week after injection, and the ADSCs delivered
+Fig. 4. CFSE-positive ADSCs glowed green fluorescence in the NP at 1, 2, and 4 weeks after injection. The fluorescence in the control, degeneration, CCS, ADSC, and CCSA
+groups were detected. The nuclei of native and injected cells were stained blue. White arrows indicate CFSE-positive ADSCs. Scale bar = 100 mm.
+502 X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509
+without CCS appeared to have migrated and spread to the whole
+NP. Two weeks after injection, some CFSE-positive ADSCs incorporated
+in the CCS have also migrated to the distant sites. The CFSEpositive
+ADSCs could be identified throughout the 4 weeks in culture
+in both the ADSC and CCSA groups (Fig. 4).
+3.5. Radiographic and MRI assessment of disc in different groups
+As shown in Fig. 5, the DHI% in the degeneration, CCS, ADSC, and
+CCSA groups were significantly lower than that in the control
+group immediately after injection. Compared with the degenera-
+Fig. 5. (A) Representative radiographs of the rat Co7/Co8 and Co8/Co9 at 0, 4, 8, and 16 weeks after injection. The radiographs of the control, degeneration, CCS, ADSC, and
+CCSA groups were studied. (B) DHI% was used to quantitatively represent the changes in the disc height. Data represent mean ± SD; *p < 0.05, **p < 0.01, vs control group; #p <
+0.05, ##p < 0.01, vs CCSA group.
+X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509 503
+tion and ADSC groups, the DHI% of the CCSA group was significantly
+higher at weeks 4, 8, and 16. Moreover, the CCSA group
+showed a higher DHI% than the CCS group at weeks 8 and 16. Interestingly,
+there was no significant difference between the control
+group and CCSA group at weeks 4 and 8, but there was a difference
+at week 16 (100% ± 1% and 83% ± 2%, respectively). The MRI results,
+Fig. 6. (A) Representative T2 MRI scans of each group at 0, 4, 8, and 16 weeks after injection. (B) MRI index was used to quantitatively analyze the water content and structure
+of the NP. Data represent mean ± SD; *p < 0.05, **p < 0.01, vs control group; #p < 0.05, ##p < 0.01, vs CCSA group.
+504 X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509
+which revealed the water content and structure of the NP, are
+shown in Fig. 6. Compared with the control group, the other groups
+had lower MRI indices at each time point. The degeneration group
+had lower MRI index than that of the CCS, ADSC, and CCSA groups
+at weeks 4, 8, and 16. Significant changes in the MRI index in the
+CCSA group were observed at weeks 8 and 16 (2631.41 ± 159.76
+Fig. 7. Representative H&E (A) and S-O staining (B) of disc samples from different groups at 0, 4, 8, and 16 weeks after injection. Scale bar = 1 mm.
+X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509 505
+and 2528.16 ± 201.01, respectively), compared with the CCS
+(1751.53 ± 10.31 and 1064.39 ± 212.98, respectively) and ADSC
+groups (1477.93 ± 36.87 and 934.21 ± 20.23, respectively). The T2
+signal range was significantly decreased in the degeneration group
+compared with the control group at week 16. Moreover, the T2 signal
+range of the CCSA group was still inferior to that of the control
+group but superior to those of the CCS and ADSC groups.
+3.6. Histological, immunohistochemical, and biochemical analysis of
+the NP
+The HE staining (Fig. 7A) showed that the normal NP was well
+organized with cells and ECM. However, in the degeneration group,
+the structure of the NP was destroyed and the lamellar sheets of AF
+were disorganized. After 16 weeks of injection, the injured parts of
+the NP in the degeneration, CCS, and ADSC groups were filled with
+fibrous connective tissues, and the structure of the NP was indiscernible.
+However, in the CCSA group, the cell and ECM distributions
+were clear and more regular than those of the degeneration
+group. A reduced matrix staining for proteoglycans was clearly
+observed in the degeneration, CCS, and ADSC groups from the
+images of S-O staining. The CCSA group demonstrated that the
+degenerated NP was regenerated to some extent, with stronger
+staining than the degeneration group (Fig. 7B).
+The distribution of type II collagen was also detected at weeks 0
+and 16. Type II collagen was only distinctly expressed in the control
+and CCSA groups after 16 weeks of injection, and it was mainly
+accumulated around cells. Few areas were immune positive for
+Fig. 8. (A) Immunohistochemical detection of type II collagen in the NP at 0 and 16 weeks after injection. Scale bar = 500 mm. (B) The content of sGAG in each group at 0 and
+16 weeks after injection. (C) The content of type II collagen in each group at 0 and 16 weeks after injection was detected by measuring the content of hydroxyproline. (D)
+Histological grade of each group was evaluated at 16 weeks after injection. Data represent mean ± SD; *p < 0.05, **p < 0.01, vs control group; #p < 0.05, ##p < 0.01, vs CCSA
+group.
+506 X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509
+type II collagen in the CCS and ADSC groups, which indicated that
+the normal structure of the NP did not exist (Fig. 8A). The contents
+of sGAG at weeks 0 and 16 were measured by the DMMB assay and
+were normalized to NP dry weight. The control group had higher
+sGAG content than all the other groups at weeks 0 and 16. The
+sGAG content of the CCSA group significantly increased compared
+with that of the degeneration group at week 16. The CCSA group
+also exhibited higher sGAG content than the CCS and ADSC groups.
+We also quantified the content of type II collagen by measuring the
+hydroxyproline content in the NP. The hydroxyproline content was
+normalized to NP dry weight. The hydroxyproline content of the
+control group was significantly higher than all the other groups
+at weeks 0 and 16. Moreover, the CCSA group exhibited a significant
+increase in hydroxyproline content compared with the degeneration
+group as well as with the CCS and ADSC groups at week 16
+(Fig. 8C).
+We used the histological grading scale to comprehensively evaluate
+the degeneration of discs. The normal NP showed regular
+structure of the NP and AF, distributed with NP cells, and the water
+content of the NP and disc height were normal. The histological
+score of the control group was 5.2 ± 0.5. In the degeneration group,
+the structure and composition of the NP was abnormal and the
+degenerated sites were occupied by fibrocartilaginous tissue and
+cells with different cellular morphology. The histological score of
+the degeneration group was 12.8 ± 0.8, which was significantly
+higher than that of the control group. The CCSA group had
+increased disc height and water content when compared to those
+of the degeneration group. In addition, the structure and ECM of
+the NP were also partly recovered in the CCSA group at week 16.
+Compared with the CCS and ADSC groups (9.8 ± 0.8 and 10.2 ±
+1.3, respectively), the CCSA group had a significantly lower histological
+score (7.4 ± 1.1), but it was still higher than the score of
+the control group, which suggested that the discs in the CCSA
+group still partly displayed the characteristics of degeneration
+(Fig. 8D).
+4. Discussion
+A decrease in NP cells and a disruption of ECM occur during the
+process of NP degeneration, which is responsible for IVD degeneration
+and, consequently, lower back pain [48,49]. Stem cell transplantation
+showed good results in increasing ECM, as the stem
+cells can differentiate into an NP-like phenotype [50]. Although
+several research groups have studied the fabrication of injectable
+hydrogel with biological matrix, our study differs from other works
+[28,51]. We chose type II collagen and CS, the two primary native
+components in the NP as the main materials and combined them
+according to the natural ratio of collagen and sGAG in the NP.
+The CCS is preloaded with ADSCs and can be injected into the NP
+with needle, followed by in situ gelation. Genipin is used as a
+cross-linker to improve the bio-stability of the scaffold, with low
+cytotoxicity. Moreover, we investigated the stimulatory effects of
+our scaffold on ADSC differentiation in vitro and the regenerative
+effect of CCSA delivery system on degenerated NP in vivo. The rat
+tail disc degeneration model has been used in many studies
+because of its greatly simplified procedure; hence, we chose the
+rat tail discs to perform injections [52,53].
+Although genipin is regarded as a less toxic cross-linker for
+cells, high concentration is inadvisable when mixed directly
+together with cells. The cross-linking degree of 0.02% genipin
+was nearly 37%, and the type II collagen and CS remnants after
+24 days of biodegradation were nearly 26% and 40%, respectively.
+Higher concentrations of genipin can increase the cross-linking
+degree and biostability of the scaffold [54], but they increase cytotoxicity
+and change surface characteristics of the scaffold as well.
+The function of ADSCs is more important in stem cell-based tissue
+engineering; hence, we consider a concentration of 0.02% (the corresponding
+concentration of EtOH is 0.075%, which is also safe to
+ADSCs; Supplemental Fig. 1) to be optimal for the cross-linking
+of the CCSA delivery system.
+Cell shape and matrix stiffness influence the differentiation of
+stem cells [55–57]. A spherical morphology associated with a dispersed
+actin cytoskeleton with few focal adhesions stimulates the
+chondrogenic differentiation of mesenchymal stem cells (MSCs), in
+addition to the osteogenic differentiation [58]. Moreover, several
+studies have also reported that substrates with low stiffness are
+more favorable for NP-like differentiation [22,59]. Our in vitro
+study has demonstrated the CCS can induce the loaded ADSCs to
+differentiate into an NP-like phenotype and increase ECM synthesis.
+We consider that the stimulation effect of CCS is associated
+with the low stiffness exhibited by CCS and the spherical shape
+of ADSCs. The NP-like phenotype and chondrogenic phenotype
+are difficult to distinguish, as both NP cells and chondrocytes
+express high levels of Sox9, Acan, Col2, and their corresponding proteins
+[47,60,61]. Krt19 and Pax1 are characteristic genes in NP cells,
+which have the potential to characterize human NP cells [46,62].
+Gdf10 is a novel chondrocyte marker that is expressed more than
+100-fold in chondrocytes than in NP cells [46]. With the help of
+these specific gene markers, we clarified the differentiation status
+of ADSCs.
+The results of CFSE-positive ADSCs delivered by CCS, which
+remained in clusters 1 week after injection, demonstrated that
+the scaffold turned into gel in situ and restrained the migration
+of ADSCs. Over time, the biodegradation of CCS was enhanced,
+and ADSCs migrated to other locations of the NP. The fluorescence
+intensity and number of CFSE-positive ADSCs injected with CCS
+decreased significantly at the 4th week after injection, but it did
+not mean that the ADSCs had disappeared. CFSE-positive ADSCs
+had the intracellular fluorescent label that was incorporated in a
+stable form but decreased over time as a function of dilution with
+cell division. The CCSA group showed significant regeneration after
+16 weeks, which means the ADSCs were functional; we considered
+that cell division was the reason for the decreased fluorescence
+intensity and the decreased number of CFSE-positive ADSCs we
+observed at week 4.
+Our in vivo study results showed some characteristics of the
+degenerated disc, such as a decrease in disc height; a decrease in
+ECM, water content, and NP cells in the NP; and the abnormal
+structure of the NP. CCS alone could increase disc height and NP
+water content in a short time. We think this finding is due to the
+CCS being a hydrogel, which has a high proportion of water. Moreover,
+the CCS in the NP exhibited a G0 relatively higher than G00 ,
+indicating the CCS presented in a more solid-like form and could
+buffer the pressure on the disc [38]. However, the CCS did not
+regenerate the degenerated NP essentially; hence, the disc height
+and NP water content of the CCS group showed no significant difference
+in the degeneration group after a long-term treatment
+owing to the biodegradation of CCS. Degenerated NP had a suboptimal
+environment (low oxygen tension, limited nutrition, acidic
+pH, and high osmolarity), which showed a negatively influence
+on the function or even survival of the transplanted cells [63–
+65]. ADSCs injected without the scaffold showed no obvious regenerative
+effect in the NP because ADSCs experienced the difficulty in
+surviving and synthesizing matrix in a harsh environment [66].
+Our CCS provides adherent sites for ADSCs and is likely to stimulate
+the differentiation of ADSCs into an NP-like phenotype; hence, the
+cells we injected survived, synthesized the matrix, and regenerated
+the degenerated NP. The histological score is based on five categories
+of degenerative changes and range from 5 points for a normal
+disc to 15 points for a severely degenerated disc. The CCSA
+group showed a decrease in histological score after 16 weeks,
+X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509 507
+which means that the degenerated NP was repaired to some
+extent, displaying increased disc height, water content, proteoglycan
+and type II collagen synthesis, and recovery of NP structure.
+However, there is still a gap between the normal and regenerated
+NP, as the histological score of the CCSA group was still higher than
+that of the control group.
+We used needle puncture to inject our CCSA delivery system
+through the AF into the NP in this study. Several studies have
+reported that the needle puncture in healthy IVDs could lead to a
+loss of tissue functionality and disc pressure [67]. However, the
+degenerated disc, on its own, causes matrix degradation and
+reduced disc height [68,69]. The processes of delivering CCSA system
+through injection is unlikely to aggravate the matrix loss but
+will provide biological benefits to the degenerated NP. The limitations
+of our CCSA delivery system in clinical application are the low
+collagen content (3 mg/mL) in the hydrogel and low mechanical
+property. Studies have demonstrated that NP acts as a cushion
+with shock-absorbing properties [70,71]. The modulus of the
+healthy NP is approximately 11 kPa [72], which is significantly
+higher than that in our CCSA group. While stimulating NP-like differentiation
+of ADSCs, the low collagen density of our CCSA delivery
+system loses mechanical support and it is difficult to stabilize
+a degenerated disc. More research should be carried out to improve
+the inducing efficiency of NP-like differentiation and the mechanical
+property of our CCSA delivery system together.
+5. Conclusion
+In this study, we fabricated a novel scaffold with type II collagen
+and CS to deliver ADSCs through needle injection. The CCS we fabricated
+is cross-linked with 0.02% genipin and has the ability of
+in situ gelation after injection. Although the cross-linking degree
+is low, the CCS showed an increased bio-stability and solid-like
+properties after gelation. Our in vitro results demonstrated the
+bio-safety of the CCS on ADSCs and the stimulation effects of the
+scaffold on the differentiation of ADSCs. We further studied the
+regenerative effects of the CCSA delivery system on the degenerated
+NP in an animal model, and we demonstrated that the CCSA
+delivery system could partly regenerate the degenerated NP. We
+hope our study can provide new insights into the clinical application
+of stem cell-based tissue engineering for the treatment of IVD
+degeneration.
+Acknowledgments
+This study was partly supported by grants from the National
+Natural Science Foundation of China (81401822, 81472114,
+81401011, and 81572177), the General Science and Technology
+Planning Project (2016C33151), Zhejiang Provincial Natural
+Science Foundation of China (Q14H060007 and Y13H060001),
+and the General Research Program of Zhejiang Provincial Department
+of Health (2016142263 and 2016146428).
+Declaration of interest
+The authors report no declaration of interest.
+Appendix A. Supplementary data
+Supplementary data associated with this article can be found, in
+the online version, at https://doi.org/10.1016/j.actbio.2018.03.019.
+References
+[1] G.B. Andersson, Epidemiological features of chronic low-back pain, Lancet 354
+(9178) (1999) 581–585.
+[2] E.J. Eyring, The biochemistry and physiology of the intervertebral disk, Clin.
+Orthop. Relat. Res. 67 (1969) 16–28.
+[3] C. Neidlinger-Wilke, F. Galbusera, H. Pratsinis, E. Mavrogonatou, A. Mietsch, D.
+Kletsas, H.J. Wilke, Mechanical loading of the intervertebral disc: from the
+macroscopic to the cellular level, Eur. Spine J. 23 (Suppl. 3) (2014) S333–S343.
+[4] J. Chen, W. Yan, L.A. Setton, Molecular phenotypes of notochordal cells purified
+from immature nucleus pulposus, Eur. Spine J. 15 (Suppl. 3) (2006) S303–S311.
+[5] D.M. O’Halloran, A.S. Pandit, Tissue-engineering approach to regenerating the
+intervertebral disc, Tissue Eng. 13 (8) (2007) 1927–1954.
+[6] Y. Oshima, F.L. Harwood, R.D. Coutts, T. Kubo, D. Amiel, Variation of
+mesenchymal cells in polylactic acid scaffold in an osteochondral repair
+model, Tissue Eng. Part C Methods 15 (4) (2009) 595–604.
+[7] S.T. Ho, D.W. Hutmacher, A.K. Ekaputra, D. Hitendra, J.H. Hui, The evaluation of
+a biphasic osteochondral implant coupled with an electrospun membrane in a
+large animal model, Tissue Eng. Part A 16 (4) (2010) 1123–1141.
+[8] S.B. Anderson, C.C. Lin, D.V. Kuntzler, K.S. Anseth, The performance of human
+mesenchymal stem cells encapsulated in cell-degradable polymer-peptide
+hydrogels, Biomaterials 32 (14) (2011) 3564–3574.
+[9] J.P. Urban, S. Smith, J.C. Fairbank, Nutrition of the intervertebral disc, Spine
+(Phila Pa 1976) 29 (23) (2004) 2700–2709.
+[10] J.P. Urban, S. Roberts, Degeneration of the intervertebral disc, Arthritis Res
+Ther. 5 (3) (2003) 120–130.
+[11] B. Huang, C.Q. Li, Y. Zhou, G. Luo, C.Z. Zhang, Collagen II/
+hyaluronan/chondroitin-6-sulfate tri-copolymer scaffold for nucleus
+pulposus tissue engineering, J. Biomed. Mater. Res. B Appl. Biomater. 92 (2)
+(2010) 322–331.
+[12] J.J. Mercuri, S.S. Gill, D.T. Simionescu, Novel tissue-derived biomimetic scaffold
+for regenerating the human nucleus pulposus, J Biomed Mater Res A. 96 (2)
+(2011) 422–435.
+[13] M.H. Walker, D.G. Anderson, Molecular basis of intervertebral disc
+degeneration, Spine J. 4 (6 Suppl.) (2004) 158S–166S.
+[14] H. Kitahara, Histochemical study of the human intervertebral disc, Nihon
+Seikeigeka Gakkai Zasshi 53 (7) (1979) 817–830.
+[15] R.A. Wachs, E.N. Hoogenboezem, H.I. Huda, S. Xin, S.L. Porvasnik, C.E. Schmidt,
+Creation of an injectable in situ gelling native extracellular matrix for nucleus
+pulposus tissue engineering, Spine J. 17 (3) (2017) 435–444.
+[16] D.R. Eyre, H. Muir, Types I and II collagens in intervertebral disc. Interchanging
+radial distributions in annulus fibrosus, Biochem. J. 157 (1) (1976) 267–270.
+[17] F. Mwale, P. Roughley, J. Antoniou, Distinction between the extracellular
+matrix of the nucleus pulposus and hyaline cartilage: a requisite for tissue
+engineering of intervertebral disc, Eur Cell Mater. 8 (2004) 58–63. discussion-
+4.
+[18] M.E. Nimni, Collagen: structure, function, and metabolism in normal and
+fibrotic tissues, Semin. Arthritis Rheum. 13 (1) (1983) 1–86.
+[19] A.A. Thorpe, V.L. Boyes, C. Sammon, C.L. Le Maitre, Thermally triggered
+injectable hydrogel, which induces mesenchymal stem cell differentiation to
+nucleus pulposus cells: potential for regeneration of the intervertebral disc,
+Acta Biomater. 36 (2016) 99–111.
+[20] A.W. Martinez, J.M. Caves, S. Ravi, W. Li, E.L. Chaikof, Effects of crosslinking on
+the mechanical properties, drug release and cytocompatibility of protein
+polymers, Acta Biomater. 10 (1) (2014) 26–33.
+[21] X. Zhou, Y. Tao, J. Wang, D. Liu, C. Liang, H. Li, Q. Chen, Three-dimensional
+scaffold of type II collagen promote the differentiation of adipose-derived stem
+cells into a nucleus pulposus-like phenotype, J. Biomed. Mater. Res. A 104 (7)
+(2016) 1687–1693.
+[22] D. Kumar, I. Gerges, M. Tamplenizza, C. Lenardi, N.R. Forsyth, Y. Liu, Threedimensional
+hypoxic culture of human mesenchymal stem cells encapsulated
+in a photocurable, biodegradable polymer hydrogel: a potential injectable
+cellular product for nucleus pulposus regeneration, Acta Biomater. 10 (8)
+(2014) 3463–3474.
+[23] A. Jayakrishnan, S.R. Jameela, Glutaraldehyde as a fixative in bioprostheses and
+drug delivery matrices, Biomaterials 17 (5) (1996) 471–484.
+[24] E. Jorge-Herrero, P. Fernandez, J. Turnay, N. Olmo, P. Calero, R. Garcia, I. Freile, J.
+L. Castillo-Olivares, Influence of different chemical cross-linking treatments on
+the properties of bovine pericardium and collagen, Biomaterials 20 (6) (1999)
+539–545.
+[25] B. Ma, X. Wang, C. Wu, J. Chang, Crosslinking strategies for preparation of
+extracellular matrix-derived cardiovascular scaffolds, Regen Biomater. 1 (1)
+(2014) 81–89.
+[26] Y. Chang, C.C. Tsai, H.C. Liang, H.W. Sung, In vivo evaluation of cellular and
+acellular bovine pericardia fixed with a naturally occurring crosslinking agent
+(genipin), Biomaterials 23 (12) (2002) 2447–2457.
+[27] Y. Zhuang, B. Huang, C.Q. Li, L.T. Liu, Y. Pan, W.J. Zheng, G. Luo, Y. Zhou,
+Construction of tissue-engineered composite intervertebral disc and
+preliminary morphological and biochemical evaluation, Biochem. Biophys.
+Res. Commun. 407 (2) (2011) 327–332.
+[28] H. Cao, S.Y. Xu, EDC/NHS-crosslinked type II collagen-chondroitin sulfate
+scaffold: characterization and in vitro evaluation, J. Mater. Sci. Mater. Med. 19
+(2) (2008) 567–575.
+508 X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509
+[29] P.A. Zuk, M. Zhu, H. Mizuno, J. Huang, J.W. Futrell, A.J. Katz, P. Benhaim, H.P.
+Lorenz, M.H. Hedrick, Multilineage cells from human adipose tissue:
+implications for cell-based therapies, Tissue Eng. 7 (2) (2001) 211–228.
+[30] H. Tapp, R. Deepe, J.A. Ingram, M. Kuremsky, E.N. Hanley Jr., H.E. Gruber,
+Adipose-derived mesenchymal stem cells from the sand rat: transforming
+growth factor beta and 3D co-culture with human disc cells stimulate
+proteoglycan and collagen type I rich extracellular matrix, Arthritis Res Ther.
+10 (4) (2008) R89.
+[31] Y. Tao, X. Zhou, D. Liu, H. Li, C. Liang, F. Li, Q. Chen, Proportion of collagen type
+II in the extracellular matrix promotes the differentiation of human adiposederived
+mesenchymal stem cells into nucleus pulposus cells, Biofactors. 42 (2)
+(2016) 212–223.
+[32] M.B. Nair, G. Baranwal, P. Vijayan, K.S. Keyan, R. Jayakumar, Composite
+hydrogel of chitosan-poly(hydroxybutyrate-co-valerate) with chondroitin
+sulfate nanoparticles for nucleus pulposus tissue engineering, Colloids Surf.
+B Biointerfaces. 136 (2015) 84–92.
+[33] C.Z. Liang, H. Li, Y.Q. Tao, L.H. Peng, J.Q. Gao, J.J. Wu, F.C. Li, J.M. Hua, Q.X. Chen,
+Dual release of dexamethasone and TGF-beta3 from polymeric microspheres
+for stem cell matrix accumulation in a rat disc degeneration model, Acta
+Biomater. 9 (12) (2013) 9423–9433.
+[34] Y. Tao, X. Zhou, C. Liang, H. Li, B. Han, F. Li, Q. Chen, TGF-beta3 and IGF-1
+synergy ameliorates nucleus pulposus mesenchymal stem cell differentiation
+towards the nucleus pulposus cell type through MAPK/ERK signaling, Growth
+Factors 33 (5–6) (2015) 326–336.
+[35] K.C. Butterfield, A.W. Conovaloff, A. Panitch, Development of affinity-based
+delivery of NGF from a chondroitin sulfate biomaterial, Biomatter. 1 (2) (2011)
+174–181.
+[36] M.L. Alves da Silva, A. Crawford, J.M. Mundy, V.M. Correlo, P. Sol, M.
+Bhattacharya, P.V. Hatton, R.L. Reis, N.M. Neves, Chitosan/polyester-based
+scaffolds for cartilage tissue engineering: assessment of extracellular matrix
+formation, Acta Biomater. 6 (3) (2010) 1149–1157.
+[37] K. De Clercq, C. Schelfhout, M. Bracke, O. De Wever, M. Van Bockstal, W.
+Ceelen, J.P. Remon, C. Vervaet, Genipin-crosslinked gelatin microspheres as a
+strategy to prevent postsurgical peritoneal adhesions: in vitro and in vivo
+characterization, Biomaterials 96 (2016) 33–46.
+[38] C. Yan, D.J. Pochan, Rheological properties of peptide-based hydrogels for
+biomedical and other applications, Chem. Soc. Rev. 39 (9) (2010) 3528–3540.
+[39] S. Wan, S. Borland, S.M. Richardson, C.L. Merry, A. Saiani, J.E. Gough, Selfassembling
+peptide hydrogel for intervertebral disc tissue engineering, Acta
+Biomater. 46 (2016) 29–40.
+[40] W. Xie, Q. Gao, Z. Guo, D. Wang, F. Gao, X. Wang, Y. Wei, L. Zhao, Injectable and
+self-healing thermosensitive magnetic hydrogel for asynchronous control
+release of doxorubicin and docetaxel to treat triple-negative breast cancer, ACS
+Appl. Mater. Interfaces 9 (39) (2017) 33660–33673.
+[41] B. Han, K. Zhu, F.C. Li, Y.X. Xiao, J. Feng, Z.L. Shi, M. Lin, J. Wang, Q.X. Chen, A
+simple disc degeneration model induced by percutaneous needle puncture in
+the rat tail, Spine (Phila Pa 1976) 33 (18) (2008) 1925–1934.
+[42] K. Masuda, Y. Aota, C. Muehleman, Y. Imai, M. Okuma, E.J. Thonar, G.B.
+Andersson, H.S. An, A novel rabbit model of mild, reproducible disc
+degeneration by an anulus needle puncture: correlation between the degree
+of disc injury and radiological and histological appearances of disc
+degeneration, Spine (Phila Pa 1976) 30 (2005) 5–14.
+[43] G.D. O’Connell, E.J. Vresilovic, D.M. Elliott, Comparison of animals used in disc
+research to human lumbar disc geometry, Spine (Phila Pa 1976) 32 (3) (2007)
+328–333.
+[44] H.J. Mao, Q.X. Chen, B. Han, F.C. Li, J. Feng, Z.L. Shi, M. Lin, J. Wang, The effect of
+injection volume on disc degeneration in a rat tail model, Spine (Phila Pa 1976)
+36 (16) (2011) E1062–E1069.
+[45] S. Sobajima, J.F. Kompel, J.S. Kim, C.J. Wallach, D.D. Robertson, M.T. Vogt, J.D.
+Kang, L.G. Gilbertson, A slowly progressive and reproducible animal model of
+intervertebral disc degeneration characterized by MRI, X-ray, and histology,
+Spine (Phila Pa 1976) 30 (1) (2005) 15–24.
+[46] B.M. Minogue, S.M. Richardson, L.A. Zeef, A.J. Freemont, J.A. Hoyland,
+Characterization of the human nucleus pulposus cell phenotype and
+evaluation of novel marker gene expression to define adult stem cell
+differentiation, Arthritis Rheum. 62 (12) (2010) 3695–3705.
+[47] C.R. Lee, D. Sakai, T. Nakai, K. Toyama, J. Mochida, M. Alini, S. Grad, A
+phenotypic comparison of intervertebral disc and articular cartilage cells in
+the rat, Eur. Spine J. 16 (12) (2007) 2174–2185.
+[48] C.L. Le Maitre, A. Pockert, D.J. Buttle, A.J. Freemont, J.A. Hoyland, Matrix
+synthesis and degradation in human intervertebral disc degeneration,
+Biochem. Soc. Trans. 35 (Pt 4) (2007) 652–655.
+[49] C.L. Le Maitre, A.J. Freemont, J.A. Hoyland, Accelerated cellular senescence in
+degenerate intervertebral discs: a possible role in the pathogenesis of
+intervertebral disc degeneration, Arthritis Res Ther. 9 (3) (2007) R45.
+[50] Z.F. Lu, B.Z. Doulabi, P.I. Wuisman, R.A. Bank, M.N. Helder, Influence of collagen
+type II and nucleus pulposus cells on aggregation and differentiation of
+adipose tissue-derived stem cells, J. Cell Mol. Med. 12 (6B) (2008) 2812–2822.
+[51] G. Fontana, D. Thomas, E. Collin, A. Pandit, Microgel microenvironment primes
+adipose-derived stem cells towards an NP cells-like phenotype, Adv Healthc
+Mater. 3 (12) (2014) 2012–2022.
+[52] C.T. Ching, D.H. Chow, F.Y. Yao, A.D. Holmes, Changes in nuclear composition
+following cyclic compression of the intervertebral disc in an in vivo rat-tail
+model, Med. Eng. Phys. 26 (7) (2004) 587–594.
+[53] J.C. Lotz, J.R. Chin, Intervertebral disc cell death is dependent on the magnitude
+and duration of spinal loading, Spine (Phila Pa 1976) 25 (12) (2000) 1477–
+1483.
+[54] J. Qiu, J. Li, G. Wang, L. Zheng, N. Ren, H. Liu, W. Tang, H. Jiang, Y. Wang, In vitro
+investigation on the biodegradability and biocompatibility of genipin crosslinked
+porcine acellular dermal matrix with intrinsic fluorescence, ACS Appl.
+Mater. Interfaces 5 (2) (2013) 344–350.
+[55] G. Kumar, M.S. Waters, T.M. Farooque, M.F. Young, C.G. Simon Jr., Freeform
+fabricated scaffolds with roughened struts that enhance both stem cell
+proliferation and differentiation by controlling cell shape, Biomaterials 33 (16)
+(2012) 4022–4030.
+[56] A.X. Sun, H. Lin, M.R. Fritch, H. Shen, P.G. Alexander, M. DeHart, R.S. Tuan,
+Chondrogenesis of human bone marrow mesenchymal stem cells in 3-
+dimensional, photocrosslinked hydrogel constructs: effect of cell seeding
+density and material stiffness, Acta Biomater. 58 (2017) 302–311.
+[57] L. Jiang, Z. Sun, X. Chen, J. Li, Y. Xu, Y. Zu, J. Hu, D. Han, C. Yang, Cells sensing
+mechanical cues: stiffness influences the lifetime of cell-extracellular matrix
+interactions by affecting the loading rate, ACS Nano 10 (1) (2016) 207–217.
+[58] P.S. Mathieu, E.G. Loboa, Cytoskeletal and focal adhesion influences on
+mesenchymal stem cell shape, mechanical properties, and differentiation
+down osteogenic, adipogenic, and chondrogenic pathways, Tissue Eng. Part B
+Rev. 18 (6) (2012) 436–444.
+[59] L.E. Clarke, J.C. McConnell, M.J. Sherratt, B. Derby, S.M. Richardson, J.A.
+Hoyland, Growth differentiation factor 6 and transforming growth factor-beta
+differentially mediate mesenchymal stem cell differentiation, composition,
+and micromechanical properties of nucleus pulposus constructs, Arthritis Res
+Ther. 16 (2) (2014) R67.
+[60] J.I. Sive, P. Baird, M. Jeziorsk, A. Watkins, J.A. Hoyland, A.J. Freemont,
+Expression of chondrocyte markers by cells of normal and degenerate
+intervertebral discs, Mol. Pathol. 55 (2) (2002) 91–97.
+[61] T.T. Tsai, A. Guttapalli, E. Oguz, L.H. Chen, A.R. Vaccaro, T.J. Albert, I.M. Shapiro,
+M.V. Risbud, Fibroblast growth factor-2 maintains the differentiation potential
+of nucleus pulposus cells in vitro: implications for cell-based transplantation
+therapy, Spine (Phila Pa 1976) 32 (5) (2007) 495–502.
+[62] J. Rutges, L.B. Creemers, W. Dhert, S. Milz, D. Sakai, J. Mochida, M. Alini, S. Grad,
+Variations in gene and protein expression in human nucleus pulposus in
+comparison with annulus fibrosus and cartilage cells: potential associations
+with aging and degeneration, Osteoarthritis Cartilage 18 (3) (2010) 416–423.
+[63] N. Kregar Velikonja, J. Urban, M. Frohlich, C. Neidlinger-Wilke, D. Kletsas, U.
+Potocar, S. Turner, S. Roberts, Cell sources for nucleus pulposus regeneration,
+Eur. Spine J. 23 (Suppl. 3) (2014) S364–S374.
+[64] Y.C. Huang, V.Y. Leung, W.W. Lu, K.D. Luk, The effects of microenvironment in
+mesenchymal stem cell-based regeneration of intervertebral disc, Spine J. 13
+(3) (2013) 352–362.
+[65] H. Li, Y. Tao, C. Liang, B. Han, F. Li, G. Chen, Q. Chen, Influence of hypoxia in the
+intervertebral disc on the biological behaviors of rat adipose- and nucleus
+pulposus-derived mesenchymal stem cells, Cells Tissues Organs. 198 (4)
+(2013) 266–277.
+[66] J. Wang, Y. Tao, X. Zhou, H. Li, C. Liang, F. Li, Q.X. Chen, The potential of
+chondrogenic pre-differentiation of adipose-derived mesenchymal stem cells
+for regeneration in harsh nucleus pulposus microenvironment, Exp. Biol. Med.
+(Maywood) 241 (18) (2016) 2104–2111.
+[67] E.J. Carragee, A.S. Don, E.L. Hurwitz, J.M. Cuellar, J.A. Carrino, R. Herzog, 2009
+ISSLS Prize Winner: does discography cause accelerated progression of
+degeneration changes in the lumbar disc: a ten-year matched cohort study,
+Spine (Phila Pa 1976) 34 (21) (2009) 2338–2345.
+[68] W. Koeller, S. Muehlhaus, W. Meier, F. Hartmann, Biomechanical properties of
+human intervertebral discs subjected to axial dynamic compression–influence
+of age and degeneration, J. Biomech. 19 (10) (1986) 807–816.
+[69] L.A. Setton, J. Chen, Mechanobiology of the intervertebral disc and relevance to
+disc degeneration, J. Bone Joint Surg. Am. 88 (Suppl. 2) (2006) 52–57.
+[70] Z. Zhou, M. Gao, F. Wei, J. Liang, W. Deng, X. Dai, G. Zhou, X. Zou, Shock
+absorbing function study on denucleated intervertebral disc with or without
+hydrogel injection through static and dynamic biomechanical tests in vitro,
+Biomed. Res. Int. 2014 (2014) 461724.
+[71] A. Perez-San Vicente, M. Peroglio, M. Ernst, P. Casuso, I. Loinaz, H.J. Grande, M.
+Alini, D. Eglin, D. Dupin, Self-healing dynamic hydrogel as injectable shockabsorbing
+artificial nucleus pulposus, Biomacromolecules 18 (8) (2017) 2360–
+2370.
+[72] J.C. Iatridis, M. Weidenbaum, L.A. Setton, V.C. Mow, Is the nucleus pulposus a
+solid or a fluid? Mechanical behaviors of the nucleus pulposus of the human
+intervertebral disc, Spine (Phila Pa 1976) 21 (10) (1996) 1174–1784.
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
 X. Zhou et al. / Acta Biomaterialia 71 (2018) 496–509 509

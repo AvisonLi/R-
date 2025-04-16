@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Article
 Human Virus-Derived Small RNAs Can Confer
 Antiviral Immunity in Mammals
@@ -1216,4 +1217,1224 @@ This is an open access article under the CC BY-NC-ND license (http://creativecom
 Figure 5B. VSR-Deficient HEV71 Triggers Antiviral RNAi Response in Human 293T Cells
 Immunity
 Correction
+=======
+Article
+Human Virus-Derived Small RNAs Can Confer
+Antiviral Immunity in Mammals
+Graphical Abstract
+Highlights
+d Human enterovirus 71 (HEV71) protein 3A is a viral suppressor
+of RNAi (VSR)
+d VSR-deficient HEV71 induces viral siRNA production in
+somatic cells and mice
+d HEV71-derived siRNAs load into AGO and degrade cognate
+HEV71 RNA
+d The replication defects of VSR-deficient HEV71 can be
+rescued by Dicer deficiency
+Authors
+Yang Qiu, Yanpeng Xu, Yao Zhang, ...,
+Ligang Wu, Cheng-Feng Qin, Xi Zhou
+Correspondence
+qincf@bmi.ac.cn (C.-F.Q.),
+zhouxi@wh.iov.cn (X.Z.)
+In Brief
+It remains unclear if RNAi is an antiviral
+immunity in mammals. Qiu et al.
+demonstrate that a human enterovirus
+deficient in the RNAi suppression activity
+of 3A protein triggers virus-derived siRNA
+production, and this virus-induced RNAi
+response indeed plays antiviral roles in
+human somatic cells and mice.
+Qiu et al., 2017, Immunity 46, 992–1004
+June 20, 2017 ª 2017 Elsevier Inc.
+http://dx.doi.org/10.1016/j.immuni.2017.05.006
+i An update to this article is included at the end
+Immunity
+Article
+Human Virus-Derived Small RNAs
+Can Confer Antiviral Immunity in Mammals
+Yang Qiu,1,2,3,6 Yanpeng Xu,2,6 Yao Zhang,4,6 Hui Zhou,1,3 Yong-Qiang Deng,2 Xiao-Feng Li,2 Meng Miao,1,3 Qiang Zhang,1
+Bo Zhong,1 Yuanyang Hu,1 Fu-Chun Zhang,5 Ligang Wu,4 Cheng-Feng Qin,2,5,* and Xi Zhou1,3,7,*
+1State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China
+2State Key Laboratory of Pathogen and Biosecurity, Beijing Institute of Microbiology and Epidemiology, Beijing 100071, China
+3Laboratory of RNA Virology, Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, Hubei 430071, China
+4State Key Laboratory of Molecular Biology, Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese
+Academy of Sciences, Shanghai 200031, China
+5Guangzhou Eighth People’s Hospital, Guangzhou Medical University, Guangzhou 510060, China
+6These authors contributed equally
+7Lead Contact
+*Correspondence: qincf@bmi.ac.cn (C.-F.Q.), zhouxi@wh.iov.cn (X.Z.)
+http://dx.doi.org/10.1016/j.immuni.2017.05.006
+SUMMARY
+RNA interference (RNAi) functions as a potent antiviral
+immunity in plants and invertebrates; however,
+whether RNAi plays antiviral roles in mammals remains
+unclear. Here, using human enterovirus 71
+(HEV71) as a model, we showed HEV71 3A protein
+as an authentic viral suppressor of RNAi during viral
+infection. When the 3A-mediated RNAi suppression
+was impaired, the mutant HEV71 readily triggered
+the production of abundant HEV71-derived small
+RNAs with canonical siRNA properties in cells and
+mice. These virus-derived siRNAs were produced
+from viral dsRNA replicative intermediates in a
+Dicer-dependent manner and loaded into AGO, and
+they were fully active in degrading cognate viral
+RNAs. Recombinant HEV71 deficient in 3A-mediated
+RNAi suppression was significantly restricted in
+human somatic cells and mice, whereas Dicer deficiency
+rescued HEV71 infection independently of
+type I interferon response. Thus, RNAi can function
+as an antiviral immunity, which is induced and suppressed
+by a human virus, in mammals.
+INTRODUCTION
+RNAi is an evolutionarily conserved post-transcriptional gene
+silencing mechanism in eukaryotes (Carthew and Sontheimer,
+2009; Kim et al., 2009) and has been well recognized as an innate
+antiviral immunity in fungi, plants, and invertebrates. In the
+process of antiviral RNAi, viral dsRNA (double-stranded RNA)
+replicative intermediates generated during RNA virus replication
+are recognized and processed by Dicer endoribonuclease into
+21- to 23-nucleotide (nt) siRNAs (small interfering RNAs) that
+contain perfectly base-paired central regions with 2-nt 30 overhangs
+(Ding, 2010). These virus-derived siRNAs (also named
+viral siRNAs) are then transferred by Dicer into Argonaute
+(AGO) proteins, the core components of RNA-induced silencing
+complex (RISC), to direct the cleavage of cognate viral RNAs.
+Thus, the fundamentals of antiviral RNAi immunity are as follows:
+(1) viral infection induces the production of virus-derived siRNAs,
+and (2) more importantly, these virus-derived siRNAs or virusinduced
+RNAi responses have antiviral activity (Cullen et al.,
+2013; Ding, 2010).
+However, when small RNAs in a variety of mammalian somatic
+cells infected by various RNA viruses, including influenza A virus
+(IAV) and picornavirus, were subjected to deep sequencing,
+canonical siRNA species derived from viral RNAs were either
+not detected or detected at extremely low levels with an overwhelming
+bias for one strand (Kennedy et al., 2015; Parameswaran
+et al., 2010; Weng et al., 2014). Additionally, genetic
+ablation of Dicer or AGO2, the major AGO protein responsible
+for the siRNA pathway, failed to enhance virus replication in
+mammalian somatic cells (Bogerd et al., 2014a; Kennedy et al.,
+2015; Parameswaran et al., 2010). Thus, it remains an open
+question whether RNAi functions as an antiviral defense in mammals,
+particularly in differentiated mammalian somatic cells.
+Unlike mammalian somatic cells, embryonic stem cells (ESCs)
+have been found to produce readily detectable siRNAs from long
+dsRNAs (Nejepinska et al., 2012; Tam et al., 2008; Watanabe
+et al., 2008). It has been reported that murine ESCs (mESCs) infected
+by encephalomyocarditis virus (EMCV) produced abundant
+viral siRNAs, although the differentiation of mESCs resulted
+in loss of both pluripotency and viral siRNA production (Maillard
+et al., 2013). Moreover, murine oocytes have been found to express
+an N-terminally truncated isoform of Dicer that can process
+dsRNAs into siRNAs (Flemr et al., 2013). Recently, Cullen
+and colleagues reported that ectopic expression of an N-terminally
+truncated human Dicer mutant could produce readily
+detectable viral siRNAs in IAV-infected human somatic cells.
+However, the shorter Dicer isoform is rodent specific and not
+naturally present in human cells (Kennedy et al., 2015). Therefore,
+mESCs and probably certain germline cells, which are
+undifferentiated and retain some pluripotency, are intrinsically
+different with differentiated somatic cells in producing siRNAs.
+Interestingly, Ding and colleagues found that infection by a
+Nodamura virus (NoV) mutant that does not express protein B2
+triggered the production of readily detectable NoV-derived
+siRNAs in rodent somatic cell lines and suckling mice (Li et al.,
+992 Immunity 46, 992–1004, June 20, 2017 ª 2017 Elsevier Inc.
+Figure 1. HEV71 3A Suppresses Dicer-Mediated siRNA Biogenesis by Sequestrating dsRNA In Vitro
+(A) 293T cells were co-transfected with a plasmid encoding EGFP (0.1 mg) and EGFP-specific shRNA (0.3 mg), together with either empty plasmid or a plasmid
+encoding HEV71 nonstructural protein or NoV B2 (NB2) (0.3 mg for each). Cells transfected with siRNA of AGO2 or NC siRNA (50 nM for each) were used as
+(legend continued on next page)
+Immunity 46, 992–1004, June 20, 2017 993
+2013). However, NoV is an insect virus, but not a mammalian
+virus that belongs to the same positive-stranded RNA virus
+family (Nodaviridae) with other insect nodaviruses such as Flock
+House virus (FHV) and Wuhan nodavirus (Li et al., 2002; Qi et al.,
+2012). Most insect or plant RNA viruses encode viral suppressors
+of RNAi (VSRs) to antagonize antiviral RNAi (Ding, 2010).
+Nodaviral B2 proteins are among the best-characterized VSRs
+and suppress antiviral RNAi in insects by sequestering viral
+dsRNAs and targeting RNAi pathway component (Aliyari et al.,
+2008; Li et al., 2002; Qi et al., 2012). Moreover, some mammalian
+viral proteins, like IAV NS1 and Ebola virus (EBOV) VP35, have
+been reported to suppress RNAi in vitro (Haasnoot et al., 2007;
+Li et al., 2016). Therefore, the identification of an authentic VSR
+encoded by a mammalian virus would be the key step to
+answering the fundamental questions: (1) can viral infection
+induce viral siRNA production?; and (2) does virus-induced
+RNAi have antiviral activity in mammals?
+Enteroviruses are a genus of positive-stranded RNA viruses
+in the family Picornaviridae and include numerous important human
+pathogens, such as poliovirus, HEV71, echoviruses, and
+coxsackieviruses that annually infect around 3,000,000,000 people
+and are responsible for a wide spectrum of diseases. Especially,
+HEV71 infection in infants and young children causes
+hand-foot-and-mouth disease (HFMD) and severe neurological
+manifestations and has emerged as one of the major global
+threats to public health. In addition, human enteroviruses are
+among the best-characterized RNA viruses and have served as
+important models in the development of modern virology (Shih
+et al., 2011). Here, we first identified the nonstructural protein
+3A of HEV71 as the VSR that inhibits Dicer-mediated siRNAs
+biogenesis by sequestrating dsRNAs. When the 3A-mediated
+suppression of RNAi was impaired by point mutations, the
+VSR-deficient mutant viruses effectively triggered RNAi response
+in both mammalian somatic cells and mice, producing
+abundant HEV71-derived small RNAs with all of the properties
+of canonical siRNAs. These HEV71-derived siRNAs are Dicerdependently
+produced from viral dsRNA replicative intermediates,
+loaded into AGO-RISC, and are fully active to degrade
+cognate viral genomic RNAs. Most importantly, the VSR-deficient
+mutants of HEV71 are significantly restricted in human
+somatic cells and mice, while Dicer deficiency successfully
+restored HEV71 infection independently of type I interferon
+(IFN-I) response. Overall, our findings highlight that RNAi can
+indeed function as antiviral immunity in mammals, and here,
+we showed that it is induced and suppressed by HEV71.
+RESULTS
+HEV71 Nonstructural Protein 3A Is a Potential VSR
+To determine whether HEV71 encodes proteins that work as potential
+VSRs, we examined all HEV71-encoded nonstructural
+proteins via a reversal-of-silencing assay. In this assay, cultured
+human HEK293T cells were co-transfected with the plasmids
+encoding EGFP and EGFP-specific small hairpin RNA (shRNA),
+which is cleaved by Dicer to produce siRNA, together with vectors
+for HEV71 nonstructural proteins. Two days after transfection,
+EGFP mRNA levels were determined by northern blot (Figure
+1A), and the protein expression was determined by western
+blot (Figure S1A). The EGFP-specific shRNA eliminated the
+EGFP transcripts (Figure 1A), confirming that the RNAi is effective.
+We found that the expression of the 3A protein and its precursor
+3AB effectively rescued the accumulation of EGFP
+mRNA, indicating that 3A is a potential VSR (Figure 1A, lanes 8
+and 9). In addition, ectopically expressing NoV B2 or knocking
+down AGO2 (Figure S1B) expectedly inhibited the shRNAinduced
+RNAi (Figure 1A, lanes 4 and 12; Figure S1C).
+Since the RNAi pathway is conserved from plants to animals,
+we sought to determine if 3A is also able to suppress dsRNAinduced
+RNAi in insect cells. Our data showed that ectopic
+expression of HEV71 3A effectively suppressed the dsRNAinduced
+RNAi in cultured Drosophila S2 cells (Figure S1D, lane
+5). Moreover, ectopically expressing FHV B2 (FB2), another
+well-established VSR, or knocking down fly Dicer-2 or AGO2
+(Figure S1E) also suppressed RNAi (Figure S1D), as expected.
+To further confirm the in vitro RNAi suppression activity of
+HEV71 3A, we adopted another canonical assay in cultured S2
+cells. In this assay, a VSR-deficient mutant of FHV replicon
+(pFR1-DB2) was expressed in S2 cells. Owing to a lack of B2,
+this mutant replicon was unable to suppress antiviral RNAi, resulting
+in the near clearance of self-replicated FHV RNA1 and
+RNA3 in S2 cells (Figure S1F, compared lanes 1 and 2). This
+replication defect of the VSR-deficient replicon could be partially
+rescued by the ectopic expression of either FHV B2 or HEV71 3A
+(Figure S1F, lanes 3 and 4) or by the knockdown of fly AGO2
+controls. At 48 hr after transfection, total RNAs were extracted, and the level of EGFP mRNA was examined via northern blotting with DIG-labeled RNA probe
+targeting the egfp ORF 500–720 nt. 18 s rRNA was used as loading control.
+(B) Increasing amount (0–4 mM) of MBP-fusion HEV71 3A (MBP-3A) was incubated with 0.1 mM 200-nt DIG-labeled dsRNA at 37C for 30 min. Complexes were
+separated on 6% native-PAGE, transferred to membranes, and then incubated with anti-DIG antibody conjugated with alkaline phosphatase. For competition
+assays, 2 mM of MBP-3A was incubated with 0.1 mM DIG-labeled dsRNA and increasing amounts (0.2–5 mM) of unlabeled dsRNA or ssRNA.
+(C) 293T cells were co-transfected with a plasmid encoding EGFP (0.1 mg) and EGFP-specific shRNA (0.3 mg), together with the plasmids encoding HEV71 3A WT
+or mutants (0.3 mg for each). The EGFP mRNA levels were determined by qRT-PCR with that in the presence of WT 3A defined as 100%. Data represent means
+and standard deviations (SD) of three independent experiments. Cell lysates were also subjected to western blotting with anti-Flag and anti-a-Tubulin antibodies.
+(D) Northern blotting of EGFP mRNA levels of 293T cells co-transfected with a plasmid encoding EGFP and EGFP-specific shRNA, together with either empty
+plasmid or the plasmid encoding NB2, 3A, or its mutants (3AD23A and 3AR34A).
+(E) Increasing amounts (1–16 mM) of MBP-3AD23A or MBP-3AR34A were incubated with 0.1 mM 200-nt DIG-labeled dsRNA at 37C for 30 min. Complexes were
+analyzed as noted above.
+(F) 293T cells were co-transfected with EGFP-specific shRNA (0.3 mg) and either the increasing amounts (0.1–0.3 mg) of the plasmid encoding 3A or its mutants
+(3AD23A and 3AR34A). Total RNAs were subjected to northern blotting with either DIG-labeled oligo RNA probe targeting EGFP-shRNA or U6. The synthetic 21- and
+25-nt RNAs were used as size markers. Cell lysates were also subjected to western blotting with anti-Flag and anti-a-Tubulin antibodies.
+(G) The purified proteins as indicated were incubated with 0.4 mg 200-nt dsRNA together with a human recombinant Dicer (0.5 U) at 37C for 16 hr. The RNAs were
+separated on 7 M urea-15% PAGE and visualized by staining with ethidium bromide. Each experiment has been repeated at least three times independently.
+See also Figure S1.
+994 Immunity 46, 992–1004, June 20, 2017
+(Figure S1F, lane 5). Together, these results showed that HEV71
+3A can block RNAi in cells and is a potential VSR.
+HEV71 3A Suppresses Dicer-Mediated siRNA
+Biogenesis by Sequestrating dsRNA In Vitro
+The 3A proteins encoded by poliovirus and Coxsackievirus B3
+(CVB3) form a homodimer with each monomer consisting of
+two antiparallel a helices (Strauss et al., 2003; Wessels et al.,
+2006) (Figure S1G), which is structurally similar to some VSRs
+such as nodaviral B2 that sequester dsRNA from Dicer cleavage
+(Qi et al., 2012). To determine if HEV71 3A binds to long dsRNA,
+gel shift assays were conducted by incubating in-vitro-transcribed
+200-nt digoxin (DIG)-labeled dsRNA with increasing
+concentrations of recombinant MBP-fusion 3A (MBP-3A, Figure
+S1H). In addition, unlabeled dsRNAs and ssRNAs were
+used as competitors to further evaluate the affinities of 3A with
+dsRNA and ssRNA. The presence of 3A apparently resulted in
+the gel mobility shift of DIG-labeled dsRNA (Figure 1B, lanes
+3–6), and only the unlabeled dsRNAs efficiently competed with
+DIG-labeled dsRNAs (Figure 1B, lanes 7–9), while the ssRNA
+competitor had a minimal effect (Figure 1B, lanes 10–12). These
+results demonstrate that HEV71 3A can bind long dsRNA in vitro.
+To identify the critical residues responsible for dsRNA-binding
+and RNAi suppression activities of HEV71 3A, we performed
+multiple sequence alignments of the positively charged residues
+of enterovirus 3As (Figure S1G) and examined the single-point
+mutations of conserved arginine and lysine using the reversalof-
+silencing assay in 293T cells. In addition, because dimerization
+is required for VSR activities of many plant and insect viruses
+(Qi et al., 2012), we also introduced a point mutation of Asp23,
+located in the a2 helix of 3A, which is identical in all enteroviruses
+sequenced to date (Figure S1G) and previously reported to be
+essential for 3A dimerization of poliovirus and CVB3 (Strauss
+et al., 2003; Wessels et al., 2006). Our data showed that Asp23
+was also required for dimerization of HEV71 3A (Figure S1I).
+Thus, we performed quantitative RT-PCR (qRT-PCR) to determine
+the effects of different mutants on EGFP mRNA levels
+and found that mutation of conserved Asp23 or Arg34 to Alanine
+(D23A or R34A) substantially reduced the ability of 3A to
+suppress RNAi (Figure 1C). These results were further confirmed
+by northern blot (Figure 1D, lanes 8 and 9). Furthermore, we
+found that either the D23A or R34A mutation abolished
+dsRNA-binding activity of HEV71 3A (Figure 1E), indicating that
+3A requires long dsRNA-binding activity to suppress RNAi.
+Next, we sought to determine whether HEV71 3A could
+sequestrate dsRNA from Dicer cleavage in human somatic cells.
+Small RNAs were harvested from 293T cells co-expressing
+shRNA together with 3A or its mutants and then subjected to
+northern blotting with a DIG-labeled RNA oligo probe that
+recognizes both the precursor shRNA (pre-shRNA) and mature
+siRNA. As shown in Figure 1F, the accumulation of 22-nt
+Dicer-cleaved siRNA was substantially lower in cells expressing
+3A than in cells expressing empty vectors. As expected, 3AD23A
+and 3AR34A failed to suppress the processing of shRNA into
+siRNA (Figure 1F, lanes 5–8).
+To further confirm the direct role of HEV71 3A in protecting
+dsRNA from Dicer cleavage, we adopted an in vitro assay in
+which purified 200-nt dsRNA, recombinant human Dicer, and
+MBP-fusion 3A or its mutants were added. While dsRNA was
+efficiently processed into 22-nt siRNA in the presence of
+MBP alone, MBP-3AD23A, or MBP-3AR34A, the addition of
+MBP-3A protected dsRNA from cleavage by Dicer in a dosedependent
+manner (Figure 1G). Altogether, we conclude that
+HEV71 3A suppresses RNAi by sequestrating dsRNA from Dicer
+cleavage in vitro.
+HEV71 3A Inhibits Dicer-Dependent Production of Virus-
+Derived siRNAs in Human Somatic Cells
+To investigate the VSR function of 3A in an authentic viral infection
+context, we introduced the D23A or R34A mutation in the 3A
+coding region of the infectious clone of the HEV71 strain VR1432
+(Figure 2A). The wild-type (WT) and mutant viruses were all viable
+and successfully recovered in human rhabdomyosarcoma (RD)
+cells (Figures 2B and 2C). The mutant viruses (HEV71D23A and
+HEV71R34A) showed weaker growth patterns than did the WT
+virus (HEV71WT) in RD and 293T cells (Figure 2D), suggesting
+that the loss of VSR function probably contributes to the restriction
+of HEV71 replication.
+The presence of readily detectable viral siRNAs within infected
+cells has been recognized as a marker of antiviral RNAi (Ding,
+2010). To determine if HEV71 infection triggers the production
+of viral siRNAs, total RNAs were extracted from 293T cells
+infected with HEV71WT at a multiplicity of infection (MOI) of 10
+at 24 hr post-infection (hpi) and then subjected to deep
+sequencing. Abundant viral small RNAs (vsRNAs), 18–28 nt in
+length, were detected in the HEV71WT-infected 293T cells (Figure
+3A). These vsRNAs failed to cluster as predicted 22 ± 1-nt
+Dicer products (canonical siRNAs) but instead were presented
+as predominantly nonspecific viral RNA degradation products
+with random size distribution and an overwhelming bias for positive
+strands (97.38%) (Table S1), similar to those observed in
+mammalian somatic cells infected by poliovirus and IAV (Kennedy
+et al., 2015; Parameswaran et al., 2010). Besides, a previous
+study by Weng et al. identified several HEV71WT-derived
+vsRNAs that are cleavage products from the internal ribosome
+entry site (IRES), that vary in size, and that lack siRNA properties
+(Weng et al., 2014), consistent with our observation.
+Next, we infected 293T cells or a characterized Dicer-deficient
+293T cell line (NoDice), whose all three copies of the DICER1
+gene are inactivated by gene editing (Bogerd et al., 2014b),
+with HEV71D23A. Of note, HEV71D23A was used here because
+the D23A mutation was more efficient than R34A in eliminating
+the in vitro RNAi suppression activity of 3A (Figure 1G) and
+restricting HEV71 replication in cells (Figure 2D). As shown in Figure
+3A and Table S1, although vsRNAs detected in HEV71D23Ainfected
+cells were less abundant than those in HEV71WTinfected
+cells, which were likely due to the greatly reduced
+mutant virus genomic RNA, the positive-strand bias was substantial
+reduced (67.89%). Moreover, vsRNA reads in 22 ± 1-nt
+size were divided approximately equally into positive (59.95%)
+and negative strands (40.41%), revealing apparent peaks of
+vsRNAs of both polarities (Figure 3A). Further bioinformatics
+analysis showed that the HEV71D23A library was enriched for a
+population of 22-nt vsRNAs that contained a 20-nt perfectly
+base-paired duplex region with 2-nt 30 overhangs (Figure 3B,
+peak ‘‘2’’), which were not found in the vsRNAs of HEV71WT
+(Figure 3B). Together, these results show that a significant
+level of vsRNAs with the properties of canonical siRNAs were
+Immunity 46, 992–1004, June 20, 2017 995
+produced in 293T cells infected with HEV71D23A, and this finding
+was also confirmed by an independently repeated experiment
+(Figures S2A and S2B). Interestingly, when Dicer is deficient by
+gene editing, far fewer vsRNA reads were detected in in NoDice
+293T cells infected by HEV71D23A (Table S1), and the remaining
+vsRNAs did not show any of the siRNA properties observed in
+normal 293T cells infected with the same mutant virus (Figure 3A
+and 3B), showing that the production of canonical viral siRNAs is
+Dicer-dependent.
+Analysis of the genomic origin of vsRNA reads predicted to
+form siRNA duplexes (22-nt size) showed that HEV71D23Aderived
+siRNAs were highly concentrated at the 50 termini of
+the HEV71 genome (73.8% of total reads in 22-nt size) in the
+highly structured IRES (Figure 3C and Figure S2C). Notably,
+94.9% of the negative-stranded vsRNA reads in 22-nt size
+were derived from the terminal regions of antigenomic RNAs
+(Figure 3C). These terminal vsRNA reads formed successive
+(or phased) complementary pairs of viral siRNAs (Figures 3D
+and 3E), and none of the reversed sequences of negative-strand
+vsRNA reads from the terminal regions could be mapped to
+positive-stranded HEV71 genomic RNA (Figure 3F) even when
+two nucleotide mismatches were allowed, showing that negative-
+stranded vsRNA reads were derived from antigenomic
+RNAs produced by viral RNA replication. Together, our results
+show that the viral siRNAs in HEV71D23A-infected 293T cells
+were predominantly derived from Dicer processing of the termini
+of viral dsRNA replicative intermediates, but not viral RNA stem
+structures.
+Production of Abundant Viral siRNAs in Human Somatic
+Cells Infected with VSR-Deficient HEV71
+We next sought to determine whether HEV71-derived siRNAs
+were abundant enough to be readily detectable by northern
+blot. Discrete bands in the 21- to 22-nt size range were detected
+in 293T cells infected with HEV71D23A (Figure 4A, lanes 5–7) by
+using two different RNA oligo probes complementary to two
+negative-stranded viral siRNAs (marked by stars in Figure 3E).
+The HEV71D23A-derived siRNAs also accumulated to high levels
+Figure 2. The Replication of 3A-Deficient Mutants of HEV71 Was Inhibited
+(A) HEV71 genome and the mutation sites of D23A and R34A of 3A.
+(B) RD cells were infected with HEV71WT, HEV71D23A, or HEV71R34A at an MOI of 10. At 24 hpi, cells were subjected to indirect fluorescent assay (IFA) using anti-
+VP1 antibody (green). The cell nuclei were stained with DAPI (blue). The merged image represents the digital superimposition of green and blue signals.
+(C) The plaque morphology of HEV71WT, HEV71D23A, and HEV71R34A.
+(D) RD or 293T cells were infected with HEV71WT, HEV71D23A, or HEV71R34A at an MOI of 10. Viral titers were measured at the indicated times using standard
+plaque assays in RD cells.
+996 Immunity 46, 992–1004, June 20, 2017
+Figure 3. Production of HEV71-Derived siRNAs in Human Somatic Cells
+(A) Size distribution and abundance (counts per million of total mature miRNAs, CPM) of total vsRNAs sequenced from 293T cells or NoDice 293T cells infected
+with HEV71WT or HEV71D23A at an MOI of 10 at 24 hpi. Red, positive-stranded vsRNAs; blue, negative-stranded vsRNAs.
+(B) Total pairs of complementary 22-nt vsRNAs derived from HEV71WT or HEV71D23A in each distance category between 50 and 30 ends of a complementary
+vsRNA pair, showed as 2 for pairs with 2-nt overhang at the 30 end of each strand defined as the canonical viral siRNAs (vsiRNAs).
+(legend continued on next page)
+Immunity 46, 992–1004, June 20, 2017 997
+in human RD cells (Figure 4B, lanes 5 and 6). Moreover, viral
+siRNAs were also produced in RD cells infected with HEV71R34A
+(Figure 4B, lane 9). These results provide an independent
+verification of the production, size, and abundance of the
+deep-sequenced HEV71-derived siRNAs. In contrast to infection
+with 3A-deficient HEV71, viral siRNAs were undetectable in
+either 293T or RD cells infected with HEV71WT (Figure 4A, lanes
+2–4; Figure 4B, lanes 1–3), indicating that the biogenesis of the
+HEV71-derived siRNAs was suppressed by 3A expressed in
+cis from the viral genome, consistent with the results of deep
+sequencing (Figure 3A).
+Together, our findings show that HEV71 3A does function as
+an authentic VSR in a viral infection context, and when the
+3A-mediated suppression of RNAi was genetically impaired in
+HEV71,RNAi response was effectively induced to produce readily
+detectable Dicer-dependent viral siRNAs in human somatic cells.
+RNAi Plays an Antiviral Role in Human Somatic Cells
+Upon confirming that RNAi response could be triggered by infection
+of VSR-deficient HEV71, but not WT HEV71, we sought to
+determine if RNAi plays an antiviral role in HEV71-infected
+human somatic cells. To this end, human 293T or RD cells
+were infected with WT or VSR-deficient HEV71, and viral RNA
+accumulation, virus titer, virion production, and viral siRNA production
+were determined. As expected, the viral RNA accumulation
+and virion production of HEV71D23A or HEV71R34A
+were restricted in both 293T and RD cells (Figures 5A, 5B, and
+S3A–S3D), consistent with the virus titer assays (Figures 2D
+and S4A and S4B). Correspondingly, significant amounts of
+viral siRNAs, readily detected by northern blot, were produced
+in cells infected with HEV71D23A or HEV71R34A, but not HEV71WT
+(Figures 4A, 4B, 5B, and S3B).
+Moreover, if RNAi response is indeed antiviral, the rescue of
+VSR-deficient viruses should be observed in RNAi-compromised
+cells (Cullen et al., 2013). Our data showed that
+viral RNA replication and virion production of HEV71D23A
+or HEV71R34A were rescued by ectopic expression of NoV
+B2 or HEV71 3A, but not the VSR-deficient mutant of B2
+(B2R59Q, also termed ‘‘mB2’’) or 3A (3AD23A) (Figures 5A, 5B
+and S3A–S3D). Correspondingly, viral siRNA biogenesis was
+blocked by ectopic expression of B2 or 3A, but not mB2 or
+3AD23A (Figures 5B and S3B, lanes 4–7). More importantly,
+the deficiency of Dicer in 293T or RD cells efficiently rescued
+the replication of HEV71D23A or HEV71R34A (Figures 5A, 5B,
+S3A–S3D, and S4A–S4D). As expected, Dicer deficiency eliminated
+viral siRNA production (Figures 5B and S3B, lane 8),
+consistent with our deep sequencing data (Table S1). Therefore,
+our data show that VSR-deficient viruses can be rescued in
+(C) The distribution of vsRNA reads (22-nt size) in the positive- and negative-stranded HEV71 genome and the relative abundances of positive- and negativestranded
+vsRNAs are indicated.
+(D) A close-up view of the distribution of vsRNA reads in the 50-terminal 800-nt region of HEV71 genome.
+(E) Read sequences along two indicated segments of HEV71 genome. Read counts (in brackets), read length, and genomic position are indicated. The RNAs
+complementary to the negative-strand vsiRNAs marked by a star were used as the probes for northern blot.
+(F) The sequences of negative-stranded HEV71D23A-derived vsRNA reads (5039 reads) in the 50-terminal regions were reversed and mapped to the sequences of
+positive-stranded HEV71D23A genome. 0–2 nt mismatches were allowed for mapping.
+See also Figure S2 and Table S1.
+Figure 4. Detection of HEV71-Derived siRNAs by Northern Blot
+(A) Northern blot of vsiRNAs in 293T cells infected with HEV71WT or HEV71D23A at an MOI of 10 at 6, 12, and 24 hpi. The two vsiRNA probes were indicated in (A).
+The same set of RNA and protein samples were used for northern or western blotting to detect miR-92a, U6, viral VP1, 3A and 3AB proteins or a-Tubulin. The
+synthetic 21- and 25-nt RNAs were used as size markers.
+(B) Northern blot of vsiRNAs in RD cells infected with the same titer (MOI = 10) of HEV71WT, HEV71D23A, or HEV71R34A at 6, 12, and 24 hpi.
+998 Immunity 46, 992–1004, June 20, 2017
+RNAi-compromised human somatic cells, and the rescuing
+effect closely corresponds to the suppression of viral siRNA
+production.
+To evaluate whether 3A plays any role in IFN response, WT or
+NoDice 293T cells were infected by HEV71WT or HEV71D23A. We
+found that the induction of IFN-b had no obvious difference at 6
+Figure 5. VSR-Deficient HEV71 Triggers Antiviral RNAi Response in Human 293T Cells
+(A) 293T or NoDice 293T cells were transfected with expression vector for NoV B2, mB2 (B2R59Q), HEV71 3A, or 3AD23A or treated with Ruxolitinib (2 mM) as
+indicated and then infected with HEV71WT or HEV71D23A at an MOI of 10. At 6, 12, and 24 hpi, the levels of HEV71 genomic RNAs were determined by qRT-PCR,
+and the level of HEV71D23A RNA in 293T cells at 6 hpi was defined as 1. All data represent means and SD of three independent experiments. *p < 0.05, **p < 0.01,
+***p < 0.001 as measured by two-way ANOVA (GraphPad Prism).
+(B) 293T cells, NoDice 293T cells, or 293T cells ectopically expressing B2, mB2, 3A, or 3AD23A were infected with the same titer (MOI = 10) of HEV71WT or
+HEV71D23A at 24 hpi, and the vsiRNAs were detected via northern blotting. The same set of RNA and protein samples were used for northern or western blotting to
+detect precursor miR-92a (pre-miR-92a), miR-92a, U6, ectopically expressed B2 and 3A proteins, HEV71 VP1, 3A and 3AB proteins, host Dicer (DCR) and AGO
+proteins, or a-Tubulin as indicated. The same cell lysates were subjected to RNA-IP with anti-pan AGO antibody, and western and northern blots were performed
+to detect precipitated AGO and AGO-bound vsiRNAs and miR-92a.
+(C) Schematic diagramof the plasmid that transcribes the mRNA containing the egfp ORF followed by the 600–700 or 1200–1300 nt region of the HEV71 genome
+(EGFP-HEV71600–700 and EGFP-HEV711200–1300). 293T or 293T NoDice cells were transfected with the plasmid encoding either EGFP, EGFP-HEV71600–700, or
+EGFP-HEV711200–1300, and 2 hr after transfection, cells were infected with the same titer (MOI = 10) of HEV71WT or HEV71D23A. At 24 hpi, total RNAs were
+extracted and subjected to northern blotting to detect EGFP mRNA.
+(D) 293T cells or 293T cells ectopically expressing 3A or 3AD23A were infected with the same titer (MOI = 10) of HEV71WT or HEV71D23A as indicated. At 24 hpi, cell
+lysates were prepared and subjected to RNA-IP with anti-3A antibody. The precipitated RNAs were treated in the presence or absence of RNase I or RNase III and
+then detected by northern blotting using RNA probes targeting positive- and negative-stranded HEV71 genomic 1–700 nt. Precipitated 3A and 3AB proteins were
+detected by western blots with anti-3A antibody. Each experiment has been repeated at least three times independently.
+See also Figure S3, S4, and S5.
+Immunity 46, 992–1004, June 20, 2017 999
+or 12 hpi with either WT or mutant virus and was only moderately
+more enhanced by HEV71D23A at 24 hpi (Figures S4E and S4F).
+Additionally, ectopically expressing 3A moderately inhibited
+polyI:C-stimulated IFN-b induction in 293 cells stably expressing
+TLR3, comparing with the strong effect of EBOV VP35, a wellknown
+IFN-I antagonist (Figure S4G). Besides, ectopic expression
+of 3A did not inhibit the induction of IFN-stimulated genes
+(ISGs) (Figure S4H). Thus, HEV71 3A has a minor inhibitory effect
+on IFN-I induction in cells.
+To exclude the potential interference of IFN-I response, we
+treated WT or NoDice 293T cells infected by HEV71D23A with
+Ruxolitinib, a well-known JAK1 and JAK3 inhibitor (Mesa et al.,
+2012), to block IFN-I response. We found that the RNA accumulation
+of HEV71D23A in Ruxolitinib-treated Dicer-deficient cells
+was significantly higher than that in Ruxolitinib-treated WT cells
+(Figure 5A), showing that the rescuing effect of compromising
+RNAi on viral replication is independent of IFN-I response.
+Interestingly, continuous culturing of HEV71R34A resulted in
+two different spontaneous mutations, i.e., mutations to WT and
+Valine (V), and HEV71R34V exhibited similar plaque and growth
+patterns with HEV71WT and did not trigger viral siRNA production
+in RD cells (Figure S5), showing that 3AR34V also has VSR activity.
+The rapid reverse mutations of HEV71R34A are probably due to
+the pressure of natural selection, further confirming the importance
+of VSR in viral replication.
+Together, our data show that RNAi indeed functions as an
+antiviral immunity in an IFN-independent manner in human somatic
+cells.
+HEV71-Derived siRNAs Load into AGO and Are Active to
+Degrade Cognate Viral RNA Sequence
+In mammalian RNAi pathway, siRNAs mainly load into AGO2, the
+only mammalian AGO that exhibits cleavage activity, to guide the
+destruction of cognate RNA (Liu et al., 2004). To further confirm
+the antiviral role of virus-triggered RNAi response, we first sought
+to determine if HEV71-derived siRNAs can load into AGO-RISC.
+After infection of 293T or RD cells by WT or mutant viruses, small
+RNAs were subjected to RNA-immunoprecipitation (RNA-IP)
+with anti-pan AGO antibody. Our results showed that viral
+siRNAs in cells infected by HEV71D23A or HEV71R34A were coimmunoprecipitated
+with AGO (Figures 5B and S3B, bottom;
+Figure S3D, top).
+Subsequently, we sought to determine if these HEV71-derived
+siRNAs are really able to specifically guide the degradation of
+cognate HEV71 genomic RNAs. Because HEV71 genomic RNAs
+can self-replicate to generate viral dsRNAs in infected cells, it is
+difficult to distinguish whether the clearance of HEV71 RNAs is
+mediated by siRNA-guided AGO cleavage of HEV71 genomic
+RNA or by Dicer cleavage of HEV71 dsRNAs. To address this
+issue, we designed a plasmid that transcribes an mRNA containing
+egfp ORF followed by the sequences of 600–700 nt of
+the HEV71 genome, named ‘‘EGFP-HEV71600–700.’’ This region
+of the HEV71 genome contains no predicted RNA secondary
+structure (Figure S2C) and is complementary with a serial of
+viral siRNAsproducedin cells infected withHEV71D23A (Figure4A).
+Of note, the plasmid EGFP-HEV711200–1300, which was constructed
+using the same strategy but is not complementary
+with HEV71-derived siRNAs (Figure 3C), was used as a negative
+control. In addition, the EGFP-HEV71600–700 and EGFPHEV711200–
+1300 mRNAs are unable to generate dsRNAs, making
+them potential targets for HEV71-derived siRNA-guided RNAi,
+but not Dicer-mediated cleavage. As shown in Figure 5C, the
+mRNA levels of EGFP-HEV71600–700 were substantially reduced
+by infection withHEV71D23Acompared to infection withHEV71WT.
+Bycontrast, neitherHEV71D23A norHEV71WT showed any effect in
+cells expressing EGFP or EGFP-HEV711200–1300 (Figure 5C, lanes
+1–3 and 7–9). As expected, HEV71D23A-infection cannot reduce
+EGFP-HEV71600–700 mRNA level in NoDice cells (Figure 5C, lanes
+10–12).
+In conclusion, HEV71-derived siRNAs indeed load into AGO
+and are active to guide sequence-specific destruction of
+cognate viral RNA sequence in a Dicer-dependent manner.
+HEV71 3A Sequestrates Viral dsRNAs in Infected Cells
+Upon confirming that RNAi plays an antiviral role in human somatic
+cells, we sought to determine if the incapability of
+HEV71WT to trigger RNAi response and viral siRNA production
+is indeed due to the VSR activity of 3A in an authentic viral infection
+context. To this end, we performed RNA-IP with anti-3A antibody
+in the lysates prepared from 293T cells infected with
+HEV71WT or HEV71D23A. Total RNAs extracted from the inputs
+and the RNA-IP products were subjected to northern blotting
+by using RNA probes targeting positive- and negative-stranded
+HEV71 genomes 1–700 nt. Viral RNAs of both polarities were
+readily detected in RNA-IP products from 293T cells infected
+with HEV71WT (Figure 5D), while the complete viral genomic
+RNAs were detected in inputs (Figure S3E). The molecular
+weights of these viral RNAs spanned a broad spectrum,
+possibly consisting of RNA-IP-enriched replicative intermediates
+or degradation products (Figure 5D, lane 2). Moreover, the
+3A-bound viral RNAs were double-stranded, as they were susceptible
+to dsRNA-specific RNase III but resistant to ssRNAspecific
+RNase I (Figure 5D). In addition, ectopically expressed
+3A efficiently bound to viral RNAs, which were also doublestranded,
+in cells infected with HEV71D23A (Figure 5D, lane 4),
+consistent with our findings that ectopic expression of 3A
+rescued viral replication and suppressed viral siRNA biogenesis
+of VSR-deficient HEV71. On the other hand, both virally and
+ectopically expressed 3AD23A barely associated with HEV71
+dsRNAs in cells infected with HEV71D23A (Figure 5D, lanes 3
+and 5). Together, our data show that HEV71 3A sequestrated
+viral dsRNAs and could explain why virus-derived siRNAs were
+barely detectable in human somatic cells infected with WT virus
+whose VSR activity is potent and intact.
+Antiviral RNAi Restricts VSR-Deficient HEV71
+Replication in Primary Somatic Cells and in Mice
+We sought to expand our evaluation of viral siRNA biogenesis
+and antiviral effects of RNAi in primary somatic cells and animals.
+To this end, primary murine lung fibroblasts (MLFs) were isolated
+from 8- to 10-week-old WT or Ifnar1/ C57/B6 mice and infected
+with WT or D23A HEV71, respectively. Our data showed
+that the VSR deficiency substantially restricted the viral replication
+and virion production of HEV71 inWTor Ifnar1/ MLFs at 12
+or 24 hpi (Figures 6A and 6B), consistent with our observations in
+human 293T and RD cells (Figures 5 and S3). In addition, infection
+with HEV71D23A triggered the production of HEV71-derived
+siRNAs, which were readily detectable via northern blotting, in
+1000 Immunity 46, 992–1004, June 20, 2017
+Figure 6. VSR-Deficient HEV71 Triggers Viral siRNA Production and Shows Reduced Viral Replication and Pathogenicity in both MLFs and
+A129 Mice
+(A) Primary WT or Ifnar1/ MLFs, or WT and Ifnar1/ MLFs with Dicer knockdown via siRNAs (siDicer#1 and siDicer#2), were infected with HEV71WT or
+HEV71D23A at an MOI of 10. At 6, 12, and 24 hpi, the levels of HEV71 genomic RNAs were determined by qRT-PCR with that of HEV71D23A in WT MLFs at 6 hpi
+defined as 1. All data represent means and SD of three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.001 as measured by two-way ANOVA
+(GraphPad Prism).
+(B) Northern blotting of vsiRNAs in WT MLFs infected with the same titer (MOI = 10) of HEV71WT or HEV71D23A at 24 hpi. The same set of RNA and protein samples
+were used for northern or western blots to detect miR-21, U6, viral VP1, 3A and 3AB proteins, and a-Tubulin. The same cell lysates were subjected to RNA-IP with
+anti-pan AGO antibody, and western and northern blots were performed to detect precipitated AGO and AGO-bound vsiRNAs and miR-92a.
+(C) Northern blotting of vsiRNAs in WT or Ifnar1/ MLFs, or WT and Ifnar1/ MLFs with Dicer knockdown infected with the same titer (MOI = 10) of HEV71WT or
+HEV71D23A at 24 hpi. The same set of RNA samples were used for northern blots to detect precursor miR-21 (pre-miR-21), miR-21, and U6.
+(D) Groups of 1-day-old Ifnar1/ A129 mice (n = 5) were intracerebrally injected with 1 3 107 PFU of HEV71WT or HEV71D23A. The mortalities were monitored for
+15 days or until death. The significance between survival curves from each group was analyzed by Kaplan-Meier survival analysis with log-rank tests.
+(E) Groups of 1-day-old Ifnar1/ A129 mice (n = 3) intracerebrally injected the same titer of the viruses as noted in (D) were dissected at 6, 24, 48, and 120 hpi.
+Mouse brains were collected, homogenized, and then subjected to standard plaque assays for determining the viral titers. *p < 0.05, **p < 0.01, ***p < 0.001 as
+measured by two-way ANOVA (GraphPad Prism).
+(F) Total RNAs were extracted from the same mouse brain samples as noted in (E) and subjected to northern blotting with RNA probes targeting positive- or
+negative-stranded HEV71 genomic RNAs, viral siRNAs, miR-21, or U6. Ten times more RNAs were loaded for the detection of negative-stranded HEV71 genomic
+RNAs than for positive-stranded genomic RNAs. 18 s rRNA was used as loading controls. Each experiment has been repeated at least three times independently.
+See also Figure S6.
+Immunity 46, 992–1004, June 20, 2017 1001
+WT or Ifnar1/ MLFs (Figures 6B and 6C), while HEV71WT failed
+to do so (Figures 6B and 6C). Besides, our RNA-IP assay revealed
+that viral siRNAs produced in HEV71D23A-infected MLFs
+also loaded into AGO (Figure 6B, lane 3, bottom).
+Moreover, although IFN-b induction was moderately more
+enhanced by HEV71D23A than by HEV71WT in WT MLFs (Figure
+S6C), consistent with our observation in 293T cells (Figures
+S4E and S4F), the knockdown of Dicer in either WT or Ifnar1/
+MLFs (Figure S6A) efficiently rescued the replication of
+HEV71D23A (Figures 6A and S6B), further confirming that the antiviral
+role of RNAi is independent of IFN-I response. Besides, the
+Dicer deficiency expectedly eliminated the production of viral
+siRNAs in either cells (Figure 6C).
+Next, we determined the different antiviral responses against
+the WT and VSR-deficient mutant of HEV71 in Ifnar1/ A129
+mice that lack IFN-I receptors. Of note, the usage of Ifnar1/
+mice can exclude the potentially different effects of IFN-I
+response against the WT and mutant virus (Goubau et al.,
+2013). Groups of 1-day-old A129 mice were intracerebrally challenged
+with 13107 PFU of HEV71WT or HEV71D23A; and the mortalities
+of the infected mice were monitored for 2 weeks. As
+shown in Figure 6D, the HEV71WT-infected mice all died within
+5 days, whereas the HEV71D23A-infected mice all survived.
+Mouse brains derived from HEV71WT- or HEV71D23A-infected
+A129 mice at 6, 24, 48, and 120 hpi were extracted, and the
+virus titers were determined, showing that the replication
+of HEV71D23A was substantially restricted compared to that
+of HEV71WT (Figure 6E). Additionally, although the positivestranded
+HEV71 genomic RNAs were accumulated at high levels
+at 24 hpi in the brains of HEV71WT-infected mice (Figure 6F, lane
+1), they were accumulated at lower levels from 6–48 hpi and then
+reduced to an almost undetectable level at 120 hpi during
+HEV71D23A infection (Figure 6F, lanes 3–5). Besides, negativestranded
+antigenomic RNAs became readily detectable at 24
+and 48 hpi of HEV71D23A (Figure 6F, lanes 3 and 4), showing
+that HEV71D23A RNAs replicated but were rapidly cleared in infected
+mice. Furthermore, we found that the production of viral
+siRNAs was triggered by infection of A129 mice with HEV71D23A,
+but not HEV71WT, at 24 and 48 hpi (Figure 6F, lanes 3 and 4). The
+viral siRNAs became undetectable at 120 hpi (Figure 6F, lane 5),
+coinciding with the clearance of the replication products (i.e.,
+genomic and antigenomic RNAs) of HEV71D23A (Figure 6F,
+lane 5).
+In summary, our findings show that, similarly to that in human
+somatic cells, VSR-deficient HEV71 triggered the production of
+readily detectable virus-derived siRNAs, which was closely
+associated with viral clearance and dramatically reduced pathogenicity,
+in a Dicer-dependent but IFN-independent manner
+both in primary mammalian somatic cells and mice.
+DISCUSSION
+It has been unclear whether infection by any mammalian viruses
+would induce and suppress antiviral RNAi response in mammals,
+mostly because mammalian somatic cells infected by diverse
+WT mammalian RNA viruses failed to produce readily detectable
+viral siRNAs or only express very low levels of vsRNAs that lack
+siRNA properties and are likely random degradation products of
+viral genomic RNAs. To solve this enigma, several possibilities
+have been proposed (Cullen et al., 2013; Kennedy et al., 2015;
+Li et al., 2013).
+One possibility is that WT Dicer expressed in mammalian
+somatic cells may lack the ability to produce siRNAs from long
+dsRNAs. This possibility is partly supported by previous findings
+that the N-terminal helicase domain of mammalian Dicer plays
+an autoinhibitory role on its siRNA processing activity (Flemr
+et al., 2013; Ma et al., 2008), and ectopic expression of an
+N-terminally truncated human Dicer mutant could produce viral
+siRNAs in human somatic cells infected by IAV (Kennedy et al.,
+2015). Moreover, it has been suggested that undifferentiated
+murine cells, like mESCs and oocytes, express an N-terminally
+truncated isoform of murine Dicer (Nejepinska et al., 2012;
+Tam et al., 2008; Watanabe et al., 2008), which may explain
+why mESCs produced viral siRNAs in response to EMCV infection
+(Maillard et al., 2013). However, these observations do not
+exclude the possibility that WT Dicer retains some siRNA producing
+ability. Indeed, although the short Dicer isoform is not
+naturally expressed in human or murine somatic cells, our data
+show that viral siRNAs were produced abundantly in human or
+murine somatic cells and mice infected by VSR-deficient
+HEV71, demonstrating that WT Dicer is still able to process viral
+dsRNAs into siRNAs. It is noteworthy that our finding and the
+aforementioned possibility are not mutually exclusive, as the
+N-terminal domain may partially inhibit but not abolish siRNA
+production, and such an autoinhibition of Dicer may be regulated
+by viral or host factors.
+The other possibility is that in the context of viral infection,
+viruses encode VSRs as an immune evasion mechanism that
+suppresses viral siRNA production in mammalian somatic
+cells. This possibility has been discussed (Cullen et al.,
+2013; Kennedy et al., 2015; Li et al., 2013; Maillard et al.,
+2013) and supported by recent studies in which readily detectable
+viral siRNAs were observed in mammalian somatic
+cells infected with a B2-deficient NoV or NS1-deleted IAV (Li
+et al., 2016; Li et al., 2013). However, NoV is an insect nodavirus,
+while IAV NS1 is a well-characterized IFN antagonist,
+and NS1 deletion did not prevent IAV from replicating and
+inducing disease and death in IFN-defective mice (Garcı´a-
+Sastre et al., 1998). Thus far, the strongest evidence is the
+identification of HEV71 3A as an authentic VSR. Enteroviral
+3A and its precursor 3AB are critical components of viral
+RNA replication complex (Teterina et al., 2011), while their
+exact functions in viral RNA replication remain unclear (Gao
+et al., 2015). We found that infection by VSR-deficient
+mutant of HEV71 triggered the Dicer-dependent production
+of viral siRNAs in different human or murine somatic cells,
+as well as in vivo. Moreover, during HEV71 infection, virally
+expressed 3A did bind HEV71 dsRNAs in human somatic
+cells, while VSR-deficient 3A mutant failed to do so. Interestingly,
+the VSR activity of 3A appears to be under high
+pressure of natural selection, as a VSR-deficient mutant of
+HEV71 (HEV71R34A) exhibited rapid spontaneous reverse
+mutations, further confirming the importance of VSR for
+HEV71 replication.
+The production of abundant virus-derived siRNAs clearly
+shows that viral dsRNA replicative intermediates are indeed
+processed by Dicer in mammals. However, these findings only
+provide compelling evidence, but not direct demonstration, of
+1002 Immunity 46, 992–1004, June 20, 2017
+antiviral RNAi in mammals, and extra evidence is required to
+show that virus-induced RNAi does have antiviral activity: first,
+VSR-deficient viruses should be rescued by genetic ablation of
+key RNAi component; second, viral siRNAs should load into
+RISC and be active to degrade cognate viral RNAs. Although
+previous studies using NoV, EMCV, or IAV did not address this
+issue (Li et al., 2016; Li et al., 2013; Maillard et al., 2013), our findings
+show that HEV71-derived siRNAs load into AGO2-RISC and
+are fully active to degrade cognate HEV71 RNA sequence and
+VSR-deficient mutant of HEV71 is significantly restricted in human
+somatic cells, primary somatic cells and mice, while Dicer
+deficiency successfully rescues mutant HEV71 replication.
+In addition to being recognized by Dicer, viral dsRNAs are
+usually recognized by RIG-I-MDA5 and TLR3 to induce IFN-I responses
+against viral infection (Goubau et al., 2013), and IFN-I
+response has been found to suppress RNAi by inhibiting RISC
+(Maillard et al., 2016; Seo et al., 2013). Moreover, many VSRs
+such as NoV B2 and IAV NS1 are dsRNA-binding proteins, and
+it remains unclear if the restricted replication and pathogenicity
+of mutant viruses are due to their inabilities to suppress viral
+siRNA production or IFN response. We also observed that 3A
+has a minor IFN-I suppression activity in cells. To exclude the
+potential interference of IFN-I, mammalian somatic cells or
+mice that are unable to mount IFN-I responses need to be
+challenged by WT and VSR-deficient viruses (Cullen et al.,
+2013). Indeed, VSR-deficient HEV71 triggered the production
+of readily detectable viral siRNAs in Ifnar1/ MLFs and mice,
+and correspondingly, the replication and pathogenicity of the
+mutant virus were also dramatically restricted. In addition,
+when IFN-I response was blocked, the genetic ablation of Dicer
+still rescued the replication of VSR-deficient HEV71 both in vitro
+and ex vivo. Thus, 3A does protect HEV71 from antiviral RNAi
+independently of IFN response in mammals.
+In conclusion, our findings demonstrate that HEV71 expresses
+protein 3A as VSR to effectively suppress the production of virally
+derived siRNAs and antiviral RNAi immunity in human somatic
+cell lines, murine primary somatic cells, and mice. To our
+best knowledge, our study is the first to demonstrate the production
+of readily detectable virus-derived siRNAs by WT Dicer in an
+IFN-independent manner in vivo, and our study further shows
+that these viral siRNAs have antiviral activity by loading into
+RISC and specifically silencing cognate viral RNA sequence. In
+addition, it uncovers for the first time the detailed mechanism
+by which a human positive-stranded RNA virus acts to evade
+antiviral RNAi both in vitro and in vivo. Based upon the data presented
+here and in previous studies, either enhancing the activity
+of the RNAi pathway or directly targeting VSRs like HEV71 3A
+may be promising strategies to develop novel antiviral therapies,
+and RNAi should function as an important antiviral immunity
+against more RNA viruses that include many important emerging
+and reemerging human pathogens, therefore representing an
+exciting avenue for future studies.
+STAR+METHODS
+Detailed methods are provided in the online version of this paper
+and include the following:
+d KEY RESOURCES TABLE
+d CONTACT FOR REAGENT AND RESOURCE SHARING
+d EXPERIMENTAL MODEL AND SUBJECT DETAILS
+B Cell culture
+B Virus
+B Mice
+d METHOD DETAILS
+B Plasmids and RNAs
+B Construction and recovery of HEV71 mutant viruses
+B Virus infection, plaque assays and IFA
+B RNA extraction, Northern blotting and qRT-PCR
+B Western blotting
+B CRISPR/Cas9 Knockout
+B Expression and purification of recombinant proteins,
+gel shift and in vitro Dicer cleavage assays
+B RNA-IP
+B Deep sequencing and data analysis
+B Mouse experiments
+d QUANTIFICATION AND STATISTICAL ANALYSIS
+d DATA AND SOFTWARE AVAILABILITY
+SUPPLEMENTAL INFORMATION
+Supplemental Information includes six figures and two tables and can be
+found with this article online at http://dx.doi.org/10.1016/j.immuni.2017.
+05.006.
+AUTHOR CONTRIBUTIONS
+Y.Q. and Y.X. performed experiments with the help of H.Z., Y.-Q.D., X.-F.L.,
+F.-C.Z., andM.M.; Y.Z. analyzed the sequencing data; Q.Z. and B.Z. provided
+essential materials; Y.H. and L.W. helped with experimental design and data
+interpretation; Y.Q., C.-F.Q., and X.Z. designed the overall study, analyzed
+the data, and wrote the paper.
+ACKNOWLEDGMENTS
+We thank Bryan R. Cullen (Durham, NC), Hong-Bing Shu (Wuhan, China), Qi-
+Bin Leng (Shanghai, China), and Shou-wei Ding (Riverside, CA) for reagents.
+We also thank Ms. Markeda Wade (Houston, TX) for professionally editing
+the manuscript. This work was supported by the National Key Research and
+Development Project of China (2016YFD0500304 to C.-F.Q.), the NSFC Excellent
+Young Scientist Fund (No. 81522025 to C.-F.Q. and No. 31522004 to X.Z.),
+the National Basic Research Program of China (2014CB542603 to X.Z.), the
+NSFC No. 31670161 (to X.Z.), the Newton Advanced Fellowship from the UK
+Academy of Medical Sciences and NSFC (81661130162 to C.-F.Q. and
+31761130075 to X.Z.), the Strategic Priority Research Program of Chinese
+Academy of Sciences (No. XDPB0301 to X.Z.), the National High-Tech R&D
+Program of China (2015AA020939 to X.Z.), the National Science and Technology
+Major Project of China (2017ZX09101005 and 2017ZX10304402), and the
+Open Research Fund of the State Key Laboratory of Pathogen and Biosafety of
+China (No. SKLPBS1445).
+Received: January 17, 2017
+Revised: April 9, 2017
+Accepted: May 5, 2017
+Published: June 20, 2017
+REFERENCES
+Aliyari, R., Wu, Q., Li, H.W., Wang, X.H., Li, F., Green, L.D., Han, C.S., Li, W.X.,
+and Ding, S.W. (2008). Mechanism of induction and suppression of antiviral
+immunity directed by virus-derived small RNAs in Drosophila. Cell Host
+Microbe 4, 387–397.
+Bogerd, H.P., Skalsky, R.L., Kennedy, E.M., Furuse, Y., Whisnant, A.W.,
+Flores, O., Schultz, K.L., Putnam, N., Barrows, N.J., Sherry, B., et al.
+Immunity 46, 992–1004, June 20, 2017 1003
+(2014a). Replication of many human viruses is refractory to inhibition by
+endogenous cellular microRNAs. J. Virol. 88, 8065–8076.
+Bogerd, H.P., Whisnant, A.W., Kennedy, E.M., Flores, O., and Cullen, B.R.
+(2014b). Derivation and characterization of Dicer- and microRNA-deficient
+human cells. RNA 20, 923–937.
+Carthew, R.W., and Sontheimer, E.J. (2009). Origins and Mechanisms of
+miRNAs and siRNAs. Cell 136, 642–655.
+Cullen, B.R., Cherry, S., and tenOever, B.R. (2013). Is RNA interference a physiologically
+relevant innate antiviral immune response in mammals? Cell Host
+Microbe 14, 374–378.
+Ding, S.W. (2010). RNA-based antiviral immunity. Nat. Rev. Immunol. 10,
+632–644.
+Flemr, M., Malik, R., Franke, V., Nejepinska, J., Sedlacek, R., Vlahovicek, K.,
+and Svoboda, P. (2013). A retrotransposon-driven dicer isoform directs
+endogenous small interfering RNA production in mouse oocytes. Cell 155,
+807–816.
+Gao, Q., Yuan, S., Zhang, C., Wang, Y., Wang, Y., He, G., Zhang, S., Altmeyer,
+R., and Zou, G. (2015). Discovery of itraconazole with broad-spectrum in vitro
+antienterovirus activity that targets nonstructural protein 3A. Antimicrob.
+Agents Chemother. 59, 2654–2665.
+Garcı´a-Sastre, A., Egorov, A., Matassov, D., Brandt, S., Levy, D.E., Durbin,
+J.E., Palese, P., and Muster, T. (1998). Influenza A virus lacking the NS1
+gene replicates in interferon-deficient systems. Virology 252, 324–330.
+Goubau, D., Deddouche, S., and Reis e Sousa, C. (2013). Cytosolic sensing of
+viruses. Immunity 38, 855–869.
+Haasnoot, J., de Vries, W., Geutjes, E.J., Prins, M., de Haan, P., and Berkhout,
+B. (2007). The Ebola virus VP35 protein is a suppressor of RNA silencing. PLoS
+Pathog. 3, e86.
+Kennedy, E.M., Whisnant, A.W., Kornepati, A.V., Marshall, J.B., Bogerd, H.P.,
+and Cullen, B.R. (2015). Production of functional small interfering RNAs by an
+amino-terminal deletion mutant of human Dicer. Proc. Natl. Acad. Sci. USA
+112, E6945–E6954.
+Kim, V.N., Han, J., and Siomi, M.C. (2009). Biogenesis of small RNAs in animals.
+Nat. Rev. Mol. Cell Biol. 10, 126–139.
+Kim, S.W., Li, Z., Moore, P.S., Monaghan, A.P., Chang, Y., Nichols, M., and
+John, B. (2010). A sensitive non-radioactive northern blot method to detect
+small RNAs. Nucleic Acids Res. 38, e98.
+Lei, C.Q., Zhong, B., Zhang, Y., Zhang, J., Wang, S., and Shu, H.B. (2010).
+Glycogen synthase kinase 3b regulates IRF3 transcription factor-mediated
+antiviral response via activation of the kinase TBK1. Immunity 33, 878–889.
+Li, H., Li, W.X., and Ding, S.W. (2002). Induction and suppression of RNA
+silencing by an animal virus. Science 296, 1319–1321.
+Li, Y., Lu, J., Han, Y., Fan, X., and Ding, S.W. (2013). RNA interference functions
+as an antiviral immunity mechanism in mammals. Science 342, 231–234.
+Li, Y., Basavappa, M., Lu, J., Dong, S., Cronkite, D.A., Prior, J.T., Reinecker,
+H.C., Hertzog, P., Han, Y., Li, W.X., et al. (2016). Induction and suppression
+of antiviral RNA interference by influenza A virus in mammalian cells. Nat.
+Microbiol. 2, 16250.
+Li, C., Deng, Y.Q., Wang, S., Ma, F., Aliyari, R., Huang, X.Y., Zhang, N.N.,
+Watanabe, M., Dong, H.L., Liu, P., et al. (2017). 25-Hydroxycholesterol
+Protects Host against Zika Virus Infection and Its Associated Microcephaly
+in a Mouse Model. Immunity 46, 446–456.
+Liu, J., Carmell, M.A., Rivas, F.V., Marsden, C.G., Thomson, J.M., Song, J.J.,
+Hammond, S.M., Joshua-Tor, L., and Hannon, G.J. (2004). Argonaute2 is the
+catalytic engine of mammalian RNAi. Science 305, 1437–1441.
+Ma, E., MacRae, I.J., Kirsch, J.F., and Doudna, J.A. (2008). Autoinhibition of
+human dicer by its internal helicase domain. J. Mol. Biol. 380, 237–243.
+Maillard, P.V., Ciaudo, C., Marchais, A., Li, Y., Jay, F., Ding, S.W., and Voinnet,
+O. (2013). Antiviral RNA interference in mammalian cells. Science 342,
+235–238.
+Maillard, P.V., Van der Veen, A.G., Deddouche-Grass, S., Rogers, N.C., Merits,
+A., and Reis E Sousa, C. (2016). Inactivation of the type I interferon pathway
+reveals long double-stranded RNA-mediated RNA interference in mammalian
+cells. EMBO J. 35, 2505–2518.
+Mesa, R.A., Yasothan, U., and Kirkpatrick, P. (2012). Ruxolitinib. Nat. Rev.
+Drug Discov. 11, 103–104.
+Nejepinska, J., Malik, R., Filkowski, J., Flemr, M., Filipowicz, W., and Svoboda,
+P. (2012). dsRNA expression in the mouse elicits RNAi in oocytes and low
+adenosine deamination in somatic cells. Nucleic Acids Res. 40, 399–413.
+Parameswaran, P., Sklan, E., Wilkins,C., Burgon, T.,Samuel, M.A., Lu, R.,Ansel,
+K.M., Heissmeyer, V., Einav, S., Jackson, W., et al. (2010). Six RNA viruses and
+forty-one hosts: viral small RNAs and modulation of small RNA repertoires in
+vertebrate and invertebrate systems. PLoS Pathog. 6, e1000764.
+Qi, N., Zhang, L., Qiu, Y., Wang, Z., Si, J., Liu, Y., Xiang, X., Xie, J., Qin, C.F.,
+Zhou, X., and Hu, Y. (2012). Targeting of dicer-2 and RNA by a viral RNA
+silencing suppressor in Drosophila cells. J. Virol. 86, 5763–5773.
+Seo, G.J., Kincaid, R.P., Phanaksri, T., Burke, J.M., Pare, J.M., Cox, J.E.,
+Hsiang, T.Y., Krug, R.M., and Sullivan, C.S. (2013). Reciprocal inhibition between
+intracellular antiviral signaling and the RNAi machinery in mammalian
+cells. Cell Host Microbe 14, 435–445.
+Shih, S.R., Stollar, V., and Li, M.L. (2011). Host factors in enterovirus 71 replication.
+J. Virol. 85, 9658–9666.
+Strauss, D.M., Glustrom, L.W., and Wuttke, D.S. (2003). Towards an understanding
+of the poliovirus replication complex: the solution structure of the
+soluble domain of the poliovirus 3A protein. J. Mol. Biol. 330, 225–234.
+Tam, O.H., Aravin, A.A., Stein, P., Girard, A., Murchison, E.P., Cheloufi, S.,
+Hodges, E., Anger, M., Sachidanandam, R., Schultz, R.M., and Hannon, G.J.
+(2008). Pseudogene-derived small interfering RNAs regulate gene expression
+in mouse oocytes. Nature 453, 534–538.
+Teterina, N.L., Pinto, Y., Weaver, J.D., Jensen, K.S., and Ehrenfeld, E. (2011).
+Analysis of poliovirus protein 3A interactions with viral and cellular proteins in
+infected cells. J. Virol. 85, 4284–4296.
+Watanabe, T., Totoki, Y., Toyoda, A., Kaneda, M., Kuramochi-Miyagawa, S.,
+Obata, Y., Chiba, H., Kohara, Y., Kono, T., Nakano, T., et al. (2008). Endogenous
+siRNAs from naturally formed dsRNAs regulate transcripts in mouse oocytes.
+Nature 453, 539–543.
+Weng, K.F., Hung, C.T., Hsieh, P.T., Li, M.L., Chen, G.W., Kung, Y.A., Huang,
+P.N., Kuo, R.L., Chen, L.L., Lin, J.Y., et al. (2014). A cytoplasmic RNA virus
+generates functional viral small RNAs and regulates viral IRES activity in
+mammalian cells. Nucleic Acids Res. 42, 12789–12805.
+Wessels, E., Notebaart, R.A., Duijsings, D., Lanke, K., Vergeer, B., Melchers,
+W.J., and van Kuppeveld, F.J. (2006). Structure-function analysis of the coxsackievirus
+protein 3A: identification of residues important for dimerization,
+viral rna replication, and transport inhibition. J. Biol. Chem. 281, 28232–28243.
+Zhang, M., Zhang, M.X., Zhang, Q., Zhu, G.F., Yuan, L., Zhang, D.E., Zhu, Q.,
+Yao, J., Shu, H.B., and Zhong, B. (2016). USP18 recruits USP20 to promote
+innate antiviral response through deubiquitinating STING/MITA. Cell Res. 26,
+1302–1319.
+1004 Immunity 46, 992–1004, June 20, 2017
+STAR+METHODS
+KEY RESOURCES TABLE
+REAGENT or RESOURCE SOURCE IDENTIFIER
+Antibodies
+Mouse monoclonal anti-Flag MBL Cat#M185-7
+Mouse monoclonal anti-Myc MBL Cat#M192-7
+Mouse monoclonal anti-a-Tubulin ProteinTech Group Cat#HRP-66031
+Alexa Fluor 488-conjugated goat anti-mouse IgG Abcam Cat# ab150113; RRID: AB_2576208
+Rabbit monoclonal anti-AGO2 (EPR10410) Abcam Cat# ab156870
+Mouse polyclonal anti-Dicer (13D6) Abcam Cat# ab14601; RRID: AB_443067
+Mouse polyclonal anti-enterovirus VP1 Abcam Cat# ab169442
+Mouse monoclonal anti-pan AGO clone 2A8 EMD MILLIPORE Cat# MABE56; RRID: AB_11214388
+Rabbit polyclonal anti-HEV71 3A This paper N/A
+Bacterial and Virus Strains
+Human enterovirus 71 (HEV71) strain H ATCC Cat#VR-1432
+HEV71D23A This paper N/A
+HEV71R34A This paper N/A
+Chemicals, Peptides, and Recombinant Proteins
+Poly(I:C) HMW Invivogen Cat# 31852-29-6
+Human IFN-b Sino Biological Cat# 10704-HNAS-5
+Ruxolitinib Selleck Chemicals Cat# S1378
+MBP-3AWT This paper N/A
+MBP-3AD23A This paper N/A
+MBP-3AR34A This paper N/A
+G418 Invivogen Cat#108321-42-2
+Puromycin Invivogen Cat#58-58-2
+Amylose resin New England BioLabs Cat# E8021L
+Protein-A/G agarose beads Santa Cruz Biotech Cat#sc-2003
+Critical Commercial Assays
+The recombinant human Dicer enzyme Genlantis Cat# T510002
+miRNeasy Mini kit QIAGEN Cat# 217004
+DIG Luminescent Detection Kit Roche Cat# 11363514910
+DIG RNA Labeling Mix Roche Cat# 11277073910
+One Step SYBR PrimeScript RT-PCR Kit II Takara Cat# RR086A
+Human Dicer CRISPR/Cas9 KO Plasmid Santa Cruz Biotech Cat# sc-400365
+TruSeq Small RNA Library Preparation Kit Illumina Cat# RS-200-0012
+Deposited Data
+RNA-seq data This paper GEO: GSE99252
+Experimental Models: Cell Lines
+HEK293T/17 cells ATCC Cat# CRL-11268
+293T NoDice cells Bogerd et al., 2014b N/A
+293-TLR3 cells Lei et al., 2010 N/A
+RD cells ATCC Cat# CCL-136
+S2 cells ATCC Cat# CRL-1963
+Experimental Models: Organisms/Strains
+129/Sv/Ev mice Li et al., 2017 N/A
+C57/B6 mice Zhang et al., 2016 N/A
+Ifnar1/ C57/B6 mice Zhang et al., 2016 N/A
+(Continued on next page)
+Immunity 46, 992–1004.e1–e5, June 20, 2017 e1
+CONTACT FOR REAGENT AND RESOURCE SHARING
+Further information and request for resources and reagents should be directed to and will be fulfilled by Lead Contact Xi Zhou
+(zhouxi@wh.iov.cn).
+Continued
+REAGENT or RESOURCE SOURCE IDENTIFIER
+Oligonucleotides
+Human siAGO2 #1 CCACCGAGUUCGACUUCUA This paper N/A
+Human siAGO2 #2 GCACGGAAGUCCAUCUGAA This paper N/A
+Mouse siDicer#1 GCGCAAAUACAAGCCCUAU This paper N/A
+Mouse siDicer#2 GCCGAUCUCUAAUUACGUA This paper N/A
+siEGFP-Probe DIG-GCAAGCUGACCCUGAAGUUCAUC-DIG This paper N/A
+EGFP marker 21-nt GAUGAACUUCAGGGUCAGCUU This paper N/A
+EGFP marker 25-nt CGAUGAACUUCAGGGUCAGCUUGCU This paper N/A
+vsiRNAs(-)P1 DIG-UUCGUUAUCCGGCUAACUACUU -DIG This paper N/A
+vsiRNAs(-)P2 DIG-UGCAACAGAGCGAUCGUUUACC-DIG This paper N/A
+miR-21-Probe DIG-UCAACAUCAGUCUGAUAAGCUA-DIG This paper N/A
+miR-92a-Probe DIG-ACAGGCCGGGACAAGUGCAAUA-DIG This paper N/A
+U6-Probe DIG-GCAGGGGCCAUGCUAAUCUUCU-DIG This paper N/A
+Primers for qRT-PCR, see Table S2 This paper N/A
+Primers for construction of recombinant plasmids, see Table S2 This paper N/A
+Primers for amplification of templates for in vitro transcription dsRNAs
+and RNA probes, see Table S2
+This paper N/A
+Recombinant DNA
+pRK-Flag Lei et al., 2010 N/A
+pRK-2A This paper N/A
+pRK-2B This paper N/A
+pRK-2C This paper N/A
+pRK-3A This paper N/A
+pRK-3AB This paper N/A
+pRK-3C This paper N/A
+pRK-3D This paper N/A
+pEGFP-EV71600-700 This paper N/A
+pEGFP-EV711200-1300 This paper N/A
+pCDNA-NoV-B2 Li et al., 2013 N/A
+pRK-3AK4A This paper N/A
+pRK-3AK6A This paper N/A
+pRK-3AK9A This paper N/A
+pRK-3AD23A This paper N/A
+pRK-3AR34A This paper N/A
+pRK-3AR57A This paper N/A
+pRK-3AK80A This paper N/A
+Software and Algorithms
+GraphPad Prism v6.03 GraphPad Software www.graphpad.com
+Bowtie2 2.2.5 Bowtie 2 http://bowtie-bio.sourceforge.net/
+bowtie2/manual.shtml
+Bedtools 2.24.0 BEDTools https://github.com/arq5x/bedtools2
+e2 Immunity 46, 992–1004.e1–e5, June 20, 2017
+EXPERIMENTAL MODEL AND SUBJECT DETAILS
+Cell culture
+HEK293T and RD cells were commercially obtained from ATCC and maintained in Dulbecco’s modified Eagle’s medium (DMEM)
+(GIBCO) supplemented with 10% fetal bovine serum (FBS) (GIBCO), 100 U/ml penicillin and 100 mg/ml streptomycin at 37C in a
+humidified atmosphere with5%CO2. The NoDice 293T cell line (Bogerd et al., 2014b) was generously provided by Dr. Bryan R. Cullen
+(Durham, NC, USA). The 293-TLR3 cell line (Lei et al., 2010) was generously provided by Dr. Hong-Bing Shu (Wuhan, China). The
+Drosophila S2 cells were cultured in at 27C in Schneider’s insect medium (GIBCO) supplemented with 10% FBS (GIBCO).
+Primary MLFs were isolated from WT or Ifnar1/ C57/B6 mice as described (Zhang et al., 2016). Briefly, lungs were minced and
+digested in calcium- and magnesium-free Hank’s balanced salt solution (HBSS) buffer (Thermo) supplemented with 10 mg/mL type II
+collagenase (Worthington) and 20 mg/mL DNase I (Sigma-Aldrich) for 3 hr at 37C with shaking. Cell suspensions were filtered through
+progressively smaller cell strainers (100 and 40 mm). Filtered cells were plated in DMEM supplemented with 10% FBS, 2 mM l-glutamine,
+100 U/mL penicillin and 100 mg/mL streptomycin. One hour later, adherent fibroblasts were rinsed with HBSS and cultured for
+the subsequent experiments. For knockdown of Dicer, WT or Ifnar1/ MLFs were transfected with two different pairs of siRNAs
+(siDicer#1 and siDicer#2) targeting the ORF of mouse dicer gene, respectively. Two days after transfection, MLFs were reseeded
+and then infected with WT or mutant viruses, respectively. The nucleotide sequences of Dicer siRNAs were shown in Table. S2.
+Virus
+HEV71 strain H (VR-1432) were obtained from ATCC, and amplified in RD cells.
+Mice
+The 129/Sv/Ev mice deficient in IFN-a/b receptor (A129 mice) were kindly provided by Dr. Qi-Bin Leng (Shanghai,China) (Li et al.,
+2017). Mice were specific pathogen free and maintained under a 12 hr light/dark cycle with standard chow diet. All animal experiments
+were performed in strict accordance with the guidelines of the Chinese Regulations of Laboratory Animals (Ministry of Science
+and Technology of China) and approved by the Institutional Animal Care and Use Committee at Beijing Institute of Microbiology and
+Epidemiology.
+METHOD DETAILS
+Plasmids and RNAs
+For the reversal-of-silencing assay in mammals, the plasmid pEGFP-C1 was used to express the enhanced green fluorescent (EGFP)
+protein. HEV71 viral proteins were cloned into mammalian expression vector pRK-Flag (kindly provided by Dr. Hong-Bing Shu,
+Wuhan, China). Mutations were introduced into the HEV71 3A coding region by PCR-mediated mutagenesis, with appropriate
+primers containing the desired nucleotide changes (Table S2). For RNAi suppression assays in Drosophila S2 cells, the EGFP reporter
+gene and the FHV B2 were constructed into the insect expressing vector pAc5.1/V5-HisB as previously described (Qi et al., 2012).
+HEV71 3A protein ORF fragment was cloned into pAc5.1/V5-HisB vector. The siRNAs targeting human Dicer and AGO2 were synthesized
+by RiboBio (Guangzhou, China). Full-length cDNA of FHV RNA1 and RNA1-DB2 (T2739C and C2910A) encoded in CuSO4-
+induced pMT vector were kindly provided by Dr. Shou-wei Ding (Riverside, CA, USA). The 400-nt dsRNA for EGFP silencing in S2
+cells and the 500-nt dsRNAs for knockdown of Dicer-2 and AGO2 of S2 cells were generated by in vitro transcription. Plasmids
+for the purification of MBP fusion protein 3A were constructed by inserting 3A ORF into pMAL-c2X vector.
+Construction and recovery of HEV71 mutant viruses
+D23A and R34A mutations in 3A were introduced into the infectious HEV71 cDNA clone (HEV71 strain VR1432, AGT18270) by PCRmediated
+site-directed mutagenesis. The positive clones confirmed by sequencing were linearized by Mlu I, and then subjected to
+in vitro transcription by using SP6 RNA polymerase (Promega). RNA transcripts were then transfected into RD cells with Lipofectamine
+3000, and rescued viruses were harvested 1 to 2 days after transfection. Viruses were concentrated by Amicon Ultra-15 filters
+(Millipore) and the titers of viruses were measured by plaque assays.
+Virus infection, plaque assays and IFA
+At the day of infection, the medium was changed with DMEM without FBS and viruses added at an MOI of 10 on 50%–70% confluent
+RD, 293T cells or MLFs cultured in 6-wells plates or 15-cm2 dishes. Cells were incubated for 1 hr to allow adsorption, washed twice
+with phosphate-buffered saline (PBS) and then the complete medium was added. For the rescue experiments, cells were first transfected
+with the empty pRK-Flag vector or pRK-Flag vector encoding B2, mB2, 3A or 3AD23A, respectively. Two day after transfection,
+the cells were subjected to selection with G418 (200 mg/mL) (Invivogen) for 48 hr and then re-plated for infection.
+Plaque assays were performed on RD cells in 12-well plates infected with a 10-fold serial dilution of viruses. The plates were incubated
+at 37C for 1 hr to allow adsorption. Then the supernatant was removed, and cells were overlaid with 1% low-melting-point
+agarose (Sigma-Aldrich) in DMEM containing 2% FBS. After further incubation at 37C for 4 days, the cells were fixed with 4% formaldehyde
+and stained with 0.2% crystal violet to visualize the plaques.
+Immunity 46, 992–1004.e1–e5, June 20, 2017 e3
+For IFA, RD cells were seeded in 60-mm-diameter culture dishes containing a 1-cm2 coverslip inside were infected with viruses at
+an MOI of 10. At 24 hpi, the coverslips containing infected cells were removed and directly used for IFA analysis. The cells on the
+coverslip were fixed with ice-cold acetone and incubated with primary anti-VP1 antibody at 37C for 1 hr. Cells were washed three
+times with PBS and then incubated with secondary goat anti-mouse IgG antibody conjugated to Alexa Fluor 488 (Abcam) in PBS for
+40 min at 37C.
+RNA extraction, Northern blotting and qRT-PCR
+For EGFP mRNA detection, total RNAs were extracted using Trizol reagent (Thermo) according to the manufacturer’s instructions.
+For the samples required for detection of both viral siRNAs and viral genomic RNAs, small RNA-enriched total RNAs were isolated
+using the miRNeasy Mini kit (QIAGEN) according to the manufacturer’s instructions. For Northern blot analysis of high-molecularweight
+(HMW) RNA, 5 mg of total RNAs were resolved on denaturing 1.5% agarose gels with 2.2Mformaldehyde, capillary transferred
+to Hybond-A nylon membrane (GE Healthcare). Equal loading was verified before transfer by ethidium bromide staining of total RNA
+within the RNA gels. For Northern blot analysis of low-molecular-weight (LMW) RNA, 20 mg of small RNA-enriched total RNAs were
+resolved on 7 M urea-15% PAGE, transferred to Hybond-A nylon membrane (GE Healthcare) and chemically cross-linked using
+1-ethyl-3-(3-dimethylaminopropyl) carbodiimide (EDC) as previously described (Kim et al., 2010). The probe for detection of
+EGFP mRNA was complementary to the 500-720 nt of EGFP ORF region. The probes for detection of HEV71 genomic RNAs
+were complementary to the 1-700 nt of HEV71 genome of both polarities. These RNA probes were labeled with DIG-UTP (Roche)
+by in vitro transcription. For detection of small RNAs, DIG-labeled oligo RNA probes targeting EGFP siRNA, viral siRNAs (vsiRNAs),
+miR-92a, miR-21 and U6 were synthesized by Takara. qRT-PCR was performed with the primers targeting EGFP ORF or HEV71
+genome. All the primers and oligonucleotides used here are shown in Table S2.
+Western blotting
+Cells were harvested in cell lysis buffer [50 mM Tris-HCl (pH 7.4), 150 mM NaCl, 1% NP40, 0.25% deoxycholate and a protease inhibitor
+cocktail (Roche)], and the lysates were then subjected to 10% (Figure S1A) or 15% (the other Figures) SDS-PAGE and western
+blotting.
+The anti-3A polyclonal antibody was raised in rabbits against peptide GPPKFKPIKISLEEC (GenScript antibody service,
+Nanjing, China).
+CRISPR/Cas9 Knockout
+The Dicer CRISPR/Cas9 KO Plasmid (sc-400365, Santa Cruz Biotech) was used to knockout dicer gene in human RD cells according
+to manufacturer’s protocol. Briefly, after transfection with the CRISPR/Cas9 KO plasmids, RD cells were allowed for cultured for
+3 days and then selected by puromycin (10 mg/mL) (Invivogen). The resulting clones were confirmed by DNA-sequencing and western
+blotting.
+Expression and purification of recombinant proteins, gel shift and in vitro Dicer cleavage assays
+For expression and purification of recombinant MBP-fusion proteins, MBP-3A and its mutants as well as the negative control protein
+MBP were expressed in E. coli strain TB1 at 27C in the presence of 0.2 mM IPTG. Cell pellets were resuspended in binding buffer
+[20 mM Tris-HCl (pH 7.4), 200 mM NaCl, 1 mM EDTA, 10 mM 2-Mercaptoethanol) supplemented with 1.5% Triton X-100 and a protease
+inhibitors cocktail (Roche). Cells were lysed by sonication and then debris was removed by centrifugation for 30 min at
+11,000 3 g. The proteins in the supernatant were purified using amylose resin (New England BioLabs) according to the manufacturer’s
+protocol and concentrated using Amicon Ultra-15 filters (Millipore). All proteins were quantified via a UV-visible spectrophotometer
+(Shimadzu).
+For gel shift assay, MBP-fusion proteins (0.5 to 16 mM) was incubated with 0.1 mMof DIG-labeled 200-nt dsRNA probe in a binding
+buffer [50 mM HEPES (pH 8.0), 15 mM NaCl, 0.5 mM MgCl2, 10% glycerol and 1 U of RNase inhibitor (Promega)] at 37C for 30 min;
+the total volume was 10 ml. For competition assays, 2 mM of MBP-3A was incubated with 0.1 mM DIG-labeled dsRNA and increasing
+amounts (0.2-5 mM) of unlabeled dsRNA or ssRNA. After the binding reaction, the samples were analyzed via 6% native-PAGE in
+0.5 3 TBE buffer in a cold room and transferred to Hybond-A nylon membrane (GE Healthcare). The membranes were incubated
+for 30 min with anti-DIG antibody conjugated with alkaline phosphatase (Roche). The RNA probe representing the EGFP nt 1-200
+was labeled with DIG-UTP (Roche) for in vitro transcription.
+For the in vitro Dicer cleavage assay, 0.4 mg of 200-nt dsRNA was incubated with 0.5 U of a recombinant human Dicer enzyme
+(T510002, Genlantis) and MBP-fusion proteins (1 and 10 mM) in a reaction buffer provided by the manufacturer at 37C for 16 hr.
+The Dicer-treated RNAs were purified from the reaction complex by using Trizol reagent (Thermo) and then separated on 7 M
+urea-15% PAGE; the RNAs were visualized by staining with ethidium bromide.
+RNA-IP
+RNA-IP was performed as previously described (Qi et al., 2012) with minor modification. Briefly, cells were lysed in a lysis buffer
+[20 mM Tris-HCl (pH 7.4), 200 mM NaCl, 2.5 mM MgCl2, 0.5% Triton X-100, 0.5 U/mL RNase inhibitor (Promega) and a protease inhibitor
+cocktail (Roche)]. After centrifugation, the postnuclear lysates were pre-cleared via incubation with protein-A/G agarose
+beads (Roche) together with goat anti-mouse IgG at 4C for 4 hr. Then the pre-cleared lysates were incubated with antibodies
+e4 Immunity 46, 992–1004.e1–e5, June 20, 2017
+(anti-pan AGO2 or anti-3A) together with protein-A/G agarose beads (Roche) at 4C for 12 hr. The antibody-bound complexes were
+washed for five times with the same lysis buffer except that NaCl concentration was raised to 600 mM. Finally, RNAs or proteins were
+extracted from the complexes and subjected to Northern or western blotting as noted above. For detecting the 3A-bound RNAs, the
+RNAs in complexes were extracted by phenol/chloroform extraction and ethanol precipitation and then treated with RNase I or
+RNase III (New England BioLabs) according to the manufacturer’s protocol before they were subjected to Northern blotting.
+Deep sequencing and data analysis
+Libraries of small RNAs from cell culture were constructed using TruSeq Small RNA Library Preparation Kits (Illumina) according to
+manufacturer’s instructions. The libraries were sequenced by Illumina HiSeq 2000 at RiboBio.
+The sequencing reads were mapped to the human genome (release hg19) by using Bowite 2.2.5 and the cellular miRNA expression
+level was determined on the basis of the number of reads that was identical to the annotated miRNA sequences in miRBase version
+18, only allowing 2 or +2 nt to be templated by the corresponding genomic sequence at the 30 end. Viral small RNA (vsRNA) reads
+which cannot be mapped to human genome were then mapped to HEV71 genome with 100% identity. The subsequent analysis of
+length and location of these vsRNAs were calculated using in-house Perl scripts. Pairs of complementary 22-nt vsRNAs in each
+library in different distance categories were computed using principles as previously described (Li et al., 2016; Li et al., 2013).
+Mouse experiments
+Groups of 1-day-old A129 mice (n = 5) were inoculated by the intracerebrally injected with 13107 PFU of viruses. Animals were monitored
+for 15 days after inoculation. Any mice found in a moribund condition were euthanatized and scored as dead. In addition,
+groups of 1-day-old A129 mice (n = 3) intracerebrally injected with 1 3 107 PFU of viruses were dissected at 6, 24, 48, and
+120 hpi. Mouse brains were collected, homogenized and diluted with PBS to make final 10% (w/v) suspensions. The viremia were
+measured by plaque assay.
+QUANTIFICATION AND STATISTICAL ANALYSIS
+GraphPad Prism was used for all statistical analyses. All experiments were repeated at least three times. Statistical analysis was
+carried out by unpaired t test or two-way ANOVA (GraphPad Prism). P value < 0.05 was considered statistically significant.
+DATA AND SOFTWARE AVAILABILITY
+The RNA-seq data has been deposited to the NCBI GEO database under the accession number GEO: GSE99252.
+Immunity 46, 992–1004.e1–e5, June 20, 2017 e5
+Update
+Immunity
+Volume 49, Issue 4, 16 October 2018, Page 780–781
+DOI: https://doi.org/10.1016/j.immuni.2018.10.003
+Immunity
+Correction
+Human Virus-Derived Small RNAs
+Can Confer Antiviral Immunity in Mammals
+Yang Qiu, Yanpeng Xu, Yao Zhang, Hui Zhou, Yong-Qiang Deng, Xiao-Feng Li, Meng Miao, Qiang Zhang, Bo Zhong,
+Yuanyang Hu, Fu-Chun Zhang, Ligang Wu, Cheng-Feng Qin,* and Xi Zhou*
+*Correspondence: qincf@bmi.ac.cn (C.-F.Q.), zhouxi@wh.iov.cn (X.Z.)
+https://doi.org/10.1016/j.immuni.2018.10.003
+(Immunity 46, 992–1004.e1–e5; June 20, 2017)
+The authors noticed two errors in the original versions of Figure 1F and Figure 5B of this article. In Figure 1F, the panel for the a-tubulin
+immunoblot was incorrect. In Figure 5B, the panel for miR-92a Northern blot was incorrect. We have replaced them with the correct
+panels. The correct versions of Figure 1F and Figure 5B appear below. These errors do not affect any of the conclusions. The raw data
+files associated with the corrected figures have been deposited in Mendeley (https://data.mendeley.com/datasets/ttbrccmz7j/1).
+The authors apologize for any inconvenience they have created.
+Figure 1F. HEV71 3A Suppresses Dicer-Mediated siRNA Biogenesis by Sequestrating dsRNA In Vitro
+780 Immunity 49, 780–781, October 16, 2018 ª 2018 The Author(s). Published by Elsevier Inc.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Figure 5B. VSR-Deficient HEV71 Triggers Antiviral RNAi Response in Human 293T Cells
+Immunity
+Correction
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
 Immunity 49, 780–781, October 16, 2018 781

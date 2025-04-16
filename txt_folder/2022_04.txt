@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Environmental Pollution 315 (2022) 120370
 Available online 7 October 2022
 0269-7491/© 2022 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-
@@ -890,4 +891,898 @@ quantification (APLASTIC–Q). Environ. Res. Lett. https://doi.org/10.1088/1748-
 Woods, J.S., Verones, F., Jolliet, O., V´azquez-Rowe, I., Boulay, A.M., 2021. A framework
 for the assessment of marine litter impacts in life cycle impact assessment. Ecol.
 Indicat. https://doi.org/10.1016/j.ecolind.2021.107918.
+=======
+Environmental Pollution 315 (2022) 120370
+Available online 7 October 2022
+0269-7491/© 2022 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-
+nd/4.0/).
+Review
+Beach litter survey by drones: Mini-review and discussion of a
+potential standardization☆
+Gil Gonçalves a,b, Umberto Andriolo b,*, Luísa M.S. Gonçalves b,c, Paula Sobral d, Filipa Bessa e
+a University of Coimbra, Department of Mathematics, Coimbra, Portugal
+b INESC Coimbra, Department of Electrical and Computer Engineering, Polo 2, 3030 - 290, Coimbra, Portugal
+c School of Technology and Management, Polytechnic of Leiria, Nova IMS University Lisbon, Portugal
+d MARE- Marine and Environmental Sciences Centre, NOVA School of Science and Technology, NOVA University Lisbon, Portugal
+e University of Coimbra, MARE – Marine and Environmental Sciences Centre, ARNET - Aquatic Research Network, Department of Life Sciences, Calçada Martim de
+Freitas, 3000-456, Coimbra, Portugal
+A R T I C L E I N F O
+Keywords:
+Plastic pollution
+Coastal monitoring
+Remote sensing
+Environmental sustainability
+A B S T R A C T
+The abundance of beach litter has been increasing globally during the last decades, and it is an issue of global
+concern. A new survey strategy, based on uncrewed aerial vehicles (UAV, aka drones), has been recently adopted
+to improve the monitoring of beach macro-litter items abundance and distribution.
+This work identified and analysed the 15 studies that used drone for beach litter surveys on an operational
+basis. The analysis of technical parameters for drone flight deployment revealed that flight altitude varied between
+5 and 40 m. The analysis of final assessments showed that, through manual and/or automated items
+detection on images, most of studies provided litter bulk characteristics (type, material and size), along with
+litter distribution maps.
+The potential standardization of drone-based litter survey would allow a comparison among surveys, however
+it seems difficult to propose a standard set of flight parameters, given the wide variety of coastal environments,
+the different devices available, and the diverse objectives of drone-based litter surveys. On the other hand, in our
+view, a set of common outcomes can be proposed, based on the grid mapping process, which can be easily
+generated following the procedure indicated in the paper.
+This work sets the ground for the development of a standardized protocol for drone litter data collection,
+analysis and assessments. This would allow the provision of broad scale comparative studies to support coastal
+management at both national and international scales.
+1. Introduction
+The amount of litter in the marine environment is a major issue of
+global concern, as the abundance of litter has been increasing globally
+during the last decades (Galgani et al., 2015). Marine litter is a major
+threat to a sustainable planet, as affecting coastal water quality and
+ecosystems, and it can be harmful to marine life and humans (Galgani
+et al., 2019; Staffieri et al., 2019; Werner et al., 2016; Woods et al.,
+2021). Roughly 80% of marine litter pollution originates on land
+(Jambeck et al., 2015), and enters the ocean via rivers (Meijer et al.,
+2021), land-based sources (Schwarz et al., 2019), extreme events
+(Murray et al., 2018) and coastal erosion (Andriolo and Gonçalves,
+2022), among others (Veiga et al., 2016). Eventually, a large portion of
+litter ends up on the beach over a five-year period (Chassignet et al.,
+2021). Therefore, investigating litter distribution and accumulation is
+fundamental for a sustainable coastal zone management (GESAMP,
+2019). Different remote sensing techniques have been applied to
+advance knowledge of litter abundance, distribution and dynamics over
+the last decade. Images acquired by balloon and airplanes equipped with
+cameras (Kako et al., 2012; Kataoka et al., 2018; Moy et al., 2018),
+webcams (Kako et al., 2018, 2010; Kataoka et al., 2012) and satellites
+(Biermann et al., 2020; Ciappa, 2022, 2021; Martínez-Vicente et al.,
+2019; Maximenko et al., 2019; Topouzelis et al., 2019) have been
+exploited to detect and quantify litter in marine and coastal habitats
+☆ This paper has been recommended for acceptance by Da Chen.
+* Corresponding author.
+E-mail addresses: gil@mat.uc.pt (G. Gonçalves), uandriolo@mat.uc.pt (U. Andriolo), luisa.goncalves@ipleiria.pt (L.M.S. Gonçalves), psobral@fct.unl.pt
+(P. Sobral), afbessa@uc.pt (F. Bessa).
+Contents lists available at ScienceDirect
+Environmental Pollution
+journal homepage: www.elsevier.com/locate/envpol
+https://doi.org/10.1016/j.envpol.2022.120370
+Received 21 April 2022; Received in revised form 23 September 2022; Accepted 3 October 2022
+Environmental Pollution 315 (2022) 120370
+2
+worldwide.
+Regarding beach litter, the most common approach rely mainly on
+in-situ visual census method, which requires a certain number of operators,
+it is human effort-demanding, time-consuming and spatially
+limited (e.g., GESAMP, 2019; OSPAR Commission, 2010; Portz et al.,
+2021; Rangel-Buitrago et al., 2018). To overcome the visual census
+constraints, new approaches are required to fasten and to automate the
+beach litter mapping and dynamics.
+In this context, the use of uncrewed aerial vehicles (UAV, aka drones)
+has exponentially increased for environmental monitoring (Manfreda
+et al., 2018; Tmuˇsi et al., 2020), and can support the identification and
+quantification of litter in coastal environment (Andriolo et al., 2022;
+Garcia-Garin et al., 2020), since these aerial platforms can operate
+autonomously, provide high resolution images, and are viable and
+affordable tools for many operational surveys. It has been recently
+demonstrated that drones can be used to survey macro-litter (>2.5 cm,
+GESAMP, 2019) on different ecosystems, such as coastlines (Bao et al.,
+2018; Escobar-S´anchez et al., 2021; Martin et al., 2021, 2018; Merlino
+et al., 2020), islands shores (Deidun et al., 2018; Fallati et al., 2019;
+Papakonstantinou et al., 2021, 2019; Takaya et al., 2022), beach-dune
+systems (Andriolo et al., 2021b, 2020b; Gonçalves et al., 2020b; Taddia
+et al., 2021) and lakeshores (Hengstmann and Fischer, 2020). In
+comparison with traditional surveys, drones allow to map litter over
+wide and remote areas (e.g., Andriolo et al., 2020a; Fallati et al., 2019;
+Gonçalves et al., 2020b), reduce the human effort in the field (e.g.,
+Martin et al., 2018), and eventually identify litter distribution and
+hotspots of litter deposition (e.g., Andriolo et al., 2021b, 2020b).
+The twofold aim of this work is i) to report and analyse the operational
+insights into the use of drones for mapping macro-litter on coastal
+areas, and ii) to set the ground of a likely standardization strategy for
+drone-based beach litter survey. First, we identified in the literature the
+studies that used drones for operational purposes, providing the actual
+survey of beach litter. Secondly, we revised and compared the technical
+parameters adopted by different studies for drone deployment in the
+field. Thirdly, we analysed litter survey assessments, to identify the
+analogies among studies, despite the different chosen technical parameters.
+Finally, the likely strategies for drone-based litter survey standardization
+are discussed, since it is of interest to harmonize assessments
+for comparison purpose among surveys conducted worldwide. This work
+is devoted to promote the use of drones for improving knowledge of
+litter abundance, composition and dynamics on coasts.
+2. Beach litter survey by drone
+Based on the experience gained by the authors of this review in
+several works (Andriolo et al., 2021b, 2021a; 2020b, 2020a; Gonçalves
+et al., 2020b; Gonçalves and Andriolo, 2022), a general schematic
+framework for operational beach litter survey by autonomously flying
+multirotor drones was drawn (Fig. 1).
+The first stage comprises the planning of the field experience. Beside
+complying with the drone flight local, regional and national law regulations,
+it is necessary to verify the weather forecast for choosing an
+unrainy and unwind day. Most commercial drones can fly with wind
+speed below about 30 km/h, a nominal value indicated by the drone
+company and based on drone models. To optimize the flight planning, it
+was also a good practice to account for tide and beach configuration,
+especially on mesotidal environments (Andriolo et al., 2020b; Gonçalves
+et al., 2020b), where litter was mostly found on the upper beach limit
+reached by the last highest last tide (Andriolo et al., 2020b; Gonçalves
+et al., 2020b).
+The second stage implies the drone flight deployment. Drone freeware
+mobile applications (e.g., https://www.dronedeploy.com/)
+allowed to i) design the flight path, ii) select the flight altitude and
+speed, iii) set camera parameters, namely image size, focal length, ISO,
+shutter speed and image overlap. Drone flight altitude and camera set up
+are commonly chosen to obtain a suitable Ground Sampling Distance
+(GSD) for distinguishing macro-litter items on images. The GSD expresses
+the pixel spatial resolution of drone images (Linder, 2016):
+GSD=
+H
+f • a (1)
+where H is the flight altitude (m), f is the camera focal length (mm), and
+a is the pixel size (mm). When all parameters are set, applications return
+the predicted flight time and the battery consumption in relation to
+battery autonomy.
+The third stage encompasses the drone image analysis. The acquired
+sequence of images can be both used to generate geospatial products (e.
+g., orthophoto), and/or examined as a series of (raw) images. To identify
+litter objects, orthophoto and/or raw images can be analysed adopting
+the manual image screening (MS), which consists in i) visually recognizing
+litter on image, ii) marking the items, and iii) labelling the item
+type, material and colour (Andriolo et al., 2021a). Besides, litter
+detection algorithms can be developed to fasten and automate the object
+recognition (Duarte et al., 2020; Gonçalves et al., 2020c; Pinto et al.,
+2021; Wolf et al., 2020).
+The final fourth stage describes the litter survey assessments. The
+litter bulk derived by the (manual and/or automated) image analysis can
+be characterized through the counting of objects, and/or the description
+of type (e.g., bottles, octopus pots, etc.) and materials (e.g., plastics,
+paper, etc.), and/or the final litter map identified on the surveyed area.
+3 Review selection method and analysis of drone deployment
+parameters
+For this review, we identified in the literature the studies that i) used
+drone for surveying beach litter, ii) completed the four stages of the
+workflow previously described (Fig. 1), and iii) eventually characterized
+the surveyed litter bulk on an operational basis. Only studies that used
+RGB images were considered, excluding the recent work that adopted
+Fig. 1. Generalized framework for beach litter survey by drones.
+G. Gonçalves et al.
+Environmental Pollution 315 (2022) 120370
+3
+drone-mounted multispectral camera (Gonçalves and Andriolo, 2022).
+Overall, we identified 15 studies conducted in Europe (Andriolo
+et al., 2021b, 2020b; 2020a; Deidun et al., 2018; Escobar-S´anchez et al.,
+2021; Gonçalves et al., 2020b; Hengstmann and Fischer, 2020; Merlino
+et al., 2020; Papakonstantinou et al., 2021; Taddia et al., 2021) and Asia
+(Bao et al., 2018; Fallati et al., 2019; Martin et al., 2021, 2018; Takaya
+et al., 2022). No publications from other continents were found (Fig. 2).
+Table 1 summarizes the field experiences data and drone flight parameters
+adopted by the 15 studies for completing the first two stages of
+drone-based litter surveys workflow (Fig. 1). Regarding the choice of
+drone model, all studies used multirotor drones from DJI brand (www.
+dji.com), perhaps due to the cost-effective properties of these devices.
+Diverse models were adopted, which slightly varied for in-built camera
+properties. Overall, DJI Phantom 4 Pro was the most used.
+Different flight altitudes were adopted, depending on the chosen area
+extent and/or the level of details on image required for their study objectives.
+The chosen flight altitude varied between 5 m (Takaya et al.,
+2022) and 40 m (Hengstmann and Fischer, 2020), with an average value
+of about 20 m among the considered 15 studies. Five of them (33%)
+choose an altitude of 10 m, while six (40%) flew at a height equal or
+higher than 20 m. The final GSD varied between 0.01 cm/px and 1.2
+cm/px, for a median value of 0.54 cm/px. With such median GSD, a litter
+object measuring 2.5 cm × 2.5 cm, for instance, would be theoretically
+represented by a square of 16 pixels on drone images. Note that the
+lower or higher GSD not always matched lower or higher flight altitude,
+since the final resolution depended on the camera properties (Table 1).
+The choice of the flight height depended also on the objective of the
+study, since i) several studies tested different GSDs for the litter identification
+by flying at various altitudes (Escobar-S´anchez et al., 2021;
+Fallati et al., 2019; Hengstmann and Fischer, 2020; Taddia et al., 2021),
+ii) some studies tested drone surveys for developing automated detection
+algorithms (Bao et al., 2018; Papakonstantinou et al., 2021; Takaya
+et al., 2022), iii) other studies chose to fly at higher altitude to cover a
+larger area (Andriolo et al., 2020a, 2020b; Gonçalves et al., 2020b).
+Some studies monitored the typical 100-m beach longshore transect
+adopted in the conventional visual census (OSPAR Commission, 2010),
+to investigate the feasibility of drones as alternative to traditional surveys
+(Deidun et al., 2018; Escobar-S´anchez et al., 2021), and to increase
+the number of surveys over the year (Merlino et al., 2020). However, in
+general, most of studies exploited the drone to cover a wider coastal
+area, also to relate litter distribution with environmental forcing (such
+as wind and waves) and beach slope (Andriolo et al., 2020b; Gonçalves
+et al., 2020b), dune vegetation (Andriolo et al., 2021b, 2020a), and
+shoreline configuration (Martin et al., 2021, 2018).
+From the image bulk collected by drones, most of studies generated
+and used the georeferenced orthophoto. Even though three studies used
+raw drone images (e.g., Papakonstantinou et al., 2021), litter items were
+geolocated exploiting the spatial information provided by image
+metadata.
+About 50% of the studies shown data collected at multiple sites,
+exploiting the feasibility of drone-based survey in requiring less effort in
+the field and in covering large areas. In particular, Fallati et al. (2019)
+surveyed three different island beaches in the Maldives, while Martin
+et al. (2021) mapped 44 beaches on the Arabian coast. On the other
+hand, Merlino et al. (2020) surveyed the litter abundance on the same
+transect of 100 m monthly over a year, while Andriolo et al. (2020b)
+surveyed 480 m to describe litter dynamics in response to tide, wind and
+waves over the winter. These studies showed how drones can be used to
+increase the number of surveys and to advance litter dynamic knowledge
+on coastal areas.
+All considered studies were performed on sandy coasts, with some
+surveying also the environments landward of the beach (Gonçalves
+et al., 2020b; Martin et al., 2018; Taddia et al., 2021), and proposing a
+non-intrusive framework for litter mapping on dunes habitats (Andriolo
+et al., 2021b, 2020a).
+3. Analysis of drone-based litter survey assessments
+Table 2 presents the type of image analysis (Stage 3, Fig. 1) and the
+different outcomes (Stage 4, Fig. 1) of the 15 reviewed studies. When
+litter was identified by the manual image screening (MS), six studies
+compared the results of MS with a limited number of litter items
+collected by traditional visual census (e.g., Escobar-S´anchez et al.
+(2021)). Only two studies considered the whole beach litter bulk: Taddia
+et al. (2021) focused on understanding the reliability of MS performed
+by several operators, similarly to Lo et al. (2020) and Andriolo et al.
+(2021a), while Fallati et al. (2019) aimed at fully evaluating the performances
+of their automated machine learning classifier. Of interest,
+citizen science programs may be beneficial for performing the MS task:
+Papakonstantinou et al. (2021) proposed the MS to volunteers on an
+online platform (e.g., https://www.zooniverse.org/), while Merlino
+et al. (2021) made mapping litter items on images by school students.
+A wide variety of techniques for automated litter detection on drone
+images were also proposed, such as threshold-based (Bao et al., 2018),
+pixel-based Random Forest machine learning (Gonçalves et al., 2020c,
+2020b; Martin et al., 2021, 2018), object-based classifiers (Escobar-
+S´anchez et al., 2021; Gonçalves et al., 2020a) and deep learning
+(Papakonstantinou et al., 2021; Takaya et al., 2022). Other several
+automated techniques have been developed over the last years (e.g.,
+Pinto et al. (2021); Gnann et al. (2022) and references therein), however
+Fig. 2. Map of locations, and related scientific references, of the 15 studies that performed operational drone-based litter surveys. Circle markers refer to studies on
+continental coasts, squares on islands, diamond on lake shores. Orange colour indicates studies on beaches, green denotes studies that considered both beach and
+dune environments. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)
+G. Gonçalves et al.
+Environmental Pollution 315 (2022) 120370
+4
+these publications were excluded from this review, as they were exclusively
+devoted to algorithms development, often with synthetic data.
+All considered studies (Table 2) categorized the litter type and/or
+material from images, except for Bao et al. (2018), Papakonstantinou
+et al. (2021) and Takaya et al. (2022), which simply accounted for the
+abundance of litter. Overall, the litter density on the area (item/m2) was
+reported by most of the studies. More than 50% of the studies also reported
+the total surface occupied by litter in terms of percentage or
+actual area, since the size of items can be estimated through the manual
+digitalization of objects contour (Merlino et al., 2020), applying image
+segmentation (Andriolo et al., 2021b), or counting pixels in the detected
+bounding boxes (Takaya et al., 2022).
+A main advantage given by drones, in comparison with traditional
+survey, is the possibility of generating the litter distribution map to, for
+instance, relate spatial litter distribution to environmental forcing
+(Andriolo et al., 2020b, 2020a; Gonçalves et al., 2020b), shoreline
+orientation and marine traffic (Martin et al., 2021), along with locating
+accumulation areas and hotspots (Andriolo et al., 2020a; Gonçalves
+et al., 2020b). Given that the Digital Surface Model (DSM) can be
+generated from drone images, Gonçalves et al. (2020c) also coupled
+litter distribution to beach profile configuration, tide and wave runup
+excursion on the beach, while Andriolo et al. (2020a) described the
+likely litter path through dune blowouts. Of note that the use of DSM was
+also proposed to help the operators in spotting litter items (Taddia et al.,
+2021), and potentially can be adopted for estimating the volume of
+litter, similarly to Kako et al. (2020).
+4. Discussion on the potential standardization of drone-based
+beach litter survey
+The analysis of technical parameters adopted by the 15 studies
+(Table 1) revealed that there is not a common protocol to deploy drones
+in the field (Stage 2, Fig. 1), as the chosen flight altitudes was dependent
+on the different objectives and fieldwork logistics. Yet, a wide variety of
+automated techniques exists for processing images (Stage 3, Fig. 1),
+however the 15 studies provided litter characteristics and distribution in
+similar ways (Table 2), despite the different drone deployment parameters
+adopted. In fact, drone images were suitable for the identification
+of litter items even with the highest Ground Sampling Distance (GSD,
+1.2 cm/px) registered (Andriolo et al., 2021b, 2020a).
+Given the review and analysis provided in this work, it is of interest
+to discuss a potential harmonization of beach litter surveys by drone.
+Similarly as done for traditional census surveys by OSPAR and UNEP/
+IOC (GESAMP, 2019; OSPAR Commission, 2010), the development of a
+standardized protocol for drone litter data collection and/or analysis
+would allow i) broad scale comparative studies, and ii) the estimation
+and interpretation of results through long-term assessments. A potential
+standardization would also promote litter mapping using data from researchers
+and entities who collect drone images for different purposes on
+coasts, such as beach-dune morphodynamics studies (Duo et al., 2021;
+Fabbri et al., 2021), dunes flora and fauna census (Laporte-Fauret et al.,
+2020), coastal cliff monitoring (G´omez-Guti´errez and Gonçalves, 2020;
+Gonçalves et al., 2021), and coastal structure inspection (Gonçalves
+et al., 2022).
+Regarding the drone deployment in the field (Stage 2, Fig. 1), setting
+a standardized flight altitude seems difficult, since the coastal environment
+is highly variable worldwide: for instance, at the study sites on
+Portuguese coast (Andriolo et al., 2020b; Gonçalves et al., 2020b), the
+dune ridge raised up to 12 m, a lower flight altitude adopted by other
+studies (e.g., 10 m) would not be possible. On other coasts, the presence
+of trees, traffic lights and buildings, among other obstacles, would force
+the choice of even higher flight altitude than 20 m.
+A likely solution for standardized image products would be to set a
+common Ground Sampling Distance (GSD) (Eq. (1)), as this would
+Table 1
+Drone deployment parameters adopted chosen by the reviewed studies. List of publications is in chronological order of appearance. All drone models, if not differently
+indicated, refer to multirotor DJI Phantom (www.dji.com). The acronym “n.i.” stands for “not indicated”.
+Drone
+model
+Image
+resolution
+(pixel)
+Flight
+height
+(m)
+Ground
+Sampling
+Distance (cm/
+px)
+Type of images:
+OrthoPhoto (OP) –
+Raw Images (IM)
+Monitored
+longshore x
+cross-shore (m)
+Total
+monitored
+area (m2)
+N. of
+sites
+Multiple
+flights over
+the same
+area
+Beach
+(B)/
+Dunes
+(D)
+Deidun et al. (2018) 4 Pro 5472 ×
+3078
+30 1 OP 200 × 200 4000 2 B
+Martin et al. (2018) 3 ADV 4000 ×
+3000
+10 0.6 OP variable 6400 9 B-D
+Bao et al. (2018) 4 Pro 4864 ×
+3648
+20 0.3 OP variable 123,866 5 B
+Fallati et al. (2019) 4 4000 ×
+3000
+10 0.44 OP variable 1497 3 B
+Gonçalves et al.
+(2020a, 2020b)
+4 Pro 4864 ×
+3648
+20 0.55 OP 200 × 100 20,000 1 B-D
+Merlino et al. (2020) 4 Pro 5472 ×
+3078
+6 0.16 OP 100 × 15 1500 1 17 B
+Andriolo et al.
+(2020a)
+Matrix
+210 RTK
+4000 ×
+3000
+40 1.2 OP 200 × 80 16,000 1 D
+Hengstmann and
+Fischer (2020)
+2 Vision
+- 4 Pro
+5472 ×
+3078
+7–40 n.i. IM 109 × 6.8 3064 4 6 B
+Andriolo et al.
+(2020b)
+4 RTK 5472 ×
+3648
+30–40 0.9–1 OP 480 × 50 23,000 1 3 B
+Papakonstantinou
+et al. (2021)
+4 Pro 5472 ×
+3648
+18 0.49 IM n.i. n.i. 1 B
+Escobar-S´anchez
+et al. (2021)
+4 Pro n.i. 10-15-
+18
+0.54 OP 100 × n.i. n.i. 4 B
+Martin et al. (2021) 3 ADV
+-4 Pro
+n.i. 10 0.6 IM variable 134,000 44 B-D
+Andriolo et al.
+(2021b)
+Matrix
+210 RTK
+4000 ×
+3000
+40 1.2 OP 200 × 80 16,000 1 D
+Taddia et al. (2021) 3 Pro 􀀀 4
+RTK
+n.i. 10–25 0.4–0.7 OP 50 × 50 2500 1 2 B-D
+Takaya et al. (2022) Mavic 2
+Zoom
+4000 ×
+3000
+5 0.01 OP variable 81,000 3 2 B
+G. Gonçalves et al.
+Environmental Pollution 315 (2022) 120370
+5
+permit to collect images with the same resolution worldwide, and thus
+potentially promoting i) the development of universal algorithms for
+automated litter detection and recognition, and ii) the proper training of
+experts and citizen science operators (Merlino et al., 2021). However, a
+common GSD would imply to adapt the flight altitude on drone model
+and camera properties (Eq. (1) and Table 1). Even if, hypothetically,
+researchers may have access to the same drone and camera model, it
+must be contemplated that the flight height depends on the study site
+characteristics, location and logistics, as mentioned above. Yet, standardizing
+flight parameters for a lower GSD (higher resolution) may
+force some researchers to limit the flight coverage due to the drone
+battery autonomy, eventually losing important information about litter
+distribution on wide beaches and dunes. On the other hand, proposing
+standardized parameters for a higher GSD (lower resolution) would limit
+the possibility of recognizing some type of items, and force to renounce
+to the necessary details for replicating and/or replacing with drone the
+100 m OSPAR survey (Escobar-S´anchez et al., 2021; Merlino et al.,
+2020). Finally, low-cost drones, mounting less-performing cameras than
+the ones adopted by the revised studies (Table 1), could be helpful for
+increasing data collection on coasts, therefore lower flight altitudes will
+be needed to provide reasonable and suitable GSD. Given all the above
+observations, it seems difficult to propose a single standardized GSD
+value adaptable worldwide. However, future work may investigate and
+propose a suitable range of GSD, starting from the fact that GSD varied
+between 0.01 and 1.2 cm/pixel in the reviewed studies.
+From our point of view, a set of harmonized assessments and products
+(Stage 4, Fig. 1) can instead be proposed to homogenize the insights
+provided by drone-based litter survey (Fig. 3). A first standard product
+may be the number of litter items encountered on images, which can be
+used, for instance, to compute the clean-coast index (CCI, Alkalay et al.,
+2007; Rangel-Buitrago et al., 2021), and/or evaluate the level of litter
+contamination based on the threshold set by the Marine Strategy
+Framework Directive (MSFD) of the European Commission (Werner
+et al., 2020). Besides, coupling the litter map distribution to the beach
+Digital Surface Model (DSM) would allow to understand how beach
+configuration, along with wind and nearshore hydrodynamics, would
+prevent and/or promote litter accumulation (e.g., Andriolo et al.
+(2020b). These would be beneficial to provide quantitative data for
+improving models of litter dynamics on coastal areas.
+A second possible standard product may be the maps of single litter
+type, source and/or material, to recognise how specific categories are
+distributed on beaches and dunes (Fig. 3). These outcomes may be
+exploited to understand which environmental force (tide, wave, current
+and/or wind) played the main role in stranding and moving specific
+items on the beach (Andriolo et al., 2020b), or identifying which type of
+litter were trapped by different plants on dune environments (Andriolo
+et al., 2021b). Finally, given the recent application of drone multispectral
+images for automated litter material characterization (Gonçalves
+and Andriolo, 2022), further works may outcome the distribution
+of plastics on coasts (Fig. 3).
+A third possible product may be the spatial distribution of litter items
+based on their size (Fig. 3). Most of studies indicated the litter density in
+terms of item/m2 (Table 2), however from such analysis two small
+plastic caps, for instance, have the same statistical weight of two bottles
+or two tyres. The map of size would describe instead the actual area
+occupied by litter (Andriolo et al., 2020a; Bao et al., 2018; Merlino et al.,
+2020; Taddia et al., 2021) and quantify hotspot accumulation. Beside
+representing a scientific advantage in terms of litter survey, such map
+could be coupled with the DSM for i) understanding the dynamics of
+litter based on their size, in relation to beach and dune configuration
+(Andriolo et al., 2021b), ii) estimating the total volume of litter (Kako
+et al., 2020), and iii) improving clean-up operations.
+The production of thematic grid maps can be easily implemented in a
+GIS environment (Fig. 3): after having (manually or automatically)
+marked and characterized the litter items on the orthophoto, the desired
+category output can be selected and counted within the pre-created grid Table 2
+Assessments of drone-based litter surveys. “Methods” refer to litter objects detection on images by manual image screening (MS) and/or automated algorithms. “Analysis” refers to examination of litter detection. “Litter
+categorization” specifies if type (e.g., bottles, fishing ropes, octopus pot etc.), materials (e.g., plastic, paper, glass etc.), size, area and density were indicated in the studies. “Litter maps” columns indicate which type of
+maps were generated and shown in the studies, and if Digital Surface Model (DSM) was included in the analysis.
+Methods Analysis Litter categorization Litter maps
+MS Automated
+detection
+Ground-truth
+comparison
+Item
+geolocation
+N. of
+items
+Type Material Size Total
+area
+Density (item/
+m2)
+Distribution Type Material Size DSM
+Deidun et al. (2018) ✓ ✓ 608 ✓ ✓ ✓
+Martin et al. (2018) ✓ ✓ ✓ 1756 ✓ ✓ ✓ ✓ ✓
+Bao et al. (2018) ✓ ✓ ✓ ✓ ✓ ✓ ✓
+Fallati et al. (2019) ✓ ✓ ✓ 364 ✓ ✓
+Gonçalves et al. (2020a) ✓ ✓ ✓ 429 ✓ ✓ ✓ ✓ ✓
+Merlino et al. (2020) ✓ ✓ ✓ 2429 ✓ ✓ ✓ ✓ ✓
+Andriolo et al. (2020a) ✓ ✓ ✓ 402 ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+Hengstmann & Fisher (2020) ✓ ✓ 3142 ✓ ✓ ✓ ✓
+Andriolo et al. (2020b) ✓ ✓ 1709 ✓ ✓ ✓ ✓ ✓ ✓
+Papakonstantinou et al.
+(2021)
+✓ ✓ ✓ ✓ ✓ ✓
+Escobar-S´anchez et al.
+(2021)
+✓ ✓ ✓ 632 ✓ ✓ ✓
+Martin et al. (2021) ✓ ✓ ✓ ✓ 26,953 ✓ ✓ ✓ ✓ ✓
+Andriolo et al. (2021b) ✓ ✓ ✓ 402 ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+Taddia et al. (2021) ✓ ✓ 119 ✓ ✓ ✓ ✓
+Takaya et al. (2022) ✓ 671 ✓ ✓ ✓ ✓ ✓
+G. Gonçalves et al.
+Environmental Pollution 315 (2022) 120370
+6
+(Andriolo et al., 2020a; Gonçalves et al., 2020b).
+The use of a grid is advantageous for numerous reasons. Firstly, the
+grid map differs from a heatmap, as it does not require the setting of
+neighbourhood radius and does not depend on data density. Secondly,
+the grid map is independent on the orthophoto resolution (GSD),
+therefore litter spatial abundance and distribution could be easily
+compared among studies, regardless of drone models, flight parameters
+and camera set up adopted (Table 1). Thirdly, the grid cell size can be
+easily rescaled in GIS environment for different purposes, such as the
+potential litter survey calibration and validation from satellites, whose
+images have different resolution. Finally, grid maps could be shared
+with local and national stakeholders such as authorities, nongovernmental
+organizations and volunteers, for both raising awareness
+on litter issue and optimizing clean-up operations (Battisti et al.,
+2020).
+Overall, the above proposal of harmonized assessments and products
+(Stage 4, Figs. 1 and 3) does not fully solve the issue of comparing dronebased
+surveys performed with likely different image resolution (Stage 2,
+Fig. 1), which may determine different outcomes quality. Yet, implementing
+manual image screening with different labelling strategies
+(Stage 3, Fig. 1) may still produce incomparable data. In this regard,
+adopting a common and simplified litter categorization shortlist
+(Andriolo et al., 2021a) may help in producing normalized litter census
+from images. Finally, suggesting a minimum value and/or an acceptable
+threshold of F-score (Pinto et al., 2021) for automated techniques assessments
+(Table 2) may be beneficial to guarantee a homogenized level
+of accuracy.
+To date, best practise guidelines to perform and complete the
+different stages of the generalized workflow (Fig. 1) have not been
+established yet. This work sets the ground to further discuss the development
+of a standardized protocol for drone litter data collection and
+analysis. The contribution of the research community is needed to
+further improve the above observations and proposal.
+5. Conclusions
+This work analysed the 15 studies which used drones for beach
+macro-litter surveys on an operational basis. Beach litter surveys by
+drone have been performed on different coastal ecosystems in Europe
+and Asia over the last four years. The analysis of technical parameters for
+drone flight deployment revealed that flight altitude varied between 5
+and 40 m, thus Ground Sampling Distance (GSD), expressing image
+resolution, was between 0.01 and 1.2 cm/pixel. The analysis of final
+assessments showed that, through manual and/or automated detection
+of litter on images, most of studies provided litter bulk characteristics
+(type, material and size), along with distribution maps. Therefore, the
+use of drone for litter survey can be considered not only as an alternative
+to the traditional visual census, but also as a new methodology to
+advance knowledge on litter dynamics, potentially playing a major role
+in providing data for litter models development on coasts through time.
+Regarding the potential standardization of drone-based litter survey,
+which would allow a comparison among surveys, the analysis revealed
+difficulties in proposing a homogenized set of flight parameters, given
+the wide variety of coastal environments, the different devices available,
+and the likely diverse objectives of drone-based litter surveys. On the
+other hand, in our view, a set of common outcomes can be proposed,
+based on grid mapping, that can be easily generated following the
+procedure indicated in this work.
+This work is the first review on the use of drones for beach litter
+survey. Overall, it sets the ground to further discuss the development of
+a standardized protocol for drone litter data collection and analysis. The
+protocol would support the provision of broad scale comparative
+studies, allowing litter monitoring also through long-term assessments,
+to support coastal management at both national and international
+scales.
+Authors contribution
+Gil Gonçalves: Conceptualization, Methodology, Formal Analysis,
+Fig. 3. Example of drone-based litter survey outcomes based on grid map production. a) Detected litter items on orthophoto. Colours can indicate different type,
+source and/or material; b) grid (in the example, 5 × 5 m) generation allows to count the desired category within each cell. For instance, thematic map of litter
+abundance (c), map of types and/or materials, such as plastic (d), distribution of the size and the actual area occupied by litter (e), among others, can be generated
+from the points dataset. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)
+G. Gonçalves et al.
+Environmental Pollution 315 (2022) 120370
+7
+Investigation, Resources, Data curation, Writing - Reviewing and Editing,
+Visualization, Supervision, Project Administration, Funding
+Acquisition. Umberto Andriolo: Conceptualization, Methodology,
+Formal Analysis, Investigation, Resources, Data curation, Validation,
+Writing - Original draft preparation, Writing - Review & Editing, Visualization.
+Luisa M.S. Gonçalves: Writing - Reviewing and Editing,
+Project Administration, Funding Acquisition. Paula Sobral: Writing -
+Reviewing and Editing, Project Administration, Funding Acquisition.
+Filipa Bessa: Writing - Reviewing and Editing, Project Administration,
+Funding Acquisition.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+Data will be made available on request.
+Acknowledgments
+This work was supported by the Portuguese Foundation for Science
+and Technology (FCT) and by the European Regional Development Fund
+(FEDER) through COMPETE 2020, Operational Program for Competitiveness
+and Internationalization (POCI) in the framework of UIDB
+00308/2020 and the research project UAS4Litter (PTDC/EAM-REM/
+30324/2017), and through the strategic project UIDB/04292/2020
+granted to MARE, and project LA/P/0069/2020 granted to the Associate
+Laboratory ARNET.
+We thank the Editor and four anonymous reviewers for their suggestions
+to improve and clarify the manuscript.
+References
+Alkalay, R., Pasternak, G., Zask, A., 2007. Clean-coast index-A new approach for beach
+cleanliness assessment. Ocean Coast Manag. https://doi.org/10.1016/j.
+ocecoaman.2006.10.002.
+Andriolo, U., Garcia-Garin, O., Vighi, M., Borrell, A., Gonçalves, G., 2022. Beached and
+floating litter surveys by unmanned aerial vehicles: operational analogies and
+differences. Rem. Sens. 14, 1336. https://doi.org/10.3390/rs14061336.
+Andriolo, U., Gonçalves, G., 2022. Is coastal erosion a source of marine litter pollution?
+Evidence of coastal dunes being a reservoir of plastics. Mar. Pollut. Bull. 174,
+113307 https://doi.org/10.1016/j.marpolbul.2021.113307.
+Andriolo, U., Gonçalves, G., Bessa, F., Sobral, P., 2020a. Mapping marine litter on coastal
+dunes with unmanned aerial systems: a showcase on the Atlantic Coast. Sci. Total
+Environ. 736 https://doi.org/10.1016/j.scitotenv.2020.139632.
+Andriolo, U., Gonçalves, G., Rangel-Buitrago, N., Paterni, M., Bessa, F., Gonçalves, L.M.
+S., Sobral, P., Bini, M., Duarte, D., Font´an-Bouzas, ´A., Gonçalves, D., Kataoka, T.,
+Luppichini, M., Pinto, L., Topouzelis, K., V´elez-Mendoza, A., Merlino, S., 2021a.
+Drones for litter mapping: an inter-operator concordance test in marking beached
+items on aerial images. Mar. Pollut. Bull. 169 https://doi.org/10.1016/j.
+marpolbul.2021.112542.
+Andriolo, U., Gonçalves, G., Sobral, P., Bessa, F., 2021b. Spatial and size distribution of
+macro-litter on coastal dunes from drone images : a case study on the Atlantic coast.
+Mar. Pollut. Bull. 169, 112490 https://doi.org/10.1016/j.marpolbul.2021.112490.
+Andriolo, U., Gonçalves, G., Sobral, P., Font´an-Bouzas, ´A., Bessa, F., 2020b. Beach-dune
+morphodynamics and marine macro-litter abundance: an integrated approach with
+Unmanned Aerial System. Sci. Total Environ. 749, 141474 https://doi.org/10.1016/
+j.scitotenv.2020.141474.
+Bao, Z., Sha, J., Li, X., Hanchiso, T., Shifaw, E., 2018. Monitoring of beach litter by
+automatic interpretation of unmanned aerial vehicle images using the segmentation
+threshold method. Mar. Pollut. Bull. 137, 388–398. https://doi.org/10.1016/j.
+marpolbul.2018.08.009.
+Battisti, C., Poeta, G., Romiti, F., Picciolo, L., et al., 2020. Small environmental actions
+need of problem-solving approach: applying project management tools to beach
+litter clean-ups. Environments 7. https://doi.org/10.3390/environments7100087.
+Biermann, L., Clewley, D., Martinez-Vicente, V., Topouzelis, K., 2020. Finding plastic
+patches in coastal waters using optical satellite data. Sci. Rep. https://doi.org/
+10.1038/s41598-020-62298-z.
+Chassignet, E.P., Xu, X., Zavala-Romero, O., 2021. Tracking marine litter with a global
+ocean model: where does it go? Where does it come from? Front. Mar. Sci. 8, 1–15.
+https://doi.org/10.3389/fmars.2021.667591.
+Ciappa, A.C., 2022. Marine litter detection by sentinel-2: a case study in north adriatic
+(summer 2020). Rem. Sens. 14, 2409. https://doi.org/10.3390/rs14102409.
+Ciappa, A.C., 2021. Marine plastic litter detection offshore Hawai’i by Sentinel-2. Mar.
+Pollut. Bull. 168 https://doi.org/10.1016/j.marpolbul.2021.112457.
+Deidun, A., Gauci, A., Lagorio, S., Galgani, F., 2018. Optimising beached litter
+monitoring protocols through aerial imagery. Mar. Pollut. Bull. 131, 212–217.
+https://doi.org/10.1016/j.marpolbul.2018.04.033.
+Duarte, D., Andriolo, U., Gonçalves, G., 2020. Addressing the class imbalance problem in
+the automatic image classification of coastal litter from orthophotos derived from
+uas imagery. ISPRS Ann. Photogramm. Remote Sens. Spat. Inf. Sci. V-3 439–445.
+https://doi.org/10.5194/isprs-annals-v-3-2020-439-2020. –2020.
+Duo, E., Fabbri, S., Grottoli, E., Ciavola, P., 2021. Uncertainty of drone-derived dems and
+significance of detected morphodynamics in artificially scraped dunes. Rem. Sens.
+https://doi.org/10.3390/rs13091823.
+Escobar-S´anchez, G., Haseler, M., Oppelt, N., Schernewski, G., 2021. Efficiency of aerial
+drones for macrolitter monitoring on baltic sea beaches. Front. Environ. Sci. 8, 1–18.
+https://doi.org/10.3389/fenvs.2020.560237.
+Fabbri, S., Grottoli, E., Armaroli, C., Ciavola, P., 2021. Using high-spatial resolution uavderived
+data to evaluate vegetation and geomorphological changes on a dune field
+involved in a restoration endeavour. Rem. Sens. https://doi.org/10.3390/
+rs13101987.
+Fallati, L., Polidori, A., Salvatore, C., Saponari, L., Savini, A., Galli, P., 2019.
+Anthropogenic Marine Debris assessment with Unmanned Aerial Vehicle imagery
+and deep learning: a case study along the beaches of the Republic of Maldives. Sci.
+Total Environ. 693, 133581 https://doi.org/10.1016/j.scitotenv.2019.133581.
+Galgani, F., Hanke, G., Maes, T., 2015. Global distribution, composition and abundance
+of marine litter. In: Marine Anthropogenic Litter, pp. 29–56. https://doi.org/
+10.1007/978-3-319-16510-3_2.
+Galgani, L., Beiras, R., Galgani, F., Panti, C., Borja, A., 2019. Editorial: “impacts of
+marine litter.”. Front. Mar. Sci. 6, 4–7. https://doi.org/10.3389/fmars.2019.00208.
+Garcia-Garin, O., Aguilar, A., Borrell, A., Gozalbes, P., Lobo, A., Penad´es-Suay, J.,
+Raga, J.A., Revuelta, O., Serrano, M., Vighi, M., 2020. Who’s better at spotting? A
+comparison between aerial photography and observer-based methods to monitor
+floating marine litter and marine mega-fauna. Environ. Pollut. 258 https://doi.org/
+10.1016/j.envpol.2019.113680.
+GESAMP, 2019. Guidelines for the monitoring and assessment of plastic litter in the
+ocean by Joint Group of Experts on the Scientific Aspects of Marine Environmental
+Protection. Gesamp ISSN: 1020-4873.
+Gnann, N., Baschek, B., Ternes, T.A., 2022. Close-range remote sensing-based detection
+and identification of macroplastics on water assisted by artificial intelligence : a
+review. Water Res. 222 https://doi.org/10.1016/j.watres.2022.118902.
+G´omez-Guti´errez, ´A., Gonçalves, G.R., 2020. Surveying coastal cliffs using two UAV
+platforms (multi-rotor and fixed- wing) and three different approaches for the
+estimation of volumetric changes. Int. J. Rem. Sens. 1–33. https://doi.org/10.1080/
+01431161.2020.1752950, 0.
+Gonçalves, D., Gonçalves, G., P´erez-Alv´avez, J.A., Andriolo, U., 2022. On the 3D
+reconstruction of coastal structures by unmanned aerial systems with onboard global
+navigation satellite system and real-time kinematics and terrestrial laser scanning.
+Rem. Sens. 14, 1485. https://doi.org/10.3390/rs14061485.
+Gonçalves, G., Andriolo, U., 2022. Operational use of multispectral images for macrolitter
+mapping and categorization by Unmanned Aerial Vehicle. Mar. Pollut. Bull.
+176, 113431 https://doi.org/10.1016/j.marpolbul.2022.113431.
+Gonçalves, G., Andriolo, U., Gonçalves, L., Sobral, P., Bessa, F., 2020a. Quantifying
+marine macro litter abundance on a sandy beach using unmanned aerial systems and
+object-oriented machine learning methods. Rem. Sens. 12, 2599. https://doi.org/
+10.3390/rs12162599.
+Gonçalves, G., Andriolo, U., Pinto, L., Bessa, F., 2020b. Mapping marine litter using UAS
+on a beach-dune system: a multidisciplinary approach. Sci. Total Environ. 706
+https://doi.org/10.1016/j.scitotenv.2019.135742.
+Gonçalves, G., Andriolo, U., Pinto, L., Duarte, D., 2020c. Mapping marine litter with
+Unmanned Aerial Systems : a showcase comparison among manual image screening
+and machine learning techniques. Mar. Pollut. Bull. 155, 111158 https://doi.org/
+10.1016/j.marpolbul.2020.111158.
+Gonçalves, G., Gonçalves, D., G´omez-guti´errez, ´A., Andriolo, U., P´erez-alv´arez, J.A.,
+2021. 3d reconstruction of coastal cliffs from fixed-wing and multi-rotor uas: impact
+of sfm-mvs processing parameters, image redundancy and acquisition geometry.
+Rem. Sens. https://doi.org/10.3390/rs13061222.
+Hengstmann, E., Fischer, E.K., 2020. Anthropogenic litter in freshwater environments –
+study on lake beaches evaluating marine guidelines and aerial imaging. Environ.
+Res. 189 https://doi.org/10.1016/j.envres.2020.109945.
+Jambeck, J.R., Geyer, R., Wilcox, C., Siegler, T.R., Perryman, M., Andrady, A.,
+Narayan, R., Law, K.L., 2015. Plastic waste inputs from land into the ocean. Science
+80. https://doi.org/10.1126/science.1260352.
+Kako, S., Isobe, A., Kataoka, T., Yufu, K., Sugizono, S., Plybon, C., Murphy, T.A., 2018.
+Sequential webcam monitoring and modeling of marine debris abundance. Mar.
+Pollut. Bull. https://doi.org/10.1016/j.marpolbul.2018.04.075.
+Kako, S., Isobe, A., Magome, S., 2012. Low altitude remote-sensing method to monitor
+marine and beach litter of various colors using a balloon equipped with a digital
+camera. Mar. Pollut. Bull. 64, 1156–1162. https://doi.org/10.1016/j.
+marpolbul.2012.03.024.
+Kako, S., Isobe, A., Magome, S., 2010. Sequential monitoring of beach litter using
+webcams. Mar. Pollut. Bull. 60, 775–779. https://doi.org/10.1016/j.
+marpolbul.2010.03.009.
+Kako, S., Morita, S., Taneda, T., 2020. Estimation of plastic marine debris volumes on
+beaches using unmanned aerial vehicles and image processing based on deep
+learning. Mar. Pollut. Bull. 155 https://doi.org/10.1016/j.marpolbul.2020.111127.
+G. Gonçalves et al.
+Environmental Pollution 315 (2022) 120370
+8
+Kataoka, T., Hinata, H., Kako, S., 2012. A new technique for detecting colored macro
+plastic debris on beaches using webcam images and CIELUV. Mar. Pollut. Bull. 64,
+1829–1836. https://doi.org/10.1016/j.marpolbul.2012.06.006.
+Kataoka, T., Murray, C.C., Isobe, A., 2018. Quantification of marine macro-debris
+abundance around Vancouver Island, Canada, based on archived aerial photographs
+processed by projective transformation. Mar. Pollut. Bull. 132, 44–51. https://doi.
+org/10.1016/j.marpolbul.2017.08.060.
+Laporte-Fauret, Q., Lubac, B., Castelle, B., Michalet, R., Marieu, V., Bombrun, L.,
+Launeau, P., Giraud, M., Normandin, C., Rosebery, D., 2020. Classification of
+Atlantic coastal sand dune vegetation using in situ, UAV, and airborne hyperspectral
+data. Rem. Sens. https://doi.org/10.3390/rs12142222.
+Linder, W., 2016. Digital Photogrammetry: A Practical Course, Fourth Edition, Digital
+Photogrammetry: A Practical Course. Fourth Edition. https://doi.org/10.1007/978-
+3-662-50463-5.
+Lo, H.S., Wong, L.C., Kwok, S.H., Lee, Y.K., Po, B.H.K., Wong, C.Y., Tam, N.F.Y.,
+Cheung, S.G., 2020. Field test of beach litter assessment by commercial aerial drone.
+Mar. Pollut. Bull. https://doi.org/10.1016/j.marpolbul.2019.110823.
+Manfreda, S., Mccabe, Matthew F., Miller, Pauline E., Lucas, R., Pajuelo, V.M.,
+Mallinis, G., Dor, E., Ben, David Helman, Estes, L., Ciraolo, G., Müllerov´a, J.,
+Tauro, F., Lima, M.I. De, Lima, J.L. De, Frances, F., Caylor, K., Kohv, M., Maltese, A.,
+Perks, M., Ruiz-P´erez, G., Su, Z., Vico, G., Toth, B., 2018. Use of unmanned aerial
+systems for environmental monitoring. Rem. Sens. 10 (4), 641. https://doi.org/
+10.3390/rs10040641.
+Martin, C., Parkes, S., Zhang, Q., Zhang, X., McCabe, M.F., Duarte, C.M., 2018. Use of
+unmanned aerial vehicles for efficient beach litter monitoring. Mar. Pollut. Bull. 131,
+662–673. https://doi.org/10.1016/j.marpolbul.2018.04.045.
+Martin, C., Zhang, Q., Zhai, D., Zhang, X., Duarte, C.M., 2021. Enabling a large-scale
+assessment of litter along Saudi Arabian red sea shores by combining drones and
+machine learning. Environ. Pollut. 277, 116730 https://doi.org/10.1016/j.
+envpol.2021.116730.
+Martínez-Vicente, V., Clark, J.R., Corradi, P., Aliani, S., Arias, M., Bochow, M.,
+Bonnery, G., Cole, M., C´ozar, A., Donnelly, R., Echevarría, F., Galgani, F., Garaba, S.
+P., Goddijn-Murphy, L., Lebreton, L., Leslie, H.A., Lindeque, P.K., Maximenko, N.,
+Martin-Lauzer, F.R., Moller, D., Murphy, P., Palombi, L., Raimondi, V., Reisser, J.,
+Romero, L., Simis, S.G.H., Sterckx, S., Thompson, R.C., Topouzelis, K.N., van
+Sebille, E., Veiga, J.M., Vethaak, A.D., 2019. Measuring marine plastic debris from
+space: initial assessment of observation requirements. Rem. Sens. 11, 8–14. https://
+doi.org/10.3390/rs11202443.
+Maximenko, N., Corradi, P., Law, K.L., Van Sebille, E., Garaba, S.P., Lampitt, R.S.,
+Galgani, F., Martinez-Vicente, V., Goddijn-Murphy, L., Veiga, J.M., Thompson, R.C.,
+Maes, C., Moller, D., L¨oscher, C.R., Addamo, A.M., Lamson, M.R., Centurioni, L.R.,
+Posth, N.R., Lumpkin, R., Vinci, M., Martins, A.M., Pieper, C.D., Isobe, A., Hanke, G.,
+Edwards, M., Chubarenko, I.P., Rodriguez, E., Aliani, S., Arias, M., Asner, G.P.,
+Brosich, A., Carlton, J.T., Chao, Y., Cook, A.-M., Cundy, A.B., Galloway, T.S.,
+Giorgetti, A., Goni, G.J., Guichoux, Y., Haram, L.E., Hardesty, B.D., Holdsworth, N.,
+Lebreton, L., Leslie, H.A., Macadam-Somer, I., Mace, T., Manuel, M., Marsh, R.,
+Martinez, E., Mayor, D.J., Le Moigne, M., Molina Jack, M.E., Mowlem, M.C.,
+Obbard, R.W., Pabortsava, K., Robberson, B., Rotaru, A.-E., Ruiz, G.M., Spedicato, M.
+T., Thiel, M., Turra, A., Wilcox, C., 2019. Toward the integrated marine debris
+observing system. Front. Mar. Sci. 6 https://doi.org/10.3389/fmars.2019.00447.
+Meijer, L.J.J., van Emmerik, T., van der Ent, R., Schmidt, C., Lebreton, L., 2021. More
+than 1000 rivers account for 80% of global riverine plastic emissions into the ocean.
+Sci. Adv. https://doi.org/10.1126/sciadv.aaz5803.
+Merlino, S., Paterni, M., Berton, A., Massetti, L., 2020. Unmanned aerial vehicles for
+debris survey in coastal areas: long-term monitoring programme to study spatial and
+temporal accumulation of the dynamics of beached marine litter. Rem. Sens. 12,
+1260. https://doi.org/10.3390/RS12081260.
+Merlino, S., Paterni, M., Locritani, M., Andriolo, U., Gonçalves, G., Massetti, L., Zou, Q.,
+2021. Citizen science for marine litter detection and classification on unmanned
+aerial vehicle images. Water (Switzerland) 13, 3349. https://doi.org/10.3390/
+W13233349.
+Moy, K., Neilson, B., Chung, A., Meadows, A., Castrence, M., Ambagis, S., Davidson, K.,
+2018. Mapping coastal marine debris using aerial imagery and spatial analysis. Mar.
+Pollut. Bull. 132, 52–59. https://doi.org/10.1016/j.marpolbul.2017.11.045.
+Murray, C.C., Maximenko, N., Lippiatt, S., 2018. The influx of marine debris from the
+Great Japan Tsunami of 2011 to North American shorelines. Mar. Pollut. Bull.
+https://doi.org/10.1016/j.marpolbul.2018.01.004.
+OSPAR Commission, 2010. Guideline for monitoring marine litter on the beachs in the
+OSPAR Maritime Area. OSPAR Comm.
+Papakonstantinou, A., Batsaris, M., Spondylidis, S., Topouzelis, K., 2021. A Citizen
+Science Unmanned Aerial System Data Acquisition Protocol and Deep Learning
+Techniques for the Automatic Detection and Mapping of Marine Litter
+Concentrations in the Coastal Zone.
+Papakonstantinou, A., Topouzelis, K., Doukari, M., Andreadis, O., 2019. Mapping refugee
+litters in the eastern coast of Lesvos using UAS, an emerging marine litter problem.
+Abstr. ICAAC 1, 1–2. https://doi.org/10.5194/ica-abs-1-290-2019.
+Pinto, L., Andriolo, U., Gonçalves, G., 2021. Detecting stranded macro-litter categories
+on drone orthophoto by a multi-class Neural Network. Mar. Pollut. Bull. 169, 112594
+https://doi.org/10.1016/j.marpolbul.2021.112594.
+Portz, L., Portantiolo, R., Villate-daza, D.A., Font´an-bouzas, ´A., 2021. Science of the total
+environment where does marine litter hide ? the providencia and santa catalina
+island problem , SEAFLOWER reserve (Colombia). Sci. Total Environ., 151878
+https://doi.org/10.1016/j.scitotenv.2021.151878.
+Rangel-Buitrago, N., Gracia, C.A., V´elez-Mendoza, A., Mantilla-Barbosa, E., Arana, V.A.,
+Trilleras, J., Arroyo-Olarte, H., 2018. Abundance and distribution of beach litter
+along the Atlantico Department, Caribbean coast of Colombia. Mar. Pollut. Bull. 136,
+435–447. https://doi.org/10.1016/j.marpolbul.2018.09.040.
+Rangel-Buitrago, N., Mendoza, A.V., Mantilla-Barbosa, E., Arroyo-Olarte, H., Arana, V.
+A., Trilleras, J., Gracia C, A., Neal, W.J., Williams, A.T., 2021. Plastic pollution on
+the Colombian central Caribbean beaches. Mar. Pollut. Bull. 162 https://doi.org/
+10.1016/j.marpolbul.2020.111837.
+Schwarz, A.E., Ligthart, T.N., Boukris, E., van Harmelen, T., 2019. Sources, transport,
+and accumulation of different types of plastic litter in aquatic environments: a
+review study. Mar. Pollut. Bull. https://doi.org/10.1016/j.marpolbul.2019.04.029.
+Staffieri, E., de Lucia, G.A., Camedda, A., Poeta, G., Battisti, C., 2019. Pressure and
+impact of anthropogenic litter on marine and estuarine reptiles: an updated
+“blacklist” highlighting gaps of evidence. Environ. Sci. Pollut. Res. https://doi.org/
+10.1007/s11356-018-3616-4.
+Taddia, Y., Corbau, C., Buoninsegni, J., Simeoni, U., Pellegrinelli, A., 2021. UAV
+Approach for Detecting Plastic Marine Debris on the Beach : A Case Study in the Po
+River Delta (Italy) 1–18.
+Takaya, K., Shibata, A., Mizuno, Y., Ise, T., 2022. Unmanned aerial vehicles and deep
+learning for assessment of anthropogenic marine debris on beaches on an island in a
+semienclosed sea in Japan. Environ. Res. Commun. 4 https://doi.org/10.1088/2515-
+7620/ac473b.
+Tmuˇsi, G., Manfreda, S., Aasen, H., James, M.R., Gonçalves, G.R., Ben-dor, E., Brook, A.,
+Polinova, M., Arranz, J.J., M´esz´aros, J., Zhuang, R., Johansen, K., Malbeteau, Y.,
+Pedroso de Lima, I., Davids, C., Herban, S., McCabe, M.F., 2020. Current practices in
+UAS-based environmental monitoring. Rem. Sens. 12 (6).
+Topouzelis, K., Papakonstantinou, A., Garaba, S.P., 2019. Detection of floating plastics
+from satellite and unmanned aerial systems (Plastic Litter Project 2018). Int. J. Appl.
+Earth Obs. Geoinf. 79, 175–183. https://doi.org/10.1016/j.jag.2019.03.011.
+Veiga, J.M., Fleet, D., Kinsey, S., Nilsson, P., Vlachogianni, T., Werner, S., Galgani, F.,
+Thompson, R.C., Dagevos, J., Gago, J., Sobral, P., Cronin, R., 2016. Identifying
+Sources of Marine Litter. JRC Technical Report.
+Werner, S., Budziak, A., Van Fanneker, J.A., Galgani, F., Hanke, G., Maes, T.,
+Matiddi, M., Nilsson, P., Oosterbaan, L., Priestland, E., Thompson, R., Veiga, J.M.,
+Vlachogianni, T., 2016. Harm Caused by Marine Litter - European Commission, JRC
+Scientific and Technical Reports. https://doi.org/10.2788/690366.
+Werner, S., Fischer, E., Fleet, D., Galgani, F., Hanke, G., Kinsey, S., Mattidi, M., 2020.
+Threshold Values for Marine Litter General discussion paper on defining threshold
+values for marine litter Title: Threshold Values for Marine Litter. https://doi.
+org/10.2760/192427.
+Wolf, M., van den Berg, K., Garaba, S.P., Gnann, N., Sattler, K., Stahl, F.T., Zielinski, O.,
+2020. Machine learning for aquatic plastic litter detection, classification and
+quantification (APLASTIC–Q). Environ. Res. Lett. https://doi.org/10.1088/1748-
+9326/abbd01.
+Woods, J.S., Verones, F., Jolliet, O., V´azquez-Rowe, I., Boulay, A.M., 2021. A framework
+for the assessment of marine litter impacts in life cycle impact assessment. Ecol.
+Indicat. https://doi.org/10.1016/j.ecolind.2021.107918.
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
 G. Gonçalves et al.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Contents lists available at ScienceDirect
 Transportation Research Part A
 journal homepage: www.elsevier.com/locate/tra
@@ -731,4 +732,739 @@ goods: evidence from Nanjing. J. Transport Geogr. 66, 291–299.
 Zhou, Y., Wang, X., 2014. Explore the relationship between online shopping and shopping trips: an analysis with the 2009 NHTS data. Transport. Res. Part A: Policy
 Pract. 70, 1–9.
 K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+=======
+Contents lists available at ScienceDirect
+Transportation Research Part A
+journal homepage: www.elsevier.com/locate/tra
+Does e-shopping replace shopping trips? Empirical evidence from
+Chengdu, China
+Kunbo Shia, Jonas De Vosa, Yongchun Yangb,⁎, Frank Witloxa,c
+a Department of Geography, Ghent University, Krijgslaan 281 S8, B9000 Gent, Belgium
+b College of Earth and Environmental Sciences, Lanzhou University, South Tianshui Road 222, 730000 Lanzhou, China
+c Department of Geography, University of Tartu, Vanemuise 46, 51014 Tartu, Estonia
+A R T I C L E I N F O
+Keywords:
+E-shopping, shopping trip
+Travel behavior
+China
+A B S T R A C T
+With the rapid proliferation of e-retailing, the question of how e-shopping affects shopping travel
+has attracted increasing attention since the beginning of this century. To date, however, scholars
+have failed to reach a consensus on this topic. Meanwhile, China, where currently the highest
+level of e-retail shopping in the world takes place, has not received the full focus of previous
+studies. Using data from structured interviews with 710 respondents in Chengdu, China, we aim
+to explore whether e-shopping for four types of goods (clothes and shoes, electronics, food and
+drink, and cosmetics) replaces shopping trips. In addition, regression models are constructed to
+demonstrate the determinants of e-shopping and shopping travel behaviors. The results suggest
+that consumers’ e-shopping and shopping travel behaviors are significantly determined by sociodemographics,
+internet experience, car ownership, and location factors. E-shopping has a
+substitution effect on the frequency of shopping trips. It is further suggested that e-shopping
+could be regarded as a possible solution for urban congestion. In the long run, the number of
+physical stores for the four types of goods may decrease.
+1. Introduction
+In recent years, e-shopping has grown immensely in most parts of the world. The largest development in e-retailing has occurred
+in China. In 2016, the market size of e-retailing was ¥ 2.6 trillion (≈US $ 0.41 trillion) in the United States, but online retail sales
+approached ¥ 4.7 trillion (≈US $ 0.74 trillion) in China, nearly doubling the size of retail sales in the United States (IResearch,
+2017a). In 2014, the online retail share of total retail sales in China (10.6%) overtook that in the United States (9.5%). To date,
+China’s online retail market has become the largest in the world (McKinsey & Company, 2016).
+With e-shopping growing rapidly, the impact of e-shopping on shopping travel has been the focus of many researchers, since it is a
+topic related to urban land use and transportation systems (Rotem-Mindali & Weltevreden, 2013). To date, four types of impacts have
+been proposed (Salomon, 1986; Mokhtarian, 2002; Ferrell, 2005; Cao, 2009; Clarke et al., 2015): (1) Substitution – shopping trips
+are replaced by e-shopping; (2) Complementarity – due to e-shopping, the frequency of shopping trips increases; (3) Modification –
+owing to e-shopping, trips to physical stores are not replaced but are altered; and (4) Neutrality – e-shopping has no effect on
+shopping travel. Not surprisingly, previous empirical studies show conflicting results. Some scholars assert that people reduce their
+shopping trips due to e-shopping, which indicates that e-shopping has a substitution effect on shopping trips (Gould & Golob, 1998;
+https://doi.org/10.1016/j.tra.2019.01.027
+Received 23 April 2018; Received in revised form 3 December 2018; Accepted 19 January 2019
+⁎ Corresponding author.
+E-mail addresses: kunbo.shi@ugent.be (K. Shi), jonas.devos@ugent.be (J. De Vos), yangych@lzu.edu.cn (Y. Yang),
+frank.witlox@ugent.be (F. Witlox).
+Transportation Research Part A 122 (2019) 21–33
+Available online 22 February 2019
+0965-8564/ © 2019 Elsevier Ltd. All rights reserved.
+T
+Ferrell, 2005; Weltevreden, 2007; Weltevreden & Rietbergen, 2007, 2009; Weltevreden & Rotem-Mindali, 2009; Irawan & Wirza,
+2015). In contrast, other researchers argue that people frequently buying or searching online tend to make more shopping trips,
+suggesting a complementarity effect (Farag et al., 2005, 2006a, 2007; Cao, 2012; Cao et al., 2010, 2012; Zhou & Wang, 2014; Zhen
+et al., 2016; Ding & Lu, 2017; Lee et al., 2017; Xi et al., 2018). In addition, some scholars also state that e-shopping alters the
+shopping travel pattern (e.g., duration, distance), which supports the modification effect (Mokhtarian, 2002; Ferrell, 2005; Farag
+et al., 2006a, 2007). However, a few studies have shown that e-shopping does not have a significant effect on shopping travel,
+indicating a neutrality impact (Sim & Koi, 2002; Calderwood & Freathy, 2014).
+As the country with the largest online retail sales in the world, China is a well-suited study area to investigate the effect of eshopping
+on shopping travel. It is also reasonable to assume that some significant effects might be found. However, despite some
+studies analyzing e-shopping in China (Zhen et al., 2016; Ding & Lu, 2017), the number of studies is rather low compared to other
+countries such as the Netherlands (Farag et al., 2005, 2006a, 2007; Weltevreden, 2007; Weltevreden & Rietbergen, 2007, 2009; Maat
+& Konings, 2018) and the United States (Cao et al., 2010, 2012; Zhou & Wang, 2014; Lee et al., 2017). In addition, the impact of eshopping
+on shopping travel among countries may differ considerably. For example, Sim and Koi (2002) attributed the neutral effect
+of e-shopping on shopping travel to Singaporean’s preferences. In a Scottish study, Calderwood and Freathy (2014) claimed that
+specific situational factors on islands can affect the relationship between e-shopping and shopping travel. It is acknowledged that as
+an emerging economy, China has a development context that is quite different from other (Western) countries. Therefore, it is vital to
+use evidence from China to clarify this rather controversial issue.
+In addition, congestion is a challenge faced by most cities in the world today (Christidis & Rivas, 2012; Alam & Ahmed, 2013;
+Chang et al., 2017). Especially in China, with highly rapid urbanization process, traffic congestion has become one of the biggest
+challenges for many cities. Therefore, it is important to clarify whether e-shopping replaces or generates shopping trips, which
+determines whether shopping online is a solution or a new challenge for urban congestion. As a result, focusing on this topic can have
+important implications for urban transportation systems (Cao, 2012; Crocco et al., 2013; Zhen et al., 2016).
+In this context, it is the key objective of this paper to examine whether e-shopping replaces shopping trips with evidence from
+China. Using data from structured interviews concerning e-shopping behavior in the Chinese city of Chengdu in 2016, we will attempt
+to answer the following questions: Q1 – What are the determinants of e-shopping behavior? Q2 – Does e-shopping replace shopping
+trips? If yes, Q3 – what are the determinants of whether people substitute e-shopping for shopping trips? The paper is organized as
+follows. In the next section, previous research is reviewed and discussed. Section 3 presents the development context in China.
+Section 4 contains the research design and methodology, while Section 5 presents the main results. Conclusions and a discussion are
+offered in the last section.
+2. Literature review
+2.1. E-shopping versus shopping trips
+The topic of this study, i.e., the effect of e-shopping on shopping travel, has been analyzed for quite a while. Before the widespread
+use of e-shopping, a related topic, the effect of telecommunication on transportation, has attracted scholarly attention since the 1960s
+(Memmott, 1963; Nilles et al., 1976; Salomon, 1985, 1986; Mokhtarian, 2002). At that time, the relationships between telecommunication
+and transportation were in early stages. For example, substitution, complementarity, and neutrality had been raised
+by theoretical frameworks. Subsequently, borrowing from these relationships, some scholars attempted to build a conceptual framework
+to explain shopping behavior (Salomon, 1985, 1986; Mokhtarian, 2002). From this point on, this framework has been used
+widely in empirical research to explore the association between e-shopping and shopping travel (Farag et al., 2006a, 2007;
+Weltevreden, 2007; Weltevreden & Rietbergen, 2007; Clarke et al., 2015). To date, a significant body of literature has investigated
+the impacts of e-shopping on shopping travel. However, four types of effects are supported by substantial empirical evidence.
+(1) Substitution. Gould and Golob (1998) were the first to analyze whether e-shopping will replace shopping trips using empirical
+evidence. They believed that although a substitution effect of e-shopping on shopping trips exists, its effect is negligible in the
+United States. Subsequently, also using data from the United States, research by Ferrell (2005) indicated that respondents avoid
+20% of a shopping trip for every 100 min they spend on e-shopping. Evidence from the Netherlands confirms this finding. For
+instance, Weltevreden and Rietbergen (2007, 2009) found that more than 20% of respondents agreed that they reduce the
+shopping trips to city center stores due to e-shopping. Weltevreden (2007) further noted that in the long run, physical stores for
+some retail categories will be substituted by e-stores. Weltevreden and Rotem-Mindali (2009) also showed that e-shopping leads
+to a net reduction in the amount of personal shopping trips. In addition, Irawan and Wirza (2015) similarly found in Indonesia
+that e-shopping can decrease consumers’ willingness to conduct shopping trips.
+(2) Complementarity. In a Dutch study, Farag et al. (2005, 2007) found that frequent online searchers are inclined to make more
+shopping trips than infrequent online searchers. Farag et al. (2006a) further showed a complementary effect of e-shopping on
+shopping trips, since results indicated that people who purchase online tend to buy at physical stores more frequently. Based on
+shopping survey data in the United States, Cao et al. (2010) claimed that 49.3% of respondents were inclined to make a new trip
+to physical stores after seeing goods online, which indicated that the shopping trip was encouraged by e-shopping. Cao et al.
+(2012) also found that the frequency of e-shopping has a positive effect on the frequency of shopping trips. Cao (2012) further
+showed that the generation effect of e-shopping on shopping trips will impose extra burdens on existing transportation systems.
+Similarly, Zhou and Wang (2014) and Lee et al. (2017) also found a positive association between the frequency of e-shopping and
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+22
+shopping trips. In addition to the studies mentioned above, a limited number of studies from China have been published in recent
+years. Using data from Nanjing, Zhen et al. (2016) and Xi et al. (2018) found a positive linkage between the frequency of buying
+or searching online and the frequency of shopping trips. Applying a structural equation modeling approach to data from Beijing,
+Ding and Lu (2017) claimed that e-shopping frequency has a positive association with the frequency of shopping trips to physical
+stores.
+(3) Neutrality. Mokhtarian (2002) noted that not every e-shopping activity will replace shopping trips; thus, its impact on shopping
+travel could be overlooked. Using Singapore as the study area, Sim and Koi (2002) stated that the effect of e-shopping on
+shopping travel is quite slim because Singaporeans prefer to purchase at physical stores rather than e-stores. Calderwood and
+Freathy (2014) found that almost 80% of respondents indicated that the frequency of shopping trips was not affected by eshopping
+in the Scottish Isles.
+(4) Modification. Ferrell (2005) found that e-shoppers tend to take shorter-distance shopping trips in the United States. Similarly,
+Farag et al. (2006a, 2007) showed that the more frequently people buy online in the Netherlands, the less time they spend on
+shopping trips to physical stores.
+From these previous studies, two main lessons can be learned. On the one hand, apart from a few cases, it is evident that eshopping
+has an effect on shopping travel. However, it remains rather uncertain whether this is due to substitution or complementarity
+effects. In this context, empirical evidence from an area with great e-shopping potential (e.g., China) can shed some new
+light on this issue. On the other hand, scholars largely ignored the shopping travel implications of China’s large e-retailing market
+before 2016. Since then, only a few studies have begun to reveal this topic using evidence from China (e.g., Zhen et al., 2016; Ding &
+Lu, 2017; Xi et al., 2018).
+Furthermore, some existing studies do not seem to be able to determine whether e-shopping generates shopping trips. Some
+scholars found a positive association between the frequency of e-shopping and shopping trips and consequently claimed that there
+exists a complementary effect of e-shopping on shopping trips (e.g., Farag et al., 2005, 2006a, 2007; Zhou & Wang, 2014; Zhen et al.,
+2016; Ding & Lu, 2017). However, evidence is limited because, for example, most e-shoppers are likely to decrease their frequency of
+shopping trips due to e-shopping. Frequent e-shoppers, however, still make more shopping trips than infrequent e-shoppers, as they
+have a higher shopping demand. In this case, the frequency of shopping trips is not encouraged by e-shopping, and a positive
+association does not indicate complementarity but indicates substitution. Meanwhile, when respondents were asked whether they
+changed the frequency of shopping trips due to e-shopping, they mostly indicated a reduction in frequency (e.g., Weltevreden, 2007;
+Weltevreden & Rietbergen, 2007; Weltevreden & Rotem-Mindali, 2009; Calderwood & Freathy, 2014). Compared to the former case,
+it is more reasonable to explore the issue in the latter case.
+Three studies focusing on China indicate a complementary effect of e-shopping on the frequency of shopping trips because a
+positive association between e-shopping or online searching and shopping trip frequency was found (Zhen et al., 2016; Ding & Lu,
+2017, Xi et al., 2018). However, their findings seem untenable. Previous studies suggest that the effect of e-shopping on shopping
+trips to stores is associated with whether these stores will be eliminated (Weltevreden, 2007; Weltevreden & Rietbergen, 2009; Cao
+et al., 2013). In other words, assuming that e-shopping stimulates consumers to make more shopping trips to physical stores, new
+physical stores might emerge. In this case, the demand for land by the retail industry is more likely to be extended to a certain extent.
+However, Zhang et al. (2016) found that the demand for retail real estate is inhibited by e-commerce in China, which is irreconcilable
+with the findings of Zhen et al. (2016), Ding and Lu (2017) and Xi et al. (2018).
+2.2. E-shopping determinants
+To date, many studies have investigated the factors affecting e-shopping behavior. Sociodemographic factors have been tested
+frequently in previous studies. First, gender is found to affect e-shopping behavior, but conflicting results have been presented. In
+some studies, women are more likely to adopt e-shopping than men (Ding & Lu, 2017; Maat & Konings, 2018). However, some
+opposite findings have shown that men are more inclined to purchase online (Farag et al., 2006b, 2007; Crocco et al., 2013). In
+addition, Zhen et al. (2016) stated that men are more likely to conduct e-shopping for electronics than women, but women are more
+likely to shop online for clothes and daily goods than men. Lee et al. (2015), on the other hand, found that gender has no significant
+effect on e-shopping behavior. Second, some researchers stated that age negatively influences e-shopping behavior (Farag et al.,
+2007; Crocco et al., 2013; Zhou & Wang, 2014; Irawan & Wirza, 2015; Ding & Lu, 2017; Maat & Konings, 2018). However, a
+nonlinear relationship between age and e-shopping behavior was found by Farag et al. (2006b) and Zhen et al. (2018). They found
+that up to the age of 33 years old, the probability of purchasing online rises with increasing age. After 33 years old, the probability of
+purchasing online starts to decline. Third, a positive influence of income on e-shopping behavior was found by a considerable number
+of studies (Farag et al., 2007; Blasio, 2008; Cao et al., 2012, 2013; Crocco et al., 2013; Zhou & Wang, 2014; Zhen et al., 2016, 2018).
+However, Farag et al. (2006b) and Ding and Lu (2017) found an insignificant effect concerning income. Irawan and Wirza (2015)
+even stated that low-income groups tend to purchase online more frequently. Fourth, it has been suggested that people with higher
+education levels are more inclined to engage in e-shopping (Farag et al., 2006b, 2007; Blasio, 2008; Cao et al., 2012; Zhou & Wang,
+2014; Zhen et al., 2018), although Ding and Lu (2017) argued that education does not matter for e-shopping behavior. Irawan and
+Wirza (2015) even held a contrary opinion that people who are more educated are unlikely to purchase online.
+Individual internet experiences have also been tested in previous studies. It has been indicated that the frequency of internet use
+positively affects e-shopping behavior (Ding & Lu, 2017; Farag et al., 2006b, 2007; Cao et al., 2013; Maat & Konings, 2018). Furthermore,
+studies by Farag et al. (2007) and Ren and Kwan (2009) showed that the number of years using the internet positively
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+23
+affects e-shopping behavior. Similarly, Irawan and Wirza (2015) stated that using the internet on a weekly base has a positive effect
+on e-shopping. With the widespread use of smartphones, e-shopping on smartphones has become common behavior. Maat and
+Konings (2018) stated that people who have a smartphone conduct e-shopping more frequently.
+Car ownership is also expected to influence an individual’s e-shopping behavior. A study by Irawan and Wirza (2015) indicated
+that both the number of vehicles that households own and the number of family members having a driver’s license positively affect eshopping
+frequency in Indonesia. Similarly, Zhen et al. (2016) found that people possessing a driver’s license are more inclined to
+purchase online for clothes, electronics, books, and daily goods in Nanjing, China. In contrast, Farag et al. (2006a) claimed that car
+ownership has an insignificant effect on the adoption of e-shopping in the United States. Notably, ignoring car ownership, Zhen et al.
+(2016) explored only the effect of driver’s license possession on e-shopping behavior in China. Given the conflicting results in
+previous studies, it remains unclear how car ownership influences e-shopping behavior in China.
+Geographers have paid much attention to the effect of location factors on e-shopping behavior. At the beginning of the 2000s, two
+plausible hypotheses were proposed (Anderson et al., 2003; Boschma and Weltevreden, 2004; Farag et al., 2006b). One is the
+innovation diffusion hypothesis, stating that urban residents are most likely to adopt e-shopping, as they are better educated and
+more likely to actively use the internet for other purposes. The other is the efficiency hypothesis, which postulates that people in
+nonmetropolitan or suburban areas are more likely to adopt e-shopping, since they can benefit more from online shopping as a
+consequence of lower accessibility to stores. The two hypotheses have subsequently been tested by empirical evidence. Farag et al.
+(2005, 2007) stated that people living in more urbanized areas are inclined to purchase online, which tends to support the innovation
+diffusion hypothesis. Similarly, Cao et al. (2013) and Zhou and Wang (2014) found that people living in urban areas engage in more
+frequent e-shopping. On the other hand, Krizek et al. (2005) showed that – in metropolitan areas – people living in the suburbs or
+further from the city center purchase more frequently online, which seems to confirm the efficiency hypothesis. Given that shopping
+trips are usually chained with trips for other purposes, especially commuting trips (Salomon, 1986; Ferrell, 2005; Rotem-Mindali &
+Weltevreden, 2013), the effect of work location on e-shopping has also been tested (Zhen et al., 2018). The results indicate that
+people living and working in urban areas are more likely to purchase books online. Surprisingly, McHugh (2014) found that location
+factors have no significant effect on e-shopping behavior.
+Except for the above factors examined most frequently in previous studies, other factors are also expected to determine eshopping
+behavior. For example, some studies have shown that the type of work can play a key role in e-shopping behavior (Ren &
+Kwan, 2009; Cao et al., 2013; Irawan & Wirza, 2015). The effect of attitudes towards e-shopping or in-store shopping on e-shopping
+behavior has also been discussed in other studies (Cao et al., 2010, 2013; Zhou & Wang, 2014; Irawan & Wirza, 2015).
+Although a significant body of research has explored e-shopping determinants, very few studies have investigated the determinants
+of whether people increase or decrease shopping trip frequency due to e-shopping. Weltevreden & Rietbergen (2009) examined
+this question and determined some interesting findings: (1) For nondaily goods, people who frequently purchase online, have low
+accessibility to shops by car, enjoy in-store shopping to a limited degree, or are relatively young are more likely to substitute eshopping
+for shopping trips. However, gender and education do not seem to play a significant role. (2) For specialty goods, people
+who purchase online frequently, search online frequently, have low accessibility to shops by car, have less enjoyment for in-store
+shopping, or are male tend to substitute e-shopping for shopping trips. Age has a nonlinear effect on the probability of making fewer
+shopping trips.
+Overall, there have been conflicting results concerning e-shopping determinants. For example, gender, age, and location seem to
+play different roles in e-shopping among existing studies. It is reasonable to assume that we can attribute these conflicting outcomes
+not only to research limitations (e.g., methodology, definition of e-shopping, quality of data) but also to local contexts of study areas
+(e.g., economic development, urbanization, informatization, social culture). Hence, the determinants of e-shopping should be explored
+in various regions.
+3. Development contexts in China
+As an emerging economy, China has a special context that is different from other (Western) countries. Considering that local
+contexts have a profound effect on e-shopping behavior (e.g., Sim & Koi, 2002; Calderwood & Freathy, 2014), it is necessary to
+present the development contexts in China, which may contribute to the understanding of the following analysis results.
+In recent years, China has enjoyed a rapid urbanization. Data from the National Bureau of Statistics of China (2016a) indicated
+that the urbanization rate (percentage of people living in urban areas) in China increased to 56% in 2015 from 38% in 2001. It was
+reported by the Chengdu Municipal Commission of Economy and Information Technology (2017) that the total population reached
+15.9 million with an urbanization rate of 70.6% in 2016 in Chengdu. Consequently, the considerable transport congestion is mainly
+caused by rapid urbanization and a very high population density in Chengdu and other Chinese large cities. Additionally, compared
+to most Western countries, China has a relatively low rate of car ownership (Zhen et al., 2016, 2018). Therefore, it may not be
+convenient for many urban residents in China to make shopping trips by private cars. In this context, the residents’ desire for
+shopping trips may be reduced because e-shopping has become a viable alternative.
+In addition, with the booming growth of the e-retailing market, the demand for delivery service has increased dramatically. It was
+reported by the State Post Bureau of China (2016) that the number of fast deliveries, which are mainly used for e-shopping, reached
+20.67 billion in 2015, representing a 48% increase from 2014. Furthermore, the revenue from fast deliveries was 276.96 billion Yuan
+(≈US $ 43.90 billion) in 2015, representing a 35% increase from 2014. Consequently, delivery companies have emerged rapidly in
+China. In recent years, some have become listed companies, such as Shunfeng Co. Ltd., Yuantong Co. Ltd., and Shentong Co. Ltd.
+Thus, unlike most Western countries, delivery service stations are distributed densely from cities to villages in China, partially
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+24
+because these companies offer fast delivery services at a relatively low price. Usually, consumers living in large cities can receive
+goods on the day or the day after they order online. Consumers living in other areas can always receive goods within seven days.
+Thus, high-quality delivery services may attract people to adopt e-shopping, which is one of the main reasons why the largest online
+retail development has occurred in China.
+China also has particular experience in terms of retail development. Before e-shopping emerged, purchasing by telephone or mail
+was popular in most Western countries. Hence, some scholars postulated that people might substitute e-shopping for buying by
+telephone or mail but not for shopping trips (Salomon, 1985; Keskinen et al., 2001; Mokhtarian, 2004; Rotem-Mindali &
+Weltevreden, 2013). However, unlike Western countries, telephone and internet were not used frequently in China before the 1990s.
+Consequently, the retail marketing by telephone and mail was not fully mature before e-shopping emerged. Therefore, in China, it
+seems that people might substitute e-shopping for shopping trips but not for buying by telephone or mail.
+4. Methodology
+4.1. Data collection
+4.1.1. Study area and dataset
+Data from this research is drawn from structured interviews conducted in July and August 2016 in Chengdu, China. Chengdu, the
+capital of Sichuan Province, is located in southwest China (see Fig. 1). In 2016, Chengdu was listed as one of eight National Central
+Cities by the National Development and Reform Commission of China (2016). The National Bureau of Statistics of China (2016b)
+reported that in Chengdu, the number of internet service subscribers was 4.74 million households in 2015 and total retail sales of
+consumer goods reached ¥ 494.62 billion (≈US $ 78.03 billion). Apparently, Chengdu has enjoyed rapid urbanization and informatization
+and has had a significant body of demand for retail, suggesting an enormous potential for e-shopping. Thus, it is
+reasonable to assume that Chengdu is a good and representative case city for this study.
+A cluster sampling approach was used to select neighborhoods and respondents in five steps. First, we defined the target population
+as people who have used e-shopping at least once in their life, i.e., e-shoppers (partly because people who had never
+purchased online in Chengdu turned out very hard to find when conducting a preliminary survey). Second, we determined the desired
+sample size (approximately 600–1000 respondents) which would make it possible to conduct regression analyses with ample confidence.
+Third, the sampled area was defined as the built-up area within the Third Ring Road of Chengdu (see Fig. 1), where most of
+Chengdu’s residents live. Fourth, the number of the sampled neighborhoods was determined (10 sampled neighborhoods). Fifth,
+among the public spaces (which were open and accessible for every resident), we geographically randomly selected 10 sampled
+neighborhoods (within the sampled area), in which the structured interviews were performed: Chunxilu Shopping Center, Jinniu-
+Wanda Shopping Center, Laifushi Shopping Center, Hongpailou Shopping Center, Kaide Shopping Center, Tianfu Square, Shahe Park,
+Huanhuaxi Park, Tazishan Park, and Dongjiaojiyi Music Park (see Fig. 1).
+To minimize selection bias, we made some efforts. On the one hand, our interviews were conducted after people finished work on
+weekdays and during the entire day on weekends. On the other hand, a set of postcards marked with the Lanzhou University logo was
+provided as an incentive after the respondent finished the survey. In the end, 1796 people were approached to participate in the
+survey, and 882 accepted our invitation. The response rate was 49.1%. The group of people who did not participate in this survey
+were those who indicated being in a rush or not being interested or people who had never adopted e-shopping. After removal of some
+questionnaires missing key responses, 710 valid samples were collected.
+As shown in Table 1, 51.1% of the respondents are men, and 58.5% of them are younger than 26. According to a report by the
+China Electronic Commerce Research Center (2016), 47.4% of e-shoppers in China are men, and 51.2% of them are younger than 27.
+Based on this rudimentary comparison (due to a lack of additional information on Chinese e-shoppers), our respondents seem rather
+representative of China’s e-shoppers. However, conducting the survey in public spaces might result in a certain level of selection bias.
+First, at these locations (but also at other places in China), older people are less inclined to participate in surveys. However, because
+these people often do not purchase goods online, this was not a major problem for this study. Consequently, our respondents are
+relatively young (but not considerably younger than the total population of Chinese e-shoppers). Second, people who lived in the
+sampled area but do not regularly visit these public spaces were ignored.
+The dataset consists of five categories of information. The first category includes individual sociodemographic information, such
+as age, gender, and educational background. The second category is information about internet experience and car ownership. The
+third category is the departure place from which the respondent mostly makes a shopping trip. The fourth category is the frequency of
+e-shopping and shopping trips to physical stores. Considering that the frequency of e-shopping might vary among types of goods
+(Weltevreden, 2007; Zhen et al., 2016, 2018), we selected four types of goods that are purchased online most frequently in China:
+clothes and shoes, electronics, food and drink, and cosmetics. The respondents were asked to provide the monthly frequency of eshopping
+for four types of goods (see Table 2) and to provide the monthly frequency of shopping trips to physical stores for these
+goods (both for a “regular month”). Based on the methodologies of previous studies (Weltevreden, 2007; Weltevreden & Rietbergen,
+2007; Weltevreden & Rotem-Mindali, 2009; Calderwood & Freathy, 2014), the fifth category is change in the frequency of shopping
+trips and total shopping1 owing to e-shopping. The respondents were asked to answer two questions: After adopting e-shopping for
+the four types of goods, (1) do you change your frequency of shopping trips to physical stores? (2) do you change your frequency of
+1 In this study, we define total shopping as the sum of e-shopping and in-store shopping, which roughly reflects respondents’ shopping demand.
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+25
+Table 1
+Comparison of basic characteristics between samples and target population.
+Sample China E-commerce Research Center (2016)
+Description N % Description %
+Gender Male 363 51.1 Male 47.4
+Female 347 48.9 Female 52.6
+Age (Years) 25 or less 415 58.5 26 or less 51.2
+26 or more 295 41.5 27 or more 48.8
+Fig. 1. Location of Chengdu.
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+26
+total shopping? The alternative answers to the two questions were set on a 5-point scale: decreased substantially, decreased somewhat,
+no change, increased somewhat, and increased substantially.
+4.1.2. Dependent variable
+In this study, we used two dependent variable categories:
+(1) The frequency of e-shopping and shopping trips for four types of goods are extracted as the data source of the dependent variable.
+First, we sum the frequency of e-shopping for four types of goods, representing the frequency of e-shopping (see Table 1). Second,
+the frequency of shopping trips to physical stores for these goods is used to reflect the frequency of shopping trips. Third, as
+performed by Maat and Konings (2018), we calculate the share of e-shopping frequency in total shopping frequency to indicate
+the probability that the respondents adopt e-shopping when having a shopping demand.
+(2) As mentioned earlier, the determinants of whether to decrease or increase the frequency of shopping trips due to e-shopping have
+not been explored properly before. This study will attempt to fill this research gap. To do so, we analyze whether e-shopping
+replaces or generates shopping trips as a dependent variable.
+4.1.3. Explanatory variable
+Based on the literature review above, we identify several explanatory variable categories (sociodemographics, internet experience,
+car ownership, and spatial attributes) as reported in Table 3. Given a substitution effect of e-shopping on shopping trip frequency,
+Weltevreden and Rietbergen (2007, 2009) found that people frequently purchasing online have a higher probability of
+reducing their shopping trips. Since it is currently unclear whether this effect can also be found in China, the frequency of e-shopping
+is added as the explanatory variable of whether e-shopping replaces or generates shopping trips.
+Additionally, home location is expected to be an explanatory variable of e-shopping behavior in previous studies, since it determines
+the accessibility to physical stores (Farag et al., 2005, 2007; Cao et al., 2013; Zhou & Wang, 2014). However, some scholars
+have argued that the residential location may not indicate accessibility because shopping trips are usually chained with other trips,
+especially commuting trips (Salomon, 1986; Ferrell, 2005; Rotem-Mindali & Weltevreden, 2013). In other words, assuming that
+someone lives in a weakly urbanized area but works in a strongly urbanized area, he/she usually departs for a shopping trip from a
+work location. In this case, he/she has a high accessibility to physical stores even though he/she lives in a weakly urbanized area.
+Therefore, the accessibility to physical stores is not determined by residential location but by the departure location for a shopping
+trip. Using the residential location as the explanatory variable has its shortcomings. Although Zhen et al. (2018) made an effort to
+consider both home location and work location as the spatial variable, it is still not the best solution to make up for this shortcoming.
+Hence, we regard the departure location where the respondent mostly makes a shopping trip as the independent variable representing
+the location factor. Chengdu is a city with a high urbanization level that continuously decreases from city center to city periphery. In
+this context, we define the area within the Third Ring Road as the urban area, the area between the Third Ring Road and the Fourth
+Ring Road as the suburban area, and the area outside the Fourth Ring Road as the exurban area (see Fig. 1).
+Table 2
+Frequency of e-shopping for four types of goods in a regular month.
+Frequency (times/month) Clothes, shoes Electronics Food, drink Cosmetics Total
+Mean 2.79 1.23 3.10 1.38 8.50
+S.D. 2.69 2.21 3.79 2.12 8.29
+Variance 7.25 4.90 14.36 4.47 68.76
+Table 3
+Definitions and descriptive statistics of dummy/ordinal explanatory variables.
+Variables Definitions Mean/percentage S.D.
+Gender 1=Male, 0=Female 51.1% –
+Age (Years) 1=20 or less, 2=21–25, 3=26–30, 4=more than 30 2.34 1.05
+Education 1=High school or less, 2=Colleges/ technical school, 3=Undergraduate school, 4=Graduate
+school or more
+2.51 0.91
+Income (¥/month) 1=1000 or less, 2=1001–4000, 3=4001–8000, 4=More than 8000 2.21 0.97
+Cost of living (¥/month) 1=1000 or less, 2=1001–2000, 3=2001–4000, 4=More than 4000 2.44 0.90
+Years of using smartphones 1=3 or less, 2=4–5, 3=More than 5 2.23 0.68
+Years of using internet on PCs 1=5 or less, 2=6–9, 3=More than 9 2.26 0.69
+Car(s) ownership 1=yes, 0=No 61.3% –
+Departure location
+Urban area 1=yes, 0=No 48.7% –
+Suburban area 1=yes, 0=No 37.9% –
+Exurban area 1=yes, 0=No 13.4% –
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+27
+4.2. Modeling approach
+In this study, we develop three types of regression models. First, given that the frequency of e-shopping and the frequency of
+shopping trips are two sets of count variables, both Poisson and negative binomial regression models can be adopted. However, the
+means of two sets of count variables are both smaller than their variances,2 which does not support the requirement of the Poisson
+regression model that the mean of the dependent variable is roughly equal to its variance. Negative binomial regression models are
+therefore employed to investigate the determinants of e-shopping and shopping trip frequency. Second, considering that the share of
+e-shopping is a continuous variable and largely follows a normal distribution,3 we develop a linear regression model to identify the
+determinants of the share of e-shopping. Third, we further develop a binomial logistic regression model to search for the determinants
+of whether e-shopping replaces or generates shopping trips, which is a set of binary variables.
+5. Results
+5.1. Determinants of e-shopping frequency, shopping trip frequency, and share of e-shopping
+As reported in Tables 4 and 5, sociodemographics, internet experience, car ownership and spatial attributes are found to significantly
+affect e-shopping frequency, shopping trip frequency, and share of e-shopping.
+The results indicate that women are more likely to purchase online frequently, which is consistent with the findings of several
+previous studies (e.g., Ding & Lu, 2017; Maat & Konings, 2018). Additionally, women also make more shopping trips and have a
+higher share of e-shopping. This finding is in line with the Chinese study of Ding and Lu (2017), suggesting that women are,
+compared to men, more likely to purchase both online and in-store. Zhen et al. (2016) found that shopping responsibility is largely
+determined by gender. In China, women usually bear more shopping responsibility for families than men, probably resulting in a
+higher shopping demand.
+We found that older respondents are also more likely to purchase online frequently. This result seems to contradict with many
+previous studies (Farag et al., 2007; Zhou & Wang, 2014; Irawan & Wirza, 2015; Ding & Lu, 2017; Maat & Konings, 2018). However,
+this result is not that surprising, since our respondents are relatively young. To a large extent, our findings are consistent with the
+findings of Farag et al. (2006b) and Zhen et al. (2018), claiming that for respondents younger than 34, age has a positive effect on eshopping
+frequency. Similarly, older people tend to make more shopping trips probably because shopping responsibilities for families
+grow with increasing age. People with higher education are more likely to purchase online frequently, which supports many previous
+studies (Farag et al., 2006b, 2007; Blasio, 2008; Cao et al., 2012; Zhou & Wang, 2014; Zhen et al., 2018). Additionally, people with a
+higher educational background are also inclined to make more shopping trips, which is consistent with the finding of Farag et al.
+(2005).
+Income is negatively associated with the frequency of both e-shopping and shopping trips, possibly because people with higher
+incomes have more time pressure and a higher value of time, resulting in a lower demand for both e-shopping and in-store shopping.
+Although quite a number of researchers found that higher-income respondents are more likely to purchase online frequently (e.g.,
+Farag et al., 2007; Blasio, 2008; Cao et al., 2012, 2013, Zhou & Wang, 2014; Zhen et al., 2016, 2018), it seems that respondents with
+lower incomes can benefit more from purchasing online. It is an important asset for e-retailers that, using the same amount of money
+as before, consumers can purchase more goods online since the goods are provided at a lower price by e-retailers (Rotem-Mindali &
+Weltevreden, 2013). Hence, purchasing online is a good strategy for consumers to save money, resulting in high levels of e-shopping
+for people who have low income levels. In addition, people who have a higher income may pay more attention to the quality of goods
+than price. Thus, they are less likely to purchase online, as the quality of online goods is relatively low in China (Ding & Lu, 2017). We
+also found that people with a high cost of living are more likely to conduct both e-shopping and shopping trips frequently, which can
+be largely explained by their higher shopping demand.
+However, our results show that people with considerable experience using internet on PCs have a lower interest in e-shopping,
+which is inconsistent with most existing research (Farag et al., 2006b, 2007; Farag et al., 2007; Ren & Kwan, 2009; Cao et al., 2013;
+Irawan & Wirza, 2015; Ding & Lu, 2017; Maat & Konings, 2018). This finding may be attributed to the new context of the information
+era in China. It has been reported that 55.5% of Chinese e-retailing sales in 2015 were conducted by mobile terminals, such as
+smartphones and iPads (IResearch, 2017b). The possible reasons why people transfer e-shopping partially to mobile devices instead
+of a personal computer (PC) in China are as follows. On the one hand, compared to PCs, mobile devices have unique advantages, such
+as ubiquity, convenience, localization, and personalization (Groß, 2015). On the other hand, some apps installed on mobile terminals
+for payment are very popular in China, such as Alipay, WeChat payment. Therefore, with the widespread use of smartphones, the use
+of PCs is no longer necessary for e-shopping and can even be regarded as burdensome. Moreover, people who have a long history of
+using PCs may have developed risk awareness. Some studies have indicated that risk aversion has a negative effect on e-shopping
+(Park and Kim, 2003; Al-Debei et al., 2015). Thus, they may tend to partake in less e-shopping. Although Ding and Lu (2017) found
+that the duration of internet use has a significant positive effect on online shopping in China, the data in their study were collected in
+2012, when only 5.8% of e-retailing sales were conducted by mobile devices (IResearch, 2017b).
+2 The means of e-shopping and shopping trip frequency are 8.50 and 7.40, and the variances are 68.76 and 43.17, respectively.
+3 The skewness and kurtosis of e-shopping shares are 0.60 and 0.15, respectively (smaller than 1), indicating that the set of variables largely
+follows the normal distribution.
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+28
+Moreover, people owning a car tend to conduct fewer shopping trips, which is in line with the finding of Farag et al. (2007),
+possibly because they can transport more goods by car at a time. On the other hand, traffic congestion at shopping centers may also
+inhibit them from driving a car to go shopping.
+In addition, location plays a key role in e-shopping behavior. The results indicate that people who mostly start their shopping trips
+from urban areas are more likely to purchase online frequently. Furthermore, people who mostly start their shopping trips from urban
+areas or exurban areas are inclined to have a higher e-shopping share compared to respondents departing from suburban areas. Since
+the individual factors (e.g., age, education, income, internet experience) are controlled for in the model, the built environment seems
+to have a significant effect on e-shopping share. For people departing from urban areas, higher accessibility to physical stores might
+result in a higher interest in e-shopping. For example, it is more convenient for them to visit a physical store to ensure the quality of
+goods before shopping online, which could stimulate them to conduct more e-shopping because of lower prices of online goods
+Table 4
+Negative binomial models concerning the frequency of e-shopping and shopping trips.
+Independent variables E-shopping Shopping trips
+B S.E. B S.E.
+Gender (Male) −0.16*** 0.06 −0.10* 0.06
+Age (Years) 0.17*** 0.04 0.17*** 0.04
+Education 0.12*** 0.04 0.05* 0.03
+Income (¥/month) −0.22*** 0.05 −0.21*** 0.05
+Cost of living (¥/month) 0.22*** 0.04 0.17*** 0.04
+Years of using smartphones 0.00 0.05
+Years of using internet on PCs −0.26*** 0.05
+Car ownership (Yes) −0.09 0.06 −0.12** 0.06
+Departure location
+Urban area 0.25*** 0.06 0.08 0.06
+Exurban area 0.02 0.10 −0.13 0.09
+Suburban area 0.00 0.00
+Constant 1.93*** 0.15 1.60*** 0.12
+Alpha 0.49 0.03 0.41 0.03
+Log-likelihood −2179.88 −2078.25
+N 710 710
+Note: Given that internet experience has no potential direct effect on the frequency of shopping trips, independent variables associated with use of
+internet are removed in the regression model for shopping trips.
+* p < 0.1.
+** p < 0.05.
+*** p < 0.01.
+Table 5
+Linear regression model concerning the share of e-shopping.
+Independent variables Share of e-shopping
+B S.E.
+Gender (Male) −0.03** 0.01
+Age (Years) 0.01 0.01
+Education 0.01 0.01
+Income (¥/month) −0.01 0.01
+Cost of living (¥/month) 0.01 0.01
+Years of using smartphones −0.01 0.01
+Years of using internet on PCs −0.04*** 0.01
+Car ownership (Yes) 0.02 0.01
+Departure location
+Urban area 0.04*** 0.01
+Exurban area 0.04** 0.02
+Suburban area 0.00
+Constant 0.54*** 0.03
+R2 0.04
+Adjusted R2 0.03
+Durbin-Watson 1.87
+F 3.22
+Sig. 0.00
+N 710
+*p < 0.1.
+** p < 0.05.
+*** p < 0.01.
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+29
+(Rotem-Mindali & Weltevreden, 2013). This result seems consistent with the innovation diffusion hypothesis (Anderson et al., 2003)
+and roughly confirms the findings of some studies on e-shopping (Farag et al., 2007; Cao et al., 2013; Zhou & Wang, 2014). For people
+departing from exurban areas, it is more convenient to conduct e-shopping compared to shopping trips because of lower accessibility
+to physical stores. This result is in line with the findings of Ren and Kwan (2009) and provides empirical evidence to loosely support
+the efficiency hypothesis. However, compared to urban areas, people who mostly start a shopping trip from suburban areas find it less
+convenient to visit a physical store before e-shopping. Respondents starting their trips from suburban areas also benefit less from
+online shopping because of higher accessibility to physical stores compared to exurban areas. Both explanations might partly explain
+the finding that people departing in suburban areas are less likely to conduct e-shopping.
+Interestingly, some factors play similar roles in both e-shopping and shopping trip frequency. For instance, women, or people who
+are older, better educated, with a lower income, or with a higher cost of living tend to conduct both e-shopping and shopping trips
+frequently. This finding is probably attributed to their higher shopping demand.
+5.2. The effect of e-shopping on shopping trip frequency
+In this section, we aim to explore the effect of e-shopping on shopping trips by analyzing change in the frequency of shopping trips
+owing to e-shopping. As shown in Table 6, more than 44% of the respondents indicate that they make fewer shopping trips due to eshopping,
+although 14.9% of the respondents say that they increase shopping trip frequency. As a result, it can be suggested that in
+most cases, e-shopping has a substitution effect on shopping trips, which is consistent with some previous studies (Ferrell, 2005;
+Weltevreden & Rietbergen, 2007, 2009; Weltevreden, 2007; Weltevreden & Rotem-Mindali, 2009; Irawan & Wirza, 2015). We can
+attribute this finding to China’s emerging contexts mentioned above: urban traffic congestion, relatively low rate of car ownership,
+and developed e-retailing and (fast) delivery service.
+5.3. The effect of e-shopping on total shopping frequency
+Interestingly, we also find that more than 70% of the respondents indicate that e-shopping makes them increase the frequency of
+total shopping, i.e., conventional shopping and e-shopping combined (see Table 7). That is, e-shopping has a promotion effect on the
+shopping demand. Three reasons may lead to this result. First, it is widely acknowledged that saving time is one of the most important
+motivations for e-shopping (Farag et al., 2006a, 2007). Hence, the time saved by e-shopping may be exploited by consumers to
+conduct more shopping. Second, compared to conventional channels, e-commerce provides more convenience to consumers to acquire
+goods information, which may seduce consumers to have more desire for shopping (Weltevreden & Rietbergen, 2004; Cao,
+2012). Third, the goods are usually sold with a lower price on the e-retail website. Thus, using the same amount of money as before,
+the consumer can buy more goods online (Rotem-Mindali & Weltevreden, 2013). It should be noted that, the finding that e-shopping
+partially replaces shopping trips but also generates more shopping in total is not necessarily conflicting.
+5.4. Determinants of whether e-shopping replaces shopping trips
+Given a substitution effect of e-shopping on shopping trips, we aim to explore the determinants of whether respondents substitute
+e-shopping for shopping trips by using a binomial logistic regression model in this section. As shown in Table 8, People who do not
+own a private car tend to reduce their shopping trips. Usually, they use public transport for shopping trips and thus must spend more
+Table 6
+Change in the frequency of shopping trips after the introduction of e-shopping.
+Changes N %
+Decreased substantially 39 5.49
+Decreased somewhat 276 38.87
+No change 289 40.70
+Increased somewhat 85 11.97
+Increased substantially 21 2.96
+Total 710 100.00
+Table 7
+Change in the frequency of total shopping after the introduction of e-shopping.
+Changes N %
+Decreased substantially 3 0.42
+Decreased somewhat 14 1.97
+No change 184 25.92
+Increased somewhat 408 57.46
+Increased substantially 101 14.23
+Total 710 100.00
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+30
+time on a shopping trip than those who drive to shops. Hence, compared to in-store shopping, purchasing online becomes a better
+way for them to save time, resulting in the substitution of shopping trips. The outcome also indicates that, due to e-shopping, people
+who purchase online frequently are less likely to reduce shopping trip frequency. Although this result is inconsistent with the finding
+of Weltevreden and Rietbergen (2007, 2009), it could be explained as follows. As observed before, people who purchase online more
+frequently seem to have a higher shopping demand, which may make them have less likelihood to reduce their shopping trips. In
+addition, no significant associations between other factors (e.g., sociodemographics, internet experience, or spatial attributes) and
+substitution of e-shopping for shopping trips are found.
+6. Conclusion and discussion
+Using data from 710 structured interviews in 2016 in Chengdu, China, we aim to examine whether e-shopping for four types of
+goods (clothes and shoes, electronics, food and drink, and cosmetics) replaces shopping trips. This paper made the following contributions.
+First, we investigated the effect of e-shopping on shopping trips with evidence from China, where the largest amount of eretailing
+in the world takes place, as China was largely ignored by previous studies. Second, we identified the determinants of
+whether people substitute e-shopping for shopping trips, which is an important gap in previous studies. Third, we redefined the
+“location” as where people mostly start their shopping trips, which is different from that in previous studies. The new definition of
+Table 8
+Binomial logistic regression model concerning whether to reduce shopping trips owing to e-shopping.
+Independent variables Reduction in shopping trip frequency (Yes=1; No=0)
+B S.E.
+Gender (Male) −0.14 0.16
+Age (Years)
+20 or less 0.00
+21–25 −0.16 0.30
+26–30 −0.19 0.34
+More than 30 −0.39 0.38
+Education
+High school or less 0.00
+Colleges and technical school −0.15 0.26
+Undergraduate school 0.15 0.22
+Graduate school or more 0.45 0.34
+Income (¥/month)
+1000 or less 0.00
+1001–4000 0.03 0.31
+4001–8000 −0.20 0.34
+More than 8000 0.01 0.46
+Cost of living (¥/month)
+1000 or less 0.00
+1001–2000 0.04 0.25
+2001–4000 0.29 0.27
+More than 4000 0.42 0.38
+Years of using smartphones
+3 or less 0.00
+4–5 0.13 0.26
+More than 5 0.07 0.29
+Years of using internet on PCs
+5 or less 0.00
+6–9 −0.22 0.26
+More than 9 0.15 0.29
+Car ownership (Yes) −0.36** 0.18
+Departure location
+Suburban area 0.00
+Urban area −0.02 0.17
+Exurban area 0.10 0.25
+E-shopping frequency −0.05*** 0.01
+Constant 0.33 0.34
+Log likelihood −465.74
+Akaike Inf. Crit. 975.48
+N 710
+*p < 0.1.
+** p < 0.05.
+*** p < 0.01.
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+31
+“location” in this study may be regarded as an improvement compared to previous studies, since shopping trips are mostly chained
+with other trips.
+In sum, our results indicate that sociodemographics, internet experience, car ownership, and location factors (partially) affect
+consumers’ e-shopping and shopping travel behaviors. In particular, with regard to location, two approaches measuring e-shopping
+lead to different results. People who mostly start their shopping trips from urban areas are likely to purchase online more frequently.
+However, people who mostly start their shopping trips from urban or exurban areas are likely to have a higher e-shopping share.
+Roughly speaking, we find empirical evidence from China to support both the innovation diffusion hypothesis and efficiency diffusion.
+Moreover, the results also suggest that more than 44% of the respondents tend to reduce their shopping trips due to eshopping,
+although a limited number of respondents (14.9%) indicate the opposite. Hence, by and large, e-shopping has a substitution
+effect on the frequency of shopping trips in China. Meanwhile, more than 70% of the respondents indicate that e-shopping
+increases the frequency of total shopping, suggesting that their shopping demands are generated by e-shopping. Furthermore, people
+who own a car, or purchase online more frequently are less likely to substitute e-shopping for shopping trips.
+Given the finding that e-shopping has a substitution effect on the shopping trips to physical stores, these stores may experience a
+loss of consumers. In this case, it is reasonable to believe that in the long run, physical stores for clothes and shoes, electronics, food
+and drink, and cosmetics will reduce in number. Our conclusion is directly or indirectly supported by some previous publications. For
+example, IResearch (2017a) reported that the sale size of grocery stores and large markets declined 10.4% and 0.2%, respectively, in
+Chinese cities from 2013 to 2015. Zhang et al. (2016) also found that the extension of urban commercial land is inhibited by ecommerce.
+Although the continuous growth of shopping demands in China may offset the negative effect of e-shopping on physical
+stores, a loss of revenue for conventional stores still exists owing to such a large size and dramatic-rapid growth rate of e-shopping
+market in China.
+Our results have two implications for transportation systems. On the one hand, e-shopping might be a possible solution for urban
+congestion because a substitution effect of e-shopping on shopping trips is found. On the other hand, people who do not have a
+private car normally make a shopping trip to stores on foot or by public transportation. Meanwhile, our results indicate that,
+compared to people who own a private car, those who do not own a private car are more likely to substitute e-shopping for shopping
+trips. Hence, it could be concluded that e-shopping can reduce the travel demand for public transportation to a certain extent.
+However, some important issues should be considered when the effect of e-shopping on the transportation system is discussed.
+First, some researchers claim that, for some intangible goods (e.g., hairdressing), e-shopping can hardly replace the personal trips
+because the consumer has to travel to collect or consume them (Clark & Unwin, 1981; Cohen-Blankshtain and Rotem-Mindali, 2016).
+In this study, we only focus on these tangible goods (e.g., clothes and shoes, electronics, food and drink, and cosmetics), which are
+transportable. It remains unclear whether e-shopping for intangible goods has the same effect on shopping trips (in China). Second,
+although the substitution effect of e-shopping indicates that e-shopping can help consumers attain the strategy of saving time, it is not
+certain whether the time saved by e-shopping is used to make other trips (Gould & Golob, 1997; Rotem-Mindali & Weltevreden,
+2013). Third, the more frequently people buy online, the higher demand for delivery service they will have. It is also possible that
+delivery services cause additional urban congestion (Weltevreden & Rotem-Mindali, 2009; Crocco et al., 2013; Rotem-Mindali &
+Weltevreden, 2013), which we did not analyze in this study. Finally, the frequency of shopping trips is not the only factor affecting
+urban traffic because the distance and duration of shopping trips also play important roles. In other words, it is possible that eshoppers
+substitute e-shopping for shopping trips but extend the distance and duration of shopping trips at the same time. In this case,
+the net effect of e-shopping on urban congestion might be negligible or even positive. The above-mentioned points could be regarded
+as the future research directions.
+In addition, the selection bias resulting from respondents being recruited in certain public spaces in Chengdu limits the generalizability
+of our findings. Future studies might therefore approach respondents in varied types of spaces within Chengdu, but also
+in other Chinese cities. Furthermore, other factors, such as individual work types, attitudes towards e-shopping and in-store shopping,
+should be considered as potential determinants of e-shopping behavior in future research.
+Acknowledgements
+The authors would like to thank two anonymous reviewers for constructive comments and suggestions. This work also benefited
+from the valuable assistance given by Shuo Bai. The authors acknowledge the financial support from the National Natural Science
+Foundation of China (Grant numbers 41571155 and 71801041) and the China Scholarship Council.
+References
+Alam, M., Ahmed, F., 2013. Urban transport systems and congestion: a case study of indian cities. Transport Commun. Bull. Asia Pacific 82, 33–43.
+Al-Debei, M.M., Akroush, M.N., Ashouri, M.I., 2015. Consumer attitudes towards online shopping: the effects of trust, perceived benefits, and perceived web quality.
+Internet Res. 25 (5), 707–733.
+Anderson, W., Chatterjee, L., Lakshmanan, T., 2003. E-commerce, transportation, and economic geography. Growth Change 34 (4), 415–432.
+Blasio, D.G., 2008. Urban-rural differences in internet usage, e-commerce, and e-banking: evidence from Italy. Growth Change 39 (2), 341–367.
+Boschma, R., Weltevreden, J., 2004. The Evolutionary Nature of B2C E-commerce in Inner Cities. In: E-commerce, E-business 2004 Economic Development. Aldershot.
+Calderwood, E., Freathy, P., 2014. Consumer mobility in the Scottish isles: the impact of internet adoption upon retail travel patterns. Transport. Res. Part A: Policy
+Pract. 59 (1), 192–203.
+Cao, X., 2009. E-shopping, spatial attributes, and personal travel: a review of empirical studies. Transport. Res. Rec.: J. Transport. Res. Board 2135, 160–169.
+Cao, X., 2012. The relationships between e-shopping and store shopping in the shopping process of search goods. Transport. Res. Part A: Policy Pract. 46 (7),
+993–1002.
+Cao, X., Douma, F., Cleaveland, F., 2010. Influence of e-shopping on shopping travel: evidence from Minnesota's Twin Cities. Transport. Res. Rec.: J. Transport. Res.
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+32
+Board 2157, 147–154.
+Cao, X., Xu, Z., Douma, F., 2012. The interactions between e-shopping and traditional in-store shopping: an application of structural equations model. Transportation
+39 (5), 957–974.
+Cao, X., Chen, Q., Choo, S., 2013. Geographic distribution of e-shopping: application of structural equation models in the Twin Cities of Minnesota. Transport. Res.
+Rec.: J. Transport. Res. Board 2383, 18–26.
+Chang, Y.S., Lee, Y.J., Choi, S.S.B., 2017. Is there more traffic congestion in larger cities? Scaling analysis of the 101 largest US urban centers. Transport Policy 59,
+54–63.
+Chengdu Municipal Commission of Economy and Information Technology, 2017. Statistics Bulletin of the National Economic and Social Development of Chengdu in
+2016.<http://www.cddrc.gov.cn/detail.action?id=850958>.
+China Electronic Commerce Research Center, 2016. Report of Insight into Online Consumption of Consumers and Guidance on E-Shopping in 2016 in China.<http://
+www.100ec.cn/zt/16zgxfz/>.
+Christidis, P., Rivas, J.N.I., 2012. Measuring Road Congestion. European Commission, Joint Research Centre, Institute for Prospective Technological Studies (IPTS).
+<http://publications.jrc.ec.europa.eu/ repository/bitstream/JRC69961/congestion%20report%20final.pdf>.
+Clark, D., Unwin, K.I., 1981. Telecommunications and travel: Potential impact in rural areas. Reg. Stud. 15 (1), 47–56.
+Clarke, G., Thompson, C., Birkin, M., 2015. The emerging geography of e-commerce in British retailing. Reg. Stud. Reg. Sci. 2 (1), 371–391.
+Cohen-Blankshtain, G., Rotem-Mindali, O., 2016. Key research themes on ICT and sustainable urban mobility. Int. J. Sust. Transport. 10 (1), 9–17.
+Crocco, F., Eboli, L., Mazzulla, G., 2013. Individual attitudes and shopping mode characteristics affecting the use of e-shopping and related travel. Transport
+Telecommun. 14 (1), 45–56.
+Ding, Y., Lu, H., 2017. The interactions between online shopping and personal activity travel behavior: an analysis with a GPS-based activity travel diary.
+Transportation 44 (2), 311–324.
+Farag, S., Schwanen, T., Dijst, M., 2005. Empirical investigation of online searching and buying and their relationship to shopping trips. Transport. Res. Rec.: J.
+Transport. Res. Board 1926, 242–251.
+Farag, S., Weltevreden, J., Rietbergen, V.T.T., Dijst, M., van Oort, F., 2006b. E-shopping in the Netherlands: does geography matter? Environ. Plan. B: Plan. Des. 33 (1),
+59–74.
+Farag, S., Krizek, K.J., Dijst, M., 2006a. E-shopping and its relationship with in-store shopping: empirical evidence from the Netherlands and the USA. Transport Rev.
+26 (1), 43–61.
+Farag, S., Schwanen, T., Dijst, M., Faber, J., 2007. Shopping online and/or in-store? a structural equation model of the relationships between e-shopping and in-store
+shopping. Transport. Res. Part A: Policy Pract. 41 (2), 125–141.
+Ferrell, C., 2005. Home-based teleshopping and shopping travel: where do people find the time? Transport. Res. Rec.: J. Transport. Res. Board 1926, 212–223.
+Gould, J., Golob, T.F., 1997. Shopping without travel or travel without shopping? An investigation of electronic home shopping. Transport Rev. 17 (4), 355–376.
+Gould, J., Golob, T.F., 1998. Will electronic home shopping reduce travel? Access 1 (12), 26–31.
+Groß, M., 2015. Mobile shopping: a classification framework and literature review. Int. J. Retail Distrib. Manage. 43 (3), 221–241.
+Irawan, M.Z., Wirza, E., 2015. Understanding the effect of online shopping behavior on shopping travel demand through structural equation modeling. J. Eastern Asia
+Soc. Transport. Stud. 11, 614–625.
+IResearch, 2017a. The Changing Face of China Online Retailing.<http://report.iresearch.cn/report/201711/3083.shtml>.
+IResearch, 2017b. Research Report on China’s Mobile E-Retailing.<http://report.iresearch.cn/report/201702/2953.shtml>.
+Keskinen, A., Delache, X., Cruddas, J., Lindjord, J.E., Iglesias, C., 2001. A purchase and a chain. Impacts of e-commerce on transport and the environment. Report of
+Working Group, 3.
+Krizek, K., Li, Y., Handy, S.L., 2005. Spatial attributes and patterns of use in household-related information and communications technology activity. Transport. Res.
+Rec.: J. Transport. Res. Board 1926, 252–259.
+Lee, R.J., Sener, I.N., Handy, S.L., 2015. Picture of online shoppers: specific focus on Davis, California. Transport. Res. Rec.: J. Transport. Res. Board 2496, 55–63.
+Lee, R.J., Sener, I.N., Mokhtarian, P.L., Handy, S.L., 2017. Relationships between the online and in-store shopping frequency of Davis, California residents. Transport.
+Res. Part A: Policy Pract. 100, 40–52.
+Maat, K., Konings, R., 2018. Accessibility or innovation? Store shopping trips versus online shopping. Transport. Res. Record 0361198118794044.
+McHugh, E.C., 2014. Does location influence consumer behaviour: comparing rural and urban use of online shopping in Wales. Reinvent.: Int. J. Undergr. Res. 7 (1).
+McKinsey & Company, 2016. How Savvy, Social Shoppers are Transforming Chinese e-commerce.<https://www.mckinsey.com/industries/retail/our-insights/howsavvy-
+social-shoppers-are-transforming-chinese-e-commerce>.
+Memmott, F.W., 1963. The substitutability of communications for transportation. Traffic Eng. 33 (5), 20–25.
+Mokhtarian, P.L., 2002. Telecommunications and travel: the case for complementarity. J. Ind. Ecol. 6 (2), 43–57.
+Mokhtarian, P.L., 2004. A conceptual analysis of the transportation impacts of B2C e-commerce. Transportation 31 (3), 257–284.
+National Bureau of Statistics of China, 2016b. China City Statistical Yearbook. National Bureau of Statistics of China, Beijing.
+National Bureau of Statistics of China, 2016a. Urbanization Process of China.<http://data.stats.gov.cn/swf.htm?m=turnto&id=432>.
+National Development and Reform Commission of China, 2016. Notification of Implementing Development Planning of Chengdu-Chongqing Urban Agglomeration
+Areas.<http://zfxxgk.ndrc.gov.cn/PublicItemView.aspx?ItemID={0a88bd6d-817e-48a3-837d-8a58599742b7}>.
+Nilles, J.M., Carlson Jr., F.R., Gray, P., Hanneman, G.J., 1976. The Telecommunications-Transportation Tradeoff: Options for Tomorrow. Wiley, New York.
+Park, C.H., Kim, Y.G., 2003. Identifying key factors affecting consumer purchase behavior in an online shopping context. Int. J. Retail Distrib. Manage. 31 (1), 16–29.
+Ren, F., Kwan, M.P., 2009. The impact of geographic context on e-shopping behavior. Environ. Plan. B: Plan. Des. 36 (2), 262–278.
+Rotem-Mindali, O., Weltevreden, J., 2013. Transport effects of e-commerce: what can be learned after years of research? Transportation 40 (5), 867–885.
+Salomon, I., 1985. Telecommunications and travel: substitution or modified mobility? J. Transport Econ. Policy 19 (3), 219–235.
+Salomon, I., 1986. Telecommunications and travel relationships: a review. Transport. Res. Part A: Gen. 20 (3), 223–238.
+Sim, L.L., Koi, S.M., 2002. Singapore's Internet shoppers and their impact on traditional shopping patterns. J. Retail. Consum. Serv. 9 (2), 115–124.
+State Post Bureau of China, 2016. Statistics Bulletin of Post Industry Development in 2015.<http://www.spb.gov.cn/dtxx_15079/201605/t20160510_757698.
+html>.
+Weltevreden, J., 2007. Substitution or complementarity? How the Internet changes city centre shopping. J. Retail. Consum. Serv. 14 (3), 192–207.
+Weltevreden, J., Rietbergen, T.V., 2004. Are Shops Disappearing. An Examination of the Impacts of Online Shopping for City Centre Retailing (in Dutch), Section of
+Economic Geography, Urban and Regional Research Centre Utrecht, Utrecht University, Utrecht.
+Weltevreden, J., Rietbergen, T.V., 2007. E-shopping versus city centre shopping: the role of perceived city centre attractiveness. Tijdschrift Voor Econ. Soc. Geogr. 98
+(1), 68–85.
+Weltevreden, J., Rietbergen, T.V., 2009. The implications of e-shopping for in-store shopping at various shopping locations in the Netherlands. Environ. Plan. B: Plan.
+Des. 36 (2), 279–299.
+Weltevreden, J., Rotem-Mindali, O., 2009. Mobility effects of b2c and c2c e-commerce in the Netherlands: a quantitative assessment. J. Transport Geogr. 17 (2), 83–92.
+Xi, G., Zhen, F., Cao, X., et al., 2018. The interaction between e-shopping and store shopping: empirical evidence from Nanjing. Transport. Lett. China. https://doi.org/
+10.1080/19427867.2018.1546797.
+Zhang, D., Zhu, P., Ye, Y., 2016. The effects of e-commerce on the demand for commercial real estate. Cities 51, 106–120.
+Zhen, F., Cao, X., Mokhtarian, P.L., Xi, G., 2016. Associations between online purchasing and store purchasing for four types of products in Nanjing, China. Transport.
+Res. Rec.: J. Transport. Res. Board 2566, 93–101.
+Zhen, F., Du, X., Cao, J., Mokhtarian, P.L., 2018. The association between spatial attributes and e-shopping in the shopping process for search goods and experience
+goods: evidence from Nanjing. J. Transport Geogr. 66, 291–299.
+Zhou, Y., Wang, X., 2014. Explore the relationship between online shopping and shopping trips: an analysis with the 2009 NHTS data. Transport. Res. Part A: Policy
+Pract. 70, 1–9.
+K. Shi, et al. Transportation Research Part A 122 (2019) 21–33
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
 33

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Sensors and Actuators A 315 (2020) 112362
 Contents lists available at ScienceDirect
 Sensors and Actuators A: Physical
@@ -273,4 +274,281 @@ Oil condition
 0.854 0.877 0.999 0.705 0.605 0.839
 Fig. 12. The relationship between the referential and estimated values of the (a) x-axis shear force, (b) y-axis shear force, (c) z-axis normal force, (d) torque around the x-axis,(e) torque around the y-axis and (f) torque around the z-axis under the none and oil conditions.the coefficient of static friction can be reduced by increasing thethickness of the external substrate. Third, the crosstalk betweenthe components of 6-axis force/torque were observed. One of thepossible reasons for the crosstalk is the non-uniform deformationof the elastomers and substrates. The same deformation may notbe reproduced under multi-axis loading to the elastomers for hys-teresis. Additionally, the substrates had a layered structure of glassepoxy and patterned copper, which shows different deformationcompared to a flat and uniform substrate. In this study, we demon-strated that the estimated force/torque followed the changes of thetrue force/torque with some crosstalk. To reduce the crosstalk, thematerial and the parameters of the structure need to be optimized.For example, the external substrate should have larger Young’smodulus for reducing the effect of the deformation of the externalsubstrate to the deformation of the inner elastomer.In this paper, only the flat contact surface was considered. How-ever, the sensor needs to be applicable to contact surfaces of variousshapes in actual gripping. Because the sensor has the flat sur-face, the location of the applied force depends on the shape ofthe contact object. One of potential solutions is to round the sen-sor surface slightly and limit to the contact between the centerof the sensor surface and a point on the surface of the contactobject. Furthermore, we assumed the situation that only the z-axisforce was applied in the beginning of the contact. The compo-nents of force/torque except the z-axis force could affect the sensorresponse because the local slip/stick regions depend on the stressdistribution on the contact area, which remains as a future task.5. ConclusionWe proposed a tactile sensor that simultaneously measures 6-axis force/torque and the coefficient of static friction. The sensorcould estimate the coefficient of static friction in a range from 0.01to 0.29. Also, we confirmed that the sensor could estimate 6-axisforce/torque under the none and oil conditions.CRediT authorship contribution statementTaiyu Okatani: Conceptualization, Methodology, Formal anal-ysis, Investigation, Data curation, Visualization, Writing - originaldraft, Writing - review & editing. Isao Shimoyama: Supervision,Writing - review & editing.
 10 T. Okatani and I. Shimoyama / Sensors and Actuators A 315 (2020) 112362
+=======
+Sensors and Actuators A 315 (2020) 112362
+Contents lists available at ScienceDirect
+Sensors and Actuators A: Physical
+journal h om epage: www.elsevier.com/locate/sna
+A tactile sensor for simultaneous measurements of 6-axisforce/torque and the coefficient of static frictionTaiyu Okatania, Isao Shimoyamab,∗aDepartment of Mechano-Informatics, Graduate School of Information Science and Technology, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo113-8656, JapanbToyama Prefectural University, 5180 Kurokawa, Imizu-shi, Toyama 939-0398, Japana r t i c l e i n f oArticle history:Received 23 July 2019Received in revised form 27 August 2020Accepted 22 September 2020Available online 2 October 2020Keywords:MEMSTactile sensorPiezoresistive6-Axis force/torqueCoefficient of static frictionLocal slipa b s t r a c tWe propose a new design for a tactile sensor that simultaneously measures 6-axis force/torque and thecoefficient of static friction, which will enable robotic fingers to handle a slippery object while preventingboth translational and rotational slips. The sensor consists of internal and external substrates, internal andexternal elastomers and normal/shear stress sensor chips. The sensor chips are arranged on the substratesand embedded in the elastomers to measure the deformation of the elastomers. The coefficient of staticfriction is estimated from the normal and spread deformations of the external elastomer. The 6-axisforce/torque values are estimated from the normal, shear and torsional deformations of the internalelastomer. We evaluated the sensor responses when the sensor came into contact with various objectswith different coefficients of static friction. We confirmed that the coefficient of static friction and the6-axis force/torque changes were able to be estimated from the sensor outputs.© 2020 Elsevier B.V. All rights reserved.1. IntroductionPicking by robotic fingers is one of the biggest challenges forrobotic manipulation, and it is needed in E-commerce warehouses[1]. To confirm a grip on a picked object, tactile sensors are oftenattached on the fingertip. Many tactile sensors for robotic fingershave been proposed for picking tasks [2]. Some researchers havereported on multi-axis force/torque sensors, which are useful formeasuring force/torque between a picked object and the finger-tip [3–6]. However, to robustly accomplish picking tasks, using aforce/torque sensor alone may not be enough. For example, if apicked object is slippery, a tactile sensor that simultaneously mea-sures the force/torque and the slipperiness of the object is needed.When robotic fingers pick up a slippery object, the force/torqueapplied by the fingers must be controlled to prevent both transla-tional and rotational slips (Fig. 1). 6-axis force/torque sensors arenecessary to control the force/torque perfectly. Additionally, theslipperiness between the finger and the object needs to be clarified.To evaluate slipperiness, the coefficient of static friction, which isdefined as the ratio of the frictional force to the normal force when a∗Corresponding author at: President’s office, Main Bldg., Toyama Prefectural Uni-versity, 5180 Kurokawa, Imizu-shi, Toyama, 939-0398, Japan.E-mail address: issh@leopard.t.u-tokyo.ac.jp (I. Shimoyama).Fig. 1. Conceptual sketch of the proposed sensor.slip happens, is generally used. Limiting the maximum force/torqueby the coefficient of static friction is commonly used to prevent aslip [7]. However, the coefficient of static friction is a given param-eter in these methods. In actual use, the coefficient of static frictionneeds to be estimated before planning a picking task.There are two ways to predict a slip before a global slip hap-pens; friction estimation and incipient slip detection [8]. Previousstudies have demonstrated that a global slip can be prevented bydetecting an incipient slip that happens just before a global sliphappens [9–11]. It may seem as if there is no need to estimate thecoefficient of static friction if the incipient slip can be detected.However, to prevent a slip in the first place, the coefficient of staticfriction must be estimated. An incipient slip sensor can be used ifan unplanned slip is about to happen. To estimate the coefficient
+https://doi.org/10.1016/j.sna.2020.112362
+0924-4247/© 2020 Elsevier B.V. All rights reserved.
+2 T. Okatani and I. Shimoyama / Sensors and Actuators A 315 (2020) 112362
+of static friction, some researchers have focused on the local slipphenomenon. A local slip happens on a local place of the contactarea where the ratio of shear stress to normal stress exceeds thecoefficient of static friction. Several sensors using a local slip phe-nomenon have been proposed [12,13]. These sensors measure thedeformation of an elastomer that is pressed against an object’s sur-face. If the coefficient of static friction is small, a local slip happens,and the deformation of the elastomer differs from that when thecoefficient of static friction is large. Therefore, the coefficient ofstatic friction can be estimated by monitoring the deformation ofthe elastomer. Moreover, only a normal force needs to be appliedon the sensor to cause a local slip, and the sensor works just as arobotic finger touches an object. Metal strain gauges [12] or acous-tic resonant tensor cells [13] are used to measure the deformationof the elastomer. Also, Chen et al. proposed a unique structure withinclined legs against an object surface to estimate a range of thecoefficient of static friction [14,15]. However, these sensors are toolarge to attach on a robotic finger, and it is difficult to separateforce/torque from sensor outputs.We have also developed a tactile sensor called the MEMS localslip sensor, which measures the coefficient of static friction [16].Our sensor detects the normal deformation and the spread defor-mation of the elastomer using piezoresistive beam structures. Ourgroup has also developed multi-axis force/torque sensors [17,18].We previously reported on a tactile sensor for simultaneous mea-surements of 3-axis force and the coefficient of static friction [19].We confirmed that 3-axis force and the coefficient of static frictioncould be measured separately. Additionally, our sensor is suffi-ciently thin to attach to a robotic finger.In this study, we expand our MEMS local slip sensor for simul-taneous measurements of 6-axis force/torque and the coefficientof static friction, which will enable robotic fingers to prevent a slipin picking tasks. We tested a prototype of the proposed sensor on10 kinds of flat surfaces that differed in materials and coefficientsof static friction. Then, we measured the sensor ability to measurethe coefficient of static friction from 0.01 to 1. We also demon-strated that 6-axis force/torque changes could be measured even ifthe coefficient of static friction was different.2. PrincipleWe use two types of sensor chips: a normal stress sensor chipand a shear stress sensor chip. Fig. 2(a) and (b) show the schematicsof the normal stress sensor chip and the shear stress sensor chip,respectively. Both of the sensor chips have two beams with piezore-sistors (Doped Si). Chrome and gold (Cr/Au) layers are patterned onthe piezoresistive layer as a conductive layer. Each of the beams isregarded as a resistor. The normal stress sensor has piezoresistorson the top surface of the beams. One of the beams has piezoresistorson both ends of the beam. The other beam has a piezoresistor on thecenter of the beam. When the beams deform with normal stress,the resistance of the beams changes along with the strains gen-erated on the piezoresistor. By measuring the resistance changesusing a Wheatstone bridge circuit, the amount of normal stress canbe estimated from the fractional resistance change R/R (Fig. 2(c)).When implementing the Wheatstone bridge, one of the resistancesis implemented as a variable resistor. The initial value of V canbe set to zero by adjusting the resistance value. The shear stresssensor has piezoresistors on the sidewall of the beams. Both of thebeams have piezoresistors on the center of the beams. When thebeams deform with shear stress, the resistances of the piezoresistorchange. As with the normal stress sensor, the shear stress can alsobe estimated with a bridge circuit. These two types of sensor chipsare arranged on a printed circuit substrate. Then, the substrate iscovered with a sheet of elastomer. The sensor chips measure theFig. 2. Schematic diagrams of (a) a normal stress sensor chip and (b) a shear stresssensor chip. (c) Wheatstone bridge circuit with a normal sensor chip.normal and shear stresses on the substrate, which is generated withthe normal, shear, spread and torsional deformations of the elas-tomer. The characterization of the mechanical range, resolution,sensitivity and linearity of the beam structure on the two sensorchips were done on the previous literature [17].Fig. 3(a) shows the structure of the proposed sensor. The sensorhas a layered structure, which is composed of an external elas-tomer, an external substrate, an internal elastomer and an internalsubstrate. Fig. 3(b) shows the arrangement of sensor chips on theexternal substrate. A normal stress sensor, R1, is arranged on thecenter of the substrate. Four shear stress sensor chips, R2, R3, R4andR5, are arranged around the normal stress sensor. When the sensoris pressed against an object, the normal sensor chip responds withthe normal force applied on the sensor, Fz. The four shear stresssensor chips also respond because the elastomer spreads laterally.The deformation of the elastomer per unit force varies with thecoefficient of static friction. Therefore, the responses of the sensorchips are described as
+R1
+R1
+=
+a () Fz, (1)
+R2
+R2
++ R3
+R3
++ R4
+R4
++ R5
+R5
+=
+b () Fz . (2)Here, a() and b() are functions of the coefficient of static friction,. The ratio between R1/R1and R2/R2+ R3/R3+ R4/R4+R5/R5is defined as
+c () =
+R2
+R2
++ R3
+R3
++ R4
+R4
++ R5
+R5
+R1
+R1
+= a ()
+b ()
+. (3)c() can be calculated from the sensor outputs. Therefore,  canbe estimated from c() by clarifying the relationship between and c(). Fig. 3(c) shows the arrangement of sensor chips on theinternal substrate. Three normal stress sensors, R6, R8and R10,and three shear stress sensors, R7, R9and R11, are arranged in ahexagon. When the normal force, Fz, is applied on the sensor, thenormal stress sensors respond. When the shear forces, Fxand Fy,are applied on the sensor, the shear stress sensors respond. Torquesaround the x and y axes, Txand Ty, change the normal stress dis-tribution. Torque around the z axis, Tz, changes the shear stressdistribution. If the internal and external substrates are regarded asrigid bodies, the deformation of the internal elastomer is decided by
+T. Okatani and I. Shimoyama / Sensors and Actuators A 315 (2020) 112362 3
+Fig. 3. (a) Structure of the proposed sensor. Arrangements of normal and shear stress sensor chips on (b) the external substrate and (c) the internal substrate.the relative displacements and rotations between the internal andexternal substrates. Therefore, the deformation of the internal elas-tomer is not influenced by surface conditions including variationsin the coefficient of static friction. If the relationship between the6-axis force/torque and the sensor outputs is linear, it is describedas
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎝
+R6
+R6
+R7
+R7
+R8
+R8
+R9
+R9
+R10
+R10
+R11
+R11
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎠
+=
+D
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎜⎜⎝
+Fx
+Fy
+Fz
+Tx
+Ty
+Tz
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎟⎟⎠
+. (4)Here, D is a 6 × 6 constant matrix that characterizes the relationshipbetween the sensor outputs and the force/torque. D is experimen-tally clarified using the least squares method from data pointsacquired in a calibration experiment of the sensor [20]. In the exper-iment, the applied force/torque are measured by the referencesensor as Fx,ref, Fy,ref, Fz,ref, Tx,ref, Ty,refand Tz,ref. The sensor outputsare simultaneously measured, and N data points are acquired. Theestimated D, Dest, is described as
+Dest =
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎝
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎝
+R6
+R6
+R7
+R7
+R8
+R8
+R9
+R9
+R10
+R10
+R11
+R11
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎠
+1
+·
+·
+·
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎝
+R6
+R6
+R7
+R7
+R8
+R8
+R9
+R9
+R10
+R10
+R11
+R11
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎠
+N
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎠
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎝
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎝
+Fx,ref
+Fy,ref
+Fz,ref
+Tx,ref
+Ty,ref
+Tz,ref
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎠
+1
+·
+·
+·
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎝
+Fx,ref
+Fy,ref
+Fz,ref
+Tx,ref
+Ty,ref
+Tz,ref
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎠
+N
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎠
++
+. (5)Here, + means the pseudo-inverse matrix. Then, the estimatedforce/torque, Fx,est, Fy,est, Fz,est, Tx,est, Ty,estand Tz,est, can be describedas the product of Dest−1and the sensor outputs.
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎝
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎝
+Fx,est
+Fy,est
+Fz,est
+Tx,est
+Ty,est
+Tz,est
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎠
+1
+·
+·
+·
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎝
+Fx,est
+Fy,est
+Fz,est
+Tx,est
+Ty,est
+Tz,est
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎠
+N
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎠
+=
+Dest
+−1
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎝
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎝
+R6
+R6
+R7
+R7
+R8
+R8
+R9
+R9
+R10
+R10
+R11
+R11
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎠
+1
+·
+·
+·
+⎛
+⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎜⎝
+R6
+R6
+R7
+R7
+R8
+R8
+R9
+R9
+R10
+R10
+R11
+R11
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎠
+N
+⎞
+⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎟⎠
+.
+(6)
+In this paper, we evaluate the capability of the proposed sen-sor to estimate the coefficient of static friction and the 6-axisforce/torque respectively.
+4 T. Okatani and I. Shimoyama / Sensors and Actuators A 315 (2020) 112362
+Fig. 4. (a) FEM model of the proposed sensor. (b) The ratio of shear stress to normal stress distribution. (c) The relationship between R6/R6and  while setting d to 0.2,0.4, 0.6 and 0.8 mm. (d) The calculated values of a(), b() and c() when  ranges from 0.01 to 0.1.Fig. 5. Fabrication processes of the normal and shear sensor chips.3. Design and fabrication3.1. FEM simulationWe built a finite element method (FEM) model of the sensor andsimulated the sensor response to the coefficient of static frictionwith FEM software (COMSOL Multiphysics, COMSOL Inc., Burling-ton, MA, USA). Fig. 4(a) shows an overview of the model. Theelements on the stick region has no tangential displacements, whilethe elements on the slip region has no tangential stresses. The sizeof the sensor chips was 1 × 1 × 0.3 mm. The length, width and thick-ness of the piezoresistive beam were 250 m, 15 m, and 20 m,respectively. The length of the piezoresistive layer was 100 m oneach beam. The sensor chips were arranged on the internal andexternal substrates. The distance between the center of the shearstress sensor chips on the external substrate and the center of theexternal substrate was 3 mm. The distance between the center ofthe normal and shear sensor chips on the internal substrate andthe center of the internal substrate was also 3 mm. The size of theinternal and external elastomers was 10 × 10 × 1 mm. The materialof the elastomers was polydimethylsiloxane (PDMS). The materialand thickness of the external substrate are important parametersbecause the external substrate should be a rigid body; otherwise,the deformation of the internal elastomer is affected by the sur-face conditions, which leads to the estimation error of the 6-axisforce/torque. On the other hand, the sensor should be as thin as pos-sible for attachment to a robotic finger. To investigate the effect ofthe external substrate, we set the material as glass epoxy and used
+T. Okatani and I. Shimoyama / Sensors and Actuators A 315 (2020) 112362 5
+Fig. 6. Photographs of (a) a normal stress sensor chip and (b) a shear stress sensor chip. SEM images of (c) the surface-doped beams and (d) the sidewall-doped beams.thicknesses of 0.2, 0.4, 0.6, and 0.8 mm. The internal substrate wasregarded as a rigid body, which means the bottom of the internalelastomer does not deform.The simulation method was as follows. First, we calculated theratio of shear stress, , to normal stress, , and its distribution onthe sensor surface assuming the whole contact surface is the stickregion (Fig. 4(b)). The result shows / become larger towards theedge of the contact area, which indicates a local slip happens onthe peripheral of the contact surface where the coefficient of staticfriction, , exceeds the ratio of  to . Then, we defined a borderbetween stick and slip regions by  because a local slip was thoughtto happen in a region where / exceeds . No slip was allowed onthe stick region, while the shear stress was zero on the slip region.Next, we calculated the strain of the beams on the sensor chipswhen the uniform displacement was applied on the sensor surfacewhile changing the border between the stick and slip regions. Theamount of the displacement was decided as the total normal forceon the sensor surface became 1 N to compare strains per unit force.Assuming the gauge factor of the piezoresistor was 100, the frac-tional resistance changes were estimated. Additionally, a(), b()and c() were calculated from Eqs. (1)–(3), respectively. Fig. 4(c)shows the relationship between R6/R6and  while changing thethickness of the external substrate, d. If the external substrate isrigid, R6/R6is constant, independent of . The simulation showsR6/R6is nearly constant when the substrate become thick. Whenthe thickness was 0.4 mm, the change of R6/R6was less than 1%. In the following case, we set the thickness as 0.4 mm. Fig. 4(d)shows the values of a(), b() and c() when  ranges from 0.01to 0.1. a() gradually decreased when  became low, while b()slightly increased. These results agree with the assumption thatthe external elastomer spreads more when the coefficient of staticfriction becomes lower. As a result, c() decreased as  increased.In more detail, c() simulation result shows the limited range ofthe sensitivity to the coefficient of static friction from 0.01 to 0.3.By using this relationship,  in the range from 0.01 to 0.1 can beestimated from c(), which is calculated from the sensor outputs.3.2. Design and fabrication of a prototype sensorWe designed and fabricated the normal and shear stress sen-sor chips. The fabrication processes are shown in Fig. 5. We useda 20/1/300 m SOI wafer. First, the device layer was etched forsidewall-doping. Second, phosphorus ions were doped into the sur-face of the device layer by the thermal diffusion method [21]. Third,chrome and gold layers were patterned by lift off. Fourth, the devicelayer was etched again. Fifth, the handle layer was etched from theback side. Sixth, the silicon dioxide (SiO2) layer was removed withhydrofluoric acid vapor. Finally, the sensor chips were divided bystealth dicing. Photographs and SEM images of the fabricated sensorchips are shown in Fig. 6(a)–(d).The sensor chips were arranged on the internal and externalsubstrates with an epoxy resin adhesive. Then, the sensor chipsand the substrates were electrically connected with gold wires. Thesubstrates were fixed to petri dishes and covered with PDMS. Themixing ratio of the main agent (KE-106, Shin-Etsu Chemical Co., Ltd,Tokyo, Japan) and the curing agent (CAT-RG, Shin-Etsu ChemicalCo., Ltd, Tokyo, Japan) was set to 10 : 1. Young’s modulus of thePDMS is 750 kPa according to the reference paper [22]. After curing,the PDMS was cut out to 10 mm square. The thickness of the PDMSwas 1 mm. To reduce the stickiness of the PDMS surface, a surfacemodifier (X-93-1755-1, Shin-Etsu Chemical Co., Ltd, Tokyo, Japan)was coated on the PDMS. Photographs of the internal and externalparts are shown in Fig. 7(a) and (b). The external part was overlaidon the internal part with an adhesive (Fig. 6(c)). As a result, wecould achieve a total thickness of less than 3 mm.4. Experiment4.1. Experimental setupFig. 8 shows a photograph of the experiment setup. The experi-ment setup was composed of a commercialized 6-axis force/torquesensor (SI-130-10, ATI Industrial Automation, Inc., Apex, NC, USA),
+6 T. Okatani and I. Shimoyama / Sensors and Actuators A 315 (2020) 112362
+Fig. 7. Photographs of (a) the internal part and (b) the external part of the sensor.(c) Photograph of the fabricated sensor by integrating the internal and the externalparts.Fig. 8. A photograph of the experimental setup.an xyz-axis manual translational stage, a z-axis manual rotationalstage, an -axis goniometer and an acrylic plate fixed above thestages with jigs. The fabricated sensor was fixed on the stages.The sensor outputs were measured with an oscilloscope throughWheatstone bridges and amplifiers.4.2. Estimation of the coefficient of static frictionFirst, we evaluated sensor outputs when the sensor was pressedagainst surfaces with various coefficients of static friction. We pre-pared 10 surfaces by coating (or not coating) the acrylic plate withtalcum powder, water, silicone oil, shaving gel, a polytetrafluo-roethylene (PTFE) sheet, an OHP film, a wooden plate, an aluminumplate and paper. The experiment was carried out as below. First, thez-axis stage was moved until 5 N of normal force was applied. Next,the x-axis stage was moved until a slip occurred. The coefficient ofstatic friction was calculated as the ratio of the x-axis force to thez-axis force. This trial was repeated 5 times for each surface.Fig. 9 (a) and (b) show the fractional resistance changes, R1/R1and R2/R2+ R3/R3+ R4/R4+ R5/R5, respectively, while thesensor was pressed. The results of the linear regression are plottedtogether. The sensor responses were linear because the sensor hada flat surface. The slopes in Fig. 9 (a) correspond with a() in Eq.(1). Additionally, the slopes of the lines in Fig. 9 (b) correspond withb() in Eq. (2). The slopes of the lines change when the coefficientsof static friction are different. These results indicate that a() andb() are surely functions of  as we assumed in Eqs. (1) and (2).Fig. 9 (c) shows the relationship between a() and  obtained inall the trials. a() decreased when  was lower than 0.2. a() wasconstant in a range of  from 0.2 to 1.0. Fig. 9 (d) shows the rela-tionship between b() and . b() increased when  was lowerthan 0.4. b() was constant in a range of  from 0.4 to 1.0. Theseresults agree with the simulation results, which show that b()decreased when  became small, while a() increased. Fig. 9 (e)shows the relationship between c() and . c() was calculated asthe ratio of b() to a(), as shown in Eq. (3). Then, linear regressionwas used to fit two lines to the relationship between c() and ,which shows that c() decreased as  increased for  between 0.01and 0.29, while c() was constant in a range of  from 0.29 to 1.0.This result indicates that  between 0.01 and 0.29 can be estimatedfrom c() using this relationship. Furthermore, this relationship isindependent of surface coating, which proves that the sensor out-puts are decided by the coefficient of static friction. The proposedsensor was sensitive to  in a range from 0.01 to 0.29, while theprevious sensor could estimate  in a range from 0.25 to 0.74 [19].The difference between the two sensors is the arrangement of sen-sor chips on the external substrate. The distance between the shearstress sensors and the center of the substrate was set as 3 mm inthis study compared to 1 mm in previous work, indicating that thesensitivity to  can be modified by changing the arrangement ofsensor chips.4.3. Estimation of 6-axis Force/TorqueNext, we evaluated sensor responses to 6-axis force/torque.First, the sensor was pressed against the acrylic plate without anyattachments until 15 N of normal force was applied. Second, x-axisand y-axis torques were applied by moving the goniometer. Third,z-axis torque was applied by moving the rotational stage. Fourth,x-axis and y-axis forces were applied by moving the x-axis and y-axis stages. Finally, the sensor was detached from the acrylic plate.The outputs from the referential 6-axis force/torque sensor and thefabricated sensor was acquired at a sampling rate of 2 kHz.We conducted a trial under each of none and oil conditions.Using the 176,851 data points (about 85.43 s) acquired under thenone condition, Destin Eq. (4) was calculated using the least squaresmethod.
+Dest =
+⎛
+⎜⎜⎜⎜⎜⎜⎝
+1.08 3.44 9.28
+−0.86
+−0.12
+−0.43
+−6.95 5.87 4.15 0.15
+−0.11 0.02
+−6.82 5.47 4.60 1.29
+−0.01
+−0.86
+1.96 5.69
+−7.86
+−1.36
+−0.07 0.29
+−0.72 2.05 9.66 1.22 0.49 0.40
+−5.35 8.34
+−0.03 0.80 0.08 1.13
+⎞
+⎟⎟⎟⎟⎟⎟⎠
+×
+10−4
+By calculating Dest−1, we estimated the force/torque from thesensor outputs. Fig. 10 (a)-(f) show the 6-axis components of theforce/torque measured by the referential sensor and the estimatedforce/torque under the none condition. The estimated value basi-cally followed the referential value. However, the fabricated sensorresponded in some places where the referential sensor did notrespond. For example, the x-axis force of the fabricated sensorresponded when an x-axis torque was applied, while that of thereferential sensor did not respond. It is considered that this error is
+T. Okatani and I. Shimoyama / Sensors and Actuators A 315 (2020) 112362 7
+Fig. 9. The relationships between (a) the compressive deformation of the elastomer, R1/R1, and z-axis force, Fz, (b) the spread deformation of the elastomer, R2/R2+R3/R3+ R4/R4+ R5/R5, and Fz, (c) a() in Eq. (1) and , (d) b() in Eq. (2) and  and (e) c() in Eq. (3) and .Fig. 10. The measured values from the referential sensor and the estimated values from the fabricated sensor of the (a) x-axis shear force, (b) y-axis shear force, (c) z-axisnormal force, (d) torque around the x-axis, (e) torque around the y-axis and (f) torque around the z-axis under the none condition.
+8 T. Okatani and I. Shimoyama / Sensors and Actuators A 315 (2020) 112362
+Fig. 11. The measured values from the referential sensor and the estimated values from the fabricated sensor of the (a) x-axis shear force, (b) y-axis shear force, (c) z-axisnormal force, (d) torque around the x-axis, (e) torque around the y-axis and (f) torque around the z-axis under the oil condition.caused by the crosstalk of the sensor outputs which is not cancelledby the calibration matrix.Next, we applied the calculated Destto the estimations of theforce/torque under the oil condition. Using 193,988 data pointsacquired under the oil condition, the estimated force/torque wascalculated. Fig. 11 (a)–(f) show the 6-axis components of theforce/torque measured by the referential sensor and the estimatedforce/torque under the oil condition. The estimated values basicallychanged with the referential values, though there seemed to besome crosstalk to the reference values as with the none condition.To evaluate the sensitivity change caused by the coefficientof static friction, we focused on each component of the 6-axisforce/torque when the stimulation corresponding to the compo-nent was applied. The span when the stimulation corresponding toeach component was applied is shown in Figs. 10 and 11 by grayingthe background, such as the data of the x-axis force in the range oftime from —s to — s in Fig. 10 (a). First, the maximum, minimumand mean errors under the none and oil conditions were calculatedand shown in Table 1. Also, the coefficient of determination, R2, isshown together in Table 1, which is an index of the capability tomeasure the force/torque.Fig. 12(a)–(f) show the relationship between the referential andestimated force/torque in the span when the stimulation corre-sponding to each component was applied. Linear regression wasused to fit a line to the acquired data points under each of the noneand oil conditions. The slope of the line becomes close to 1 if thesensitivity error is zero. In other words, the difference between theslope and 1 is the sensitivity error. For example, for x-axis force,the slope is 1.03. Then, the sensitivity error is +3 %. The sensitiv-ity change between the none and oil conditions can be qualifiedas the ratio of the slope under the oil condition to that under thenone condition, rslope. The calculated rslopeon each component ofthe force/torque is shown in the graphs of Fig. 12(a)–(f). For z-axisforce, rslopeis 1.00. This result indicates that the sensitivity changeon the z-axis force between the none and oil conditions is less than1 %, which agrees with the simulation result (Fig. 4 (c)). For theother components, the sensitivity error is more than 1% (+17 % forx-axis force, +22 % for y-axis force, −27 % for x-axis torque, −18 %for y-axis torque, +5 % for z-axis torque, respectively), which indi-cates that the local slip on the contact area affects the shear andtorsional deformations of the inner elastomer.4.4. DiscussionWe designed and fabricated the prototype of the proposed sen-sor that was composed of the external part for measuring thecoefficient of static friction and the inner part for measuring the6-axis force/torque. We confirmed that the sensor could estimatethe coefficient of static friction from 0.01 to 0.29. Also, the sen-sor could estimate the 6-axis force/torque under the none and oilconditions though the sensitivity change of up to 27 % for the x-axis torque was observed. We achieved a total thickness of lessthan 3 mm, which is suitable for robotic fingers about the size ofhuman’s ones. The sensors for measuring the coefficient of staticfriction reported in the previous literature [12–15] is too large toattach the fingertip. Also, the sensors cannot measure the 6-axisforce/torque simultaneously.Our sensor has an advantage in the sensor size and the simul-taneous measurement of both of the coefficient of static frictionand the 6-axis force/torque, while the capability of our sensor tomeasure the 6-axis force/torque is inferior to existing sensors inaccuracy. First, the resolution of the fabricated sensor should beimproved. For example, the resolution for z-axis force of the fab-ricated sensor is 0.5 N, while that of the reference sensor is 0.05 N.One of the solutions to improve it is to insert the lowpass filter inthe measurement circuit at the expense of frequency response. Sec-ond, the sensitivity change to the force/torque were found betweenthe none condition and the oil condition except z-axis force, whichindicates the difference in the coefficient of static friction had effecton the estimated values. As shown in the simulation, the effect of
+T. Okatani and I. Shimoyama / Sensors and Actuators A 315 (2020) 112362 9
+Table 1
+Maximum, minimum and mean errors and the coefficient of determination.
+max, min (mean) errors R2 [-] x-axis force [N] y-axis force [N] z-axis force [N] x-axis torque [N·mm] y-axis torque [N·mm] z-axis torque [N·mm]
+None condition
+1.1,
+−2.5 (0.8) 1.1,
+−0.7 (0.5) 0.9,
+−1.6 (0.5) 15.0,
+−23.9 (8.7) 22.5,
+−57.7 (29.4) 4.4,
+−2.4 (1.9)
+0.919 0.956 0.995 0.680 0.543 0.785
+Oil condition
+1.6,
+−1.6 (0.7) 1.3,
+−0.8 (0.5) 0.8,
+−0.5 (0.2) 29.9,
+−9.2 (10.1) 19.9,
+−57.7 (25.0) 3.2,
+−2.3 (1.3)
+0.854 0.877 0.999 0.705 0.605 0.839
+Fig. 12. The relationship between the referential and estimated values of the (a) x-axis shear force, (b) y-axis shear force, (c) z-axis normal force, (d) torque around the x-axis,(e) torque around the y-axis and (f) torque around the z-axis under the none and oil conditions.the coefficient of static friction can be reduced by increasing thethickness of the external substrate. Third, the crosstalk betweenthe components of 6-axis force/torque were observed. One of thepossible reasons for the crosstalk is the non-uniform deformationof the elastomers and substrates. The same deformation may notbe reproduced under multi-axis loading to the elastomers for hys-teresis. Additionally, the substrates had a layered structure of glassepoxy and patterned copper, which shows different deformationcompared to a flat and uniform substrate. In this study, we demon-strated that the estimated force/torque followed the changes of thetrue force/torque with some crosstalk. To reduce the crosstalk, thematerial and the parameters of the structure need to be optimized.For example, the external substrate should have larger Young’smodulus for reducing the effect of the deformation of the externalsubstrate to the deformation of the inner elastomer.In this paper, only the flat contact surface was considered. How-ever, the sensor needs to be applicable to contact surfaces of variousshapes in actual gripping. Because the sensor has the flat sur-face, the location of the applied force depends on the shape ofthe contact object. One of potential solutions is to round the sen-sor surface slightly and limit to the contact between the centerof the sensor surface and a point on the surface of the contactobject. Furthermore, we assumed the situation that only the z-axisforce was applied in the beginning of the contact. The compo-nents of force/torque except the z-axis force could affect the sensorresponse because the local slip/stick regions depend on the stressdistribution on the contact area, which remains as a future task.5. ConclusionWe proposed a tactile sensor that simultaneously measures 6-axis force/torque and the coefficient of static friction. The sensorcould estimate the coefficient of static friction in a range from 0.01to 0.29. Also, we confirmed that the sensor could estimate 6-axisforce/torque under the none and oil conditions.CRediT authorship contribution statementTaiyu Okatani: Conceptualization, Methodology, Formal anal-ysis, Investigation, Data curation, Visualization, Writing - originaldraft, Writing - review & editing. Isao Shimoyama: Supervision,Writing - review & editing.
+10 T. Okatani and I. Shimoyama / Sensors and Actuators A 315 (2020) 112362
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
 Declaration of Competing InterestThe authors report no declarations of interest.AcknowledgementsThis work was supported by JSPS KAKENHI Grant Number18J14114. The photolithography masks were made using theUniversity of Tokyo VLSI Design and Education Center (VDEC)’s 8-inch EB writer F5112 + VD01 donated by ADVANTEST Corporation(Tokyo, Japan).References[1] R. Hodson, How robots are grasping the art of gripping, Nature 557 (2018)S23–S25.[2] Z. Kappassov, J.-A. Corrales, V. Perdereau, Tactile sensing in dexterous robothands—review, Robot. Auton. Syst. 74 (2015) 195–220.[3] H. Khamis, B. Xia, S.J. Redmond, A novel optical 3D force and displacementsensor—towards instrumenting the PapillArray tactile sensor, Sens. ActuatorsA Phys. 291 (2019) 174–187.[4] Y. Guo, J. Kong, H. Liu, H. Xiong, L. Qin, A three-axis force fingertip sensorbased on fiber Bragg grating, Sens. Actuators A Phys. 249 (2016) 141–148.[5] R.A. Brookhuis, Miniature large range multi-axis force-torque sensor forbiomechanical applications, J. Micromech. Microeng. 25 (2015), 025012.[6] R. Sargeant, L.D. Seneviratne, K. Althoefer, A 2-Axis optical force-torquefingertip sensor for dexterous grasping using linear polarizers, IEEE Trans.Instrum. Meas. 61 (2012) 3363–3377.[7] A. Bicchi, V. Kumar, Robotic grasping and contact: a. Review, in: Proceedingsof the IEEE International Conference on Robotics and Automation (ICRA2000), San Francisco, CA, USA, 24-28 April, 2000, pp. 348–353.[8] W. Chen, H. Khamis, I. Birznieks, N.F. Lepora, S.J. Redmond, Tactile sensors forfriction estimation and incipient slip detection—toward dexterous roboticmanipulation: a review, IEEE Sensors J. 18 (2018) 9049–9064.[9] W. Yuan, R. Li, M.A. Srinivasan, E.H. Adelson, Measurement of shear and slipwith a GelSight tactile sensor, in: Proceedings of the IEEE InternationalConference on Robotics and Automation (ICRA 2015), Seattle, WA, USA, 26-30May, 2015, pp. 304–311.[10] V.-A. Ho, S. Hirai, A novel model for assessing sliding mechanics and tactilesensation of human-like fingertips during slip action, Robot. Auton. Syst. 63(2015) 253–267.[11] S. Shirafuji, K. Hosoda, Detection and prevention of slip using sensors withdifferent properties embedded in elastic artificial skin on the basis of previousexperience, Robot. Auton. Syst 62 (2014) 46–52.[12] T. Maeno, T. Kawamura, S.C. Cheng, Friction estimation by pressing an elasticfinger-shaped sensor against a surface, IEEE Trans. Robot. Autom. 20 (2004)222–228.[13] K. Nakamura, H. Shinoda, A tactile sensor instantaneously evaluating frictioncoefficients, in: Proceedings of the 11th International Conference onSolid-State Sensors, Actuators and Microsystems (TRANSDUCERS 2001),Munich, Germany, 10–14 June, 2001, pp. 1430–1433.[14] W. Chen, S. Rodpongpun, W. Luo, N. Isaacson, L. Kark, H. Khamis, S.J.Redmond, An eight-legged tactile sensor to estimate coefficient of staticfriction, in: Proceedings of the 37th Annual International Conference of theIEEE Engineering in Medicine and Biology Society (EMBC 2015), Milan, Italy,25-29 August, 2015, pp. 4407–4410.[15] W. Chen, H. Wen, H. Khamis, S.J. Redmond, An eight-legged tactile sensor toestimate coefficient of static friction: improvements in design and evaluation,in: Proceedings of International Conference on Human Haptic Sensing andTouch Enabled Computer Applications (EuroHaptics 2016), London, UnitedKingdom, 4-7 July, 2016, pp. 493–502.[16] T. Okatani, H. Takahashi, K. Noda, T. Takahata, K. Matsumoto, I. Shimoyama, Atactile sensor using piezoresistive beams for detection of the coefficient ofstatic friction, Sensors 16 (2016) 718.[17] H. Takahashi, A. Nakai, T.-V. Nguyen, K. Matsumoto, I. Shimoyama, A triaxialtactile sensor without crosstalk using pairs of piezoresistive beams withsidewall doping, Sens. Actuators A Phys. 199 (2013) 43–48.[18] A. Nakai, Y. Morishita, K. Matsumoto, I. Shimoyama, 6-axis force-torquesensor chip composed of 16 piezoresistive beams, in: Proceedings of the 28thIEEE International Conference on Micro Electro Mechanical Systems (MEMS2015), Estoril, Portugal, 18–22 January, 2015, pp. 730–731.[19] T. Okatani, A. Nakai, T. Takahata, I. Shimoyama, A MEMS slip sensor:estimations of triaxial force and coefficient of static friction for prediction of aslip, in: Proceedings of the 19th International Conference on Solid-StateSensors, Actuators and Microsystems (TRANSDUCERS 2017), Kaohsiung,Taiwan, 18–22 June, 2017, pp. 75–77.[20] H. Ishido, H. Takahashi, A. Nakai, T. Takahashi, K. Matsumoto, I. Shimoyama,6-axis force/torque sensor for spike pins of sports shoes, in: Proceedings ofthe 28th IEEE International Conference on Micro Electro Mechanical Systems(MEMS 2015), Estoril, Portugal, 18–22 January, 2015, pp. 257–260.[21] M. Gel, I. Shimoyama, Force sensing sub micrometer thick cantilevers withultra-thin piezoresistors by rapid thermal diffusion, J. Micromech. Microeng.14 (2004) 423–428.[22] J.C. Lötters, W. Olthuis, P.H. Veltink, P. Bergveld, The mechanical properties ofthe rubber elastic polymer polydimethylsiloxane for sensor applications, J.Micromech. Microeng. 7 (1997) 145–147.BiographiesT. Okatani was born in 1992. He received Bachelor degree in 2015, Master degreein 2017 and Ph. D. in 2020, respectively in The University of Tokyo. Since 2020,he has been an assistant professor in Department of Robotics, School of Engineer-ing in Tohoku University. His research interests include Robotics and Micro ElectroMechanical Systems.I. Shimoyama was born in 1955. He received Bachelor degree in 1977, Master degreein 1979 and Ph. D. in 1982, respectively in The University of Tokyo. Since 2019, he hasbeen the president in Toyama Prefecture University. His research interests includeRobotics and Micro Electro Mechanical Systems.
