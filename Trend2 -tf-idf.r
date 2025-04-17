@@ -16,16 +16,26 @@ relevant_files <- unique(filtered_metadata$file)  # 从 CSV 中提取文件名
 themes <- list(
   reasons = c(
     "birth rate", "fertility", "migration", "life expectancy",
-    "demographic shift", "urbanization", "longevity"
+    "demographic shift", "urbanization", "longevity",
+    "improved healthcare", "medical advancements", "better living standards",
+    "delayed parenthood", "family planning", "nutrition improvements"
   ),
   impacts = c(
     "healthcare cost", "pension crisis", "labor shortage",
     "social security", "economic growth", "dependency ratio",
-    "elderly care", "retirement age"
+    "elderly care", "retirement age", "shrinking workforce",
+    "rising healthcare costs", "pension burden", "elderly dependency ratio",
+    "economic slowdown", "intergenerational inequality", "pressure on healthcare systems",
+    "age-related diseases", "social isolation of elderly", "changing family structure",
+    "increased demand for eldercare services", "public spending pressures"
   ),
   solutions = c(
     "immigration policy", "automation", "healthcare reform",
-    "pension reform", "productive aging", "silver economy"
+    "pension reform", "productive aging", "silver economy",
+    "raising retirement age", "encouraging higher fertility rates", "promoting healthy aging",
+    "attracting skilled immigrants", "lifelong learning", "adult education",
+    "flexible work for older adults", "investing in eldercare infrastructure",
+    "family support policies", "intergenerational housing", "public awareness campaigns"
   )
 )
 
@@ -96,11 +106,23 @@ if ("tfidf" %in% colnames(debug_data)) {
   # 检查数据
   print("Debug: theme_article_counts 数据")
   print(head(theme_article_counts))
-
+ # 更新圖表樣式：黑色背景，白色字體
+  custom_theme <- theme(
+    plot.background = element_rect(fill = "black", color = NA),
+    panel.background = element_rect(fill = "black", color = NA),
+    panel.grid.major = element_line(color = "gray"),
+    panel.grid.minor = element_line(color = "gray"),
+    axis.text = element_text(color = "white"),
+    axis.title = element_text(color = "white"),
+    plot.title = element_text(color = "white", face = "bold"),
+    plot.subtitle = element_text(color = "white"),
+    legend.background = element_rect(fill = "black", color = NA),
+    legend.text = element_text(color = "white"),
+    legend.title = element_text(color = "white")
+  )
   # 绘制图表：按主题区分
-  plot <- ggplot(theme_article_counts, aes(x = year, y = keyword_count, color = theme, group = theme)) +
-    geom_line(size = 1) +
-    geom_point(size = 3) +
+  plot <- ggplot(theme_article_counts, aes(x = year, y = keyword_count, fill = theme)) +
+    geom_bar(stat = "identity", position = "dodge") +  # 使用柱狀圖，並按主題分組
     scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +  # 确保年份逐年显示
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +  # y 轴为整数
     labs(
@@ -119,11 +141,11 @@ if ("tfidf" %in% colnames(debug_data)) {
   print(plot)
 
   # 保存图表
-  output_plot <- "theme_keywords_trend.png"
+  output_plot <- "theme_keywords_trend_bar.png"
   ggsave(output_plot, plot = plot, width = 10, height = 6, dpi = 300)
 
   # 打印确认信息
-  print(paste("Plot saved to:", output_plot))
+  print(paste("Bar chart saved to:", output_plot))
 
   # 调试：检查过滤后的数据
   print("Debug: 合并并过滤后的 theme_article_counts")
@@ -163,55 +185,102 @@ if ("tfidf" %in% colnames(debug_data)) {
   # 保存总计数图表
   ggsave("total_keywords_trend.png", plot = total_plot, width = 10, height = 6, dpi = 300)
 
+ 
+
   # 分别绘制单独的主题图表 ---------------------------------------------
 
   # 绘制 Reasons 图表
-  reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(x = year, y = keyword_count)) +
-    geom_line(color = "blue", size = 1) +
-    geom_point(color = "navy", size = 3) +
+  reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(x = year, y = keyword_count, fill = as.factor(year))) +
+    geom_bar(stat = "identity", position = "dodge") +
     scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+    scale_fill_discrete(name = "solution_year") +  # 更改图例标题
     labs(
       title = "Keywords Count for Reasons Over the Years",
       x = "Year",
       y = "Keyword Count"
     ) +
-    theme_minimal()
+    custom_theme
 
   print(reasons_plot)
   ggsave("reasons_keywords_trend.png", plot = reasons_plot, width = 10, height = 6, dpi = 300)
 
   # 绘制 Impacts 图表
-  impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(x = year, y = keyword_count)) +
-    geom_line(color = "red", size = 1) +
-    geom_point(color = "darkred", size = 3) +
+  impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(x = year, y = keyword_count, fill = as.factor(year))) +
+    geom_bar(stat = "identity", position = "dodge") +
     scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+    scale_fill_discrete(name = "solution_year") +  # 更改图例标题
     labs(
       title = "Keywords Count for Impacts Over the Years",
       x = "Year",
       y = "Keyword Count"
     ) +
-    theme_minimal()
+    custom_theme
 
   print(impacts_plot)
   ggsave("impacts_keywords_trend.png", plot = impacts_plot, width = 10, height = 6, dpi = 300)
 
   # 绘制 Solutions 图表
-  solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), aes(x = year, y = keyword_count)) +
-    geom_line(color = "green", size = 1) +
-    geom_point(color = "darkgreen", size = 3) +
+  solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), aes(x = year, y = keyword_count, fill = as.factor(year))) +
+    geom_bar(stat = "identity", position = "dodge") +
     scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+    scale_fill_discrete(name = "solution_year") +  # 更改图例标题
     labs(
       title = "Keywords Count for Solutions Over the Years",
       x = "Year",
       y = "Keyword Count"
     ) +
-    theme_minimal()
+    custom_theme
 
   print(solutions_plot)
   ggsave("solutions_keywords_trend.png", plot = solutions_plot, width = 10, height = 6, dpi = 300)
+
+  # 绘制 Reasons 图表
+reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
+  geom_bar(stat = "identity") +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+  labs(
+    title = "Keyword Counts for Reasons",
+    x = "Keywords",
+    y = "Keyword Count"
+  ) +
+  custom_theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  # 旋转 X 轴标签以避免重叠
+
+print(reasons_plot)
+ggsave("reasons_keywords_bar_chart.png", plot = reasons_plot, width = 12, height = 6, dpi = 300)
+
+# 绘制 Impacts 图表
+impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
+  geom_bar(stat = "identity") +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+  labs(
+    title = "Keyword Counts for Impacts",
+    x = "Keywords",
+    y = "Keyword Count"
+  ) +
+  custom_theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  # 旋转 X 轴标签以避免重叠
+
+print(impacts_plot)
+ggsave("impacts_keywords_bar_chart.png", plot = impacts_plot, width = 12, height = 6, dpi = 300)
+
+# 绘制 Solutions 图表
+solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
+  geom_bar(stat = "identity") +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+  labs(
+    title = "Keyword Counts for Solutions",
+    x = "Keywords",
+    y = "Keyword Count"
+  ) +
+  custom_theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  # 旋转 X 轴标签以避免重叠
+
+print(solutions_plot)
+ggsave("solutions_keywords_bar_chart.png", plot = solutions_plot, width = 12, height = 6, dpi = 300)
 } else {
   stop("Error: tfidf 列未正确合并，请检查 doc_id 和 file 的匹配！")
 }

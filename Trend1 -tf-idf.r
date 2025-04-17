@@ -106,14 +106,10 @@ process_file_tfidf <- function(file, target_terms, idf) {
 
 # 4. Target Terms & Execution ------------------------------------
 target_terms <- c(
-  "aging", "population", "elderly", "productivity",
+  "aging", "population", "elderly", 
   "retirement", "healthcare", "pension", "dependency",
-  "demographic", "longevity","social security", "labor market", "chronic disease",
-  "intergenerational", "caregiver", "ageing society",
-  "government policy", "economic burden", "demographic dividend",
-  "life expectancy"
+  "demographic", "longevity"
 )
-
 plan(multisession)
 tfidf_results <- future_map_dfr(
   unique_files,
