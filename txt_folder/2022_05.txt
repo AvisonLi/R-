@@ -1,0 +1,1180 @@
+<<<<<<< HEAD
+Glass fiber (GF)/polypropylene (PP) composite studied by Raman
+disrelation mapping
+Hideyuki Shinzawa ⇑, Hiroki Itasaka
+Research Institute for Sustainable Chemistry, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan
+Innovative Functional Materials Research Institute, AIST, Nagoya, Japan
+h i g h l i g h t s
+ PP/GF composite was studied by
+confocal Raman microscopy.
+ Raman disrelation mapping was
+applied to examine interfacial area.
+ Disrelation map revealed apparent
+interaction between PP and GF.
+g r a p h i c a l a b s t r a c t
+a r t i c l e i n f o
+Article history:
+Received 21 December 2021
+Received in revised form 8 February 2022
+Accepted 14 February 2022
+Available online 17 February 2022
+Keywords:
+Confocal Raman microscopy
+Depth profiling
+Glass fiber (GF)
+Polypropylene (PP)
+Two-dimensional (2D) correlation
+spectroscopy
+Disrelation mapping
+a b s t r a c t
+Disrelation mapping was applied to Raman imaging data for the first time to investigate submolecularlevel
+variations that occurred at the interface between glass fiber (GF) and polypropylene (PP). Disrelation
+maps constructed with Raman spectra provided spatial as well as spectral information, which are not
+readily accessible from hypercubic data. For example, patterns that appeared in the disrelation maps
+showed the predominant development of a long helix band (1002 cm1) at the interface between the
+GF and PP, rather than a short helix band (974 cm1). The development of the disrelation intensity
+was observed inside the sample as well as at the surface. These results clearly reveal that the GF or compatibilizer
+works intrinsically as a nucleating agent to induce additional development of the crystalline
+structure of the PP, which eventually makes the polymer system harder but more brittle.
+ 2022 Elsevier B.V. All rights reserved.
+1. Introduction
+Application of disrelation map to Raman imaging data is
+described in this study. Spectroscopic imaging is a technique for
+probing the molecular structure of each chemical functional group
+in an observed spatial region of a sample. The two most commonly
+used types of spectral microscopy are infrared (IR) and Raman
+imaging [1–4]. We have recently reported a data analysis technique
+called disrelation mapping, which is useful for studying
+spectroscopic imaging data [5–11]. Fig. 1 is a schematic representation
+of disrelation mapping. Spectral microscopy collects a series
+of spectra in a systematic manner as a function of the spatial coordinates
+of the image. The data thus obtained forms a hypercube
+structure consisting of two spatial variables and one spectral variable.
+Disrelation mapping constructs a correlation map based on a
+two-dimensional (2D) correlation analysis applied to each element
+of an image with its local neighbor [12,13]. An image constructed
+by using this scheme represents the dissimilarities among spectra
+https://doi.org/10.1016/j.saa.2022.121056
+1386-1425/ 2022 Elsevier B.V. All rights reserved.
+⇑ Corresponding author at: Research Institute for Sustainable Chemistry, National
+Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan.
+E-mail address: h-shinzawa@aist.go.jp (H. Shinzawa).
+Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+Contents lists available at ScienceDirect
+Spectrochimica Acta Part A: Molecular and
+Biomolecular Spectroscopy
+journal homepage: www.elsevier.com/locate/saa
+selected from the localized planar sampling space. For instance, the
+disrelation intensity becomes significant only in spatial regions
+that have physical or chemical changes reflected in the spectra.
+Consequently, a disrelation map can highlight the regions where
+specific interactions occur between components.
+This technique has already been successfully applied to IR imaging
+data to probe molecular interactions in nanocomposites or
+polymer blends, as well as the state of water molecules in mammalian
+cells [5–8]. In this study, the application of disrelation mapping
+is extended to the Raman microscopic study of a polymer
+composite system consisting of polypropylene (PP) and glass fiber
+(GF) to probe the submolecular-level change that occurs at the
+interface between a filler and a polymer matrix [14–16]. In a modern
+confocal Raman microscope, a laser source illuminates the
+sample. The excitation light source is focused on a specific area
+using an objective. A confocal Raman microscope provides high
+spatial resolution and the ability to examine depth profiles by utilizing
+a precision motorized XYZ stage [1,2,17]. This approach is
+often referred to as ‘‘optical sectioning” in contrast to the approach
+that involves mechanically cutting a cross-section and scanning
+across it laterally. Thus, Raman imaging has a definite advantage
+in that it selectively probes a specific area inside a sample compared
+with transmittance or attenuated total reflection (ATR) measurement
+by IR spectroscopy. In addition to its lateral surface, the
+interior of the dumbbell-shaped PP/GF specimen was examined
+with Raman imaging. Disrelation maps derived from the Raman
+spectra were also compared with a map obtained with ATR-IR
+imaging to demonstrate the potential of disrelation mapping analysis
+combined with confocal Raman microscopy.
+2. Methods
+Assume an m-by-n spectral data matrix A, comprising m spectra
+with n spectral variables selected by using a local window
+within the full spectral image. A set of dynamic spectra A is derived
+by subtracting the average spectrum. The synchronous correlation
+(i.e. covariance) spectrum U is obtained as [12,13]
+U ¼ 1
+m 1
+AT A ð1Þ
+The absolute value of the disrelation spectrum Kij is given by
+[12 13]
+Kij
+
+
+¼
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+/ii/jj  /2
+ij
+q
+ð2Þ
+where /ij indicates the ith row and jth column element of the
+synchronous correlation matrix defined by Eq. (1). A disrelation
+spectrum Kij represents dissimilar variations in spectral intensities
+at the ith and jth spectral variables appearing in the spatial region
+defined by the local window [5]. A new value for the center pixel in
+the local window is obtained as a disrelation spectrum Kij. The
+window is moved across the entire plane of the image, and finally
+generates a new image based on the disrelation intensity. The disrelation
+intensity develops only if the spectral intensities at the ith
+and jth spectral variables within the local spatial area vary out-ofphase
+with each other and not simultaneously. In other words, the
+disrelation intensity becomes significant only in regions where
+chemically or physically meaningful variations take place. Hence,
+this technique became an effective localized highlighting tool with
+which to pinpoint the region of interest within a vast spectral
+dataset.
+3. Experimental
+3.1. Preparation of PP/GF composite
+Homo-PP and GF were supplied by Prime Polymer and Asahi
+Fiber Glass, respectively. The diameter of the GF is approximately
+10 lm. Polypropylene-graft-maleic anhydride (PP-g-MA) purchased
+from Sanyo Chemical was used as a compatibilizer. The
+PP and PP-g-MA were mixed with a dispersion mixer (Nihon Spindle
+Manufacturing Co., Ltd.) at 50 rpm in a mixing chamber heated
+to 220 C. Once the PP and PP-g-MA were sufficiently plasticized,
+the GF was fed into the mixture and additional mixing was
+employed for 10 min at 50 rpm. The blending ratio of the PP, GF
+and PP-g-MA was 69/30/1. The mixture was then pelletized, and
+the pellets were molded with a tabletop injection molding
+machine, Mold Lock (Century Innovation). Approximately 10 g of
+the pellets were heated to 240 C and injected at 5 mL/s and
+6 MPa into a mold to form a dumbbell-shaped specimen defined
+by the ISO 8256 method [18]. Dumbbell-shaped specimens of the
+neat PP were also prepared in a similar manner.
+3.2. Tensile testing
+Stress–strain curves of the PP/GF and neat PP samples were
+measured by a multi-purpose stretching tester (EZ-LX, Shimadzu)
+at a crosshead speed of 1 mm/min at room temperature (ca. 25 C).
+3.3. IR microscopy
+A set of FT-IR spectra of the PP/GF sample were collected with a
+TENSOR II spectrometer (Bruker) coupled with a Hyperion 3000
+microscope equipped with a 64  64 focal plane array detector.
+ATR-IR spectra were collected at a spectral resolution of 4 cm1
+with the coaddition of 1024 scans over a region of 3800–
+500 cm1 by probing a 32 lm  32 lm region with a pixel resolution
+of 0.5 lm.
+3.4. Raman microscopy
+Raman mapping data were collected with an XploRA confocal
+Raman microscope (HORIBA Jobin Yvon) with a 532 nm laser as
+an excitation light source. The incident laser with a power of 3.7
+mW was circularly polarized and focused through a
+100  objective (NA = 0.9). The scattered light was collected
+through the same objective. Raman lateral (XY-plane) and depth
+(YZ-plane) maps were acquired at a spectral resolution of < 3 cm1
+over a 2000–100 cm1 wavenumber region by probing a
+20 lm  30 lm region and a 30 lm  10 lm region with pixel resolutions
+of 1.0 lm  0.5 lm (XY-plane) and 0.5 lm  1.0 lm (YZplane),
+respectively.
+Fig. 1. A schematic representation of disrelation mapping constructed with a
+hyperspectral data cube.
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+2
+4. Results and discussion
+4.1. Mechanical property of PP/GF composite
+Fig. 2 shows stress–strain curves of the neat PP and PP/GF composite
+samples. The neat PP sample exhibits a gradual increase in
+strain at the onset of the deformation, representing the elastic
+deformation of the PP. Further elongation of the sample leads to
+its plastic deformation. The occurrence of the different deformation
+behaviors is mostly associated with the coexistence of the rubbery
+amorphous and rigid crystalline structures in the PP sample.
+On the other hand, the PP/GF sample exhibits a steep increase in
+stress, and this eventually leads to a sudden fracture without the
+appearance of any obvious plastic deformation. Although such
+variations in mechanical property caused by the incorporation of
+GF are commonly considered to be related to the presence of the
+GF, which substantially restricts the mechanical displacement of
+the system, there is also a need to provide an in-depth understanding
+of the phenomena. For example, it is known that an interfacial
+interaction between the filler and the matrix in a composite system
+often offers the components firm link to improve mechanical property
+[14–16]. Thus, spectroscopic imaging may provide an additional
+opportunity to examine the molecular-level variations
+around the interface between the components. In fact, the development
+of a latent interaction between the GF and PP can be readily
+identified by IR and Raman disrelation maps as shown later.
+4.2. IR imaging of lateral surface area
+We first examine IR imaging data for the PP/GF composite as a
+reference for later comparison with disrelation maps derived from
+the Raman data. Fig. 3(A) shows a visible image of the lateral surface
+area scanned with IR microscopy. The bright and dark colored
+domains in Fig. 3(A) represent the GF and PP, respectively. Fig. 3(B)
+shows IR spectra extracted from the region indicated by the white
+arrow in Fig. 3(A). While PP develops several bands in this IR
+region, importantly there are no specific IR bands that can be
+assigned to the ‘pure’ crystalline or amorphous structure of PP
+[19–22]. There are so-called regularity bands arising from the helical
+structures of PP, which are essential to crystal formation. For
+example, the peak appearing at 973 cm1 in Fig. 3(B) can be
+assigned to a shorter helix, which are abundant in an amorphous
+component [22]. On the other hand, the band observed at
+998 cm1 can be assigned to a longer helix predominantly present
+in a crystalline component [22]. Although these IR bands are simply
+a reflection of the number of helical turns, their intensity variations
+can be used as an empirical inference to identify the changes
+in the crystalline and amorphous contents. For instance, the presence
+of the very large surface of the GF often substantially lowers
+the surface free energy barrier for nucleation and then increases
+the frequency of the spontaneous nucleation of the PP crystals. This
+interaction eventually induces the additional development of the
+crystalline structure of polymer especially around the interface
+between the PP and GF. Thus, the intensity variations of the regularity
+bands may provide key information when it comes to examining
+the possible generation of their surface interaction, which
+plays an important role in improving the mechanical property of
+a nanocomposite sample. But the variation in the regularity bands
+of the PP is dominated by the overwhelming contribution from the
+Si-O-Si group of the GF, making it difficult to identify the pertinent
+difference between the intensity variations of the regularity bands
+[23].
+Fortunately, there is a way to selectively attenuate the signal
+contribution from a specific peak by using a pre-treatment technique
+called null-space projection (NSP). NSP is a method for selectively
+removing a specific signal contribution from spectra by
+sorting dynamic spectra into two separate sets: one of which is
+0 2 3 4
+0
+20
+40
+60
+80
+100
+120
+140
+Strain/%
+Stress/MPa
+GF/PP
+PP
+Fig. 2. Stress–strain curves of neat PP and PP/GF composite samples.
+Fig. 3. (A) The visible image of an area probed by ATR. (B) IR spectra extracted from
+the region indicated by a white arrow in Fig. 3(A). (C) NSP-treated spectra
+calculated using spectral intensities at 955 cm1 as a projecting vector which
+represents the IR absorption caused by the GF contribution .
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+3
+fully aligned with a chosen projecting vector while the other is
+orthogonal to the same vector [24–28]. For example, Fig. 3(C)
+shows NSP-treated spectra calculated with the spectra shown in
+Fig. 3(B) by using the spectral intensities at 955 cm1 as a projecting
+vector which represents the IR absorption by the GF. The spectra
+are now free from the intensity change related to the projection
+vector while the spectral intensities can be both positive and negative
+after the projection treatment. Namely, the NSP-corrected
+spectra remain contributions from all other constituents except
+for the GF. The variation in the spectral feature in Fig. 3(C) indicates
+that, when we move from region A to region B, we encounter a
+gradual increase in the PP bands. Such a pattern indeed agrees with
+the fact that PP is more abundant in region B than in region A. Thus,
+the application of disrelation mapping to the NSP-corrected spectra
+makes it possible to obtain pertinent information without being
+hampered by the exceptionally dominant contribution of the GF
+component.
+Fig. 4 shows (A) synchronous and (B) asynchronous correlation
+spectra calculated with the NSP-corrected IR spectra shown in
+Fig. 3(C). The cross peak appearing at the (998, 973) coordinate
+in the synchronous correlation spectrum indicates a simultaneous
+change in the spectral intensities of the long helix band (998 cm1)
+and short helix band (973 cm1), reflecting the fact that both the
+intensities of these PP bands are increasing simultaneously in
+Fig. 3(C). One noteworthy observation here is the development of
+a pair of cross correlation peaks in the asynchronous correlation
+spectrum (Fig. 4(B)). For example, the positive cross peak at the
+(998, 973) coordinate in Fig. 4(B) reveals that the IR intensity at
+998 cm1 occurs predominantly before that at 973 cm1 when
+we look from region A to region B. This sequence implies that
+the increases in the long helix and short helix do not happen coincidentally.
+In other words, the cross peaks suggest the presence in
+this system of a specific region where the crystalline structure
+develops greatly. Fig. 4(C) shows a disrelation map constructed
+with the intensities at 998 and 973 cm1 of the NSP-corrected IR
+spectra selected with 5  5 local window. The disrelation intensity
+values in the figure are already normalized to the [01] range for
+convenience. The two parallel lines indicated with bright colors
+in Fig. 4(C) shows the region developing a strong disrelation intensity
+between the long and short helix bands. In other words, the
+pattern reveals specific regions where a crystalline structure dominantly
+developed. Interestingly, such regions apparently correspond
+to the boundary between the GF and PP as shown in Fig. 3
+(A). This observation implies that the development of the disrelation
+intensity between the long and short helix bands becomes
+especially acute when the PP and GF are brought together. It is thus
+most likely that the GF must be present for the development of the
+additional crystalline structure of the PP. It is also important to
+point out that only a pair of parallel lines indicating GF/PP interfaces
+is identified in the disrelation map although several fibers
+are clearly visualized in Fig. 3(A) as relatively bright areas. Such
+pattern can be explained if one assumes that not all the fibers
+are exactly on the surface of the object. Some fibers observed in
+the visible image may be covered with relatively thin PP layer
+which makes it impossible to detect the signals from the GF by
+the ATR measurement, although such thin PP layer is not readily
+identified by the visible inspection.
+4.3. Raman imaging of lateral surface area
+It is now instructive to compare the IR disrelation map with
+those derived from Raman imaging data to demonstrate the potential
+of the Raman disrelation map. Fig. 5(A) and (B), respectively,
+are a visible image of the PP/GF sample and Raman spectra collected
+from the surface area indicated by the white window seen
+in Fig. 5(A). It is noted that regularity bands are also observable
+in this Raman region [29]. Peaks at 974 and 1002 cm1 are attributed
+to the short helix and long helix, which are essential to the
+amorphous and crystalline structures of PP, respectively. Hence,
+the correlation analysis of these Raman bands can also provide pertinent
+information associated with additional growth of the crystalline
+structure.
+Fig. 6 shows (A) a disrelation spectrum calculated with the
+Raman spectral data shown in Fig. 5(B) and (B) a disrelation map
+constructed with the Raman intensities at 1002 and 974 cm1,
+respectively. The spectra were subjected to offset baseline collection
+prior to the application of the 2D correlation analysis. It is
+noted that the disrelation spectrum develops a distinct correlation
+peak at (1002, 974), which indicates the dissimilar intensity variations
+of the short and long helix bands within the observed area.
+Again, the result suggests the presence of a specific spatial area
+where the crystalline structure develops greatly in this system.
+Another interesting observation here is the development of a pair
+of disrelation peaks in the Raman band around 974 cm1. Unfortunately
+the origin of these peaks is not clear at this moment, it is
+Fig. 4. (A) Synchronous and (B) asynchronous correlation spectra calculated with
+the NSP-corrected IR spectra shown in Fig. 3(C). (C) A disrelation map constructed
+with IR intensities at 998 and 973 cm1.
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+4
+clear that the emergence of the cross peaks reveals that the Raman
+band around 974 cm1 is essentially consisting of two peaks showing
+different intensity change within the spatial area. So the pair of
+disrelation peaks may indicate the bands each having different
+helix length. A disrelation map constructed with the Raman intensities
+at 1002 and 974 cm1 by using 5  5 window size is shown in
+Fig. 6(B). Two parallel lines with significant disrelation intensity
+are generated in the horizontal direction, indicating the greatly
+developed crystalline structure at the interface between the GF
+and PP. The length of the perpendicular segment between them
+agrees well with the actual size of the GF observed in Fig. 5(A).
+Consequently, the pattern appearing in the disrelation map represents
+the crystalline structure of the PP generated by the surface
+interaction between the GF and PP. A possible cause of the additional
+crystalline growth induced by the GF may be explained if
+we assume that the GF essentially works as a nucleating agent to
+cause the additional development of the PP crystalline structure
+by lowering the surface energy barrier [30,31]. Another possibility
+is due to the nucleating of the PP by the compatibilizer concentrated
+at the interface.
+It is now interesting to note that the IR and Raman disrelation
+mapping analyses were carried out independently but they eventually
+provided somewhat similar results indicating the additional
+crystalline growth around at the boundary between the GF and PP.
+It is likely that disrelation mapping can be effectively utilized for
+Raman as well as IR imaging analysis.
+4.4. Raman imaging of depth profile
+So far, we have examined the IR and Raman spectra collected at
+the surface of a PP/GF composite by disrelation mapping. While the
+Raman spectra collected at the lateral surface area of the sample
+eventually provided information somewhat similar to that derived
+from the IR spectra, a disrelation map based on Raman spectra displays
+interesting potential when it is applied to the depth-resolved
+Raman spectra. For example, Fig. 7(A) shows the visible image of
+the PP/GF sample and Fig. 7(B) shows depth-resolved Raman spectra
+collected along the white bar shown in Fig. 7(A). The Raman
+spectra in Fig. 7(B) again generate regularity bands, which indicate
+the presence of different helix structures in the probed area. Hence,
+Fig. 5. (A) Visible image of an area probed with Raman microscopy and (B) Raman
+spectra collected inside the white window indicated in Fig. 5(A).
+Fig. 6. (A) A disrelation spectrum calculated with Raman spectral data collected at
+the surface of the PP/GF sample. (B) A disrelation map constructed with the Raman
+intensities at 1002 and 974 cm1.
+10 μm
+(A)
+X-axis/μm
+Y-axis/μm
+􄢳􄢲􄢴􄢲 􄢳􄢲􄢲􄢲 􄢻􄢺􄢲 􄢻􄢸􄢲
+􄢳􄢲􄢲
+􄢴􄢲􄢲
+􄢵􄢲􄢲
+􄢶􄢲􄢲
+􄢷􄢲􄢲
+􄢸􄢲􄢲
+Raman shift/cm-1
+974
+Short helix
+1002
+Long helix
+(B)
+Intensity
+Fig. 7. (A) A visible image of a lateral surface area probed by Raman microscopy and
+(B) depth-resolved Raman spectra collected along the white bar indicated in Fig. 7
+(A).
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+5
+the detailed analysis of intensity variations associated with these
+regularity bands provides pertinent information related to inside
+the sample.
+Fig. 8 (A) shows a disrelation spectrum calculated with the
+depth-resolved Raman spectral data of the PP/GF sample. Of note
+is that the disrelation spectrum develops a correlation peak at
+the (1002, 974) coordinate in Fig. 8(A). This disrelation intensity
+implies that the distribution of the long helix component is substantially
+different from that of the short helix component inside
+the sample. The details of the differences between the distributions
+are clearly visualized by a subsequent analysis based on disrelation
+mapping. For example, Fig. 8(B) shows a disrelation map constructed
+with Raman intensities at 1002 and 974 cm-1of the
+depth-resolved Raman spectra by using 5  5 window size. It
+should be noted that semi-ellipse shape indicated by a significant
+level of disrelation intensity can be observed in the disrelation
+map to reveal the area where the crystalline structure develops
+greatly inside the sample. This characteristic pattern can be
+explained if we assume a nucleating effect induced at the interface
+between the GF and PP. Actually, this observation agrees well with
+the fact that the length of the minor axis of the semi-ellipse is
+approximately 10 lm, which corresponds to the fiber diameter of
+the GF. The result again suggests a possible interfacial interaction
+between the GF and PP, which cannot be readily identified with
+conventional analysis based on mechanical testing. Disrelation
+mapping thus provides an additional opportunity for optical sectioning
+based on confocal Raman microscopy by highlighting the
+feature associated with the chemical interaction between the
+components.
+5. Conclusion
+Confocal Raman microscopy provides intrinsically very rich
+information for studying both molecular structure and spatial distribution
+inside sample. However, it is not always easy to derive
+pertinent information from the Raman imaging data due to the
+complexity of the hypercubic data structure. The present study
+has demonstrated the potential of disrelation mapping for exploring
+complicated Raman imaging data. Sets of Raman spectra of a
+PP/GF composite were disentangled by disrelation mapping. The
+disrelation maps showed the additional development of the long
+helix band induced particularly at the interface between the GF
+and PP, indicating the nucleating effect induced by the GF or compatibilizer.
+Such predominant crystalline growth was observed
+around the GF inside the sample as well as that appearing at the
+surface of the sample.
+CRediT authorship contribution statement
+Hideyuki Shinzawa: Conceptualization, Investigation, Writing
+– original draft, Software. Hiroki Itasaka: Investigation, Formal
+analysis, Writing – review & editing.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared
+to influence the work reported in this paper.
+References
+[1] S. Šašic´ , Y. Ozaki, Raman, infrared and near-infrared chemical imaging, John
+Wiley and Sons Inc, Hoboken, 2010.
+[2] R. Salzer, H.W. Siesler, Infrared and Raman spectroscopic imaging, Wiley-VC,
+Weinheim, 2009.
+[3] S.G. Kazarian, K.L.A. Chan, ATR-FTIR spectroscopic imaging: recent advances
+and applications to biological systems’’, Analyst. 138 (7) (2013) 1940.
+[4] S.G. Kazarian, A.V. Ewing, Applications of Fourier transform infrared,
+spectroscopic imaging to tablet dissolution and drug release, Expert Opin.
+Drug Deliv. 10 (2013) 1207–1221.
+[5] H. Shinzawa, J. Mizukado, S.G. Kazarian, Fourier transform infrared (FT-IR)
+spectroscopic imaging analysis of partially miscible PMMA-PEG blends using
+two-dimensional disrelation mapping, Appl. Spectrosc. 71 (6) (2017) 1189–
+1197.
+[6] H. Shinzawa, B. Turner, J. Mizukado, S.G. Kazarian, Protein hydration in living
+cells probed by Fourier transform infrared (FT-IR) spectroscopic imaging,
+Analyst 142 (2017) 2475–2483.
+[7] H. Shinzawa, J. Mizukado, Near-infrared (NIR) disrelation mapping analysis for
+poly(lactic) acid nanocomposite, Spectrochim. Acta. 181 (2017) 1–6.
+[8] R. Watanabe, A. Sugahara, H. Hagihara, H. Sato, J. Mizukado, H. Shinzawa,
+Study of matrix-filler interaction of polypropylene/silica composite by
+combined infrared (IR) spectroscopic imaging and disrelation mapping,
+Compos Part A. 128 (2020) 105658.
+[9] H. Shinzawa, J. Mizukado, Near-infrared (NIR) Spectroscopic Imaging Analysis
+of Poly(lactic acid)-nanocomposite using Disrelation Mapping, J. Mol. Str. 1217
+(2020) 128332.
+[10] R. Watanabe, A. Sugahara, H. Hagihara, J. Mizukado, H. Shinzawa, Molecular-
+Scale Deformation of Polypropylene/Silica Composites Probed by Rheo-Optical
+Fourier-Transform Infrared (FTIR) Imaging Analysis Combined with
+Disrelation Mapping, Anal. Chem. 92 (2020) 12160–12167.
+[11] H. Lu, H. Shinzawa, S.G. Kazarian, Intermolecular interactions in the PCL/PLA
+blend under high-pressure CO2 studied by two-dimensional correlation
+analysis and two-dimensional disrelation mapping, Appl. Spectrosc. 75
+(2020) 250–258.
+[12] I. Noda, Y. Ozaki, Two-Dimensional Correlation Spectroscopy, John Wiley &
+Sons, Chichester, 2004.
+[13] I. Noda, Generalized Two-dimensional correlation method applicable to
+infrared, Raman, and other types of spectroscopy, Appl. Spectrosc. 47 (1993)
+1329–1336.
+[14] J. Gómez-Monterdea, M. Sánchez-Soto, M. Ll, Maspoch, Microcellular PP/GF
+composites: Morphological, mechanical and fracture characterization, Comp.
+part A 104 (2018) 1–13.
+[15] T.K. Kallel, R. Taktak, N. Guermazi, N. Mnif, Mechanical and structural
+properties of glass fiber-reinforced polypropylene (PPGF) composites, Polym.
+Compos. 39 (2018) 3497–3508.
+[16] S. Gu, H. Liu, X. Li, C. Mercier, Y. Li, Interfacial designing of PP/GF composites by
+binary incorporation of MAH-g-PP and lithium bis(trifloromethanesulfonyl)
+imide: Towards high strength composites with excellent antistatic
+performance, Compos. Sci. Technol. 156 (2018) 247–253.
+[17] N.J. Everall, Confocal Raman microscopy: Performance, pitfalls, and best
+practice, Appl. Spectrosc. 63 (2009) 245–262.
+[18] ISO 8256, Plastics - Determination of tensile-impact strength, international
+organization for standardization, Geneva (2004).
+[19] M. Kobayashi, K. Akita, H. Tadokoro, Infrared spectra and regular sequence
+lengths in isotactic polymer chains, Macromol. Chem. Phys. 118 (1968) 324–
+342.
+􄢳􄢲􄢴􄢲 􄢳􄢲􄢲􄢲 􄢻􄢺􄢲 􄢻􄢸􄢲
+􄢻􄢸􄢲
+􄢻􄢹􄢲
+􄢻􄢺􄢲
+􄢻􄢻􄢲
+􄢳􄢲􄢲􄢲
+􄢳􄢲􄢳􄢲
+􄢳􄢲􄢴􄢲
+Raman shift/cm-1
+Raman shift/cm-1
+974 Short helix
+1002
+Long helix
+(A)
+􄢷 􄢳􄢲 􄢳􄢷 􄢴􄢲 􄢴􄢷
+􄢴
+􄢶
+􄢸
+􄢺
+􄢲
+􄢲􄢰􄢷
+􄢳
+(B)
+Y-axis/μm
+Z-axis/μm
+An area where
+GF exists
+Fig. 8. (A) A disrelation spectrum calculated with depth-resolved Raman spectral
+data for the PP/GF sample. (B) A disrelation map constructed with Raman intensities
+at 1002 and 974 cm1.
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+6
+[20] Y.V. Kissin, L.A. Rishina, Regularity bands in the IR spectra of C3H6-C3D6
+copolymers, Eur. Polym. J. 12 (1976) 757–759.
+[21] T. Miyamoto, H. Inagaki, Structural and steric isomerism of polypropylenes, J.
+Polym. Sci. Part A-2 7 (6) (1969) 963–981.
+[22] C. Ruiz-Orta, J.P. Fernandez-Blazquez, E.J. Pereira, R.G. Alamo, Time-resolved
+FTIR spectroscopic study of the evolution of helical structure during
+isothermal crystallization of propylene 1-hexene copolymers, Identification
+of regularity bands associated with the trigonal polymorph, Polymer 52 (13)
+(2011) 2856–2868.
+[23] S.C. Feifel, F. Lisdat, Silica nanoparticles for the layer-by-layer assembly of fully
+electro-active cytochrome c multilayers, J. Nanotechnol. 9 (1) (2011) 59,
+https://doi.org/10.1186/1477-3155-9-59.
+[24] I. Noda, Projection two-dimensional correlation analysis, J. Mol. Struct. 974 (1-
+3) (2010) 116–126.
+[25] I. Noda, Close-up view on the inner workings of two-dimensional correlation
+spectroscopy, Vib. Spectrosc. 60 (2012) 146–153.
+[26] H. Shinzawa, K. Awa, I. Noda, Y. Ozaki, Pressure-induced variation of cellulose
+tablet studied by two-dimensional (2D) near-infrared (NIR) correlation
+spectroscopy in conjunction with projection pretreatment, Vib. Spectrosc. 65
+(2013) 28–35.
+[27] H. Shinzawa, J. Mizukado, Near-infrared (NIR) monitoring of Nylon 6 during
+quenching studied by projection two-dimensional (2D) correlation
+spectroscopy, J. Mol. Strct. 1124 (2016) 188–191.
+[28] H. Shinzawa, J. Mizukado, Rheo-optical two-dimensional (2D) near-infrared
+(NIR) correlation spectroscopy for probing strain-induced molecular chain
+deformation of annealed and quenched Nylon 6 films, J. Mol. Strct. 1158
+(2018) 271–276.
+[29] A.S. Nielsen, D.N. Batchelder, R. Pyrz, Estimation of crystallinity of isotactic
+polypropylene using Raman spectroscopy, Polymer 43 (9) (2002) 2671–2676.
+[30] N. Galeski, in: Polypropylene An a-z reference, Kluwer Academic Publishers,
+London, 1999, pp. 545–553.
+[31] H.D. Wagner, A. Lustiger, C.N. Marzinsky, R.R. Mueller, Interlamellar failure at
+transcrystalline interfaces in glass/polypropylene composites, Compos. Sci.
+Technol. 48 (1993) 181–184.
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+=======
+Glass fiber (GF)/polypropylene (PP) composite studied by Raman
+disrelation mapping
+Hideyuki Shinzawa ⇑, Hiroki Itasaka
+Research Institute for Sustainable Chemistry, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan
+Innovative Functional Materials Research Institute, AIST, Nagoya, Japan
+h i g h l i g h t s
+ PP/GF composite was studied by
+confocal Raman microscopy.
+ Raman disrelation mapping was
+applied to examine interfacial area.
+ Disrelation map revealed apparent
+interaction between PP and GF.
+g r a p h i c a l a b s t r a c t
+a r t i c l e i n f o
+Article history:
+Received 21 December 2021
+Received in revised form 8 February 2022
+Accepted 14 February 2022
+Available online 17 February 2022
+Keywords:
+Confocal Raman microscopy
+Depth profiling
+Glass fiber (GF)
+Polypropylene (PP)
+Two-dimensional (2D) correlation
+spectroscopy
+Disrelation mapping
+a b s t r a c t
+Disrelation mapping was applied to Raman imaging data for the first time to investigate submolecularlevel
+variations that occurred at the interface between glass fiber (GF) and polypropylene (PP). Disrelation
+maps constructed with Raman spectra provided spatial as well as spectral information, which are not
+readily accessible from hypercubic data. For example, patterns that appeared in the disrelation maps
+showed the predominant development of a long helix band (1002 cm1) at the interface between the
+GF and PP, rather than a short helix band (974 cm1). The development of the disrelation intensity
+was observed inside the sample as well as at the surface. These results clearly reveal that the GF or compatibilizer
+works intrinsically as a nucleating agent to induce additional development of the crystalline
+structure of the PP, which eventually makes the polymer system harder but more brittle.
+ 2022 Elsevier B.V. All rights reserved.
+1. Introduction
+Application of disrelation map to Raman imaging data is
+described in this study. Spectroscopic imaging is a technique for
+probing the molecular structure of each chemical functional group
+in an observed spatial region of a sample. The two most commonly
+used types of spectral microscopy are infrared (IR) and Raman
+imaging [1–4]. We have recently reported a data analysis technique
+called disrelation mapping, which is useful for studying
+spectroscopic imaging data [5–11]. Fig. 1 is a schematic representation
+of disrelation mapping. Spectral microscopy collects a series
+of spectra in a systematic manner as a function of the spatial coordinates
+of the image. The data thus obtained forms a hypercube
+structure consisting of two spatial variables and one spectral variable.
+Disrelation mapping constructs a correlation map based on a
+two-dimensional (2D) correlation analysis applied to each element
+of an image with its local neighbor [12,13]. An image constructed
+by using this scheme represents the dissimilarities among spectra
+https://doi.org/10.1016/j.saa.2022.121056
+1386-1425/ 2022 Elsevier B.V. All rights reserved.
+⇑ Corresponding author at: Research Institute for Sustainable Chemistry, National
+Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan.
+E-mail address: h-shinzawa@aist.go.jp (H. Shinzawa).
+Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+Contents lists available at ScienceDirect
+Spectrochimica Acta Part A: Molecular and
+Biomolecular Spectroscopy
+journal homepage: www.elsevier.com/locate/saa
+selected from the localized planar sampling space. For instance, the
+disrelation intensity becomes significant only in spatial regions
+that have physical or chemical changes reflected in the spectra.
+Consequently, a disrelation map can highlight the regions where
+specific interactions occur between components.
+This technique has already been successfully applied to IR imaging
+data to probe molecular interactions in nanocomposites or
+polymer blends, as well as the state of water molecules in mammalian
+cells [5–8]. In this study, the application of disrelation mapping
+is extended to the Raman microscopic study of a polymer
+composite system consisting of polypropylene (PP) and glass fiber
+(GF) to probe the submolecular-level change that occurs at the
+interface between a filler and a polymer matrix [14–16]. In a modern
+confocal Raman microscope, a laser source illuminates the
+sample. The excitation light source is focused on a specific area
+using an objective. A confocal Raman microscope provides high
+spatial resolution and the ability to examine depth profiles by utilizing
+a precision motorized XYZ stage [1,2,17]. This approach is
+often referred to as ‘‘optical sectioning” in contrast to the approach
+that involves mechanically cutting a cross-section and scanning
+across it laterally. Thus, Raman imaging has a definite advantage
+in that it selectively probes a specific area inside a sample compared
+with transmittance or attenuated total reflection (ATR) measurement
+by IR spectroscopy. In addition to its lateral surface, the
+interior of the dumbbell-shaped PP/GF specimen was examined
+with Raman imaging. Disrelation maps derived from the Raman
+spectra were also compared with a map obtained with ATR-IR
+imaging to demonstrate the potential of disrelation mapping analysis
+combined with confocal Raman microscopy.
+2. Methods
+Assume an m-by-n spectral data matrix A, comprising m spectra
+with n spectral variables selected by using a local window
+within the full spectral image. A set of dynamic spectra A is derived
+by subtracting the average spectrum. The synchronous correlation
+(i.e. covariance) spectrum U is obtained as [12,13]
+U ¼ 1
+m 1
+AT A ð1Þ
+The absolute value of the disrelation spectrum Kij is given by
+[12 13]
+Kij
+
+
+¼
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+/ii/jj  /2
+ij
+q
+ð2Þ
+where /ij indicates the ith row and jth column element of the
+synchronous correlation matrix defined by Eq. (1). A disrelation
+spectrum Kij represents dissimilar variations in spectral intensities
+at the ith and jth spectral variables appearing in the spatial region
+defined by the local window [5]. A new value for the center pixel in
+the local window is obtained as a disrelation spectrum Kij. The
+window is moved across the entire plane of the image, and finally
+generates a new image based on the disrelation intensity. The disrelation
+intensity develops only if the spectral intensities at the ith
+and jth spectral variables within the local spatial area vary out-ofphase
+with each other and not simultaneously. In other words, the
+disrelation intensity becomes significant only in regions where
+chemically or physically meaningful variations take place. Hence,
+this technique became an effective localized highlighting tool with
+which to pinpoint the region of interest within a vast spectral
+dataset.
+3. Experimental
+3.1. Preparation of PP/GF composite
+Homo-PP and GF were supplied by Prime Polymer and Asahi
+Fiber Glass, respectively. The diameter of the GF is approximately
+10 lm. Polypropylene-graft-maleic anhydride (PP-g-MA) purchased
+from Sanyo Chemical was used as a compatibilizer. The
+PP and PP-g-MA were mixed with a dispersion mixer (Nihon Spindle
+Manufacturing Co., Ltd.) at 50 rpm in a mixing chamber heated
+to 220 C. Once the PP and PP-g-MA were sufficiently plasticized,
+the GF was fed into the mixture and additional mixing was
+employed for 10 min at 50 rpm. The blending ratio of the PP, GF
+and PP-g-MA was 69/30/1. The mixture was then pelletized, and
+the pellets were molded with a tabletop injection molding
+machine, Mold Lock (Century Innovation). Approximately 10 g of
+the pellets were heated to 240 C and injected at 5 mL/s and
+6 MPa into a mold to form a dumbbell-shaped specimen defined
+by the ISO 8256 method [18]. Dumbbell-shaped specimens of the
+neat PP were also prepared in a similar manner.
+3.2. Tensile testing
+Stress–strain curves of the PP/GF and neat PP samples were
+measured by a multi-purpose stretching tester (EZ-LX, Shimadzu)
+at a crosshead speed of 1 mm/min at room temperature (ca. 25 C).
+3.3. IR microscopy
+A set of FT-IR spectra of the PP/GF sample were collected with a
+TENSOR II spectrometer (Bruker) coupled with a Hyperion 3000
+microscope equipped with a 64  64 focal plane array detector.
+ATR-IR spectra were collected at a spectral resolution of 4 cm1
+with the coaddition of 1024 scans over a region of 3800–
+500 cm1 by probing a 32 lm  32 lm region with a pixel resolution
+of 0.5 lm.
+3.4. Raman microscopy
+Raman mapping data were collected with an XploRA confocal
+Raman microscope (HORIBA Jobin Yvon) with a 532 nm laser as
+an excitation light source. The incident laser with a power of 3.7
+mW was circularly polarized and focused through a
+100  objective (NA = 0.9). The scattered light was collected
+through the same objective. Raman lateral (XY-plane) and depth
+(YZ-plane) maps were acquired at a spectral resolution of < 3 cm1
+over a 2000–100 cm1 wavenumber region by probing a
+20 lm  30 lm region and a 30 lm  10 lm region with pixel resolutions
+of 1.0 lm  0.5 lm (XY-plane) and 0.5 lm  1.0 lm (YZplane),
+respectively.
+Fig. 1. A schematic representation of disrelation mapping constructed with a
+hyperspectral data cube.
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+2
+4. Results and discussion
+4.1. Mechanical property of PP/GF composite
+Fig. 2 shows stress–strain curves of the neat PP and PP/GF composite
+samples. The neat PP sample exhibits a gradual increase in
+strain at the onset of the deformation, representing the elastic
+deformation of the PP. Further elongation of the sample leads to
+its plastic deformation. The occurrence of the different deformation
+behaviors is mostly associated with the coexistence of the rubbery
+amorphous and rigid crystalline structures in the PP sample.
+On the other hand, the PP/GF sample exhibits a steep increase in
+stress, and this eventually leads to a sudden fracture without the
+appearance of any obvious plastic deformation. Although such
+variations in mechanical property caused by the incorporation of
+GF are commonly considered to be related to the presence of the
+GF, which substantially restricts the mechanical displacement of
+the system, there is also a need to provide an in-depth understanding
+of the phenomena. For example, it is known that an interfacial
+interaction between the filler and the matrix in a composite system
+often offers the components firm link to improve mechanical property
+[14–16]. Thus, spectroscopic imaging may provide an additional
+opportunity to examine the molecular-level variations
+around the interface between the components. In fact, the development
+of a latent interaction between the GF and PP can be readily
+identified by IR and Raman disrelation maps as shown later.
+4.2. IR imaging of lateral surface area
+We first examine IR imaging data for the PP/GF composite as a
+reference for later comparison with disrelation maps derived from
+the Raman data. Fig. 3(A) shows a visible image of the lateral surface
+area scanned with IR microscopy. The bright and dark colored
+domains in Fig. 3(A) represent the GF and PP, respectively. Fig. 3(B)
+shows IR spectra extracted from the region indicated by the white
+arrow in Fig. 3(A). While PP develops several bands in this IR
+region, importantly there are no specific IR bands that can be
+assigned to the ‘pure’ crystalline or amorphous structure of PP
+[19–22]. There are so-called regularity bands arising from the helical
+structures of PP, which are essential to crystal formation. For
+example, the peak appearing at 973 cm1 in Fig. 3(B) can be
+assigned to a shorter helix, which are abundant in an amorphous
+component [22]. On the other hand, the band observed at
+998 cm1 can be assigned to a longer helix predominantly present
+in a crystalline component [22]. Although these IR bands are simply
+a reflection of the number of helical turns, their intensity variations
+can be used as an empirical inference to identify the changes
+in the crystalline and amorphous contents. For instance, the presence
+of the very large surface of the GF often substantially lowers
+the surface free energy barrier for nucleation and then increases
+the frequency of the spontaneous nucleation of the PP crystals. This
+interaction eventually induces the additional development of the
+crystalline structure of polymer especially around the interface
+between the PP and GF. Thus, the intensity variations of the regularity
+bands may provide key information when it comes to examining
+the possible generation of their surface interaction, which
+plays an important role in improving the mechanical property of
+a nanocomposite sample. But the variation in the regularity bands
+of the PP is dominated by the overwhelming contribution from the
+Si-O-Si group of the GF, making it difficult to identify the pertinent
+difference between the intensity variations of the regularity bands
+[23].
+Fortunately, there is a way to selectively attenuate the signal
+contribution from a specific peak by using a pre-treatment technique
+called null-space projection (NSP). NSP is a method for selectively
+removing a specific signal contribution from spectra by
+sorting dynamic spectra into two separate sets: one of which is
+0 2 3 4
+0
+20
+40
+60
+80
+100
+120
+140
+Strain/%
+Stress/MPa
+GF/PP
+PP
+Fig. 2. Stress–strain curves of neat PP and PP/GF composite samples.
+Fig. 3. (A) The visible image of an area probed by ATR. (B) IR spectra extracted from
+the region indicated by a white arrow in Fig. 3(A). (C) NSP-treated spectra
+calculated using spectral intensities at 955 cm1 as a projecting vector which
+represents the IR absorption caused by the GF contribution .
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+3
+fully aligned with a chosen projecting vector while the other is
+orthogonal to the same vector [24–28]. For example, Fig. 3(C)
+shows NSP-treated spectra calculated with the spectra shown in
+Fig. 3(B) by using the spectral intensities at 955 cm1 as a projecting
+vector which represents the IR absorption by the GF. The spectra
+are now free from the intensity change related to the projection
+vector while the spectral intensities can be both positive and negative
+after the projection treatment. Namely, the NSP-corrected
+spectra remain contributions from all other constituents except
+for the GF. The variation in the spectral feature in Fig. 3(C) indicates
+that, when we move from region A to region B, we encounter a
+gradual increase in the PP bands. Such a pattern indeed agrees with
+the fact that PP is more abundant in region B than in region A. Thus,
+the application of disrelation mapping to the NSP-corrected spectra
+makes it possible to obtain pertinent information without being
+hampered by the exceptionally dominant contribution of the GF
+component.
+Fig. 4 shows (A) synchronous and (B) asynchronous correlation
+spectra calculated with the NSP-corrected IR spectra shown in
+Fig. 3(C). The cross peak appearing at the (998, 973) coordinate
+in the synchronous correlation spectrum indicates a simultaneous
+change in the spectral intensities of the long helix band (998 cm1)
+and short helix band (973 cm1), reflecting the fact that both the
+intensities of these PP bands are increasing simultaneously in
+Fig. 3(C). One noteworthy observation here is the development of
+a pair of cross correlation peaks in the asynchronous correlation
+spectrum (Fig. 4(B)). For example, the positive cross peak at the
+(998, 973) coordinate in Fig. 4(B) reveals that the IR intensity at
+998 cm1 occurs predominantly before that at 973 cm1 when
+we look from region A to region B. This sequence implies that
+the increases in the long helix and short helix do not happen coincidentally.
+In other words, the cross peaks suggest the presence in
+this system of a specific region where the crystalline structure
+develops greatly. Fig. 4(C) shows a disrelation map constructed
+with the intensities at 998 and 973 cm1 of the NSP-corrected IR
+spectra selected with 5  5 local window. The disrelation intensity
+values in the figure are already normalized to the [01] range for
+convenience. The two parallel lines indicated with bright colors
+in Fig. 4(C) shows the region developing a strong disrelation intensity
+between the long and short helix bands. In other words, the
+pattern reveals specific regions where a crystalline structure dominantly
+developed. Interestingly, such regions apparently correspond
+to the boundary between the GF and PP as shown in Fig. 3
+(A). This observation implies that the development of the disrelation
+intensity between the long and short helix bands becomes
+especially acute when the PP and GF are brought together. It is thus
+most likely that the GF must be present for the development of the
+additional crystalline structure of the PP. It is also important to
+point out that only a pair of parallel lines indicating GF/PP interfaces
+is identified in the disrelation map although several fibers
+are clearly visualized in Fig. 3(A) as relatively bright areas. Such
+pattern can be explained if one assumes that not all the fibers
+are exactly on the surface of the object. Some fibers observed in
+the visible image may be covered with relatively thin PP layer
+which makes it impossible to detect the signals from the GF by
+the ATR measurement, although such thin PP layer is not readily
+identified by the visible inspection.
+4.3. Raman imaging of lateral surface area
+It is now instructive to compare the IR disrelation map with
+those derived from Raman imaging data to demonstrate the potential
+of the Raman disrelation map. Fig. 5(A) and (B), respectively,
+are a visible image of the PP/GF sample and Raman spectra collected
+from the surface area indicated by the white window seen
+in Fig. 5(A). It is noted that regularity bands are also observable
+in this Raman region [29]. Peaks at 974 and 1002 cm1 are attributed
+to the short helix and long helix, which are essential to the
+amorphous and crystalline structures of PP, respectively. Hence,
+the correlation analysis of these Raman bands can also provide pertinent
+information associated with additional growth of the crystalline
+structure.
+Fig. 6 shows (A) a disrelation spectrum calculated with the
+Raman spectral data shown in Fig. 5(B) and (B) a disrelation map
+constructed with the Raman intensities at 1002 and 974 cm1,
+respectively. The spectra were subjected to offset baseline collection
+prior to the application of the 2D correlation analysis. It is
+noted that the disrelation spectrum develops a distinct correlation
+peak at (1002, 974), which indicates the dissimilar intensity variations
+of the short and long helix bands within the observed area.
+Again, the result suggests the presence of a specific spatial area
+where the crystalline structure develops greatly in this system.
+Another interesting observation here is the development of a pair
+of disrelation peaks in the Raman band around 974 cm1. Unfortunately
+the origin of these peaks is not clear at this moment, it is
+Fig. 4. (A) Synchronous and (B) asynchronous correlation spectra calculated with
+the NSP-corrected IR spectra shown in Fig. 3(C). (C) A disrelation map constructed
+with IR intensities at 998 and 973 cm1.
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+4
+clear that the emergence of the cross peaks reveals that the Raman
+band around 974 cm1 is essentially consisting of two peaks showing
+different intensity change within the spatial area. So the pair of
+disrelation peaks may indicate the bands each having different
+helix length. A disrelation map constructed with the Raman intensities
+at 1002 and 974 cm1 by using 5  5 window size is shown in
+Fig. 6(B). Two parallel lines with significant disrelation intensity
+are generated in the horizontal direction, indicating the greatly
+developed crystalline structure at the interface between the GF
+and PP. The length of the perpendicular segment between them
+agrees well with the actual size of the GF observed in Fig. 5(A).
+Consequently, the pattern appearing in the disrelation map represents
+the crystalline structure of the PP generated by the surface
+interaction between the GF and PP. A possible cause of the additional
+crystalline growth induced by the GF may be explained if
+we assume that the GF essentially works as a nucleating agent to
+cause the additional development of the PP crystalline structure
+by lowering the surface energy barrier [30,31]. Another possibility
+is due to the nucleating of the PP by the compatibilizer concentrated
+at the interface.
+It is now interesting to note that the IR and Raman disrelation
+mapping analyses were carried out independently but they eventually
+provided somewhat similar results indicating the additional
+crystalline growth around at the boundary between the GF and PP.
+It is likely that disrelation mapping can be effectively utilized for
+Raman as well as IR imaging analysis.
+4.4. Raman imaging of depth profile
+So far, we have examined the IR and Raman spectra collected at
+the surface of a PP/GF composite by disrelation mapping. While the
+Raman spectra collected at the lateral surface area of the sample
+eventually provided information somewhat similar to that derived
+from the IR spectra, a disrelation map based on Raman spectra displays
+interesting potential when it is applied to the depth-resolved
+Raman spectra. For example, Fig. 7(A) shows the visible image of
+the PP/GF sample and Fig. 7(B) shows depth-resolved Raman spectra
+collected along the white bar shown in Fig. 7(A). The Raman
+spectra in Fig. 7(B) again generate regularity bands, which indicate
+the presence of different helix structures in the probed area. Hence,
+Fig. 5. (A) Visible image of an area probed with Raman microscopy and (B) Raman
+spectra collected inside the white window indicated in Fig. 5(A).
+Fig. 6. (A) A disrelation spectrum calculated with Raman spectral data collected at
+the surface of the PP/GF sample. (B) A disrelation map constructed with the Raman
+intensities at 1002 and 974 cm1.
+10 μm
+(A)
+X-axis/μm
+Y-axis/μm
+􄢳􄢲􄢴􄢲 􄢳􄢲􄢲􄢲 􄢻􄢺􄢲 􄢻􄢸􄢲
+􄢳􄢲􄢲
+􄢴􄢲􄢲
+􄢵􄢲􄢲
+􄢶􄢲􄢲
+􄢷􄢲􄢲
+􄢸􄢲􄢲
+Raman shift/cm-1
+974
+Short helix
+1002
+Long helix
+(B)
+Intensity
+Fig. 7. (A) A visible image of a lateral surface area probed by Raman microscopy and
+(B) depth-resolved Raman spectra collected along the white bar indicated in Fig. 7
+(A).
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+5
+the detailed analysis of intensity variations associated with these
+regularity bands provides pertinent information related to inside
+the sample.
+Fig. 8 (A) shows a disrelation spectrum calculated with the
+depth-resolved Raman spectral data of the PP/GF sample. Of note
+is that the disrelation spectrum develops a correlation peak at
+the (1002, 974) coordinate in Fig. 8(A). This disrelation intensity
+implies that the distribution of the long helix component is substantially
+different from that of the short helix component inside
+the sample. The details of the differences between the distributions
+are clearly visualized by a subsequent analysis based on disrelation
+mapping. For example, Fig. 8(B) shows a disrelation map constructed
+with Raman intensities at 1002 and 974 cm-1of the
+depth-resolved Raman spectra by using 5  5 window size. It
+should be noted that semi-ellipse shape indicated by a significant
+level of disrelation intensity can be observed in the disrelation
+map to reveal the area where the crystalline structure develops
+greatly inside the sample. This characteristic pattern can be
+explained if we assume a nucleating effect induced at the interface
+between the GF and PP. Actually, this observation agrees well with
+the fact that the length of the minor axis of the semi-ellipse is
+approximately 10 lm, which corresponds to the fiber diameter of
+the GF. The result again suggests a possible interfacial interaction
+between the GF and PP, which cannot be readily identified with
+conventional analysis based on mechanical testing. Disrelation
+mapping thus provides an additional opportunity for optical sectioning
+based on confocal Raman microscopy by highlighting the
+feature associated with the chemical interaction between the
+components.
+5. Conclusion
+Confocal Raman microscopy provides intrinsically very rich
+information for studying both molecular structure and spatial distribution
+inside sample. However, it is not always easy to derive
+pertinent information from the Raman imaging data due to the
+complexity of the hypercubic data structure. The present study
+has demonstrated the potential of disrelation mapping for exploring
+complicated Raman imaging data. Sets of Raman spectra of a
+PP/GF composite were disentangled by disrelation mapping. The
+disrelation maps showed the additional development of the long
+helix band induced particularly at the interface between the GF
+and PP, indicating the nucleating effect induced by the GF or compatibilizer.
+Such predominant crystalline growth was observed
+around the GF inside the sample as well as that appearing at the
+surface of the sample.
+CRediT authorship contribution statement
+Hideyuki Shinzawa: Conceptualization, Investigation, Writing
+– original draft, Software. Hiroki Itasaka: Investigation, Formal
+analysis, Writing – review & editing.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared
+to influence the work reported in this paper.
+References
+[1] S. Šašic´ , Y. Ozaki, Raman, infrared and near-infrared chemical imaging, John
+Wiley and Sons Inc, Hoboken, 2010.
+[2] R. Salzer, H.W. Siesler, Infrared and Raman spectroscopic imaging, Wiley-VC,
+Weinheim, 2009.
+[3] S.G. Kazarian, K.L.A. Chan, ATR-FTIR spectroscopic imaging: recent advances
+and applications to biological systems’’, Analyst. 138 (7) (2013) 1940.
+[4] S.G. Kazarian, A.V. Ewing, Applications of Fourier transform infrared,
+spectroscopic imaging to tablet dissolution and drug release, Expert Opin.
+Drug Deliv. 10 (2013) 1207–1221.
+[5] H. Shinzawa, J. Mizukado, S.G. Kazarian, Fourier transform infrared (FT-IR)
+spectroscopic imaging analysis of partially miscible PMMA-PEG blends using
+two-dimensional disrelation mapping, Appl. Spectrosc. 71 (6) (2017) 1189–
+1197.
+[6] H. Shinzawa, B. Turner, J. Mizukado, S.G. Kazarian, Protein hydration in living
+cells probed by Fourier transform infrared (FT-IR) spectroscopic imaging,
+Analyst 142 (2017) 2475–2483.
+[7] H. Shinzawa, J. Mizukado, Near-infrared (NIR) disrelation mapping analysis for
+poly(lactic) acid nanocomposite, Spectrochim. Acta. 181 (2017) 1–6.
+[8] R. Watanabe, A. Sugahara, H. Hagihara, H. Sato, J. Mizukado, H. Shinzawa,
+Study of matrix-filler interaction of polypropylene/silica composite by
+combined infrared (IR) spectroscopic imaging and disrelation mapping,
+Compos Part A. 128 (2020) 105658.
+[9] H. Shinzawa, J. Mizukado, Near-infrared (NIR) Spectroscopic Imaging Analysis
+of Poly(lactic acid)-nanocomposite using Disrelation Mapping, J. Mol. Str. 1217
+(2020) 128332.
+[10] R. Watanabe, A. Sugahara, H. Hagihara, J. Mizukado, H. Shinzawa, Molecular-
+Scale Deformation of Polypropylene/Silica Composites Probed by Rheo-Optical
+Fourier-Transform Infrared (FTIR) Imaging Analysis Combined with
+Disrelation Mapping, Anal. Chem. 92 (2020) 12160–12167.
+[11] H. Lu, H. Shinzawa, S.G. Kazarian, Intermolecular interactions in the PCL/PLA
+blend under high-pressure CO2 studied by two-dimensional correlation
+analysis and two-dimensional disrelation mapping, Appl. Spectrosc. 75
+(2020) 250–258.
+[12] I. Noda, Y. Ozaki, Two-Dimensional Correlation Spectroscopy, John Wiley &
+Sons, Chichester, 2004.
+[13] I. Noda, Generalized Two-dimensional correlation method applicable to
+infrared, Raman, and other types of spectroscopy, Appl. Spectrosc. 47 (1993)
+1329–1336.
+[14] J. Gómez-Monterdea, M. Sánchez-Soto, M. Ll, Maspoch, Microcellular PP/GF
+composites: Morphological, mechanical and fracture characterization, Comp.
+part A 104 (2018) 1–13.
+[15] T.K. Kallel, R. Taktak, N. Guermazi, N. Mnif, Mechanical and structural
+properties of glass fiber-reinforced polypropylene (PPGF) composites, Polym.
+Compos. 39 (2018) 3497–3508.
+[16] S. Gu, H. Liu, X. Li, C. Mercier, Y. Li, Interfacial designing of PP/GF composites by
+binary incorporation of MAH-g-PP and lithium bis(trifloromethanesulfonyl)
+imide: Towards high strength composites with excellent antistatic
+performance, Compos. Sci. Technol. 156 (2018) 247–253.
+[17] N.J. Everall, Confocal Raman microscopy: Performance, pitfalls, and best
+practice, Appl. Spectrosc. 63 (2009) 245–262.
+[18] ISO 8256, Plastics - Determination of tensile-impact strength, international
+organization for standardization, Geneva (2004).
+[19] M. Kobayashi, K. Akita, H. Tadokoro, Infrared spectra and regular sequence
+lengths in isotactic polymer chains, Macromol. Chem. Phys. 118 (1968) 324–
+342.
+􄢳􄢲􄢴􄢲 􄢳􄢲􄢲􄢲 􄢻􄢺􄢲 􄢻􄢸􄢲
+􄢻􄢸􄢲
+􄢻􄢹􄢲
+􄢻􄢺􄢲
+􄢻􄢻􄢲
+􄢳􄢲􄢲􄢲
+􄢳􄢲􄢳􄢲
+􄢳􄢲􄢴􄢲
+Raman shift/cm-1
+Raman shift/cm-1
+974 Short helix
+1002
+Long helix
+(A)
+􄢷 􄢳􄢲 􄢳􄢷 􄢴􄢲 􄢴􄢷
+􄢴
+􄢶
+􄢸
+􄢺
+􄢲
+􄢲􄢰􄢷
+􄢳
+(B)
+Y-axis/μm
+Z-axis/μm
+An area where
+GF exists
+Fig. 8. (A) A disrelation spectrum calculated with depth-resolved Raman spectral
+data for the PP/GF sample. (B) A disrelation map constructed with Raman intensities
+at 1002 and 974 cm1.
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+6
+[20] Y.V. Kissin, L.A. Rishina, Regularity bands in the IR spectra of C3H6-C3D6
+copolymers, Eur. Polym. J. 12 (1976) 757–759.
+[21] T. Miyamoto, H. Inagaki, Structural and steric isomerism of polypropylenes, J.
+Polym. Sci. Part A-2 7 (6) (1969) 963–981.
+[22] C. Ruiz-Orta, J.P. Fernandez-Blazquez, E.J. Pereira, R.G. Alamo, Time-resolved
+FTIR spectroscopic study of the evolution of helical structure during
+isothermal crystallization of propylene 1-hexene copolymers, Identification
+of regularity bands associated with the trigonal polymorph, Polymer 52 (13)
+(2011) 2856–2868.
+[23] S.C. Feifel, F. Lisdat, Silica nanoparticles for the layer-by-layer assembly of fully
+electro-active cytochrome c multilayers, J. Nanotechnol. 9 (1) (2011) 59,
+https://doi.org/10.1186/1477-3155-9-59.
+[24] I. Noda, Projection two-dimensional correlation analysis, J. Mol. Struct. 974 (1-
+3) (2010) 116–126.
+[25] I. Noda, Close-up view on the inner workings of two-dimensional correlation
+spectroscopy, Vib. Spectrosc. 60 (2012) 146–153.
+[26] H. Shinzawa, K. Awa, I. Noda, Y. Ozaki, Pressure-induced variation of cellulose
+tablet studied by two-dimensional (2D) near-infrared (NIR) correlation
+spectroscopy in conjunction with projection pretreatment, Vib. Spectrosc. 65
+(2013) 28–35.
+[27] H. Shinzawa, J. Mizukado, Near-infrared (NIR) monitoring of Nylon 6 during
+quenching studied by projection two-dimensional (2D) correlation
+spectroscopy, J. Mol. Strct. 1124 (2016) 188–191.
+[28] H. Shinzawa, J. Mizukado, Rheo-optical two-dimensional (2D) near-infrared
+(NIR) correlation spectroscopy for probing strain-induced molecular chain
+deformation of annealed and quenched Nylon 6 films, J. Mol. Strct. 1158
+(2018) 271–276.
+[29] A.S. Nielsen, D.N. Batchelder, R. Pyrz, Estimation of crystallinity of isotactic
+polypropylene using Raman spectroscopy, Polymer 43 (9) (2002) 2671–2676.
+[30] N. Galeski, in: Polypropylene An a-z reference, Kluwer Academic Publishers,
+London, 1999, pp. 545–553.
+[31] H.D. Wagner, A. Lustiger, C.N. Marzinsky, R.R. Mueller, Interlamellar failure at
+transcrystalline interfaces in glass/polypropylene composites, Compos. Sci.
+Technol. 48 (1993) 181–184.
+H. Shinzawa and H. Itasaka Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy 273 (2022) 121056
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
+7

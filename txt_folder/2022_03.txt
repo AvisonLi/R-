@@ -1,0 +1,1664 @@
+<<<<<<< HEAD
+Composites: Part A 152 (2022) 106700
+Available online 29 October 2021
+1359-835X/© 2021 Elsevier Ltd. All rights reserved.
+Breathable, durable and bark-shaped MXene/textiles for high-performance
+wearable pressure sensors, EMI shielding and heat physiotherapy
+Xianhong Zheng a,1,*, Peng Wang a,1, Xiansheng Zhang b, Qiaole Hu a, Zongqian Wang a,
+Wenqi Nie a, Lihua Zou a, Changlong Li a,*, Xu Han a
+a School of Textile and Garment, Anhui Polytechnic University, Wuhu, Anhui 241000, PR China
+b College of Textiles and Clothing, Qingdao University, Qingdao 266071, PR China
+A R T I C L E I N F O
+Keywords:
+Fabrics
+Natural fibre composites
+Electrical properties
+EMI shielding
+A B S T R A C T
+Flexible wearable electronics have attracted tremendous interest owing to their potential applications on artificial
+intelligence, electronic skin, human health monitoring, etc. However, it remains challenging to fabricate
+electronic textiles (E-textiles) without sacrificing the air/vapor breathability, flexibility and comfortability. To
+address these issues, we develop a novel surface reconstruction strategy through the facile and scalable paddrying
+technology towards the breathable, flexible, highly conductive, bark-shaped MXene/textiles (BMFs).
+The formation mechanism of bark-shaped morphology is clarified in detail. Benefiting from synergistic effects
+between the bark-shaped MXene microstructure and porous structure of textiles, BMFs show excellent piezoresistive
+sensing performance and good electromagnetic interference (EMI) shielding performance. In addition,
+BMFs achieve remarkable joule heating performance of 146.7 ◦C at 5 V, which is even superior to the silver
+nanowire decorated fabrics. This work provides a new approach for the scalable fabrication of E-textiles, and lays
+the foundation for the next generation wearable electronics.
+1. Introduction
+The textile-based electronics have drawn increasing attention in
+recent years, owing to their potential applications on flexible displays,
+portable energy harvest/conversion, wireless communications and
+heath monitoring [1–3]. However, embedding the electronic devices
+into fabrics usually sacrificed the intrinsic properties of fabrics, such as
+breathability, flexibility and wearing comfortability. Therefore, it remains
+challenging to seamlessly integrate multiple functions into the
+fabrics without sacrificing their intrinsic properties. Fabric modification
+by functional guests has been proved to be an alternative to achieve the
+goal of wearable electronics, which has been verified in a number of
+studies [4].
+Various functional guests were adopted to decorate the fabrics,
+including metal nanomaterials, conducting polymers, carbon nanomaterials.
+For example, silver nanowire coated PET fabrics delivered
+multiple functions, such as pressure sensing, thermal insulation, joule
+heating, and particulate matter filtration [5]; The directional water
+transport and capacitive sensing function can be achieved for the
+polypyrrole coated cotton fabrics [6]; Single-walled carbon nanotubes
+(SWNTs)/glucaric acid/chitosan coated fabrics exhibited high water/
+organic solvents resistance and electromagnetic interference shielding
+(EMI) effectiveness of 30 dB (X-band) [7]. Although multiple functions
+can be obtained for the fabrics through the surface modification by
+above conductive fillers, they showed the shortcomings of either high
+cost, low durability or low electrical conductivity.
+The transition metal carbides/nitrides (MXenes) have attracted
+much attention in recent years because of their outstanding properties
+including high electrical conductivity, specific surface area, pseudocapacitance,
+and good dispersion [8]. The general formula of MXenes is
+Mn+1XnTx, where M stands for an transition metal (Ti, Mo, Nb, Cr, V,
+etc.), X represents carbon and/or nitrogen, and Tx is terminated functional
+groups (e.g., –OH, -O, -F, etc.) [9]. Benefiting from its unique
+structure and remarkable performances, MXene holds enormous potential
+for emerging wearable electronics, including heat physiotherapy,
+flexible energy storage, EMI shielding [10–14]. So far, a variety of
+MXene decorated fabrics have been fabricated and exhibited multiple
+functions. For instance, MXene dispersion was spray-coated on fabrics,
+* Corresponding authors.
+E-mail addresses: zhengxianhong@ahpu.edu.cn (X. Zheng), licl@ahpu.edu.cn (C. Li).
+1 These authors contribute equally to this work.
+Contents lists available at ScienceDirect
+Composites Part A
+journal homepage: www.elsevier.com/locate/compositesa
+https://doi.org/10.1016/j.compositesa.2021.106700
+Received 17 August 2021; Received in revised form 21 October 2021; Accepted 23 October 2021
+Composites Part A 152 (2022) 106700
+2
+and the prepared composite fabrics exhibited good joule heating
+(150 ◦C, 6 V), EMI shielding (36 dB), and strain sensing performance
+[15]; Thermoplastic polyurethane fabric dip-coated by MXene/cellulose
+nanocrystal displayed a broad strain sensing range of 83% and high
+sensitivity (gauge factor = 3405) [16]; MXene-coated synthetic yarns
+were knitted into planar supercapacitors, and the fabricated supercapacitor
+demonstrated a high capacitance of 519 mF/cm2 in 1 M
+H3PO4-PVA gel electrolyte [17]. Despite these progress, large-scale
+manufacture of MXene modified fabrics with good uniformity and
+controllable morphology still faces significant hurdles. Especially, the
+MXene distribution has a profound effect on both the structure and
+performance of the composite fabrics: (i) The uniform distribution of
+MXene flakes will benefit for constructing continuous conductive networks,
+rendering the composite fabrics with good structural integrity.
+(ii) The distribution of MXene flakes also plays an important role in
+determining the application performance of the composite fabrics, as the
+joule heating transfer, electromagnetic wave absorption, and pressure
+sensing current are greatly affected by MXene distribution. Besides, it
+should be explored the structure-effective relationship between the
+morphology and performance of the MXene-based composite fabrics.
+Bark, as a fundamental part of the trees, plays an important role in
+directing, transporting, and concentrating water and nutrients [18].
+Analogously, bark-shaped morphology has profound effects on performances
+of the electronic fabrics, especially on the piezoresistive sensing
+and EMI shielding performances owing to the following factors: (i) The
+insertion and de-intercalation of wrinkled MXene sheets in the grooves
+of bark-shaped fibers will result in the changes of conductive pathways
+and the corresponding contact resistance, benefiting for improving its
+piezoresistive sensing performance; (ii) The bark-shaped morphology
+enhances the multiple interfaces scattering of electromagnetic waves,
+which can improve the EMI shielding effectiveness. However, barkshaped
+MXene decorated fabrics have not yet been realized through
+the post-treatment, and further effort is required to systematically
+investigate their structure-effective relationships.
+Pad-drying technology has been widely applied to the dyeing process
+of yarns and fabrics, which has demonstrated several advantages
+including scalability, energy conservation, good evenness [19]. Inspired
+by the dyeing of fabrics, we decorated the cellulose nonwoven fabrics
+with MXene flakes through the pad-drying process, and the prepared
+fabrics are expected to have good uniformity, durability and electrical
+conductivity owing to the following factors: (i) Both cellulose and
+MXene are hydrophilic, and hydron bonding will be constructed between
+the cellulose fabric and MXene flakes, leading to the high binding
+fastness and durability; (ii) The wicking effects of fabrics helps the absorption
+of MXene; (iii) During the pad-drying, the high pressure accelerates
+the diffusion of MXene from the surface into the inside of
+fabrics. Consequently, the fabrics show good uniformity and are electrically
+conductive on both the surface and inside. (iv) The high pressure
+facilitates the shearing-induced orientation of MXene sheets during the
+pad-drying, and unique morphology will be formed for the fibers, which
+can not deteriorate the breathability of fabrics. However, to date,
+breathable, durable, and multifunctional MXene-based fabrics using the
+pad-drying techniques have yet to be developed.
+Herein, we developed a novel, scalable and facile pad-drying
+approach to fabricate the breathable, durable, and multifunctional
+MXene decorated fabrics. We studied the micromorphology, joule
+heating, EMI shielding, and pressure sensing performance of the fabricated
+MXene-based fabrics (BMFs). The BMFs showed bark-shaped
+morphology, good flexibility, air/vapor permeability, and low sheet
+resistance of 2.2 Ω/□. The BMFs showed high EMI shielding effectiveness
+of 35.2 dB and a distinctive EMI shielding mechanism. In addition,
+BMFs demonstrated excellent piezoresistive sensing performance
+including high sensitivity (28.723 kPa􀀀 1), wide sensing range (0–17.4
+kPa), high linearity (R2 = 0.996), and rapid response/recovery time, and
+showed high sensitivity for monitoring the human motions. Moreover,
+the BMFs exhibited remarkable joule heating performance
+(electrothermal temperature 146.7 ◦C at 5 V). This work provides a new
+approach for the structure design of E-textiles and lays the foundation
+for the next generation wearable electronics.
+2. Experimental
+2.1. Materials
+Lithium fluoride (purity, 99.99%) was purchased from Shanghai
+Aladdin Biochemical Technology Co., Ltd., China. Hydrochloric acid
+(HCl, 36.0–38.0 wt%) and ethanol (≥99.7 wt%) were purchased from
+Sinopharm Chemical Reagent Co., Ltd., China. Ti3AlC2 (MAX) was
+purchased from 11 Technology Co., Ltd, (Jilin, China). Cellulose
+nonwoven fabrics were received from Hangzhou Sijin nonwoven fabric
+Co., Ltd, (grammage: 100 g/m2). Polydimethylsiloxane (PDMS, Sylgard
+184 Silicone Elastomer) containing base polymer (Kit A, 1 kg) and
+curing agent (Kit B, 100 g), was purchased from Dow Corning Corp.,
+USA. Interdigitated electrodes patterned on the transparent PI substrate
+with a size of 10 × 20 mm2 (Au/Cu thickness, 1/12 μm) were purchased
+from Guangzhou Yuxin sensor technology Co., Ltd. All the chemicals
+were received as purchased without further purification.
+2.2. Synthesis of Ti3C2Tx
+Ti3C2Tx MXene was synthesized through the in-situ HF etching
+method [20,21], where the HF was formed by adding the lithium fluoride
+to the hydrochloric acid. In detail, 2 g lithium fluoride (LiF) and 2 g
+Ti3AlC2 (MAX) were added into the 40 mL 9 M hydrochloric acid (HCl),
+respectively. The mixture was kept at 35 ◦C for 24 h, and the resultant
+suspension was rinsed with the deionized water for several cycles until
+the pH was 6. The precipitation was collected and intercalated by the
+ethanol via the ultrasonication at 100 W for 1 h and centrifuged at
+10000 rpm for 10 min. Finally, the sediment was collected and redispersed
+into DI water through ultrasonication (750 W, 20 min), and
+the delaminated few-layered Ti3C2Tx MXene sheets were collected via
+the reduplicative centrifugation at 3500 rpm for 3 min.
+2.3. Preparation of BMFs
+The BMFs were fabricated via the pad-drying method. In detail, the
+cellulose nonwoven fabrics were firstly immersed into the 3 mg/mL
+MXene aqueous dispersion, and the wet MXene treated fabrics were
+directly fed into the padder to remove the excess water at the stress of
+0.1 ~ 0.3 MPa. The MXene treated fabrics were dried at 60 ◦C for 10
+min. The pad-drying process was repeated for 1, 2, 3, 4, 5, 6, 7, 8, and 9
+cycles, and the prepared fabrics were labeled as BMF-1, BMF-2, BMF-3,
+BMF-4, BMF-5, BMF-6, BMF-7, BMF-8, and BMF-9, respectively.
+2.4. Fabrication of BMF based pressure sensors
+To fabricate the BMF based pressure sensors, thin PDMS film was
+firstly prepared. In detail, the curing agent and PDMS base polymer were
+mixed with a mass ratio of 1:10, which was then degassed and dipped
+onto the glass plate following by curing at 80 ◦C for 2 h. The thickness of
+the PDMS film was controlled by tuning the mass of PDMS. Eventually,
+the BMFs were sandwiched between an interdigitated electrode and a
+PDMS film to form the BMF based pressure sensors.
+2.5. Characterizations
+The X-ray diffraction (XRD) patterns were obtained by using the
+Bruker D8 advance X-ray diffractometer. The morphology of the samples
+was observed through the Hitachi S-4800 scanning electron microscope.
+The MXene loading ratio was calculated by using the following equation:
+W = (m 􀀀 m0)/m0 × 100% (1)
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+3
+where the m0 and m were the weight of untreated fabrics and MXene
+modified fabrics, respectively. The electrical surface resistivity of fabrics
+was measured through a multimeter following the AATCC 76–2005
+standard. The joule heating performance of samples was characterized
+by using the FLIR A320 infrared camera. The electromagnetic interference
+shielding performance was characterized by an Agilent PNAN5244A
+microwave network analyzer. The pressure sensing performance
+of fabrics were characterized by the Metrohm Autolab PGSTAT
+204 electrochemical workstation, and the set-up was shown in Fig. S1.
+3. Results and discussion
+3.1. Fabrication of BMFs
+The bark-shaped MXene decorated fabrics (BMFs) were fabricated
+through the facile and scalable pad-drying process (Fig. 1a). In brief,
+large and few-layered MXene sheets were firstly synthesized via in-situ
+HF (HCl + LiF) etching method and ultrasonication [20]. The cellulose
+nonwoven fabrics were firstly immersed into the MXene dispersion and
+subsequently dried to remove superfluous water. The pad-drying process
+was repeated for several cycles to increase the MXene loading. The
+cellulose nonwoven fabrics were selected as the substrate for depositing
+the MXene, as the cellulose fibers are hydrophilic, and thus MXene
+sheets can be tightly adhered to the surface of cellulose fibers owing to
+the hydrogen bonding. Therefore, the hydrogen bonding will render the
+fabrics with good durability. In addition, aligned MXene sheets will be
+deposited on the surface of fibers because of the shearing-induced
+orientation of MXene sheets during the squeezing process, and then
+the released residual stress will lead to the buckle of MXene sheets to
+form the bark-shaped morphology.
+The BMFs are desirable for wearable applications (Fig. 1b). For
+instance, the BMFs are expected to have good air/vapor breathability
+based on the surface reconstruction strategy, which is important for
+keeping the thermal/wet comfortability. Benefiting from the barkshaped
+morphology, the EMI shielding performance will be improved
+because of the multiple interfaces scattering of electromagnetic waves
+on the fiber surface. In addition, the contact resistance of the fibers will
+be reduced owing to the bark-shaped morphology, leading to the good
+piezoresistive sensing performance of the fabrics. Moreover, good joule
+heating performance can be achieved for the BMFs due to the good
+electrical conductivity of MXene.
+Fig. 2a shows the XRD patterns of MAX and MXene. It can be seen
+that the highest diffraction peak at 2θ = 38.9◦ disappeared, and there
+was only a (002) peak located at 6.1◦, implying the Al element has been
+successfully etched, and the multilayer MXene sheets have been
+delaminated into few-layered MXene after the selective etching [21].
+Fig. 1. Schematic illustration of the preparation (a) and applications (b) of bark-like MXene decorated fabrics.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+4
+Fig. 2b shows a typical low-magnification transmission electron microscopy
+(TEM) image of the synthesized MXene, in which the MXene exhibits
+the irregular rectangle shape with the length of 0.97 μm. More
+than 100 MXene sheets were counted and their lateral size distribution
+was shown in Fig. 2c. It can be seen that the lateral size of MXene sheets
+obeys a normal distribution with the average value and standard deviation
+of 629.2 nm and 577.6 nm, respectively. The lateral size of the
+synthesized MXene is on par with or exceeds those in previous reports
+[22,23]. The large MXene sheets will construct continuous conductive
+pathways for electrons, benefiting for improving the electrical conductivity
+of the MXene decorated fabrics. A high-resolution TEM (HRTEM)
+image shows that the MXene presents the hexagonal lattice with the
+interlayer spacing of 0.2676 nm (Fig. 2d), which matches well with the
+(010) planes of the Ti3C2 [21].
+As shown in Fig. 2e, the BMF-1 shows the sheet resistance of 4850 ±
+50 Ω/□ because of the low loading of MXene (1.9 wt%). The sheet
+resistance decreased with the pad-drying cycles and the BMF-9 shows
+the lowest sheet resistance of 2.2 ± 0.2 Ω/□. In contrast, the electrical
+conductivity increased with the pad-drying cycles and the maximum
+electrical conductivity can be up to 887.7 ± 80.7 S/m for BMF-9
+(Fig. S3), which was also comparable with other reported MXenebased
+fabrics [24]. The decreased sheet resistance of BMFs was mainly
+attributed to the increased MXene content, and the maximum MXene
+loading can be up to 14.5 wt% for BMF-9 (Fig. S4). To further confirm
+the good electrical conductivity of BMF, we observed the distribution of
+MXene in the nonwoven fabric through the 3D super depth digital microscopy
+(Fig. S5). The untreated cellulose fabric shows a clean surface
+without any MXene attached to the fibers. With the increase of paddrying
+cycles, more and more MXene adhered on the fibers, and fibers
+were even adhered together by the MXene sheets to construct the
+continuous networks for the BMF-8 and BMF-9. Therefore, BMF-8 and
+BMF-9 show lower sheet resistance than that of others. Furthermore,
+BMF-9 can be used as the flexible conductor to light the “AHPU” logo at
+3 V, further implying its high electrical conductivity.
+The BMFs can be continuously fabricated in large scale via the paddrying
+method (Fig. 2f). In addition, the BMFs are bendable and foldable
+(Fig. 2g-2 h), demonstrating their good flexibility. Air permeability, as
+an important index of the gas molecules penetrating ability, plays a
+crucial role in determining the wet and thermal comfortability of the
+apparel. The untreated fabric has an air permeability of 969.9 ± 1.8
+mm/s (97.0 ± 0.2 cm3/cm2/s) as illustrated in Fig. S6. Surprisingly, the
+air permeability was increased to 1577.9 ± 5.9 mm/s after 7 pad-drying
+cycles, which may be ascribed from the stretching-induced decrease of
+the area density of nonwoven fabrics. However, BMF-9 exhibits lower
+air permeability of 954.9 ± 13.9 mm/s (95.5 ± 1.4 cm3/cm2/s)
+compared with the BMF-7 but comparable air permeability with the
+untreated fabric, indicating the good air permeability of BMF-9.
+As evidenced in Fig. 2i and 2j, lots of white fog comes out from the
+BMF-9 covered glass bottle containing concentrated HCl, analogous to
+that counterpart covered by the untreated textiles. Therefore, good air
+permeability can be maintained for the BMFs. To further prove the vapor
+permeability, we conducted the condensation experiment, where the
+glass bottles were filled with boiling water, covered with fabrics, and
+placed under the beaker. After 1 min, many water drops can be observed
+on the top of the beaker for both the BMF-9 and pristine textile (Fig. 2k),
+implying the water vapor can penetrate the two fabrics. Therefore, BMF-
+9 shows good air/vapor breathability. More importantly, the boiling
+water kept clear after the BMF-9 was washed and stirred in the boiling
+Fig. 2. (a) XRD pattern of Ti3AlC2 and Ti3C2Tx MXene. (b) TEM image of MXene flake. (c) Lateral size distribution of MXene sheets. (d) HRTEM image of MXene and
+the selected area electron diffraction (SAED) pattern of MXene. (e) Sheet resistance of BMFs. (f) A roll of BMF wrapped on a 6 cm-diameter reel. Bending (g) and
+distortion (h) performance of BMF-9. Two glass bottles containing HCl and NH3⋅H2O are covered with pristine textile (i) and BMF-9 (j). (k) Two glass bottles
+containing boiling water covered with pristine textile and BMF-9, respectively (standing for 1 min). (l) Digital image of BMF-9 immersed in boiling water and stirred
+for 1 h.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+5
+water for 1 h (Fig. 2l), indicating the good durability of BMF-9. The good
+durability of BMFs was attributed to the strong hydrogen bonding between
+the hydrophilic cellulose fibers and MXene sheets.
+3.2. Morphology
+The scanning electron microscope (SEM) images of BMFs were
+shown in Fig. 3. The untreated fabrics show the clean surface without
+any purities on the fiber surface (Fig. S7). However, the surface of fibers
+changed to be rough, and the wrinkled MXene sheets can be observed for
+the BMF-1 (Fig. 3a). The deposition of MXene sheets on the fibers was
+attributed to the following factors: (i) Both the cellulose nonwoven
+fabric and MXene are hydrophilic, and thus the MXene can be deposited
+on the fibers via the hydrogen bonding; (ii) The wicking effects also
+helps the absorption of MXene sheets because of the porous structure of
+nonwoven fabrics. More MXene sheets can be found on the surface of
+fibers when the pad-drying cycles was increased to 5 (Fig. 3b). High
+magnification SEM images of BMF-5 show that MXene sheets oriented
+along the fiber axis to form the continuous bark-shaped film (Fig. 3b2).
+For the BMF-9, MXene sheets were not only filled in the gaps between
+the fibers, but also coated on the surface of fibers with bark-shaped
+morphology containing more grooves and bumps (Fig. 3c). The interconnected
+networks built by the MXene sheets will construct continuous
+pathways for the electrons, leading to the good electrical properties of
+the BMF-9.
+To further analyze the MXene distribution in the fabrics, we observed
+the cross section of BMF-9 and the corresponding energy-dispersive Xray
+spectroscopy (EDS) element mapping images as shown in Fig. 3d and
+3e. MXene sheets were distributed in both the inside and surface of
+fabrics, and bark-shaped MXene sheets can be also observed on the
+surface of inner fibers (Fig. 3d1), implying the uniform structure of the
+BMF-9 and the high penetration ability of MXene dispersion during the
+pad-drying process. In addition, the fibers were evenly wrapped by the
+MXene films with the thickness about 70 nm (Fig. 3d2). The EDS mapping
+image of Ti, C and O further revealed that the MXene was evenly
+distributed in the whole fabric for the BMF-9 (Fig. 3e). Moreover, BMF-9
+Fig. 3. SEM images of BMFs. (a) BMF-1. (b) BMF-5. (c) BMF-9. (d) The magnification SEM image of region A in the cross-section of BMF-9. (d1) The magnification of
+(d). (d2) The magnification SEM image of region B in the cross-section of BMF-9. (e) Cross-section SEM image of BMF-9 and the corresponding EDS mapping of the
+marked domain in (e).
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+6
+exhibits higher MXene loading ratio compared with BMF-7 and BMF-8
+(Fig. S8 and S9). As a result, the high MXene content and uniform
+bark-shaped MXene film ensured the high electrical conductivity of
+BMFs.
+We attempted to analyze the reason for the bark-shaped morphology
+of BMF-9 as illustrated in Fig. S10. The excess water will be squeezed out
+when the nonwoven fabrics containing MXene dispersion passed
+through the gaps of a pair of rolls. Thus, the residual MXene dispersion
+flowed along the fibers, and aligned MXene sheets will be deposited on
+the pre-stretched fibers owing to the shearing-flow induced orientation.
+After the release of pre-tension, the release of the residual stress of
+MXene sheets resulted in buckling of aligned MXene sheets to form the
+wrinkled MXene sheets and bark-shaped fiber morphology.
+3.3. Electrothermal and EMI shielding performance
+The electrothermal performance of the BMFs was evaluated by using
+the thermal infrared camera, which is shown in Fig. 4. It can be observed
+that the BMF-9 was evenly heated at various voltages (Fig. 4a-4c),
+indicating the uniform distribution of MXene sheets on the fabrics. In
+addition, the BMF-9 shows higher temperature than that of BMF-8 at all
+the applied voltages (Fig. S11), which was in good consistent with the
+Fig. 4. Electrothermal performance of the Bark-like MXene decorated fabrics. (a)-(c) Thermal infrared images of BMF-9 at the voltage of 3 V, 4 V and 5 V,
+respectively. Time-temperature curves of BMF-8 (d) and BMF-9 (e). (f) Comparison of electrothermal performance of the as prepared BMF with the previously
+reported works, such as PPy/MXene coated PET fabric [24], Graphene paper [28], PET/AgNW/PDMS yarn [26], MXene coated cotton fabric [15], PEDOT/MXene@
+cotton fabric [20], PANI/PET fabric [27], nanowire coated fabric [25], PDA/MXene@PP fabric [4].
+Fig. 5. EMI shielding performances of BMFs. (a) EMI shielding effectiveness of BMFs under the frequency of 8.2–12.4 GHz. (b) SET, SEA and SER of BMFs. (c)
+Shielding index of BMFs. (d) Average EMI shielding coefficient of BMFs. Schematic illustration of the transmission of EM waves (e), and the corresponding EMI
+shielding mechanism of the MXene modified fabrics before (f) and after (g) the formation of bark-shaped morphology.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+7
+sheet resistance results. The real-time temperature of the fabrics was
+also obtained from the infrared images, which was shown in Fig. 4d and
+4e. The surface temperature of BMF-8 was rapidly increased with the
+applied voltages and exhibited the surface temperature of 43.0 ◦C,
+49.0 ◦C, and 68.4 ◦C at 3 V, 4 V, and 5 V (Fig. 4d), respectively. Similarly,
+BMF-9 followed the same tendency and exhibited the highest
+temperature of 146.7 ◦C (ΔT = 125.7 ◦C) at 5 V (Fig. 4e). Compared with
+BMF-8, BMF-9 shows better electrothermal performance owing to its
+lower sheet resistance. More importantly, the BMF-9 demonstrated one
+of the state-of-the-art electrothermal performance, and its electrothermal
+performance was superior to most of the metal nanowire coated
+fabrics [25,26], conducting polymers modified fabrics [27], MXene
+decorated fabrics [15], and their composites [20,24], even the graphene
+paper [28]. For example, the surface temperature of BMF-9 (5 V) was
+2.23 times that of nanowire coated fabrics (65.9 ◦C) [25], 25.9% higher
+than that of MXene coated fabrics (116.5 ◦C, 5 V) [15], and 82.2%
+higher than that of PPy/MXene coated fabrics (80.5 ◦C, 4 V) [24]. The
+exceptional electrothermal performance of BMF-9 made it a promising
+candidate as the portable and wearable heater for personal management
+and heat physiotherapy.
+Considering the high electrical conductivity of BMFs, they are expected
+to have good EMI shielding performance, and their EMI shielding
+performance under 8.2–12.4 GHz was evaluated as shown in Fig. 5. The
+control and BMF-1 exhibit almost no EMI shielding performance because
+of their inferior electrical properties. The EMI shielding effectiveness
+(EMI SE) was incrementally increased from 3.2 dB to 36.3 dB by varying
+the pad-drying cycles from 3 to 9 (Fig. 5a), which coincided with the
+sheet resistance results. To provide a further understanding of the EMI
+shielding mechanism, we subdivided the total EMI SET into multiple
+reflection effectiveness (SEM), absorption effectiveness (SEA), and
+reflection effectiveness (SER) as shown in equation (1):
+SET = SER +SEA +SEM (2)
+It is generally assumed that internal multiple reflection can be
+negligible, when the total EMI SE value goes above 15 dB [29–33]. As a
+result, the SET was constituted of SER and SEA. Fig. 5b shows the SER, SEA
+and SET value of the BMFs. It can be seen that all the SET values were
+increased with the pad-drying cycles, and the BMF-9 demonstrated the
+highest average SET of 35.2 dB, which was comparable and even higher
+than most CNT, MXene and conducting polymers decorated fabrics and
+some MXene modified composites [15,20,34–39]. We also comprehensively
+compared the EMI shielding performance between our BMFs and
+other reported EMI shielding materials in terms of shielding performance
+and material thickness (Fig. S12), as the material thickness plays
+an important role in determining the EMI shielding performance. Our
+BMF-9 has the low thickness (0.62 mm) but high EMI SET of 35.2 dB,
+which is superior to other EMI shielding materials, including metalbased
+materials [40], graphene-based materials [41], conducting
+polymer-based materials [42], CNT-based materials [43], rGO-based
+materials and MXene-based materials [44,45].
+To evaluate the absorption percentage of incident electromagnetic
+waves, we calculated the absorptivity (SEA/SET) as shown in Fig. 5c. The
+absorptivity can be up to 77.7% for BMF-3 and then decreased to 56.1%
+for BMF-9, implying the decreased contribution from the EM absorption.
+In addition, to understand the EMI shielding mechanism of BMFs, we
+also calculated the S parameters to obtain the reflection coefficient (R),
+absorption coefficient (A) and transmission coefficient (T), which represents
+the ratio of reflection, absorption and transmission of EM waves
+(Fig. 5d). When the pad-drying cycle is below 3 times, BMFs show
+inferior EMI shielding performance and higher A value than that of R,
+and the maximum A value was 34.8%, indicating 34.8% EM wave absorption
+and the absorption-dominant EMI shielding mechanism
+[46–52]. R value dramatically increased and the maximum R value can
+Fig. 6. (a) Relative current change (ΔI/I0) of the BMF based pressure sensors under the pressure of 163 Pa and 327 Pa. (b) Response and relaxation times of BMF
+based pressure sensors under 1 kPa. (c) ΔI/I0 of the BMF based pressure sensors in pressure range of 0.163–17.4 kPa. (d) Comparison of the sensitivity and measuring
+range between this BMF based pressure sensors and previously reported flexible pressure sensors. (e) Schematic illustration of the microstructure deformation and
+dynamic change process of the BMF based pressure sensors before and after pressing.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+8
+be 97.1% for BMF-9 when the pad-drying cycle was more than 3 times,
+implying 97.1% EM waves was reflected and the shielding mechanism
+was dominated by reflection. The similar results can be also found in
+other nonwoven fabrics [53,54].
+Fig. 5e-5 g illustrates the EMI shielding mechanism of BMFs. As for
+the BMF-1 and BMF-3, the sufficiently conductive network is absent due
+to the low MXene loading contents (below the percolation threshold),
+and most of EM waves were transmitted the fabrics and only a part of the
+incident EM waves can be absorbed by some small circulation loops
+owing to the ohmic loss (Fig. 5f), which dissipated energy via mobile
+charges conduction, hopping, tunneling, as well as some MXene flakes as
+electric dipoles [54]. Therefore, Both BMF-1 and BMF-3 demonstrated
+the absorption-dominant EMI shielding mechanism. Further increasing
+the MXene loading leads to sufficient conductive networks and the
+formation of bark-shaped surface morphology. As a result, the interactions
+between the incident EM waves and the surface nomadic
+charges/mobile charge carriers (holes or electrons) resulted in the
+impedance mismatch between the BMFs and the air, and the majority of
+EM waves were reflected (Fig. 5g). Moreover, the bark-shaped
+morphology also contributes to the multiple reflections because of the
+multiple interfaces scattering effects. Hence, the EMI shielding mechanism
+transformed from the absorption-dominant to the reflectiondominant.
+3.4. Piezoresistive sensor performance
+To evaluate the piezoresistive performance of BMFs, they were
+sandwiched between the PDMS film and interdigitated electrodes to
+form the flexible pressure sensors (Fig. S13). The real-time current was
+recorded under various pressure at the constant voltage, and the relative
+current change percentage of the device is defined as ΔI/I0, where I0 is
+the current without pressure and ΔI equals the real time current minus
+the current under no pressure. Fig. 6a shows the relative current change
+(ΔI/I0) of the BMF based pressure sensor (BMFPS) under the pressure of
+163 Pa and 327 Pa. It can be seen that a fast current response can be
+obtained at the above pressure, and BMFPS exhibited the ΔI/I0 of 23.1 at
+327 Pa, which was about 100% higher than that of the sensor at 163 Pa.
+Further increasing the pressure to 1 kPa led to higher ΔI/I0 value (32.4)
+as shown in Fig. 6b, indicating the linear response of our BMFPS. In
+addition, the response and relaxation time was 500 ms and 20 ms,
+respectively, which was comparable with the MWCNT/PDMS film
+pressure sensor (125–500 ms) [55] and longer than that of real human
+skin (30–50 ms) [56].
+Sensitivity, as one of the most important performance indexes for the
+piezoresistive sensors, stands for the response rate of the sensors, which
+can be defined as
+S =
+ΔI/I0
+ΔP
+where P is the applied pressure. As shown in Fig. 6c, the BMFPS had
+the S value of 22.030 kPa􀀀 1 with linearity of R2 = 0.983 with pressure of
+0–3.266 kPa. The sensitivity S exhibits the highest value of 28.723 kPa􀀀 1
+with high linearity of R2 = 0.996 at the pressure of 3.266–12.2 kPa. A
+reduction of the S value (10.222 kPa􀀀 1) in the pressure between 12.2
+and 17.4 kPa, while the ΔI/I0 still exhibits the linear dependence with
+pressure (R2 = 0.978). To the best of our knowledge, our BMFPS
+demonstrated one of the highest sensitivity values among the reported
+flexible pressure sensors (Fig. 6d) [23,55,57–72]. For example, our
+BMFPS had comparable sensitivity with the surface microstructure
+pressure sensors (ACNT/G/PDMS film, Ag/micropatterned PDMS film,
+etc.) [58,62,63,71,72], but showed wider sensing range than them. Our
+BMFPS also exhibited higher sensitivity than the porous structure
+pressure sensors at the same sensing range [55,57,64,65,68,69], such as
+the PEDOT:PSS/polyimide aerogels and rGO/polyaniline sponge. The
+Fig. 7. (a) Real-time sensing signal of the BMF based pressure sensors towards small items with different weights (epoxy resin, binder clip, key). Real-time sensing
+signal recording for the pressure sensor for monitoring different human physiological signals, including finger pressing (b), walking (c) and pulse (d).
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+9
+excellent piezoresistive sensing performance of our BMFPS may be
+attributed to the synergetic effects between the porous structure of
+fabrics and bark-shaped surface microstructure of MXene, which can be
+explained as follows: (i) The bumps will be slipped and inserted into the
+grooves of the bark, resulting in the increase of the fiber contact area, the
+number of conductive pathways and the decrease of contact resistance
+(Fig. 6e); (ii) The porosity of fabrics will be decreased under pressure,
+leading to the decrease of fabric resistance.
+To demonstrate the practical applications of our BMFPS, we used our
+BMFPS to sense the small items including epoxy resin particle (~0.1 g),
+binder clips (1.95 ~ 4.97 g) and metal key (18.3 g). Obvious and fast
+current response signal can be read out upon the above items (Fig. 7a).
+The wide sensing range and high sensitivity of BMFPS made it an
+appealing candidate for real-time full-range human motion detections.
+Our BMFPS were put under the finger and feet to monitor the finger
+pressing and walking, where stable and repeatable sensing current can
+be observed as shown in Fig. 7b and 7c. Therefore, the BMFPS demonstrated
+great potential in guiding the physical rehabilitation training
+through monitoring the movement of human body part. The BMFPS
+were also adhered to the wrist to detect the pulse signal of the radial
+artery as shown in Fig. 7d, and reproducible pulse waveforms with the
+heart rate of 60 beats/min can be precisely recorded, implying the high
+sensitivity and fast response of our sensors.
+4. Conclusions
+In summary, we have regulated the surface microstructure of MXenecoated
+fiber via a facile pad-drying technology to investigate the effects
+of surface microstructure on the EMI shielding and piezoresistive
+sensing performance of fabrics. The fiber morphology was depended on
+the amount of MXene loading, and high loading MXene resulted in the
+bark-shaped surface morphology. The EMI shielding mechanism was
+shifted from absorption-dominant to reflection-dominant with the increase
+of MXene content, and the bark-shaped morphology significantly
+increased the EMI SE to 35.2 dB owing to the multiple interfaces scattering
+and reflections of EM waves. In addition, the bark-shaped MXene/
+fabrics (BMFs) showed excellent piezoresistive sensing performance
+including high sensitivity (28.723 kPa􀀀 1), wide sensing range (0–17.4
+kPa), high linearity (R2 = 0.996), and rapid response/recovery time. To
+the best of our knowledge, the piezoresistive sensing performance of
+BMFs surpasses those of one of the best ever reported pressure sensors.
+Moreover, the BMFs demonstrated excellent joule heating performance
+(146.7 ◦C, 5 V), which was even better than the silver nanowire modified
+fabrics. This work provides a new strategy for the structure design of
+functional textiles and presents potential applications in wearable
+electronics, such as intelligent E-skin and heat physiotherapy.
+CRediT authorship contribution statement
+Xianhong Zheng: Conceptualization, Methodology, Supervision,
+Writing – review & editing. Peng Wang: Visualization, Investigation.
+Xiansheng Zhang: Data curation. Qiaole Hu: Visualization, Investigation.
+Zongqian Wang: Data curation. Wenqi Nie: Visualization,
+Investigation. Lihua Zou: Investigation. Changlong Li: Writing – review
+& editing. Xu Han: Data curation.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgements
+This work was supported by the Natural Science Foundation of Anhui
+Province (2008085QE213), Anhui Province International Cooperation
+Research Center of Textile Structure Composites (2021ACTC07,
+2021ACTC10), State Key Laboratory of Bio-Fibers and Eco-Textiles
+(Qingdao University, No. KF2020210), Educational Commission of
+Anhui Province of China (KJ2020A0354), Research funding project for
+academic and technological leaders in Anhui Province (2020H218) , Key
+Research and Development Projects of Anhui Province
+(202004a06020055), Wuhu Science and Technology Plan Project
+(2020yf51), Open Project Program of Anhui Engineering and Technology
+Research Center of Textile, Anhui Province College of Anhui Province
+College Key Laboratory of Textile Fabrics (2021AETKL03,
+2021AETKL09), research funding from Anhui Polytechnic University
+(2020YQQ002, 2020YQQ043, 2020YQQ044, Xjky03201901,
+2020YQQ013, Xjky2020038, Xjky2020049, Xjky2020050,
+2020ffky01). We also thanks Dr. Dandan Liang for her kind help in EDS
+characterizations.
+Appendix A. Supplementary material
+Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.compositesa.2021.106700.
+References
+[1] Ismar E, Kurs¸un Bahadir S, Kalaoglu F, Koncar V. Futuristic Clothes: Electronic
+Textiles and Wearable Technologies. Glob Chall 2020;4(7):1900092. https://doi.
+org/10.1002/gch2.v4.710.1002/gch2.201900092.
+[2] Zheng X, Hu Q, Zhou X, Nie W, Li C, Yuan N. Graphene-based fibers for the energy
+devices application: A comprehensive review. Mater Des 2021;201:109476.
+https://doi.org/10.1016/j.matdes.2021.109476.
+[3] Zheng X, Hu Q, Wang Z, Nie W, Wang P, Li C. Roll-to-roll layer-by-layer assembly
+bark-shaped carbon nanotube/Ti3C2Tx MXene textiles for wearable electronics.
+J Colloid Interface Sci 2021;602:680–8.
+[4] Luo J, Gao S, Luo H, Wang L, Huang X, Guo Z, et al. Superhydrophobic and
+breathable smart MXene-based textile for multifunctional wearable sensing
+electronics. Chem Eng J 2021;406:126898. https://doi.org/10.1016/j.
+cej.2020.126898.
+[5] Lian Y, Yu He, Wang M, Yang X, Li Z, Yang F, et al. A multifunctional wearable Etextile
+via integrated nanowire-coated fabrics. J Mater Chem C 2020;8(25):
+8399–409.
+[6] Wang H, Niu H, Zhou H, Wei X, Yang W, Lin T. Multifunctional Directional Water
+Transport Fabrics with Moisture Sensing Capability. ACS Appl Mater Interfaces
+2019;11(25):22878–84.
+[7] Zhu S, Wang M, Qiang Z, Song J, Wang Y, Fan Y, et al. Multi-functional and highly
+conductive textiles with ultra-high durability through ’green’ fabrication process.
+Chem Eng J 2021;406:127140. https://doi.org/10.1016/j.cej.2020.127140.
+[8] Zhang CJ, Anasori B, Seral-Ascaso A, Park S-H, McEvoy N, Shmeliov A, et al.
+Transparent, Flexible, and Conductive 2D Titanium Carbide (MXene) Films with
+High Volumetric Capacitance. Adv Mater 2017;29(36):1702678. https://doi.org/
+10.1002/adma.201702678.
+[9] Zhang C, McKeon L, Kremer MP, Park S-H, Ronan O, Seral-Ascaso A, et al. Additivefree
+MXene inks and direct printing of micro-supercapacitors. Nat Commun 2019;
+10(1). https://doi.org/10.1038/s41467-019-09398-1.
+[10] Wang Z, Cheng Z, Fang C, Hou X, Xie Li. Recent advances in MXenes composites for
+electromagnetic interference shielding and microwave absorption. Compos Part Aappl
+S 2020;136:105956. https://doi.org/10.1016/j.compositesa:2020.105956.
+[11] Iqbal A, Kwon J, Kim M-K, Koo CM. MXenes for electromagnetic interference
+shielding: Experimental and theoretical perspectives. Mater Today Adv 2021;9:
+100124. https://doi.org/10.1016/j.mtadv.2020.100124.
+[12] Kim E, Zhang H, Lee J-H, Chen H, Zhang H, Javed MH, et al. MXene/polyurethane
+auxetic composite foam for electromagnetic interference shielding and impact
+attenuation. Compos Part A-Appl S 2021;147:106430. https://doi.org/10.1016/j.
+compositesa:2021.106430.
+[13] Song P, Liu B, Qiu H, Shi X, Cao D, Gu J. MXenes for polymer matrix
+electromagnetic interference shielding composites: A review. Compos Commun
+2021;24:100653. https://doi.org/10.1016/j.coco.2021.100653.
+[14] Wang L, Ma Z, Zhang Y, Chen L, Cao D, Gu J. Polymer-based EMI shielding
+composites with 3D conductive networks. A mini-review 2021;1(3):413–31.
+[15] Zhang X, Wang X, Lei Z, Wang L, Tian M, Zhu S, et al. Flexible MXene-Decorated
+Fabric with Interwoven Conductive Networks for Integrated Joule Heating,
+Electromagnetic Interference Shielding, and Strain Sensing Performances. ACS
+Appl Mater Interfaces 2020;12(12):14459–67.
+[16] Li Q, Yin R, Zhang D, Liu Hu, Chen X, Zheng Y, et al. Flexible conductive MXene/
+cellulose nanocrystal coated nonwoven fabrics for tunable wearable strain/
+pressure sensors. J Mater Chem A 2020;8(40):21131–41.
+[17] Levitt A, Hegh D, Phillips P, Uzun S, Anayee M, Razal JM, et al. 3D knitted energy
+storage textiles using MXene-coated yarns. Mater Today 2020;34:17–29.
+[18] Tucker A, Levia DF, Katul GG, Nanko K, Rossi LF. A network model for stemflow
+solute transport. Appl Math Model 2020;88:266–82.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+10
+[19] Lund A, Darabi S, Hultmark S, Ryan JD, Andersson B, Str¨om A, et al. Roll-to-Roll
+Dyed Conducting Silk Yarns: A Versatile Material for E-Textile Devices. Adv Mater
+Technol 2018;3(12):1800251. https://doi.org/10.1002/admt.v3.1210.1002/
+admt.201800251.
+[20] Zheng X, Shen J, Hu Q, Nie W, Wang Z, Zou L, et al. Vapor phase polymerized
+conducting polymer/MXene textiles for wearable electronics. Nanoscale 2021;13
+(3):1832–41.
+[21] Zheng X, Nie W, Hu Q, Wang X, Wang Z, Zou L, et al. Multifunctional RGO/
+Ti3C2Tx MXene fabrics for electrochemical energy storage, electromagnetic
+interference shielding, electrothermal and human motion detection. Mater Des
+2021;200:109442. https://doi.org/10.1016/j.matdes.2020.109442.
+[22] Uzun S, Seyedin S, Stoltzfus AL, Levitt AS, Alhabeb M, Anayee M, et al. Knittable
+and Washable Multifunctional MXene-Coated Cellulose Yarns. Adv Funct Mater
+2019;29(45):1905015. https://doi.org/10.1002/adfm.v29.4510.1002/
+adfm.201905015.
+[23] Zheng Y, Yin R, Zhao Ye, Liu Hu, Zhang D, Shi X, et al. Conductive MXene/cotton
+fabric based pressure sensor with both high sensitivity and wide sensing range for
+human motion detection and E-skin. Chem Eng J 2021;420:127720. https://doi.
+org/10.1016/j.cej.2020.127720.
+[24] Wang Q-W, Zhang H-B, Liu Ji, Zhao S, Xie Xi, Liu L, et al. Multifunctional and
+Water-Resistant MXene-Decorated Polyester Textiles with Outstanding
+Electromagnetic Interference Shielding and Joule Heating Performances. Adv
+Funct Mater 2019;29(7):1806819. https://doi.org/10.1002/adfm.v29.710.1002/
+adfm.201806819.
+[25] Li J, Chen J, Wang H, Xiao Xu. All-MXene Cotton-Based Supercapacitor-Powered
+Human Body Thermal Management System. ChemElectroChem 2021;8(4):648–55.
+[26] Yang Z, Wang W, Bi L, Chen L, Wang G, Chen G, et al. Wearable electronics for
+heating and sensing based on a multifunctional PET/silver nanowire/PDMS yarn.
+Nanoscale 2020;12(31):16562–9.
+[27] Zhao Z, Zhou J, Xiao H, Liu Y, Lu M. Creation of polyaniline-coated polyester
+fabrics with conductive, electrothermal and energy-storage properties via microdissolution
+method. Mater Today Commun 2020;24:101042. https://doi.org/
+10.1016/j.mtcomm.2020.101042.
+[28] Guo Y, Dun C, Xu J, Mu J, Li P, Gu L, et al. Ultrathin, Washable, and Large-Area
+Graphene Papers for Personal Thermal Management. Small 2017;13(44):1702645.
+https://doi.org/10.1002/smll.v13.4410.1002/smll.201702645.
+[29] Zhang Y, Ruan K, Shi X, Qiu H, Pan Y, Yan Yi, et al. Ti3C2Tx/rGO porous
+composite films with superior electromagnetic interference shielding
+performances. Carbon 2021;175:271–80.
+[30] Wang L, Song P, Lin C-T, Kong J, Gu J. 3D Shapeable, Superior Electrically
+Conductive Cellulose Nanofibers/Ti3C2Tx MXene Aerogels/Epoxy
+Nanocomposites for Promising EMI Shielding. Research 2020;2020:1–12.
+[31] Liang C, Qiu H, Song P, Shi X, Kong J, Gu J. Ultra-light MXene aerogel/woodderived
+porous carbon composites with wall-like “mortar/brick” structures for
+electromagnetic interference shielding. Sci Bull 2020;65(8):616–22.
+[32] Zhang Y, Ruan K, Gu J. Flexible Sandwich-Structured Electromagnetic Interference
+Shielding Nanocomposite Films with Excellent Thermal Conductivities. Small
+2021;17(42):2101951. https://doi.org/10.1002/smll.v17.4210.1002/
+smll.202101951.
+[33] Ma Z, Kang S, Ma J, Shao L, Zhang Y, Liu C, et al. Ultraflexible and Mechanically
+Strong Double-Layered Aramid Nanofiber-Ti3C2Tx MXene/Silver Nanowire
+Nanocomposite Papers for High-Performance Electromagnetic Interference
+Shielding. ACS Nano 2020;14(7):8368–82.
+[34] Cui Z, Gao C, Fan Z, Wang J, Cheng Z, Xie Z, et al. Lightweight MXene/Cellulose
+Nanofiber Composite Film for Electromagnetic Interference Shielding. J Electron
+Mater 2021;50(4):2101–10.
+[35] Raagulan K, Braveenth R, Kim BM, Lim KJ, Lee SB, Kim M, et al. An effective
+utilization of MXene and its effect on electromagnetic interference shielding:
+flexible, free-standing and thermally conductive composite from MXene–PAT–poly
+(p-aminophenol)–polyaniline co-polymer. RSC Adv 2020;10(3):1613–33.
+[36] Zhang Y, Wang L, Zhang J, Song P, Xiao Z, Liang C, et al. Fabrication and
+investigation on the ultra-thin and flexible Ti3C2Tx/co-doped polyaniline
+electromagnetic interference shielding composite films. Compos Sci Technol 2019;
+183:107833. https://doi.org/10.1016/j.compscitech.2019.107833.
+[37] Song P, Qiu H, Wang L, Liu X, Zhang Y, Zhang J, et al. Honeycomb structural rGOMXene/
+epoxy nanocomposites for superior electromagnetic interference shielding
+performance. Sustainable Mater Technol 2020;24:e00153. https://doi.org/
+10.1016/j.susmat.2020.e00153.
+[38] Wang L, Chen L, Song P, Liang C, Lu Y, Qiu H, et al. Fabrication on the annealed
+Ti3C2Tx MXene/Epoxy nanocomposites for electromagnetic interference shielding
+application. Compos Part B-eng 2019;171:111–8.
+[39] Wang X, Lei Z, Ma X, He G, Xu T, Tan J, et al. A Lightweight MXene-Coated
+Nonwoven Fabric with Excellent Flame Retardancy, EMI Shielding, and
+Electrothermal/Photothermal Conversion for Wearable Heater. Chem Eng J. 2022;
+430:132605. https://doi.org/10.1016/j.cej.2021.132605.
+[40] Ji K, Zhao H, Zhang J, Chen J, Dai Z. Fabrication and electromagnetic interference
+shielding performance of open-cell foam of a Cu-Ni alloy integrated with CNTs.
+Appl Surf Sci 2014;311:351–6.
+[41] Chen Z, Xu C, Ma C, Ren W, Cheng H-M. Lightweight and Flexible Graphene Foam
+Composites for High-Performance Electromagnetic Interference Shielding. Adv
+Mater 2013;25(9):1296–300.
+[42] Yuan B, Yu L, Sheng L, An K, Zhao X. Comparison of electromagnetic interference
+shielding properties between single-wall carbon nanotube and graphene sheet/
+polyaniline composites. J Phys D Appl Phys 2012;45(23):235108. https://doi.org/
+10.1088/0022-3727/45/23/235108.
+[43] Pitk¨anen O, Tolvanen J, Szenti I, Kukovecz ´A, Hannu J, Jantunen H, et al.
+Lightweight Hierarchical Carbon Nanocomposites with Highly Efficient and
+Tunable Electromagnetic Interference Shielding Properties. ACS Appl Mater
+Interfaces 2019;11(21):19331–8.
+[44] Xin W, Ma M-G, Chen F. Silicone-Coated MXene/Cellulose Nanofiber Aerogel Films
+with Photothermal and Joule Heating Performances for Electromagnetic
+Interference Shielding. ACS Appl Nano Mater 2021;4(7):7234–43.
+[45] Narasimman R, Vijayan S, Prabhakaran K. Graphene-reinforced carbon composite
+foams with improved strength and EMI shielding from sucrose and graphene oxide.
+J Mater Sci 2015;50(24):8018–28.
+[46] Zhao B, Guo X, Zhao W, Deng J, Shao G, Fan B, et al. Yolk-Shell Ni@SnO2
+Composites with a Designable Interspace To Improve the Electromagnetic Wave
+Absorption Properties. ACS Appl Mater Interfaces 2016;8(42):28917–25.
+[47] Che RC, Peng L-M, Duan XF, Chen Q, Liang XL. Microwave Absorption
+Enhancement and Complex Permittivity and Permeability of Fe Encapsulated
+within Carbon Nanotubes. Adv Mater 2004;16(5):401–5.
+[48] Liu Q, Cao Qi, Bi H, Liang C, Yuan K, She W, et al. CoNi@SiO2@TiO2 and CoNi@
+Air@TiO2 Microspheres with Strong Wideband Microwave Absorption. Adv Mater
+2016;28(3):486–90.
+[49] Zhao B, Shao G, Fan B, Zhao W, Xie Y, Zhang R. Synthesis of flower-like CuS hollow
+microspheres based on nanoflakes self-assembly and their microwave absorption
+properties. J Mater Chem A 2015;3(19):10345–52.
+[50] Li M, Fan X, Xu H, Ye F, Xue J, Li X, et al. Controllable synthesis of mesoporous
+carbon hollow microsphere twined by CNT for enhanced microwave absorption
+performance. J Mater Sci Technol 2020;59:164–72.
+[51] Zhao B, Guo X, Zhao W, Deng J, Fan B, Shao G, et al. Facile synthesis of yolk-shell
+Ni@void@SnO2(Ni3Sn2) ternary composites via galvanic replacement/Kirkendall
+effect and their enhanced microwave absorption properties. Nano Res 2017;10(1):
+331–43.
+[52] Zhao B, Li Y, Zeng Q, Wang L, Ding J, Zhang R, et al. Galvanic Replacement
+Reaction Involving Core-Shell Magnetic Chains and Orientation-Tunable
+Microwave Absorption Properties. Small 2020;16(40):2003502. https://doi.org/
+10.1002/smll.v16.4010.1002/smll.202003502.
+[53] Lu L, Xing Di, Teh KS, Liu H, Xie Y, Liu X, et al. Structural effects in a composite
+nonwoven fabric on EMI shielding. Mater Des 2017;120:354–62.
+[54] Xing Di, Lu L, Xie Y, Tang Y, Teh KS. Highly flexible and ultra-thin carbon-fabric/
+Ag/waterborne polyurethane film for ultra-efficient EMI shielding. Mater Des
+2020;185:108227. https://doi.org/10.1016/j.matdes.2019.108227.
+[55] Li W, Jin X, Han X, Li Y, Wang W, Lin T, et al. Synergy of Porous Structure and
+Microstructure in Piezoresistive Material for High-Performance and Flexible
+Pressure Sensors. ACS Appl Mater Interfaces 2021;13(16):19211–20.
+[56] Chortos A, Bao Z. Skin-inspired electronic devices. Mater Today 2014;17(7):
+321–31.
+[57] Guan X, Wang Z, Zhao W, Huang H, Wang S, Zhang Qi, et al. Flexible Piezoresistive
+Sensors with Wide-Range Pressure Measurements Based on a Graded Nest-like
+Architecture. ACS Appl Mater Interfaces 2020;12(23):26137–44.
+[58] Nie Pu, Wang R, Xu X, Cheng Y, Wang X, Shi L, et al. High-Performance
+Piezoresistive Electronic Skin with Bionic Hierarchical Microstructure and
+Microcracks. ACS Appl Mater Interfaces 2017;9(17):14911–9.
+[59] Tewari A, Gandla S, Bohm S, McNeill CR, Gupta D. Highly Exfoliated MWNT-rGO
+Ink-Wrapped Polyurethane Foam for Piezoresistive Pressure Sensor Applications.
+ACS Appl Mater Interfaces 2018;10(6):5185–95.
+[60] Yang C, Liu WeiJie, Liu N, Su J, Li L, Xiong L, et al. Graphene Aerogel Broken to
+Fragments for a Piezoresistive Pressure Sensor with a Higher Sensitivity. ACS Appl
+Mater Interfaces 2019;11(36):33165–72.
+[61] Zhan Z, Lin R, Tran V-T, An J, Wei Y, Du H, et al. Paper/Carbon Nanotube-Based
+Wearable Pressure Sensor for Physiological Signal Acquisition and Soft Robotic
+Skin. ACS Appl Mater Interfaces 2017;9(43):37921–8.
+[62] Park H, Jeong YR, Yun J, Hong SY, Jin S, Lee S-J, et al. Stretchable Array of Highly
+Sensitive Pressure Sensors Consisting of Polyaniline Nanofibers and Au-Coated
+Polydimethylsiloxane Micropillars. ACS Nano 2015;9(10):9974–85.
+[63] Jian M, Xia K, Wang Qi, Yin Z, Wang H, Wang C, et al. Flexible and Highly
+Sensitive Pressure Sensors Based on Bionic Hierarchical Structures. Adv Funct
+Mater 2017;27(9):1606066. https://doi.org/10.1002/adfm.201606066.
+[64] Zhao X, Wang W, Wang Z, Wang J, Huang T, Dong J, et al. Flexible PEDOT:PSS/
+polyimide aerogels with linearly responsive and stable properties for piezoresistive
+sensor applications. Chem Eng J 2020;395:125115. https://doi.org/10.1016/j.
+cej.2020.125115.
+[65] Yang L, Jiang C, Yan J, Shen Y, Chen Yi, Xu L, et al. Structuring the reduced
+graphene oxide/polyHIPE foam for piezoresistive sensing via emulsion-templated
+polymerization. Compos Part A-appl S 2020;134:105898. https://doi.org/
+10.1016/j.compositesa:2020.105898.
+[66] Li X-P, Li Y, Li X, Song D, Min P, Hu C, et al. Highly sensitive, reliable and flexible
+piezoresistive pressure sensors featuring polyurethane sponge coated with MXene
+sheets. J Colloid Interface Sci 2019;542:54–62.
+[67] Zheng W, Xu L, Li Y, Huang Y, Li B, Jiang Z, et al. Anti-freezing, moisturizing,
+resilient and conductive organohydrogel for sensitive pressure sensors. J Colloid
+Interface Sci 2021;594:584–92.
+[68] Yin X, Vinod TP, Jelinek R. A flexible high-sensitivity piezoresistive sensor
+comprising a Au nanoribbon-coated polymer sponge. J Mater Chem C 2015;3(35):
+9247–52.
+[69] Ge G, Cai Y, Dong Q, Zhang Y, Shao J, Huang W, et al. A flexible pressure sensor
+based on rGO/polyaniline wrapped sponge with tunable sensitivity for human
+motion detection. Nanoscale 2018;10(21):10033–40.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+11
+[70] Zhang J, Zhou LJ, Zhang HM, Zhao ZX, Dong SL, Wei S, et al. Highly sensitive
+flexible three-axis tactile sensors based on the interface contact resistance of
+microstructured graphene. Nanoscale 2018;10(16):7387–95.
+[71] Cao Y, Li T, Gu Y, Luo H, Wang S, Zhang T. Fingerprint-Inspired Flexible Tactile
+Sensor for Accurately Discerning Surface Texture. Small 2018;14(16):1703902.
+https://doi.org/10.1002/smll.v14.1610.1002/smll.201703902.
+[72] Su B, Gong S, Ma Z, Yap LW, Cheng W. Mimosa-Inspired Design of a Flexible
+Pressure Sensor with Touch Sensitivity. Small 2015;11(16):1886–91.
+=======
+Composites: Part A 152 (2022) 106700
+Available online 29 October 2021
+1359-835X/© 2021 Elsevier Ltd. All rights reserved.
+Breathable, durable and bark-shaped MXene/textiles for high-performance
+wearable pressure sensors, EMI shielding and heat physiotherapy
+Xianhong Zheng a,1,*, Peng Wang a,1, Xiansheng Zhang b, Qiaole Hu a, Zongqian Wang a,
+Wenqi Nie a, Lihua Zou a, Changlong Li a,*, Xu Han a
+a School of Textile and Garment, Anhui Polytechnic University, Wuhu, Anhui 241000, PR China
+b College of Textiles and Clothing, Qingdao University, Qingdao 266071, PR China
+A R T I C L E I N F O
+Keywords:
+Fabrics
+Natural fibre composites
+Electrical properties
+EMI shielding
+A B S T R A C T
+Flexible wearable electronics have attracted tremendous interest owing to their potential applications on artificial
+intelligence, electronic skin, human health monitoring, etc. However, it remains challenging to fabricate
+electronic textiles (E-textiles) without sacrificing the air/vapor breathability, flexibility and comfortability. To
+address these issues, we develop a novel surface reconstruction strategy through the facile and scalable paddrying
+technology towards the breathable, flexible, highly conductive, bark-shaped MXene/textiles (BMFs).
+The formation mechanism of bark-shaped morphology is clarified in detail. Benefiting from synergistic effects
+between the bark-shaped MXene microstructure and porous structure of textiles, BMFs show excellent piezoresistive
+sensing performance and good electromagnetic interference (EMI) shielding performance. In addition,
+BMFs achieve remarkable joule heating performance of 146.7 ◦C at 5 V, which is even superior to the silver
+nanowire decorated fabrics. This work provides a new approach for the scalable fabrication of E-textiles, and lays
+the foundation for the next generation wearable electronics.
+1. Introduction
+The textile-based electronics have drawn increasing attention in
+recent years, owing to their potential applications on flexible displays,
+portable energy harvest/conversion, wireless communications and
+heath monitoring [1–3]. However, embedding the electronic devices
+into fabrics usually sacrificed the intrinsic properties of fabrics, such as
+breathability, flexibility and wearing comfortability. Therefore, it remains
+challenging to seamlessly integrate multiple functions into the
+fabrics without sacrificing their intrinsic properties. Fabric modification
+by functional guests has been proved to be an alternative to achieve the
+goal of wearable electronics, which has been verified in a number of
+studies [4].
+Various functional guests were adopted to decorate the fabrics,
+including metal nanomaterials, conducting polymers, carbon nanomaterials.
+For example, silver nanowire coated PET fabrics delivered
+multiple functions, such as pressure sensing, thermal insulation, joule
+heating, and particulate matter filtration [5]; The directional water
+transport and capacitive sensing function can be achieved for the
+polypyrrole coated cotton fabrics [6]; Single-walled carbon nanotubes
+(SWNTs)/glucaric acid/chitosan coated fabrics exhibited high water/
+organic solvents resistance and electromagnetic interference shielding
+(EMI) effectiveness of 30 dB (X-band) [7]. Although multiple functions
+can be obtained for the fabrics through the surface modification by
+above conductive fillers, they showed the shortcomings of either high
+cost, low durability or low electrical conductivity.
+The transition metal carbides/nitrides (MXenes) have attracted
+much attention in recent years because of their outstanding properties
+including high electrical conductivity, specific surface area, pseudocapacitance,
+and good dispersion [8]. The general formula of MXenes is
+Mn+1XnTx, where M stands for an transition metal (Ti, Mo, Nb, Cr, V,
+etc.), X represents carbon and/or nitrogen, and Tx is terminated functional
+groups (e.g., –OH, -O, -F, etc.) [9]. Benefiting from its unique
+structure and remarkable performances, MXene holds enormous potential
+for emerging wearable electronics, including heat physiotherapy,
+flexible energy storage, EMI shielding [10–14]. So far, a variety of
+MXene decorated fabrics have been fabricated and exhibited multiple
+functions. For instance, MXene dispersion was spray-coated on fabrics,
+* Corresponding authors.
+E-mail addresses: zhengxianhong@ahpu.edu.cn (X. Zheng), licl@ahpu.edu.cn (C. Li).
+1 These authors contribute equally to this work.
+Contents lists available at ScienceDirect
+Composites Part A
+journal homepage: www.elsevier.com/locate/compositesa
+https://doi.org/10.1016/j.compositesa.2021.106700
+Received 17 August 2021; Received in revised form 21 October 2021; Accepted 23 October 2021
+Composites Part A 152 (2022) 106700
+2
+and the prepared composite fabrics exhibited good joule heating
+(150 ◦C, 6 V), EMI shielding (36 dB), and strain sensing performance
+[15]; Thermoplastic polyurethane fabric dip-coated by MXene/cellulose
+nanocrystal displayed a broad strain sensing range of 83% and high
+sensitivity (gauge factor = 3405) [16]; MXene-coated synthetic yarns
+were knitted into planar supercapacitors, and the fabricated supercapacitor
+demonstrated a high capacitance of 519 mF/cm2 in 1 M
+H3PO4-PVA gel electrolyte [17]. Despite these progress, large-scale
+manufacture of MXene modified fabrics with good uniformity and
+controllable morphology still faces significant hurdles. Especially, the
+MXene distribution has a profound effect on both the structure and
+performance of the composite fabrics: (i) The uniform distribution of
+MXene flakes will benefit for constructing continuous conductive networks,
+rendering the composite fabrics with good structural integrity.
+(ii) The distribution of MXene flakes also plays an important role in
+determining the application performance of the composite fabrics, as the
+joule heating transfer, electromagnetic wave absorption, and pressure
+sensing current are greatly affected by MXene distribution. Besides, it
+should be explored the structure-effective relationship between the
+morphology and performance of the MXene-based composite fabrics.
+Bark, as a fundamental part of the trees, plays an important role in
+directing, transporting, and concentrating water and nutrients [18].
+Analogously, bark-shaped morphology has profound effects on performances
+of the electronic fabrics, especially on the piezoresistive sensing
+and EMI shielding performances owing to the following factors: (i) The
+insertion and de-intercalation of wrinkled MXene sheets in the grooves
+of bark-shaped fibers will result in the changes of conductive pathways
+and the corresponding contact resistance, benefiting for improving its
+piezoresistive sensing performance; (ii) The bark-shaped morphology
+enhances the multiple interfaces scattering of electromagnetic waves,
+which can improve the EMI shielding effectiveness. However, barkshaped
+MXene decorated fabrics have not yet been realized through
+the post-treatment, and further effort is required to systematically
+investigate their structure-effective relationships.
+Pad-drying technology has been widely applied to the dyeing process
+of yarns and fabrics, which has demonstrated several advantages
+including scalability, energy conservation, good evenness [19]. Inspired
+by the dyeing of fabrics, we decorated the cellulose nonwoven fabrics
+with MXene flakes through the pad-drying process, and the prepared
+fabrics are expected to have good uniformity, durability and electrical
+conductivity owing to the following factors: (i) Both cellulose and
+MXene are hydrophilic, and hydron bonding will be constructed between
+the cellulose fabric and MXene flakes, leading to the high binding
+fastness and durability; (ii) The wicking effects of fabrics helps the absorption
+of MXene; (iii) During the pad-drying, the high pressure accelerates
+the diffusion of MXene from the surface into the inside of
+fabrics. Consequently, the fabrics show good uniformity and are electrically
+conductive on both the surface and inside. (iv) The high pressure
+facilitates the shearing-induced orientation of MXene sheets during the
+pad-drying, and unique morphology will be formed for the fibers, which
+can not deteriorate the breathability of fabrics. However, to date,
+breathable, durable, and multifunctional MXene-based fabrics using the
+pad-drying techniques have yet to be developed.
+Herein, we developed a novel, scalable and facile pad-drying
+approach to fabricate the breathable, durable, and multifunctional
+MXene decorated fabrics. We studied the micromorphology, joule
+heating, EMI shielding, and pressure sensing performance of the fabricated
+MXene-based fabrics (BMFs). The BMFs showed bark-shaped
+morphology, good flexibility, air/vapor permeability, and low sheet
+resistance of 2.2 Ω/□. The BMFs showed high EMI shielding effectiveness
+of 35.2 dB and a distinctive EMI shielding mechanism. In addition,
+BMFs demonstrated excellent piezoresistive sensing performance
+including high sensitivity (28.723 kPa􀀀 1), wide sensing range (0–17.4
+kPa), high linearity (R2 = 0.996), and rapid response/recovery time, and
+showed high sensitivity for monitoring the human motions. Moreover,
+the BMFs exhibited remarkable joule heating performance
+(electrothermal temperature 146.7 ◦C at 5 V). This work provides a new
+approach for the structure design of E-textiles and lays the foundation
+for the next generation wearable electronics.
+2. Experimental
+2.1. Materials
+Lithium fluoride (purity, 99.99%) was purchased from Shanghai
+Aladdin Biochemical Technology Co., Ltd., China. Hydrochloric acid
+(HCl, 36.0–38.0 wt%) and ethanol (≥99.7 wt%) were purchased from
+Sinopharm Chemical Reagent Co., Ltd., China. Ti3AlC2 (MAX) was
+purchased from 11 Technology Co., Ltd, (Jilin, China). Cellulose
+nonwoven fabrics were received from Hangzhou Sijin nonwoven fabric
+Co., Ltd, (grammage: 100 g/m2). Polydimethylsiloxane (PDMS, Sylgard
+184 Silicone Elastomer) containing base polymer (Kit A, 1 kg) and
+curing agent (Kit B, 100 g), was purchased from Dow Corning Corp.,
+USA. Interdigitated electrodes patterned on the transparent PI substrate
+with a size of 10 × 20 mm2 (Au/Cu thickness, 1/12 μm) were purchased
+from Guangzhou Yuxin sensor technology Co., Ltd. All the chemicals
+were received as purchased without further purification.
+2.2. Synthesis of Ti3C2Tx
+Ti3C2Tx MXene was synthesized through the in-situ HF etching
+method [20,21], where the HF was formed by adding the lithium fluoride
+to the hydrochloric acid. In detail, 2 g lithium fluoride (LiF) and 2 g
+Ti3AlC2 (MAX) were added into the 40 mL 9 M hydrochloric acid (HCl),
+respectively. The mixture was kept at 35 ◦C for 24 h, and the resultant
+suspension was rinsed with the deionized water for several cycles until
+the pH was 6. The precipitation was collected and intercalated by the
+ethanol via the ultrasonication at 100 W for 1 h and centrifuged at
+10000 rpm for 10 min. Finally, the sediment was collected and redispersed
+into DI water through ultrasonication (750 W, 20 min), and
+the delaminated few-layered Ti3C2Tx MXene sheets were collected via
+the reduplicative centrifugation at 3500 rpm for 3 min.
+2.3. Preparation of BMFs
+The BMFs were fabricated via the pad-drying method. In detail, the
+cellulose nonwoven fabrics were firstly immersed into the 3 mg/mL
+MXene aqueous dispersion, and the wet MXene treated fabrics were
+directly fed into the padder to remove the excess water at the stress of
+0.1 ~ 0.3 MPa. The MXene treated fabrics were dried at 60 ◦C for 10
+min. The pad-drying process was repeated for 1, 2, 3, 4, 5, 6, 7, 8, and 9
+cycles, and the prepared fabrics were labeled as BMF-1, BMF-2, BMF-3,
+BMF-4, BMF-5, BMF-6, BMF-7, BMF-8, and BMF-9, respectively.
+2.4. Fabrication of BMF based pressure sensors
+To fabricate the BMF based pressure sensors, thin PDMS film was
+firstly prepared. In detail, the curing agent and PDMS base polymer were
+mixed with a mass ratio of 1:10, which was then degassed and dipped
+onto the glass plate following by curing at 80 ◦C for 2 h. The thickness of
+the PDMS film was controlled by tuning the mass of PDMS. Eventually,
+the BMFs were sandwiched between an interdigitated electrode and a
+PDMS film to form the BMF based pressure sensors.
+2.5. Characterizations
+The X-ray diffraction (XRD) patterns were obtained by using the
+Bruker D8 advance X-ray diffractometer. The morphology of the samples
+was observed through the Hitachi S-4800 scanning electron microscope.
+The MXene loading ratio was calculated by using the following equation:
+W = (m 􀀀 m0)/m0 × 100% (1)
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+3
+where the m0 and m were the weight of untreated fabrics and MXene
+modified fabrics, respectively. The electrical surface resistivity of fabrics
+was measured through a multimeter following the AATCC 76–2005
+standard. The joule heating performance of samples was characterized
+by using the FLIR A320 infrared camera. The electromagnetic interference
+shielding performance was characterized by an Agilent PNAN5244A
+microwave network analyzer. The pressure sensing performance
+of fabrics were characterized by the Metrohm Autolab PGSTAT
+204 electrochemical workstation, and the set-up was shown in Fig. S1.
+3. Results and discussion
+3.1. Fabrication of BMFs
+The bark-shaped MXene decorated fabrics (BMFs) were fabricated
+through the facile and scalable pad-drying process (Fig. 1a). In brief,
+large and few-layered MXene sheets were firstly synthesized via in-situ
+HF (HCl + LiF) etching method and ultrasonication [20]. The cellulose
+nonwoven fabrics were firstly immersed into the MXene dispersion and
+subsequently dried to remove superfluous water. The pad-drying process
+was repeated for several cycles to increase the MXene loading. The
+cellulose nonwoven fabrics were selected as the substrate for depositing
+the MXene, as the cellulose fibers are hydrophilic, and thus MXene
+sheets can be tightly adhered to the surface of cellulose fibers owing to
+the hydrogen bonding. Therefore, the hydrogen bonding will render the
+fabrics with good durability. In addition, aligned MXene sheets will be
+deposited on the surface of fibers because of the shearing-induced
+orientation of MXene sheets during the squeezing process, and then
+the released residual stress will lead to the buckle of MXene sheets to
+form the bark-shaped morphology.
+The BMFs are desirable for wearable applications (Fig. 1b). For
+instance, the BMFs are expected to have good air/vapor breathability
+based on the surface reconstruction strategy, which is important for
+keeping the thermal/wet comfortability. Benefiting from the barkshaped
+morphology, the EMI shielding performance will be improved
+because of the multiple interfaces scattering of electromagnetic waves
+on the fiber surface. In addition, the contact resistance of the fibers will
+be reduced owing to the bark-shaped morphology, leading to the good
+piezoresistive sensing performance of the fabrics. Moreover, good joule
+heating performance can be achieved for the BMFs due to the good
+electrical conductivity of MXene.
+Fig. 2a shows the XRD patterns of MAX and MXene. It can be seen
+that the highest diffraction peak at 2θ = 38.9◦ disappeared, and there
+was only a (002) peak located at 6.1◦, implying the Al element has been
+successfully etched, and the multilayer MXene sheets have been
+delaminated into few-layered MXene after the selective etching [21].
+Fig. 1. Schematic illustration of the preparation (a) and applications (b) of bark-like MXene decorated fabrics.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+4
+Fig. 2b shows a typical low-magnification transmission electron microscopy
+(TEM) image of the synthesized MXene, in which the MXene exhibits
+the irregular rectangle shape with the length of 0.97 μm. More
+than 100 MXene sheets were counted and their lateral size distribution
+was shown in Fig. 2c. It can be seen that the lateral size of MXene sheets
+obeys a normal distribution with the average value and standard deviation
+of 629.2 nm and 577.6 nm, respectively. The lateral size of the
+synthesized MXene is on par with or exceeds those in previous reports
+[22,23]. The large MXene sheets will construct continuous conductive
+pathways for electrons, benefiting for improving the electrical conductivity
+of the MXene decorated fabrics. A high-resolution TEM (HRTEM)
+image shows that the MXene presents the hexagonal lattice with the
+interlayer spacing of 0.2676 nm (Fig. 2d), which matches well with the
+(010) planes of the Ti3C2 [21].
+As shown in Fig. 2e, the BMF-1 shows the sheet resistance of 4850 ±
+50 Ω/□ because of the low loading of MXene (1.9 wt%). The sheet
+resistance decreased with the pad-drying cycles and the BMF-9 shows
+the lowest sheet resistance of 2.2 ± 0.2 Ω/□. In contrast, the electrical
+conductivity increased with the pad-drying cycles and the maximum
+electrical conductivity can be up to 887.7 ± 80.7 S/m for BMF-9
+(Fig. S3), which was also comparable with other reported MXenebased
+fabrics [24]. The decreased sheet resistance of BMFs was mainly
+attributed to the increased MXene content, and the maximum MXene
+loading can be up to 14.5 wt% for BMF-9 (Fig. S4). To further confirm
+the good electrical conductivity of BMF, we observed the distribution of
+MXene in the nonwoven fabric through the 3D super depth digital microscopy
+(Fig. S5). The untreated cellulose fabric shows a clean surface
+without any MXene attached to the fibers. With the increase of paddrying
+cycles, more and more MXene adhered on the fibers, and fibers
+were even adhered together by the MXene sheets to construct the
+continuous networks for the BMF-8 and BMF-9. Therefore, BMF-8 and
+BMF-9 show lower sheet resistance than that of others. Furthermore,
+BMF-9 can be used as the flexible conductor to light the “AHPU” logo at
+3 V, further implying its high electrical conductivity.
+The BMFs can be continuously fabricated in large scale via the paddrying
+method (Fig. 2f). In addition, the BMFs are bendable and foldable
+(Fig. 2g-2 h), demonstrating their good flexibility. Air permeability, as
+an important index of the gas molecules penetrating ability, plays a
+crucial role in determining the wet and thermal comfortability of the
+apparel. The untreated fabric has an air permeability of 969.9 ± 1.8
+mm/s (97.0 ± 0.2 cm3/cm2/s) as illustrated in Fig. S6. Surprisingly, the
+air permeability was increased to 1577.9 ± 5.9 mm/s after 7 pad-drying
+cycles, which may be ascribed from the stretching-induced decrease of
+the area density of nonwoven fabrics. However, BMF-9 exhibits lower
+air permeability of 954.9 ± 13.9 mm/s (95.5 ± 1.4 cm3/cm2/s)
+compared with the BMF-7 but comparable air permeability with the
+untreated fabric, indicating the good air permeability of BMF-9.
+As evidenced in Fig. 2i and 2j, lots of white fog comes out from the
+BMF-9 covered glass bottle containing concentrated HCl, analogous to
+that counterpart covered by the untreated textiles. Therefore, good air
+permeability can be maintained for the BMFs. To further prove the vapor
+permeability, we conducted the condensation experiment, where the
+glass bottles were filled with boiling water, covered with fabrics, and
+placed under the beaker. After 1 min, many water drops can be observed
+on the top of the beaker for both the BMF-9 and pristine textile (Fig. 2k),
+implying the water vapor can penetrate the two fabrics. Therefore, BMF-
+9 shows good air/vapor breathability. More importantly, the boiling
+water kept clear after the BMF-9 was washed and stirred in the boiling
+Fig. 2. (a) XRD pattern of Ti3AlC2 and Ti3C2Tx MXene. (b) TEM image of MXene flake. (c) Lateral size distribution of MXene sheets. (d) HRTEM image of MXene and
+the selected area electron diffraction (SAED) pattern of MXene. (e) Sheet resistance of BMFs. (f) A roll of BMF wrapped on a 6 cm-diameter reel. Bending (g) and
+distortion (h) performance of BMF-9. Two glass bottles containing HCl and NH3⋅H2O are covered with pristine textile (i) and BMF-9 (j). (k) Two glass bottles
+containing boiling water covered with pristine textile and BMF-9, respectively (standing for 1 min). (l) Digital image of BMF-9 immersed in boiling water and stirred
+for 1 h.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+5
+water for 1 h (Fig. 2l), indicating the good durability of BMF-9. The good
+durability of BMFs was attributed to the strong hydrogen bonding between
+the hydrophilic cellulose fibers and MXene sheets.
+3.2. Morphology
+The scanning electron microscope (SEM) images of BMFs were
+shown in Fig. 3. The untreated fabrics show the clean surface without
+any purities on the fiber surface (Fig. S7). However, the surface of fibers
+changed to be rough, and the wrinkled MXene sheets can be observed for
+the BMF-1 (Fig. 3a). The deposition of MXene sheets on the fibers was
+attributed to the following factors: (i) Both the cellulose nonwoven
+fabric and MXene are hydrophilic, and thus the MXene can be deposited
+on the fibers via the hydrogen bonding; (ii) The wicking effects also
+helps the absorption of MXene sheets because of the porous structure of
+nonwoven fabrics. More MXene sheets can be found on the surface of
+fibers when the pad-drying cycles was increased to 5 (Fig. 3b). High
+magnification SEM images of BMF-5 show that MXene sheets oriented
+along the fiber axis to form the continuous bark-shaped film (Fig. 3b2).
+For the BMF-9, MXene sheets were not only filled in the gaps between
+the fibers, but also coated on the surface of fibers with bark-shaped
+morphology containing more grooves and bumps (Fig. 3c). The interconnected
+networks built by the MXene sheets will construct continuous
+pathways for the electrons, leading to the good electrical properties of
+the BMF-9.
+To further analyze the MXene distribution in the fabrics, we observed
+the cross section of BMF-9 and the corresponding energy-dispersive Xray
+spectroscopy (EDS) element mapping images as shown in Fig. 3d and
+3e. MXene sheets were distributed in both the inside and surface of
+fabrics, and bark-shaped MXene sheets can be also observed on the
+surface of inner fibers (Fig. 3d1), implying the uniform structure of the
+BMF-9 and the high penetration ability of MXene dispersion during the
+pad-drying process. In addition, the fibers were evenly wrapped by the
+MXene films with the thickness about 70 nm (Fig. 3d2). The EDS mapping
+image of Ti, C and O further revealed that the MXene was evenly
+distributed in the whole fabric for the BMF-9 (Fig. 3e). Moreover, BMF-9
+Fig. 3. SEM images of BMFs. (a) BMF-1. (b) BMF-5. (c) BMF-9. (d) The magnification SEM image of region A in the cross-section of BMF-9. (d1) The magnification of
+(d). (d2) The magnification SEM image of region B in the cross-section of BMF-9. (e) Cross-section SEM image of BMF-9 and the corresponding EDS mapping of the
+marked domain in (e).
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+6
+exhibits higher MXene loading ratio compared with BMF-7 and BMF-8
+(Fig. S8 and S9). As a result, the high MXene content and uniform
+bark-shaped MXene film ensured the high electrical conductivity of
+BMFs.
+We attempted to analyze the reason for the bark-shaped morphology
+of BMF-9 as illustrated in Fig. S10. The excess water will be squeezed out
+when the nonwoven fabrics containing MXene dispersion passed
+through the gaps of a pair of rolls. Thus, the residual MXene dispersion
+flowed along the fibers, and aligned MXene sheets will be deposited on
+the pre-stretched fibers owing to the shearing-flow induced orientation.
+After the release of pre-tension, the release of the residual stress of
+MXene sheets resulted in buckling of aligned MXene sheets to form the
+wrinkled MXene sheets and bark-shaped fiber morphology.
+3.3. Electrothermal and EMI shielding performance
+The electrothermal performance of the BMFs was evaluated by using
+the thermal infrared camera, which is shown in Fig. 4. It can be observed
+that the BMF-9 was evenly heated at various voltages (Fig. 4a-4c),
+indicating the uniform distribution of MXene sheets on the fabrics. In
+addition, the BMF-9 shows higher temperature than that of BMF-8 at all
+the applied voltages (Fig. S11), which was in good consistent with the
+Fig. 4. Electrothermal performance of the Bark-like MXene decorated fabrics. (a)-(c) Thermal infrared images of BMF-9 at the voltage of 3 V, 4 V and 5 V,
+respectively. Time-temperature curves of BMF-8 (d) and BMF-9 (e). (f) Comparison of electrothermal performance of the as prepared BMF with the previously
+reported works, such as PPy/MXene coated PET fabric [24], Graphene paper [28], PET/AgNW/PDMS yarn [26], MXene coated cotton fabric [15], PEDOT/MXene@
+cotton fabric [20], PANI/PET fabric [27], nanowire coated fabric [25], PDA/MXene@PP fabric [4].
+Fig. 5. EMI shielding performances of BMFs. (a) EMI shielding effectiveness of BMFs under the frequency of 8.2–12.4 GHz. (b) SET, SEA and SER of BMFs. (c)
+Shielding index of BMFs. (d) Average EMI shielding coefficient of BMFs. Schematic illustration of the transmission of EM waves (e), and the corresponding EMI
+shielding mechanism of the MXene modified fabrics before (f) and after (g) the formation of bark-shaped morphology.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+7
+sheet resistance results. The real-time temperature of the fabrics was
+also obtained from the infrared images, which was shown in Fig. 4d and
+4e. The surface temperature of BMF-8 was rapidly increased with the
+applied voltages and exhibited the surface temperature of 43.0 ◦C,
+49.0 ◦C, and 68.4 ◦C at 3 V, 4 V, and 5 V (Fig. 4d), respectively. Similarly,
+BMF-9 followed the same tendency and exhibited the highest
+temperature of 146.7 ◦C (ΔT = 125.7 ◦C) at 5 V (Fig. 4e). Compared with
+BMF-8, BMF-9 shows better electrothermal performance owing to its
+lower sheet resistance. More importantly, the BMF-9 demonstrated one
+of the state-of-the-art electrothermal performance, and its electrothermal
+performance was superior to most of the metal nanowire coated
+fabrics [25,26], conducting polymers modified fabrics [27], MXene
+decorated fabrics [15], and their composites [20,24], even the graphene
+paper [28]. For example, the surface temperature of BMF-9 (5 V) was
+2.23 times that of nanowire coated fabrics (65.9 ◦C) [25], 25.9% higher
+than that of MXene coated fabrics (116.5 ◦C, 5 V) [15], and 82.2%
+higher than that of PPy/MXene coated fabrics (80.5 ◦C, 4 V) [24]. The
+exceptional electrothermal performance of BMF-9 made it a promising
+candidate as the portable and wearable heater for personal management
+and heat physiotherapy.
+Considering the high electrical conductivity of BMFs, they are expected
+to have good EMI shielding performance, and their EMI shielding
+performance under 8.2–12.4 GHz was evaluated as shown in Fig. 5. The
+control and BMF-1 exhibit almost no EMI shielding performance because
+of their inferior electrical properties. The EMI shielding effectiveness
+(EMI SE) was incrementally increased from 3.2 dB to 36.3 dB by varying
+the pad-drying cycles from 3 to 9 (Fig. 5a), which coincided with the
+sheet resistance results. To provide a further understanding of the EMI
+shielding mechanism, we subdivided the total EMI SET into multiple
+reflection effectiveness (SEM), absorption effectiveness (SEA), and
+reflection effectiveness (SER) as shown in equation (1):
+SET = SER +SEA +SEM (2)
+It is generally assumed that internal multiple reflection can be
+negligible, when the total EMI SE value goes above 15 dB [29–33]. As a
+result, the SET was constituted of SER and SEA. Fig. 5b shows the SER, SEA
+and SET value of the BMFs. It can be seen that all the SET values were
+increased with the pad-drying cycles, and the BMF-9 demonstrated the
+highest average SET of 35.2 dB, which was comparable and even higher
+than most CNT, MXene and conducting polymers decorated fabrics and
+some MXene modified composites [15,20,34–39]. We also comprehensively
+compared the EMI shielding performance between our BMFs and
+other reported EMI shielding materials in terms of shielding performance
+and material thickness (Fig. S12), as the material thickness plays
+an important role in determining the EMI shielding performance. Our
+BMF-9 has the low thickness (0.62 mm) but high EMI SET of 35.2 dB,
+which is superior to other EMI shielding materials, including metalbased
+materials [40], graphene-based materials [41], conducting
+polymer-based materials [42], CNT-based materials [43], rGO-based
+materials and MXene-based materials [44,45].
+To evaluate the absorption percentage of incident electromagnetic
+waves, we calculated the absorptivity (SEA/SET) as shown in Fig. 5c. The
+absorptivity can be up to 77.7% for BMF-3 and then decreased to 56.1%
+for BMF-9, implying the decreased contribution from the EM absorption.
+In addition, to understand the EMI shielding mechanism of BMFs, we
+also calculated the S parameters to obtain the reflection coefficient (R),
+absorption coefficient (A) and transmission coefficient (T), which represents
+the ratio of reflection, absorption and transmission of EM waves
+(Fig. 5d). When the pad-drying cycle is below 3 times, BMFs show
+inferior EMI shielding performance and higher A value than that of R,
+and the maximum A value was 34.8%, indicating 34.8% EM wave absorption
+and the absorption-dominant EMI shielding mechanism
+[46–52]. R value dramatically increased and the maximum R value can
+Fig. 6. (a) Relative current change (ΔI/I0) of the BMF based pressure sensors under the pressure of 163 Pa and 327 Pa. (b) Response and relaxation times of BMF
+based pressure sensors under 1 kPa. (c) ΔI/I0 of the BMF based pressure sensors in pressure range of 0.163–17.4 kPa. (d) Comparison of the sensitivity and measuring
+range between this BMF based pressure sensors and previously reported flexible pressure sensors. (e) Schematic illustration of the microstructure deformation and
+dynamic change process of the BMF based pressure sensors before and after pressing.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+8
+be 97.1% for BMF-9 when the pad-drying cycle was more than 3 times,
+implying 97.1% EM waves was reflected and the shielding mechanism
+was dominated by reflection. The similar results can be also found in
+other nonwoven fabrics [53,54].
+Fig. 5e-5 g illustrates the EMI shielding mechanism of BMFs. As for
+the BMF-1 and BMF-3, the sufficiently conductive network is absent due
+to the low MXene loading contents (below the percolation threshold),
+and most of EM waves were transmitted the fabrics and only a part of the
+incident EM waves can be absorbed by some small circulation loops
+owing to the ohmic loss (Fig. 5f), which dissipated energy via mobile
+charges conduction, hopping, tunneling, as well as some MXene flakes as
+electric dipoles [54]. Therefore, Both BMF-1 and BMF-3 demonstrated
+the absorption-dominant EMI shielding mechanism. Further increasing
+the MXene loading leads to sufficient conductive networks and the
+formation of bark-shaped surface morphology. As a result, the interactions
+between the incident EM waves and the surface nomadic
+charges/mobile charge carriers (holes or electrons) resulted in the
+impedance mismatch between the BMFs and the air, and the majority of
+EM waves were reflected (Fig. 5g). Moreover, the bark-shaped
+morphology also contributes to the multiple reflections because of the
+multiple interfaces scattering effects. Hence, the EMI shielding mechanism
+transformed from the absorption-dominant to the reflectiondominant.
+3.4. Piezoresistive sensor performance
+To evaluate the piezoresistive performance of BMFs, they were
+sandwiched between the PDMS film and interdigitated electrodes to
+form the flexible pressure sensors (Fig. S13). The real-time current was
+recorded under various pressure at the constant voltage, and the relative
+current change percentage of the device is defined as ΔI/I0, where I0 is
+the current without pressure and ΔI equals the real time current minus
+the current under no pressure. Fig. 6a shows the relative current change
+(ΔI/I0) of the BMF based pressure sensor (BMFPS) under the pressure of
+163 Pa and 327 Pa. It can be seen that a fast current response can be
+obtained at the above pressure, and BMFPS exhibited the ΔI/I0 of 23.1 at
+327 Pa, which was about 100% higher than that of the sensor at 163 Pa.
+Further increasing the pressure to 1 kPa led to higher ΔI/I0 value (32.4)
+as shown in Fig. 6b, indicating the linear response of our BMFPS. In
+addition, the response and relaxation time was 500 ms and 20 ms,
+respectively, which was comparable with the MWCNT/PDMS film
+pressure sensor (125–500 ms) [55] and longer than that of real human
+skin (30–50 ms) [56].
+Sensitivity, as one of the most important performance indexes for the
+piezoresistive sensors, stands for the response rate of the sensors, which
+can be defined as
+S =
+ΔI/I0
+ΔP
+where P is the applied pressure. As shown in Fig. 6c, the BMFPS had
+the S value of 22.030 kPa􀀀 1 with linearity of R2 = 0.983 with pressure of
+0–3.266 kPa. The sensitivity S exhibits the highest value of 28.723 kPa􀀀 1
+with high linearity of R2 = 0.996 at the pressure of 3.266–12.2 kPa. A
+reduction of the S value (10.222 kPa􀀀 1) in the pressure between 12.2
+and 17.4 kPa, while the ΔI/I0 still exhibits the linear dependence with
+pressure (R2 = 0.978). To the best of our knowledge, our BMFPS
+demonstrated one of the highest sensitivity values among the reported
+flexible pressure sensors (Fig. 6d) [23,55,57–72]. For example, our
+BMFPS had comparable sensitivity with the surface microstructure
+pressure sensors (ACNT/G/PDMS film, Ag/micropatterned PDMS film,
+etc.) [58,62,63,71,72], but showed wider sensing range than them. Our
+BMFPS also exhibited higher sensitivity than the porous structure
+pressure sensors at the same sensing range [55,57,64,65,68,69], such as
+the PEDOT:PSS/polyimide aerogels and rGO/polyaniline sponge. The
+Fig. 7. (a) Real-time sensing signal of the BMF based pressure sensors towards small items with different weights (epoxy resin, binder clip, key). Real-time sensing
+signal recording for the pressure sensor for monitoring different human physiological signals, including finger pressing (b), walking (c) and pulse (d).
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+9
+excellent piezoresistive sensing performance of our BMFPS may be
+attributed to the synergetic effects between the porous structure of
+fabrics and bark-shaped surface microstructure of MXene, which can be
+explained as follows: (i) The bumps will be slipped and inserted into the
+grooves of the bark, resulting in the increase of the fiber contact area, the
+number of conductive pathways and the decrease of contact resistance
+(Fig. 6e); (ii) The porosity of fabrics will be decreased under pressure,
+leading to the decrease of fabric resistance.
+To demonstrate the practical applications of our BMFPS, we used our
+BMFPS to sense the small items including epoxy resin particle (~0.1 g),
+binder clips (1.95 ~ 4.97 g) and metal key (18.3 g). Obvious and fast
+current response signal can be read out upon the above items (Fig. 7a).
+The wide sensing range and high sensitivity of BMFPS made it an
+appealing candidate for real-time full-range human motion detections.
+Our BMFPS were put under the finger and feet to monitor the finger
+pressing and walking, where stable and repeatable sensing current can
+be observed as shown in Fig. 7b and 7c. Therefore, the BMFPS demonstrated
+great potential in guiding the physical rehabilitation training
+through monitoring the movement of human body part. The BMFPS
+were also adhered to the wrist to detect the pulse signal of the radial
+artery as shown in Fig. 7d, and reproducible pulse waveforms with the
+heart rate of 60 beats/min can be precisely recorded, implying the high
+sensitivity and fast response of our sensors.
+4. Conclusions
+In summary, we have regulated the surface microstructure of MXenecoated
+fiber via a facile pad-drying technology to investigate the effects
+of surface microstructure on the EMI shielding and piezoresistive
+sensing performance of fabrics. The fiber morphology was depended on
+the amount of MXene loading, and high loading MXene resulted in the
+bark-shaped surface morphology. The EMI shielding mechanism was
+shifted from absorption-dominant to reflection-dominant with the increase
+of MXene content, and the bark-shaped morphology significantly
+increased the EMI SE to 35.2 dB owing to the multiple interfaces scattering
+and reflections of EM waves. In addition, the bark-shaped MXene/
+fabrics (BMFs) showed excellent piezoresistive sensing performance
+including high sensitivity (28.723 kPa􀀀 1), wide sensing range (0–17.4
+kPa), high linearity (R2 = 0.996), and rapid response/recovery time. To
+the best of our knowledge, the piezoresistive sensing performance of
+BMFs surpasses those of one of the best ever reported pressure sensors.
+Moreover, the BMFs demonstrated excellent joule heating performance
+(146.7 ◦C, 5 V), which was even better than the silver nanowire modified
+fabrics. This work provides a new strategy for the structure design of
+functional textiles and presents potential applications in wearable
+electronics, such as intelligent E-skin and heat physiotherapy.
+CRediT authorship contribution statement
+Xianhong Zheng: Conceptualization, Methodology, Supervision,
+Writing – review & editing. Peng Wang: Visualization, Investigation.
+Xiansheng Zhang: Data curation. Qiaole Hu: Visualization, Investigation.
+Zongqian Wang: Data curation. Wenqi Nie: Visualization,
+Investigation. Lihua Zou: Investigation. Changlong Li: Writing – review
+& editing. Xu Han: Data curation.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgements
+This work was supported by the Natural Science Foundation of Anhui
+Province (2008085QE213), Anhui Province International Cooperation
+Research Center of Textile Structure Composites (2021ACTC07,
+2021ACTC10), State Key Laboratory of Bio-Fibers and Eco-Textiles
+(Qingdao University, No. KF2020210), Educational Commission of
+Anhui Province of China (KJ2020A0354), Research funding project for
+academic and technological leaders in Anhui Province (2020H218) , Key
+Research and Development Projects of Anhui Province
+(202004a06020055), Wuhu Science and Technology Plan Project
+(2020yf51), Open Project Program of Anhui Engineering and Technology
+Research Center of Textile, Anhui Province College of Anhui Province
+College Key Laboratory of Textile Fabrics (2021AETKL03,
+2021AETKL09), research funding from Anhui Polytechnic University
+(2020YQQ002, 2020YQQ043, 2020YQQ044, Xjky03201901,
+2020YQQ013, Xjky2020038, Xjky2020049, Xjky2020050,
+2020ffky01). We also thanks Dr. Dandan Liang for her kind help in EDS
+characterizations.
+Appendix A. Supplementary material
+Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.compositesa.2021.106700.
+References
+[1] Ismar E, Kurs¸un Bahadir S, Kalaoglu F, Koncar V. Futuristic Clothes: Electronic
+Textiles and Wearable Technologies. Glob Chall 2020;4(7):1900092. https://doi.
+org/10.1002/gch2.v4.710.1002/gch2.201900092.
+[2] Zheng X, Hu Q, Zhou X, Nie W, Li C, Yuan N. Graphene-based fibers for the energy
+devices application: A comprehensive review. Mater Des 2021;201:109476.
+https://doi.org/10.1016/j.matdes.2021.109476.
+[3] Zheng X, Hu Q, Wang Z, Nie W, Wang P, Li C. Roll-to-roll layer-by-layer assembly
+bark-shaped carbon nanotube/Ti3C2Tx MXene textiles for wearable electronics.
+J Colloid Interface Sci 2021;602:680–8.
+[4] Luo J, Gao S, Luo H, Wang L, Huang X, Guo Z, et al. Superhydrophobic and
+breathable smart MXene-based textile for multifunctional wearable sensing
+electronics. Chem Eng J 2021;406:126898. https://doi.org/10.1016/j.
+cej.2020.126898.
+[5] Lian Y, Yu He, Wang M, Yang X, Li Z, Yang F, et al. A multifunctional wearable Etextile
+via integrated nanowire-coated fabrics. J Mater Chem C 2020;8(25):
+8399–409.
+[6] Wang H, Niu H, Zhou H, Wei X, Yang W, Lin T. Multifunctional Directional Water
+Transport Fabrics with Moisture Sensing Capability. ACS Appl Mater Interfaces
+2019;11(25):22878–84.
+[7] Zhu S, Wang M, Qiang Z, Song J, Wang Y, Fan Y, et al. Multi-functional and highly
+conductive textiles with ultra-high durability through ’green’ fabrication process.
+Chem Eng J 2021;406:127140. https://doi.org/10.1016/j.cej.2020.127140.
+[8] Zhang CJ, Anasori B, Seral-Ascaso A, Park S-H, McEvoy N, Shmeliov A, et al.
+Transparent, Flexible, and Conductive 2D Titanium Carbide (MXene) Films with
+High Volumetric Capacitance. Adv Mater 2017;29(36):1702678. https://doi.org/
+10.1002/adma.201702678.
+[9] Zhang C, McKeon L, Kremer MP, Park S-H, Ronan O, Seral-Ascaso A, et al. Additivefree
+MXene inks and direct printing of micro-supercapacitors. Nat Commun 2019;
+10(1). https://doi.org/10.1038/s41467-019-09398-1.
+[10] Wang Z, Cheng Z, Fang C, Hou X, Xie Li. Recent advances in MXenes composites for
+electromagnetic interference shielding and microwave absorption. Compos Part Aappl
+S 2020;136:105956. https://doi.org/10.1016/j.compositesa:2020.105956.
+[11] Iqbal A, Kwon J, Kim M-K, Koo CM. MXenes for electromagnetic interference
+shielding: Experimental and theoretical perspectives. Mater Today Adv 2021;9:
+100124. https://doi.org/10.1016/j.mtadv.2020.100124.
+[12] Kim E, Zhang H, Lee J-H, Chen H, Zhang H, Javed MH, et al. MXene/polyurethane
+auxetic composite foam for electromagnetic interference shielding and impact
+attenuation. Compos Part A-Appl S 2021;147:106430. https://doi.org/10.1016/j.
+compositesa:2021.106430.
+[13] Song P, Liu B, Qiu H, Shi X, Cao D, Gu J. MXenes for polymer matrix
+electromagnetic interference shielding composites: A review. Compos Commun
+2021;24:100653. https://doi.org/10.1016/j.coco.2021.100653.
+[14] Wang L, Ma Z, Zhang Y, Chen L, Cao D, Gu J. Polymer-based EMI shielding
+composites with 3D conductive networks. A mini-review 2021;1(3):413–31.
+[15] Zhang X, Wang X, Lei Z, Wang L, Tian M, Zhu S, et al. Flexible MXene-Decorated
+Fabric with Interwoven Conductive Networks for Integrated Joule Heating,
+Electromagnetic Interference Shielding, and Strain Sensing Performances. ACS
+Appl Mater Interfaces 2020;12(12):14459–67.
+[16] Li Q, Yin R, Zhang D, Liu Hu, Chen X, Zheng Y, et al. Flexible conductive MXene/
+cellulose nanocrystal coated nonwoven fabrics for tunable wearable strain/
+pressure sensors. J Mater Chem A 2020;8(40):21131–41.
+[17] Levitt A, Hegh D, Phillips P, Uzun S, Anayee M, Razal JM, et al. 3D knitted energy
+storage textiles using MXene-coated yarns. Mater Today 2020;34:17–29.
+[18] Tucker A, Levia DF, Katul GG, Nanko K, Rossi LF. A network model for stemflow
+solute transport. Appl Math Model 2020;88:266–82.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+10
+[19] Lund A, Darabi S, Hultmark S, Ryan JD, Andersson B, Str¨om A, et al. Roll-to-Roll
+Dyed Conducting Silk Yarns: A Versatile Material for E-Textile Devices. Adv Mater
+Technol 2018;3(12):1800251. https://doi.org/10.1002/admt.v3.1210.1002/
+admt.201800251.
+[20] Zheng X, Shen J, Hu Q, Nie W, Wang Z, Zou L, et al. Vapor phase polymerized
+conducting polymer/MXene textiles for wearable electronics. Nanoscale 2021;13
+(3):1832–41.
+[21] Zheng X, Nie W, Hu Q, Wang X, Wang Z, Zou L, et al. Multifunctional RGO/
+Ti3C2Tx MXene fabrics for electrochemical energy storage, electromagnetic
+interference shielding, electrothermal and human motion detection. Mater Des
+2021;200:109442. https://doi.org/10.1016/j.matdes.2020.109442.
+[22] Uzun S, Seyedin S, Stoltzfus AL, Levitt AS, Alhabeb M, Anayee M, et al. Knittable
+and Washable Multifunctional MXene-Coated Cellulose Yarns. Adv Funct Mater
+2019;29(45):1905015. https://doi.org/10.1002/adfm.v29.4510.1002/
+adfm.201905015.
+[23] Zheng Y, Yin R, Zhao Ye, Liu Hu, Zhang D, Shi X, et al. Conductive MXene/cotton
+fabric based pressure sensor with both high sensitivity and wide sensing range for
+human motion detection and E-skin. Chem Eng J 2021;420:127720. https://doi.
+org/10.1016/j.cej.2020.127720.
+[24] Wang Q-W, Zhang H-B, Liu Ji, Zhao S, Xie Xi, Liu L, et al. Multifunctional and
+Water-Resistant MXene-Decorated Polyester Textiles with Outstanding
+Electromagnetic Interference Shielding and Joule Heating Performances. Adv
+Funct Mater 2019;29(7):1806819. https://doi.org/10.1002/adfm.v29.710.1002/
+adfm.201806819.
+[25] Li J, Chen J, Wang H, Xiao Xu. All-MXene Cotton-Based Supercapacitor-Powered
+Human Body Thermal Management System. ChemElectroChem 2021;8(4):648–55.
+[26] Yang Z, Wang W, Bi L, Chen L, Wang G, Chen G, et al. Wearable electronics for
+heating and sensing based on a multifunctional PET/silver nanowire/PDMS yarn.
+Nanoscale 2020;12(31):16562–9.
+[27] Zhao Z, Zhou J, Xiao H, Liu Y, Lu M. Creation of polyaniline-coated polyester
+fabrics with conductive, electrothermal and energy-storage properties via microdissolution
+method. Mater Today Commun 2020;24:101042. https://doi.org/
+10.1016/j.mtcomm.2020.101042.
+[28] Guo Y, Dun C, Xu J, Mu J, Li P, Gu L, et al. Ultrathin, Washable, and Large-Area
+Graphene Papers for Personal Thermal Management. Small 2017;13(44):1702645.
+https://doi.org/10.1002/smll.v13.4410.1002/smll.201702645.
+[29] Zhang Y, Ruan K, Shi X, Qiu H, Pan Y, Yan Yi, et al. Ti3C2Tx/rGO porous
+composite films with superior electromagnetic interference shielding
+performances. Carbon 2021;175:271–80.
+[30] Wang L, Song P, Lin C-T, Kong J, Gu J. 3D Shapeable, Superior Electrically
+Conductive Cellulose Nanofibers/Ti3C2Tx MXene Aerogels/Epoxy
+Nanocomposites for Promising EMI Shielding. Research 2020;2020:1–12.
+[31] Liang C, Qiu H, Song P, Shi X, Kong J, Gu J. Ultra-light MXene aerogel/woodderived
+porous carbon composites with wall-like “mortar/brick” structures for
+electromagnetic interference shielding. Sci Bull 2020;65(8):616–22.
+[32] Zhang Y, Ruan K, Gu J. Flexible Sandwich-Structured Electromagnetic Interference
+Shielding Nanocomposite Films with Excellent Thermal Conductivities. Small
+2021;17(42):2101951. https://doi.org/10.1002/smll.v17.4210.1002/
+smll.202101951.
+[33] Ma Z, Kang S, Ma J, Shao L, Zhang Y, Liu C, et al. Ultraflexible and Mechanically
+Strong Double-Layered Aramid Nanofiber-Ti3C2Tx MXene/Silver Nanowire
+Nanocomposite Papers for High-Performance Electromagnetic Interference
+Shielding. ACS Nano 2020;14(7):8368–82.
+[34] Cui Z, Gao C, Fan Z, Wang J, Cheng Z, Xie Z, et al. Lightweight MXene/Cellulose
+Nanofiber Composite Film for Electromagnetic Interference Shielding. J Electron
+Mater 2021;50(4):2101–10.
+[35] Raagulan K, Braveenth R, Kim BM, Lim KJ, Lee SB, Kim M, et al. An effective
+utilization of MXene and its effect on electromagnetic interference shielding:
+flexible, free-standing and thermally conductive composite from MXene–PAT–poly
+(p-aminophenol)–polyaniline co-polymer. RSC Adv 2020;10(3):1613–33.
+[36] Zhang Y, Wang L, Zhang J, Song P, Xiao Z, Liang C, et al. Fabrication and
+investigation on the ultra-thin and flexible Ti3C2Tx/co-doped polyaniline
+electromagnetic interference shielding composite films. Compos Sci Technol 2019;
+183:107833. https://doi.org/10.1016/j.compscitech.2019.107833.
+[37] Song P, Qiu H, Wang L, Liu X, Zhang Y, Zhang J, et al. Honeycomb structural rGOMXene/
+epoxy nanocomposites for superior electromagnetic interference shielding
+performance. Sustainable Mater Technol 2020;24:e00153. https://doi.org/
+10.1016/j.susmat.2020.e00153.
+[38] Wang L, Chen L, Song P, Liang C, Lu Y, Qiu H, et al. Fabrication on the annealed
+Ti3C2Tx MXene/Epoxy nanocomposites for electromagnetic interference shielding
+application. Compos Part B-eng 2019;171:111–8.
+[39] Wang X, Lei Z, Ma X, He G, Xu T, Tan J, et al. A Lightweight MXene-Coated
+Nonwoven Fabric with Excellent Flame Retardancy, EMI Shielding, and
+Electrothermal/Photothermal Conversion for Wearable Heater. Chem Eng J. 2022;
+430:132605. https://doi.org/10.1016/j.cej.2021.132605.
+[40] Ji K, Zhao H, Zhang J, Chen J, Dai Z. Fabrication and electromagnetic interference
+shielding performance of open-cell foam of a Cu-Ni alloy integrated with CNTs.
+Appl Surf Sci 2014;311:351–6.
+[41] Chen Z, Xu C, Ma C, Ren W, Cheng H-M. Lightweight and Flexible Graphene Foam
+Composites for High-Performance Electromagnetic Interference Shielding. Adv
+Mater 2013;25(9):1296–300.
+[42] Yuan B, Yu L, Sheng L, An K, Zhao X. Comparison of electromagnetic interference
+shielding properties between single-wall carbon nanotube and graphene sheet/
+polyaniline composites. J Phys D Appl Phys 2012;45(23):235108. https://doi.org/
+10.1088/0022-3727/45/23/235108.
+[43] Pitk¨anen O, Tolvanen J, Szenti I, Kukovecz ´A, Hannu J, Jantunen H, et al.
+Lightweight Hierarchical Carbon Nanocomposites with Highly Efficient and
+Tunable Electromagnetic Interference Shielding Properties. ACS Appl Mater
+Interfaces 2019;11(21):19331–8.
+[44] Xin W, Ma M-G, Chen F. Silicone-Coated MXene/Cellulose Nanofiber Aerogel Films
+with Photothermal and Joule Heating Performances for Electromagnetic
+Interference Shielding. ACS Appl Nano Mater 2021;4(7):7234–43.
+[45] Narasimman R, Vijayan S, Prabhakaran K. Graphene-reinforced carbon composite
+foams with improved strength and EMI shielding from sucrose and graphene oxide.
+J Mater Sci 2015;50(24):8018–28.
+[46] Zhao B, Guo X, Zhao W, Deng J, Shao G, Fan B, et al. Yolk-Shell Ni@SnO2
+Composites with a Designable Interspace To Improve the Electromagnetic Wave
+Absorption Properties. ACS Appl Mater Interfaces 2016;8(42):28917–25.
+[47] Che RC, Peng L-M, Duan XF, Chen Q, Liang XL. Microwave Absorption
+Enhancement and Complex Permittivity and Permeability of Fe Encapsulated
+within Carbon Nanotubes. Adv Mater 2004;16(5):401–5.
+[48] Liu Q, Cao Qi, Bi H, Liang C, Yuan K, She W, et al. CoNi@SiO2@TiO2 and CoNi@
+Air@TiO2 Microspheres with Strong Wideband Microwave Absorption. Adv Mater
+2016;28(3):486–90.
+[49] Zhao B, Shao G, Fan B, Zhao W, Xie Y, Zhang R. Synthesis of flower-like CuS hollow
+microspheres based on nanoflakes self-assembly and their microwave absorption
+properties. J Mater Chem A 2015;3(19):10345–52.
+[50] Li M, Fan X, Xu H, Ye F, Xue J, Li X, et al. Controllable synthesis of mesoporous
+carbon hollow microsphere twined by CNT for enhanced microwave absorption
+performance. J Mater Sci Technol 2020;59:164–72.
+[51] Zhao B, Guo X, Zhao W, Deng J, Fan B, Shao G, et al. Facile synthesis of yolk-shell
+Ni@void@SnO2(Ni3Sn2) ternary composites via galvanic replacement/Kirkendall
+effect and their enhanced microwave absorption properties. Nano Res 2017;10(1):
+331–43.
+[52] Zhao B, Li Y, Zeng Q, Wang L, Ding J, Zhang R, et al. Galvanic Replacement
+Reaction Involving Core-Shell Magnetic Chains and Orientation-Tunable
+Microwave Absorption Properties. Small 2020;16(40):2003502. https://doi.org/
+10.1002/smll.v16.4010.1002/smll.202003502.
+[53] Lu L, Xing Di, Teh KS, Liu H, Xie Y, Liu X, et al. Structural effects in a composite
+nonwoven fabric on EMI shielding. Mater Des 2017;120:354–62.
+[54] Xing Di, Lu L, Xie Y, Tang Y, Teh KS. Highly flexible and ultra-thin carbon-fabric/
+Ag/waterborne polyurethane film for ultra-efficient EMI shielding. Mater Des
+2020;185:108227. https://doi.org/10.1016/j.matdes.2019.108227.
+[55] Li W, Jin X, Han X, Li Y, Wang W, Lin T, et al. Synergy of Porous Structure and
+Microstructure in Piezoresistive Material for High-Performance and Flexible
+Pressure Sensors. ACS Appl Mater Interfaces 2021;13(16):19211–20.
+[56] Chortos A, Bao Z. Skin-inspired electronic devices. Mater Today 2014;17(7):
+321–31.
+[57] Guan X, Wang Z, Zhao W, Huang H, Wang S, Zhang Qi, et al. Flexible Piezoresistive
+Sensors with Wide-Range Pressure Measurements Based on a Graded Nest-like
+Architecture. ACS Appl Mater Interfaces 2020;12(23):26137–44.
+[58] Nie Pu, Wang R, Xu X, Cheng Y, Wang X, Shi L, et al. High-Performance
+Piezoresistive Electronic Skin with Bionic Hierarchical Microstructure and
+Microcracks. ACS Appl Mater Interfaces 2017;9(17):14911–9.
+[59] Tewari A, Gandla S, Bohm S, McNeill CR, Gupta D. Highly Exfoliated MWNT-rGO
+Ink-Wrapped Polyurethane Foam for Piezoresistive Pressure Sensor Applications.
+ACS Appl Mater Interfaces 2018;10(6):5185–95.
+[60] Yang C, Liu WeiJie, Liu N, Su J, Li L, Xiong L, et al. Graphene Aerogel Broken to
+Fragments for a Piezoresistive Pressure Sensor with a Higher Sensitivity. ACS Appl
+Mater Interfaces 2019;11(36):33165–72.
+[61] Zhan Z, Lin R, Tran V-T, An J, Wei Y, Du H, et al. Paper/Carbon Nanotube-Based
+Wearable Pressure Sensor for Physiological Signal Acquisition and Soft Robotic
+Skin. ACS Appl Mater Interfaces 2017;9(43):37921–8.
+[62] Park H, Jeong YR, Yun J, Hong SY, Jin S, Lee S-J, et al. Stretchable Array of Highly
+Sensitive Pressure Sensors Consisting of Polyaniline Nanofibers and Au-Coated
+Polydimethylsiloxane Micropillars. ACS Nano 2015;9(10):9974–85.
+[63] Jian M, Xia K, Wang Qi, Yin Z, Wang H, Wang C, et al. Flexible and Highly
+Sensitive Pressure Sensors Based on Bionic Hierarchical Structures. Adv Funct
+Mater 2017;27(9):1606066. https://doi.org/10.1002/adfm.201606066.
+[64] Zhao X, Wang W, Wang Z, Wang J, Huang T, Dong J, et al. Flexible PEDOT:PSS/
+polyimide aerogels with linearly responsive and stable properties for piezoresistive
+sensor applications. Chem Eng J 2020;395:125115. https://doi.org/10.1016/j.
+cej.2020.125115.
+[65] Yang L, Jiang C, Yan J, Shen Y, Chen Yi, Xu L, et al. Structuring the reduced
+graphene oxide/polyHIPE foam for piezoresistive sensing via emulsion-templated
+polymerization. Compos Part A-appl S 2020;134:105898. https://doi.org/
+10.1016/j.compositesa:2020.105898.
+[66] Li X-P, Li Y, Li X, Song D, Min P, Hu C, et al. Highly sensitive, reliable and flexible
+piezoresistive pressure sensors featuring polyurethane sponge coated with MXene
+sheets. J Colloid Interface Sci 2019;542:54–62.
+[67] Zheng W, Xu L, Li Y, Huang Y, Li B, Jiang Z, et al. Anti-freezing, moisturizing,
+resilient and conductive organohydrogel for sensitive pressure sensors. J Colloid
+Interface Sci 2021;594:584–92.
+[68] Yin X, Vinod TP, Jelinek R. A flexible high-sensitivity piezoresistive sensor
+comprising a Au nanoribbon-coated polymer sponge. J Mater Chem C 2015;3(35):
+9247–52.
+[69] Ge G, Cai Y, Dong Q, Zhang Y, Shao J, Huang W, et al. A flexible pressure sensor
+based on rGO/polyaniline wrapped sponge with tunable sensitivity for human
+motion detection. Nanoscale 2018;10(21):10033–40.
+X. Zheng et al.
+Composites Part A 152 (2022) 106700
+11
+[70] Zhang J, Zhou LJ, Zhang HM, Zhao ZX, Dong SL, Wei S, et al. Highly sensitive
+flexible three-axis tactile sensors based on the interface contact resistance of
+microstructured graphene. Nanoscale 2018;10(16):7387–95.
+[71] Cao Y, Li T, Gu Y, Luo H, Wang S, Zhang T. Fingerprint-Inspired Flexible Tactile
+Sensor for Accurately Discerning Surface Texture. Small 2018;14(16):1703902.
+https://doi.org/10.1002/smll.v14.1610.1002/smll.201703902.
+[72] Su B, Gong S, Ma Z, Yap LW, Cheng W. Mimosa-Inspired Design of a Flexible
+Pressure Sensor with Touch Sensitivity. Small 2015;11(16):1886–91.
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
+X. Zheng et al.

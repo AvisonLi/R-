@@ -1,0 +1,388 @@
+MANAGEMENT SCIENCE
+Vol. 66, No. 6, June 2020, pp. 2796–2799
+http://pubsonline.informs.org/journal/mnsc ISSN 0025-1909 (print), ISSN 1526-5501 (online)
+Aging Population, Retirement, and Risk Taking: Reply
+Haim Levya
+a School of Business, The Hebrew University of Jerusalem, Jerusalem 91905, Israel
+Contact: mshlevy@huji.ac.il, https://orcid.org/0000-0001-8623-3507 (HL)
+Received: June 25, 2018
+Revised: August 26, 2019; November 26, 2018
+Accepted: September 6, 2019
+Published Online in Articles in Advance:
+May 6, 2020
+https://doi.org/10.1287/mnsc.2019.3518
+Copyright: © 2020 INFORMS
+Abstract. In theorem 1 given in my paper, “Aging Population, Retirement, and Risk
+Taking” [Levy H (2016a) Aging population, retirement, and risk taking. Management Sci.
+62(5):1415–1430.], there is indeed a technical error. Yet, adding one condition to the
+theorem (which can be added in two alternate ways) is sufficient to ensure the dominance
+of stocks over bonds in the very long run. For the commonly employed preferences, the
+empirical evidence conforms with the claim given in my original theorem 1, asserting that
+the portfolio with the higher geometric mean (stocks) dominates the other portfolio under
+consideration (bonds) as the investment horizon increases indefinitely. Thus, as advocated
+in my paper, stocks dominate bonds for investors with typical preferences who save
+for retirement.
+History: Accepted by Karl Deither, finance.
+Keywords: asymptotic stochastic dominance • investment horizon • stocks for the long run
+1. Introduction
+Iwould like to thank Rachel J. Huang, Larry Y. Tzeng,
+Jr-Yan Wang, and Lin Zhao, as well as Moshe Levy
+for correcting a technical error in my paper (see Levy
+2016a), and particularly for extending the results of
+my paper in several interesting directions.1 Their
+comments also shedmore light on the important longstanding
+debate of whether stocks (which have a higher
+geometric mean than bonds) dominate bonds in the
+very long run, and hence whether the well-known
+assertion of “stocks for the long run” is valid. I divide
+my reply to both comments into two categories: the
+theoretical analysis and the empirical evidence.
+2. The Theoretical Analysis
+First, in my paper Levy (2016a), there is indeed a
+technical error with an implication to theorem 1. Two
+cumulative normal distributions, F and G (which
+in the specific case analyzed in my paper are the
+distributions of log-returns), have at most one intersection
+point given by
+x0  μF σG − μGσF
+( )
+(σG − σF) , (1)
+where μ and σ stand for the mean and standard deviation
+of these two distributions, respectively. Assuming
+independence over time and a T-period investment
+horizon, the intersection point of the two
+distributions of the log-terminal wealth is given by
+x0  T μF σG − μGσF
+( )
+(σG − σF) . (2)
+In mypaper (Levy 2016a), Iwrote that the intersection
+point between two normal distributions is given by
+z0  μF
+− μG
+( )
+(σG − σF) for T  1, (3)
+and that for T > 1, it is given by
+z0 
+̅̅
+T
+√ μF
+− μG
+( )
+(σG − σF) (4)
+(see equation (3) in Levy 2016a).
+Note that both Equations (1) and (3) are correct.
+However, Equation (3) gives the intersection point in
+terms of the standardized normal distribution z0 and
+Equation (1) gives the intersection point in terms of
+the nonstandardized normal distribution x0.2 For the
+dominance analysis the intersection point given by x0 is
+the relevant one, but I mistakenly used z0. Unfortunately,
+this scribal error occurred and it has an implication
+to the conditions for dominance given in
+Theorem 1, which I correct in this reply. Let me first
+state the original Theorem 1 as a reference point and
+then state, in two alternate ways (corresponding to
+the comments from Huang et al. 2019 and Levy 2019),
+the additional conditions required to guarantee the
+dominance of F over G. Note first that in the analysis
+below we rely on the following well-known relations:
+if log(x) is normally distributed, then the variable x
+is log-normally distributed and when log(x)→+∞,
+x→+∞, and when log(x)→−∞, x→0.
+Theorem 1. Assume an investment horizon of T periods
+and that WT(F) and WT (G) are log-normal distributions.
+2796
+Assume that μF>μG; namely, F has a higher geometric
+mean than G. Then, for T→∞, F (with the larger geometric
+mean) dominates G by almost first-degree stochastic dominance
+(AFSD) if and only if μF >μG and σF ≥σG, provided
+that the marginal utility is bounded (see Levy 2016a).
+Note that the parameters given in Theorem 1 correspond
+to log-returns. To avoid confusion in the rest of
+my reply, I denote by z0 the intersection point of the
+standardized normal distributions, by x0 the intersection
+point of the two corresponding nonstandardized
+normal distributions (see endnote 2), and by L0
+the intersection point of the corresponding two lognormal
+distributions.
+As explainedabove,Equation(2) (and not Equation (4))
+is the relevant one for determining the dominance
+relation, and therefore Theorem1 should be modified.
+One way to modify Theorem 1, as emerges indirectly
+from the comment of Huang et al. (2019), is to add
+to Theorem 1 the condition μF/σF >μG/σG and “iff”
+should be replaced by “if.” With the additional requirement
+that μF/σF >μG/σG, it is easy to see that
+T→∞ implies that x0→ −∞ for the normal distributions,
+and therefore L0→0 for the corresponding lognormal
+distributions. Thus, in the whole range F (with
+the higher geometric mean) is located below G, and
+hence the dominance of F over G in the long run
+(AFSD) is obtained.
+Huang et al. (2019) correctly claim that theoretically
+we may have dominance also in the case where σF < σG,
+and hence the condition σF ≥ σG is not a necessary
+condition for dominance. Therefore, in the modified
+theorem given below, I replaced “iff” by “if.” While in
+a comparison of any two prospects the relation σF < σG
+is generally possible, it is irrelevant to my paper, as
+I analyze whether stocks dominate bonds for the long
+run, and with empirical data we have σF > σG (see the
+empirical data given below). Moreover, the problem
+with this modification is that when stocks and bonds
+are compared, generally the condition μF/σF >μG/σG
+does not conform with empirical data. Therefore, we
+need to rely on the dominance suggestion given in
+the comment of Levy (2019), who allows also the
+case μF/σF <μG/σG that conforms to the empirical
+evidence. Let us elaborate. First, M. Levy’s comment
+also corrects the intersection point formula that I
+employed in my paper and shows that as T→∞, the
+intersection point of the two log-normal distributions
+either approaches 0 or +∞. M. Levy shows that my
+original claim of the superiority of the portfolio with
+the higher geometric mean remains intact if one also
+adds a lower bound on the marginal utility, namely,
+U ≥MLB, where MLB stands for the bound suggested
+by M. Levy. Combining the suggestions given in the
+two comments, I revise Theorem 1 by adding the lower
+bound suggested by M. Levy as follows.
+Revised Theorem 1. Assume an investment horizon of
+T periods and that WT(F) and WT (G) are log-normal distributions
+where F and G stand for the distribution of stocks
+and bonds, respectively. Assume that σF > σG and that the
+marginal utility is bounded from above (as suggested in Levy
+2016a) and also from below (as suggested by Levy 2019).
+Then, μF >μG (namely, F has a higher geometric mean
+than G) is a sufficient condition for dominance of F over G
+by AFSD.
+Proof. The correct intersection point of the two normal
+distributions can be rewritten as
+x0 
+(
+μF
+σF
+− μG
+σG
+)/(
+1
+σF
+− 1
+σG
+)
+≡ A/B.
+For T > 1, it is given by Tx0 (see equations (1) and (2) in
+Levy 2019). As we assume that σF(stocks) > σG(bonds),
+the denominator term B is negative. There are two
+extreme possible locations of the intersection point and
+we consider below each possible location separately.
+1. If A is positive, thenwe have that as T→∞, L0→0
+and F dominates G, as claimed in my original
+Theorem 1.
+2. If A is negative, then when T→∞, we have that
+L0→∞ and we need to add Levy’s (2019) lower
+bound on the marginal utility to guarantee dominance
+of F over G (the proof of this case is given in
+Levy 2019).
+Thus, one can modify my original Theorem 1 in
+two alternate directions to maintain its result of the
+dominance of stocks over bonds in the very long run:
+(a) adding a lower-bound constraint on the marginal
+utility (as suggested by M. Levy), or (b) adding
+to the original Theorem 1 the condition μF/σF >μG/σG.
+However, as we see below, the condition μF/σF>
+μG/σG does not hold empirically. Therefore, we focus
+on the suggestion ofM. Levy to add a lower bound on
+the marginal utility. Note that, as the conditions for
+dominance are sufficient and not necessary, it even
+strengthens the assertion “stocks for the long run,” as
+stocks may dominate bonds even in cases where one
+of the conditions does not hold, let alone when the
+conditions hold.
+3. The Empirical Evidence
+The interesting question is whether the added conditions
+needed to guarantee dominance of F over G
+have empirical support.
+Table 1 provides the empirical parameters of logreturns
+for stocks, bonds, and treasury bills.
+As can be seen from this table, the mean return of
+stocks is much larger than the corresponding means
+of bonds and treasury bills, respectively. But what is
+more relevant to the issue analyzed inmy paper is that
+Levy: Aging Population and Risk Taking
+Management Science, 2020, vol. 66, no. 6, pp. 2796–2799, © 2020 INFORMS 2797
+the standard deviation for stocks is 0.195, much larger
+than the corresponding figure for bonds (0.075). Therefore,
+the case σF <σG is practically irrelevant to the
+issue of whether stocks dominate bonds in the long
+run. Finally, we have, empirically, that μF/σF<μG/σG
+(see Table 1); therefore, the additional condition
+μF/σF> μG/σG , although theoretically possible, has
+no empirical support.
+In sum, while with the empirical data we have
+σF >σG and the case σF < σG is empirically irrelevant,
+theoretically, the additional required condition for the
+sufficiency side of Theorem 1 as suggested by Huang
+et al. (2019) is needed. In addition, the condition
+μF/σF > μG/σG does not hold empirically when bonds
+and stocks are compared. Therefore, we focus below
+on the more relevant condition suggested by Levy
+(2019) for the dominance of stocks over bonds in the
+case where μF/σF < μG/σG, a case which has strong
+empirical support (see Table 1).
+We turn to the empirical implications of the theoretical
+criticisms of Levy (2019). First, note that it is
+assumed that μF >μG and σF > σG, which conform
+with the empirical data where stocks and bonds are
+considered. Because empirically we find that also
+μF/σF< μG/σG (see Table 1), the empirically relevant
+intersection point is given by L0→∞. Therefore,
+we need to address the comment and approach of
+Levy (2019). He correctly claims that in this case one
+needs to impose a lower bound on themarginal utility
+to guarantee dominance of stocks over bonds in the
+very long run. The empirical question is wheth-er the
+needed empirical lower bound holds for all (or for
+most) economically relevant utility functions. Levy
+(2019) investigates a few functions attemp-ting to
+show that the lower bound does not hold, hence refuting
+the assertion that stocks dominate bonds in the
+long run. Reading carefully his comment, it seems that
+Levy (2019) struggles to find some specific preferences
+for which the required lower bound does not
+hold and bonds provide a higher expected utility than
+stocks. Indeed, he shows empirically that for exponential
+preference U(x)  −e−4x and for the utility
+function U(x)  U(x)  (x + A)1−α/(1 − α) with α  10
+the required condition on the marginal utility does not
+hold, and also that bonds are better than stocks for the
+long run. However, for a more reasonable risk-aversion
+parameter α  0.5 or even α ≤ 2, stocks provide a
+higher expected utility than bonds in the long run,
+which conforms with the claim in Theorem 1.
+My response to these results is that they rather
+support my argument of “stocks (with the higher
+geometric mean) for the long run.” First, the exponential
+utility function with the relevant parameters
+has the deficiency of the “blank check” paradox (see
+Markowitz et al. 1994, p. 89). In their words: “An
+immediate consequence is this: If the investor has RRA ≥1,
+as many believe is true and/or desirable, and Rc > ln2, as do
+most of our respondents, then the investor cannot have an
+exponential utility function.”
+By the same token, using the generalized myopic
+utility function with α  10 (for which the required
+lower-bound condition does not hold and bonds are
+preferred over stocks) is irrelevant, as the relative
+risk-aversion parameter α is typically estimated to be
+at most 2, and most researches claim that it is even
+smaller than 1 (see Mehra and Prescott 1985 and
+references within). Thus, it seems to be very hard, if
+not impossible, to find nonpathological utility functions
+with economically relevant parameters where
+the lower bound suggested by Levy (2019) on the
+marginal utility function is not met and bonds are
+preferred to stocks. Therefore, it seems that, for virtually
+all commonly employed utility functions, we
+have a dominance of stocks over bonds for the long
+run, as I claimed in my original paper.
+Levy (2019) derives a closed-form solution for the
+portfolio-choice problem of constant relative risk
+aversion (CRRA) investors under the assumption
+of log-normal return distributions. He finds that
+with the empirical parameters, stocks are preferred
+to bonds for all CRRA investorswith a relative riskaversion
+coefficient smaller than 3.9. This, once
+again, supportsmyclaim of the dominance of stocks over
+bonds, as most estimates of the risk-aversion parameter
+available in the literature, as mentioned above, indicate
+that the risk-aversion parameter is even smaller than 2.
+To sum up, in general, as T→∞, the intersection
+point of the two log-normal distributions is either
+approaching zero or infinity. If it approaches zero,
+then stocks dominate bonds, as advocated in my
+paper. If it approaches infinity, then we need to add
+also a lower bound on the marginal utility to guarantee
+that stocks dominate bonds in the long run.
+Alternatively, one can also add the condition μF/σF>
+μG/σG to make my Theorem 1 sufficient (but not
+necessary) without the need to add M. Levy’s lower
+bound. While this path may be useful in some cases,
+in comparing stocks to bonds for the long run, this
+approach is irrelevant, as, empirically, μF/σF <μG/σG.
+Thus, to guarantee a dominance of stocks over bonds
+Table 1. The Mean and Standard Deviation of log-Returns
+Treasury bills Corporate bonds Stocks (S&P 500)
+μ 0.034 0.060 0.097
+σ 0.029 0.075 0.195
+μ/σ 1.172 0.800 0.497
+Source. Levy 2016b, p. 383.
+Note. The calculations are based on annual return for the period
+1926–2013.
+Levy: Aging Population and Risk Taking
+2798 Management Science, 2020, vol. 66, no. 6, pp. 2796–2799, © 2020 INFORMS
+in the long run, we need the lower bound on the
+marginal utility as suggested by Levy (2019).
+Empirically, stocks have a higher geometric mean
+return (and obviously also a higher arithmetic mean
+return), a higher variance, and a smaller μ/σ than the
+corresponding parameters of bonds. Therefore, one
+needs a utility function with a relatively large riskaversion
+parameter to reveal a preference for bonds.
+Indeed, there is empirically a preference for bonds
+with exponential preferences with an absolute riskaversion
+parameter greater than 4, or myopic utility
+functions with a relative risk-aversion parameter
+greater than 10. These two cases are not accepted by
+virtually all economists, as the risk-aversion parameter
+is much smaller; hence, with the relevant parameters,
+stocks are preferred to bonds.
+Acknowledgments
+I amgrateful to the departmental editor, Karl Diether, and the
+anonymous referee for their helpful suggestions.
+Endnotes
+1 In two recent papers on this topic, Huang et al. (2020b) and Levy
+(2019) suggest additional interesting extensions. M. Levy shows in
+proposition 1 of his paper that if the distributions of returns of
+portfolios are log-normal, then the CRRA investor will choose the
+portfolio with the highest value of μ + σ(1 − α)/2, where (1 − α)
+denotes the relative risk-aversion index of the CRRA investor.
+Huang et al. (2019b) extend the analysis regarding this topic in a
+different direction: first they define a new concept called operational
+asymptotic stochastic dominance and then for log-normal distributions,
+in their theorem 3, they provide an “if and only if” condition for
+operational AFSD of one distribution over the other.
+2 Equation (3) provides the intersection point of two cumulative
+normal distributions in terms of the standardized normal variable z.
+However, as we are interested in the intersection point in terms of the
+normal nonstandardized variable, x0 ,we have for T  1 the following
+relation: z0  (μF
+− μG
+)
+(σG −σF)→x0  (μFσG − μGσF)
+σG − σF , which clarifies the relation
+between Equations (1) and (3). Yet, only Equation (1) is relevant for
+the analysis given in my original paper.
+References
+Huang RJ, Tzeng LY, Wang JY, Zhao L (2019) Comment on “Aging
+population, retirement, and risk taking.” Management Sci,
+ePub ahead of print August 29, https://doi.org/10.1287/
+mnsc.2018.3052.
+Huang RJ, Tzeng LY, Wang JY, Zhao L (2020) Operational asymptotic
+stochastic dominance. Eur. J. Oper. Res. 280(1):312–322.
+Levy H (2016a) Aging population, retirement, and risk taking. Management
+Sci. 62(5):1415–1430.
+Levy H (2016b) Stochastic Dominance: Investment Decision Making
+Under Uncertainty, 3rd ed. (Springer, New York).
+Levy M (2019) Stocks for the long-run and constant relative risk
+aversion preferences. Eur. J. Oper. Res. 277(3):1163–1168.
+Markowitz HM, Reid DW, Tew BV (1994) The value of a blank check.
+J. Portfolio Management 20(4):82–91.
+Mehra R, Prescott EC (1985) The equity premium: A puzzle.
+J. Monetary Econom. 15(2):145–161.
+Levy: Aging Population and Risk Taking
+Management Science, 2020, vol. 66, no. 6, pp. 2796–2799, © 2020 INFORMS 2799
+Copyright 2020, by INFORMS, all rights reserved. Copyright of Management Science is the
+property of INFORMS: Institute for Operations Research and its content may not be copied or
+emailed to multiple sites or posted to a listserv without the copyright holder's express written
+permission. However, users may print, download, or email articles for individual use.

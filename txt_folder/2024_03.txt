@@ -1,0 +1,1620 @@
+<<<<<<< HEAD
+Nuclear Instruments and Methods in Physics Research A 1063 (2024) 169303
+Available online 31 March 2024
+0168-9002/© 2024 Elsevier B.V. All rights reserved.
+Dark matter event in nuclear emulsions II: Ionic relaxation
+and recombination
+Tadaaki Tani a,*, Takashi Asada b, Takayuki Uchida c, Tatsuhiro Naka d,e
+a Soc. Photogr. Imaging Jpn., 2933-2, Yoshidajima, Kaisei-machi, Ashigarakami-gun, Kanagawa, 258-0021, Japan
+b Department of Physics, University of Naples Fererico II, Complesso Universitario di Monte Sant’Angelo-Via Cinthia, 21, 80126, Napoli, Italy
+c Graduate School of Engineering, Tokyo Polytechnic University, 1583, Atsugi, Kanagawa, 243-0297, Japan
+d Department of Physics, Faculty of Science, Toho University, Miyama, Funabashi, 274-8501, Japan
+e Kobayashi-Masukawa Institute, Nagoya University, Chikusa, Nagoya, 464-8602, Japan
+A R T I C L E I N F O
+Keywords:
+Dark matter
+Nuclear emulsion
+Silver halide grain
+Recombination
+Ionic relaxation
+A B S T R A C T
+The previous paper has indicated that it is important to depress both direct recombination and reverse reaction
+between ionic relaxation products, i.e., latent image centers (Agn) and Br2 for dark matter (DM) detection by a
+super-fine-grained nuclear emulsion named NIT. This paper describes the results of the analyses on the reverse
+reaction in the NIT containing a typical halogen acceptor Na2SO3 (SS), which is used to make the NIT sensitive.
+The electronic structure of the NIT layer containing SS as measured by means of photo-electron yield spectroscopy
+in air revealed that Ag(SO3)23􀀀 was formed in emulsions and could become to be Ag(SO3)22􀀀 by giving an
+electron to Br2. Although SS could not stop the reverse reaction, SS made it so slow that SS could make the NIT
+with SS available for DM detection when the irradiated NIT layers were kept at low temperature (􀀀 20 ◦C to
+􀀀 50 ◦C) in order to bring about further slowdown of the reaction rate. It is thought that Ag(SO3)22􀀀 took a place of
+Br2 for the reverse reaction and decreased its rate, since the diffusion of Ag(SO3)22􀀀 , which is electrically charged
+and large in size, is slower than that of Br2 owing to attractive interaction between Ag(SO3)22􀀀 and many ionized
+substituents in gelatin. Discussions are made on ideas to depress further the reverse reaction.
+1. Introduction
+Dark matter (DM) is one of the most interesting and important subjects
+to be solved in cosmology and astronomy, and has not yet been
+determined until now. It is widely assumed that undefined elementary
+particles (e.g., Weakly Interacting Massive Particles or WIMPs) are the
+constituents of DM. We are advancing plans to detect the WIMPs using
+experimental methods, and aim to detect the recoil of nucleus caused by
+WIMPs coming against the direction of our Solar System within the
+Milky Way under a low-background environment.
+A variety of experiments have been developed over recent decades,
+aiming to detect these particles via their elastic interaction in a detector
+medium [1]. A possible detector to distinguish such recoil events from
+other radiation background events is a track detector with directional
+sensitivity. As such a detector, we utilize a solid-state track detector
+named Nano Image Tracker (NIT), a dedicated nuclear emulsion with a
+spatial resolution better than a few hundred nanometers [2,3]. The NIT
+was developed by forming AgBr0.96I0.04 grains (denoted AgBrI grains in
+this paper) with about 40 nm and 70 nm in equivalent spherical diameter
+to meet the predicted track length of the nuclear recoils [4].
+While this detector has been proven to detect the tracks of slow ions,
+we are currently focused on understanding this phenomenon from the
+perspective of photographic science. Recently, its applications have
+expanded beyond its original purpose of dark matter detection, e.g.,
+neutron measurement [5] and quantum diffraction imaging [6], owing
+to its high special resolution. This diversification of use underscores the
+growing importance of fundamentally understanding the detector.
+The fundamental knowledge of photographic processes is briefly
+summarized below [7]. Silver halide (AgX) grains in the photographic
+emulsion layer undergo electron-hole pair creation due to photoexcitation
+or ionization. An electron is captured by a site with electric charge
+of +1/2 such as a silver ion at a kink site on the grain surface (electronic
+process). Then, the captured electron attracts and reacts with an interstitial
+silver ion to form a silver atom on the site (ionic process). A latent
+image center is composed of a silver cluster and is formed by the
+alternate repetition of electronic and ionic processes at the same site
+* Corresponding author.
+E-mail address: tadaakitani@mbr.nifty.com (T. Tani).
+Contents lists available at ScienceDirect
+Nuclear Inst. and Methods in Physics Research, A
+journal homepage: www.elsevier.com/locate/nima
+https://doi.org/10.1016/j.nima.2024.169303
+Received 18 August 2023; Received in revised form 21 February 2024; Accepted 30 March 2024
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+2
+with electric charge of +1/2 after changing its charge between 􀀀 1/2
+and + 1/2. Among AgX grains, only the grain with one or more latent
+image centers on its surface contribute to the formation of a silver grain.
+It has been estimated that the smallest latent image center is composed
+of 4–5 silver atoms in such emulsions as the NIT, which are not
+gold-sensitized [7].
+Latent image formation is counteracted by recombination processes
+between electrons and positive holes. In the previous paper, we have
+characterized the DM event in the NIT, and revealed that three kinds of
+recombination processes are taking place as illustrated in Fig. 1 [3]. One
+of them is the direct recombination between free electrons and free
+positive holes, which takes place in the time range from about 100 fs to
+about 20 ns. Electrons and positive holes, which have escaped from the
+direct recombination, are captured by electron traps and positive hole
+traps, respectively, and facing with indirect recombination of trapped
+electrons with free positive holes and that of trapped positive holes with
+free electrons [8], respectively. However, ionic conductivity is overwhelmingly
+larger than electronic one in AgX grains in a dark environment,
+resulting in the occurrence of ionic relaxation processes in
+prior to indirect recombination ones [7]. Thus, most trapped electrons
+react with interstitial silver ions to form Agn, while most trapped positive
+holes react with silver ion vacancies to form Br2. It is noted that Br2
+molecules are deactivated by gelatin when gelatin is present in abundance.
+The other recombination process is the reverse reaction between
+latent image centers Agn and irradiation-created Br2, and essentially
+important for DM detection by the NIT, as described below.
+The essential property of the NIT for DM detection in terms of the
+above-stated reverse reaction could be made clear by comparing the
+characteristics among the four typical emulsions with AgBrI grains as
+sensors. They are emulsions for DM detection, minimum ionizing particle
+(MIP) detection (e.g., for OPERA experiment), radiation therapy
+[9], and picture-taking. Table 1 shows the results of the collection and
+analysis of the knowledge on the characteristics of the above-stated four
+emulsions. As shown in this table, the amount of irradiation-created Br2
+with respect to the amount of gelatin in the NIT for DM detection is
+estimated to be extremely large among them, indicating the concern that
+the latent image formation in the NIT should tend to seriously suffer
+from the reverse reaction between latent image centers and Br2 from the
+viewpoint of the fact that the ability of gelatin to deactivate Br2 is
+limited. This problem comes from the following reasons. In order to
+meet predicted track length of a nuclear recoil of a WIMP, the NIT were
+designed to make AgBrI grains the smallest and most abundant in
+number among the four AgBrI systems. While each grain creates photoelectrons
+in it to form a latent image center composed of Agn, the same
+number of positive holes are created in it to form Br2 molecules. Since
+the grain concentration in the NIT is the highest among the four emulsion
+layers, the concentration of irradiation-created Br2 associated with
+latent image formation is the highest in the NIT.
+In addition, the number of electron-hole pairs per grain created by a
+nuclear recoil of a WIMP is estimated to be much larger than those
+created by irradiation in the emulsions for MIP detection and picturetaking.
+It was estimated that the smallest latent image center was
+composed of Ag4 or Ag5 and Ag2Au in S-sensitized and S + Au-sensitized
+emulsions, respectively [7]. It was also evaluated that about 10
+electron-hole pairs per grain were needed to form a latent image center
+on an AgBrI grain in a fully S + Au-sensitized emulsion for picture-taking
+[7], and about 30 electron-hole pairs in an S + Au-sensitized AgBrI grain
+with about 200 nm in diameter in an OPERA emulsion, in which a
+neutrino-induced high energy particle (i.e., MIP) forms 15–30
+electron-hole pairs per grain. It is noted that the number of electron-hole
+pairs per grain created by photoexcitation for picture-taking and that by
+ionization for the OPERA experiment are comparable to those needed
+for latent image formation in the corresponding emulsions to give
+optimized results. On the other hand, it is predicted that the number of
+electron-hole pairs in an AgBrI grain with about 70 nm in diameter
+created by a nuclear recoil of the WIMP in the NIT is as many as 1800,
+being much larger than that needed for the formation of a latent image
+center on each grain in S + Au-sensitized emulsions. However, positive
+holes with the same large number are at the same time formed in the
+grain, and should be deactivated to keep latent image centers from being
+attacked by Br2, which are formed by irradiation-created positive holes.
+It is known that Br2 could be deactivated by gelatin with methionine
+residues as active sites [10] in emulsions for picture-taking. However, it
+is concerned that gelatin can’t deactivate Br2 well in the case of DM
+detection, since the ratio of the amount of irradiation-created Br2 with
+respect to that of gelatin in the NIT layer is extremely large, and the
+population of methionine residues in gelatin is as small as 0.4 % [11]. It
+is therefore considered from the above-stated analyses that the most
+important subject for the latent image formation in the NIT for DM
+detection is, not the depression of the indirect recombination process (2
+in Fig. 1) by S + Au sensitization centers, which is the most important in
+highly sensitive emulsions for picture-taking and in the OPERA emulsion
+for MIP detection, but the depression of the reverse reaction process
+between latent image centers (Agn) and irradiation-created Br2 (3 in
+Fig. 1).
+As summarized in Table 1, Agn in usual photographic films could
+survive against the reverse reaction owing to the deactivation of Br2 by
+abundant gelatin with methionine residues as active sites. In nuclear
+emulsions, gelatin cannot protect Agn sufficiently against the reverse
+reaction owing to the fact that the volume fraction of gelatin in nuclear
+emulsions is much smaller than that in usual photographic emulsions.
+The reverse reaction between latent image centers and Br2 was observed
+[12] and analyzed in nuclear emulsions for cosmic ray imaging [13]. In
+addition, the amount of irradiation-created Br2 with respect to the
+amount of gelatin is the largest in the NIT for DM detection. In order to
+overcome this problem, sodium sulfite (SS), which is regarded as a
+typical halogen acceptor (i.e., a compound with ability to deactivate a
+halogen molecule) in AgX photography, is added to the NIT to enhance
+their sensitivity to nuclear recoils of the WIMPs instead of using
+sulfur-plus-gold (S + Au) sensitization. However, the performance of SS
+in the NIT has not been analyzed until now. Thus, we have focused our
+study on the effect of SS on the reverse reaction between Agn and Br2 to
+make clear its performance in the NIT.
+In order to study the reaction between Agn and Br2 in the NIT in the
+presence of SS, it is necessary to know their electronic structure
+composed of the electronic energy levels of AgBrI grains, Agn, Br2, SS,
+complex ions of SS with Ag+ in gelatin phase, and the organic layers,
+which are deposited on the surfaces of samples from air containing
+various gases and floating organic substances as described later. In this
+paper, we have prepared multiple NIT samples and measured the
+Fig. 1. Three kinds of recombination processes taking place in AgBrI grains [1;
+direct recombination process between free electrons and free positive holes, 2
+and 2’; indirect recombination processes between trapped electrons and free
+positive holes and between trapped positive holes and free electrons, respectively,
+3; reverse reaction between Agn and Br2 formed through ionic relaxation
+processes], where ● and ○ are an electron and a positive hole, respectively, CB
+and VB are conduction and valence bands, respectively, and Ag⚪+
+and Ag◻- are
+an interstitial silver ion and a silver ion vacancy, respectively.
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+3
+electronic energy levels of these materials by means of an apparatus of
+photo-electron yield spectroscopy in air (PYSA). It involves illuminating
+the sample with ultraviolet light in air and measuring the relationship
+between the energy of the photons and the photoelectron yield, determining
+the electronic energy levels of substances in the sample. Hence,
+understanding the reverse reaction, it has been revealed that the reaction
+process of irradiation-created Agn and Br2, is crucial for controlling
+the NIT’s performance.
+2. Samples and experiments
+The samples, which were subjected to the PYSA measurement, were
+NIT layers with or without SS, dried layers of gelatin solutions, to which
+SS and/or AgNO3 solutions were added, thin layers of Ag, and Ag
+nanoparticles. The NIT layer contained AgBrI grains (about 70 nm in
+equivalent spherical diameter) [4] as sensors. The grains occupied 35%
+in volume of the dried emulsion layer. SS was introduced into the
+emulsion layer by adding its aqueous solution to the NIT emulsion
+before coating (pre-mix method) or by dipping the NIT layer in an
+aqueous solution of SS (dip method). By use of the above-stated samples,
+the PYSA was used to measure the electronic energy levels of AgBrI and
+SS in the NIT, those of SS and AgNO3 in gelatin layers, and those of silver
+particles with varied size.
+In order to get fundamental aspects of the reverse processes, the NIT
+layers with and without SS were irradiated by αrays and γ rays of 241Am
+source. C ion beams have been considered to use for the simulation of
+DM detection experiments since C ions are expected to be the most
+abundant among probable nuclear recoils of WIMPs in the NIT layers
+composed of elements such as Ag, Br, I, H, N, and O ions. However, it
+was difficult to use C ion beams for the purpose of this study owing to the
+fact that the penetration depth of C ion beams in emulsion layers was
+estimated to be too short to get accurate experimental results. Therefore,
+in this experiment, alpha rays that generate a similar number of
+electron-hole pairs per grain were used as a substitute for C ion beam,
+and also as a target for comparison with gamma rays to get the dependence
+of the reverse reaction on the number of electron-hole pairs per
+grain. The number of electron-hole pairs created by irradiation in an
+AgBrI grain with 70 nm in diameter was estimated to be 1000–2000 for a
+nuclear recoil induced by WIMPs and α-rays, and 100–200 for γray on
+the basis of the fact that an electron-hole pair was formed by the
+deposited energy of 5.8 eV in AgBr [14].
+The NIT were irradiated and kept at low temperature (􀀀 20 ◦C ~
+-50 ◦C) in air before development for the simulation of the DM detection
+experiment, and were subjected to their storage under conditions with
+varied temperature and time period before they were subjected to
+development for the observation of the change in the amount of latent
+image centers during the storage. Photographic development process
+was made at 5 ◦C for 10 min by use of MAA developer [4]. The readout of
+developed Ag grains was made under an epi-illuminate optical microscope
+by observing scattered light of the localized surface plasmon
+resonance in each grain.
+The decay of latent image centers, which were formed by the irradiation
+of αand γrays to emulsion layers at room temperature (15 ◦C),
+was given by the ratio of the number of latent image centers observed
+just after the irradiation to that observed after the irradiated layer was
+kept for a time period t under a certain condition, and was called relative
+sensitivity in this paper. While the relative number of latent image
+centers created by α rays was given by the average brightness of the
+scattered light from developed Ag grains in nuclear tracks, the number
+of latent image centers created by γ rays was given by the number of
+light spots scattered from developed Ag grains in the layer.
+The electronic energy levels of various materials in the NIT were
+measured by means of PYSA [15] with an apparatus (Riken Keiki, AC-2),
+which can detect electrons with binding energy of less than 6 eV.
+Photo-electrons were observed weakly from gelatin layers in the energy
+range with slightly less than 6 eV in binding energy, and were attributed
+to the organic layers deposited from air on their surfaces [16]. It is
+known that organic substances are always floating in air and are being
+deposited on sample surfaces as was revealed by observing the Fermi
+levels of thin metal layers, which were changing in air with time after
+their preparation [16]. The deposited organic layers influence the
+physical properties of samples and in particular change the Fermi levels
+of metals through the pinning of their Fermi levels [16] and the
+push-back effect [17]. As the evidence for the deposition of organic
+substances from air on sample surfaces, the photoelectron emission from
+C 1s orbitals is always observed in the X-ray photoelectron spectra of the
+samples, which do not contain carbon atoms [18]. The electronic energy
+level of the valence band maximum at the surfaces of AgBrI grains in the
+NIT layer was given by the observed threshold energy of the PYSA
+spectra of the grains in the layer [19]. As reference experiments, gelatin
+layers, to which aqueous solutions of SS and/or AgNO3 were added
+before coating, were subjected to PYSA measurements.
+The electronic energy levels of latent image centers composed of Agn
+were evaluated by measuring and analyzing PYSA spectra of thin layers
+of Ag, which were vacuum-deposited on glass plates, and became to be
+isolated nanoparticles when the average thickness of evaporated Ag
+layers was less than 10 nm [20]. When the electronic energy difference
+between Fermi level and the vacuum level is F, the ionization energy (I)
+and electron affinity (EA) of metal nanoparticles with diameter of d are
+F + E, and F – E, respectively, where E is a function of 1/d [21,22]. Since
+latent image centers are composed of very small Ag clusters, their
+electronic structures should differ from those of Ag in bulk. Then, a
+study has been made on the size-dependent electronic energy levels of
+Ag nanoparticles deposited on glass plates by means of the PYSA
+apparatus.
+The influence of air on the electronic energy levels of materials
+concerned was judged by the Fermi level of the organic layers deposited
+on them. The Fermi levels of the organic layers were evaluated by
+observing the equalization of Fermi levels of the organic layers with such
+metal layers as Ag, Au, and Pt, whose Fermi levels in vacuum are well
+known and are so diversified as 􀀀 4.3 eV, 􀀀 5.1 eV, and 􀀀 5.65 eV,
+respectively [17].
+3. Results and discussions
+3.1. Electronic energy levels of materials in AgBrI emulsion layers
+In order to analyze the reverse reaction between latent image centers
+Table 1
+Characterization of typical detectors with AgBrI grains as sensors.
+Purpose DM detection MIP detection Rad. Therapy Taking picture
+Excitation source Heavy particle (low velocity) MIP Heavy particle (high velocity) Visible light
+Size of grains (track length) ~70 nm (<1 μm) ~200 nm (<1 mm) ~200 nm ~1000 nm
+No. of chem. sens. centers ~30/grain ~300/grain ~300/grain ~7500/grain
+No. of e-h+pairs (irrad. time) 1000-2000 /grain (100 fs) ~30/grain (1 fs) >5000/grain ≧10/grain (1 ms)
+Volume ratio of gelatin 65% 45–70% ~70% 80–90%
+No. of Br2/cm3 ~5╳1018 0.5–4╳1015 5╳1017~ 2-5╳1012~
+Ways for sensitization Dense traps
+Br2 depression
+Au + S sensitization Au + S sensitization Au + S sensitization
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+4
+and irradiation-created Br2 molecules taking place in the NIT for DM
+detection, it is necessary to get the knowledge of the electronic energy
+levels of the materials in relation to this phenomenon. They are AgBr
+grain, Br2 on the grain surface, silver cluster and silver in bulk state,
+organic layer deposited from air, and Ag(SO3)23􀀀 , which is formed in the
+emulsion owing to the reaction between Ag+ and SO3􀀀 . In the subsequent
+paragraphs of this subsection, we explain how we determined their
+electronic energy levels.
+The electronic energy levels of materials in the NIT, which have been
+made through the experiments described later, are shown in Fig. 2. Since
+gelatin is used as a binder for the NIT, it is considered that the electronic
+energy levels of materials in a gelatin layer are the same as those in the
+NIT layer. The threshold energy of the PYSA spectra of AgBrI grains in
+nuclear emulsions indicated that the energy difference between the top
+of the valence band of the grains and the vacuum level was about 5.6 eV
+[19]. It is therefore considered that the electron affinity (EA) of Br2 on
+the grain surface is about 5.6 eV, since Br2 is formed by the ionic
+relaxation of positive holes trapped on the grain surface.
+Organic layers deposited from air on samples are characterized
+below. It is known that organic materials together with various gases in
+air are deposited on the surfaces of samples to form organic layers [16].
+It is considered that samples are oxidized when the Fermi level of the
+samples is higher than that of the deposited organic layers from air,
+causing the electron transfer for the Fermi level equalization between
+them. Thus, the Fermi level of the deposited organic layers from air was
+estimated by measuring the electronic structures of the interfaces between
+the organic layers and various metals, whose Fermi levels in
+vacuum were well known. While the Fermi levels of clean Ag, Au, and Pt
+in vacuum were largely diversified to be 􀀀 4.3 eV, 􀀀 5.1 eV, and 􀀀 5.65
+eV, respectively [17], the observed Fermi levels of their thin layers
+deposited on glass plates were nearly the same (􀀀 4.71 eV, 􀀀 4.73 eV, and
+􀀀 4.76 eV, respectively) in air [16,23], and indicated that the Fermi level
+of the deposited organic layers from air on the their surfaces pinned the
+Fermi levels of thin layers of these metals, and was estimated to be the
+average of the observed Fermi levels of the thin layers of these metals, i.
+e., 􀀀 4.73 eV. It is noted that the actually observed Fermi levels of thin
+metal layers were fluctuated as seen later in this study, since it takes
+such a long time as more than several weeks to achieve the Fermi level
+equalization between the deposited organic layer from air and the thin
+layers of metals [16].
+The electronic energy levels of Ag nanoparticles are evaluated below.
+When the average thickness of Ag was equal to or more than 10 nm,
+deposited Ag atoms formed continuous layers. Since the continuous
+layers exhibited their ionization energy of 4.58 eV on the average
+without dependence on their thickness, they were attributed to Ag in
+bulk in air. When their average thickness was less than 10 nm, deposited
+Ag atoms formed isolated Ag nanoparticles, their ionization energy
+increasing with decrease in the average thickness of deposited Ag layers.
+The observed ionization energies of isolated Ag nanoparticles in
+deposited Ag layers with average thickness of 0.3 nm, 1.0 nm, and 3.0
+nm were 4.85 eV, 4.67 eV, and 4.63 eV, respectively, their deviation
+from that of bulk Ag being 0.26 eV, 0.09 eV, and 0.05 eV, respectively.
+According to Kubo, the deviation is the electric energy of a positive
+charge in a nanoparticle with diameter of d after its ionization, and is
+given by e2/d [24,25]. Then, the equivalent spherical diameter of isolated
+nanoparticles in deposited Ag layers with average thickness of 0.3
+nm, 1.0 nm, and 3.0 nm were estimated to be 5.5 nm, 16 nm, and 36 nm,
+respectively.
+The stability of latent image centers against oxidation has been discussed
+below on the basis of the electronic energy levels of materials in
+the NIT layers. It was estimated that the smallest latent image centers in
+emulsions, which were free from gold sensitization, were composed of
+4–5 Ag atoms [7]. Since the ionization energy of Ag nanoparticles was
+estimated to be 4.85 eV when their diameter was 5.5 nm, exhibiting the
+tendency to increase with decreasing their size, the ionization energy of
+latent image centers should be larger than this value. Furthermore,
+positively charged oxidants including a positive hole cannot attack a
+latent image center with electric charge of +1/2 owing to the repulsive
+force between them [7]. Since the Fermi level of the organic layers was
+evaluated to be 􀀀 4.71 eV, it is difficult for O2 and other oxidizing gases
+in air to oxidize latent image centers so rapidly and significantly as to
+meet the decay of the centers, which is studied later in this paper.
+The formation and characterization of Ag(SO3)23􀀀 have been initiated
+by the PYSA measurement of the NIT layers. Fig. 3 shows the PYSA
+spectra of the NIT layers with and without SS. The observed onset of
+photo-electron yield in the lower energy region with about 4.5 eV could
+be attributed to the photo-electron emission from Ag clusters, which
+were photolytically formed before and during the PYSA measurement,
+since its threshold energy was close to that of Ag nanoparticles as seen in
+Fig. 2, and in addition, similar photo-electron emission was observed
+before [13]. The photoelectrons in the higher energy region with about
+5.6 eV as its threshold in the spectrum of the layer in the absence of SS
+could be attributed to those from AgBrI grains, since similar PYSA
+spectra were already observed for emulsion layers with AgBrI grains in
+the NIT as shown in Fig. 2 [19]. However, the observed onset of
+photoelectron yield in the higher energy region with 5.4–5.5 eV as its
+threshold in the spectrum of the layer in the presence of SS could not be
+attributed to those from AgBrI grains, but to those from the species
+created by the addition of SS to the layer, since the addition of SS to the
+layer increased the yield and shifted the threshold energy of the
+photoelectron emission.
+Then, as shown in Fig. 4, the PYSA measurement has been extended
+to gelatin layers, to which aqueous solutions of SS and AgNO3 were
+added before their coating. Since neither photo-electron yield from a
+gelatin layer with SS nor that from a gelatin layer with AgNO3 was larger
+than that from a gelatin layer itself, it was judged that neither SS nor
+AgNO3 in a gelatin layer had electrons with binding energy of less than
+Fig. 2. The electronic energy levels of materials in the NIT as measured by the
+PYSA apparatus used in this study, where a closed circle and VB are an electron
+and valence band, respectively. The highest occupied electronic energy level of
+SS was situated below 􀀀 6 eV and could not be indicated in this figure. Fig. 3. PYSA spectra of the NIT without (a, ○) and with SS (b, ●).
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+5
+6 eV. On the other hand, strong photo-electron emission was observed
+with threshold at 5.4–5.5 eV from gelatin layers, to which both SS and
+AgNO3 were added. It is known that SO32􀀀 ions and Ag+ ions form soluble
+complex ions of Ag(SO3)23􀀀 in aqueous solutions, and dissolve silver
+halide grains by forming Ag(SO3)2 3
+􀀀 with Ag+ ions on the grain surface
+[26]. It is therefore considered that the observed photo-electrons with
+threshold energy of 5.4–5.5 eV in Fig. 4 were emitted from Ag(SO3)23􀀀 in
+gelatin layers. As shown in Fig. 5, the photo-electron yield at the energy
+of 6 eV increased with increase in the amount of AgNO3 added, supporting
+the idea that the photo-electrons were emitted from Ag(SO3)23􀀀
+in gelatin layers. The deviation from the proportionality indicates that
+Ag+ ions tended to be captured by methionine residues in gelatin chains
+[10] in prior to form complex ions with SO32􀀀 ions when the added
+amount of Ag+ was small, and that Ag+ ions tended to form Ag(SO3)-
+instead of Ag(SO3)23􀀀 when the amount of Ag+ ions was large.
+It is considered that the photo-electrons as observed above were
+emitted from Ag⁺ in Ag(SO₃)₂3‾ according to the following reasons. First
+of all, an SO₃2‾ ion had not any electron with binding energy of less than
+6 eV and is furthermore in contact with a positively charged ion in Ag
+(SO₃)₂3‾. Secondly, it was observed that the binding energy of an electron
+in Ag⁺ could be so small as to capture a positive hole in AgCl at low
+temperature by forming a self-trapped positive hole with Ag2⁺, which
+was closely surrounded by 6 Cl‾ in AgCl [7]. It is therefore considered
+that the association of 2 SO₃2‾anions to Ag+ brought about the
+photo-electron emission with threshold at 5.4–5.5 eV from Ag+ in a Ag
+(SO3)23􀀀 complex ion in a gelatin layer.
+Thus, the PYSA spectrum of Ag(SO3)23􀀀 made it possible to consider
+its influence on the interaction between Br2 and Agn in the NIT. While
+each spectrum in Fig. 3 was expressed by plotting the square root of
+photo-electron yield as a function of photon energy, the intersection
+between the straight line and the background line in the spectrum of Ag
+(SO3)23􀀀 gave 5.7 eV as its vertical ionization energy in the potential
+energy profile (Fig. 6). However, instead of vertical ionization energy,
+adiabatic ionization energy of Ag(SO3)23􀀀 complex ions is important for
+the consideration of the electron exchange of the complex ions with their
+surroundings, and could be given as 5.4–5.5 eV by the energy, at which
+photo-electrons just begun to appear in their spectrum as illustrated in
+Fig. 6. These results are drawn in Fig. 2. As seen in this figure, an Ag
+(SO3)23􀀀 ion could give an electron to Br2 on the grain surface to become
+an Ag(SO3)22􀀀 when they encountered with each other there. Since the
+electron affinity of an Ag(SO3)22􀀀 ion is larger than the ionization energy
+of a latent image center Agn, it was probable for the former to oxidize
+the latter after the former migrate in gelatin phase and encounter with
+the latter in the presence of a plenty of Br􀀀 as follows; Agn + Ag(SO3)2 2
+􀀀
++ Br􀀀 → Agn-1 + Ag(SO3)23􀀀 + AgBr. Furthermore, it is noted that an
+SO₃2‾ ion itself does not have an ability to reduce a Br2 molecule
+Fig. 4. PYSA spectra of gelatin layers without SS(a), with SS (b, c, d, and f), and
+with AgNO3 (b, c, d, and e). In the small table in this figure, the column of SS
+indicates the fraction of SS in weight % with respect to gelatin, and that of Ag
+indicates the fraction of AgNO3 in weight % with respect to gelatin.
+Fig. 5. Yield of photo-electrons emitted from Ag(SO3)23􀀀 by excitation light of
+6 eV as a function of added amount of AgNO3 in gelatin layers, to which SS (2
+wt %) was added. White circles in this figure correspond to the photo-electron
+yield values in the curves of f, b, c, and d, respectively, at the energy of excitation
+light of 6.0 eV.
+Fig. 6. Potential energy profiles of Ag(SO3)23􀀀 at its ground state and ionized
+state. Solid and broken arrows respectively indicate the electronic transitions
+for vertical ionization and adiabatic one.
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+6
+according to the electronic energy diagram in Fig. 2, and that it does not
+eliminate Br₂ irreversibly although it is usually called a halogen acceptor
+in the field of photographic science.
+3.2. Observation of decay of latent image centers in the NIT layers
+We aim to record as many DM events as possible within the detector
+in terms of the event search. It means a DM exposure period should be as
+long as possible. The experimental period shall be around several
+months. However, if the created latent image centers are decomposed
+due to the recombination, the experimental period shall be limited due
+to the decay constant of the latent image center. Therefore, we investigated
+how the created latent image centers decay depending on the
+presence of SS and temperature.
+Fig. 7 shows the comparison in observed sensitivity between the NIT
+layers, to which SS was introduced by the pre-mix method and by the dip
+method. The vertical and horizontal axes of the figure correspond to the
+quantities related to the sensitivity to alpha rays and gamma rays,
+respectively. These were quantified using image analysis of scattered
+light observed with an optical microscope in the emulsion layer after the
+development. The observed values of sensitivity by the pre-mix method
+seem to be bit higher with smaller fluctuation than those by the dip
+method. Since SO32􀀀 ions tend to dissolve AgBrI grains by forming Ag
+(SO3)23􀀀 ions with Ag+ ions on the grain surface, it is considered that the
+dip method causes the Ostwald ripening and dissolution of the grains
+more strongly than the pre-mix method, enhancing the sensitivity
+decrease and fluctuation. The observations and analyses of the decay of
+latent image centers in the NIT layers under various conditions were
+made by the pre-mix method and described below.
+Fig. 8 shows the decay of latent image centers in the NIT layers
+without SS, which were formed by α ray and γ ray irradiation and kept at
+different temperature in air. As seen in this figure, the number of latent
+image centers formed by γrays decreased up to about 1/5 after the
+emulsion layers were kept for more than 30 days. The results shown in
+Fig. 8 indicates that 1/5 latent image centers could survive and that
+gelatin could protect about 1/5 of total latent image centers against the
+reverse reaction in the NIT layers. However, the decay rate of latent
+image centers depended on experimental conditions. Fig. 8 shows that
+the decay rate of the latent image centers in the absence of SS formed by
+α rays was smaller than that of the centers formed by γ rays. Since it is
+predicted that α and γ rays create about 1000–2000 and 100–200
+electron-hole pairs per grain, respectively, it is considered that the
+number of Ag atoms in each latent image center formed by α ray irradiation
+is larger by about 10 times than that in each center formed by
+γray irradiation. A latent image center Agn loses its activity when it
+becomes to be Ag3 after the repetition of its reverse reaction with Br2. It
+is therefore considered that the decay rate of latent image centers decreases
+with increase in the size of the centers. This consideration is in
+accord with the above observation that the decay rate of latent image
+centers formed by γ ray irradiation was larger by about 7 times than that
+of the centers formed by αray irradiation.
+The reverse reaction studied here is the essential process for solarization
+with similar temperature dependence [27]. As seen in Fig. 8, the
+decay rate at low temperature was smaller than that at high temperature,
+and the observed values of the half-life (t1/2) of latent image centers
+formed by γ rays at 16 ◦C (289 K) and 􀀀 15 ◦C (258 K), were 3.8 days and
+38 days, respectively. The rate constant of the decay of latent image
+centers is reciprocally proportional to t1/2, and is given by Aexp(-Ea/RT),
+where A, Ea, R, and T are constant, activation energy, gas constant, and
+absolute temperature. The value of Ea was given to be 4.8 kcal/mol by
+applying the above-stated experimental result to the equation, and was
+attributed to the activation energy of the diffusion of Br2 in gelatin
+phase.
+Fig. 9 shows the decay of latent image centers in the NIT layers
+without and with SS when the centers were formed by α ray andγ ray
+irradiations and kept at different temperatures in air. As seen in this
+figure, the decay of the centers formed by γ ray irradiation was faster
+than that of the centers formed by αray irradiation, confirming that the
+size of latent image centers formed by γ ray irradiation was smaller than
+that of the centers formed by α ray irradiation. In both cases, it was also
+confirmed that the lowering of the storage temperature to keep irradiated
+emulsion layers before development could significantly decrease
+the decay rate of the centers, and was therefore useful to improve the
+performance of the NIT. In every case, it was found that the addition of
+SS to emulsion layers could decrease the decay rate of latent image
+centers, and should be therefore expected to improve the performance of
+the NIT. By taking into account the fact that, in addition to SS, gelatin is
+also a halogen acceptor, the mechanisms of the effects of SS and gelatin
+on the reverse reaction are discussed below.
+As observed in the former paper [13], the reverse reaction of
+irradiation-created Br2 with latent image centers in dried emulsion
+layers having AgBrI grains, in which gelatin was immobile, could be
+irreversibly depressed by gelatin, unless the volume ratio of gelatin in
+emulsion layers was reduced to excess. According to Berg and Keller
+[28], most latent image centers on AgBr grains were destroyed by
+irradiation-created Br2 even in the presence of gelatin in hydrosol of
+AgBr grains, where gelatin was mobile, although the rate of the
+destruction could be significantly reduced by gelatin. It is known that a
+methionine residue in a gelatin chain acting as Lewis base reacts with
+Br2 acting as a Lewis acid to form a halogen bond. However, the halogen
+bond formation is reversible, and a Br2 molecule, which is involved in
+the halogen bond, still keeps its ability to react with an Agn to form
+2AgBr.
+According to the electronic energy levels of components in the NIT as
+seen in Fig. 2, the electron affinity of Br2 on AgBrI grains is slightly larger
+than the ionization energy of Ag(SO3)23􀀀 .. It is therefore considered that
+the electron transfer from Ag(SO3)23􀀀 . to Br2 takes place to form Ag
+(SO3)22􀀀 , which can move in gelatin phase and arrive at a latent image
+center Agn to oxidize it. Since the reaction of Br2 with Agn was faster
+than that of Ag(SO3)22􀀀 with Agn, it is considered that the mobility of Ag
+(SO3)22􀀀 in gelatin phase was smaller than that of Br2. Emulsion layers
+are composed of AgBrI grains suspended in gelatin with loose network of
+its chains, through which small molecules and ions can migrate [29].
+Gelatin chains are composed of various kinds of amino acid residues,
+many of which are dissociated to have electric charges and thus reduces
+the mobility of ionic species owing to attractive interaction between
+them. It is known that non-ionized species diffuse more rapidly than the
+Fig. 7. Comparison in sensitivity between the NIT layers, to which SS was
+introduced by pre-mix method and by the dip method.
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+7
+ionized species of similar size in gelatin layers [30]. It is considered from
+this viewpoint that the mobility of Br2 in gelatin phase should be larger
+than that of Ag(SO3)22􀀀 , since Br2 is non-ionized, and smaller than an Ag
+(SO3)22􀀀 ion.
+Among amino acid residues in gelatin, only methionine residue is a
+soft Lewis base and capable of reducing the mobility of such a Lewis acid
+as Br2 by forming a halogen bond between them. However, the occupancy
+of methionine residues in gelatin is only 0.4% [11]. It is therefore
+considered that an Ag(SO3)2 2
+􀀀 ion has smaller mobility with larger
+activation energy for its diffusion than a Br2 molecule, and could thus
+make the time for the reverse reaction so long as stated above. In
+addition, nuclear recoils of the WIMP are predicted to create as many as
+1000–2000 electron-hole pairs, and should therefore form large latent
+image centers with slow decay rate. Thus, it is considered from the
+above-stated results and analyses that the rate of the reverse reaction
+between Agn and Br2 could be reduced to make the NIT layers available
+for DM detection when they would contain sufficient amount of SS and
+were kept at low temperature (􀀀 20 ◦C ~ 􀀀 50 ◦C) before development. It
+is however probable that the reverse reaction would appear to destroy
+Agn under some unexpected conditions.
+While the reaction between methionine residue and Br2 is reversible,
+methionine residue in gelatin chain can immobilize Br2 in emulsion
+layers with large volume fraction of gelatin, since Br2 bound by such a
+long chain as gelatin is hardly mobile in the layers. However, many
+irradiation-created Br2 molecules can mobile and arrive at Agn in
+emulsion layers when the volume fraction of gelatin in emulsion layers is
+so small that the concentration of methionine residues in gelatin phase is
+not enough to capture most Br2 molecules or when the concentration of
+irradiation-created Br2 is so large that many Br2 molecules can escape
+from methionine residues in gelatin phase.
+3.3. Depression of reverse reaction between Agn and Br2
+It has been found from the above-stated examination that the reverse
+reaction between Agn and irradiation-created Br2 is especially severe in
+the NIT and has not been fully overcome at the present. Then, considerations
+are made on ideas to cause further depression of the reverse
+reaction between Agn and Br2 according to the knowledge obtained in
+this study and reported in literature [7,13,31,32]. The methods to
+irreversibly remove Br2 on the surface of AgBrI grains in emulsion layers
+include reduction sensitization, hydrogen hypersensitization, and
+2-electron sensitization [7,31]. Reduction sensitization centers are
+composed of Ag2 at neutral kink sites on the surface of AgBrI grains, and
+usually formed by weakly reducing the grains. However, reduction
+sensitization is not compatible to S + Au sensitization, which is usually
+used for highly sensitive photographic emulsions including nuclear
+emulsions for the OPERA experiment, since gold sensitization tends to
+make Ag2 a fog center [7]. Fortunately, the NIT are free from gold
+sensitization, and therefore afford reduction sensitization. Hydrogen
+hypersensitization is carried out by keeping emulsion layers in hydrogen
+gas after evacuation for weak reduction of the surface of AgBrI grains in
+the layers [32]. Although hydrogen hypersensitization is compatible to
+Fig. 8. The degree of the decay of latent image centers in the NIT layers without SS, both of which were irradiated by α rays (left-hand side) and by γ rays (right-hand
+side), and kept in air for time period described on the abscissa at temperature indicated in the figures.
+Fig. 9. The decay of latent image centers in the NIT layers without and with SS in air at temperature indicated in the figures. The results with latent image centers,
+which were formed by α ray and γ ray irradiations, were shown by solid and broken lines, respectively.
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+8
+S + Au sensitization, it forms the centers composed of Ag2 at negatively
+charged kink sites, which are not stable for a long time in air [7]. While
+the mechanism of 2-electron sensitization is similar to that of reduction
+sensitization, it has been designed to be compatible to S + Au sensitization
+by replacing Ag2 with a special organic compound [31]. Neither
+reduction sensitization, hydrogen hypersensitization, nor 2-electron
+sensitization has ever been examined for nuclear emulsions in the past.
+Another way to depress the reverse reaction between Agn and
+irradiation-created Br2 is to decrease its rate further. This way should be
+achieved by decreasing the mobility of such medium species as Ag
+(SO3)22􀀀 in gelatin phase and by increasing the size of Agn. Ways to
+achieve the former include the lowering of the temperature for keeping
+irradiated emulsion layers before development, and the increase of the
+size and electric charges of medium species. Ways to achieve the latter,
+to increase the size of Agn include the increase in the number of electronhole
+pairs per grain by irradiation, and increase in the efficiency of the
+formation and growth of latent image centers Agn. While a way to increase
+the number of electron-hole pairs per grain is to increase the size
+of the grains, it is likely to suffer from the reduction in the read-out
+efficiency of developed grains. Ways to increase the efficiency of formation
+and growth of Agn are to depress two kinds of recombination;
+direct recombination between free electrons and free positive holes and
+reverse reaction between Agn and irradiation-created Br2. Direct
+recombination could be depressed by introducing the traps for electrons
+and positive holes [3,7]. In silver halide grains, traps for electrons and
+positive holes are usually crystal defects and impurities, respectively
+[8]. Crystal defects includes dislocations and silver ions at kink sites on
+the grain surfaces. Impurities includes iodide ions in AgBrI grains, and is
+expected to be improved by increasing the concentration of iodide ions
+or by localizing them within the core portion of the grains. Effective
+ways to depress the reverse reaction between Agn and Br2 are such
+irreversible treatments as reduction sensitization, hydrogen hypersensitization,
+and 2-electron sensitization, as stated above.
+4. Summary
+Following the previous study [3], which characterized DM event in
+super-fine-grained nuclear emulsions by direct recombination and
+reverse reaction between the products of ionic relaxation (i.e., Agn and
+Br2), the present study was made on the latter by placing its focus on the
+performance of a typical halogen acceptor Na2SO3 (SS), which is used to
+enhance the sensitivity of the emulsions and is therefore expected to
+influence the reverse reaction. By means of PYSA, it has been revealed
+that Ag(SO3)23􀀀 took a place of Br2 for the reverse reaction by giving an
+electron to Br2 and remarkably reduce the rate of the reverse reaction,
+although Na2SO3 by itself could not irreversibly remove the reverse
+reaction. Discussions have been made on ideas to cause further
+depression and irreversible removal of the reverse reaction, including
+reduction sensitization, hydrogen hypersensitization, and 2-electron
+sensitization.
+CRediT authorship contribution statement
+Tadaaki Tani: Writing – review & editing, Writing – original draft,
+Validation, Supervision, Methodology, Investigation, Formal analysis,
+Data curation, Conceptualization. Takashi Asada: Writing – review &
+editing, Resources, Methodology, Investigation, Formal analysis, Data
+curation. Takayuki Uchida: Writing – review & editing, Methodology,
+Investigation, Formal analysis, Data curation. Tatsuhiro Naka: Writing
+– review & editing, Validation, Supervision, Project administration,
+Methodology, Investigation, Funding acquisition, Formal analysis, Data
+curation, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+Data will be made available on request.
+Acknowledgement
+This work was supported by Japan Society for the Promotion of
+Science (JSPS) KAKENHI Grant Number JP18H03699 and JP19H05806.
+References
+[1] T.M. Undagoltla, Rauch Ludwig, Dark matter direct-detection experiments, J. Phys.
+G: Nucl. Part, Phys. 43 (2016) 013001.
+[2] T. Naka, T. Asada, T. Katsuragawa, K. Hakamata, M. Yoshimoto, K. Kuwabara,
+M. Nakamura, O. Sato, T. Nakano, Y. Tawara, G. De Lellis, C. Sirignano,
+N. D’Ambrossio, Fine grained nuclear emulsion for higher resolution tracking
+detector, Nuclear Inst, Methods in Physical Research A 718 (2013) 519–521.
+[3] T. Tani, T. Naka, Dark matter event in nuclear emulsions: comparative analysis by
+time-resolved photoconductivity of silver halide grains, Nucl. Instrum. Methods
+Phys. Res. A 1046 (2023) 167633.
+[4] T. Asada, T. Naka, K. Kuwabara, M. Yoshimoto, The development of a super-finegrained
+nuclear emulsion, Prog. Theor. Exp. Phys. 2017 (2017) 063H01, https://
+doi.org/10.1093/ptep/ptx076.
+[5] T. Shiraishi, S. Akamatsu, T. Naka, T. Asada, G. De Lellis, V. Tioukov, G. Rosa,
+R. Kobayashi, N. Ambrosio, A. Alexandrov, O. Sato, Environmental sub-MeV
+neutron measurement at the Gran Sasso surface laboratory with a super-finegrained
+nuclear emulsion detector, Phys. Rev. C 107 (2023) 014608.
+[6] S. Sala, A. Ariga, A. Ereditato, M. Giammarchi, M. Leone, C. Pistillo, P. Scampoli,
+First demonstration of antimatter wave interferometry, Sci. Adv. 5 (2019) eaav
+7610.
+[7] T. Tani, Photographic Science Advances in Nanoparticles, J-Aggregates, Dye
+Sensitization, and Organic Devices, Oxford University Press, Oxford, 2011.
+[8] W. Schottky, W.T. Read Jr., Statistics of the recombination of holes and electrons,
+Phys. Rev. 87 (1952) 835.
+[9] T. Toshito, K. Kodama, L. Sihver, K. Yusa, M. Ozaki, K. Amako, S. Kameoka,
+K. Murakami, T. Sasaki, S. Aoki, T. Ban, T. Fukuda, M. Komatsu, H. Kubota,
+N. Naganawa, T. Nakamura, T. Nakano, M. Natsume, K. Niwa, S. Takahashi,
+J. Yoshida, H. Yoshida, M. Nakazawa, N. Kanematsu, M. Komori, S. Sato, M. Asai,
+T. Koi, C. Fukushima, S. Ogawa, M. Shibasaki, H. Shibuya, Measurements of total
+and partial charge-changing cross sections for 200- to 400-MeV/nucleon 12C on
+water and polycarbonate, Phys. Rev. C75 (2007) 054606.
+[10] J.E. Maskasky, A comparison of oxidized and nonoxidized gelatins. I. Silver ion
+binding, J. Imag. Sci. 33 (1989) 10–13.
+[11] P.I. Rose, Gelatin I. General properties, in: T.H. James (Ed.), The Theory of the
+Photographic Process, fourth ed., Macmillan, New York, 1977, pp. 51–67.
+[12] Akira Nishio, Kunihiro Morishima, Ken-ichi Kuwabara, Tetsuo Yoshida,
+Takeshi Funakubo, Nobuko Kitagawa, Mitsuaki Kuno, Yuta Manabe,
+Mitsuhiro Nakamura, Nuclear emulsion with excellent long-term stability
+developed for cosmic-ray imaging, Nucl. Instrum. Methods Phys. Res. A 966 (2020)
+163850.
+[13] T. Tani, A. Nishio, T. Uchida, K. Morishima, Track formation in nuclear plates for
+cosmic-ray imaging with stabilized Ag nanoparticles, Nucl. Instrum. Methods Phys.
+Res. A 1006 (2021) 165427.
+[14] K. Alan Yamakawa, Silver bromide crystal counters, Phys. Rev. 82 (1951) 522–526.
+[15] Y. Nakajima, M. Hoshino, D. Yamashita, M. Uda, Near edge structures of Mg-, Co-,
+Cu-, and Zn-tetraphenylporphyrins measured by PESA and calculated with DV-Xα,
+Adv. Quant. Chem. 42 (2003) 399–405.
+[16] T. Tani, R. Kan, Y. Yamano, T. Uchida, Stabilization of Ag nanostructures by tuning
+their Fermi levels, Jpn. J. Appl. Phys. 57 (2018) 055001.
+[17] H. Ishii, K. Seki, Energy level alignment at organic-metal interfaces, in: W.
+R. Salaneck, K. Seki, A. Kahn, J.-J. Pireaux (Eds.), Conjugated Polymer and
+Molecular Interfaces Science and Technology for Photonic and Optoelectronic
+Applications, Marcel Dekker, Inc., New York, Basel, 2001, pp. 293–349.
+[18] K. Siegbahn, C. Nordling, A. Fahlman, R. Nordberg, K. Hamrin, J. Hedman,
+G. Johansson, T. Bergmark, S.-E. Karlsson, I. Lindgren, B. Lindgren, Atomic Esca,
+Molecular and Solid State Structure Studied by Means of Electron Spectroscopy,
+Almqvist & Wiksells Bpktryckeri AB, Uppsala, 1967.
+[19] T. Tani, T. Uchida, T. Naka, Analyses and design of nuclear emulsions for dark
+matter detection, Radiat. Meas. 129 (2019) 106184.
+[20] T. Tani, Y. Yamaguchi, T. Nishimi, T. Uchida, A. Kudo, Examination of
+photocatalytic Z-scheme for overall water splitting with its electronic structure,
+Phys. Chem. Chem. Phys. 25 (2023) 11418–11428, https://doi.org/10.1039/
+D3CP00241A.
+[21] M. Svanqvist, K. Hansen, Non-jellium scaling of metal cluster ionization energies
+and electron affinity, Eur. Phys. J. D 56 (2010) 199–203.
+[22] K. Rademann, B. Kaiser, U. Uven, F. Hensel, Size dependence of the gradual
+transition to metallic properties in isolated mercury clusters, Phys. Rev. Lett. 59
+(1987) 2319–2321.
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+9
+[23] T. Tani, T. Uchida, Studies on electronic structure of interfaces between Ag and
+gelatin for stabilization of Ag nanoparticles, J. J. Appl. Phys. 54 (2015) 065001.
+[24] R. Kubo, J. Phys. Soc. Jpn. 17 (1962) 975–986.
+[25] R. Kubo, Ultra-fine particles. Editorial Board on Ultra-Fine Particles, AGNE Gijutsu
+Center, Tokyo, 1984, pp. 4–10 (in Japanese).
+[26] J. Pouradier, A. Pailliotet, C. R. Berry, Properties of silver halides I. Structure and
+thermodynamic properties, in: Ref.18, pp.1-12.
+[27] P.J. Hillson, E.A. Sutherns, Latent-image effect involving reversal or
+desensitization, in: C.E.K. Mees, T.H. James (Eds.), The Theory of the Photographic
+Process, third ed., Macmillan, New York, 1966 (Chapter 8).
+[28] W.F. Berg, H. Keller, Latent-image fading and the function of gelatin in the silver
+halide System, Photogr. Sci. Eng. 11 (1967) 178–180.
+[29] J.E. Jolly, Photogr, Sci. Eng. 14 (1970) 169–177.
+[30] T. H. James, The rate of development I. General kinetics of negative image
+development, in: Ref.18, pp.404-429.
+[31] I.R. Gould, J.R. Lenhard, A.A. Muenter, S.A. Godleski, S. Farid, Two-electron
+sensitization: a new concept for silver halide photography, J. Am. Chem. Soc. 122
+(2000) 11934–11943.
+[32] T.A. Babcock, M.H. Sewell, W.C. Lewis, T.H. James, Hypersensitization of
+Spectroscopic Films and Plates Using Hydrogen Gas, vol. 79, 1974, p. 1479.
+=======
+Nuclear Instruments and Methods in Physics Research A 1063 (2024) 169303
+Available online 31 March 2024
+0168-9002/© 2024 Elsevier B.V. All rights reserved.
+Dark matter event in nuclear emulsions II: Ionic relaxation
+and recombination
+Tadaaki Tani a,*, Takashi Asada b, Takayuki Uchida c, Tatsuhiro Naka d,e
+a Soc. Photogr. Imaging Jpn., 2933-2, Yoshidajima, Kaisei-machi, Ashigarakami-gun, Kanagawa, 258-0021, Japan
+b Department of Physics, University of Naples Fererico II, Complesso Universitario di Monte Sant’Angelo-Via Cinthia, 21, 80126, Napoli, Italy
+c Graduate School of Engineering, Tokyo Polytechnic University, 1583, Atsugi, Kanagawa, 243-0297, Japan
+d Department of Physics, Faculty of Science, Toho University, Miyama, Funabashi, 274-8501, Japan
+e Kobayashi-Masukawa Institute, Nagoya University, Chikusa, Nagoya, 464-8602, Japan
+A R T I C L E I N F O
+Keywords:
+Dark matter
+Nuclear emulsion
+Silver halide grain
+Recombination
+Ionic relaxation
+A B S T R A C T
+The previous paper has indicated that it is important to depress both direct recombination and reverse reaction
+between ionic relaxation products, i.e., latent image centers (Agn) and Br2 for dark matter (DM) detection by a
+super-fine-grained nuclear emulsion named NIT. This paper describes the results of the analyses on the reverse
+reaction in the NIT containing a typical halogen acceptor Na2SO3 (SS), which is used to make the NIT sensitive.
+The electronic structure of the NIT layer containing SS as measured by means of photo-electron yield spectroscopy
+in air revealed that Ag(SO3)23􀀀 was formed in emulsions and could become to be Ag(SO3)22􀀀 by giving an
+electron to Br2. Although SS could not stop the reverse reaction, SS made it so slow that SS could make the NIT
+with SS available for DM detection when the irradiated NIT layers were kept at low temperature (􀀀 20 ◦C to
+􀀀 50 ◦C) in order to bring about further slowdown of the reaction rate. It is thought that Ag(SO3)22􀀀 took a place of
+Br2 for the reverse reaction and decreased its rate, since the diffusion of Ag(SO3)22􀀀 , which is electrically charged
+and large in size, is slower than that of Br2 owing to attractive interaction between Ag(SO3)22􀀀 and many ionized
+substituents in gelatin. Discussions are made on ideas to depress further the reverse reaction.
+1. Introduction
+Dark matter (DM) is one of the most interesting and important subjects
+to be solved in cosmology and astronomy, and has not yet been
+determined until now. It is widely assumed that undefined elementary
+particles (e.g., Weakly Interacting Massive Particles or WIMPs) are the
+constituents of DM. We are advancing plans to detect the WIMPs using
+experimental methods, and aim to detect the recoil of nucleus caused by
+WIMPs coming against the direction of our Solar System within the
+Milky Way under a low-background environment.
+A variety of experiments have been developed over recent decades,
+aiming to detect these particles via their elastic interaction in a detector
+medium [1]. A possible detector to distinguish such recoil events from
+other radiation background events is a track detector with directional
+sensitivity. As such a detector, we utilize a solid-state track detector
+named Nano Image Tracker (NIT), a dedicated nuclear emulsion with a
+spatial resolution better than a few hundred nanometers [2,3]. The NIT
+was developed by forming AgBr0.96I0.04 grains (denoted AgBrI grains in
+this paper) with about 40 nm and 70 nm in equivalent spherical diameter
+to meet the predicted track length of the nuclear recoils [4].
+While this detector has been proven to detect the tracks of slow ions,
+we are currently focused on understanding this phenomenon from the
+perspective of photographic science. Recently, its applications have
+expanded beyond its original purpose of dark matter detection, e.g.,
+neutron measurement [5] and quantum diffraction imaging [6], owing
+to its high special resolution. This diversification of use underscores the
+growing importance of fundamentally understanding the detector.
+The fundamental knowledge of photographic processes is briefly
+summarized below [7]. Silver halide (AgX) grains in the photographic
+emulsion layer undergo electron-hole pair creation due to photoexcitation
+or ionization. An electron is captured by a site with electric charge
+of +1/2 such as a silver ion at a kink site on the grain surface (electronic
+process). Then, the captured electron attracts and reacts with an interstitial
+silver ion to form a silver atom on the site (ionic process). A latent
+image center is composed of a silver cluster and is formed by the
+alternate repetition of electronic and ionic processes at the same site
+* Corresponding author.
+E-mail address: tadaakitani@mbr.nifty.com (T. Tani).
+Contents lists available at ScienceDirect
+Nuclear Inst. and Methods in Physics Research, A
+journal homepage: www.elsevier.com/locate/nima
+https://doi.org/10.1016/j.nima.2024.169303
+Received 18 August 2023; Received in revised form 21 February 2024; Accepted 30 March 2024
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+2
+with electric charge of +1/2 after changing its charge between 􀀀 1/2
+and + 1/2. Among AgX grains, only the grain with one or more latent
+image centers on its surface contribute to the formation of a silver grain.
+It has been estimated that the smallest latent image center is composed
+of 4–5 silver atoms in such emulsions as the NIT, which are not
+gold-sensitized [7].
+Latent image formation is counteracted by recombination processes
+between electrons and positive holes. In the previous paper, we have
+characterized the DM event in the NIT, and revealed that three kinds of
+recombination processes are taking place as illustrated in Fig. 1 [3]. One
+of them is the direct recombination between free electrons and free
+positive holes, which takes place in the time range from about 100 fs to
+about 20 ns. Electrons and positive holes, which have escaped from the
+direct recombination, are captured by electron traps and positive hole
+traps, respectively, and facing with indirect recombination of trapped
+electrons with free positive holes and that of trapped positive holes with
+free electrons [8], respectively. However, ionic conductivity is overwhelmingly
+larger than electronic one in AgX grains in a dark environment,
+resulting in the occurrence of ionic relaxation processes in
+prior to indirect recombination ones [7]. Thus, most trapped electrons
+react with interstitial silver ions to form Agn, while most trapped positive
+holes react with silver ion vacancies to form Br2. It is noted that Br2
+molecules are deactivated by gelatin when gelatin is present in abundance.
+The other recombination process is the reverse reaction between
+latent image centers Agn and irradiation-created Br2, and essentially
+important for DM detection by the NIT, as described below.
+The essential property of the NIT for DM detection in terms of the
+above-stated reverse reaction could be made clear by comparing the
+characteristics among the four typical emulsions with AgBrI grains as
+sensors. They are emulsions for DM detection, minimum ionizing particle
+(MIP) detection (e.g., for OPERA experiment), radiation therapy
+[9], and picture-taking. Table 1 shows the results of the collection and
+analysis of the knowledge on the characteristics of the above-stated four
+emulsions. As shown in this table, the amount of irradiation-created Br2
+with respect to the amount of gelatin in the NIT for DM detection is
+estimated to be extremely large among them, indicating the concern that
+the latent image formation in the NIT should tend to seriously suffer
+from the reverse reaction between latent image centers and Br2 from the
+viewpoint of the fact that the ability of gelatin to deactivate Br2 is
+limited. This problem comes from the following reasons. In order to
+meet predicted track length of a nuclear recoil of a WIMP, the NIT were
+designed to make AgBrI grains the smallest and most abundant in
+number among the four AgBrI systems. While each grain creates photoelectrons
+in it to form a latent image center composed of Agn, the same
+number of positive holes are created in it to form Br2 molecules. Since
+the grain concentration in the NIT is the highest among the four emulsion
+layers, the concentration of irradiation-created Br2 associated with
+latent image formation is the highest in the NIT.
+In addition, the number of electron-hole pairs per grain created by a
+nuclear recoil of a WIMP is estimated to be much larger than those
+created by irradiation in the emulsions for MIP detection and picturetaking.
+It was estimated that the smallest latent image center was
+composed of Ag4 or Ag5 and Ag2Au in S-sensitized and S + Au-sensitized
+emulsions, respectively [7]. It was also evaluated that about 10
+electron-hole pairs per grain were needed to form a latent image center
+on an AgBrI grain in a fully S + Au-sensitized emulsion for picture-taking
+[7], and about 30 electron-hole pairs in an S + Au-sensitized AgBrI grain
+with about 200 nm in diameter in an OPERA emulsion, in which a
+neutrino-induced high energy particle (i.e., MIP) forms 15–30
+electron-hole pairs per grain. It is noted that the number of electron-hole
+pairs per grain created by photoexcitation for picture-taking and that by
+ionization for the OPERA experiment are comparable to those needed
+for latent image formation in the corresponding emulsions to give
+optimized results. On the other hand, it is predicted that the number of
+electron-hole pairs in an AgBrI grain with about 70 nm in diameter
+created by a nuclear recoil of the WIMP in the NIT is as many as 1800,
+being much larger than that needed for the formation of a latent image
+center on each grain in S + Au-sensitized emulsions. However, positive
+holes with the same large number are at the same time formed in the
+grain, and should be deactivated to keep latent image centers from being
+attacked by Br2, which are formed by irradiation-created positive holes.
+It is known that Br2 could be deactivated by gelatin with methionine
+residues as active sites [10] in emulsions for picture-taking. However, it
+is concerned that gelatin can’t deactivate Br2 well in the case of DM
+detection, since the ratio of the amount of irradiation-created Br2 with
+respect to that of gelatin in the NIT layer is extremely large, and the
+population of methionine residues in gelatin is as small as 0.4 % [11]. It
+is therefore considered from the above-stated analyses that the most
+important subject for the latent image formation in the NIT for DM
+detection is, not the depression of the indirect recombination process (2
+in Fig. 1) by S + Au sensitization centers, which is the most important in
+highly sensitive emulsions for picture-taking and in the OPERA emulsion
+for MIP detection, but the depression of the reverse reaction process
+between latent image centers (Agn) and irradiation-created Br2 (3 in
+Fig. 1).
+As summarized in Table 1, Agn in usual photographic films could
+survive against the reverse reaction owing to the deactivation of Br2 by
+abundant gelatin with methionine residues as active sites. In nuclear
+emulsions, gelatin cannot protect Agn sufficiently against the reverse
+reaction owing to the fact that the volume fraction of gelatin in nuclear
+emulsions is much smaller than that in usual photographic emulsions.
+The reverse reaction between latent image centers and Br2 was observed
+[12] and analyzed in nuclear emulsions for cosmic ray imaging [13]. In
+addition, the amount of irradiation-created Br2 with respect to the
+amount of gelatin is the largest in the NIT for DM detection. In order to
+overcome this problem, sodium sulfite (SS), which is regarded as a
+typical halogen acceptor (i.e., a compound with ability to deactivate a
+halogen molecule) in AgX photography, is added to the NIT to enhance
+their sensitivity to nuclear recoils of the WIMPs instead of using
+sulfur-plus-gold (S + Au) sensitization. However, the performance of SS
+in the NIT has not been analyzed until now. Thus, we have focused our
+study on the effect of SS on the reverse reaction between Agn and Br2 to
+make clear its performance in the NIT.
+In order to study the reaction between Agn and Br2 in the NIT in the
+presence of SS, it is necessary to know their electronic structure
+composed of the electronic energy levels of AgBrI grains, Agn, Br2, SS,
+complex ions of SS with Ag+ in gelatin phase, and the organic layers,
+which are deposited on the surfaces of samples from air containing
+various gases and floating organic substances as described later. In this
+paper, we have prepared multiple NIT samples and measured the
+Fig. 1. Three kinds of recombination processes taking place in AgBrI grains [1;
+direct recombination process between free electrons and free positive holes, 2
+and 2’; indirect recombination processes between trapped electrons and free
+positive holes and between trapped positive holes and free electrons, respectively,
+3; reverse reaction between Agn and Br2 formed through ionic relaxation
+processes], where ● and ○ are an electron and a positive hole, respectively, CB
+and VB are conduction and valence bands, respectively, and Ag⚪+
+and Ag◻- are
+an interstitial silver ion and a silver ion vacancy, respectively.
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+3
+electronic energy levels of these materials by means of an apparatus of
+photo-electron yield spectroscopy in air (PYSA). It involves illuminating
+the sample with ultraviolet light in air and measuring the relationship
+between the energy of the photons and the photoelectron yield, determining
+the electronic energy levels of substances in the sample. Hence,
+understanding the reverse reaction, it has been revealed that the reaction
+process of irradiation-created Agn and Br2, is crucial for controlling
+the NIT’s performance.
+2. Samples and experiments
+The samples, which were subjected to the PYSA measurement, were
+NIT layers with or without SS, dried layers of gelatin solutions, to which
+SS and/or AgNO3 solutions were added, thin layers of Ag, and Ag
+nanoparticles. The NIT layer contained AgBrI grains (about 70 nm in
+equivalent spherical diameter) [4] as sensors. The grains occupied 35%
+in volume of the dried emulsion layer. SS was introduced into the
+emulsion layer by adding its aqueous solution to the NIT emulsion
+before coating (pre-mix method) or by dipping the NIT layer in an
+aqueous solution of SS (dip method). By use of the above-stated samples,
+the PYSA was used to measure the electronic energy levels of AgBrI and
+SS in the NIT, those of SS and AgNO3 in gelatin layers, and those of silver
+particles with varied size.
+In order to get fundamental aspects of the reverse processes, the NIT
+layers with and without SS were irradiated by αrays and γ rays of 241Am
+source. C ion beams have been considered to use for the simulation of
+DM detection experiments since C ions are expected to be the most
+abundant among probable nuclear recoils of WIMPs in the NIT layers
+composed of elements such as Ag, Br, I, H, N, and O ions. However, it
+was difficult to use C ion beams for the purpose of this study owing to the
+fact that the penetration depth of C ion beams in emulsion layers was
+estimated to be too short to get accurate experimental results. Therefore,
+in this experiment, alpha rays that generate a similar number of
+electron-hole pairs per grain were used as a substitute for C ion beam,
+and also as a target for comparison with gamma rays to get the dependence
+of the reverse reaction on the number of electron-hole pairs per
+grain. The number of electron-hole pairs created by irradiation in an
+AgBrI grain with 70 nm in diameter was estimated to be 1000–2000 for a
+nuclear recoil induced by WIMPs and α-rays, and 100–200 for γray on
+the basis of the fact that an electron-hole pair was formed by the
+deposited energy of 5.8 eV in AgBr [14].
+The NIT were irradiated and kept at low temperature (􀀀 20 ◦C ~
+-50 ◦C) in air before development for the simulation of the DM detection
+experiment, and were subjected to their storage under conditions with
+varied temperature and time period before they were subjected to
+development for the observation of the change in the amount of latent
+image centers during the storage. Photographic development process
+was made at 5 ◦C for 10 min by use of MAA developer [4]. The readout of
+developed Ag grains was made under an epi-illuminate optical microscope
+by observing scattered light of the localized surface plasmon
+resonance in each grain.
+The decay of latent image centers, which were formed by the irradiation
+of αand γrays to emulsion layers at room temperature (15 ◦C),
+was given by the ratio of the number of latent image centers observed
+just after the irradiation to that observed after the irradiated layer was
+kept for a time period t under a certain condition, and was called relative
+sensitivity in this paper. While the relative number of latent image
+centers created by α rays was given by the average brightness of the
+scattered light from developed Ag grains in nuclear tracks, the number
+of latent image centers created by γ rays was given by the number of
+light spots scattered from developed Ag grains in the layer.
+The electronic energy levels of various materials in the NIT were
+measured by means of PYSA [15] with an apparatus (Riken Keiki, AC-2),
+which can detect electrons with binding energy of less than 6 eV.
+Photo-electrons were observed weakly from gelatin layers in the energy
+range with slightly less than 6 eV in binding energy, and were attributed
+to the organic layers deposited from air on their surfaces [16]. It is
+known that organic substances are always floating in air and are being
+deposited on sample surfaces as was revealed by observing the Fermi
+levels of thin metal layers, which were changing in air with time after
+their preparation [16]. The deposited organic layers influence the
+physical properties of samples and in particular change the Fermi levels
+of metals through the pinning of their Fermi levels [16] and the
+push-back effect [17]. As the evidence for the deposition of organic
+substances from air on sample surfaces, the photoelectron emission from
+C 1s orbitals is always observed in the X-ray photoelectron spectra of the
+samples, which do not contain carbon atoms [18]. The electronic energy
+level of the valence band maximum at the surfaces of AgBrI grains in the
+NIT layer was given by the observed threshold energy of the PYSA
+spectra of the grains in the layer [19]. As reference experiments, gelatin
+layers, to which aqueous solutions of SS and/or AgNO3 were added
+before coating, were subjected to PYSA measurements.
+The electronic energy levels of latent image centers composed of Agn
+were evaluated by measuring and analyzing PYSA spectra of thin layers
+of Ag, which were vacuum-deposited on glass plates, and became to be
+isolated nanoparticles when the average thickness of evaporated Ag
+layers was less than 10 nm [20]. When the electronic energy difference
+between Fermi level and the vacuum level is F, the ionization energy (I)
+and electron affinity (EA) of metal nanoparticles with diameter of d are
+F + E, and F – E, respectively, where E is a function of 1/d [21,22]. Since
+latent image centers are composed of very small Ag clusters, their
+electronic structures should differ from those of Ag in bulk. Then, a
+study has been made on the size-dependent electronic energy levels of
+Ag nanoparticles deposited on glass plates by means of the PYSA
+apparatus.
+The influence of air on the electronic energy levels of materials
+concerned was judged by the Fermi level of the organic layers deposited
+on them. The Fermi levels of the organic layers were evaluated by
+observing the equalization of Fermi levels of the organic layers with such
+metal layers as Ag, Au, and Pt, whose Fermi levels in vacuum are well
+known and are so diversified as 􀀀 4.3 eV, 􀀀 5.1 eV, and 􀀀 5.65 eV,
+respectively [17].
+3. Results and discussions
+3.1. Electronic energy levels of materials in AgBrI emulsion layers
+In order to analyze the reverse reaction between latent image centers
+Table 1
+Characterization of typical detectors with AgBrI grains as sensors.
+Purpose DM detection MIP detection Rad. Therapy Taking picture
+Excitation source Heavy particle (low velocity) MIP Heavy particle (high velocity) Visible light
+Size of grains (track length) ~70 nm (<1 μm) ~200 nm (<1 mm) ~200 nm ~1000 nm
+No. of chem. sens. centers ~30/grain ~300/grain ~300/grain ~7500/grain
+No. of e-h+pairs (irrad. time) 1000-2000 /grain (100 fs) ~30/grain (1 fs) >5000/grain ≧10/grain (1 ms)
+Volume ratio of gelatin 65% 45–70% ~70% 80–90%
+No. of Br2/cm3 ~5╳1018 0.5–4╳1015 5╳1017~ 2-5╳1012~
+Ways for sensitization Dense traps
+Br2 depression
+Au + S sensitization Au + S sensitization Au + S sensitization
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+4
+and irradiation-created Br2 molecules taking place in the NIT for DM
+detection, it is necessary to get the knowledge of the electronic energy
+levels of the materials in relation to this phenomenon. They are AgBr
+grain, Br2 on the grain surface, silver cluster and silver in bulk state,
+organic layer deposited from air, and Ag(SO3)23􀀀 , which is formed in the
+emulsion owing to the reaction between Ag+ and SO3􀀀 . In the subsequent
+paragraphs of this subsection, we explain how we determined their
+electronic energy levels.
+The electronic energy levels of materials in the NIT, which have been
+made through the experiments described later, are shown in Fig. 2. Since
+gelatin is used as a binder for the NIT, it is considered that the electronic
+energy levels of materials in a gelatin layer are the same as those in the
+NIT layer. The threshold energy of the PYSA spectra of AgBrI grains in
+nuclear emulsions indicated that the energy difference between the top
+of the valence band of the grains and the vacuum level was about 5.6 eV
+[19]. It is therefore considered that the electron affinity (EA) of Br2 on
+the grain surface is about 5.6 eV, since Br2 is formed by the ionic
+relaxation of positive holes trapped on the grain surface.
+Organic layers deposited from air on samples are characterized
+below. It is known that organic materials together with various gases in
+air are deposited on the surfaces of samples to form organic layers [16].
+It is considered that samples are oxidized when the Fermi level of the
+samples is higher than that of the deposited organic layers from air,
+causing the electron transfer for the Fermi level equalization between
+them. Thus, the Fermi level of the deposited organic layers from air was
+estimated by measuring the electronic structures of the interfaces between
+the organic layers and various metals, whose Fermi levels in
+vacuum were well known. While the Fermi levels of clean Ag, Au, and Pt
+in vacuum were largely diversified to be 􀀀 4.3 eV, 􀀀 5.1 eV, and 􀀀 5.65
+eV, respectively [17], the observed Fermi levels of their thin layers
+deposited on glass plates were nearly the same (􀀀 4.71 eV, 􀀀 4.73 eV, and
+􀀀 4.76 eV, respectively) in air [16,23], and indicated that the Fermi level
+of the deposited organic layers from air on the their surfaces pinned the
+Fermi levels of thin layers of these metals, and was estimated to be the
+average of the observed Fermi levels of the thin layers of these metals, i.
+e., 􀀀 4.73 eV. It is noted that the actually observed Fermi levels of thin
+metal layers were fluctuated as seen later in this study, since it takes
+such a long time as more than several weeks to achieve the Fermi level
+equalization between the deposited organic layer from air and the thin
+layers of metals [16].
+The electronic energy levels of Ag nanoparticles are evaluated below.
+When the average thickness of Ag was equal to or more than 10 nm,
+deposited Ag atoms formed continuous layers. Since the continuous
+layers exhibited their ionization energy of 4.58 eV on the average
+without dependence on their thickness, they were attributed to Ag in
+bulk in air. When their average thickness was less than 10 nm, deposited
+Ag atoms formed isolated Ag nanoparticles, their ionization energy
+increasing with decrease in the average thickness of deposited Ag layers.
+The observed ionization energies of isolated Ag nanoparticles in
+deposited Ag layers with average thickness of 0.3 nm, 1.0 nm, and 3.0
+nm were 4.85 eV, 4.67 eV, and 4.63 eV, respectively, their deviation
+from that of bulk Ag being 0.26 eV, 0.09 eV, and 0.05 eV, respectively.
+According to Kubo, the deviation is the electric energy of a positive
+charge in a nanoparticle with diameter of d after its ionization, and is
+given by e2/d [24,25]. Then, the equivalent spherical diameter of isolated
+nanoparticles in deposited Ag layers with average thickness of 0.3
+nm, 1.0 nm, and 3.0 nm were estimated to be 5.5 nm, 16 nm, and 36 nm,
+respectively.
+The stability of latent image centers against oxidation has been discussed
+below on the basis of the electronic energy levels of materials in
+the NIT layers. It was estimated that the smallest latent image centers in
+emulsions, which were free from gold sensitization, were composed of
+4–5 Ag atoms [7]. Since the ionization energy of Ag nanoparticles was
+estimated to be 4.85 eV when their diameter was 5.5 nm, exhibiting the
+tendency to increase with decreasing their size, the ionization energy of
+latent image centers should be larger than this value. Furthermore,
+positively charged oxidants including a positive hole cannot attack a
+latent image center with electric charge of +1/2 owing to the repulsive
+force between them [7]. Since the Fermi level of the organic layers was
+evaluated to be 􀀀 4.71 eV, it is difficult for O2 and other oxidizing gases
+in air to oxidize latent image centers so rapidly and significantly as to
+meet the decay of the centers, which is studied later in this paper.
+The formation and characterization of Ag(SO3)23􀀀 have been initiated
+by the PYSA measurement of the NIT layers. Fig. 3 shows the PYSA
+spectra of the NIT layers with and without SS. The observed onset of
+photo-electron yield in the lower energy region with about 4.5 eV could
+be attributed to the photo-electron emission from Ag clusters, which
+were photolytically formed before and during the PYSA measurement,
+since its threshold energy was close to that of Ag nanoparticles as seen in
+Fig. 2, and in addition, similar photo-electron emission was observed
+before [13]. The photoelectrons in the higher energy region with about
+5.6 eV as its threshold in the spectrum of the layer in the absence of SS
+could be attributed to those from AgBrI grains, since similar PYSA
+spectra were already observed for emulsion layers with AgBrI grains in
+the NIT as shown in Fig. 2 [19]. However, the observed onset of
+photoelectron yield in the higher energy region with 5.4–5.5 eV as its
+threshold in the spectrum of the layer in the presence of SS could not be
+attributed to those from AgBrI grains, but to those from the species
+created by the addition of SS to the layer, since the addition of SS to the
+layer increased the yield and shifted the threshold energy of the
+photoelectron emission.
+Then, as shown in Fig. 4, the PYSA measurement has been extended
+to gelatin layers, to which aqueous solutions of SS and AgNO3 were
+added before their coating. Since neither photo-electron yield from a
+gelatin layer with SS nor that from a gelatin layer with AgNO3 was larger
+than that from a gelatin layer itself, it was judged that neither SS nor
+AgNO3 in a gelatin layer had electrons with binding energy of less than
+Fig. 2. The electronic energy levels of materials in the NIT as measured by the
+PYSA apparatus used in this study, where a closed circle and VB are an electron
+and valence band, respectively. The highest occupied electronic energy level of
+SS was situated below 􀀀 6 eV and could not be indicated in this figure. Fig. 3. PYSA spectra of the NIT without (a, ○) and with SS (b, ●).
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+5
+6 eV. On the other hand, strong photo-electron emission was observed
+with threshold at 5.4–5.5 eV from gelatin layers, to which both SS and
+AgNO3 were added. It is known that SO32􀀀 ions and Ag+ ions form soluble
+complex ions of Ag(SO3)23􀀀 in aqueous solutions, and dissolve silver
+halide grains by forming Ag(SO3)2 3
+􀀀 with Ag+ ions on the grain surface
+[26]. It is therefore considered that the observed photo-electrons with
+threshold energy of 5.4–5.5 eV in Fig. 4 were emitted from Ag(SO3)23􀀀 in
+gelatin layers. As shown in Fig. 5, the photo-electron yield at the energy
+of 6 eV increased with increase in the amount of AgNO3 added, supporting
+the idea that the photo-electrons were emitted from Ag(SO3)23􀀀
+in gelatin layers. The deviation from the proportionality indicates that
+Ag+ ions tended to be captured by methionine residues in gelatin chains
+[10] in prior to form complex ions with SO32􀀀 ions when the added
+amount of Ag+ was small, and that Ag+ ions tended to form Ag(SO3)-
+instead of Ag(SO3)23􀀀 when the amount of Ag+ ions was large.
+It is considered that the photo-electrons as observed above were
+emitted from Ag⁺ in Ag(SO₃)₂3‾ according to the following reasons. First
+of all, an SO₃2‾ ion had not any electron with binding energy of less than
+6 eV and is furthermore in contact with a positively charged ion in Ag
+(SO₃)₂3‾. Secondly, it was observed that the binding energy of an electron
+in Ag⁺ could be so small as to capture a positive hole in AgCl at low
+temperature by forming a self-trapped positive hole with Ag2⁺, which
+was closely surrounded by 6 Cl‾ in AgCl [7]. It is therefore considered
+that the association of 2 SO₃2‾anions to Ag+ brought about the
+photo-electron emission with threshold at 5.4–5.5 eV from Ag+ in a Ag
+(SO3)23􀀀 complex ion in a gelatin layer.
+Thus, the PYSA spectrum of Ag(SO3)23􀀀 made it possible to consider
+its influence on the interaction between Br2 and Agn in the NIT. While
+each spectrum in Fig. 3 was expressed by plotting the square root of
+photo-electron yield as a function of photon energy, the intersection
+between the straight line and the background line in the spectrum of Ag
+(SO3)23􀀀 gave 5.7 eV as its vertical ionization energy in the potential
+energy profile (Fig. 6). However, instead of vertical ionization energy,
+adiabatic ionization energy of Ag(SO3)23􀀀 complex ions is important for
+the consideration of the electron exchange of the complex ions with their
+surroundings, and could be given as 5.4–5.5 eV by the energy, at which
+photo-electrons just begun to appear in their spectrum as illustrated in
+Fig. 6. These results are drawn in Fig. 2. As seen in this figure, an Ag
+(SO3)23􀀀 ion could give an electron to Br2 on the grain surface to become
+an Ag(SO3)22􀀀 when they encountered with each other there. Since the
+electron affinity of an Ag(SO3)22􀀀 ion is larger than the ionization energy
+of a latent image center Agn, it was probable for the former to oxidize
+the latter after the former migrate in gelatin phase and encounter with
+the latter in the presence of a plenty of Br􀀀 as follows; Agn + Ag(SO3)2 2
+􀀀
++ Br􀀀 → Agn-1 + Ag(SO3)23􀀀 + AgBr. Furthermore, it is noted that an
+SO₃2‾ ion itself does not have an ability to reduce a Br2 molecule
+Fig. 4. PYSA spectra of gelatin layers without SS(a), with SS (b, c, d, and f), and
+with AgNO3 (b, c, d, and e). In the small table in this figure, the column of SS
+indicates the fraction of SS in weight % with respect to gelatin, and that of Ag
+indicates the fraction of AgNO3 in weight % with respect to gelatin.
+Fig. 5. Yield of photo-electrons emitted from Ag(SO3)23􀀀 by excitation light of
+6 eV as a function of added amount of AgNO3 in gelatin layers, to which SS (2
+wt %) was added. White circles in this figure correspond to the photo-electron
+yield values in the curves of f, b, c, and d, respectively, at the energy of excitation
+light of 6.0 eV.
+Fig. 6. Potential energy profiles of Ag(SO3)23􀀀 at its ground state and ionized
+state. Solid and broken arrows respectively indicate the electronic transitions
+for vertical ionization and adiabatic one.
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+6
+according to the electronic energy diagram in Fig. 2, and that it does not
+eliminate Br₂ irreversibly although it is usually called a halogen acceptor
+in the field of photographic science.
+3.2. Observation of decay of latent image centers in the NIT layers
+We aim to record as many DM events as possible within the detector
+in terms of the event search. It means a DM exposure period should be as
+long as possible. The experimental period shall be around several
+months. However, if the created latent image centers are decomposed
+due to the recombination, the experimental period shall be limited due
+to the decay constant of the latent image center. Therefore, we investigated
+how the created latent image centers decay depending on the
+presence of SS and temperature.
+Fig. 7 shows the comparison in observed sensitivity between the NIT
+layers, to which SS was introduced by the pre-mix method and by the dip
+method. The vertical and horizontal axes of the figure correspond to the
+quantities related to the sensitivity to alpha rays and gamma rays,
+respectively. These were quantified using image analysis of scattered
+light observed with an optical microscope in the emulsion layer after the
+development. The observed values of sensitivity by the pre-mix method
+seem to be bit higher with smaller fluctuation than those by the dip
+method. Since SO32􀀀 ions tend to dissolve AgBrI grains by forming Ag
+(SO3)23􀀀 ions with Ag+ ions on the grain surface, it is considered that the
+dip method causes the Ostwald ripening and dissolution of the grains
+more strongly than the pre-mix method, enhancing the sensitivity
+decrease and fluctuation. The observations and analyses of the decay of
+latent image centers in the NIT layers under various conditions were
+made by the pre-mix method and described below.
+Fig. 8 shows the decay of latent image centers in the NIT layers
+without SS, which were formed by α ray and γ ray irradiation and kept at
+different temperature in air. As seen in this figure, the number of latent
+image centers formed by γrays decreased up to about 1/5 after the
+emulsion layers were kept for more than 30 days. The results shown in
+Fig. 8 indicates that 1/5 latent image centers could survive and that
+gelatin could protect about 1/5 of total latent image centers against the
+reverse reaction in the NIT layers. However, the decay rate of latent
+image centers depended on experimental conditions. Fig. 8 shows that
+the decay rate of the latent image centers in the absence of SS formed by
+α rays was smaller than that of the centers formed by γ rays. Since it is
+predicted that α and γ rays create about 1000–2000 and 100–200
+electron-hole pairs per grain, respectively, it is considered that the
+number of Ag atoms in each latent image center formed by α ray irradiation
+is larger by about 10 times than that in each center formed by
+γray irradiation. A latent image center Agn loses its activity when it
+becomes to be Ag3 after the repetition of its reverse reaction with Br2. It
+is therefore considered that the decay rate of latent image centers decreases
+with increase in the size of the centers. This consideration is in
+accord with the above observation that the decay rate of latent image
+centers formed by γ ray irradiation was larger by about 7 times than that
+of the centers formed by αray irradiation.
+The reverse reaction studied here is the essential process for solarization
+with similar temperature dependence [27]. As seen in Fig. 8, the
+decay rate at low temperature was smaller than that at high temperature,
+and the observed values of the half-life (t1/2) of latent image centers
+formed by γ rays at 16 ◦C (289 K) and 􀀀 15 ◦C (258 K), were 3.8 days and
+38 days, respectively. The rate constant of the decay of latent image
+centers is reciprocally proportional to t1/2, and is given by Aexp(-Ea/RT),
+where A, Ea, R, and T are constant, activation energy, gas constant, and
+absolute temperature. The value of Ea was given to be 4.8 kcal/mol by
+applying the above-stated experimental result to the equation, and was
+attributed to the activation energy of the diffusion of Br2 in gelatin
+phase.
+Fig. 9 shows the decay of latent image centers in the NIT layers
+without and with SS when the centers were formed by α ray andγ ray
+irradiations and kept at different temperatures in air. As seen in this
+figure, the decay of the centers formed by γ ray irradiation was faster
+than that of the centers formed by αray irradiation, confirming that the
+size of latent image centers formed by γ ray irradiation was smaller than
+that of the centers formed by α ray irradiation. In both cases, it was also
+confirmed that the lowering of the storage temperature to keep irradiated
+emulsion layers before development could significantly decrease
+the decay rate of the centers, and was therefore useful to improve the
+performance of the NIT. In every case, it was found that the addition of
+SS to emulsion layers could decrease the decay rate of latent image
+centers, and should be therefore expected to improve the performance of
+the NIT. By taking into account the fact that, in addition to SS, gelatin is
+also a halogen acceptor, the mechanisms of the effects of SS and gelatin
+on the reverse reaction are discussed below.
+As observed in the former paper [13], the reverse reaction of
+irradiation-created Br2 with latent image centers in dried emulsion
+layers having AgBrI grains, in which gelatin was immobile, could be
+irreversibly depressed by gelatin, unless the volume ratio of gelatin in
+emulsion layers was reduced to excess. According to Berg and Keller
+[28], most latent image centers on AgBr grains were destroyed by
+irradiation-created Br2 even in the presence of gelatin in hydrosol of
+AgBr grains, where gelatin was mobile, although the rate of the
+destruction could be significantly reduced by gelatin. It is known that a
+methionine residue in a gelatin chain acting as Lewis base reacts with
+Br2 acting as a Lewis acid to form a halogen bond. However, the halogen
+bond formation is reversible, and a Br2 molecule, which is involved in
+the halogen bond, still keeps its ability to react with an Agn to form
+2AgBr.
+According to the electronic energy levels of components in the NIT as
+seen in Fig. 2, the electron affinity of Br2 on AgBrI grains is slightly larger
+than the ionization energy of Ag(SO3)23􀀀 .. It is therefore considered that
+the electron transfer from Ag(SO3)23􀀀 . to Br2 takes place to form Ag
+(SO3)22􀀀 , which can move in gelatin phase and arrive at a latent image
+center Agn to oxidize it. Since the reaction of Br2 with Agn was faster
+than that of Ag(SO3)22􀀀 with Agn, it is considered that the mobility of Ag
+(SO3)22􀀀 in gelatin phase was smaller than that of Br2. Emulsion layers
+are composed of AgBrI grains suspended in gelatin with loose network of
+its chains, through which small molecules and ions can migrate [29].
+Gelatin chains are composed of various kinds of amino acid residues,
+many of which are dissociated to have electric charges and thus reduces
+the mobility of ionic species owing to attractive interaction between
+them. It is known that non-ionized species diffuse more rapidly than the
+Fig. 7. Comparison in sensitivity between the NIT layers, to which SS was
+introduced by pre-mix method and by the dip method.
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+7
+ionized species of similar size in gelatin layers [30]. It is considered from
+this viewpoint that the mobility of Br2 in gelatin phase should be larger
+than that of Ag(SO3)22􀀀 , since Br2 is non-ionized, and smaller than an Ag
+(SO3)22􀀀 ion.
+Among amino acid residues in gelatin, only methionine residue is a
+soft Lewis base and capable of reducing the mobility of such a Lewis acid
+as Br2 by forming a halogen bond between them. However, the occupancy
+of methionine residues in gelatin is only 0.4% [11]. It is therefore
+considered that an Ag(SO3)2 2
+􀀀 ion has smaller mobility with larger
+activation energy for its diffusion than a Br2 molecule, and could thus
+make the time for the reverse reaction so long as stated above. In
+addition, nuclear recoils of the WIMP are predicted to create as many as
+1000–2000 electron-hole pairs, and should therefore form large latent
+image centers with slow decay rate. Thus, it is considered from the
+above-stated results and analyses that the rate of the reverse reaction
+between Agn and Br2 could be reduced to make the NIT layers available
+for DM detection when they would contain sufficient amount of SS and
+were kept at low temperature (􀀀 20 ◦C ~ 􀀀 50 ◦C) before development. It
+is however probable that the reverse reaction would appear to destroy
+Agn under some unexpected conditions.
+While the reaction between methionine residue and Br2 is reversible,
+methionine residue in gelatin chain can immobilize Br2 in emulsion
+layers with large volume fraction of gelatin, since Br2 bound by such a
+long chain as gelatin is hardly mobile in the layers. However, many
+irradiation-created Br2 molecules can mobile and arrive at Agn in
+emulsion layers when the volume fraction of gelatin in emulsion layers is
+so small that the concentration of methionine residues in gelatin phase is
+not enough to capture most Br2 molecules or when the concentration of
+irradiation-created Br2 is so large that many Br2 molecules can escape
+from methionine residues in gelatin phase.
+3.3. Depression of reverse reaction between Agn and Br2
+It has been found from the above-stated examination that the reverse
+reaction between Agn and irradiation-created Br2 is especially severe in
+the NIT and has not been fully overcome at the present. Then, considerations
+are made on ideas to cause further depression of the reverse
+reaction between Agn and Br2 according to the knowledge obtained in
+this study and reported in literature [7,13,31,32]. The methods to
+irreversibly remove Br2 on the surface of AgBrI grains in emulsion layers
+include reduction sensitization, hydrogen hypersensitization, and
+2-electron sensitization [7,31]. Reduction sensitization centers are
+composed of Ag2 at neutral kink sites on the surface of AgBrI grains, and
+usually formed by weakly reducing the grains. However, reduction
+sensitization is not compatible to S + Au sensitization, which is usually
+used for highly sensitive photographic emulsions including nuclear
+emulsions for the OPERA experiment, since gold sensitization tends to
+make Ag2 a fog center [7]. Fortunately, the NIT are free from gold
+sensitization, and therefore afford reduction sensitization. Hydrogen
+hypersensitization is carried out by keeping emulsion layers in hydrogen
+gas after evacuation for weak reduction of the surface of AgBrI grains in
+the layers [32]. Although hydrogen hypersensitization is compatible to
+Fig. 8. The degree of the decay of latent image centers in the NIT layers without SS, both of which were irradiated by α rays (left-hand side) and by γ rays (right-hand
+side), and kept in air for time period described on the abscissa at temperature indicated in the figures.
+Fig. 9. The decay of latent image centers in the NIT layers without and with SS in air at temperature indicated in the figures. The results with latent image centers,
+which were formed by α ray and γ ray irradiations, were shown by solid and broken lines, respectively.
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+8
+S + Au sensitization, it forms the centers composed of Ag2 at negatively
+charged kink sites, which are not stable for a long time in air [7]. While
+the mechanism of 2-electron sensitization is similar to that of reduction
+sensitization, it has been designed to be compatible to S + Au sensitization
+by replacing Ag2 with a special organic compound [31]. Neither
+reduction sensitization, hydrogen hypersensitization, nor 2-electron
+sensitization has ever been examined for nuclear emulsions in the past.
+Another way to depress the reverse reaction between Agn and
+irradiation-created Br2 is to decrease its rate further. This way should be
+achieved by decreasing the mobility of such medium species as Ag
+(SO3)22􀀀 in gelatin phase and by increasing the size of Agn. Ways to
+achieve the former include the lowering of the temperature for keeping
+irradiated emulsion layers before development, and the increase of the
+size and electric charges of medium species. Ways to achieve the latter,
+to increase the size of Agn include the increase in the number of electronhole
+pairs per grain by irradiation, and increase in the efficiency of the
+formation and growth of latent image centers Agn. While a way to increase
+the number of electron-hole pairs per grain is to increase the size
+of the grains, it is likely to suffer from the reduction in the read-out
+efficiency of developed grains. Ways to increase the efficiency of formation
+and growth of Agn are to depress two kinds of recombination;
+direct recombination between free electrons and free positive holes and
+reverse reaction between Agn and irradiation-created Br2. Direct
+recombination could be depressed by introducing the traps for electrons
+and positive holes [3,7]. In silver halide grains, traps for electrons and
+positive holes are usually crystal defects and impurities, respectively
+[8]. Crystal defects includes dislocations and silver ions at kink sites on
+the grain surfaces. Impurities includes iodide ions in AgBrI grains, and is
+expected to be improved by increasing the concentration of iodide ions
+or by localizing them within the core portion of the grains. Effective
+ways to depress the reverse reaction between Agn and Br2 are such
+irreversible treatments as reduction sensitization, hydrogen hypersensitization,
+and 2-electron sensitization, as stated above.
+4. Summary
+Following the previous study [3], which characterized DM event in
+super-fine-grained nuclear emulsions by direct recombination and
+reverse reaction between the products of ionic relaxation (i.e., Agn and
+Br2), the present study was made on the latter by placing its focus on the
+performance of a typical halogen acceptor Na2SO3 (SS), which is used to
+enhance the sensitivity of the emulsions and is therefore expected to
+influence the reverse reaction. By means of PYSA, it has been revealed
+that Ag(SO3)23􀀀 took a place of Br2 for the reverse reaction by giving an
+electron to Br2 and remarkably reduce the rate of the reverse reaction,
+although Na2SO3 by itself could not irreversibly remove the reverse
+reaction. Discussions have been made on ideas to cause further
+depression and irreversible removal of the reverse reaction, including
+reduction sensitization, hydrogen hypersensitization, and 2-electron
+sensitization.
+CRediT authorship contribution statement
+Tadaaki Tani: Writing – review & editing, Writing – original draft,
+Validation, Supervision, Methodology, Investigation, Formal analysis,
+Data curation, Conceptualization. Takashi Asada: Writing – review &
+editing, Resources, Methodology, Investigation, Formal analysis, Data
+curation. Takayuki Uchida: Writing – review & editing, Methodology,
+Investigation, Formal analysis, Data curation. Tatsuhiro Naka: Writing
+– review & editing, Validation, Supervision, Project administration,
+Methodology, Investigation, Funding acquisition, Formal analysis, Data
+curation, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+Data will be made available on request.
+Acknowledgement
+This work was supported by Japan Society for the Promotion of
+Science (JSPS) KAKENHI Grant Number JP18H03699 and JP19H05806.
+References
+[1] T.M. Undagoltla, Rauch Ludwig, Dark matter direct-detection experiments, J. Phys.
+G: Nucl. Part, Phys. 43 (2016) 013001.
+[2] T. Naka, T. Asada, T. Katsuragawa, K. Hakamata, M. Yoshimoto, K. Kuwabara,
+M. Nakamura, O. Sato, T. Nakano, Y. Tawara, G. De Lellis, C. Sirignano,
+N. D’Ambrossio, Fine grained nuclear emulsion for higher resolution tracking
+detector, Nuclear Inst, Methods in Physical Research A 718 (2013) 519–521.
+[3] T. Tani, T. Naka, Dark matter event in nuclear emulsions: comparative analysis by
+time-resolved photoconductivity of silver halide grains, Nucl. Instrum. Methods
+Phys. Res. A 1046 (2023) 167633.
+[4] T. Asada, T. Naka, K. Kuwabara, M. Yoshimoto, The development of a super-finegrained
+nuclear emulsion, Prog. Theor. Exp. Phys. 2017 (2017) 063H01, https://
+doi.org/10.1093/ptep/ptx076.
+[5] T. Shiraishi, S. Akamatsu, T. Naka, T. Asada, G. De Lellis, V. Tioukov, G. Rosa,
+R. Kobayashi, N. Ambrosio, A. Alexandrov, O. Sato, Environmental sub-MeV
+neutron measurement at the Gran Sasso surface laboratory with a super-finegrained
+nuclear emulsion detector, Phys. Rev. C 107 (2023) 014608.
+[6] S. Sala, A. Ariga, A. Ereditato, M. Giammarchi, M. Leone, C. Pistillo, P. Scampoli,
+First demonstration of antimatter wave interferometry, Sci. Adv. 5 (2019) eaav
+7610.
+[7] T. Tani, Photographic Science Advances in Nanoparticles, J-Aggregates, Dye
+Sensitization, and Organic Devices, Oxford University Press, Oxford, 2011.
+[8] W. Schottky, W.T. Read Jr., Statistics of the recombination of holes and electrons,
+Phys. Rev. 87 (1952) 835.
+[9] T. Toshito, K. Kodama, L. Sihver, K. Yusa, M. Ozaki, K. Amako, S. Kameoka,
+K. Murakami, T. Sasaki, S. Aoki, T. Ban, T. Fukuda, M. Komatsu, H. Kubota,
+N. Naganawa, T. Nakamura, T. Nakano, M. Natsume, K. Niwa, S. Takahashi,
+J. Yoshida, H. Yoshida, M. Nakazawa, N. Kanematsu, M. Komori, S. Sato, M. Asai,
+T. Koi, C. Fukushima, S. Ogawa, M. Shibasaki, H. Shibuya, Measurements of total
+and partial charge-changing cross sections for 200- to 400-MeV/nucleon 12C on
+water and polycarbonate, Phys. Rev. C75 (2007) 054606.
+[10] J.E. Maskasky, A comparison of oxidized and nonoxidized gelatins. I. Silver ion
+binding, J. Imag. Sci. 33 (1989) 10–13.
+[11] P.I. Rose, Gelatin I. General properties, in: T.H. James (Ed.), The Theory of the
+Photographic Process, fourth ed., Macmillan, New York, 1977, pp. 51–67.
+[12] Akira Nishio, Kunihiro Morishima, Ken-ichi Kuwabara, Tetsuo Yoshida,
+Takeshi Funakubo, Nobuko Kitagawa, Mitsuaki Kuno, Yuta Manabe,
+Mitsuhiro Nakamura, Nuclear emulsion with excellent long-term stability
+developed for cosmic-ray imaging, Nucl. Instrum. Methods Phys. Res. A 966 (2020)
+163850.
+[13] T. Tani, A. Nishio, T. Uchida, K. Morishima, Track formation in nuclear plates for
+cosmic-ray imaging with stabilized Ag nanoparticles, Nucl. Instrum. Methods Phys.
+Res. A 1006 (2021) 165427.
+[14] K. Alan Yamakawa, Silver bromide crystal counters, Phys. Rev. 82 (1951) 522–526.
+[15] Y. Nakajima, M. Hoshino, D. Yamashita, M. Uda, Near edge structures of Mg-, Co-,
+Cu-, and Zn-tetraphenylporphyrins measured by PESA and calculated with DV-Xα,
+Adv. Quant. Chem. 42 (2003) 399–405.
+[16] T. Tani, R. Kan, Y. Yamano, T. Uchida, Stabilization of Ag nanostructures by tuning
+their Fermi levels, Jpn. J. Appl. Phys. 57 (2018) 055001.
+[17] H. Ishii, K. Seki, Energy level alignment at organic-metal interfaces, in: W.
+R. Salaneck, K. Seki, A. Kahn, J.-J. Pireaux (Eds.), Conjugated Polymer and
+Molecular Interfaces Science and Technology for Photonic and Optoelectronic
+Applications, Marcel Dekker, Inc., New York, Basel, 2001, pp. 293–349.
+[18] K. Siegbahn, C. Nordling, A. Fahlman, R. Nordberg, K. Hamrin, J. Hedman,
+G. Johansson, T. Bergmark, S.-E. Karlsson, I. Lindgren, B. Lindgren, Atomic Esca,
+Molecular and Solid State Structure Studied by Means of Electron Spectroscopy,
+Almqvist & Wiksells Bpktryckeri AB, Uppsala, 1967.
+[19] T. Tani, T. Uchida, T. Naka, Analyses and design of nuclear emulsions for dark
+matter detection, Radiat. Meas. 129 (2019) 106184.
+[20] T. Tani, Y. Yamaguchi, T. Nishimi, T. Uchida, A. Kudo, Examination of
+photocatalytic Z-scheme for overall water splitting with its electronic structure,
+Phys. Chem. Chem. Phys. 25 (2023) 11418–11428, https://doi.org/10.1039/
+D3CP00241A.
+[21] M. Svanqvist, K. Hansen, Non-jellium scaling of metal cluster ionization energies
+and electron affinity, Eur. Phys. J. D 56 (2010) 199–203.
+[22] K. Rademann, B. Kaiser, U. Uven, F. Hensel, Size dependence of the gradual
+transition to metallic properties in isolated mercury clusters, Phys. Rev. Lett. 59
+(1987) 2319–2321.
+T. Tani et al.
+Nuclear Inst. and Methods in Physics Research, A 1063 (2024) 169303
+9
+[23] T. Tani, T. Uchida, Studies on electronic structure of interfaces between Ag and
+gelatin for stabilization of Ag nanoparticles, J. J. Appl. Phys. 54 (2015) 065001.
+[24] R. Kubo, J. Phys. Soc. Jpn. 17 (1962) 975–986.
+[25] R. Kubo, Ultra-fine particles. Editorial Board on Ultra-Fine Particles, AGNE Gijutsu
+Center, Tokyo, 1984, pp. 4–10 (in Japanese).
+[26] J. Pouradier, A. Pailliotet, C. R. Berry, Properties of silver halides I. Structure and
+thermodynamic properties, in: Ref.18, pp.1-12.
+[27] P.J. Hillson, E.A. Sutherns, Latent-image effect involving reversal or
+desensitization, in: C.E.K. Mees, T.H. James (Eds.), The Theory of the Photographic
+Process, third ed., Macmillan, New York, 1966 (Chapter 8).
+[28] W.F. Berg, H. Keller, Latent-image fading and the function of gelatin in the silver
+halide System, Photogr. Sci. Eng. 11 (1967) 178–180.
+[29] J.E. Jolly, Photogr, Sci. Eng. 14 (1970) 169–177.
+[30] T. H. James, The rate of development I. General kinetics of negative image
+development, in: Ref.18, pp.404-429.
+[31] I.R. Gould, J.R. Lenhard, A.A. Muenter, S.A. Godleski, S. Farid, Two-electron
+sensitization: a new concept for silver halide photography, J. Am. Chem. Soc. 122
+(2000) 11934–11943.
+[32] T.A. Babcock, M.H. Sewell, W.C. Lewis, T.H. James, Hypersensitization of
+Spectroscopic Films and Plates Using Hydrogen Gas, vol. 79, 1974, p. 1479.
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
+T. Tani et al.

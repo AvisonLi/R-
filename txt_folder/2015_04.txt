@@ -1,0 +1,1156 @@
+Soc. Sci. 2015, 4, 940–966; doi:10.3390/socsci4040940
+                                                                                          OPEN ACCESS
+
+
+                                                                social sciences
+                                                                                     ISSN 2076-0760
+                                                                          www.mdpi.com/journal/socsci
+Review
+
+Population Aging: An Emerging Research Agenda for
+Sustainable Development
+Shogo Kudo 1,*, Emmanuel Mutisya 1 and Masafumi Nagao 2
+
+1
+    Graduate Program in Sustainability Science—Global Leadership Initiative (GPSS-GLI), Graduate
+    School of Frontier Sciences, The University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa City,
+    Chiba 277-8563, Japan; E-Mail: emmanuel@sustainability.k.u-tokyo.ac.jp
+2
+    United Nations University Institute for the Advanced Study of Sustainability, 5-53-70 Jingumae,
+    Shibuya-ku, Tokyo 150-8925, Japan; E-Mail: nagaom@unu.edu
+
+* Author to whom correspondence should be addressed; E-Mail: kudo@sustainability.k.u-tokyo.ac.jp;
+  Tel.: +81-471-364-608; Fax: +81-471-364-878.
+
+Academic Editor: Martin J. Bull
+
+Received: 6 July 2015 / Accepted: 25 September 2015 / Published: 5 October 2015
+
+
+      Abstract: In recent years, population aging has been recognized as an emerging challenge
+      in many parts of the world. Earlier studies discussed its impacts on the sustainability of
+      social security systems and national economic growth; however, they tended to focus on
+      the issues at the national level and were limited to developed countries. With the knowledge
+      that population aging will be a predominant trend in both developed and developing
+      countries, this paper aims to: (i) describe the global population aging trend and its regional
+      demography; (ii) provide a structural review of population aging challenges at the national,
+      communal and individual levels; and (iii) elaborate future research topics on population
+      aging with a particular emphasis on developing countries. Several indicators suggest rapid
+      population aging in the coming decades, especially in Asia, Latin America and Africa. The
+      structural review presents the diverse challenges that affect both young and older population
+      groups. Finally, the need for linking population aging with the sustainable development
+      concept and the possible rural decline caused by rapid urbanization are suggested as future
+      research topics. Further studies to establish a body of knowledge on population aging in
+      developing countries are required to place population aging on the agenda of future
+      sustainable development discussions.
+
+      Keywords: population aging; sustainable development; rural decline; community function
+
+
+Soc. Sci. 2015, 4                                                                                      941
+
+1. Introduction
+
+    In recent years, population aging has been recognized as an emerging social challenge in many parts
+of the world. Some clear evidence of population aging is observed; for example, the share of the aged
+60-plus population in the world increased from eight percent in 1950 to 12 percent in 2014, and it is
+predicted to be 21 percent by 2050 [1]. The global life expectancy also increased from 47 years in 1950
+to 70 years in 2014, and a further increase to 75 years is expected by 2050 [2–4]. Only a few decades
+ago, the major concern regarding world demography was its rapid growth and increasing pressure on
+the ecosystem and food security [5,6]. While population growth will continue in some fast-growing
+countries in Sub-Saharan Africa and South Asia [7], the population aging phenomenon will have
+profound impacts on various dimensions of society, and this aging trend will be intensified in the
+coming decades [8,9].
+    Although there is an accumulation of studies about population aging covering diverse topics,
+existing literature concentrates on population aging mainly in developed countries. Population aging is
+largely seen as a threat to: (i) sustainable economic growth due to the possible shrinkage of the labor
+force [10,11]; and (ii) social security systems to support the elderly, such as pension plans, healthcare
+schemes and long-term care insurance [12–15]. In contrast to these alarmist views, some call attention
+to the emerging “silver market” to illustrate a positive economic outlook ([16], pp. 22–23; [17,18]).
+Moreover, possible mitigation of economic decline is suggested by way of increasing female labor
+participation and policy reforms regarding the legal retirement age [19].
+    Despite the wide coverage of the earlier literature, these issues may represent only part of the entire
+picture of population aging because they are limited to macro-scale changes derived from population
+estimations. Furthermore, compared to the volume of knowledge on the cases of developed countries,
+little is known about the actual changes that people, both elderly and young population groups, are and
+will be experiencing in developing countries.
+    With the increase of life expectancies and the actual size of the older population defining an era of
+aging societies, in which increasing proportions of older populations will continue in the coming
+decades, what kinds of challenges should we expect? Given the expected impacts of population aging
+in the coming decades, this paper aims to: (i) describe population aging trends in the world and the
+regional demography; (ii) provide a structural review of population aging challenges at three levels,
+namely the national, the communal and the individual levels; and (iii) elaborate future research topics
+on population aging that particularly emphasize the situation of developing countries. For the third
+objective, this study briefly introduces the current state of rural Japan, which is possibly the most aged
+region in the world. The case of rural Japan is presented to illustrate the emerging population aging
+challenges in rural areas where the aging phenomenon is happening rapidly.
+
+
+Soc. Sci. 2015, 4                                                                                                     942
+
+2. The Era of Aging Societies
+
+2.1. Population Aging in the World and the Regional Demography
+
+   As was briefly mentioned in the previous section, the world demography is shifting to an era of
+population aging. Figure 1 presents the demographic changes of the world and three sub-regions1 with
+four age groups, and the share of older populations (aged 60-plus) from 1950–2100. As the figure of
+the “World” clearly shows, aging will emerge as a strong trend in the world demography. At the same
+time, Figure 1 also illustrates different patterns of population aging in three sub-groups.
+
+
+
+
+       Figure 1. Population trends of the world and three sub-groups with four age groups and the
+       shares of the aged 60-plus population. Note: Created from population estimations for
+       1950–2010 and population projections with a medium fertility rate for 2015–2100 by the
+       United Nations.
+
+   In the world demography, the older population group remained below 10 percent from 1950–2010
+(“World” in Figure 1). The predictions suggest a steady increase of this age group from 2015 onward.
+The share of the older population is predicted to reach 21.5 percent by 2050 and 28.3 percent by 2100.
+Although some scholars suggest that the world population may stabilize at around 10 billion people
+after 2050 [20], aging will remain as a clear trend in the world demography in the coming decades.
+
+1
+    Definitions of “more developed regions”, “less developed regions” and “least developed countries” are adopted from
+    the UN population statistics. The more developed regions include all countries in Europe, North America, Australia,
+    New Zealand and Japan. The less developed regions include all countries in Africa, Asia (except Japan), South
+    America, Latin America and the Caribbean. The least developed countries represent a list of 48 countries set by the UN.
+    The least developed countries are also included in less developed regions.
+
+
+Soc. Sci. 2015, 4                                                                                    943
+
+   In the case of more developed regions, population aging was already present in the late 1970s as the
+share of the older population exceeded 15 percent by 1975, and it further increased to 21.9 percent by
+2010 (“More developed regions” in Figure 1). One key demographic feature of developed regions is
+that the total population will be stabilized at around 1.28 billion from 2030 onward. At the same time,
+the size of the older-old (age 80-plus) group is expected to increase steadily. This demographic pattern
+will create a further increase in the share of the older population to 32.8 percent by 2050 and to
+34.6 percent by 2100.
+   In the less developed regions, population aging will quickly evolve from 2020–2060 as the share of
+the older population is predicted to double from 11.9 percent to 21.8 percent (“Less developed
+regions” in Figure 1). Although the acceleration of population aging will be slower, the aging trend
+will continue to be on the rise, with an increase to 27.5 percent by 2100.
+   In contrast to the other two sub-regions, the least developed countries will experience rather gradual
+population aging. As Figure 1 shows, the share of the older population is predicted to increase
+gradually from 5.3 percent in 2010 to 9.8 percent by 2050 (“Least developed countries” in Figure 1).
+From 2050 onward, aging will be accelerated in these countries, with the proportion of the older
+population expected to reach 20.5 percent by 2100.
+   Along with its share, the actual size of the older population is also important. Figure 2 presents the
+projection of the aged 60-plus population in six regions of the world. Among them, Asia will be home
+to 1.3 billion of the elderly by 2050 and 1.6 billion by 2100. Africa will be the region with the second
+largest population of older people by 2100, with 844.4 million people. Latin America will also
+experience a drastic increase of the older population from 70 million in 2015 to 200 million by 2050,
+and a further increase to 269.9 million by 2100. In contrast, in Europe, Northern America and Oceania,
+the pace of older population increase will not be as significant as the other regions (Figure 2).
+
+
+
+
+      Figure 2. Trends of the aged 60-plus population in six regions of the world. Note: Created
+      from population estimations for 1950–2010 and population projections with medium
+      fertility rate for 2015–2100 by the United Nations.
+
+
+Soc. Sci. 2015, 4                                                                                        944
+
+2.2. Demographic Causes of Population Aging
+
+   Population aging is mainly caused by two demographic changes: (i) decline in fertility rates; and (ii)
+increase in life expectancy ([7,21,22]; [23], pp. 13–20; [24,25]). These two demographic changes are
+long-lasting and largely irreversible as countries achieve social and economic development [26].
+   As Figure 3 shows, the decline in the fertility rate has been a long-term trend in both the world and
+regional demography. The total fertility rate in 1950 at the global level was 4.9 births per woman. The
+figure dropped to 2.6 births by 2010, and a further decline to 2.0 births is expected by 2050. At the
+regional level, the decline in fertility rate has been particularly noticeable in Europe and Asia. In
+Europe, the figure dropped from 2.7 births per woman in 1950 to 1.5 in 2010, and an additional slight
+decline to 1.5 births by 2050 is predicted. As for Asia, the figure was 5.8 births per woman in 1950,
+but it dropped to 2.3 by 2010 and is projected to be 1.9 by 2050. Although Africa still has as high as 4.8
+births per woman today, the region is on a long-term declining trend. The projection suggests that the
+fertility rate of Africa will decline to 3.1 births per woman by 2050. As Figure 3 illustrates clearly, low
+fertility rates are common across all regions, and this trend will be accelerated in the coming decades [27].
+
+
+
+
+      Figure 3. Trends in the total fertility rate in the world and six regions. Note: Created from
+      total fertility estimations for 1950–2010 and projections with a medium fertility variant for
+      2015–2050 by the United Nations.
+
+   The second demographic cause of population aging, the increase of life expectancy, increased
+significantly both in the world and regional demography. Figure 4 depicts a long-term trend of life
+expectancies for the world and six regions. The world average was 46.8 years in 1950, and it increased
+to 68.8 years by 2010 (22-year increase). Asia and Africa were two regions with lower life expectancies
+than the world average in 1950 at 42.1 years and 37.3 years, respectively. By 2010, Asia surpassed the
+
+
+Soc. Sci. 2015, 4                                                                                        945
+
+world average at 71.6 years, although Africa still remained much lower than the world average at
+56.5 years. Latin America had about a five-year longer life expectancy than the world average in 1950
+at 51.2 years, and it increased to 74.5 years by 2010. Northern America was the region with the longest
+life expectancy at 68.6 years in 1950. This region already surpassed 70 years by 1970 and further
+increased to 79.2 years by 2010. Europe and Oceania regions also had about 15–18-year longer life
+expectancies than the world average in 1950. These regions also experienced an increase, to 77.5 years
+by 2010. Towards 2050, the life expectancies in Asia, Northern America, Latin America, Europe and
+Oceania are projected to increase further. Asia is expected to reach 78.0 years, and the remaining four
+regions are expected to reach somewhere between 81.0 and 84.0 years. Although Africa will continue
+to have lower life expectancy than the world average, the region’s figure is expected to increase
+sharply to 66 years by 2030 and nearly 70 years by 2050. Overall, as Figure 4 also presents, the world
+average life expectancy increase will be a 30-year increase from 1950–2050.
+
+
+
+
+      Figure 4. Trends in life expectancy at birth in the world and six regions. Note: Created
+      from life expectation estimations at birth from 1950–2010 and projections with medium
+      fertility variant for 2015–2050 by the United Nations.
+
+    In addition to the increase in life expectancy at birth, the increase of life expectancy at older ages is
+also a major contributor to population aging. Shrestha (2000) [28] states that population aging is
+defined by demographers as “an increasing median age of a population or an alteration in the age
+structure of a population, so that elderly persons are increasingly represented within a country’s overall
+age structure”. However, population aging is also about people living longer lives than they did in the
+past, as life expectancies, particularly at older ages, have improved [29]. Table 1 shows the trends of
+life expectancy at age 60 in the world and six regions for males and females. In the world population, a
+60-year-old male could expect a remaining 13.1 years in 1950, while this increased to 17.8 years by
+
+
+Soc. Sci. 2015, 4                                                                                                                     946
+
+2000 and is predicted to reach 21.7 years by 2050. As for a 60-year-old female, it was 15.3 years in
+1950, 20.8 years in 2000, and it is expected to be 24.3 years by 2050. In each region, in general, there
+is an increasing trend in life expectancy of about 6–10 years from 1950–2050. Females, throughout
+this time, have about a two- to three-year longer life expectancies than males.
+
+                           Table 1. Life expectancy at age 60 in the world and six regions.
+                                                      Life expectancy at age 60 (Male)
+
+  Region       1950–1960   1960–1970    1970–1980   1980–1990    1990–2000    2000–2010   2010–2020   2020–2030   2030–2040   2040–2050
+
+  World           13.1        14.1        15.2         16.0        16.7          17.8       19.0        19.9        20.8            21.7
+
+  Africa          12.2        13.0        13.7         14.3        14.6          15.2       16.1        16.7        17.4            18.0
+
+   Asia           11.3        12.8        14.6         15.6        16.3          17.5       18.4        19.4        20.4            21.3
+
+  Europe          15.5        15.7        15.9         16.5        16.9          18.3       20.0        21.1        22.3            23.2
+
+  Latin
+                  14.8        15.6        16.0         16.4        17.6          19.2       20.4        21.4        22.5            23.7
+ America
+ Northern
+                  16.0        15.9        16.7         17.9        19.1          20.7       22.2        23.2        24.2            25.4
+ America
+ Oceania          14.9        15.1        15.8         17.2        18.8          20.9       22.4        23.6        24.3            24.9
+
+                                                     Life expectancy at age 60 (Female)
+
+  Region       1950–1960   1960–1970    1970–1980   1980–1990    1990–2000    2000–2010   2010–2020   2020–2030   2030–2040   2040–2050
+
+  World           15.3        16.7        18.1         19.0        19.8          20.8       21.8        22.7        23.5            24.3
+
+  Africa          13.3        14.2        15.0         15.7        16.1          16.7       17.6        18.4        19.3            20.1
+
+  Asia            13.0        14.6        16.5         17.7        18.8          19.9       20.9        21.9        22.8            23.7
+
+ Europe           18.1        19.1        19.8         20.7        21.3          22.5       24.0        25.0        26.0            26.9
+
+  Latin
+                  16.2        17.4        18.3         19.2        20.6          22.3       23.6        24.8        25.8            26.8
+ America
+ Northern
+                  19.3        20.1        21.5         22.6        23.1          23.9       25.1        26.0        26.8            27.7
+ America
+
+ Oceania          18.3        19.0        20.1         21.6        22.9          24.4       25.5        26.4        27.2            27.9
+
+          Note: Created from estimated life expectancy by the Division of Economics and Social Affairs, the United Nations, 2015.
+          Figures from 1950–2010 are estimations, and figures from 2020–2050 are predictions.
+
+
+3. Pervasiveness and Acceleration of Population Aging
+
+   As previous sections illustrate, one key characteristic of the population aging phenomenon is its
+pervasiveness both in developed and developing countries. In terms of geographical expansion, those
+areas with more than 20 percent of their population being age 60-plus are concentrated in Europe,
+North America, Oceania and Japan in 2014. However, by 2050, countries with the same proportion of
+elderly people will expand to both North and South America, the entirety of the Eurasian continent
+and a wide area of the Asia and Pacific region, even in some countries in Northern Africa and the
+Middle East [30–32].
+   In developing countries, the expansion of population aging is happening at a much faster pace than
+developed countries. Another common indicator to measure the degree of population aging is to
+examine the time (number of years) elapsed for the increase in the share of the aged 65-plus population
+
+
+Soc. Sci. 2015, 4                                                                                       947
+
+or the elderly dependency ratio (EDR) from 7–14 percent [22,33–35]. Furthermore, some scholars have
+put forward 21 percent (or 20 percent or higher) as another figure to illustrate a super- or hyper-aging
+society [10,36–38]. Reflecting these possible benchmark figures, Figure 5 presents the number of years
+taken or predicted to take for three aging transitions at the societal level. Each phase of transition is in
+multiples of 7–28 percent. As for the first transition, from 7–14 percent, European and North American
+countries took a half to one century to achieve this transition. For example, France, Norway and Sweden
+took more than 80 years; Australia, Canada and the United States needed more than 60 years; and even
+the shortest cases—Germany, Spain and the United Kingdom—took more than 40 years. In contrast,
+the first transition took place or is predicted to happen within 30 years in Asian and South American
+countries. It will be particularly short, less than 20 years, in Brazil, Colombia, South Korea and Vietnam.
+
+
+
+
+      Figure 5. Number of years taken or predicted to take for three aging transitions in selected
+      countries. Note: Created from the Organisation for Economic Co-Operation and Development
+      (OECD) and UN demographic database. Years in parentheses are the periods during which
+      each aging transition occurred or is predicted to occur.
+
+   The second and third aging transitions are predicted to happen within a much shorter amount of
+time in developed countries. The second transition, from 14–21 percent, is expected to happen in less
+than 60 years for Europe, less than 20 years for Canada and the United States and in around 10–15
+years for Asia and South American countries. All countries listed in Figure 5 will complete the second
+aging transition by 2050. Although the third aging transition may take a longer time for some
+European countries, it is also expected to occur as rapidly as the second transition in the majority of
+countries (Figure 5). Currently, only Japan, Germany and Italy have reached the second aging transition,
+
+
+Soc. Sci. 2015, 4                                                                                      948
+
+and among these three countries, Japan is the most rapidly aging country, as it will reach the third
+transition by 2019. In general, the number of years taken or predicted to take for these three aging
+transitions are expected to be lower as these countries move to later transitions in the future.
+   As Figure 5 illustrates, population aging will be greatly accelerated in the coming decades and have
+profound impacts both in developed and developing countries. This phenomenal acceleration of
+population aging would particularly be a peril for developing countries, as they have to face the emerging
+demands for medical treatment, long-term care and financial support for aging societies before they
+fully benefit from their economic development ([39], pp. 30–47; [40,41]; [42], pp. 86–95). Responses
+to population aging and related social challenges must be developed according to the speed of
+population aging in developing countries.
+
+4. Population Aging at Three Different Levels
+
+    As numerous profound impacts of population aging are anticipated, it is important to structurally
+analyze the expected challenges at different levels. This point is also supported by Bloom et al.
+(2011) [43], as they propose adaptation strategies to population aging at three different levels:
+(i) societal; (ii) organizational; and (iii) individual levels. Employing a set of analytical levels will
+greatly help, particularly developing countries, to foresee possible challenges. In this paper, the authors
+propose using (i) national; (ii) communal; and (iii) individual levels to delineate the emerging population
+aging challenges.
+
+4.1. Population Aging Challenges at the National Level
+
+   At the national level, in developed countries, population aging is often framed as an imminent issue for
+social welfare systems, which are based on the balance between the older population who receives services
+and the younger population who supports the system’s operation ([12,44]; [45], pp. 9–28; [46,47]). In
+2010, there were four persons of working population age (age 15–64) to support one older person
+(aged 65-plus) in developed countries; however, this ratio is predicted to decline to three working age
+persons to one older person by 2025 [7]. This change in the balance between the older population and
+the younger population is caused by the rapid increase of the older-old population (aged 80-plus) in the
+coming decades [2]. Since public insurance for medical and geriatric services is covered almost
+universally in developed countries [48] and the older-old persons have a higher risk of suffering from
+chronic diseases and developing disabilities [49,50], there will be considerable pressure on welfare
+budgetary schemes. For example, Japan, the most aged country in the world where the aged 65-plus
+population accounts for 25.1 percent of the population, the share of social security expenditure of the
+country’s total national income increased from 5.8 percent in 1970 to 29.6 percent in 2010. In actual
+terms, 70.5 trillion yen (equivalent to 579.5 billion US dollars) was spent on elderly care, which is
+equivalent to 68.1 percent of total social security expenditure. This figure was the largest ever, yet
+continual increases are expected [51].
+   In the context of developing countries, where social welfare schemes are not yet well established,
+the main challenge is to adequately respond to the escalating medical and other needs of the elderly.
+Among these countries, the impact of aging will be felt most drastically in China, as the country has
+the largest aging population, which is 160 million aged 60-plus people [52]. Considering the country’s
+
+
+Soc. Sci. 2015, 4                                                                                        949
+
+shortage of nursing centers, the difficulty in constructing care facilities fast enough to catch up with the
+growing aging population and the relatively expensive medical costs for low and middle-income
+people in China, it will be important to train geriatric care workers, to prepare a policy to cover uninsured
+and underinsured elderly and to build a strategy to cope with the expected increase of elderly with
+disabilities [53,54]. Although there is a considerable difference in terms of the speed and scale of aging
+transitions in each country, the development of socioeconomic systems to provide economic security
+for the growing older population will be a shared concern among developing countries [22].
+
+4.2. Population Aging at the Communal Level
+
+   The definition of the communal level needs to be flexible, since this level includes all units of
+society between the national and the individual levels. In a practical sense, the communal level
+includes all administrative units below the national government, such as provincial and municipal areas,
+and those smaller units of social groups, such as neighborhood communities or voluntary groups of
+residents. In addition, the focus of the communal level is not limited to the well-being of the elderly.
+The core challenge at this level is about securing adequate living conditions for all generations and
+maintaining the livelihood of societies while facing population aging challenges.
+   As for developed countries, topics discussed at the communal level in earlier literature have varied
+across urban and rural areas. The issues of shrinking cities and abandonment of facilities, such as complex
+housing, are discussed in relation to the living environment of elderly residents in urban areas [55,56].
+Recent urban, community-based initiatives, such as Groundwork in the United Kingdom [57,58] or
+Machizukuri (participatory planning process) in Japan [59], are exemplary communal initiatives that
+aim to create social ties by enhancing citizens’ participation in city and neighborhood planning [60].
+These bottom-up and autonomous approaches in community design enable the community members to
+address the demands of older residents. These local initiatives encourage residents’ collective actions to
+build an inclusive society for all generations in urban communities.
+   In rural areas, the proportion of the older population tends to be higher than in urban areas, often as
+a result of youth migration to cities [23]. Such out-migration of rural young population is increasingly
+common in developed countries, and older residents are often left behind in rural towns [61–64]. In the
+case of Japan, the United Kingdom and Ireland, rural residents are experiencing critical declines in
+access to basic services, such as grocery stores, post office services and gas stations, due to gradual
+withdrawal of service providers from remote areas [65–70]. Closures of basic services primarily affect
+local living conditions, particularly of elderly households, and decrease chances for interaction among
+community members, which often becomes a driver of social isolation for older residents.
+   In the case of developing countries, the types of challenges at the communal level are more diverse
+and particular to social contexts. Although the literature is limited, Rittirong et al. (2014) [71] reported
+the importance of support by community organizations, such as Buddhist temples or local healthcare
+centers, in Thailand. They also pointed out that religion has an important role for the elderly in Thailand,
+as they participate in ceremonies at temples on holy days every month and interact with other participants.
+Cases of community care are also reported in Taiwan where neighborhood-based communities in cities
+may be critical in providing geriatric care for the urban elderly [72]. As social welfare schemes for the
+elderly are either not available or may not be fully established, structural responses at the communal
+
+
+Soc. Sci. 2015, 4                                                                                     950
+
+level will be a key approach for community-based care for elderly residents. In addition, the notion of
+sustainable development will be particularly useful in analyzing diverse and unpredictable population
+aging challenges in developing countries. The application of the sustainable development concept allows
+a holistic view to investigate hidden challenges, as it explores the economic, environmental and social
+dimensions of the target system [73].
+
+4.3. Population Aging at the Individual Level
+
+    Aging is a life course process of individuals. During this process, every person experiences gradual
+changes in physical and psychological conditions. The main challenge of population aging at this level
+is how to ensure the fulfillment of living conditions for older individuals.
+    Regardless of the differences between developed and developing countries, older people tend to be
+at higher risk on various occasions in their day-to-day lives. Earlier studies suggest that older people
+have higher health risks and a greater possibility of being victims of severe climate events, such as heat
+waves [74–76] and hurricanes [77,78]; especially those with chronic diseases are more vulnerable to
+these events. In addition, older people are also exposed to greater risks by being trapped in a state of
+social exclusion or relative poverty [79–81].
+    In terms of the psychological conditions of older people, loneliness and social isolation are two
+important concepts that enable better understanding of the state of older people in a society. To begin
+with, loneliness is a subjective notion and describes the state of individuals experiencing the loss or
+absence of an intimate or needed relationship [80,82], yet it does not necessarily imply the state of an
+individual being alone per se. Drennan et al. (2008) [83] concludes that people with a higher degree of
+loneliness tend to be: (i) males at the low income level; (ii) those who infrequently communicate
+with their children or other family members; and (iii) often those who provide home care for their
+spouse or relatives. In contrast, social isolation is an objective notion that describes the actual degree
+of connectedness to other individuals or social groups. The condition of being socially isolated is
+explained as “the objective state of having minimal contact with other people” [84]. Poor physical
+health, low morale and experiencing difficulties in communication and mobility are considered as the
+causes of social isolation [85]. As individuals go through different stages of life, they experience
+various patterns of losing social relationships that they have built. For example, retirement is a
+representative occasion of losing connections that can increase one’s vulnerability not only in financial
+terms, but also in social relationships. Deaths of partners, friends and family members are also
+symbolic moments that may become a trigger for a greater degree of social isolation.
+    Along with general life events, gender appears as the second trigger for social isolation. Older
+women often receive a double jeopardy that positions them first as “elderly” and second as “woman”.
+In fact, older women tend to be subjected to discrimination in employment, access to daily needs,
+ownership of property and even participation in leisure activities [86,87]. Such inequalities in older
+woman tend to appear in a rural setting more so due to the required travel distance to services; recent
+price increases in energy and food are placing additional pressure on household budgets, and such
+situations are generally more difficult to manage for older female residents [66,88]. In addition, in
+developing countries, older women tend to have lower educational levels and economic independence;
+hence, they tend to be economically dependent on either their husbands or relatives [89,90].
+
+
+Soc. Sci. 2015, 4                                                                                     951
+
+   One major challenge regarding loneliness and social isolation of older people exists in the social
+perception towards older people. General perceptions of the elderly often have negative connotations, and
+they set a strong assumption that “older people are inevitably dependent and a burden on society” [91].
+Such stereotypes classify the older population as welfare beneficiaries and underestimate their
+contributions to society. In reality, older residents, especially those in their pre-retirement, are often
+found as major contributors in caregiving and volunteering and also as active entrepreneurs in local
+communities [92–94]. In a society with higher proportions of the elderly, it will be critical to build an
+inclusive atmosphere not only for older residents, but also for all generations, recognizing older
+residents as active members of society and actively working to prevent loneliness and social isolation.
+
+5. Topics for Future Research
+
+5.1. Population Aging and Sustainable Development
+
+   As discussed in the previous sections, population aging is increasingly becoming a global
+phenomenon, and various challenges are predicted across the national, communal and individual
+levels. Particularly in developing countries, where both physical infrastructure and social systems are
+rapidly evolving, what will be the unique challenges related to aging? More specifically, along with the
+challenge in establishing social security systems and ensuring further economic growth at the national
+level, what should be the focus of studies on population aging at the communal and individual levels in
+the social and cultural contexts of developing countries? To answer these questions, discussing
+population aging in line with the concept of sustainable development, which incorporates
+intergenerational equity, environmental concerns and social equality dimensions while pursuing
+economic development [95–97], would be very helpful, as it provides a holistic view to address
+different dimensions of the aging phenomenon.
+   To start with, the current development scheme of developing countries does not necessarily address
+the demands of the elderly. This is clearly pointed out by Shetty (2012) [98] who argues that there has
+been “a massive disconnect between the Millennium Development Goals (MDGs) and aging”.
+Highlighting the looming threat of aging in the coming decades, some international organizations are
+calling for global attention to include population aging on the sustainable development agenda [99,100];
+however, aging is not included in post-MDG discussions. This may be because of the still very young
+population of developing countries. Shetty (2012) [98] pointed out that many developing countries
+have made their efforts in dealing with diseases in youth and middle-aged people intensively, which
+has led them to achieve longer life expectancies. However, such prioritization of the younger population
+has caused a situation that many developing countries are unprepared to meet the needs of the
+emerging elderly population [98]. Developing countries need to incorporate aging in their development
+agendas, and strategic responses at all levels are required. Moreover, it is critically important to
+implement such responses today, as any measures addressing demographic issues require a long time
+to observe their effects fully [101].
+   Secondly, these responses to population aging should not be limited to policy level discussions on
+such topics, such as the sustainability of social security systems; aging in every dimension of society
+must be addressed. This is particularly the case for developing countries where the impacts of
+
+
+Soc. Sci. 2015, 4                                                                                    952
+
+environmental issues are more acute and the general living conditions of elderly residents are more
+affected by rapid social changes [102]. Although there is a great degree of heterogeneity among
+developing countries, a few studies reported unsafe living conditions for the elderly. Although the
+higher chance of older residents to be crime victims is not confined to developing countries, Veras
+(2009) [103] documented that elderly Brazilians have to live with the fear of violence, which reflects
+the high crime rate of the country. Somrongthong et al. (2014) [104] report possible dangers related to
+housing environments in rural Thailand, such as “lighting and unsafe wires”. Accordingly, social
+infrastructure, such as public facilities, transportation and public housing, needs to be designed to be
+accessible for all generations, including older residents.
+    Thirdly, population aging needs to be examined in relation to other development challenges, because
+aging populations will be a predominant condition in most countries in the coming decades. For
+example, urbanization is another universal phenomenon; by 2030, more than 60 percent of the global
+population will be living in cities, and about 25 percent of them will be aged 60-plus [105]. The
+combination of population aging and urbanization is considered as a major demographic challenge of
+this century [106]. Despite the abundant studies on population aging and urbanization, respectively, not
+much research has examined these two challenges together. A review paper by Phillipson (2004) [107]
+listed: (i) elucidating the urban context; (ii) examining the impact of globalization on definitions and
+perceptions of place; and (iii) urban ethnography to comprehend the experience of aging within cities,
+as agendas for urban aging research. Regarding the urban context, Smith (2009) [108] identified three
+factors that prevent older residents from aging well, which are: (i) neighborhood problems, such as
+overcrowding, noise and air pollution; (ii) living environment problems; and (iii) perceived city
+environment, such as fear of crime and access to high-quality services. Particularly, living environment
+problems include practical fears in the daily lives of older people, such as “negotiating hilly and/or
+uneven terrain, and worries about being able to sit down whilst out shopping” [109], and access to public
+toilets in the city centers [106]. These earlier studies are limited to the case of developed countries.
+    As for developing countries, one such challenge related to urbanization pertains to the types of
+urban residences. A large-scale migration from rural areas to cities has been taking place due to rapid
+urbanization, and significant numbers of these migrants first settle in residential areas with low-income
+level households or informal settlements in an urban area. Some of them eventually move to other
+parts of the city, whereas the others continue to live in the same areas and become permanent residents.
+As those permanent residents become aged, their experiences in an urban settlement would differ
+greatly from those of older residents in developed countries. Furthermore, urbanization often holds
+diverse environmental challenges in such areas, as water quality, air pollution and waste management.
+As urbanization with all its complexities is expected to expand rapidly in developing countries,
+further studies are required to examine how environmental challenges affect older people and the local
+responses needed.
+
+5.2. Community-Function Decline in Rural Areas: Emerging Topic from the Experience of Japan
+
+   The other expected challenge related to population aging in developing countries is rural declines
+induced by the recent rapid urbanization trend. This is because urbanization is largely driven by the
+
+
+Soc. Sci. 2015, 4                                                                                  953
+
+migration of young populations, which affects the “age distribution in both sending and receiving
+areas” [110].
+   In developed countries, rural areas are hollowing out due to the continual out-migration of young
+populations, and rural areas are experiencing diverse declines not only in their demographics, but also
+in local economies, living environments and social vitality [61,111]. Among those countries that are
+experiencing such rural declines, Japan’s experience is particularly drastic.
+   In Japan, a large-scale migration of young population to major cities occurred between the late
+1950s and the early 1970s during a period of rapid economic growth [112]. Figure 6 illustrates the
+changing flow of in-migration of three major city areas in Japan. The peak time for this large-scale
+migration was the period of 1955–1960, when about 588,000 people moved to these three metropolitan
+areas. Although the size is much smaller, the migration trend to the Tokyo area is still present today,
+with around 65,000 people migrating there in 2010 (Figure 6).
+
+
+
+
+      Figure 6. In-migration of three major city areas in Japan from 1955–2010. Note: Created
+      from the report on Internal Migration in Japan by the Ministry of Internal Affairs and
+      Communications. Counted numbers show only Japanese nationality. Area definitions are
+      as follows: the Tokyo area includes Chiba, Kanagawa, Tokyo and Saitama prefectures; the
+      Nagoya area includes Aichi, Gifu and Mie prefectures; the Osaka area includes Hyogo,
+      Kyoto, Nara and Osaka prefectures.
+
+   Between two National Censuses of 2005 and 2010, 38 out of the country’s 47 prefectures
+experienced negative population growth [113]. Especially, five prefectures with the greatest degree of
+depopulation (Aomori, Akita, Iwate, Yamagata, Kochi) experienced a four–five percent population
+decline annually during this five-year period. As of 2013, the share of older people (aged 65-plus) in
+these five prefectures was between 27 and 32 percent, while the national average was at 25.1 percent.
+Among them, Akita had the highest share of older people at 31.6 percent. Rural Japan is one of the
+areas in the world where the most rapid population aging has happened; therefore, its experience can
+
+
+Soc. Sci. 2015, 4                                                                                      954
+
+provide significant insights for rural areas of developing countries where similar patterns of rural
+decline are predicted due to the rapid urbanization experience.
+    One clear impact of population aging can be found in the declining community vitality in rural
+areas. Though it is a relatively new concept and does not have a universal definition, community vitality
+is seen as “the ability of a community to sustain itself into the future as well as provide opportunities
+for its residents to pursue their own life goals and the ability of residents to experience positive life
+outcomes” [114]. This concept is close to the notion of ‘community-function’ developed by Japanese
+scholars in rural studies. In rural Japan, residents form neighborhood-based social relationships for the
+activities that are essential for maintaining their livelihood and local environment. These collective
+actions are recognized as a set of functions, called “community-function” (originally “shurakukino” in
+Japanese), that each rural community has ([115], pp. 73–76; [116–120]). Although there is no established
+set of indicators for its measurement, earlier studies suggest that the collective actions of residents are
+critical for sustaining community-function. For example, collective actions of residents in farming and
+forestry, maintenance of living environments and local events, such as seasonal festivals and traditional
+performing arts, are considered as key activities to determine the quality of community-function.
+    Community-function is a useful notion for understanding the self-managing capacity of a rural
+community, and its decline implies the weakening of community vitality. As a result of continued
+outflow of young people and the aging of residents, rural communities are experiencing drastic
+declines in community-function, and further declines are seen as possible threats to the sustainability
+of rural communities [121].
+    Rural studies in Japan examined the actual changes that residents experience during the declining
+process of community-function. They claim residents face a wide range of challenges in their living
+conditions in such aspects as transportation and access to basic services [69,122], management of vacant
+houses and community facilities [56,123,124] and abandonment of farmlands and communal forests
+due to aging of farmers and lack of successors [125,126].
+    The succession of traditional knowledge is another concern during the rural decline process, as it
+has been the main body of knowledge about the interaction between nature and society based on the
+regular observation of the local environment, which looks at patterns of natural cycles including
+crises [127,128]. Traditional knowledge is also linked to local beliefs and understanding of place that
+are critical to the identity formation of local people. The case of rural Japan illustrates a severe
+situation regarding traditional knowledge transfer over generations as older residents practically cannot
+transfer their knowledge to younger generations since there are fewer young people in their
+communities. Additionally, even if some young people remain in rural communities, many of them are
+not engaged with farming, which is a key intermediary between nature and society. This situation
+makes learning specific types of traditional knowledge, which they can only acquire through direct
+observations and experiences with nature, much more difficult.
+    The main challenge for rural decline is to find a sustainable approach to reinvigorating the declining
+community-function and to create new functions to respond to emerging challenges. Fulfillment of
+declining functions may be achieved by merging a number of rural communities to keep the critical mass
+for maintaining the minimum size and quality of community-function. This initial phase of response
+aims at securing the living conditions of rural residents. Yet, at the same time, it would be critical for
+rural communities to be open to the external infusion of knowledge. New knowledge from outside may
+
+
+Soc. Sci. 2015, 4                                                                                       955
+
+revitalize the traditional knowledge to preserve declining community-function or add novel functions
+addressing new local challenges. In fact, the demands of residents are likely to change, as there is a
+higher share of older residents in a community. Further case studies are required to identify the role of
+traditional and new knowledge during the process of population aging in rural communities.
+   Considering the larger scale of urbanization and population aging, a faster pace of rural decline is
+expected in developing countries. For example, Gautam (2008) [129] reported the living conditions of
+elderly residents in Nepal, noting that they are largely left alone in rural villages and feel helplessness,
+loneliness and frustration even though they receive financial support from their out-migrated children
+who are making their own livings in cities. Flahety et al. (2007) [54] also claim that the recent trend of
+rural-to-urban migration may interfere with the traditional networks of children to provide care for the
+elderly, as they are physically distant from their home. Although the same degree of population aging
+as Japan may not be observed, studies on rural decline, especially in terms of community-function and
+traditional knowledge, will be critical for developing countries.
+
+6. Conclusions
+
+   This paper reviewed the population aging trends in world and regional demography. The world
+demography is rapidly shifting to an era of population aging. This point has been confirmed by the
+increasing share and actual size of the aged 60-plus populations, both in developed and developing
+regions. Although Europe will remain the most aged region in terms of the share of older people,
+population projections suggest that population aging will be intensified in Asia, Latin America and
+Africa in terms of the total number of elderly. The declining fertility rate and the increasing life
+expectancies both at birth and at older ages are identified as the demographic causes for the population
+aging trend in the world. The acceleration of population aging in the selected countries was also
+reviewed in terms of three aging transitions. Although Europe and Northern American will go through
+these transitions over relatively longer periods of time than Asian and Latin American countries,
+the second and the third transitions are predicted to occur rapidly in all countries. In general,
+the number of years taken or predicted to take for these transitions is decreasing as countries move to
+later transitions in the future.
+   Three levels—(i) the national; (ii) the communal; and (iii) the individual levels—are applied to
+structurally analyze the expected challenges related to population aging both in developed and
+developing countries. At the national level, the increasing financial pressure to sustain current systems
+due to the increasing proportion of older people is a major concern, especially in developed countries.
+As for developing countries, where welfare schemes are not fully established, the main challenge will
+be to meet the medical and other needs of the growing older population. The case of China highlights a
+shortage of care facilities and geriatric care workers. Though the size and speed of population aging
+differ among developing countries, the development of socioeconomic systems to ensure economic
+security for the elderly will be a common challenge. At the communal level, challenges both in urban
+and rural areas are discussed for developed countries. In urban areas, challenges are linked to the
+physical changes of cities, such as shrinking cities or abandonment of facilities, whereas the challenges
+in rural areas are more directly related to residents’ living conditions, such as the accessibility of basic
+services. As for developing countries, the types of challenges at the communal level are expected
+
+
+Soc. Sci. 2015, 4                                                                                      956
+
+to be more diverse and particular to social contexts. The case of Thailand suggests that community
+organizations, such as Buddhist temples and local healthcare centers, play an important role in enhancing
+the well-being of the elderly. Another case of community care in Taiwan also suggested the importance
+of healthcare services at this level. At the individual level, the concepts of loneliness and social
+isolation are reviewed. Possible approaches are linked to initiatives at the communal level, which aim
+at increasing the social participation of older people. Gender dimensions are also briefly mentioned as
+an additional trigger for social isolation. In the case of developing countries, gender appears to be a
+more distinctive issue in educational attainment levels and economic dependency.
+    Finally, two topics are suggested for future research on population aging. The first topic is about the
+need to link population aging challenges with sustainable development. With the knowledge that the
+size of the older population will increase drastically in developing regions, population aging should be
+discussed in the context of other development challenges. Urbanization is raised as a possible topic
+that has a significant linkage to population aging. As more than 60 percent of the global population
+will live in cities by 2030, it is urgent to address sustainable development issues of elderly residents in
+urban settlements, particularly in developing countries. In fact, WHO (2007) [106] suggests the
+combination of aging and urbanization is a major demographic challenge of this century.
+    The second topic is about rural declines caused by the extensive out-migration of the young
+population as part of a recent rapid urbanization trend. Japan’s experience of rural decline is presented
+to illustrate possible challenges in rural aging communities. The problems of rural decline both in
+terms of tangible aspects, such as access to basic services, management of local properties and public
+transportation, and intangible aspects, such as succession of traditional knowledge among generations,
+are introduced. Furthermore, the concept of community-function from Japanese rural studies is
+introduced as a useful notion for understanding the self-managing capacity of rural communities.
+Considering the strong presence of urbanization and accelerating population aging, a similar pattern of
+rural decline may occur in rapidly-aging developing countries.
+    Given the anticipated impacts of population aging, the authors call for future studies on population
+aging in developing countries. One effective approach would be a series of comparative studies
+between the countries that have been experiencing rapid population aging, such as Japan, Korea and
+Singapore, and the other countries in which a rapid acceleration of population aging is expected in the
+coming decades. Analysis in these studies should be conducted across the national, communal and
+individual levels. Among them, the communal level should be emphasized, as local and autonomous
+initiatives will be a critical measure in responding to diverse development challenges. Further studies
+to create a body of knowledge on population aging in developing countries will help in placing
+population aging on the agenda of future sustainable development discussions.
+
+Author Contributions
+
+   Shogo Kudo has been conducting research on population aging in rural areas of Japan over the past
+5 years and has provided leadership for this study. Emmanuel Mutisya and Masafumi Nagao both
+served to improve the content as well as the structure of this paper.
+
+
+Soc. Sci. 2015, 4                                                                              957
+
+Conflicts of Interest
+
+     The authors declare no conflict of interest.
+
+References
+
+1.  United Nations. The World Population Situation in 2014: A Concise Report. New York: United
+    Nations, 2014. Available online: http://www.un.org/en/development/desa/population/publications/
+    pdf/trends/Concise%20Report%20on%20the%20World%20Population%20Situation%202014/en.
+    pdf (accessed on 25 April 2015).
+2. United Nations. World Population Ageing 2009. New York: United Nations, 2009. Available
+    online: http://www.academicroom.com/book/world-population-ageing-2009 (accessed on 6
+    September 2012).
+3. Crampton, Alexandra. “Global Aging: Emerging Challenges.” The Pardee Papers 6 (2009): 1–25.
+    Available online: http://www.bu.edu/pardee/files/2009/09/pardee_aging-6-global-aging.pdf
+    (accessed on 20 July 2013).
+4. United Nations. “Population Facts: Population Ageing and Sustainable Development.” 2014.
+    Available online: http://www.un.org/en/development/desa/population/publications/pdf/popfacts/
+    PopFacts_2014-4.pdf (accessed on 22 August 2015).
+5. Meadows, Donella H., Dennis L. Meadows, Jorgen Randers, and Williams W. Behrens. The Limits
+    to Growth. New York: Universe Books, 1972. Available online: http://www.donellameadows.org/
+    wp-content/userfiles/Limits-to-Growth-digital-scan-version.pdf (accessed on 15 September 2010).
+6. Ehrlich, Paul R. “The Population Bomb, Ballantine Books.” 1968. Available online:
+    https://www.princeton.edu/~achaney/tmve/wiki100k/docs/The_Population_Bomb.html (accessed
+    on 9 April 2012).
+7. National Intellegence Council (NIC). “Global Trends 2025: A Transformed World.” 2008. Available
+    online: http://www.aicpa.org/research/cpahorizons2025/globalforces/downloadabledocuments/
+    globaltrends.pdf (accessed on 30 July 2010).
+8. Fishman, Ted C. Shock of Gray, 1st ed. New York: Scribner, 2010. Available online:
+    http://tedcfishman.com/writing/shockofgray.html (accessed on 18 May 2014).
+9. Peterson, Peter G. Gray Dawn: How the Coming Age Wave Will Transform America—And the
+    World, 1st ed. New York: Time Books, 1999.
+10. Thang, Leng Leng. “Population aging, older workers and productivity issues: The case of
+    Singapore.” Journal of Comparative Social Welfare 27 (2011): 17–33.
+11. Bijak, Jakub, Dorata Kupiszewska, Marek Kupiszewski, and Katarzyna Saczuk. “Impact of
+    International Migration and Population Dynamics and Labour Force Resources in Europe.” 2005.
+    Available online: http://www.cefmr.pan.pl/docs/cefmr_wp_2005-01_annex.pdf (accessed on 5
+    June 2010).
+12. Bongaarts, John. “Population Aging and the Rising Cost of Public Pensions.” Population and
+    Development Review 30 (2004): 1–23. Available online: http://doi.wiley.com/10.1111/j.1728-
+    4457.2004.00001.x (accessed on 14 August 2012).
+
+
+Soc. Sci. 2015, 4                                                                              958
+
+13. MacKellar, F. Landis. “The Predicament of Population Aging : A Review Essay.” Population
+    and Development Review 26 (2000): 365–404.
+14. Werblow, Andreas, Stefan Felder, and Peter Zweifel. “Population ageing and health care
+    expenditure: A school of ‘red herrings’?” Health Economics 1126 (2007): 1109–26. Available
+    online: http://onlinelibrary.wiley.com/doi/10.1002/hec.1213/full (accessed on 20 October 2014).
+15. Economic Policy Committee and European Commission. “The impact of ageing on public
+    expenditure: Trajectories for the EU25 member States on pensions, health care, long-term care,
+    education and unemployment transfers (2004–2050).” 2006. Available online: http://europa.eu/
+    epc/pdf/ageingreport_en.pdf (accessed on 26 November 2010).
+16. Kohlbacher, Florian, and Cornelius Herstatt. “The Silver Market Phenomenon.” Japan Inc, 2008.
+    Available online: http://www.japaninc.com/mgz_september_2008_aging-society-in-japan (accessed
+    on 30 November 2010).
+17. European Commission. “Growing the Silver Economy in Europe.” 2015. Available online:
+    http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=9115 (accessed on 14 July 2015).
+18. Feng, Wang. “The Silver and White Economy: The Chinese Demographic Challenge.” 2014.
+    Available online: https://www.google.co.jp/url?sa=tandrct=jandq=andesrc=sandsource=web
+    andcd=2andved=0CCMQFjABahUKEwiHqqbVlNDHAhWGmpQKHfB_DjYandurl=http:
+    //www.oecd.org/cfe/leed/Fostering-Resilient-Economies_final_opt.pdfandei=T6DiVcfGMI
+    a10gTw_7mwAwandusg=AFQjCNGrFUvDH8i1ziVoF-DEH11vrnUgxAandsi (accessed on
+    28 August 2015).
+19. Bloom, David E., David Canning, and Günther Fink. “Implications of population ageing for
+    economic growth.” Oxford Review of Economic Policy 26 (2011): 583–612. Available online:
+    http://oxrep.oxfordjournals.org/cgi/doi/10.1093/oxrep/grq038 (accessed on 5 August 2014).
+20. Lutz, Wolfgang, Warren Sanderson, and Sergei Scherbov. “The end of world population growth.”
+    Nature 412 (2001): 543–45. Available online: http://www.pubmedcentral.nih.gov/articlerender.
+    fcgi?artid=3471000andtool=pmcentrezandrendertype=abstract (accessed on 9 July 2014).
+21. Zaidi, Asghar. “Features and challenges of population ageing: The European perspective.” 2008.
+    Available online: http://envejecimiento.csic.es/documentos/documentos/europeancentre-features-
+    01.pdf (accessed on 13 July 2014).
+22. Lee, Sang-Hyop, Andrew W. Mason, and Donghyun Park. “Why Does Population Aging Matter
+    So Much for Asia? Population Aging, Economic Growth, and Economic Security in Asia.” Asian
+    Development Bank Economics Working Paper Series 284 (2011): 1–33. Available online:
+    http://core.ac.uk/download/pdf/9306302.pdf (accessed on 10 March 2014).
+23. OECD. “Ageing OECD Societies.” In Trend Shaping Education 2008. Paris: OECD Publishing,
+    2008. Available online: http://www.oecd-ilibrary.org/education/trends-shaping-education-2008_
+    9789264046627-en (accessed on 8 December 2011).
+24. United Nations Population Fund (UNFPA). Ageing in the Twenty-First Century: A Celebration
+    and a Challenge. New York: United Nations Population Fund, 2012. Available online:
+    http://www.unfpa.org/webdav/site/global/shared/documents/publications/2012/UNFPA-Exec-
+    Summary.pdf (accessed on 27 December 2013).
+
+
+Soc. Sci. 2015, 4                                                                                 959
+
+25. European Commission. “Ageing Report : Economic and budgetary projections for the EU-27
+    Member States (2008–2060).” 2009. Available online: http://ec.europa.eu/economy_finance/
+    publications/publication14992_en.pdf (accessed on 4 April 2011).
+26. Mrsnik, Marko, David T. Beers, and Ivan Morozov. “Global Aging 2010 : An Irreversible
+    Truth.” 2010. Available online: http://www.apapr.ro/images/stories/materiale/COMUNICATE/
+    2010/2010%2031%20attach.pdf (accessed on 27 June 2013).
+27. Dobriansky, Paula J., Richard M. Suzman, and Richard J. Hodes. “Why Population Aging
+    Matters a Global Perspective.” 2007. Available online: http://scholar.google.com/scholar?hl=
+    enandbtnG=Searchandq=intitle:Why+Population+Aging+Matters+A+Global+Perspective#0
+    (accessed on 4 December 2014).
+28. Shrestha, Laura B. “Population aging in developing countries.” Health Affairs 19 (2000): 10.
+    Available online: http://content.healthaffairs.org/cgi/doi/10.1377/hlthaff.19.3.204 (accessed on 1
+    November 2011).
+29. Harper, Sarah. Ageing Societies. London: Routledge, 2014.
+30. United Nations. World Population Ageing 2013. New York: United Nations, 2013. Available online:
+    http://www.un.org/en/development/desa/population/publications/pdf/ageing/WorldPopulationAg
+    eing2013.pdf (accessed on 21 November 2014).
+31. Gallagher, Chris. “A Seat at the Table.” Genome Biology 9 (2008): 113. Available online:
+    http://genomebiology.com/content/pdf/gb-2008-9-12-113.pdf (accessed on 13 June 2013).
+32. Help Age International. “Global AgeWatch Index 2014: Insight report, summary and
+    methodology.” 2014. Available online: http://www.helpage.org/download/542b0adfb65fb
+    (accessed on 5 May 2015).
+33. Harper, Sarah. “Demographic Transition: Positioning the Age-Structural Change Perspective.”
+    Journal of Population Ageing 4 (2011): 119–20.
+34. Oizumi, Keiichiro, Hirokazu Kajiwara, and Natsumi Aratame. Facing up to the Problem of
+    Population Aging in Developing Countries: New Perspective for Assistance and Cooperation.
+    Tokyo: JICA, 2006.
+35. The Wisdom Years. “Ageing Societies.” 2008. Available online: http://wisdom.unu.edu/en/
+    ageing-societies/ (accessed on 7 March 2010).
+36. Muramatsu, Naoko, and Hiroko Akiyama. “Japan: Super-aging society preparing for the future.”
+    The Gerontologist 51 (2011): 425–32. Available online: http://www.ncbi.nlm.nih.gov/pubmed/
+    21804114 (accessed on 6 January 2014).
+37. Hewitt, Paul S. “The demographic dilemma: Japan’s aging society.” Asia Program Special
+    Report 107 (2003): 1–24. Available online: http://www.wilsoncenter.org/sites/default/files/
+    ACFE9.pdf (accessed on 8 November 2014).
+38. Atoh, Makoto. “The Coming of a Hyper-Aged and Depopulating Society and Population
+    Policies: The case of Japan, New York.” 2000. Available online: http://www.google.co.jp/
+    url?sa=tandrct=jandq=andesrc=sandsource=webandcd=1andcad=rjaanduact=8andved=0CB0QF
+    jAAandurl=http%3A%2F%2Fwww.un.org%2Fesa%2Fpopulation%2Fpublications%2Fpopdecli
+    ne%2FAtoh.pdfandei=N5heVPOQIcqi8AXL04GIDAandusg=AFQjCNHGkyx-cD5f5PHcvBX0
+    AFevgVt3lAandsig2=nYPc2n5ZyYiXh7y5GQEE2wandbvm=bv.79189006,d.dGc (accessed on
+    10 April 2008).
+
+
+Soc. Sci. 2015, 4                                                                                960
+
+39. Kalache, Alexand., Sandhi Maria Barreto, and Ingrid Keller. “Global Ageing: The Demographic
+    Revolution in All Cultures and Societies.” In The Cambridge Handbook of Age and Ageing.
+    Cambridge: Cambridge University Press, 2005. Available online: http://www.cambridge.org/
+    us/academic/subjects/psychology/developmental-psychology/cambridge-handbook-age-and-
+    ageing (accessed on 14 September 2011).
+40. Oizumi, Keiichiro. Consuming Asia (消費するアジア). Tokyo: Chuokoron-shinsha, 2011.
+41. Oizumi, Keiichiro. Aging Asia (老いてゆくアジア). Tokyo: Chuokoron-shinsha, 2007
+42. Kalache, Alexandre. “Challenges of ageing populations for public health in the 21st century.” In
+    Ageing and Health, Proceedings of a WHO Symposium, Kobe, Japan, 10–13 November 1998.
+    Kobe: World Health Organization, 1998. Available online: http://www.who.int/iris/handle/
+    10665/66025 (accessed on 14 September 2011).
+43. Bloom, David E., Axel Boersch-Supan, Patrick McGee, and Atsushi Seike. “Population Aging:
+    Facts, Challenges, and Responses.” 2011. Available online: http://www.hsph.harvard.edu/pgda/
+    working.htm (accessed on 11 May 2014).
+44. Tinker, Anthea. “The social implications of an ageing population.” Mechanisms of Ageing and
+    Development (2002): 729–35. Available online: http://www.sciencedirect.com/science/article/pii/
+    S0047637401004183 (accessed on 5 January 2014).
+45. Lowe, Philip, and Lydia Speakman. “The greying countryside.” In The Aging Countryside: The
+    Growing Older Population of Rural England. London: Age Concern England, 2006.
+46. Glasgow, Nina, and David L. Brown. “Rural ageing in the United States: Trends and contexts.”
+    Journal of Rural Studies 28 (2012): 422–31. Available online: http://linkinghub.elsevier.com/
+    retrieve/pii/S0743016712000034 (accessed on 8 July 2014).
+47. Lowe, Philip, and Neil Ward. “England’s Rural Futures: A Socio-Geographical Approach to
+    Scenarios Analysis.” Regional Studies 43 (2009): 1319–32. Available online:
+    http://www.tandfonline.com/doi/abs/10.1080/00343400903365169 (accessed on 13 June 2013)
+48. Anderson, Gerard F., and Peter Sotir Hussey. “Population aging: A comparison among
+    industrialized countries.” Health Affairs 19 (2000): 191–203.
+49. Vaupel, James W., James R. Carey, Kaare Christensen, Thomas E. Johnson, Anatoli I. Yashin,
+    Niels V. Holm, Ivan A. Iachine, Väinö Kannisto, Aziz A. Khazaeli, Pablo Liedo, et al.
+    “Biodemographic trajectories of longevity.” Science 280 (1998): 855–60. Available online:
+    http://www.ncbi.nlm.nih.gov/pubmed/9599158 (accessed on 26 September 2014).
+50. Christensen, Kaare, Matt McGue, Inge Petersen, Bernard Jeune, and James W. Vaupel. “Exceptional
+    longevity does not result in excessive levels of disability.” Proceedings of the National Academy
+    of Sciences 105 (2008): 13274–79. Available online: http://www.pubmedcentral.nih.gov/
+    articlerender.fcgi?artid=2517602andtool=pmcentrezandrendertype=abstract (accessed on 22
+    June 2014).
+51. Cabinet Office of Japan. “Choice for the Future: Creating a Growth and Development Model
+    Made in Japan Transcending Rapid Depopulation and Super Aged Society (未来への選択-人口急
+    減・超高齢社会を超えて、日本発成長・発展モデルを構築).” 2014. Available online: http://
+    www5.cao.go.jp/keizai-shimon/kaigi/special/future/shiryou.html (accessed on 12 January 2015).
+
+
+Soc. Sci. 2015, 4                                                                               961
+
+52. Chen, Zheng, Jia Yu, Yuetao Song, and Dehua Chui. “Aging Beijing: Challenges and strategies
+    of health care for the elderly.” Ageing Research Reviews 9 (2010): S2–5. Available online:
+    http://dx.doi.org/10.1016/j.arr.2010.07.001 (accessed on 20 August 2015).
+53. Feng, Zhanlian, Chang Liu, Xinping Guan, and Vincent Mor. “China’s Rapidly Aging Population
+    Creates Policy Challenges in Shaping a Viable Long-Term Care System.” Health Affairs 31
+    (2012): 2764–73.
+54. Flaherty, Joseph Henry, Mei Lin Liu, Lei Ding, Birong Dong, Qunfang Ding, Xia Li, and Shifu
+    Xiao. “China: The aging giant.” Journal of the American Geriatrics Society 55 (2007): 1295–300.
+55. Pallagst, Karina, Thorsten Wiechmann, and Cristina Martinez-Fernandez. Shrinking Cities:
+    International Perspectives and Policy Implications. New York: Routledge, 2013.
+56. Shinobe, Hiroshi, and Takahito Miyachi. “The Present Conditions and Problems of the
+    Demolition Clearance Policies of Vacant Houses (空き家の解体除去施策の現状と課題-西日
+    本の地方自治体を事例として).” AIJ Journal of Technology and Design 18 (2012): 709–14.
+57. Parker, Gavin, and Meiko Murayama. “Doing the Groundwork? Transferring a UK Environmental
+    Planning Approach to Japan.” International Planning Studies 10 (2005): 105–27. Available online:
+    http://www.tandfonline.com/doi/abs/10.1080/13563470500258790 (accessed on 30 October 2014).
+58. Gore, Tony, Rachael Knight-Fordham, and Paul Lawless. “The Groundwork movement its role
+    in neighborhood renewal.” 2002. Available online: http://www.jrf.org.uk/sites/files/jrf/
+    1842631365.pdf (accessed on 30 October 2014).
+59. Kusakabe, Emiko. “Advancing sustainable development at the local level: The case of
+    machizukuri in Japanese cities.” Progress in Planning 80 (2013): 1–65. Available online:
+    http://linkinghub.elsevier.com/retrieve/pii/S0305900612000803 (accessed on 15 July 2014).
+60. Evans, Neil. “Machi-zukuri as a new paradigm in Japanese urban planning: Reality or myth?”
+    Japan Forum 14 (2002): 443–64. Available online: http://www.tandfonline.com/doi/abs/10.1080/
+    0955580022000008745 (accessed on 30 October 2014).
+61. Carr, Patrick J., and Maria J. Kefalas. “The Heatland and the Rual Youth Exodus.” In Hollowing
+    Out The Middle: The Rural Brain Drain and What It Means for America. Boston: Beacon Press,
+    2009, pp. 1–26.
+62. Klijn, Jan Adriaan, L. A. E. Vullings, R. J. A. van Lammeren, H. Van Meijl, T. van Rheenen, A.
+    Veldkamp, P. H. Verburg, H. Westhoek, B. Eickhout, and A. A. Tabeau. “The Eururalis study:
+    Technical document.” 2005. Available online: http://library.wur.nl/WebQuery/wurpubs/
+    343642?wq_sfx=wever (accessed on 15 August 2014).
+63. Ogawa, Naohiro, Amonthep Chawla, and Rikiya Matsukura. “Changing Intergenerational
+    Transfers in Aging Japan.” In Aging Asia: The Economic and Social Implications of Rapid
+    Demographic Change in China, Japan, and South Korea. Edited by Karen Eggleston and
+    Shripad Tuljapurkar. Baltimore: The Brookings Institute, 2010, pp. 43–62.
+64. Johnson, Kirk. “For Elderly in Rural Areas, Times are Distinctly Harder.” New York Times, 2009.
+    Available online: http://www.nytimes.com/2009/12/10/us/10rural.html?pagewanted=alland_r=0
+    (accessed on 16 July 2014).
+65. O’Carrol, Sinead. “Older people cold and lonely in rural Ireland—SVP.” 2011. Available online:
+    http://www.thejournal.ie/older-people-cold-and-lonely-in-rural-ireland-svp-220915-Sep2011/
+    (accessed on 19 June 2014).
+
+
+Soc. Sci. 2015, 4                                                                                   962
+
+66. Department for Environment, Food and Rural Affairs (DEFRA). “Rural Statement 2012.” 2012.
+    Available online: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/
+    69597/pb13814-rural-statement.pdf (accessed on 5 May 2014).
+67. Whelan, Amanda, Neil Wrigley, Daniel Warm, and Elizabeth Cannings. “Life in a ‘food desert’.”
+    Urban Studies 39 (2002): 2083–100. Available online: http://usj.sagepub.com/content/39/11/
+    2083 (accessed on 3 July 2009).
+68. Walsh, Kieran, Eamon O’Shea, Thomas Scharf, and Michael Murray. “Ageing in changing
+    community contexts: Cross-border perspectives from rural Ireland and Northern Ireland.”
+    Journal of Rural Studies 28 (2012): 347–57.
+69. Hideko, Asai, Kawasuso Tomotaka, and Oura Fumihiro. “6078 Efforts to measure the shopping
+    difficulty person in Tottori Prefecture: Fundamental study about the measure against the
+    shopping difficulty person of the mountainous area vol. 1 (6078 鳥取県における買い物弱者対
+    策に関する取り組み-中間地域の買い物弱者対策に関する基礎的研究その１).” Journal of
+    Architecture and Building Science 1 (2012): 163–64.
+70. Milbourne, Paul, and Shane Doheny. “Older people and poverty in rural Britain: Material
+    hardships, cultural denials and social inclusions.” Journal of Rural Studies 28 (2012): 389–97.
+    Available online: http://linkinghub.elsevier.com/retrieve/pii/S0743016712000691 (accessed on
+    15 August 2014).
+71. Rittirong, Jongjit, Pramote Prasartkul, and Ronald R. Rindfuss. “From whom do older persons
+    prefer support? The case of rural Thailand.” Journal of Aging Studies 31 (2014): 171–81.
+72. Lin, Ming-Hsien, Ming-Yueh Chou, Chih-Kuang Liang, Li-Ning Peng, and Liang-Kung Chen.
+    “Population aging and its impacts: Strategies of the health-care system in Taipei.” Ageing Research
+    Reviews 9 (2010): S23–27. Available online: http://dx.doi.org/10.1016/j.arr.2010.07.004
+    (accessed on 23 August 2015).
+73. Shiroyama, Hideaki, Masaru Yarime, Makiko Matsuo, Heike Schroeder, Roland Scholz, and
+    Andrea E. Ulrich. “Governance for sustainability: Knowledge integration and multi-actor dimensions
+    in risk management.” Sustainability Science 7 (2012): 45–55.
+74. Huang, Cunrui, Adrian G. Barnett, Zhiwei Xu, Cordia Chu, Xiaoming Wang, Lyle R. Turner,
+    and Shilu Tong. “Managing the Health Effects of Temperature in Response to Climate Change:
+    Challenges ahead.” Environmental Health Perspectives 121 (2013): 415–20.
+75. Basu, Rupa. “High ambient temperature and mortality: A review of epidemiologic studies from
+    2001 to 2008.” Environmental Health 8 (2009): 40.
+76. Horton, Graeme, Liz Hanna, and Brian Kelly. “Drought, drying and climate change: Emerging
+    health issues for ageing Australians in rural areas.” Australasian Journal on Ageing 29 (2010): 2–7.
+77. Adams, Vincanne, Sharon R. Kaufman, Taslim Van Hattum, and Sandra Moody. “Aging Disaster:
+    Mortality, Vulnerability, and Long-Term Recovery among Katrina Survivors.” NIH Public
+    Access 30 (2012): 1–17.
+78. Centers for Disease Control and Prevention (CDC). “Deaths associated with Hurricane
+    Sandy—October–November 2012.” Morbidity and Mortality Weekly Report 62 (2013): 393–97.
+    Available online: http://www.ncbi.nlm.nih.gov/pubmed/23698603 (accessed on 5 July 2014).
+79. Sawako Shirahase. Demographic Change and Inequality in Japan. Melbourne: Trans Pacific
+    Press, 2006.
+
+
+Soc. Sci. 2015, 4                                                                                  963
+
+80. Killeen, Colin. “Loneliness: An epidemic in modern society.” Journal of Advanced Nursing 28
+    (1998): 762–70. Available online: http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2648.1998.
+    00703.x/full (accessed on 28 October 2014).
+81. Age UK. “Loneliness and Isolation Evidence Review.” 2011. Available online: http://
+    www.ageuk.org.uk/professional-resources-home/knowledge-hub-evidence-statistics/evidence-
+    reviews/ (accessed on 4 December 2014).
+82. Walton, Christine G., Cathleen M. Shultz, Cornelia M. Beck, and Robert C. Walls. “Psychological
+    correlates of loneliness in the older adult.” Archives of Psychiatric Nursing 5 (1991): 165–70.
+    Available online: http://linkinghub.elsevier.com/retrieve/pii/088394179190017Y (accessed on
+    7 December 2014).
+83. Drennan, Jonathan, Margaret Treacy, Michelle Butler, Anne Byrne, Gerard Fealy, Kate Frazer,
+    and Kate Irving. “The experience of social and emotional loneliness among older people in Ireland.”
+    Ageing and Society 28 (2008): 1113–32. Available online: http://www.journals.cambridge.org/
+    abstract_S0144686X08007526 (accessed on 28 October 2014).
+84. Wenger, G. Clare, Richard Davis, Said Shahtahmasebi, and Anne Scott. “Socia Isolation and
+    Loneliness in Old Age: Review and model Refinement.” Ageing and Society 16 (1996): 333–58.
+85. Findlay, Robyn A. “Interventions to reduce social isolation amongst older people: Where is the
+    evidence? Ageing and Society.” Ageing and Society 23 (2003): 647–58. Available online: http://
+    www.journals.cambridge.org/abstract_S0144686X03001296 (accessed on 11 August 2014).
+86. Pritchard, Annette, and Nigel J. Morgan. “Privileging the male gaze: Gendered tourism landscapes.”
+    Annals of Tourism Research 27 (2000): 884–905. Available online: http://www.sciencedirect.com/
+    science/article/pii/S0160738399001139 (accessed on 6 September 2014).
+87. Teo, Peggy. “Older women and leisure in Singapore.” Ageing and Society 17 (1997): 649–72.
+    Available online: http://journals.cambridge.org/abstract_S0144686X97006661 (accessed on 6
+    September 2014).
+88. Milbourne, Paul. “Growing Old in Rural Places.” Journal of Rural Studies 28 (2012): 315–17.
+89. Cornman, Jennifer C. “Toward sustainable development: Implications for population aging and
+    the wellbeing of elderly women in developing countries.” Population and Environment 18
+    (1996): 201–17.
+90. Knodel, John, and Chayovan Napaporn. “Gender and Ageing in Thailand: A Situation Analysis
+    of Older Women and Men.” In Gender and Ageing: Southeast Asian Perspectives. Edited by
+    Theresa W. Devasahayam. Singapore: Institute of Southeast Asian Studies, 2014. Available
+    online: https://www.google.co.jp/url?sa=tandrct=jandq=andesrc=sandsource=webandcd=2and
+    cad=rjaanduact=8andved=0CCoQFjABahUKEwjok5W7hdHHAhVEoZQKHWNNBeUandurl=
+    http://www.psc.isr.umich.edu/pubs/pdf/rr08-664.pdfandei=lhbjVejwC8TC0gTjmpWoDgand
+    usg=AFQjCNHBJ0r3YKrkrJcO-fG8XQzRa8lbhwandsig2=Ia57 (accessed on 25 August 2015).
+91. Beard, John R., and Charles Petitot. “Ageing and urbanization: Can cities be designed to foster
+    active ageing?” Public Health Reviews 33 (2011): 427–50.
+92. Stockdale, Aileen. “Migration: Pre-requisite for rural economic regeneration?” Journal of Rural
+    Studies 22 (2006): 354–66. Available online: http://linkinghub.elsevier.com/retrieve/pii/
+    S0743016705001002 (accessed on 18 July 2011).
+
+
+Soc. Sci. 2015, 4                                                                               964
+
+93. Stockdale, Aileen, and Marsaili MacLeod. “Pre-retirement age migration to remote rural areas.”
+     Journal of Rural Studies 32 (2013): 80–92. Available online: http://linkinghub.elsevier.com/
+     retrieve/pii/S0743016713000351 (accessed on 21 February 2014).
+94. Kincade, Jean E., Donna J. Rabiner, Shulamit L. Bernard, Alison Woomert, Thomas R. Konrad,
+     Gordon H. Defriese, and Marcia G. Ory. “Older adults as a community resource: Results from
+     the National Survey of Self-Care and Aging.” The Gerontologist 36 (1996): 474–82. Available
+     online: http://www.ncbi.nlm.nih.gov/pubmed/8771975 (accessed on 12 October 2011).
+95. Dasgupta, Partha. “The idea of sustainable development.” Sustainability Science 2 (2007): 5–11.
+     Available online: http://www.springerlink.com/index/10.1007/s11625-007-0024-y (accessed on
+     14 July 2011).
+96. Hopwood, Bill, Mary Mellor, and Geoff O’Brien. “Sustainable development: Mapping different
+     approaches.” Sustainable Development 13 (2005): 38–52. Available online: http://doi.wiley.com/
+     10.1002/sd.244 (accessed on 6 July 2011).
+97. Opschoor, Hans. “Local sustainable development and carbon neutrality in cities in developing
+     and emerging countries.” International Journal of Sustainable Development and World Ecology
+     18 (2011): 190–200. Available online: http://www.tandfonline.com/doi/abs/10.1080/13504509.
+     2011.570800 (accessed on 28 September 2011).
+98. Shetty, Priya. “Grey matter: Ageing in developing countries.” The Lancet 379 (2012): 1285–87.
+99. Global Age Watch. “Sustainable Development in an Ageing World.” 2012. Available online:
+     http://www.helpage.org/global-agewatch/ (accessed on 28 October 2014).
+100. UN Population Division. “Population Ageing and Sustainable Development.” 2014. Available
+     online:http://www.un.org/en/development/desa/population/publications/pdf/popfacts/PopFacts_2
+     014-4.pdf (accessed on 10 July 2015).
+101. Jay, Olshansky S., Simon Biggs, W. Andrew Achenbaum, Gerald C. Davison, Linda Fried,
+     Gloria Gutman, Alexandre Kalache, Kay-Tee Khaw, Alvaro Fernandez, Suresh I. S. Rattan, et al.
+     “The Global Agenda Council on the Ageing Society: Policy Principles.” Global Policy 2 (2011):
+     97–105. Available online: http://doi.wiley.com/10.1111/j.1758-5899.2010.00053.x (accessed on
+     16 July 2014).
+102. Haq, Gary. “Ageing population more at risk from environmental threats.” The Conversation, 2013.
+     Available online: http://theconversation.com/ageing-population-more-at-risk-from-environmental-
+     threats-19574 (accessed on 20 June 2014).
+103. Veras, Renato. “Population aging today: Demands, challenges and innovations.” Revista de
+     Saúde Pública 43 (2009): 548–54.
+104. Somrongthong, Ratana, Saovalux Dullyaperadis, Anne Louise Wulff, and Paul R. Ward. “The
+     Effects of Housing on Health and Health Risks in an Aging Population: A Qualitative Study in
+     Rural Thailand.” BioMed Research International 2014 (2014): 1–7.
+105. United Nations. World Urbanization Prospects: The 2014 Revision. New York: The United
+     Nations, 2014. Available online: http://esa.un.org/unpd/wup/Highlights/WUP2014-Highlights.pdf
+     (accessed on 20 March 2015).
+106. WHO. “Global Age-friendly Cities: A Guide, Geneva.” 2007. Available online: http://www.who.int/
+     ageing/publications/Global_age_friendly_cities_Guide_English.pdf (accessed on 17 October 2010).
+
+
+Soc. Sci. 2015, 4                                                                                965
+
+107. Phillipson, Chris. “Urbanisation and Ageing: Towards a New Environmental Gerontology.”
+     Ageing and Society 24 (2004): 963–72.
+108. Smith, Allision E. “Urban Ageing.” In Ageing in Urban Neighbourhoods Place Attachment and
+     Social Exclusion. Bristol: The Policy Press, 2009, pp. 37–47.
+109. Godfrey, Mary, Jean Townsend, and Tracy Denby. “Building a good life for older people in local
+     communities: The experience of ageing in time and place.” 2004. Available online: http://
+     www.jrf.org.uk/publications/building-good-life-older-people-local-communities (accessed on 12
+     June 2013).
+110. Martin, Linda G., and Samuel H. Preston. “Research on the Demography of Aging in Developing
+     Countries.” In Committee on Population National Research Council. Washington: The National
+     Academies Press, 1994, pp. 356–90. Available online: http://www.nap.edu/catalog/4553/
+     demography-of-aging (accessed on 22 August 2015).
+111. Markey, Sean, Greg Halseth, and Don Manson. “Challenging the inevitability of rural decline:
+     Advancing the policy of place in northern British Columbia.” Journal of Rural Studies 24 (2008):
+     409–21. Available online: http://linkinghub.elsevier.com/retrieve/pii/S074301670800020X
+     (accessed on 4 September 2011).
+112. Morii, Junkichi. The Rapid Economic Growth and the Decline of Rural Areas (高度成長と農山
+     村過疎), 1st ed. Kyoto: Bunrikaku, 1995.
+113. Statistics Bureau of Japan. “National Census 2010.” 2010. Available online: http://
+     www.stat.go.jp/data/kokusei/2010/kihon1/pdf/youyaku.pdf (accessed on 10 October 2012).
+114. Crandall, Mindy, and Lena Etuk. “What is Community Vitality?” 2008. Available online: http://
+     oregonexplorer.info/content/what-community-vitality (accessed on 17 August 2015).
+115. Kasamatsu, Hiroki. “For regenerations of small scale and aging hamlets (小規模高齢化集落の
+     再 生 に む け て ).” 2009. Available online: http://www.pref.shimane.lg.jp/admin/region/kikan/
+     chusankan/syoseki/research/No5_kenkyuhoukoku.data/kenkyuhoukokudai5gou08.pdf (accessed
+     on 23 September 2010).
+116. Odagiri, Tokumi. Regenerating Agricultural Communities in Mountainous Regions (農村再生).
+     Tokyo: Iwanami Shoten, 2009.
+117. Ono, Akira. Marginal Community and Regional Regeneration (限界集落と地域再生). Kouchi:
+     Kochi Shinbunsha, 2008.
+118. Ono, Akira. “Aging in Mountain Villages and Marginal Community (山村の高齢化と限界集落).”
+     Keizai 327 (1991): 55–71.
+119. Sakuno, Hirokazu. “The Problems and Expectations of Regional Development in Hilly-Mountainous
+     Region and Correspondence of Rural Settlements (中山間地域における地域問題と集落の対
+     応).” The Japan Association of Economic Geographers 52 (2006): 46–64.
+120. Odagiri, Tokumi. “Rural Regeneration in Japan.” 2011. Available online: http://www.ncl.ac.uk/
+     cre/publish/researchreports/Rural Regeneration in Japan.pdf (accessed on 4 July 2013).
+121. Kudo, Shogo, and Masaru Yarime. “Divergence of the sustaining and marginalizing communities
+     in the process of rural aging: A case study of Yurihonjo-shi.” Sustainability Science 8 (2012):
+     491–513. Available online: http://link.springer.com/10.1007/s11625-012-0197-x (accessed on 13
+     June 2013).
+
+
+Soc. Sci. 2015, 4                                                                             966
+
+122. Kuramochi, Hiromi, Tanimoto Keishi, and Tsuchiya Satoshi. “Shopping Support in Rural
+     Depopulated Areas: Focusing on Delivery Services (中山間地域における買い物支援に関する
+     考察-移動販売に注目して).” Sociotechnology Research Network 11 (2014): 33–43.
+123. Yamamoto, Sachiko, and Mahito Nakazono. “Vacant House Renovation by the Migration
+     Promotion Project for Elderly in Nishinoshima-cho Shimane prefecture—Study on the
+     Renovation System of Vacant House in Rural Areas (島根県西ノ島町の中高年世帯移住促進
+     事業による空き家活用事例-農村地域における空き家活用システムに関する研究).”
+     Journal of Architecture and Planning 73 (2008): 1485–92.
+124. Yusa, Toshihiko, Haruhiko Goto, Daisuke Kura Uchi, and Kayo Murakami. “Vacant Houses and
+     Their Management in Hilly Rural Areas—A Case Study in Hayakawa Town, Yamanashi
+     Prefecture (中山間地域における空き家およびその管理の実態に関する研究-山梨県早川町
+     を事例として).” Journal of Architecture and Planning 2 (2006): 111–18.
+125. Takamoto, Saori, Yoichi Miura, and, Toru Nakayama. “The Existing Condition of Renounced
+     arable land in Hilly and Mountainous Area (中山間地域における耕作放棄地の現状に関する
+     研究〜高知県大豊町を中心に〜).” Architectural Institute of Japan 44 (2004): 489–92.
+126. Noriki, Ishimaru. “A Study on the Situation of Abandoned Cultivated Land in the Village,
+     so-called Squeezed Village—In a case of Soradani District, Aki-Oota-cho, Hiroshima Prefecture
+     (限界集落といわれている集落における耕作放棄地に関する研究:広島県安芸太田町空谷
+     地区の場合 (農村計画)).” Architectural Institute of Japan NII-Electronic Library Service 32
+     (2009): 4.
+127. Olsson, Per, and Carl Folke. “Local Ecological Knowledge and Institutional Dynamics for
+     Ecosystem Management: A study of Lake Racken watershed.” Ecosystems 4 (2001): 85–104.
+128. Berkes, Fikret, and Nancy J. Turner. “Knowledge, learning and the evolution of conservation
+     practice for social-ecological system resilience.” Human Ecology 34 (2006): 479–94.
+129. Gautam, Tika Ram. “Migration and the Problem of Old Age People in Nepal.” Dhaulagiri
+     Journal of Sociology and Anthropology 2 (2008): 145–60.
+
+© 2015 by the authors; licensee MDPI, Basel, Switzerland. This article is an open access article
+distributed under the terms and conditions of the Creative Commons Attribution license
+(http://creativecommons.org/licenses/by/4.0/)
+

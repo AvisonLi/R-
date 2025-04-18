@@ -1,0 +1,455 @@
+canadian tax journal / revue fiscale canadienne (2022) 70:4, 885 - 93
+https://doi.org/10.32721/ctj.2022.70.4.fon
+885
+Finances of the Nation
+MITIGATING THE ECONOMIC IMPACTS OF
+POPULATION AGING ON GROWTH AND PUBLIC
+REVENUES—CAN THE TAX MIX HELP?
+Bertrand Achou, Yann Décarie, Luc Godbout, Pierre-Carl Michaud,
+Julien Navaux, and Suzie St-Cerny*
+For almost 60 years, the Canadian Tax Foundation published an annual monograph, Finances
+of the Nation, and its predecessor, The National Finances. In a change of format,
+the 2014 Canadian Tax Journal introduced a new “Finances of the Nation” feature, which
+presents annual surveys of provincial and territorial budgets and topical articles on taxation
+and public expenditures in Canada.
+In this article, the authors address concerns about the impact that the aging of Canada’s
+population over the coming decades could have on economic growth and, consequently, growth
+in government revenues. They explore how revenue-neutral changes in the tax mix today
+could mitigate those concerns and raise more revenue than is projected in current forecasts
+with a status-quo scenario. Using data for Quebec, the authors show that a shift in the relative
+share of total revenues from personal income taxes to consumption taxes could be quite
+effective over the next four decades. A revenue-neutral shift equivalent to 1 percent of the
+province’s consumption tax revenues today would result in an increase in revenues ranging
+between 0.3 percent and 1.0 percent by 2060, while a shift equivalent to 25 percent of consumption
+tax revenues would generate additional revenues of 1.4 percent to 4.8 percent.
+The underlying data for the Finances of the Nation monographs and for the articles in
+this journal will be published online in the near future.
+KEYWORDS: TAX REVENUES n PERSONAL INCOME TAXES n CONSUMPTION TAXES n POPULATION
+AGING n TAX MIX n QUEBEC
+* Bertrand Achou is of HEC Montréal; Yann Décarie is of HEC Montréal; Luc Godbout is of
+Université de Sherbrooke, Quebec; Pierre-Carl Michaud is of HEC Montréal; Julien Navaux
+is of HEC Montréal and École des sciences de la gestion, Université du Québec à Montréal;
+Suzie St-Cerny is of Université de Sherbrooke. The corresponding author is Julien Navaux
+(e-mail: julien.navaux@hec.ca). We are grateful to David Boisclair for his helpful suggestions.
+This analysis is based in part on Statistics Canada’s Social Policy Simulation Database and
+Model. The assumptions and calculations underlying the simulation results were prepared by
+us, and we are solely responsible for the use and interpretation of these data in this article.
+886 n canadian tax journal / revue fiscale canadienne (2022) 70:4
+INTRODUCTION
+The Canadian population is aging. For example, the share of the population aged 65
+and over in Quebec is expected to increase from 20.5 percent in 2021 to 28.4 percent
+in 2040.1 The population in other provinces, in particular in the Maritimes, is also
+aging fast. This shift could have significant economic consequences, including a
+slowdown in the growth of tax revenues.
+Governments collect taxes in several ways, including through the imposition of
+personal income and consumption taxes. The burden of these taxes may fall differently
+across age groups. For example, personal income taxes are collected disproportionately
+from working-age taxpayers, while consumption taxes are paid more uniformly across
+the age distribution. Hence, the effect of population aging on public revenue may
+ultimately depend on the relative weight of each tax as a share of total revenues. Intuitively,
+a heavier weight for consumption taxes may mitigate the impact of population
+aging on public revenue.
+In an aging population with lower growth prospects, there is another argument
+for revisiting the tax mix. There is a sizable literature on the effects of the tax mix on
+economic outcomes. That literature focuses on differences in economic distortions
+and predicts better economic outcomes from a heavier use of taxes with a less distorting
+impact on economic activity. Consumption taxes are generally considered to
+generate fewer behavioural distortions than personal income taxes and thus to create
+less of a drag on economic growth.2 At the international level, a study by Arnold
+et al.3 looked specifically at the impact of revenue-neutral changes in the tax mix on
+economic growth. That study provides an empirical measure of the elasticity of
+long-term gross domestic product (GDP) relative to the ratio of income taxes to
+consumption taxes. Arnold et al. found that a 1 percent shift in revenue from income
+taxes to consumption and property taxes would result in an increase in long-term GDP
+per capita ranging between 0.25 percent and 1 percent. A recent update confirmed
+the validity of these results while showing that a reduction in consumption taxes does
+CO N T E N T S
+Introduction 886
+Methodology 888
+Scenarios 889
+Results 890
+Conclusion 892
+1 Institut de la statistique du Québec, Perspectives démographiques du Québec et des régions, 2016-2066
+(Québec: Gouvernement du Québec, Institut de la statistique du Québec, 2019).
+2 See, for instance, Alan J. Auerbach, Laurence J. Kotlikoff, and Jonathan Skinner, “The
+Efficiency Gains from Dynamic Tax Reform” (1983) 24:1 International Economic Review 81-100.
+3 Jens Matthias Arnold, Bert Brys, Christopher Heady, Åsa Johansson, Cyrille Schwellnus, and
+Laura Vartia, “Tax Policy for Economic Recovery and Growth” (2011) 121:550 Economic
+Journal F59-80.
+finances of the nation n 887
+not in itself have a positive effect on GDP.4 In terms of Canadian evidence, several
+studies have simulated the impact of adjusting the tax mix, in particular for Quebec.5
+They show that lowering income taxes and increasing consumption taxes by an
+equivalent amount could generate stronger economic growth and create more jobs.
+Using a microsimulation approach and the elasticity calculated by Arnold et al.,
+this article aims to measure the potential gains for public revenue from adjustments
+to the tax mix. In particular, we consider an initial revenue-neutral tilt toward consumption
+taxes and project how this would affect future revenue. We account separately
+for the effect that is purely related to the age structure of the population and
+for the effect of the shift in the tax mix on economic growth and, ultimately, on
+public revenue.
+The tax mix shift is simulated in the context of Quebec government revenues.
+The focus on the provincial level is justified by recent research on the consequences
+of population aging for government budgets. According to the parliamentary budget
+officer (PBO)6 and Tombe,7 while the current version of the federal budget is projected
+to be sustainable over the long term, the majority of provincial and territorial
+budgets are projected to generate growing deficits.8
+Results show that a revenue-neutral change equivalent to 25 percent of consumption
+tax revenues today would result in a revenue increase ranging from 1.4 percent
+to 4.8 percent by 2060. Sixteen percent of that increase is explained by changes in the
+population structure, and 84 percent is due to the effects of the new tax mix on economic
+growth. The cumulative revenue gains between 2020 and 2060 are expected
+to be very high. Over that 40-year period, a shift from income taxes to consumption
+taxes equivalent to 25 percent of the latter would generate between 0.33 and 1.3 years
+of additional own-source revenue for Quebec.
+4 Oguzhan Akgun, Boris Cournède, and Jean-Marc Fournier, The Effects of the Tax Mix on
+Inequality and Growth, OECD Economics Department Working Papers no. 1447 (Paris:
+Organisation for Economic Co-operation and Development, 2017).
+5 See the literature review by Luc Godbout and Suzie St-Cerny, Croissance économique et structure
+fiscale : Rappel des principaux constats, Cahier de recherche no. 2022/03 de la Chaire de recherche
+en fiscalité et en finances publiques (Sherbrooke, Québec: Université de Sherbrooke, CFFP,
+2022).
+6 Office of the Parliamentary Budget Officer, Fiscal Sustainability Report 2020 (Ottawa: Office of
+the Parliamentary Budget Officer, 2020).
+7 Trevor Tombe, “Provincial Debt Sustainability in Canada: Demographics, Federal Transfers,
+and COVID-19,” Finances of the Nation feature (2020) 68:4 Canadian Tax Journal 1083-1122.
+8 Both the PBO (supra note 6) and Tombe (supra note 7) show that Quebec is an exception
+among Canada’s provinces, in that a balanced Quebec budget is projected to be sustainable.
+However, new projections based on the current provincial budget show that population
+aging should result in a negative fiscal balance that would represent 2.2 percent of Quebec’s
+GDP in 2040 and 3.4 percent of GDP in 2060: Nicholas-James Clavet, Pierre-Carl
+Michaud, and Julien Navaux, Vieillissement de la population et finances publiques, Research
+Chair in Intergenerational Economics [Chaire de recherche sur les enjeux économiques
+intergénérationnels], Analysis Notes no. 2021-01 (Montreal: CREEI, 2021).
+888 n canadian tax journal / revue fiscale canadienne (2022) 70:4
+METHODOLOGY
+We make use of two modelling tools to construct our estimates. First, the demographic
+component is modelled with the SimGen microsimulation tool.9 Aggregate
+demographic assumptions are largely adjusted to those of the Institut de la statistique
+du Québec10 to replicate the most recent demographic projections. Transitions at
+the individual level are modelled with a set of Statistics Canada databases, including the
+General Social Survey. SimGen provides a projection of the population distribution
+by age, educational achievement, and household composition.
+Second, the economic and public finance component is based on SimFin (v.1.0.1).11
+This microsimulation model uses regressions estimated with Statistics Canada’s Social
+Policy Simulation Database for the probability of employment, earnings, hours
+worked, consumption expenditures, non-work income, and variables to determine
+the effective tax rates paid for personal income taxes and consumption taxes. These
+profiles take into account various socioeconomic characteristics, including age and
+degree.
+Figure 1 illustrates per capita tax revenue collected in Quebec by age group. It
+considers personal income taxes and consumption taxes, which together represented
+nearly three-quarters of the Quebec government’s own-source revenue in 2020
+(40.9 percent for personal income taxes and 32.5 percent for consumption taxes).12
+Chart a in figure 1 shows that personal income taxes paid vary much more than
+consumption taxes over the life cycle. The amount of income taxes increases rapidly
+until age 40-45, decreases significantly until age 55-60, and falls further thereafter.
+Compared to income taxes, consumption taxes appear to be much more stable; however,
+the average amount paid generally declines over the taxpayer’s lifetime. For
+example, among people aged 45-59, average consumption taxes are approximately
+one-half of personal income taxes. This ratio is then reduced to almost 1:1 for
+65-69-year-olds, and the initial ratio is reversed at older ages.
+Consider the following equation:
+R it = Σ
+a = 0
+85+
+r ita ´ pop at
+9 An overview of SimGen and a link to more detailed documentation can be found at Research
+Chair in Intergenerational Economics, “SimGen: Demographic Simulations” (https://creei.ca/
+en/simgen-demographic-simulations/?noredirect=en_US).
+10 Supra note 1.
+11 An overview and complete documentation are available at Research Chair in Intergenerational
+Economics, “SimFin: Public Finances Simulator” (https://creei.ca/en/simfin-public-finances
+-simulator/?noredirect=en_US).
+12 Chaire de recherche en fiscalité et en finances publiques, Bilan de la fiscalité au Québec, Édition
+2022, directed by Tommy Gagné-Dubé (Sherbrooke, Québec: Université de Sherbrooke,
+CFFP, 2022).
+finances of the nation n 889
+In this equation, the aggregate value (R) of revenue (i ) at a given year (t) is the sum
+for all ages (a) of per capita revenue ( r ia t ) multiplied by the population ( popa t ). Chart b
+in figure 1 shows that population growth is much stronger for ages at which per
+capita consumption taxes are higher than income taxes. Between 2020 and 2060, the
+share of the population aged 20-69 should increase by 5 percent, while the share of
+the population aged 70+ should more than double (+101 percent) over the period.
+Thus, in the long term, population aging should have the effect of reducing the
+growth of income taxes collected more than the growth of consumption taxes.
+SCENARIOS
+To estimate the potential effects of a new tax mix, Quebec’s public finances are first
+projected without changing the current tax structure. This reference scenario is then
+compared with two alternative scenarios.
+In the first alternative scenario, consumption taxes are increased in 2020, and this
+increase is offset by an equivalent reduction in personal income taxes in that year.
+FIGURE  Per Capita Consumption and Personal Income Taxes Paid to
+the Quebec Government, by Age Group, 2020, and Population
+by Age Group, 2020 and 2060 (Projected)
+Sources: Authors’ calculations based on Research Chair in Intergenerational Economics,
+“SimGen: Demographic Simulations” (https://creei.ca/en/simgen-demographic
+-simulations/?noredirect=en_US); and Research Chair in Intergenerational Economics,
+“SimFin: Public Finances Simulator” (https://creei.ca/en/simfin-public-finances
+-simulator/?noredirect=en_US).
+a. Taxes paid, 2020
+Age group Age group
+Cdn. $
+Thousands
+b. Population profile, 2020 and 2060
+2,000
+3,000
+4,000
+5,000
+6,000
+7,000
+8,000
+9,000
+10,000
+11,000
+Consumption taxes
+Personal income tax
+85+
+80-85
+75-80
+70-75
+65-70
+60-65
+55-60
+50-55
+45-50
+40-45
+35-40
+30-35
+25-30
+20-25
+0
+100
+200
+300
+400
+500
+600
+700
+800
+2020 2060
+85+
+80-85
+75-80
+70-75
+65-70
+60-65
+55-60
+50-55
+45-50
+40-45
+35-40
+30-35
+25-30
+20-25
+890 n canadian tax journal / revue fiscale canadienne (2022) 70:4
+This scenario does not consider any impact of the new tax structure on economic
+growth. Public revenues are then projected to 2060 by maintaining this initial readjustment
+without modifying any other assumptions. The difference in tax revenue
+compared to the reference scenario is therefore explained solely by a change in the
+demographic structure.
+In the second alternative scenario, the modification of the tax mix is the same as
+in scenario 1 but the effect on economic growth is now integrated into the model.
+The elasticity of GDP growth to fiscal changes is based on the results obtained by
+Arnold et al.13 They estimate that a shift of 1 percent of total revenue from income
+taxes to consumption and property taxes would increase GDP per capita in the long
+run by (depending on the empirical specification) 0.25 percent (the lower bound) to
+1 percent (the upper bound).14 In this scenario, the effect on GDP growth is spread
+over 10 years, reaching its full impact in 2030.
+For both scenarios, two levels of rebalancing intensity are simulated. The lower
+level corresponds to a 1 percent increase in consumption tax revenues for 2020—that
+is, $203 million (“rebalancing of 1 percent”), and the higher level corresponds to an
+increase in consumption tax revenues of 25 percent for 2020—that is, $5.1 billion
+(“rebalancing of 25 percent”). In all cases, personal income taxes change by an amount
+equal to the increase in consumption taxes, so that the rebalancing has no effect on
+government revenue in 2020.
+RESULTS
+Figure 2 shows the projected effects of the new tax mix on the Quebec government’s
+own-source revenue over the 40-year period (2020-2060). In scenario 1, where no
+effect on GDP is included, the gain from a rebalancing of 1 percent would be equal
+to $2 million in 2030 (in constant 2020 dollars) and would reach $14 million in 2060.
+In the case of a rebalancing of 25 percent, the gain would be equal to $53 million in
+2030 and $353 million in 2060, representing an increase of 0.05 percent to 0.2 percent
+in Quebec’s own-source revenue, compared to the reference scenario. These
+gains are explained by the changes in population structure by age (figure 1, chart b),
+13 Supra note 3.
+14 In the context of this study, the impact of the new tax mix on public finances is limited to the
+Quebec government’s own-source revenue. However, the elasticity measured by Arnold et al.
+(supra note 3) is based on general government tax revenues. Therefore, in our study, a shift of
+X percent in total revenue accounts for X percent of all the levies imposed in Quebec, whether
+by the federal government, the provincial government, local authorities, or the Quebec Pension
+Plan/Canada Pension Plan, so that the elasticity is calculated in relation to the total burden on
+Quebec taxpayers. For the aggregates used in our study, see CFFP, supra note 12, at 24, table 4.
+Furthermore, while the modification of the tax mix in Arnold et al. involves a simultaneous and
+proportional increase in consumption and property taxes, only consumption taxes are increased
+in our rebalancing simulations, and this could bias the results. However, if such bias exists, its
+effect will be negligible given the relative weights of consumption taxes ($28,166 million) and
+property taxes ($436 million) in 2020, according to the CFFP, supra note 12.
+finances of the nation n 891
+combined with the distribution of consumption and income taxes by age (figure 1,
+chart a): the increase in the share of the population aged 70+ corresponds to an
+increase in the share of the population for whom per capita consumption taxes paid
+are higher than per capita income taxes.
+Taking into account the effect on GDP growth in scenario 2 strongly increases the
+effect of rebalancing on public revenue. As a reminder, the effect on GDP growth is
+spread over 10 years; this explains the sharp rise observed for scenario 2 in figure 2
+at the beginning of the analyzed period. In 2060, the effect of a rebalancing of
+1 percent ranges from $408 million (in constant 2020 dollars) at the lower bound (an
+increase of 0.3 percent in own-source revenue compared to the reference scenario)
+to $1,572 million at the upper bound (an increase of 1.0 percent in own-source revenue).
+The effect of a rebalancing of 25 percent ranges between $2,163 million (an
+FIGURE  Impact of Modifying the Tax Mix on the Quebec Government’s
+Own-Source Revenue, 2020-2060
+Note: “Lower bound” refers to the lowest estimate of Arnold et al., and “upper bound” refers to
+the highest estimate, depending on their empirical specification: Jens Matthias Arnold, Bert
+Brys, Christopher Heady, Åsa Johansson, Cyrille Schwellnus, and Laura Vartia, “Tax Policy for
+Economic Recovery and Growth” (2011) 121:550 Economic Journal F59-80, at F64.
+Sources: Authors’ calculations based on Research Chair in Intergenerational Economics,
+“SimGen: Demographic Simulations” (https://creei.ca/en/simgen-demographic
+-simulations/?noredirect=en_US); and Research Chair in Intergenerational Economics,
+“SimFin: Public Finances Simulator” (https://creei.ca/en/simfin-public-finances
+-simulator/?noredirect=en_US).
+a. Rebalancing of 1 percent
+($203 million in 2020)
+Year Year
+$ billions (2020)
+$ billions (2020)
+b. Rebalancing of 25 percent
+($5.1 billion in 2020)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+1.8
+2.0
+Scenario 2b—upper bound
+Scenario 2a—lower bound
+Scenario 1
+2060
+2055
+2050
+2045
+2040
+2035
+2030
+2025
+2020
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+7.0
+8.0
+9.0
+Scenario 2b—upper bound
+Scenario 2a—lower bound
+Scenario 1
+2060
+2055
+2050
+2045
+2040
+2035
+2030
+2025
+2020
+892 n canadian tax journal / revue fiscale canadienne (2022) 70:4
+increase of 1.4 percent in own-source revenue) and $7,529 million (an increase of
+4.8 percent in own-source revenue). The cumulative revenue gains between 2020
+and 2060 are potentially very high: a rebalancing of 1 percent could result in a
+gain ranging from 7.1 percent (at the lower bound) to 27.5 percent (at the upper
+bound) of Quebec’s own-source revenue in 2060, while the gain from a rebalancing
+of 25 percent could range from 35.5 percent to 129.6 percent of Quebec’s ownsource
+revenue in 2060, thus representing 0.33 to 1.3 years of additional own-source
+revenue.
+The significant difference in the results for scenarios 1 and 2 is explained by the
+fact that all the taxes collected by the Quebec government apply in scenario 2 to a
+rate of growth in GDP that is accelerated because of the rebalancing. With the current
+tax mix, real per capita GDP is projected to increase by 10.5 percent by 2030 (table 1).
+With a rebalancing of 1 percent, the projected increase in real per capita GDP would
+be 0.2 to 1.0 points higher by 2030 than the increase given the current tax mix (depending
+on whether we use the lower or the upper bound estimates of Arnold et al.).
+With a rebalancing of 25 percent, the increase would be 1.0 to 4.1 points higher.
+In addition to the tax revenue generated by the demographic effect of the rebalancing,
+we calculate the impact of higher economic growth on tax revenue. Thus,
+the combined effect on revenue growth in 2060 is $2,163 million for a rebalancing
+of 25 percent with the lower-bound impact on GDP, which breaks down into two
+parts: $353 million (16 percent of the total effect) resulting from demographic
+changes and $1,810 million (84 percent of the total effect) stemming from the effect
+on per capita GDP. The effect of the rebalancing resulting from the change in the
+structure of the Quebec population therefore generates only one-fifth of the additional
+tax revenue projected to result from the effect of the rebalancing on GDP growth.
+CONCLUSION
+A revenue-neutral shift from personal income taxes to consumption taxes could
+generate significant revenue for provincial and federal governments. In this article,
+we have evaluated the impacts for the Quebec government. A rebalancing equivalent
+to 1 percent of consumption taxes in 2020 would result in an increase in revenue of
+between $408 million and $1,572 million in 2060. Such a rebalancing would generate
+cumulative gains between $11.5 billion and $44.7 billion in constant 2020 value
+over the 40 years of simulations. A rebalancing of 25 percent would generate gains
+between $57.8 billion and $210.6 billion. At an aggregate level, the return on a
+change in the tax mix is potentially large, given the difficulty of raising new revenue,
+particularly in provinces with a high level of taxation, such as Quebec.
+Obviously, there are a few equity issues that need to be dealt with when changing
+the tax mix. Changing how we raise future taxes also changes who pays those taxes.
+Some groups will pay less while others will pay more, leading to intergenerational
+transfers as well as transfers within generations. For example, retirees may see their
+future tax bill increase while current younger workers may see theirs decrease. However,
+these intergenerational concerns are mitigated by two considerations. First, the
+additional revenue raised can be targeted in ways that take into account those on
+finances of the nation n 893
+whom the additional burden falls. For example, future health-care services are potentially
+constrained by inadequate financing that may disadvantage future retirees. A
+change in the tax mix would generate new resources that could be targeted to improving
+services for that group. Far from exacerbating existing intergenerational transfers
+from young to older taxpayers, a change in the tax mix can reduce such transfers. But
+whatever one’s views on intergenerational transfers, the change in the tax mix generates
+more economic growth, the proceeds from which can be used to undo new implicit
+transfers. Within generations, the change in the tax mix can also be regressive,
+since personal income taxes are probably more progressive than consumption taxes.15
+However, it is possible to offset most of those effects by compensating lower-income
+taxpayers using various tools, including existing goods and services tax and provincial
+sales tax credits.16 Overall, we think that this is a policy idea worthy of serious consideration:
+a change in the tax mix can dampen the effect of population aging on
+public revenue, and it is a way for both federal and provincial/territorial governments
+to generate additional revenue in the long run without imposing immediate costs on
+taxpayers.
+TABLE 1 Projected Increase in Quebec’s Real per Capita GDP, 2020-2030,
+by Scenario (Current Tax Mix, Rebalancing of 1 Percent, and
+Rebalancing of 25 Percent)
+Current
+tax mix
+Rebalancing
+of 1%
+Rebalancing
+of 25%
+percent
+2020-2030 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10.5
+Effect of change in tax mix, 2020-2030
+Lower bound . . . . . . . . . . . . . . . . . . . . . . . . . 10.7 11.5
+Upper bound . . . . . . . . . . . . . . . . . . . . . . . . . 11.5 14.6
+GDP = gross domestic product.
+Note: “Lower bound” refers to the lowest estimate of Arnold et al., and “upper bound” refers to
+the highest estimate, depending on their empirical specification: Jens Matthias Arnold, Bert
+Brys, Christopher Heady, Åsa Johansson, Cyrille Schwellnus, and Laura Vartia, “Tax Policy for
+Economic Recovery and Growth” (2011) 121:550 Economic Journal F59-80.
+Sources: Authors’ calculations based on Research Chair in Intergenerational Economics,
+“SimGen: Demographic Simulations” (https://creei.ca/en/simgen-demographic
+-simulations/?noredirect=en_US); and Research Chair in Intergenerational Economics,
+“SimFin: Public Finances Simulator” (https://creei.ca/en/simfin-public-finances
+-simulator/?noredirect=en_US).
+15 See, for instance, Jonathan Rhys Kesselman and Peter S. Spiro, “Challenges in Shifting
+Canadian Taxation Toward Consumption” (2014) 62:1 Canadian Tax Journal 1-41.
+16 Ha Dao and Luc Godbout, “Le rôle de la fiscalité dans la réduction des inégalités : Doit-on se
+soucier de la structure fiscale servant à prélever les recettes?” (2014) 90:4 L’Actualité économique
+303-27.
+Reproduced with permission of copyright owner.
+Further reproduction prohibited without permission.

@@ -1,0 +1,1535 @@
+Technological Forecasting & Social Change 199 (2024) 123062
+Available online 5 December 2023
+0040-1625/© 2023 Elsevier Inc. All rights reserved.
+Impact of population aging on food security in the context of artificial
+intelligence: Evidence from China
+Chien-Chiang Lee a,b,c,d,*, Jingyang Yan a, Fuhao Wang a,e
+a School of Economics and Management, Nanchang University, Nanchang, China
+b Research Center of Central China for Economic and Social Development, Nanchang University, China
+c Adnan Kassar School of Business, Lebanese American University, Beirut, Lebanon
+d Faculty of Economic Sciences, Lucian Blaga University of Sibiu, Romania
+e College of Economic and Social Development, Nankai University, Tianjin, China
+A R T I C L E I N F O
+JEL classifications:
+O31
+Q10
+Keywords:
+Artificial intelligence
+Rural population aging
+Food security
+Major grain-selling areas
+Moderating effect model
+A B S T R A C T
+As population aging becomes the new demographic norm in China, its workforce structure is changing, and its
+demographic dividend is about to disappear. Artificial intelligence (AI) has been experiencing rapid progress in
+the last few years, and it is becoming an important tool to address the impact and challenges of an aging population.
+Therefore, this research introduces population aging and artificial intelligence into agricultural production,
+focusing on the effects of population aging on food security and the function played by artificial
+intelligence in it. From an empirical study conducted based on provincial panel data, the following conclusions
+arise. First, population aging in rural China has not negatively impacted food security, so there is no need to be
+overly pessimistic about the inevitable aging of the rural population. Second, AI has a favorable moderating
+function on the effects of population aging on food security. Third, the moderating effect of AI is heterogeneous.
+Compared with other provinces, AI can play a strongly positive moderating effect in central and west regions and
+major grain-selling areas. Based on the above findings, this paper proposes targeted policy recommendations on
+protecting food security in the context of artificial intelligence and population aging.
+1. Introduction
+An aging demographic is a universal problem in a great number of
+countries around the globe and is most pronounced in developed
+countries, but it is not uncommon for developing ones to also experience
+population aging (Harper, 2014). The course of demographic aging has
+already commenced and will speed up in the coming decades. Bloom
+et al. (2015) argue that every country will experience an aging population
+between now and 2030. Over the past six decades, the proportion
+of the world’s population aged 60 and over has increased only slightly,
+from 8 to 10 %. But over the next four decades, this group is expected to
+rise to 22 % of the total population, jumping from 800 million to 2
+billion. As the largest developing country, China encountered a negative
+population increase in 2022. It implies that China’s demographic dividend
+is gradually fading, and that the Lewis inflection point has
+occurred. China’s aging population over the last few decades has
+become more problematic, largely as a result of two forces: one is the
+continued and rapid decrease in fertility rate, and the other is the rise in
+the average remaining lifespan of the elderly due to economic and social
+progress.
+Population aging has a continuous and far-reaching effect on all aspects
+of China’s economy and society, and its implications have received
+the attention of many scholars. Many academics summarize the negative
+impacts of demographic aging in the following ways. First, seniors need
+more health care, which can lead to higher healthcare costs. This can
+place a huge burden on younger generations in terms of health care costs
+or lead to large government deficits. Second, population aging has a
+double effect on the industrial structure. Third, an aging population
+reduces the effective supply of labor and slows down labor productivity.
+Fourth, it decreases the savings rate, with younger people saving less
+and elder people consuming their savings, ultimately leading to less
+investment. Fifth, there is less enthusiasm to engage in work and resistance
+to reform for older people, resulting in a lack of economic dynamism
+(Choi and Shin, 2015; Vogel et al., 2017; Lee and Shin, 2019). In
+addition to these issues, many scholars find that population aging can
+also affect food security by impacting human capital (Lee and Yuan,
+* Corresponding author at: School of Economics and Management, Nanchang University, Nanchang, Jiangxi, China.
+E-mail address: cclee6101@gmail.com (C.-C. Lee).
+Contents lists available at ScienceDirect
+Technological Forecasting & Social Change
+journal homepage: www.elsevier.com/locate/techfore
+https://doi.org/10.1016/j.techfore.2023.123062
+Received 10 September 2023; Received in revised form 24 November 2023; Accepted 28 November 2023
+Technological Forecasting & Social Change 199 (2024) 123062
+2
+2024; Li and Sicular, 2013).
+Food security is a dynamic and effective balance of production,
+distribution, and consumption of food in a country or region to ensure
+that all people at all times have enough food available for their survival
+and health (Prosekov and Ivanova, 2018). Global hunger and malnutrition
+are still on the rise today. FAO statistics indicate that there are
+still 925 million undernourished people worldwide, which means that
+food insecurity and malnutrition are still widespread. Food security is a
+national concern. The ability to ensure food security directly affects their
+lives, social stability, and sustainable economic development (Jones
+et al., 2013; Ashraf and Javed, 2023). China’s food security has also
+received attention from the international community, as it has always
+placed food production at the foundation of its national economy. Over
+the past few decades, the food security level of China has been continuously
+increasing, and the problem of subsistence has been solved.
+However, food security in China is still facing many challenges including
+the reduction of arable land, increasing pressure on resources and
+environment, rising labor costs, rapid urbanization, and the rigid growth
+trend of non-farm payrolls (Wang et al., 2009; Du et al., 2014; Ghose,
+2014). Today China’s food security will also be challenged by an aging
+rural population.
+As the population increases and consumption expands, China’s per
+capita arable land area will further decrease, while the per capita food
+consumption level will further increase, so population aging will have a
+great impact on China’s food security. Nowadays, the growing trend of
+an aging demographic in rural areas has caused many people to worry
+about food security. Whether this will influence food security has raised
+the concern of many scholars (Li et al., 2016; Liu et al., 2021). Scholars
+currently hold two main views. Such an aging demographic affects the
+human capital and physical strength of the labor force in rural areas.
+One group of scholars believes that population aging will jeopardize
+food security by reducing the physical strength of the rural labor force,
+the supply of labor and the input of agricultural factors (Rigg et al.,
+2020; Liu et al., 2023). Other scholars argue that older people have more
+agricultural labor time and experience, and that with the development
+of agricultural mechanization and the convergence of production decisions,
+the aging of the population will not have a negative impact on
+food production (Guo et al., 2015; Wang et al., 2016).
+In this context, many scholars have explored the factors affecting
+food security from multiple perspectives and explored the path to
+guaranteeing food security (Khan et al., 2009; Thou, 2010; Gozgor and
+Memis, 2015; Liu and Zhou, 2021; Hossain et al., 2023). As big data,
+hardware, and algorithms advance rapidly, artificial intelligence (AI) is
+evolving at a rapid pace, providing new tools to safeguard food security
+(Wu et al., 2022). Artificial intelligence causes profound transformations
+in China’s economy and brings about great changes to society (Suki
+et al., 2022; Xu et al., 2022; Hassan et al., 2023; Usman et al., 2023).
+Artificial intelligence is the scientific engineering of manufacturing
+intelligent machines, especially intelligent computer programs (Lee
+et al., 2024; Moor, 2006). Over the past few years, AI has gained the
+attention of various major countries, which are making great efforts to
+develop artificial intelligence. As one example, China considers AI to be
+a fresh drive for economic growth. The State Council in 2017 published
+the New Generation of Artificial Intelligence Development Plan,
+reflecting the importance attached to AI as a technology at the national
+policy level.
+Economists have been very concerned about the effects of the advances
+in technology on an economy, while at the same time farreaching
+economic and social changes can be caused by the rapid evolution
+of AI (Lee et al., 2022a; Zhao et al., 2022). In the last few decades,
+research on the impact of artificial intelligence on economic development
+is proliferating, ranging from economic growth and technological
+innovation to income disparity, sparking widespread interest among
+economists (Autor, 2015; Arntz et al., 2016; Acemoglu and Restrepo,
+2017; Chen et al., 2022a, 2022b; Tian et al., 2023). It is clearly of great
+significance to study the economic and social effects of AI. With the
+development of the Internet, big data, digital economy, Internet of
+Things (IoT), and other emerging technologies, technologies related to
+AI are also constantly being applied to agriculture with the goal of
+continuously promoting the modernization and informatization of
+agriculture and providing new tools to secure food safety (Wang et al.,
+2022; Engås et al., 2023; Liu et al., 2024).
+Is the aging of the rural demographic really going to negatively
+impact China’s food security? What role does AI play in ensuring food
+security? This paper presents AI’s role in the process of population aging
+and its influence on food security, studying the causal relationships
+among population aging, food security, and AI.
+To address the above issues, this paper focuses on an empirical study
+using China provincial balanced panel data to investigate the effects of
+population aging on food security and the role played by AI in it. The
+main research process runs as follows. First, using a benchmark
+regression, we find that population aging does not hurt food security.
+Second, we employ a range of methods to conduct robustness analysis,
+including instrumental variables approach, re-measurement of population
+aging, winsorizing the variables, and addition of control variables to
+improve the reliability of the underlying findings. Third, we find that AI
+has a positive influence on population aging’s impact on food security
+through the moderating effect model, threshold regression model, and
+DID model. The positive influence is heterogeneous, which is verified by
+the subsample regression. Fig. 1 illustrates the empirical research
+framework of this paper to better understand the research idea herein.
+Compared to the relevant literature, the main contributions of this
+research are as follows. First, most studies conclude that population
+aging negatively impacts food security. This paper presents a new
+perspective, showing that population aging does not negatively affect
+food security. This study conducts a rigorous empirical investigation to
+enrich the existing literature. Second, a new instrumental variable is
+constructed to deal with the endogeneity of the model. This study selects
+the interaction term between the intensity of family planning policies
+and the national elderly dependency ratio in the following year as an
+instrumental variable, which exhibits exogeneity and a correlation.
+Third, existing research on AI has mainly focused on economic development
+and labor markets with few scholars empirically targeting the
+impact of AI on agricultural production. This paper introduces AI into
+the framework of the impact of population aging on food security and
+discusses the heterogeneous role of AI in different regions, filling the gap
+in the literature. Fourth, our research adds innovative indicators to
+measure the level of AI development in agriculture based on other
+works. Most studies use the social fixed asset investment in the information
+transmission, computer services, and software industries to
+measure the degree of intelligence (Borland and Coelli, 2017). Because
+that study targets rural areas, its approach does not accurately measure
+the degree of intelligence in rural areas. Since the current use of AI in
+agriculture is mainly in industrial robots, our research obtains industrial
+robot density in each province at the agricultural level as a measure of
+the level of AI development in the agriculture industry.
+The rest of this article runs as follows. Section 2 gives a review of the
+available related literature. Section 3 conducts an analysis of theories.
+Section 4 presents the research methodology including data, variables,
+and models. Section 5 reports and provides an analysis of the empirical
+results. Section 6 explores the role of AI in agricultural production and
+proposes policy recommendations based on the findings. Section 7
+summarizes the paper, draws relevant conclusions, and presents the
+limitations and prospects of the research.
+2. Literature review
+2.1. Population aging and food security
+There is a lot of research about the effects of demographic aging on
+agricultural production and food security, but the views and conclusions
+of different scholars are still clearly controversial and divergent. One
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+3
+group of scholars believes that population aging has adverse effects on
+agricultural production. For example, Rigg et al. (2020) and Liu et al.
+(2023) reveal that demographic aging will not just cause a shortage of
+agricultural labor, but will also limit agricultural capital investment.
+This raises agricultural land resources waste and hinders the progress of
+modern agriculture. Ren et al. (2023) find that an aging workforce
+indirectly impacts land use efficiency by affecting the input of agricultural
+capital. Many scholars argue that the aging of the agricultural labor
+force can negatively affect agriculture production from the perspectives
+of agricultural production efficiency, land use efficiency, agricultural
+labor input and marginal effects of input factors (Li and Sicular, 2013;
+Yahya and Lee, 2023).
+Another group of scholars believes that the aging of the agricultural
+workforce does not negatively impact agricultural development and
+food production. Rigg et al. (2020) find that a young farmer labor force
+is less efficient than an elderly farm labor force in terms of arable land
+use because they devote more time and energy to non-farm industries.
+Guo et al. (2015) argue that the adverse effects of population aging come
+mainly from the withdrawal of older agricultural labor, as older farmers
+themselves are more productive than other farmers. Some researchers
+find no obvious negative impacts from such a workforce. The reason for
+this is that years of experience in strategies and applying agricultural
+mechanization reduce the physical demands of farm production. This
+means that agricultural mechanization and experience can compensate
+for the physical disadvantages of an older workforce (Qiu et al., 2021).
+In terms of productive agricultural services, older agricultural laborer’s
+do not have a significant effect on food production efficiency.
+Conversely, agricultural productive services such as machine farming
+have a significant positive moderating effect (Wang et al., 2016). According
+to Tang and Chen (2022), we know that although an aging
+agricultural workforce reduces the human capital and physical strength
+of the agricultural labor force, it does not negatively impact China’s food
+production due to the convergence of production decisions and the
+prevalence of outsourcing of agricultural machinery. Li et al. (2022)
+employ a panel vector autoregressive model and find a considerable
+positive effect of population aging and renewable energy use on green
+total factor productivity in agriculture from an energy consumption
+perspective.
+In accordance with the above analysis, we find that different scholars
+analyze the impact of the elderly agricultural labor force on food safety
+from various perspectives. Population aging can have complex and
+diverse impacts on agricultural production. To sum up, an aging rural
+population may affect agricultural production efficiency due to factors
+such as declining physical strength. However, population aging may not
+necessarily negatively impact food production because modern agricultural
+technology, production methods, and social services can
+compensate to a certain degree for the deficiency in physical methods of
+older agricultural labor.
+2.2. Artificial intelligence and population aging
+The development of AI has received attention from scholars, and its
+effects on economic and social development have been widely studied.
+Many scholars believe that AI contributes to economic development in
+several ways, including increasing productivity, improving labor productivity,
+and promoting innovation (Cami˜na et al., 2020; Lee et al.,
+2022a,c; Wang, 2023). In terms of the labor market, current scholarship
+suggests that AI has mainly negative substitution effects and positive
+creation effects on employment (Frank et al., 2019). Acemoglu and
+Restrepo (2018b) study the relationship between AI and the workforce,
+finding that the substitution effect itself decreases the need for a workforce,
+while the productivity effects improve productivity efficiency by
+using cheaper capital to replace labor. This raises the need for labor in
+jobs that are not automatically performed.
+Some scholars forecast that AI will have a huge impact on the labor
+market, replacing many jobs. Qian et al. (2023) find that the direction of
+the impact of AI development on labor income shares depends on the
+relative speed of machine replacement and new tasks. Machine
+replacement makes the wage growth rate smaller than the labor productivity
+growth rate, leading to a decline in the labor income share.
+Another group of scholars is optimistic about AI’s influence on labor
+force employment. Acemoglu and Restrepo (2018a, 2018b) point out
+that advances in technology provide and create more employment and
+that industrial intelligence mitigates AI’s effect on the employment
+market through both new job creation and productivity effects. David
+(2017) examines AI’s impact on the gender wage gap and presents no
+significant difference in substituting AI for labor among workers of
+different genders. In conclusion, AI enhances productivity, complements
+Fig. 1. Research framework.
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+4
+the workforce, but it also has a substitution effect on it. Artificial intelligence
+has important and complex implications for economic and
+social development.
+As population aging gradually becomes the development trend of
+society, can AI alleviate the economic and social problems caused by
+population aging? Many scholars have looked into the association between
+the aging population and AI. Aisa et al. (2023) find that aging
+drives automation innovation. Simultaneous increases in longevity can
+have a positive impact on the supply of highly skilled older labor, which
+in turn has a positive impact on the progress of automation. Through
+theoretical and empirical investigations at the country and firm levels,
+Acemoglu and Restrepo (2017) prove that countries and firms with more
+severe aging tend to use AI in productive activities earlier and more
+often in order to compensate for the impact of aging. Additionally, AI
+and labor exhibit a substitution relationship as well as complementary
+substitution and not a crowding-out substitution. AI is able to better
+cope with the adverse impacts of aging on growth in the economy, with
+regard to production intelligence, return on capital, total factor productivity,
+labor force structure, and efficiency of technological innovation,
+and promotes high-quality economic development (Chen et al.,
+2019). At the same time, the application of AI can narrow the labor gap
+caused by population aging and better cope with the workforce gap due
+to population aging (Filippi et al., 2023). Therefore, if AI technology can
+be used wisely, then it will offer a greater contribution to China’s
+economy in the future in the context of aging.
+The foregoing discussion demonstrates that AI can effectively alleviate
+the labor shortage caused by an aging population and promote the
+smooth operation of the economy. However, most research on AI and
+population aging focuses on their effects on economic growth and labor
+markets with scant literature introducing AI to the effects of population
+aging on food security. To fill the gap in the literature, this study
+therefore uses provincial-level data from China to investigate further the
+role of AI in the process of population aging and how it affects food
+security.
+3. Theoretical analysis and hypothesis
+3.1. Impact of population aging on food security
+This paper presents the direct impact of population aging on food
+security, starting with an analysis of the characteristics of an elderly
+population. As the above literature review suggests, the impact of an
+aging population on food security is complex. In this part, we discuss
+why population aging does not hurt food security. The following explanations
+can be divided into insignificant effects and potentially positive
+effects of population aging on food security.
+First, the aging of the agricultural workforce directly influences the
+availability of labor in quantity as well as the physical strength of the
+labor force. However, with the development of farm mechanization and
+information technology, modern farm production technology and organization
+methods have also greatly reduced the constraints of individual
+physical strength (Qiu et al., 2021). This means that food
+production is weakly dependent on the labor force but on machines.
+Thus, population aging, while reducing the agricultural workforce’s
+physical strength and human capital, does not negatively impact food
+security.
+Second, viewed from the perspective of production methods, China’s
+current food production is family-type small-scale production and has
+regional characteristics. Mutual imitation and decision convergence
+among farmers make the demand for food production homogeneous
+regarding technology, machinery, and other factors. This lowers the
+demand for labor in the food production process, resulting in no significant
+effect of aging on food production (Chen et al., 2022a, 2022b).
+Third, in terms of production time, the opportunity cost of the farm
+workforce is lower for older laborers who have fewer opportunities and
+rewards for off-farm work compared to younger laborers (Rigg et al.,
+2018; Zhao et al., 2018). This gives them enough time and energy to
+engage in agricultural production. Young farmers who are involved in
+part-time work are mainly employed in non-farm industries, their
+agricultural production is carried out in the leftover time of their nonfarm
+work, and their management time in the field is much less than
+that of older farmers (Rigg et al., 2020; Hussain and Lee, 2022; Ren
+et al., 2023). Therefore, the intensity of crop cultivation is significantly
+higher among purely elderly farmers than part-time young farmers.
+Fourth, in terms of human capital, although older agricultural laborers
+are physically disadvantaged, their technical efficiency in agricultural
+production is even higher than that of younger laborers due to
+their rich production experience and higher concentration in agricultural
+production. How farming practices such as fertilizers, pesticides
+and agrarian films are utilized depends on the agricultural knowledge
+and farming techniques that farmers have. The older and more experienced
+the agricultural labor force is, the more they know how to use the
+right amount of fertilizers, pesticides, etc. to enhance food production
+efficiency (Li et al., 2016).
+While an aging workforce reduces the quantity and physical strength
+of the workforce, modern agricultural techniques and production
+methods have become much less demanding in terms of these conditions.
+Factors such as mechanical substitution, socialized services, and
+collective decision-making also make up for the passive effects of an
+aging population. Conversely, older agricultural laborers themselves
+have more sufficient time, energy, and experience than younger agricultural
+laborers, in turn benefiting agricultural production and food
+security. Thus, the first hypothesis is proposed as follows:
+Hypothesis 1. The population aging does not adversely alter food
+security.
+3.2. The role of artificial intelligence
+The fundamental contradictions that prevent the modernization of
+China’s agriculture encompass the existing labor-based production
+model, the continuous reduction of the labor force, the scarcity of
+agricultural resources per capita, the low utilization of agricultural resources,
+the rejuvenation of new farmers, and the reduction of the
+workforce. Some essential ways to resolve the above contradictions
+include relying on intelligent equipment to achieve precise, automated,
+and intelligent agricultural production and improving agricultural productivity,
+resource utilization, and land yield (Labarthe et al., 2021;
+Johnson et al., 2022; Wang and Lee, 2023). Agricultural robots will be
+increasingly used in agriculture and the food industry as technology
+develops, and labor shortages due to an aging population and a high
+degree of automation are required (Zhang et al., 2020; Issa et al., 2022).
+Under the background of rapid progress in the digital economy and the
+growing level of information technology in agriculture, the level of
+agricultural intelligence is also increasing (Asongu et al., 2018; Pauget
+and Dammak, 2019). Artificial intelligence technologies for land and
+irrigation control, climate prediction, plant cultivation, disease prediction,
+and livestock management make up critical functions that help
+ensure the sustainability of agriculture (Filho et al., 2022; Shaikh et al.,
+2022). Agricultural AI technologies are used throughout the course of
+farm production. Indeed, the implementation of precise, automated, and
+intelligent agricultural production through intelligent equipment reduces
+workforce needs, lowers labor’s physical requirements, and improves
+agricultural productivity, resource utilization, and land yield,
+thereby mitigating the effects of population aging on food security.
+Population aging can adversely affect both the physical strength and
+human capital of the agricultural workforce, which are mitigated by the
+application of AI, which can then effectively replace agricultural labor in
+physical activities. An older agricultural workforce, while under a
+physical handicap, has an advantage over the younger agricultural
+workforce in terms of production experience and production focus.
+Therefore, artificial intelligence can, on the one hand, compensate for
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+5
+the physical shortcomings of an older workforce and, on the other hand,
+make greater use of the advantages of an experienced older workforce to
+achieve more refined farming, maintain land productivity, and guarantee
+food security. The higher the degree of AI application is, the better
+it is to make use of the experience and time advantages of an older
+workforce, to compensate for the physical deficiencies of such a workforce,
+further exploit the spillover effects of elderly human capital, and
+to promote the improvement of agricultural production. Thus, the second
+hypothesis is proposed as follows:
+Hypothesis 2. AI plays a positive role in the impact of population
+aging on food security.
+4. Empirical models
+4.1. Econometric models
+4.1.1. Benchmark model
+To investigate the fundamental connection between population
+aging and food security, this study employs the following benchmark
+model throughout the paper:
+Foodi,t = α0 +α1Agingi,t +
+Σ7
+k=2
+αkcontroli,t +ωi +γt +εi,t , (1)
+where i indicates province and t denotes time (i = 1, …, 30; t = 2008, …,
+2020). Foodi,t is the dependent variable, representing food security.
+Agingi,t is the independent variable, indicating the level of population
+aging, while controli,t is a series of control variables including food price
+index, urbanization rate, government finance, agricultural expenditure,
+technological progress and irrigation capacity. Lastly, ωi represents
+province fixed effects, γt represents year fixed effects, εi,t means the error
+term, and α0 is the constant term, where αk (k = 1, …, 7) are the estimated
+coefficients.
+4.1.2. Moderating effect model
+This study uses a moderating effect model to verify the moderating
+mechanism of AI.
+Foodi,t =b0 +b1Agingi,t +b2Moderatingi,t +b3Agingi,t ×Moderatingi,t
++
+Σ9
+k=4
+bkcontroli,t +ωi +γt +εi,t ,
+(2)
+where Moderatingi,t is the moderating variable, AI. And b0 is the constant
+term, where bk (k = 1, …, 9) are the estimated coefficients. The
+remaining variables are explained in line with Section 4.1.1.
+4.1.3. Threshold regression model
+To study the moderating role played by AI in the process of population
+aging affecting food security, we refer to the approach of Lee et al.
+(2022b). This study uses a classical threshold regression model
+expressed as:
+Foodi,t = c0 +c1Agingi,t *I
+􀀀
+AIi,t < Q1
+)
++c2Agingi,t*I
+􀀀
+AIi,t
+≥ Q1
+)
++
+Σ8
+k=3
+ckcontroli,t +ωi +γt +εi,t , (3)
+where I() is a conditional function that is equal to 1 when the condition
+in parentheses is satisfied and equal to 0 when it is not. AI is the
+threshold variable, Q1 stands for the estimated threshold. And c0 is the
+constant term, where ck (k = 1, …, 8) are the estimated coefficients. The
+remaining variables are explained in line with Section 4.1.1.
+4.1.4. DID model
+To test the impact of the artificial intelligence policy, we adopt the
+DID model, which is constructed as follows:
+Foodi,t =d0 +d1didi,t +d2Agingi,t +d3Agingi,t ×didi,t +
+Σ9
+k=4
+dkcontroli,t
++ωi +γt +εi,t,
+(4)
+where didi,t is the dummy variable, if a city i is taken into the treatment
+group in year t, didi,t = 1, otherwise, didi,t = 0 (Hu et al., 2020; Zhu and
+Lee, 2022). And d0 is the constant term, where dk (k = 1, …, 9) are the
+estimated coefficients. The remaining variables are explained in line
+with Section 4.1.1.
+4.2. Variables and data
+4.2.1. Dependent variable
+Food security (Food) is gauged through the logarithm of food production
+per capita. Food possession per capita is an essential gauge of
+food security, and the amount of grain production per capita largely
+influences the degree of food security. Therefore, based on previous
+studies, our research uses total food production divided by total population
+to measure the level of food security (Gilland, 2002; Zhang,
+2011).
+4.2.2. Independent variables
+Mainly following the practice of the literature (Zeng et al., 2019),
+this study measures the degree of aging using the elderly population
+dependency ratio. However, since the main object of this paper is food
+production in rural areas, we employ the rural aging rate to measure the
+degree of rural population aging.
+4.2.3. Moderating variables
+Artificial intelligence is measured in this paper using the density of
+industrial robots in the agricultural sector in each province. This paper
+focuses on the evolution of AI for agriculture, and the current application
+of AI in agriculture is mainly the input of industrial robots. Therefore,
+this research mainly refers to the idea of (Acemoglu and Restrepo,
+2020) and draws on the method of Goldsmith-Pinkham et al. (2020),
+based on the idea of the Bartik instrumental variable, to construct the
+density of industrial robots in China’s agricultural sector so as to measure
+AI’s application and development level in agriculture. The calculation
+formula is:
+AIi,j,t =
+labori,j,t
+labori,t
+×
+robotj,t
+laborj,t
+(5)
+where AIi,j,t denotes the density of industrial robots at the agricultural
+level in period t in region i, labori,j,t is the number of people employed in
+agriculture in period t in region i, labori,t is the total number of workers
+in all industries in period t in region i, and laborj,t is the total number of
+agriculture workforce nationwide in period t. Data for industrial robots
+are from the International Federation of Robotics (IFR) report.
+4.2.4. Control variables
+This paper draws on previous studies and incorporates some necessary
+control variables to enhance the credibility of the empirical results.
+These include food price index, urbanization rate, government finance,
+agricultural expenditure, technological progress and irrigation capacity.
+(1) The food price index (Dp) reflects changes in food prices. Several
+literatures have examined the impact of food price changes and found
+that higher food prices incentivize more food production and that higher
+food prices can stimulate agricultural supply in the short run and also
+increase agricultural productivity in the long run (Nose and Yamauchi,
+2016; Gozgor, 2019; Headey and Hirvonen, 2023). Therefore, this paper
+includes food price as a control variable in the empirical study.
+(2) Urbanization (URBAN), the increase of urbanization level will
+lead to the loss of rural labor and agricultural land, thus affecting food
+production. Deng and Gibson (2019) find that there is a trade-off
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+6
+between agricultural production and urbanization and that the level of
+urbanization has an important relationship with agricultural production
+(Jiang et al., 2022; Guo et al., 2023).
+(3) As a degree of government intervention (Gov), government
+expenditure plays an important role in socio-economic development and
+influences agriculture development (Hussain et al., 2022; Nie and Lee,
+2023). Governments can change taxes and expenditures through fiscal
+policy to control aggregate demand, which will further affect employment,
+national income, and all aspects of economic and social development
+(Jiang et al., 2022; Tang and Sun, 2022). This paper quantifies
+fiscal policy in terms of the government’s budgetary expenditure as a
+share of GDP.
+(4) The extent of government financial support for agriculture (Agr)
+denotes government financial assistance to agriculture. A region’s
+agricultural development requires government grants and price subsidies,
+so the government’s financial strength will have an important
+impact on regional agricultural production. This paper draws on Shen
+et al. (2022) and Zhang et al. (2022) to include government financial
+support for agriculture in the empirical study.
+(5) Technological progress (Ti) reflects the level of scientific and
+technological development of a region. Technological progress is an
+important driver of economic development (Chen et al., 2020; Lin et al.,
+2021; Lou et al., 2024). Chandio et al. (2021) find that technological
+progress has a positive impact on food production. Shen et al. (2022)
+also point out that the green growth of agriculture is largely driven by
+technological progress, so technology has an important role in the process
+of agricultural development. This paper uses patents to measure
+technological progress based on the research of Lee et al. (2023).
+(6) Irrigation capacity (Irrigation) reflects the ability and level of
+agricultural irrigation in a region. Agricultural irrigation has an
+important position in the production process of food crops, Lu et al.
+(2019) proposed the constraints of water resource limitations on agricultural
+production and agricultural planting structure and suggested
+the relationship between irrigation water and irrigation, which discusses
+the importance of agricultural irrigation for agricultural production. In
+this paper, the effective irrigated area is used to measure the irrigation
+capacity of a region. Many research studies show that irrigation capacity
+has important impacts on agricultural production (Cao et al., 2015; Kang
+et al., 2017; Cao et al., 2018).
+This paper identifies the above variables as control variables based
+on reality and other studies. Table A1 in the appendix presents the
+detailed definition and information of each variable.
+4.3. Sample data
+This research collects data from provincial administrative regions in
+China. Considering that the agricultural land systems in Hong Kong,
+Macau, and Taiwan are different from those in the mainland, and due to
+the absence of some data in Tibet, the empirical study excludes those
+four. Overall, this study utilizes data from 30 provinces. Data for industrial
+robots are from the IFR report, and the data required for other
+variables are from the official website of the National Bureau of Statistics,
+the China Rural Statistical Yearbook, the China Population and
+Employment Statistical Yearbook, the Tertiary Industry Statistical
+Yearbook, the China Statistical Yearbook, and provincial statistical
+yearbooks. The years of data collected are from 2008 to 2020, and some
+missing data are filled by linear interpolation.
+Descriptive statistics are performed prior to the empirical analysis,
+and Table 1 presents those of the primary variables. To prevent the
+problem of multicollinearity, correlation tests are executed on the significant
+variables. Table 2 reports the correlation coefficient matrix of
+the main variables. The correlation coefficients between all the variables
+are below 0.8. In addition, the variance inflation factors shown in
+Table 3 are all <10. Thus, the model does not suffer from severe multicollinearity
+problems. Table 4 reports the results of the panel unit root
+test, showing that the variables used in this paper are stationary
+sequences (Lee et al., 2022b,c).
+5. Benchmark results
+5.1. Benchmark regression
+Table 5 lists the outcomes of the benchmark regression. First, we use
+a two-way fixed effects model for regression estimation, which reflects
+the underlying relationship between the variables. To verify the
+robustness of the benchmark regression, this study adopts the method of
+sequentially joining control variables and varying the type of fixed effects.
+In the table, given increasing control variables, both province and
+year effects are controlled for, and the coefficient of Aging is always
+statistically significant in a positive direction. Changing the type of fixed
+effects based on the addition of control variables also does not change
+the underlying results. This implies that population aging does not
+adversely alter food security, which is in line with the theoretical
+analysis in Section 3.1. This also confirms the previous hypothesis 1.
+5.2. Robust test
+5.2.1. Iv-2SLS
+Previous findings confirm that population aging does not adversely
+affect food security, but this result may be biased due to endogeneity
+issues. For instance, there are missing variables. Even though this paper
+uses control variables and fixed effects, there are still some factors
+affecting food production that are difficult to observe and control.
+However, this paper does not give much consideration to reverse
+causation, as food security is unlikely to drive regional trends in population
+aging. Although demographic changes are inherently exogenous,
+to better deal with endogeneity due to the model’s omission of variables,
+inter-causality and measurement error, this section uses a two-stage
+instrumental variables regression to re-estimate the effect of population
+aging on food security.
+Baochang et al. (2007) categorize 30 provinces into four levels based
+on the intensity of family planning policies. This paper draws on Tan
+et al. (2022) to create an ordered categorical variable. The higher the
+value, the stricter the implementation of family planning policies. Since
+this variable is a cross-sectional variable, our study employs panel data.
+Therefore, we deal with the model’s endogeneity by constructing the
+product term of the categorical variable of family planning policies and
+the national elderly population dependency ratio in the following year
+as the instrumental variable.
+Instrumental variables have to satisfy both correlation and exogeneity
+conditions. On the one hand, China implemented family planning
+in the 1970s, a policy that changed the fertility rate at the time, which in
+turn changed the demographic structure and ultimately affected the
+extent of population aging. In short, the stricter the implementation of
+family planning policies, the more the population ages. On the other
+hand, family planning policies do not directly affect food production and
+are well exogenous. Specifically, given that the study sample in this
+Table 1
+Descriptive statistics.
+Variable Obs. Mean Std. dev. Min Max
+Food 390 0.460 0.383 0.013 2.347
+Old 390 0.168 0.061 0.071 0.446
+Aging 390 0.116 0.037 0.050 0.261
+AI 390 0.032 0.100 0.000 1.015
+Dp 390 1.514 0.222 1.039 1.871
+URBAN 390 0.569 0.132 0.291 0.938
+Gov 390 0.240 0.101 0.087 0.643
+Agr 390 0.112 0.033 0.030 0.204
+Ti 390 7.836 1.555 3.135 11.170
+Irrigation 390 7.271 1.024 4.694 8.729
+IS 390 0.896 0.055 0.680 0.997
+OPEN 390 0.126 0.187 0.000 1.040
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+7
+paper is panel data, endogeneity cannot be handled using only family
+planning policies due to the use of fixed effects. Therefore, this study
+refers to Nunn and Qian (2014) and uses the interaction term between
+the intensity of family planning policies and the national elderly population
+dependency ratio in the following year as an instrumental variable.
+Future national elderly population dependency ratios will not
+affect food production in the current year. In sum, this paper chooses the
+cross-multiplier term between the intensity of family planning policies
+and the national elderly population dependency ratio in the following
+year to deal with endogeneity.
+Table 6 reports the relevant results of IV-2SLS estimation, in which
+the unidentifiable test, the weak instrumental variable test, and the
+over-identification test all pass. Column (1) presents the results of the
+first-stage regressions, where the instrumental variables and rural population
+aging positively and significantly correlated at the 1 % level.
+This suggests that stricter implementation of family planning policies
+leads to higher levels of population aging. Column (2) reports the outcomes
+of the second-stage regression, where the regression coefficient is
+significantly positive at the 1 % level, or in line with the results of the
+benchmark regression. This suggests that the underlying conclusions
+remain robust and convincing after dealing with endogeneity.
+5.2.2. Alternate independent variables
+To verify the robustness of the basic regression conclusion, this
+section replaces the measurement of the core explanatory variable from
+the rural old-age dependency ratio to the rural population aging rate.
+The regression outcome in column (3) of Table 6 notes that the coefficient
+of Old is significantly positive, or in line with the findings of the
+benchmark regression. This indicates that the underlying conclusions
+have a high degree of confidence.
+5.2.3. Adding control variables
+Many research studies show that industrial structure and degree of
+openness also impact agricultural production (Matthews, 2014; Cao
+et al., 2015; Kang et al., 2017; Cao et al., 2018; Fusco et al., 2020; Song
+et al., 2021). Thus, to further mitigate the omitted variable problem, this
+study adds two new variables, industrial structure and degree of openness,
+to the original control variables. Industrial structure (IS) is
+measured by the share of value added of the secondary and tertiary
+sectors in GDP. The degree of openness (Open) is expressed as the percentage
+of total foreign-invested imports and exports (converted at the
+current year’s USD to RMB exchange rate) to GDP. Table 6 reports the
+outcomes for adding control variables. The regression results in columns
+(4) to (6) of the table show that IS has a negative effect while openness
+has a significantly positive impact on ensuring food security, and that
+the aging rate of the rural population remains significantly positive after
+Table 2
+Correlation matrix among variables.
+Variable Food Aging Dp URBAN Gov Agr Ti Irrigation IS OPEN
+Food 1
+Aging 􀀀 0.073 1
+Dp 0.126** 0.402*** 1
+URBAN 􀀀 0.174*** 0.418*** 0.262*** 1
+Gov 0.070 􀀀 0.349*** 0.329*** 􀀀 0.275*** 1
+Agr 0.501*** 􀀀 0.305*** 0.243*** 􀀀 0.595*** 0.584*** 1
+Ti 􀀀 0.154*** 0.678*** 0.340*** 0.600*** 􀀀 0.558*** 􀀀 0.526*** 1
+Irrigation 0.545*** 0.089* 􀀀 0.018 􀀀 0.452*** 􀀀 0.332*** 0.294*** 0.147*** 1
+IS 􀀀 0.342*** 0.369*** 0.153*** 0.727*** 􀀀 0.323*** 􀀀 0.630*** 0.595*** 􀀀 0.284*** 1
+OPEN 􀀀 0.387*** 0.190*** 􀀀 0.194*** 0.656*** 􀀀 0.389*** 􀀀 0.703*** 0.405*** 􀀀 0.370*** 0.522*** 1
+Note. * p < 0.1, ** p < 0.05, and *** p < 0.01.
+Table 3
+The variance inflation factor (VIF) test.
+Model (1) (2) (3) (4) (5)
+Aging 2.040 2.150 2.050
+Old 1.860 1.930
+AI 2.820 2.320
+AI×Aging/Old 2.050 1.640
+Dp 2.760 2.830 2.860 0.342 2.970
+URBAN 3.240 4.040 3.310 4.130 4.450
+Gov 3.670 3.950 3.650 3.900 3.710
+Agr 3.380 3.690 3.390 3.720 3.960
+Ti 4.460 4.530 4.360 4.400 4.680
+Irrigation 2.880 3.190 2.880 3.170 2.890
+IS 2.630
+OPEN 2.740
+Mean VIF 3.200 3.250 3.190 3.130 3.340
+Note: The table presents the variance inflation factor (VIF) test between the
+variables. Aging and Old are the core explanatory variables. AI is the moderating
+variable. Dp, URBAN, Gov, Agr, Ti, Irrigation, IS, and OPEN are the control
+variables.
+Table 4
+Panel unit root test.
+Variable LLC IPS Fisher
+Adjusted t* p-value Z-t-tilde-bar Statistic p-value Inverse chi-squared p-value
+Food 􀀀 8.162*** 0.000 􀀀 2.319** 0.010 58.291 0.538
+Aging 􀀀 8.247*** 0.000 􀀀 5.244*** 0.000 155.923*** 0.000
+Old 􀀀 6.493*** 0.000 􀀀 4.868*** 0.000 128.167*** 0.000
+AI 7.050 1.000 4.757 1.000 89.200*** 0.009
+Dp 􀀀 13.930*** 0.000 􀀀 2.888*** 0.002 214.977*** 0.000
+URBAN 􀀀 22.245*** 0.000 􀀀 1.432* 0.076 322.457*** 0.000
+Gov 􀀀 2.887*** 0.002 􀀀 2.135** 0.016 61.648 0.417
+Agr 􀀀 6.243*** 0.000 􀀀 3.511*** 0.000 107.748*** 0.000
+Ti 􀀀 3.586*** 0.000 􀀀 0.871 0.192 57.751 0.558
+Irrigation 􀀀 3.198*** 0.001 􀀀 2.117** 0.017 51.662 0.770
+IS 12.340 1.000 􀀀 7.620*** 0.000 60.011 0.475
+OPEN 􀀀 8.036*** 0.000 􀀀 5.444*** 0.000 116.363*** 0.000
+Notes: The table reports the results of panel unit root tests for each variable. Food is the dependent variable. Aging and Old are the core explanatory variables. AI is the
+moderating variable. Dp, URBAN, Gov, Agr, Ti, Irrigation, IS, and OPEN are the control variables. * p < 0.1, ** p < 0.05, and *** p < 0.01.
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+8
+adding new variables. The results are in line with the basic conclusion.
+5.2.4. Winsorizing the variables
+For a more accurate reflection of the characteristics of most samples
+and to avoid extreme values from influencing the outcomes, this
+research winsorizes the variables at the 1 %, 2.5 %, and 7.5 % quantiles.
+Table 6 lists the outcomes and we notice that the coefficients of Aging
+are significantly positive, which proves the conclusion is robust.
+6. The role of artificial intelligence
+6.1. Moderating effect analysis
+6.1.1. Full-sample regression
+AI has become an important tool that can help deal with an aging
+population (Wang et al., 2023). Today, AI is also starting to dominate
+the agricultural sector (Ennouri et al., 2021; Shaikh et al., 2022). On the
+one hand, an alternative role of AI is that it reduces the farming burden
+and physical requirements of agricultural laborers (Acemoglu and
+Restrepo, 2018a, 2018b). On the other hand, the efficient application of
+AI can better utilize the advantages of older people with more farming
+experience and agricultural labor inputs. In the context of an aging
+population, the use of AI can effectively ensure food security. These
+points are discussed in detail in Section 3.2.
+On the basis of previous theoretical analysis, AI has a moderating
+effect on population aging’s influence on food security. Exploring the
+possible moderating mechanism of AI in the process of food security
+affected by population aging, this paper adds the interaction term of AI
+and Aging/Old to the original benchmark regression model. Centralization
+is also performed to weaken the multicollinearity of the original
+Table 5
+Benchmark regression.
+Variable Food
+(1) (2) (3) (4) (5) (6) (7) (8) (9)
+Aging 1.414* 1.324* 1.308* 1.281* 1.412** 1.394** 1.171** 0.877*** 1.081**
+(0.771) (0.722) (0.690) (0.651) (0.607) (0.595) (0.550) (0.208) (0.477)
+Dp 0.398 0.472 0.352 0.249 0.231 0.146 0.211*** 0.234**
+(0.245) (0.283) (0.236) (0.197) (0.188) (0.144) (0.045) (0.100)
+URBAN 􀀀 0.532 􀀀 0.386 􀀀 0.344 􀀀 0.281 􀀀 0.783 􀀀 0.374** 􀀀 0.831*
+(0.589) (0.517) (0.485) (0.456) (0.531) (0.152) (0.459)
+Gov 0.721* 0.608* 0.601* 0.503** 0.460*** 0.419**
+(0.403) (0.314) (0.313) (0.197) (0.143) (0.181)
+Agr 1.917** 1.860* 1.630** 1.360*** 1.406**
+(0.933) (0.911) (0.653) (0.279) (0.600)
+Ti 􀀀 0.018 􀀀 0.026 􀀀 0.046*** 􀀀 0.031
+(0.035) (0.026) (0.013) (0.023)
+Irrigation 0.362** 0.263*** 0.361**
+(0.146) (0.028) (0.143)
+_cons 0.266*** 􀀀 0.154 0.029 􀀀 0.043 􀀀 0.124 􀀀 0.015 􀀀 2.178** 􀀀 1.566*** 􀀀 2.187**
+(0.092) (0.325) (0.300) (0.291) (0.306) (0.354) (0.963) (0.206) (0.983)
+Year FE Yes Yes Yes Yes Yes Yes Yes No No
+Province FE Yes Yes Yes Yes Yes Yes Yes No Yes
+N 390 390 390 390 390 390 390 390 390
+R2 0.207 0.230 0.245 0.283 0.355 0.356 0.483 0.452 0.467
+Notes: The cluster-robust standard errors are placed in parentheses, clustered by province. * p < 0.1, ** p < 0.05, and *** p < 0.01. Food is the dependent variable.
+Aging is the core explanatory variable.
+Table 6
+Robust test regression.
+Variable IV-2SLS Alternative independent
+variables
+Add control variables -IS, OPEN Winsorize Winsorize Winsorize
+First stage Second stage 1 % 2.5 % 5 %
+Aging Food Food
+IV 0.002***
+(0.000)
+Old 0.551*
+(0.274)
+Aging 2.458*** 1.029** 1.140** 0.974** 1.140** 1.048** 0.763*
+(0.625) (0.472) (0.555) (0.465) (0.524) (0.485) (0.386)
+IS 􀀀 1.326** 􀀀 1.437**
+(0.548) (0.523)
+OPEN 0.170 0.233**
+(0.120) (0.111)
+Control Yes Yes Yes Yes Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes Yes Yes Yes Yes
+Province FE Yes Yes Yes Yes Yes Yes Yes Yes Yes
+N 390 390 390 390 390 390 390 390 390
+R2 0.974 0.473 0.532 0.492 0.548 0.478 0.372 0.308
+Kleibergen–Paap rk LM
+statistic
+35.055***
+Cragg–Donald Wald F 83.180
+Hansen J statistic 0.000
+Notes: The cluster-robust standard errors are placed in parentheses, clustered by province. * p < 0.1, ** p < 0.05, and *** p < 0.01. IV denotes the instrumental variable
+constructed in this paper.
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+9
+model. Full-sample regressions are initially conducted. Table 7 presents
+the outcomes of the moderating effects without and with the addition of
+control variables. The regression outcomes reveal that the coefficients of
+the interaction terms are all significantly positive, indicating that AI
+serves as a positive moderating factor in population aging’s impact on
+food security. This is consistent with hypothesis 2.
+6.1.2. Subsample regression
+After the initial analysis of the moderating role of AI, to further
+analyze the differences in the moderating role of AI in different regions,
+this part continues the study by using a sub-sample regression method.
+We divide the sample into two dimensions: economic geography subregion
+and food production subregion.
+Table 8 reports the results after subsample regression. First, from the
+point of view of economic-geographical subdivisions, China can be
+divided into three regions: east, central and west. Columns (1) to (3)
+report the estimation results. Based on the results, it can be found that
+the coefficients of the interaction terms are significantly positive in all
+three regions, indicating that AI has a moderating effect in all three
+regions. However, the moderating ability of AI varies across the three
+regions. The magnitude of the moderating effect is ranked in descending
+order of west, central and east. One of the possible reasons is that the
+economy of the eastern region is developed, with a high level of urbanization
+and industrialization, and the industrial structure is dominated
+by the tertiary industry as well as new industries. The function of
+agricultural production is mainly shifted to the central and western regions,
+and the advanced manufacturing industry and the service industry
+mainly drive the economic development of the eastern region.
+Therefore, the resources invested in the field of agriculture are limited,
+and the role of artificial intelligence development in promoting agricultural
+production is also limited. Compared with the eastern region,
+the central and western regions have the advantages of good agricultural
+infrastructure, suitable natural conditions, sufficient arable land resources,
+strong government policy support, more experienced agricultural
+labor, and large-scale production mode. These conditions provide a
+prerequisite and guarantee for the role of artificial intelligence. Therefore,
+it is more conducive to the large-scale application of AI in agriculture
+in the central and western regions, and it is better to play the role
+of AI in agriculture.
+In terms of food production subregions, columns (4) to (6) report the
+estimation results, and the moderating role of AI plays a significant role
+only in the main food marketing areas. Main grain production areas are
+key grain production areas where geography, soil, climate, technology,
+and other conditions are suitable for the cultivation of certain grain
+crops and where they have certain comparative advantages such as
+resource advantages, technological advantages, and economic benefits.
+However, AI has not played its own advantages in these areas, indicating
+that the development and application of AI are not coordinated with the
+pattern of agricultural production. Although the agricultural infrastructure
+of the main grain production areas is superior, they tend to
+have lower economic levels, slower technological development, and
+lower levels of AI application. Although the main grain marketing areas
+have a weak agricultural base, the development level of artificial intelligence
+is high and can be applied to agricultural production. Therefore,
+the application of artificial intelligence, an emerging technology in
+agriculture, has yet to be further promoted in the main food-producing
+areas.
+6.2. Threshold regression analysis
+In this part, we explore the impact of population aging on food security
+at different levels of AI. This is done by examining the relationships
+among AI, population aging, and food security using AI as a
+threshold variable.
+Table 9 presents the outcome of the threshold selection after
+applying the bootstrap approach. The p-values and their significant
+levels are obtained by repeating the sampling 300 times to determine the
+number of thresholds and threshold values. The results show that it
+passes the single threshold test.
+Table 10 reveals the results of the single-threshold regression with AI
+as the threshold variable. They denote that the impact of population
+aging on food security varies at different levels of AI development: the
+coefficient of 0.937 is significant at the 10 % level when the level of AI
+development is below the threshold (AI <0.2587); while the coefficient
+of AI development level across the threshold (AI ≥0.2587) rises to 2.104
+and is significant at the 1 % level. This suggests that the impact of
+population aging on food security is better at higher levels of AI application.
+The empirical results are consistent with previous findings,
+whereby artificial intelligence empowers the older rural workforce to
+improve its role in food security.
+6.3. The artificial intelligence policy analysis
+In this part, a classic artificial intelligence policy is used to further
+Table 7
+Moderating effect regression.
+Variable Alternative independent variable
+Food Food
+Model FE FE IV-2SLS FE FE
+AI 0.304*** 0.081 􀀀 0.461*** 0.316*** 0.153
+(0.099) (0.109) (0.175) (0.099) (0.107)
+Aging 1.083* 0.804** 􀀀 0.995*
+(0.546) (0.373) (0.583)
+AI*Aging [centered] 7.099*** 24.777***
+(1.626) (5.950)
+Old 0.553* 0.467**
+(0.284) (0.218)
+AI*Old [centered] 4.555***
+(1.320)
+Control Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes
+Province FE Yes Yes Yes Yes Yes
+N 390 390 390 390 390
+R2 0.532 0.571 0.967 0.527 0.559
+Kleibergen–Paap rk LM statistic 13.944***
+Cragg–Donald Wald F 14.020
+Hansen J statistic 0.000
+Notes: The cluster-robust standard errors are placed in parentheses, clustered by province. * p < 0.1, ** p < 0.05, and *** p < 0.01.
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+10
+analyze the role of AI in the impact of population aging on food security.
+In 2015, The State Council in China issued the “Guiding Opinions on
+Actively Promoting Internet Actions”, which listed the Internet and
+artificial intelligence as key actions. At that time, 12 provinces,
+including Shanghai, Beijing, Chongqing, Guangdong, Zhejiang, Anhui,
+Guizhou, Jiangxi, Shandong, Shaanxi, Jilin and Heilongjiang, responded
+to the call and issued local policies related to artificial intelligence. Thus,
+the above provinces are taken into a treatment group and other cities are
+taken into the control group. Based on the DID model, we construct a
+quasi-natural experiment, and the relevant results are shown in columns
+(1) and (2) of Table 11. The result in column (1) shows that the coefficient
+of did is significantly positive, indicating that the artificial intelligence
+policy benefits food security. The result in column (2) shows that
+the coefficient of Aging*did is significantly positive, indicating that the
+AI policy plays a positive role in the impact of population aging on food
+security.
+Passing the parallel trend test is a prerequisite for using the DID
+model. Thus, taking the fourth year before policy implementation as a
+base period, we conducted a parallel trend test, and the relevant results
+are shown in Fig. 2. It can be seen that there is no significant difference
+between the experimental group and the control group before the
+implementation of the policy, indicating that the parallel trend test
+passes. To further demonstrate that this policy is not accidental, we
+conduct a placebo test. The result is presented in Fig. 3. Construct 1000
+times a virtual experimental group and control group randomly and
+capture t-value of each time to form the nuclear density distribution
+map. The distribution is normal and the t-value is concentrated at 0,
+indicating that the policy effect of this artificial intelligence is not
+Table 8
+Subsample regression results: Three major economic regions and food production.
+Three major economic regions Food production
+East Central West Major grain producing areas Major grain selling areas Product-sale balance areas
+Food Food
+Aging 0.435** 1.330 0.421 􀀀 0.845 0.175** 0.104
+(0.168) (1.403) (0.486) (1.203) (0.063) (0.408)
+AI 􀀀 0.107** 􀀀 0.040 0.631*** 􀀀 0.034 􀀀 0.133*** 0.363
+(0.035) (0.167) (0.171) (0.227) (0.019) (0.309)
+AI*Aging [centered] 4.073*** 7.221** 10.278** 3.472 5.893*** 10.556
+(0.810) (2.526) (3.733) (3.516) (1.265) (7.554)
+Control Yes Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes Yes
+Province FE Yes Yes Yes Yes Yes Yes
+N 143 104 143 169 91 130
+R2 0.342 0.796 0.572 0.747 0.815 0.312
+Notes: The cluster-robust standard errors are placed in parentheses, clustered by province. * p < 0.1, ** p < 0.05, and *** p < 0.01.
+Table 9
+Threshold selection based on the bootstrap method.
+Dependent variable Independent variable Threshold variable Model Threshold variable BS P-value F-test
+Food Aging AI Th-Single 0.2587 300 0.003 39.87***
+Th-Double 300 0.150 23.21
+Notes: BS indicates the bootstrap method. * p < 0.1, ** p < 0.05, and *** p < 0.01.
+Table 10
+Threshold regression results.
+Variable Food
+Aging*I (AI<0.2587) 0.937*
+(0.497)
+Aging*I (AI≥0.2587) 2.104***
+(0.496)
+Control Yes
+Year FE Yes
+Province FE Yes
+N 390
+R2 0.548
+Notes: The cluster-robust standard errors are placed in
+parentheses, clustered by province. * p < 0.1, ** p < 0.05,
+and *** p < 0.01.
+Table 11
+Results of the artificial intelligence policy.
+Variable PSM-DID
+PSM-Neighboring PSM-Kernel Entropy Balancing
+Food Food Food Food
+did 0.047* 0.031 0.088** 0.064* 0.097*** 0.077** 0.084*** 0.068**
+(0.024) (0.018) (0.034) (0.033) (0.029) (0.028) (0.026) (0.025)
+Aging 1.044* 0.892* 0.241 0.303 0.119 􀀀 0.031 0.052 􀀀 0.074
+(0.512) (0.490) (0.672) (0.580) (0.756) (0.662) (0.694) (0.610)
+Aging*did [centered] 0.308** 0.347*** 0.308** 0.266**
+(0.124) (0.089) (0.135) (0.114)
+Control Yes Yes Yes Yes Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes Yes Yes Yes Yes
+Province FE Yes Yes Yes Yes Yes Yes Yes Yes
+N 390 390 159 159 293 293 310 310
+R2 0.500 0.532 0.989 0.990 0.983 0.985 0.985 0.986
+Note: The cluster-robust standard errors are placed in parentheses, clustered by province. * p < 0.1, ** p < 0.05, and *** p < 0.01.
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+11
+accidental.
+Due to the influence of sample selection, the results of DID may be
+biased. Therefore, we reassessed the impact of this policy in conjunction
+with PSM. Three main matching methods, including PSM-Neighboring,
+PSM-Kernel, and Entropy Balancing, are used in this part. The results of
+PSM-DID are shown in column (3) to (8) of Table 11. We can find that
+the results of PSM-DID model are consistent with the results of DID
+model, showing that our findings are robust.
+6.4. Policy implications
+Based on the research findings, this paper makes policy recommendations
+in terms of both the rural older labor force and AI development.
+For the rural labor force of the elderly population. First, the Government
+should respond to the trend of aging by vigorously developing
+the rural pension service industry, including pension, medical care and
+insurance, to improve further the social security system and life productivity
+of the rural elderly population and to unleash the productive
+potential of the elderly population. Second, the Government can
+encourage rural laborers to take the initiative to participate in online
+and offline vocational skills training, guide agricultural workers to acquire
+new knowledge and skills to adapt to changing agricultural production
+conditions, and help to build a large contingent of knowledgeand
+skill-based agricultural workers to effectively meet agricultural
+production needs.
+For the development of artificial intelligence. First, the government
+Fig. 2. Parallel trend test.
+Fig. 3. Placebo test.
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+12
+should increase investment in infrastructure, improve network, software,
+and storage to provide support for AI applications. These infrastructure
+improvements can include the construction of high-speed
+Internet, the promotion of cloud computing technology, the development
+of big data platforms. Second, the government can strengthen the
+training of AI-related talents, train more AI researchers and users, and
+provide more human support for the development of artificial intelligence.
+Third, the government needs to formulate and improve artificial
+intelligence policies and regulations to promote the development and
+application of artificial intelligence. These policies and regulations can
+include financial support for research and development, tax incentives,
+and market access rules to stimulate enterprises to increase investment
+in AI.
+7. Conclusion
+7.1. Main conclusions
+With the increasing prominence of aging populations worldwide,
+food security is gaining greater attention. At the same time, the rapid
+development of AI provides new solutions to address the labor gap due
+to an aging population. Most of the existing literature has studied the
+ability of AI to cope with the adverse impacts of population aging in
+terms of economic growth and industrial structure. Yet, scant research
+has considered the application and effects of AI in the field of agricultural
+production. Therefore, this paper selects data from a sample of 30
+provinces in China to analyze the impact of population aging on food
+security and the role of artificial intelligence. Based on detailed theoretical
+analysis and empirical tests, the conclusions obtained are as
+follows.
+First, modern agricultural production techniques and organization
+have greatly reduced the constraints of individual physical strength and
+human capital on agricultural production. Population aging in rural
+areas has not negatively impacted food security. Therefore, there is no
+need to be too pessimistic about the inevitable aging of the rural population.
+Second, AI has a positive effect on the impact of population
+aging on food security, and so the application of AI is beneficial to food
+security. Third, the moderating effect of AI is heterogeneous. Compared
+with other provinces, AI can play a strongly positive moderating effect in
+central and west regions and major grain-selling areas.
+7.2. Limitations and prospects
+In this part, we propose some possible research prospects based on
+the limitations of the article. First, the data can be more refined. Our
+article uses provincial-level data to analyze topics of “impact of population
+aging on food security in the context of artificial intelligence”. If
+city-level data is used, the heterogeneity of this impact can be described
+in more detail. Thus, future research could look at collecting city-level
+data on food security, which is currently difficult to collect and needs
+to be mined in government reports or other documents. Second, the
+spatial spillover effect can be explored. This paper considers the impact
+in an individual region and ignores possible spatial spillover effects.
+Therefore, the follow-up research can adopt the method of spatial
+econometrics to study this topic further.
+Ethical approval
+This article does not contain any studies with human participants or
+animals performed by any of the authors.
+Funding
+This work was supported by the National Social Science Foundation
+Key Project of China (No. 22AJL004).
+CRediT authorship contribution statement
+Chien-Chiang Lee: Conceptualization, Funding acquisition, Project
+administration, Visualization, Writing – original draft. Jingyang Yan:
+Formal analysis, Writing – original draft. Fuhao Wang: Investigation,
+Writing – review & editing.
+Declaration of competing interest
+All authors declare that they have no conflict of interest.
+Data availability statement
+Data available from the authors upon request.
+Appendix A
+Table A1
+Variables’ definitions and units.
+Variable Definition Data manipulation Source
+Dependent variable
+Food Food security (per capita food holdings/1000, LN) 100 kg/person NBS
+Independent variable
+Aging Rural aging rate (ratio of rural population aged 65 or older to total rural population) % CRSY
+Old Rural elderly dependency ratio (ratio of rural population over 65 years old to working population) % CRSY
+Moderating variable
+AI Artificial intelligence level (density of industrial robots at the agricultural level) Units/104 people IFR
+Control variable
+Dp Price changes (food price index with 2007 as base period) – NBS
+URBAN Urbanization (ratio of urban population to total population) % CPESY
+Gov Degree of government intervention (ratio of government expenditure to GDP) % NBS
+Agr Degree of financial support to agriculture (ratio of fiscal agricultural expenditure to total fiscal expenditure) % NBS
+Irrigation Effective irrigated area (the effective irrigated area, LN) 103 ha NBS
+Ti Technological progress (Number of patents granted, LN) – NBS
+IS Industrial structure (proportion of the value added of secondary and tertiary industries to the total value of GDP) % TSY
+OPEN Degree of openness (proportion of total foreign-invested imports and exports to GDP) % CSY
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+13
+Note: - Indicates no unit or 1 unit; LN indicates logarithmic processing; IFR denotes the IFR report; NBS denotes the official website of the National Bureau of Statistics
+(NBS); CRSY denotes China Rural Statistical Yearbook; CPESY denotes China Population and Employment Statistical Yearbook; TSY denotes Tertiary Industry Statistical
+Yearbook; CSY denotes China Statistical Yearbook and provincial statistical yearbooks.
+References
+Acemoglu, D., Restrepo, P., 2017. Secular stagnation? The effect of aging on economic
+growth in the age of automation. Am. Econ. Rev. 107 (5), 174–179. https://doi.org/
+10.1257/aer.p20171101.
+Acemoglu, D., Restrepo, P., 2018a. Low-skill and high-skill automation. J. Hum. Cap. 12
+(2), 204–232. https://doi.org/10.1086/697242.
+Acemoglu, D., Restrepo, P., 2018b. The race between man and machine: implications of
+Technology for growth, factor shares, and employment. Am. Econ. Rev. 108 (6),
+1488–1542. https://doi.org/10.1257/aer.20160696.
+Acemoglu, D., Restrepo, P., 2020. Robots and jobs: evidence from US labor markets.
+J. Polit. Econ. 128 (6), 2188–2244. https://doi.org/10.1086/705716.
+Aisa, R., Cabeza, J., Martin, J., 2023. Automation and aging: the impact on older workers
+in the workforce. J. Econ. Ageing 26, 100476. https://doi.org/10.1016/j.
+jeoa.2023.100476.
+Arntz, M., Gregory, T., Zierahn, U., 2016. The risk of automation for jobs in OECD
+countries: a comparative analysis. In: OECD Social, Employment and Migration
+Working Papers, 189, pp. 1–46. https://doi.org/10.1787/1815199X.
+Ashraf, J., Javed, A., 2023. Food security and environmental degradation: do
+institutional quality and human capital make a difference? Journal of environmental
+management, 331. Article 117330. https://doi.org/10.1016/j.jenvman.2023.117330.
+Asongu, S.A., Le Roux, S., Biekpe, N., 2018. Enhancing ICT for environmental
+sustainability in sub-Saharan Africa. Technol. Forecast. Soc. Change 127, 209–216.
+https://doi.org/10.1016/j.techfore.2017.09.022.
+Autor, D.H., 2015. Why are there still so many jobs? The history and future of workplace
+automation. J. Econ. Perspect. 29 (3), 3–30. https://doi.org/10.1257/jep.29.3.3.
+Baochang, G., Feng, W., Zhigang, G., Erli, Z., 2007. China’s local and national fertility
+policies at the end of the twentieth century. Popul. Dev. Rev. 129-147 https://doi.
+org/10.1111/j.1728-4457.2007.00161.x.
+Bloom, D.E., Chatterji, S., Kowal, P., Lloyd-Sherlock, P., McKee, M., Rechel, B.,
+Rosenberg, L., Smith, J.P., 2015. Macroeconomic implications of population ageing
+and selected policy responses. Lancet 385 (9968), 649–657. https://doi.org/
+10.1016/s0140-6736(14)61464-1.
+Borland, J., Coelli, M., 2017. Are robots taking our jobs? Aust. Econ. Rev. 50 (4),
+377–397. https://doi.org/10.1111/1467-8462.12245.
+Cami˜na, E., Díaz-Chao, A., Torrent-Sellens, J., 2020. Automation technologies: long-term
+effects for Spanish industrial firms. Technol. Forecast. Soc. Change 151, Article
+119828. https://doi.org/10.1016/j.techfore.2019.119828.
+Cao, X.C., Wang, Y.B., Wu, P., Zhao, X.N., Wang, J., 2015. An evaluation of the water
+utilization and grain production of irrigated and rain-fed croplands in China. Sci.
+Total Environ. 529, 10–20. https://doi.org/10.1016/j.scitotenv.2015.05.050.
+Cao, X.C., Wu, M.Y., Zheng, Y.L., Guo, X.P., Chen, D., Wang, W.G., 2018. Can China
+achieve food security through the development of irrigation? Reg. Environ. Chang.
+18 (2), 465–475. https://doi.org/10.1007/s10113-017-1214-5.
+Chandio, A.A., Jiang, Y.S., Akram, W., Adeel, S., Irfan, M., Jan, I., 2021. Addressing the
+effect of climate change in the framework of financial and technological
+development on cereal production in Pakistan. J. Clean. Prod. 288, Article 125637
+https://doi.org/10.1016/j.jclepro.2020.125637.
+Chen, Y., Lin, C., Chen, X., 2019. Artificial intelligence, aging and economic growth.
+Econ. Res. J. 54 (07), 47–63. https://kns.cnki.net/kcms/detail/11.1081.f.2019071
+9.1621.008.html.
+Chen, J.D., Gao, M., Mangla, S.K., Song, M.L., Wen, J., 2020. Effects of technological
+changes on China’s carbon emissions. Technol. Forecast. Soc. Change 153, Article
+119938. https://doi.org/10.1016/j.techfore.2020.119938.
+Chen, Y., Cheng, L., Lee, C.C., 2022a. How does the use of industrial robots affect the
+ecological footprint? International evidence. Ecol. Econ. 198, Article 107483
+https://doi.org/10.1016/j.ecolecon.2022.107483.
+Chen, T., Rizwan, M., Abbas, A., 2022b. Exploring the role of agricultural services in
+production efficiency in Chinese agriculture: a case of the socialized agricultural
+service system. Land 11(3), Article 347. https://doi.org/10.3390/land11030347.
+Choi, K.-H., Shin, S., 2015. Population aging, economic growth, and the social
+transmission of human capital: an analysis with an overlapping generations model.
+Econ. Model. 50, 138–147. https://doi.org/10.1016/j.econmod.2015.05.015.
+David, B., 2017. Computer technology and probable job destructions in Japan: an
+evaluation. J. Jpn. Int. Econ. 43, 77–87. https://doi.org/10.1016/j.jjie.2017.01.001.
+Deng, X.Z., Gibson, J., 2019. Improving eco-efficiency for the sustainable agricultural
+production: a case study in Shandong, China. Technol. Forecast. Soc. Change 144,
+394–400. https://doi.org/10.1016/j.techfore.2018.01.027.
+Du, T., Kang, S., Zhang, X., Zhang, J., 2014. China’s food security is threatened by the
+unsustainable use of water resources in north and Northwest China. Food Energy
+Secur. 3 (1), 7–18. https://doi.org/10.1002/fes3.40.
+Engås, K.G., Raja, J.Z., Neufang, I.F., 2023. Decoding technological frames: an
+exploratory study of access to and meaningful engagement with digital technologies
+in agriculture. Technol. Forecast. Soc. Change 190, Article 122405. https://doi.org/
+10.1016/j.techfore.2023.122405.
+Ennouri, K., Smaoui, S., Gharbi, Y., Cheffi, M., Ben Braiek, O., Ennouri, M., Triki, M.A.,
+2021. Usage of artificial intelligence and remote sensing as efficient devices to
+increase agricultural system yields. J. Food Qual. 2021, 6242288 https://doi.org/
+10.1155/2021/6242288.
+Filho, W.L., Wall, T., Mucova, S.A.R., Nagy, G.J., Balogun, A.L., Luetz, J.M., Ng, A.W.,
+Kovaleva, M., Azam, F.M.S., Alves, F., Guevara, Z., Matandirotya, N.R.,
+Skouloudis, A., Tzachor, A., Malakar, K., Gandhi, O., 2022. Deploying artificial
+intelligence for climate change adaptation. Technol. Forecast. Soc. Change 180,
+Article 121662. https://doi.org/10.1016/j.techfore.2022.121662.
+Filippi, E., Bann`o, M., Trento, S., 2023. Automation technologies and their impact on
+employment: a review, synthesis and future research agenda. Technol. Forecast. Soc.
+Change 191, Article 122448. https://doi.org/10.1016/j.techfore.2023.122448.
+Frank, M.R., Autor, D., Bessen, J.E., Brynjolfsson, E., Cebrian, M., Deming, D.J.,
+Feldman, M., Groh, M., Lobo, J., Moro, E., Wang, D., Youn, H., Rahwan, I., 2019.
+Toward understanding the impact of artificial intelligence on labor. Proc. Natl. Acad.
+Sci. U. S. A. 116 (14), 6531–6539. https://doi.org/10.1073/pnas.1900949116.
+Fusco, G., Coluccia, B., De Leo, F., 2020. Effect of trade openness on food security in the
+EU: a dynamic panel analysis. Int. J. Environ. Res. Public Health 17(12), Article
+4311. https://doi.org/10.3390/ijerph17124311.
+Ghose, B., 2014. Food security and food self-sufficiency in China: from past to 2050.
+Food Energy Secur. 3 (2), 86–95. https://doi.org/10.1002/fes3.48.
+Gilland, B., 2002. World population and food supply - can food production keep pace
+with population growth in the next half-century? Food Policy 27 (1), 47–63. Article
+Pii s0306-9192(02)00002-7. https://doi.org/10.1016/s0306-9192(02)00002-7.
+Goldsmith-Pinkham, P., Sorkin, I., Swift, H., 2020. Bartik instruments: what, when. Why,
+and how. Am. Econ. Rev. 110 (8), 2586–2624. https://doi.org/10.1257/
+aer.20181047.
+Gozgor, G., 2019. Effects of the agricultural commodity and the food price volatility on
+economic integration: an empirical assessment. Empir. Econ. 56 (1), 173–202.
+https://doi.org/10.1007/s00181-017-1359-6.
+Gozgor, G., Memis, C., 2015. Price volatility spillovers among agricultural commodity
+and crude oil markets: evidence from the range-based estimator. Agric. Econ. 61 (5),
+214–221. https://doi.org/10.17221/162/2014-agricecon.
+Guo, G., Wen, Q., Zhu, J., 2015. The impact of aging agricultural labor population on
+farmland output: from the perspective of farmer preferences. Mathematical Problems
+in Engineering 2015, 730618. https://doi.org/10.1155/2015/730618.
+Guo, Q., Zeng, D., Lee, C.C., 2023. Impact of smart city pilot on energy and
+environmental performance: China-based empirical evidence Sustainable Cities and.
+Society 97, 104731. https://doi.org/10.1016/j.scs.2023.104731.
+Harper, S., 2014. Economic and social implications of aging societies. Science 346
+(6209), 587–591. https://doi.org/10.1126/science.1254405.
+Hassan, S.T., Wang, P., Khan, I., Zhu, B.Z., 2023. The impact of economic complexity,
+technology advancements, and nuclear energy consumption on the ecological
+footprint of the USA: towards circular economy initiatives. Gondw. Res. 113,
+237–246. https://doi.org/10.1016/j.gr.2022.11.001.
+Headey, D., Hirvonen, K., 2023. Higher food prices can reduce poverty and stimulate
+growth in food production. Nat. Food 4 (8), 699–706. https://doi.org/10.1038/
+s43016-023-00816-8.
+Hossain, M., Park, S., Shahid, S., 2023. Frugal innovation for sustainable rural
+development. Technol. Forecast. Soc. Change 193, Article 122662. https://doi.org/
+10.1016/j.techfore.2023.122662.
+Hu, J.F., Pan, X.X., Huang, Q.H., 2020. Quantity or quality? The impacts of
+environmental regulation on firms’ innovation-Quasi-natural experiment based on
+China’s carbon emissions trading pilot. Technol. Forecast. Soc. Change 158, Article
+120122. https://doi.org/10.1016/j.techfore.2020.120122.
+Hussain, J., Lee, C.C., 2022. A green path towards sustainable development: optimal
+behavior of the duopoly game model with carbon neutrality instruments. Sustainable
+Development 30, 1523–1541. https://doi.org/10.1002/sd.2325.
+Hussain, J., Lee, C.C., Chen, Y.X., 2022. Optimal green technology investment and
+emission reduction in emissions generating companies under the support of green
+bond and subsidy. Technol. Forecast. Soc. Change 183, Article 121952. https://doi.
+org/10.1016/j.techfore.2022.121952.
+Issa, H., Jabbouri, R., Palmer, M., 2022. An artificial intelligence (AI)-readiness and
+adoption framework for AgriTech firms. Technol. Forecast. Soc. Change 182,
+121874. https://doi.org/10.1016/j.techfore.2022.121874.
+Jiang, S., Zhou, J., Qiu, S., 2022. Digital agriculture and urbanization: mechanism and
+empirical research. Technol. Forecast. Soc. Change 180, 121724. https://doi.org/
+10.1016/j.techfore.2022.121724.
+Johnson, P.C., Laurell, C., Ots, M., Sandstr¨om, C., 2022. Digital innovation and the
+effects of artificial intelligence on firms’ research and development-automation or
+augmentation, exploration or exploitation. Technol. Forecast. Soc. Change 179,
+121636. https://doi.org/10.1016/j.techfore.2022.121636.
+Jones, A.D., Ngure, F.M., Pelto, G., Young, S.L., 2013. What are we assessing when we
+measure food security? A compendium and review of current metrics. Adv. Nutr. 4
+(5), 481–505. https://doi.org/10.3945/an.113.004119.
+Kang, S.Z., Hao, X.M., Du, T.S., Tong, L., Su, X.L., Lu, H.N., Li, X.L., Huo, Z.L., Li, S.E.,
+Ding, R.S., 2017. Improving agricultural water productivity to ensure food security
+in China under changing environment: from research to practice. Agric Water Manag
+179, 5–17. https://doi.org/10.1016/j.agwat.2016.05.007.
+Khan, S., Hanjra, M.A., Mu, J., 2009. Water management and crop production for food
+security in China: a review. Agric Water Manag 96 (3), 349–360. https://doi.org/
+10.1016/j.agwat.2008.09.022.
+Labarthe, P., Col´eno, F., Enjalbert, J., Fugeray-Scarbel, A., Hannachi, M., Lemari´e, S.,
+2021. Exploration, exploitation and environmental innovation in agriculture. The
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+14
+case of variety mixture in France and Denmark. Technol. Forecast. Soc. Change 172,
+Article 121028. https://doi.org/10.1016/j.techfore.2021.121028.
+Lee, H.H., Shin, K., 2019. Nonlinear effects of population aging on economic growth.
+Jpn. World Econ. 51, Article 100963 https://doi.org/10.1016/j.
+japwor.2019.100963.
+Lee, C.C., Qin, S., Li, Y.Y., 2022a. Does industrial robot application promote green
+technology innovation in the manufacturing industry. Technol. Forecast. Soc.
+Change 183, 121893. https://doi.org/10.1016/j.techfore.2022.121893.
+Lee, C.C., Wang, C.W., Hong, P.H., Lin, W., 2024. Environmental policy stringency and
+bank risks: Does green economy matter? Intern. Rev. Fin. Anal. 91, 103040. https://
+doi.org/10.1016/j.irfa.2023.103040.
+Lee, C.C., Wang, F., Lou, R., 2022b. Digital financial inclusion and carbon neutrality:
+evidence from non-linear analysis. Resour. Policy 79, Article 102974. https://doi.
+org/10.1016/j.resourpol.2022.102974.
+Lee, C.C., Yuan, Z., 2024. Impact of energy poverty on public health: A non-linear study
+from an international perspective. World Development 174, 106444. https://doi.
+org/10.1016/j.worlddev.2023.106444.
+Lee, C.C., Yuan, Z.H., Wang, Q.R., 2022c. How does information and communication
+technology affect energy security? International evidence. Energy Econ. 109, Article
+105969 https://doi.org/10.1016/j.eneco.2022.105969.
+Lee, C.C., Wang, F.H., Chang, Y.F., 2023. Does green finance promote renewable energy?
+Evidence from China. Resour. Policy 82, Article 103439. https://doi.org/10.1016/j.
+resourpol.2023.103439.
+Li, M., Sicular, T., 2013. Aging of the labor force and technical efficiency in crop
+production evidence from Liaoning province, China. China Agric. Econ. Rev. 5 (3),
+342–359. https://doi.org/10.1108/caer-01-2012-0001.
+Li, M., Wang, Z., Zhang, G., 2016. The impact of migrant labor on rice production in
+China. Agro Food Ind Hi Tech 27 (6), 53–58. ://WOS:000391558100009.
+Li, H., Zhou, X., Tang, M., Guo, L., 2022. Impact of population aging and renewable
+energy consumption on agricultural green total factor productivity in rural China:
+evidence from panel VAR approach. Agric.-Basel 12(5), Article 715. https://doi.org/
+10.3390/agriculture12050715.
+Lin, W.L., Ho, J.A., Sambasivan, M., Yip, N., Bin Mohamed, A., 2021. Influence of green
+innovation strategy on brand value: the role of marketing capability and R&D
+intensity. Technol. Forecast. Soc. Change 171, Article 120946. https://doi.org/
+10.1016/j.techfore.2021.120946.
+Liu, Y., Zhou, Y., 2021. Reflections on China’s food security and land use policy under
+rapid urbanization. Land Use Policy 109, Article 105699. https://doi.org/10.1016/j.
+landusepol.2021.105699.
+Liu, M., Liu, H.F., Lee, C.C., 2024. An empirical study on the response of the energy
+market to the shock from the artificial intelligence industry. Energy 288, 129655.
+https://doi.org/10.1016/j.energy.2023.129655.
+Liu, X., Xu, Y., Engel, B.A., Sun, S., Zhao, X., Wu, P., Wang, Y., 2021. The impact of
+urbanization and aging on food security in developing countries: the view from
+Northwest China. J. Clean. Prod. 292, Article 126067 https://doi.org/10.1016/j.
+jclepro.2021.126067.
+Liu, J.Z., Fang, Y.A., Wang, G., Liu, B.C., Wang, R.R., 2023. The aging of farmers and its
+challenges for labor-intensive agriculture in China: a perspective on farmland
+transfer plans for farmers’ retirement. J. Rural. Stud. 100, Article 103013 https://
+doi.org/10.1016/j.jrurstud.2023.103013.
+Lou, Z., Xie, Q., Shen, J.H., Lee, C.C., 2024. Does Supply Chain Finance (SCF) alleviate
+funding constraints of SMEs? Evidence from China. Res. Intern. Bus. Finance 67,
+102157. https://doi.org/10.1016/j.ribaf.2023.102157.
+Lu, S.B., Bai, X., Li, W., Wang, N., 2019. Impacts of climate change on water resources
+and grain production. Technol. Forecast. Soc. Change 143, 76–84. https://doi.org/
+10.1016/j.techfore.2019.01.015.
+Matthews, A., 2014. Trade rules, food security and the multilateral trade negotiations.
+Eur. Rev. Agric. Econ. 41 (3), 511–535. https://doi.org/10.1093/erae/jbu017.
+Moor, J., 2006. The Dartmouth College artificial intelligence conference: the next fifty
+years. AI Mag. 27 (4), 87–91. https://doi.org/10.1609/aimag.v27i4.1911.
+Nie, C., Lee, C.C., 2023. Synergy of pollution control and carbon reduction in China:
+Spatial–temporal characteristics, regional differences, and convergence. Environ.
+Imp. Assess. Rev. 101, 107110 https://doi.org/10.1016/j.eiar.2023.107110.
+Nose, M., Yamauchi, F., 2016. Long-term impacts of global food crisis on production
+decisions: evidence from farm investments in Indonesia. J. Dev. Stud. 52 (11),
+1665–1683. https://doi.org/10.1080/00220388.2016.1171846.
+Nunn, N., Qian, N., 2014. US food aid and civil conflict. Am. Econ. Rev. 104 (6),
+1630–1666. https://doi.org/10.1257/aer.104.6.1630.
+Pauget, B., Dammak, A., 2019. The implementation of the internet of things: what impact
+on organizations? Technol. Forecast. Soc. Change 140, 140–146. https://doi.org/
+10.1016/j.techfore.2018.03.012.
+Prosekov, A.Y., Ivanova, S.A., 2018. Food security: the challenge of the present.
+Geoforum 91, 73–77. https://doi.org/10.1016/j.geoforum.2018.02.030.
+Qian, C., Zhu, C., Huang, D.H., Zhang, S.F., 2023. Examining the influence mechanism of
+artificial intelligence development on labor income share through numerical
+simulations. Technol. Forecast. Soc. Change 188, Article 122315. https://doi.org/
+10.1016/j.techfore.2022.122315.
+Qiu, T.W., Shi, X.J., He, Q.Y., Luo, B.L., 2021. The paradox of developing agricultural
+mechanization services in China: supporting or kicking out smallholder farmers?
+China Econ. Rev. 69, 101680 https://doi.org/10.1016/j.chieco.2021.101680.
+Ren, C.C., Zhou, X.Y., Wang, C., Guo, Y.L., Diao, Y., Shen, S.S., Reis, S., Li, W.Y., Xu, J.M.,
+Gu, B.J., 2023. Ageing threatens sustainability of smallholder farming in China.
+Nature. https://doi.org/10.1038/s41586-023-05738-w.
+Rigg, J., Salamanca, A., Phongsiri, M., Sripun, M., 2018. More farmers, less farming?
+Understanding the truncated agrarian transition in Thailand. World Dev. 107,
+327–337. https://doi.org/10.1016/j.worlddev.2018.03.008.
+Rigg, J., Phongsiri, M., Promphakping, B., Salamanca, A., Sripun, M., 2020. Who will
+tend the farm? Interrogating the ageing Asian farmer. J. Peasant Stud. 47 (2),
+306–325. https://doi.org/10.1080/03066150.2019.1572605.
+Shaikh, T.A., Rasool, T., Lone, F.R., 2022. Towards leveraging the role of machine
+learning and artificial intelligence in precision agriculture and smart farming.
+Comput. Electron. Agric. 198, Article 107119 https://doi.org/10.1016/j.
+compag.2022.107119.
+Shen, Z.Y., Wang, S.K., Boussemart, J.P., Hao, Y., 2022. Digital transition and green
+growth in Chinese agriculture. Technol. Forecast. Soc. Change 181, Article 121742.
+https://doi.org/10.1016/j.techfore.2022.121742.
+Song, Y., Zhang, X., Zhang, M., 2021. The influence of environmental regulation on
+industrial structure upgrading: based on the strategic interaction behavior of
+environmental regulation among local governments. Technol. Forecast. Soc. Change
+170, Article 120930. https://doi.org/10.1016/j.techfore.2021.120930.
+Suki, N.M., Suki, N.M., Afshan, S., Sharif, A., Kasim, M.A., Hanafi, S.R.M., 2022. How
+does green technology innovation affect green growth in ASEAN-6 countries?
+Evidence from advance panel estimations. Gondw. Res. 111, 165–173. https://doi.
+org/10.1016/j.gr.2022.06.019.
+Tan, Y.C., Liu, X.M., Sun, H.W., Zeng, C., 2022. Population ageing, labour market rigidity
+and corporate innovation: evidence from China. Res. Policy 51(2), Article 104428.
+https://doi.org/10.1016/j.respol.2021.104428.
+Tang, R., Chen, C., 2022. Effects of outsourcing services on elderly farmers participation
+in rice production. Zhongguo Shuidao Kexue 36 (6), 647–655. https://doi.org/
+10.16819/j.1001-7216.2022.220704.
+Tang, L., Sun, S.Y., 2022. Fiscal incentives, financial support for agriculture, and urbanrural
+inequality. Int. Rev. Financ. Anal. 80, Article 102057 https://doi.org/10.1016/
+j.irfa.2022.102057.
+Thou, Z., 2010. Achieving food security in China: past three decades and beyond. China
+Agric. Econ. Rev. 2 (3), 251–275. https://doi.org/10.1108/17561371011078417.
+Tian, H.N., Zhao, L.Y., Li, Y.F., Wang, W., 2023. Can enterprise green technology
+innovation performance achieve “corner overtaking” by using artificial intelligence?-
+evidence from Chinese manufacturing enterprises. Technol. Forecast. Soc. Chang.
+194, Article 122732 https://doi.org/10.1016/j.techfore.2023.122732.
+Usman, M., Balsalobre-Lorente, D., Jahanger, A., Ahmad, P., 2023. Are Mercosur
+economies going green or going away? An empirical investigation of the association
+between technological innovations, energy use, natural resources and GHG
+emissions. Gondw. Res. 113, 53–70. https://doi.org/10.1016/j.gr.2022.10.018.
+Vogel, E., Ludwig, A., Borsch-Supan, A., 2017. Aging and pension reform: extending the
+retirement age and human capital formation. J. Pension Econ. Financ. 16 (1),
+81–107. https://doi.org/10.1017/s1474747215000086.
+Wang, H., Zhang, M., Cai, Y., 2009. Problems, challenges, and strategic options of grain
+security in china. In: Sparks, D.L. (Ed.), Advances in Agronomy, Vol 103, vol. 103,
+pp. 101–147. https://doi.org/10.1016/s0065-2113(09)03003-x.
+Wang, X.B., Yamauchi, F., Otsuka, K., Huang, J., 2016. Wage growth, landholding, and
+mechanization in Chinese agriculture. World Dev. 86, 30–45. https://doi.org/
+10.1016/j.worlddev.2016.05.002.
+Wang, K.L., Sun, T.T., Xu, R.Y., Miao, Z., Cheng, Y.H., 2022. How does internet
+development promote urban green innovation efficiency? Evidence from China.
+Technol. Forecast. Soc. Chang. 184, Article 122017 https://doi.org/10.1016/j.
+techfore.2022.122017.
+Wang, F., 2023. Does the construction of smart cities make cities green? Evidence from a
+quasi-natural experiment in China. Cities 140, 104436. https://doi.org/10.1016/j.
+cities.2023.104436.
+Wang, E.Z., Lee, C.C., 2023. The impact of commercial bank branch expansion on energy
+efficiency: Micro evidence from China. China Economic Review 80, 102019. https://
+doi.org/10.1016/j.chieco.2023.102019.
+Wang, J.L., Liu, Y., Wang, W.L., Wu, H.T., 2023. The effects of ?Machine replacing
+human? On carbon emissions in the context of population aging-evidence from
+China. Urban Clim. 49, Article 101519 https://doi.org/10.1016/j.
+uclim.2023.101519.
+Wu, L.F., Sun, L.W., Chang, Q., Zhang, D., Qi, P.X., 2022. How do digitalization
+capabilities enable open innovation in manufacturing enterprises? A multiple case
+study based on resource integration perspective. Technol. Forecast. Soc. Chang. 184,
+Article 122019 https://doi.org/10.1016/j.techfore.2022.122019.
+Xu, Y.L., Umar, M., Kirikkaleli, D., Adebayo, T.S., Altuntas, M., 2022. Carbon neutrality
+target in Turkey: measuring the impact of technological innovation and structural
+change. Gondw. Res. 109, 429–441. https://doi.org/10.1016/j.gr.2022.04.015.
+Yahya, F., Lee, C.C., 2023. Disentangling the asymmetric effect of financialization on
+green output gap. Energy Economics 125, 106899. https://doi.org/10.1016/j.
+eneco.2023.106899.
+Zeng, S., Zhang, X., Wang, X., Zeng, G., 2019. Population aging, household savings and
+asset prices: a study based on urban commercial housing prices. Sustainability 11
+(11), Article 3194. https://doi.org/10.3390/su11113194.
+Zhang, J., 2011. China’s success in increasing per capita food production [editorial
+material]. J. Exp. Bot. 62 (11), 3707–3711. https://doi.org/10.1093/jxb/err132.
+Zhang, B.H., Xie, Y.X., Zhou, J., Wang, K., Zhang, Z., 2020. State-of-the-art robotic
+grippers, grasping and control strategies, as well as their applications in agricultural
+robots: a review. Comput. Electron. Agric. 177, Article 105694 https://doi.org/
+10.1016/j.compag.2020.105694.
+Zhang, H.R., Zhang, J.W., Song, J.F., 2022. Analysis of the threshold effect of agricultural
+industrial agglomeration and industrial structure upgrading on sustainable
+agricultural development in China. J. Clean. Prod. 341, Article 130818 https://doi.
+org/10.1016/j.jclepro.2022.130818.
+C.-C. Lee et al.
+Technological Forecasting & Social Change 199 (2024) 123062
+15
+Zhao, L.Q., Liu, S.Y., Zhang, W., 2018. New trends in internal migration in China: profiles
+of the new-generation migrants. Chin. World. Econ. 26 (1), 18–41. https://doi.org/
+10.1111/cwe.12227.
+Zhao, E., Sun, S., Wang, S., 2022. New developments in wind energy forecasting with
+artificial intelligence and big data: a scientometric insight. Data Science and
+Management 5 (2), 84–95. https://doi.org/10.1016/j.dsm.2022.05.002.
+Zhu, C., Lee, C.C., 2022. The effects of low-carbon pilot policy on technological
+innovation: evidence from prefecture-level data in China. Technol. Forecast. Soc.
+Chang. 183, Article 121955 https://doi.org/10.1016/j.techfore.2022.121955.
+Chien-Chiang Lee, Distinguished Professor of the School of Economics and Management
+at Nanchang University, China. His research interests include macroeconomics and
+financial economics. Professor Lee has contributed over 300 articles to academic journals,
+including the Journal of Money, Credit and Banking, Journal of International Money and
+Finance, and Energy Economics. Professor Lee is also ranked 1 % of the most influential
+authors in the field of economics and finance in Asia by IDEAS/REPEC ranking.
+Jingyang Yan, School of Economics and Management at Nanchang University, China. His
+research interests include technological progress, regional economics, population aging,
+ecological resilience, and energy economics. He has contributed some articles to academic
+journals.
+Fuhao Wang, School of Economics and Management at Nanchang University, China. His
+research interests include development economics and environmental economics. He has
+contributed articles to famous academic journals, including Cities, Energy Economics,
+Resources Policy, Economic Analysis and Policy, and Renewable Energy.
+C.-C. Lee et al.

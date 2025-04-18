@@ -1,0 +1,2214 @@
+Management | Research Article
+Cogent Business & Management
+2024, VOL. 11, NO. 1, 2298055
+Population aging and economic growth: evidence from ASEAN
+countries
+Nguyen Thanh Tronga, Nguyen Thi Dongb,c and Pham Thi Lyd
+aEastern International University, Thu Dau Mot City, Vietnam; bUniversity of Economics and Law, Ho Chi Minh City, Vietnam;
+cVietnam National University, Ho Chi Minh City, Vietnam; dUniversity of Economics, Ho Chi Minh City, Vietnam (UEH)
+ABSTRACT
+Numerous recent empirical studies underscore the adverse impacts of an aging
+population on economic growth. This could stem from reduced labor force participation
+and productivity among older workers, or the potential for aging to result in an
+imbalance between savings and desired investment, consequently leading to a state of
+secular stagnation. This study employs the fixed effect model (FEM) and utilizes data
+from 7 ASEAN countries during the period 2001–2021 to assess the impact of population
+aging on economic growth. The results clearly indicate that an old-aged dependency
+harms GDP per capita growth, while the productive young workers in the ASEAN
+region remain a significant resource for overall economic development and GDP per
+capita growth. Alongside demographic variables, institutions, investment rates, and
+trade openness also serve as driving factors in promoting GDP per capita growth. The
+data also demonstrates that more developed countries will experience population
+aging at a faster rate. Therefore, the socio-economic development policies of ASEAN
+countries need to consider changes in population age structure in order to propose
+appropriate economic strategies for development.
+1. Introduction
+Since the 1970s, as access to medical and reproductive health services has improved, life expectancy and
+the number of elderly people have increased, while reproductive capacity has decreased. As a result, the
+population structure in most countries began to gradually shift to a stage where the proportion of
+elderly population groups gradually increased, and a new trend emerged, called ‘population aging’.
+Population aging is defined as an increase in the proportion of elderly people (people aged 65 and
+over) in the total population. Although population aging has a short history, it heralds a future in which
+it will transform the social structure of many societies over the long term (Rowland, 2009). Nowadays,
+population aging is emerging as a dominant demographic trend worldwide. This phenomenon is not
+limited to developed nations but is also occurring in many rapidly developing and industrialized countries.
+The process of aging is taking place not just at an individual or community level, but on a global
+scale. In 1995, when the global population was estimated to be close to 6 billion, there were 540 million
+people aged 60 and over, constituting 9% of the total global population. After 20 years, by 2015, the
+number of elderly individuals had increased to 900 million, making up 12% of the total population.
+Projections indicate that by 2030, for the first time in human history, the proportion of the elderly population
+will be on par with the proportion of children aged 0–9, a demographic group accounting for
+16% of the total population (Naraval 2017).
+While population aging signifies achievements in terms of economic, social, health, and disease control,
+it also introduces significant challenges. Population aging exerts pressure on pension and insurance
+© 2024 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group.
+CONTACT Nguyen Thi Dong dongnt@uel.edu.vn
+This article has been corrected with minor changes. These changes do not impact the academic content of the article.
+https://doi.org/10.1080/23311975.2023.2298055
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which
+permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been
+published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.
+ARTICLE HISTORY
+Received 15 June 2023
+Revised 18 December
+2023
+Accepted 19 December
+2023
+KEYWORDS
+Demographic structure;
+population aging;
+economic growth; ASEAN
+countries
+JEL CODE
+E01; J11; O47
+REVIEWING EDITOR
+Pablo Ruiz, Universidad
+de Castilla-La Mancha,
+Spain
+SUBJECTS
+Economics and
+Development; Population
+& Development;
+Sustainable Development
+2 N.T.TRONG ETet AL .
+systems, and it poses challenges to social assistance models. It impacts economic growth, trade, migration, disease patterns, and underlying assumptions about the growth of aging populations. In the last five years, scholars and economists have shown increasing interest in understanding the potential economic consequences of demographic changes. Nevertheless, we lack solid evidence of a direct link between population aging and economic growth. Countries exhibit varying rates of aging, leading to diverse effects on factors such as production, labor, and capital for each economy. Nonetheless, the overarching trend indicates that shifts in age structure are increasingly prominent in developed countries, even those without projected population reductions. Following this trend, the working-age population, which contributes to the economy’s growth, is decreasing in tandem with the contraction of the pension system and the rise in the elderly population. This scenario depicts an unsustainable situation. Undoubtedly, population aging will introduce new economic pressures. However, it will simultaneously generate opportunities for expanding resources to adapt to a changing world.
+T
+he process of population aging is often compared to a tsunami affecting ASEAN countries. Southeast Asia comprises a total population of approximately 660 million people, spread across 8 developing nations. This region was once recognized for its cheap and abundant labor resources. However, the rapid aging of the population has led to a contraction of the working-age group and an increased burden on pension systems. Among the 10 ASEAN countries, Brunei and Singapore boast higher per capita incomes compared to the rest of the region. Their efforts to provide social security for the elderly have yielded many positive results. In contrast, the remaining 8 countries are grappling with the challenge of ‘aging before prospering.’ The populations aged 15–64 in Thailand have experienced a decline since 2011. Equally, Malaysia’s population in the same age bracket also decreased in 2020. According to Malaysia’s National Population and Family Development Board, the prolonged COVID-19 pandemic has resulted in reduced birth rates due to financial constraints, concerns about contracting Covid-19, and anxieties regarding the accessibility of prenatal treatments. Since 2018, Indonesia, Malaysia, and the Philippines have witnessed a deceleration in the growth of the population aged 15–64 (Ong, 2022). According to the United Nations classification, a population is considered ‘aging’ when those aged 65 and over account for between 7% and 9.9%. Similarly, a population is labeled as ‘old’ when this group constitutes 10%–19.9%. A population with 20%–29% falling in this age category is referred to as ‘very old,’ and one with 30% or more falls under the ‘super-old’ classification. Corresponding to that classification, five countries – Vietnam, the Philippines, Malaysia, Indonesia, and Cambodia – will individually transition to ‘old’ countries within the period 2020–2030. Singapore and Thailand became ‘aging’ countries in 2000 and are projected to be two out of seven countries classified as ‘super-old’ by 2030. Calculated for the 7 ASEAN countries, changes in population age structure are clearly evident over time periods (Figure 1). Accordingly, the proportion of elderly people has doubled between 2000 and 2022. In contrast, the proportion of children has decreased by half within 62 years (1960–2022) and by one-third in 22 years (2000–2022).
+Figure 1. Percentage of total population by age group in 7 ASEAN countries. Source: World Bank Statistics.
+CocOgent Business & Management 3
+One of the main consequences of population aging is the decline in the potential support ratio. This ratio is defined as the number of people of working age (15–64 years old) over the number of people aged 65 and over. It reflects the expected number of people capable of working to generate income and able to care for dependent elderly people in need of support. The potential support ratio is also a reference index for tax authorities to generate the necessary revenue to support programs for the elderly (UNFPA, 2019). Figure 2 shows that the potential support ratio of the 7 ASEAN countries began to decrease in the period 1960–1980, then remained stable until 2010, and then continued to decrease sharply in the period 2010–2022. Since 1990, with the rapid increase in the elderly population relative to the working-age population, the provision of support to the elderly by workers has decreased by nearly half within 32 years.
+T
+he transformation in population structure underscores the growing significance of population aging in socio-economic development strategies. Advancing age often coincides with a decline in work capacity and income. As such, population aging tends to reduce both labor force participation rates and the income streams of workers, heightening the risk of an economic growth slowdown. Consequently, the trend of population aging can impede economic growth. This deceleration can, however, be mitigated through the promotion of behavioral changes, such as increasing the participation of women in the labor force, revising policies to establish reasonable retirement ages, and exploring opportunities for the growth of industries and services catering to the elderly. Hence, well-designed policies can play a pivotal role in alleviating the adverse impact of population aging on economic growth. Until now, population aging has not exerted a significant adverse influence on economic growth. However, as the aging rate continues to rise as projected, empirical studies are essential for assessing the relationship between population aging and economic growth.
+While the above studies have offered insights into the impact of population aging on economic growth and have delved into the complex relationship between these two factors, we still identify some research gaps. Firstly, most of the above studies focus on developed or developing countries without considering regional differences in the impact of population aging on economic growth. Different regions may have distinct demographic trends and economic structures, leading to different outcomes. In this article, we access data on the population age structure and economic growth of ASEAN countries to provide more specific insights for population aging adaptation policies in this region. Secondly, in addition to population aging, some studies have mentioned factors related to population aging such as human capital or investment. We believe that government policies related to population aging will also be a significant factor affecting economic growth. Therefore, this study places a strong emphasis on institutional factors when considering the correlation between population aging and economic growth. Finally, population aging is a major trend characterizing today’s global population. Population aging is a prominent and rapidly growing global trend with the potential to reshape the social fabric of numerous countries swiftly and profoundly. Consequently, it is essential to keep research on the relationship between population aging and economic growth up-to-date. As this trend continues to evolve, current and relevant studies are needed to capture the latest developments and changes arising from population aging’s impact on economic growth.
+Figure 2. Potential support ratio of 7 ASEAN countries. Source: World Bank Statistics.
+4 N.T.TRONG ETet AL .
+A
+ddressing these research gaps, our goal is to contribute to a richer understanding of the dynamic relationships between population aging and economic growth. Simultaneously, we will explore diverse policies aimed at leveraging a favorable demographic structure to stimulate economic growth and mitigate the risk of ‘aging before prosperity’.
+T
+his paper contains four sections: introduction, empirical literature review, data and methodology, and conclusion. The introduction shows readers the population aging definition, its influence, and the situation in 7 ASEAN countries. The literature review examines the varied research findings concerning the correlation between population aging and economic growth. Data and methodology demonstrate data supplied by World Bank statistics (WB) and The Global Governance Index (WDI) and how we analyze it. Lastly, the final section comprises the conclusion and recommendation.
+2. Empirical literature review
+S
+tudies on the effects of population aging on economic growth can be divided into three aspects:
+Firstly, several researches indicate that population aging helps promote economic growth. In the early years of the 21st century, when the population age structure in many developing countries entered the ‘golden population’ period, the relationship between population age structure and economic growth was of great interest. Tiffen (1995), Mason (1997), Mason (2005) all confirmed that demographic transition is a vital factor affecting the productivity growth of the economy. Together with the demographic transition, the population of working age in this period developed both physically and mentally, creating the impetus for rapid economic growth accompanied by increased social welfare (Bloom et al., 2003; Klasen & Lawson, 2007; Nayab, 2007). In an empirical study on the relationship between population age structure and GDP per capita growth in 75 developing countries, Crenshaw et al. (1997) discussed the detrimental effects of an increasing young dependency ratio on economic growth, while highlighting the positive influence of the population aged 15 and above on output growth. Prettner (2013) employed endogenous growth models and semi-endogenous growth models to examine the implications of population aging on long-term economic growth prospects. This research revealed that (1) enhancements in longevity yield a favorable influence on per capita output growth, (2) declines in fertility exert a detrimental impact on per capita output growth, (3) within the framework of endogenous growth, the positive effect of increased longevity outweighs the negative impact of decreased fertility, (4) population aging promotes long-term growth within the context of endogenous growth models, but its impact in semi-endogenous growth models relies on the relative changes between fertility and mortality. Similarly, Minchung Hsu et al. (2018) demonstrated that the process of aging did not inherently hinder growth. This discovery highlighted that an extended life expectancy calls for increased savings and renders investments in education for children more appealing. This, in turn, speeds up the accumulation of both physical and human capital. In a recent study, using a panel data model, Bawazir et al. (2020) empirically examined the impact of changing demographic structure on the economic growth of Middle Eastern countries in the period 1996–2016. Results show that young workers, middle-aged workers, high-skilled workers, population growth rate, and old dependency ratio positively affect economic growth. Meanwhile, the young dependency ratio negatively affects economic growth.
+S
+econdly, certain studies suggest that population aging negatively affects economic growth. Hviding and Mérette (1998) employed an overlapping generational model (OLGlg) based on data from seven developed countries in the OEC D. Their research demonstrated that population aging has a detrimental effect on GDP per capita by reducing the availability of labor and capital. Among the seven countries studied, Italy and Japan were identified as the most vulnerable due to their faster demographic transition compared to other nations. In addition, Fougère and Mérette (1999) conducted an expanded study where they introduced an endogenous growth model. This study recognized the significance of physical and human capital within the model, thereby adjusting the relationship between population aging and economic growth. As the population continues to age, future generations display a tendency to invest more in human capital, which serves to mitigate the negative impact of aging on economic growth. Ismail et al. (2015) applied a dynamic growth model and utilized the ARDL approach to analyze data from 1970 to 2013 in Malaysia. Three indicators for aging were utilized: fertility rate, life expectancy, and the old dependency ratio. The primary outcomes of the study unveiled that aging has an adverse impact on Malaysia’s economic growth.
+CocOgent Business & Management 5
+C
+onsequently, it is imperative for Malaysia to continue investing in human capital. This preparation would ensure that, despite the challenges posed by an aging society, the country possesses a substantial reserve of high-quality human capital. Using panel data encompassing 142 countries between 1960 and 2014, Lee and Shin (2019) analyzed the influence of population aging on economic growth. The findings indicate that the adverse impact of population aging, represented by the old-age dependency ratio, is most pronounced in countries where this aging phenomenon has already reached an advanced stage. Moreover, the detrimental effect of population aging on economic growth intensifies as the aging process becomes more profound. Additionally, the research reveals that the negative impact of population aging on economic growth has escalated in the later years of the research time series. Before Lee and Shin (2019), Ranganathan et al. (2015) used a combination of the mechanistic models of Kalemli-Ozcan (2002), Kögel and Prskawetz (2001), Barry and Gary (1989) and econometric models of Barry (1991), Durlauf et al. (2005), Sala-i-Martin (1997) to explain the demographic transition concerning economic growth. Ranganathan et al. (2015) concluded that declining fertility was a burden on economic growth.
+T
+hirdly, certain studies present divergent viewpoints, contending that population aging can yield both favorable and unfavorable consequences for economic growth. Recent research trends lean toward highlighting the potential implications of declining birth rates and population aging on economic growth. Park and Shin (2012) forecast the impact of demographic change on economic growth in 12 developing economies. The authors show that demographic dividend has contributed significantly to economic growth in these countries in the past but is gradually disappearing. Population aging affects economic growth through savings, capital accumulation, labor force, and factor productivity. Simultaneously, Lancia and Prarolo (2012) presume that longer lifespans are linked to higher levels of human capital, it means that an extension in life expectancy can potentially boost economic growth. Nevertheless, the efficacy of this effect can be undermined by two phenomena: one connected to the accumulation of human capital and the other related to challenges in aggregating technology adoption. Le and Park (2020) examined the influence of demographic structure on economic growth in both OEC D and non-OEC D countries. The authors utilize an annual dataset encompassing 71 countries, comprising 27 developed countries and 44 emerging economies, covering the period from 1981 to 2014. By employing two types of regression models, namely panel data regression models and panel data threshold models, the research findings highlight notable disparities in the impact of demographic transition on the economic growth of OEC D and non-OEC D economies. In the case of non-OEC D countries, the study does not observe the adverse effects of population aging, as these nations are benefiting from the demographic dividend. In contrast, in OEC D countries, where population aging has emerged as a significant negative consequence of demographic transition on economic growth, the threshold model revealed that an increase in the proportion of the elderly population results in a decline in economic growth, especially when the elderly dependency ratio surpasses a specific threshold. Meanwhile, the rise in child dependency ratios in non-OEC D countries hampers their economic progress. The relationship between demographic transition and economic growth in East Asia is also mentioned by Bloom and Finlay (2009). The study confirms that demographics remain a principal contributor to economic growth in East Asia. However, a decrease in the labor share will tend to reduce the economic efficiency of East Asia.
+T
+he aforementioned three research aspects have provided diverse perspectives on the correlation between population aging and economic growth. This illustrates that studies applying various economic, cultural, geographical, or institutional conditions can yield disparate results regarding the relationship between these two factors. Building on the synthesis of previous studies and an exploration of research gaps outlined in the introduction, the authors opt to apply the Solow model on population aging proposed by Bloom and Finlay (2009). In this standard Solow model, by Bloom and Finlay (2009) assumed that the Cobb-Douglas production function is constant with scale, and total investment stems from savings accumulation in the economy. They assert that steady-state per capita income depends on the population growth rate, the working-age population, and demographic variables. Drawing on the arguments of Bloom and Finlay (2009) and incorporating insights from other studies, the authors introduce additional factors influencing economic growth in the context of population aging, such as institutions and trade openness. By gaining a deeper understanding of the relationship between economic growth and population aging in relation to institutions or economic policies, policymakers can better prepare for the economic, social, and financial ramifications of an aging population and devise effective strategies to promote sustainable economic growth and well-being.
+6 N.T.TRONG ETet AL .
+3. Methodology
+Using the dependency ratio and labor force to the total population as a proxy for the population age structure, we conduct an empirical regression analysis on the relationship between the demographic structure and economic growth. Following the growth accounting approach, Bloom and Finlay (2009) used a simple mathematical operation to incorporate the age structure into the growth model. Let Y be the gross domestic product (GDP); P is the total population; L is the working-age population. So we have: L/P is the ratio of the working-age population, reflecting the population structure by age; Y/P is per capita income, reflecting a part of people’s living standards; Y/L is labor productivity, reflecting the employee’s work performance in the economy. The empirical model is as follows:
+yYPYLLPyLPp===** (1)
+T
+he expression (1) can easily be converted to a growth equation:
+GYPGYGLP=+ (2)
+A
+ccording to Equation (2), the growth rate of per capita income can be broken down into two components: (i) the growth rate of per capita income, and (ii) the growth rate of the ratio between the working-age group and the total population. In cases where per capita income, or labor productivity, remains constant, the growth rate of labor productivity will align with the growth rate of the working-age ratio. This suggests that in nations with aging populations, where the working-age ratio tends to decrease, per capita income will also decline. Conversely, many developing countries currently undergoing a demographic transition are expected to experience an increase in per capita income (Minh, 2009).
+Besides, according to the neoclassical growth model, assuming the labor productivity function has the form y = f(k), then the labor productivity growth function will be (Bloom & Williamson, 1998; Mankiw et al., 1992; Sarel, 1995):
+gttyyyyyttt=−=121211loglogα* (3)
+T
+his expression suggests that the average growth rate of labor productivity during a specific period, from t1 to t2, is proportional to the logarithm of labor productivity in the steady-state (y*) and the logarithm of labor productivity in the base year. According to Radelet et al. (1997), the steady-state that an economy is approaching at a time t is influenced by the policies implemented at that time. For instance, an economy that is closed to international trade at time t will have a lower steady-state income level compared to an open economy. In essence, the steady-state is defined as the state in which the explanatory variables remain unchanged in the future. If a previously closed economy later opens up to trade, this is considered an enhancement in steady-state income. Thus, a basic model for labor productivity at a steady state can be constructed as follows:
+GYXi=λ (4)
+where λ is the level of convergence and Xi is the variables affecting labor productivity
+S
+ubstituting (2) and (3), and adding a stochastic term, we then get a growth equation for per capita income. This forms the foundation of an econometric model that considers the age structure as a crucial factor influencing economic growth.
+GYPXGLPi=++αε1 (5)
+Data and variables definitions
+Various structural and policy variable (Xi) have the potential to impact economic growth by altering long-term income levels. Radelet et al. (1997) classified these explanatory variables into four main
+CocOgent Business & Management 7
+dimensions: (i) initial conditions (initial labor productivity, initial human capital); (ii) natural resources and geography; (iii) policy variables (national saving, openness, institutional quality); and (iv) demographic variables. In this study, we aim to examine how changes in demographic structure affect economic growth, so we will focus on the fourth aspect more than the others. In the other study, Li and Zhang (2015) calculated the correlation between economic growth and population aging, ultimately determining that per capita income is influenced by both the domestic savings rate and the aging dependency ratio. After considering specific variables that affect per capita income, combining the demographic variable in Equation (4), we built the variables in the model as follows:
+GYPADROELFGLPINVESTTRADEOPINSTt=++++++ααααααε123456
+Where:
+•
+G
+YP is GDP per capita growth.
+•
+A
+DRO is old-age dependency, the ratio of those aged 65 or over to the working-age population (people aged 15–64)
+•
+EL
+F is the ratio of young workers, the ratio of those aged 15–24 to the working-age population
+•
+GL
+P is the growth of the labor force-to-population ratio.
+•
+IN
+VEST refers to investment and is utilized as a control variable. This index encompasses investments in areas like housing, roads, bridges, electricity networks, equipment, and machinery. Generally, a higher investment rate correlates with higher per capita income.
+•
+T
+RADEOP refers to trade liberalization and is employed as a control variable, measured by the total value of exports and imports divided by the GDP. This index not only shows the proportion of imported and exported goods and services in relation to the total GDP, but also reflects the extent of trade liberalization within the economy. Particularly in the era of globalization, trade openness is regarded as a significant factor influencing GDP per capita growth.
+•
+INST
+refers to institutions and is used as a control variable. Institutions encompass the methods by which a country uses political, economic, and social mechanisms and policies to exercise state power. The Global Governance Index (WGI ) is frequently employed to measure the effectiveness of institutions across countries. This index is analyzed on 6 aspects: ‘Voice and Accountability; Political Stability and Absence of Violence/Terrorism; Government Effectiveness; Regulatory Quality; Rule of Law; Control of Corruption’ (WGI , 2022). The assessment scores for these six indicators fall within the range of (−2.5; 2.5). The variable reflecting institutions in this study is labeled as INST, which represents the average score of 6 indicators. The country’s institutions are better when the score is higher. Through this approach, countries can develop improved policies and laws, and allocate resources more efficiently.
+We analyze data for 7 Southeast Asian countries for the period 2001–2021, including Singapore, Thailand, Malaysia, Indonesia, Philippines, Cambodia and Vietnam. All data of the research model are collected from the World Bank and available on the World Bank’s website (WB, 2022). The model variables are summarized in the following Table 1:
+Table 1. S summary of variables.
+Factor
+S
+ign
+U
+nit
+S
+ource
+Dependent Variable
+E
+conomic growth
+G
+YP
+G
+DP per capita growth
+%
+WB
+I
+ndependent Variables
+Demographic structure
+A
+DRO
+O
+ld-age dependency
+%
+WB
+E
+LF
+Young worker ratio
+%
+WB
+G
+LP
+G
+rowth of the labor force-to-population ratio
+%
+WB
+Control Variables
+I
+nvestment
+IN
+VEST
+G
+ross capital formation (% of GDP)
+%
+WB
+T
+rade
+T
+RADEO P
+T
+rade openness index
+%
+WB
+I
+nstitutions
+INST
+T
+he average score of 6 indicators
+WGI
+8 N.T.TRONG ETet AL .
+4. Results and discussion
+4.1. Descriptive statistics
+T
+he table shows sample statistics for a group of 7 Southeast Asian countries over the 2001–2021 period. The statistical values include the mean, median, maximum, minimum and number of observations (Table 2).
+S
+tatistical results show that the average per capita income growth in the sample is about 3.7%, with the highest value reaching 12.51% (Singapore) and the lowest value belonging to the Philippines with −10.37%.
+Over the past two decades, the population structure of ASEAN has shown an increasing trend. The average rate of old-aged dependency is 9.2%. The ratio of young workers in this period is also high, with the highest value reaching 78.25%. Lastly, the average value of trade openness, investment, and institutions are 135.48%; 25.05%; and −0.03, respectively.
+4.2. Results of unit root tests
+T
+he results of the unit root test are reported in Table 3. The article implements the augmented Dickey-Fuller (ADF), Phillips-Perron (PP), Im-Pesaran-Shin (IPS), and Levin-Lin-Chu (LLCllc) tests. Calculations show that the research variables all have unit root at level, D(0), or 1st difference, D(1), with a significance level of 10%. From the test results, the stationary series will be used to analyze the next regression step.
+T
+able 3 reports the results of the unit root test conducted on the research variables to prevent spurious regression. I(0) denotes stationary at level and I(1) indicates stationary at first difference. The significance levels at 10%, 5% and 1% are indicated by ***, ** and *, respectively. The results indicate that EL F, GL P, and INST remained stationary at the same level, I(0), while the remaining variables exhibited unit root at level but attained stationary at first difference. The estimation utilized variables classified as I(0) along with the first difference of I(1) variables.
+5. Results of correlation test
+T
+able 4 presents the correlation between the variables in the model, showing the direction and degree of the linear relationship between the variables. The results indicate that GYP has a positive correlation
+Table 2. Descriptive statistics.
+U
+nit
+Mean
+Median
+Maximum
+Minimum
+O
+bservations
+G
+YP
+3.70
+4.34
+12.51
+−10.73
+147
+A
+DRO
+9.20
+8.67
+19.46
+5.09
+147
+E
+LF
+45.93
+39.64
+78.25
+27.96
+147
+G
+LP
+−0.02
+0.04
+6.23
+−8.16
+147
+IN
+VEST
+25.05
+24.62
+39.57
+16.02
+147
+T
+RADEO P
+135.48
+123.85
+352.51
+34.41
+147
+INST
+−0.03
+−0.15
+0.85
+−0.97
+147
+Source: Authors’ calculations from World Bank Statistics and The Global Governance Index (WDI).
+Table 3. U unit root test results for panel data.
+Variable
+Decision
+LLC
+I
+PS
+A
+DF
+PP
+G
+YP
+I
+(0)
+−2.34***
+−2.54***
+29.83***
+63.43***
+A
+DRO
+I
+(0)
+7.42
+9.03
+0.19
+0.17
+A
+DRO
+I
+(1)
+−2.94*88
+−2.14**
+32.71***
+92.89***
+E
+LF
+I
+(0)
+−2.68***
+−1.25*
+27.73***
+63.14***
+G
+LP
+I
+(0)
+−2.86***
+−3.29***
+34.11***
+69.50***
+IN
+VEST
+I
+(0)
+−1.50*
+−0.95
+16.64
+24.90
+IN
+VEST
+I
+(1)
+−5.62***
+−6.12***
+62.67***
+118.60***
+T
+RADEO P
+I
+(0)
+−1.69**
+−9.95
+20.50
+15.03
+T
+RADEO P
+I
+(1)
+−4.11***
+−4.23***
+43.66***
+73.25***
+INST
+I
+(0)
+−2.11**
+−1.69**
+23.61**
+35.08***
+Source: Authors’ calculations from World Bank Statistics and The Global Governance Index (WDI).
+CocOgent Business & Management 9
+with 5 variables EL F, GL P, IN VEST , TRADEOP and INST , while there is only a negative correlation with ADRO. The absolute values of the correlations range from 0 to 0.45. The correlations among the independent variables are not high, and thus, multicollinearity should not be a potential problem.
+5.1. Regression analysis: impact of population aging on GDP growth
+T
+o measure the impact of demographic structure on economic growth of ASEAN countries in the period 2001–2021, the authors have compared fixed effect model (FEM), random effects model(REM) and Pooled OLS model. First, the Breusch and Pagan Lagrangian Multiplier test (LM test) was applied to compare
+the REM and OLS . Hypothesis H0 (suitable model is OLS model) was rejected at a 1% significance level (Prob = 0.001). Next, the Hausman test is conducted to choose between FEM and REM. If hypothesis H0 (the REM model is the suitable model) is rejected, then FEM will be chosen. Hausman test results show Prob = 0.0008, less than 5% significance level. Therefore, the authors conclude that the FEM model is a suitable model for this study.
+T
+able 5 presents the regression results conducted using the fixed effects method to assess the impact of factors on GYP. The table includes coefficients, standard errors, t-statistics, prob (F-statistic) and adjusted R-square values. Analyzing the regression outcomes, we observe that an adjusted R-square value of 0.45 signifies that the independent variables in the model can explain 45% of the variation in GDP per capita growth rates in ASEAN countries.
+I
+n terms of population structure factors, the regression results indicate that a significant impact of old-aged dependency on GDP per capita growth. The estimation suggests that a 1% increase in the old-aged dependency ratio leads to a 0.91% decrease in per capita income, with statistical significance at 5% level. The Figure 3 below illustrates the dependency ratio of ASEAN countries during the period 2000–2021.
+T
+he country that has been experiencing population aging the earliest is Singapore, with the old dependency ratio surpassing the young dependency ratio as early as 2020. Statistics from the World Bank show that, in the past decade, Singapore’s population has only increased by about 1.1% per year. By 2021, people aged 65 and over will make up 15.2% of the lion island’s population, up from 9% in 2011. Like Singapore, Thailand is projected to confront a significant challenge of population aging in the near future. While the old-age dependency ratio stood at 12.4 in 2010, it is anticipated to rise rapidly
+Table 4. Correlation table.
+G
+YP
+D(ADRO)
+E
+LF
+G
+LP
+D(IN VEST )
+D(TRADEO P)
+INST
+G
+YP
+1
+D(ADRO)
+−0.392
+1
+E
+LF
+0.309
+−0.152
+1
+G
+LP
+0.345
+−0.078
+0.026
+1
+D(IN VEST )
+0.436
+−0.285
+0.022
+0.216
+1
+D(TRADEO P)
+0.447
+−0.285
+0.211
+0.084
+0.286
+1
+INST
+0.123
+0.069
+−0.716
+0.005
+−0.061
+−0.048
+1
+Source: Authors’ calculations from World Bank Statistics and The Global Governance Index (WDI).
+Table 5. T the regression results of model.
+Fixed Effects estimation method
+Dependent Variable: GYP
+Variables
+Coefficient
+S
+td. Error
+t-Statistic
+Prob.
+D(ADRO)
+−0.91
+0.38
+−2.38
+0.02
+E
+LF
+0.25
+0.08
+2.99
+0.00
+G
+LP
+0.38
+0.15
+2.51
+0.01
+D(IN VEST )
+0.36
+0.36
+4.34
+0.00
+D(TRADEO P)
+0.07
+0.07
+2.48
+0.01
+INST
+2.4
+1.24
+1.93
+0.06
+C
+−7.31
+3.76
+−1.94
+0.05
+N
+umber of obs
+140
+A
+djusted R-squared
+0.49
+N
+umber of groups
+7
+Prob(F-statistic)
+0.00
+Source: Authors’ calculations from Eviews 12.
+10 N.T.TRONG ETet AL .
+and reach 53.1 by 2050. This projected ratio surpasses even that of the US (35.5) and France (42.2) (Hsu et al., 2015). The dependency ratio graphs of Vietnam, Malaysia, and Indonesia have similarities when the old dependency ratio is still lower than the young dependency ratio. However, all five ASEAN member states are in population aging. Compared with other countries in the region, the other two countries, the Philippines and Cambodia, have the advantage in terms of population age structure. If they leverage labor resources during this period to enhance productivity, the economies of those countries can experience accelerated growth.
+Besides the old dependency ratio, the population structure also has the proportion of young workers (EL F) and the growth of the labor force to the total population (GL P). The regression results also find that GL P has a significant impact on GYP. If GL P increases by 1%, then GYP will increase by 0.38% with the
+Figure 3. T the dependency ratio of ASEAN countries. Source: Authors’ calculations according to WB data.
+CocOgent Business & Management 11
+expected statistical significance. A positive sign of the labor market in ASEAN shows that the rate of female labor force participation is higher than the world average, 42% compare to 38%. Likewise, the share of total family employment has more than halved over the past 20 years. Meanwhile, the strong growth of industry and services has caused the proportion of jobs to more than double within 20 years (WB, 2022). Productivity age (15 years and over) is typically regarded as the prime range for initiating basic employment, and conversely, this potential will be wasted if economic growth is on a negative slope (Wijaya et al., 2021). In addition, the variable EL F also has a positive effect on GYP with a coefficient of 0.25, meaning that when the young worker ratio increases by 1%, the GDP per capita growth will increase by 0.25%. The results prove that the productive age young workers in the ASEAN region remains one of the prime resources in economic development in general and GDP per capita growth in particular.
+T
+he next variables positively affects GDP per capita are trade openness, investment and institutions. For trade openness, the model explains that since countries increase their trade openness by 1%, GDP per capita growth will increase by 0.07%. The role of trade openness in economic growth is not new. The more open a country is to integrate with the world in terms of globalization, the more opportunities that country has to exploit the world market. Among ASEAN countries, Singapore is the country that has a very high level of trade openness and business friendliness. Singapore is the center of the world in many aspects such as seaports, airports, logistics, finance, health care, education, etc. Therefore, Singapore’s per capita income is also the highest, far exceeding much compared to other countries in the region such as Cambodia, the Philippines, or Vietnam (Rao & Singh, 2010). For investment, this is a factor that can be create an important link and connection between a country’s past, present, and future economic growth (Khan et al., 2017). Investment not only plays an important role in the reproduction process but also creates a ‘push’ to develop the economy. An economy that attracts investment from domestic and foreign actors will create a driving force for growth. The results reveal that the investment rate has a positive and constructive relationship with GDP per capita growth. The final variable in this study is state institutions. In the work ‘Why nations fail’ by Acemoglu and Robinson (2012), the writers analyzed the history of the development of many countries. They have concluded that a country is rich, or poor, it is not the geographical condition, the culture, etc., but what makes the difference is the institutions. The results in this study also reflect the importance of institutions for economic growth. Specifically, if institutions increase by 1 point, GDP per capita growth will increase by 2.4%.
+6. Conclusion and recommendation
+T
+he population age structure of ASEAN countries has changed a lot in the past two decades. During that period, economic growth has benefited from population age structure, which is the process of population growth slowing down along with the population growth rate in the age of economic activity increased. Next, population aging is the inevitable final stage of demographic transition. Therefore, the socio-economic development policies of ASEAN countries need to consider changes in population age structure in order to propose appropriate economic strategies for development.
+Our research model has segmented the population structure into three distinct variables, each representing different age groups in order to assess the impact of each population segment on economic growth. The findings unequivocally reveal that the old-aged dependency adversely affects GDP per capita growth. This signifies that as the proportion of the elderly population soars up, there is an increased need for expenditures on social security, welfare, and healthcare. Consequently, labor productivity must improve to counteract the negative consequences of population aging. ASEAN should prioritize education and training, with a particular emphasis on vocational training, to contribute to a shift in the labor structure towards modernization and efficiency. In addition to factors associated with population structure, the promotion of GDP per capita growth is significantly influenced by institutions, investment rates, and trade openness. Hence, instituting reforms to enhance investment and expand foreign trade relationships stands as a pivotal task for ASEAN countries in the present era.
+A
+dditionally, population aging is an inevitable challenge in ASEAN countries and across the globe. Adapting to population aging should be a prioritized concern, necessitating prompt and comprehensive solutions targeting all demographic segments to prepare for an aging society. In the context of development strategies, alongside the focus on enhancing labor productivity, governments need to
+12 N.T.TRONG ETet AL .
+implement measures that motivate and support older workers to remain active in the workforce. This can harness the advantages that come with an aging population. Regarding the elderly population, considering raising the retirement age when appropriate and necessary should be contemplated. Furthermore, retirement incentives should be revamped. Government policy studies indicate that retirement benefits are influenced by pension funds, insurance, employment benefits, and government assistance (Ketkaew et al., 2020). Specifically, social insurance and employee benefits serve as motivational tools, encouraging employees to remain engaged in their work. Consequently, the government should consider implementing welfare programs or introducing more flexible work arrangements for the elderly. This approach may serve as motivation for older individuals to extend their working years. Concerning the women’s labor force, enhancing women’s participation in the workforce is also crucial. Implementing anti-sexist laws and policies that facilitate working mothers—such as flexible working hours or support for childcare and maternity leave—can unlock numerous employment prospects for women.
+I
+n conclusion, the article primarily employs GDP per capita as an economic growth measure. This can be viewed as a limitation since GDP per capita don’t reflect the influence of population aging on the quality of life and social development. Consequently, future research will explore alternative measures that encompass a wider spectrum of welfare and sustainability, aiming to provide a more nuanced understanding of the relationship between population aging and economic growth.
+Funding
+T
+his research was funded by University of Economics and Law, Vietnam (UEL ); Vietnam National University Ho Chi Minh City (VNU-HC M); and University of Economics Ho Chi Minh City, Vietnam (UEH ). The funders played no role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+Disclosure statement
+N
+o potential conflict of interest was reported by the authors.
+About the authors Nguyen Thanh Trong, PhD, Nguyen Thanh Trong is working at Eastern International University in Vietnam. His research fields are economic growth and sustainable development; higher education, human capital, policies on development of economic sectors and economic regions.
+Nguyen Thi Dong holds a Ph.D. in Development Economics from the Graduate Academy of Social Sciences, Vietnam. She is a lecturer at University of Economics and Law, Ho Chi Minh City, Vietnam and Vietnam National University, Ho Chi Minh City, Vietnam. Her research interests are economic structure, human capital, social capital.
+Pham Thi Ly holds a PhD in Political Economics from the University of Economics Ho Chi Minh City, Vietnam (UEH ). She is also a lecturer at UEH and specializes in labor structure, human capital, labor market.
+ORCID
+N
+guyen Thi Dong http://orcid.org/0000-0002-2680-0087
+Pham Thi Ly http://orcid.org/0000-0001-5263-322X
+References
+A
+cemoglu, D., & Robinson, J. A. (2012). Why nations fail: The origins of power, prosperity, and poverty. Finance and Development-English Edition, 49(1), 53.
+Barry R. J. (1991). Economic growth in a cross section of countries. The quarterly journal of economics, 106(2), 1–14. https://doi.org/10.2307/2937943
+Barry R. J., & Gary S. B. (1989). Fertility choice in a model of economic growth. The Econometric Society, 57(2), 481–501. https://www.jstor.org/stable/1912563
+CocOgent Business & Management 13
+Bawazir, A., Aslam, M., & Osman, A. (2020). Demographic change and economic growth: empirical evidence from the Middle East. Economic Change and Restructuring, 53(3), 429–450. https://doi.org/10.1007/s10644-019-09254-8
+Bloom, D., Canning, D., & Sevilla, J. (2003). The demographic dividend: A new perspective on the economic consequences of population change. Rand Corporation.
+Bloom, D., & Finlay, E. (2009). Demographic change and economic growth in Asia. Asian Economic Policy Review, 4(1), 45–64. https://doi.org/10.1111/j.1748-3131.2009.01106.x
+Bloom, D., & Williamson, G. (1998). Demographic transitions and economic miracles in emerging Asia. The World Bank Economic Review, 12(3), 419–455. https://doi.org/10.1093/wber/12.3.419
+C
+renshaw, M., Ameen, Z., & Christenson, M. (1997). Population dynamics and economic development: Age-specific population growth rates and economic growth in developing countries, 1965 to 1990. American Sociological Review, 62(6), 974–984. https://doi.org/10.2307/2657351
+Durlauf, S. N., Johnson, P. A., & Temple, J. R. (2005). Growth econometrics. In P. Aghion, & S. N. Durlauf (Eds.), Handbook of economic growth (Vol. 1). Elsevier.
+Fougère, M., & Mérette, M. (1999). Population ageing and economic growth in seven OEC D countries. Economic Modelling, 16(3), 411–427. https://doi.org/10.1016/S0264-9993(99)00008-5
+H
+su, M., Huang, X., & Yupho, S. (2015). The development of universal health insurance coverage in Thailand: Challenges of population aging and informal economy. Social Science & Medicine, 145, 227–236. https://doi.org/10.1016/j.socscimed.2015.09.036
+H
+su, M., Liao, P. J., & Zhao, M. (2018). Demographic change and long‐term growth in China: Past developments and the future challenge of aging. Review of Development Economics, 22(3), 928–952. https://doi.org/10.1111/rode.12405
+H
+viding, K., & Mérette, M. (1998). Macroeconomic effects of pension reforms in the context of ageing populations: overlapping generations model simulations for seven OEC D countries [Paper presented]. OEC D Economics Department Working Papers No. 201.
+I
+smail, N. W., Rahman, H., & Hamid, T. (2015). Does population aging affect economic growth in Malaysia. Prosiding Perkem, 10, 205–210.
+Kalemli-Ozcan, S. (2002). Does the mortality decline promote economic growth? Journal of Economic Growth, 7(4), 411–439. https://doi.org/10.1023/A:1020831902045
+Ketkaew, C., Sukitprapanon, C., & Naruetharadhol, P. (2020). Association between retirement behavior and financial goals: A comparison between urban and rural citizens in China. Cogent Business & Management, 7(1), 1739495. https://doi.org/10.1080/23311975.2020.1739495
+Khan, M. I., Teng, J.-Z., Nauman, M., & Jadoon, A. U. (2017). Determinants of national saving: evidence from South Asian countries. European Academic Research, 5(8), 4158–4180.
+Klasen, S., & Lawson, D. (2007). The impact of population growth on economic growth and poverty reduction in Uganda (Diskussionsbeiträge No. 133). Retrieved from http://hdl.handle.net/10419/31966
+Kögel, T., & Prskawetz, A. (2001). Agricultural productivity growth and escape from the Malthusian trap. Journal of Economic Growth, 6(4), 337–357. https://doi.org/10.1023/A:1012742531003
+L
+ancia, F., & Prarolo, G. (2012). A politico-economic model of aging, technology adoption and growth. Journal of Population Economics, 25, 989–1018. https://doi.org/10.1007/s00148-011-0364-x
+L
+e, D. T., & Park, H. (2020). The impact of demographic change on economic growth. The Singapore Economic Review, 65(02), 471–484. https://doi.org/10.1142/S0217590819500401
+L
+ee, H.-H., & Shin, K. (2019). Nonlinear effects of population aging on economic growth. Japan and the World Economy, 51, 100963. https://doi.org/10.1016/j.japwor.2019.100963
+L
+i, H., & Zhang, X. (2015). Population aging and economic growth: The Chinese experience of solow model. International Journal of Economics and Finance, 7(3), 199–206. https://doi.org/10.5539/ijef.v7n3p199
+Mankiw, N. G., Romer, D., & Weil, D. N. (1992). A contribution to the empirics of economic growth. The quarterly journal of economics, 107(2), 407–437. https://doi.org/10.2307/2118477
+Mason, A. (1997). Will population change sustain the ‘Asian economic miracle’? East-West Center.
+Mason, A. (2005). Demographic transition and demographic dividends in developed and developing countries. East-West Center.
+Minh, N. (2009). Dynamic demographics and economic growth in Vietnam. Journal of the Asia Pacific Economy, 14(4), 389–398. https://doi.org/10.1080/13547860903169365
+N
+araval, A. C. B. (2017). Overview of situations of ageing population in Thailand, Malaysia, Indonesia, and Cambodia [Paper presented]. Ageing in Thailand, Malaysia, Indonesia and Cambodia: Demographic transition, policy and programmatic responses, Malaysia.
+N
+ayab, D. (2007). Demographic dividend or demographic threat in Pakistan. Pakistan Institute of Development Economics Working Paper Series.
+Ong, H.-B. (2022). Ageing population and gross savings of ASEAN -5. Cogent Social Sciences, 8(1), 2096530. https://doi.org/10.1080/23311886.2022.2096530
+Park, D., & Shin, K. (2012). Impact of population aging on Asia’s future growth [Paper presented]. ADB Economics Working Paper Series, No. 281. Asian Development Bank (ADB), Manila. http://hdl.handle.net/10419/109415
+Prettner, K. (2013). Population aging and endogenous economic growth. Journal of Population Economics, 26, 811–834. https://doi.org/10.1007/s00148-012-0441-9
+Radelet, S. C., Sachs, J., & Lee, J. (1997). Economic growth in Asia. Harvard Institute for International Development.
+14 N.T.TRONG ETet AL .
+Ranganathan, S., Swain, R. B., & Sumpter, J. T. (2015). The demographic transition and economic growth: implications for development policy. Palgrave Communications, 1(1), 1–8. https://doi.org/10.1057/palcomms.2015.33
+Rao, B., & Singh, R. (2010). Effects of trade openness on the steady-state growth rates of selected Asian countries with an extended exogenous growth model. Applied economics, 42(29), 3693–3702. https://doi.org/10.1080/00036840802534468
+Rowland, D. T. (2009). Global population aging: History and prospects. In International handbook of population aging (pp. 37–65). Springer.
+S
+ala-i-Martin, X. (1997). I just ran four million regressions. National Bureau of Economic Research Cambridge.
+S
+arel, M. (1995). Demographic dynamics and the empirics of economic growth. Staff Papers, 42(2), 398–410. https://doi.org/10.2307/3867578
+T
+iffen, M. (1995). Population density, economic growth and societies in transition: Boserup reconsidered in a Kenyan case‐study. Development and Change, 26(1), 31–66. https://doi.org/10.1111/j.1467-7660.1995.tb00542.x
+UNFPA. (2019). Toward a comprehensive national policy for an ageing Vietnam. https://vietnam.un.org/sites/default/files/2019-08/Toward%20a%20comprehensive%20ageing%20policy_ENG _0.pdf
+WB. (2022). World Bank Open Data. https://data.worldbank.org/
+WGI . (2022). Worldwide Governance Indicators. https://info.worldbank.org/governance/wgi/
+Wijaya, A., Kasuma, J., Tasenţe, T., & Darma, D. C. (2021). Labor force and economic growth based on demographic pressures, happiness, and human development. Journal of Eastern European and Central Asian Research, 8(1), 40–50. https://doi.org/10.15549/jeecar.v8i1.571
+Appendix. Data from 7 ASEAN countries includes information on GDP per capita growth, old-age dependency ratio, young worker ratio, growth of the labor force to population ratio, investment, trade openness index, and the institutions in the period 2001 – 2021
+Country Name
+Year
+G
+DP per capita growth (%)
+O
+ld-age dependency (%)
+Young worker ratio (%)
+G
+rowth of the labor force-to-population ratio (%)
+T
+rade openness index (%)
+G
+ross capital formation (%)
+I
+nstitutions
+Vietnam
+2001
+5.098526
+10.31166
+57.436
+0.45142
+75.96365
+31.17277
+−0.34773
+Vietnam
+2002
+5.288176
+10.23323
+56.262
+−0.031
+80.71847
+33.22053
+−0.38505
+Vietnam
+2003
+5.902514
+10.12692
+54.476
+−0.82156
+91.60652
+35.44486
+−0.38901
+Vietnam
+2004
+6.550971
+10.0013
+53.72
+−0.70758
+105.4465
+35.46533
+−0.41695
+Vietnam
+2005
+6.559632
+9.863058
+53.568
+1.449576
+113.7403
+33.7574
+−0.38028
+Vietnam
+2006
+5.985664
+9.742565
+53.372
+1.362583
+118.6348
+34.53665
+−0.40433
+Vietnam
+2007
+6.123617
+9.614292
+53.208
+1.363749
+132.3427
+39.56627
+−0.34029
+Vietnam
+2008
+4.652442
+9.488282
+55.259
+1.110636
+143.2578
+36.49312
+−0.34126
+Vietnam
+2009
+4.370659
+9.375772
+57.382
+1.169043
+127.7855
+37.16256
+−0.28102
+Vietnam
+2010
+5.364174
+9.286964
+56.62
+1.09245
+130.0789
+35.69381
+−0.3092
+Vietnam
+2011
+5.327922
+9.233347
+55.197
+0.241629
+131.4378
+29.75064
+−0.28635
+Vietnam
+2012
+4.406792
+9.20206
+53.805
+−0.13509
+140.3899
+27.24332
+−0.25849
+Vietnam
+2013
+4.444325
+9.215094
+55.613
+0.79305
+156.2875
+26.67562
+−0.23926
+Vietnam
+2014
+5.304607
+9.299368
+55.593
+0.086841
+165.3974
+26.83267
+−0.1852
+Vietnam
+2015
+5.878008
+9.469757
+55.616
+−0.39043
+178.7674
+27.67673
+−0.20455
+Vietnam
+2016
+5.592396
+9.73033
+53.189
+−0.82881
+192.8391
+26.57806
+−0.12934
+Vietnam
+2017
+5.854546
+10.06281
+52.734
+−0.58288
+211.4453
+26.58211
+−0.14713
+Vietnam
+2018
+6.139381
+10.45972
+52.969
+0.036142
+224.1959
+26.53306
+−0.13077
+Vietnam
+2019
+6.132343
+10.91059
+50.907
+−1.07583
+226.4682
+26.84384
+−0.14971
+Vietnam
+2020
+2.013088
+11.40995
+49.608
+−1.30396
+229.2237
+27.01138
+−0.10168
+Vietnam
+2021
+1.721296
+11.96285
+49.616
+−0.17816
+232
+27.5
+−0.1257
+T
+hailand
+2001
+2.489321
+9.696801
+49.542
+0.486445
+100.2125
+23.11244
+−0.31559
+T
+hailand
+2002
+5.271098
+10.01123
+49.33
+0.669312
+100.1089
+22.74419
+−0.36403
+T
+hailand
+2003
+6.390887
+10.33099
+48.304
+0.154715
+102.7613
+23.8293
+−0.39429
+T
+hailand
+2004
+5.560903
+10.63841
+49.385
+0.592845
+113.3532
+25.68141
+−0.39084
+T
+hailand
+2005
+3.517298
+10.92747
+48.933
+0.557538
+121.5751
+30.42075
+−0.31614
+T
+hailand
+2006
+4.33565
+11.20126
+46.197
+−0.85987
+123.8502
+27.01164
+−0.40739
+T
+hailand
+2007
+4.84646
+11.46659
+46.879
+0.904802
+125.3042
+25.49601
+−0.42768
+T
+hailand
+2008
+1.192207
+11.73926
+46.251
+−0.2448
+133.8175
+28.22643
+−0.45174
+T
+hailand
+2009
+−1.18942
+12.03719
+46.586
+−0.65349
+112.8765
+20.6364
+−0.43814
+T
+hailand
+2010
+6.988267
+12.37066
+45.127
+−1.26838
+124.029
+25.35665
+−0.46049
+T
+hailand
+2011
+0.357206
+12.79514
+46.158
+2.319166
+136.3507
+26.79146
+−0.43813
+T
+hailand
+2012
+6.740714
+13.2452
+45.847
+−0.30083
+132.9811
+28.02417
+−0.43478
+T
+hailand
+2013
+2.222539
+13.7297
+43.307
+−3.4212
+132.2411
+27.4571
+−0.41446
+T
+hailand
+2014
+0.550321
+14.26004
+41.505
+−0.95443
+127.8886
+23.91902
+−0.44954
+T
+hailand
+2015
+2.720141
+14.84385
+40.682
+−0.86425
+124.8397
+22.35564
+−0.39095
+T
+hailand
+2016
+3.050048
+15.42582
+39.958
+−1.51979
+121.9082
+21.10549
+−0.328
+T
+hailand
+2017
+3.818674
+16.06107
+38.972
+−1.23784
+123.632
+22.9343
+−0.32054
+T
+hailand
+2018
+3.894662
+16.75896
+39.858
+0.504926
+125.2352
+25.21959
+−0.35715
+(Continued)
+CocOgent Business & Management 15
+Country Name
+Year
+G
+DP per capita growth (%)
+O
+ld-age dependency (%)
+Young worker ratio (%)
+G
+rowth of the labor force-to-population ratio (%)
+T
+rade openness index (%)
+G
+ross capital formation (%)
+I
+nstitutions
+T
+hailand
+2019
+1.86244
+17.53033
+38.6
+−1.1891
+117.7197
+23.80576
+−0.31868
+T
+hailand
+2020
+−6.42986
+18.38244
+37.988
+−0.29333
+103.9766
+23.68784
+−0.28374
+T
+hailand
+2021
+1.347243
+19.2919
+36.87
+−0.79356
+116.667
+29.11033
+−0.30121
+S
+ingapore
+2001
+−3.70367
+8.825097
+39.337
+0.135328
+262.3194
+27.60943
+0.847785
+S
+ingapore
+2002
+2.97923
+9.110952
+34.587
+−3.15083
+268.8344
+25.07361
+0.840898
+S
+ingapore
+2003
+6.101276
+9.325482
+35.492
+−0.29532
+287.9751
+17.22452
+0.77124
+S
+ingapore
+2004
+8.572205
+9.442283
+34.879
+−0.01302
+316.6626
+22.89246
+0.655787
+S
+ingapore
+2005
+4.872093
+9.489724
+35.131
+1.248396
+330.9571
+21.50694
+0.628879
+S
+ingapore
+2006
+5.648343
+9.472338
+36.003
+2.1477
+335.942
+22.37926
+0.432814
+S
+ingapore
+2007
+4.572986
+9.376165
+36.251
+1.556448
+332.9117
+23.06595
+0.447437
+S
+ingapore
+2008
+−3.41549
+9.232927
+35.805
+1.544996
+352.513
+30.15968
+0.413943
+S
+ingapore
+2009
+−2.84677
+9.14672
+32.19
+−1.93505
+322.1061
+27.37012
+0.397947
+S
+ingapore
+2010
+12.50852
+9.219669
+35.774
+2.698414
+329.3463
+27.65823
+0.371478
+S
+ingapore
+2011
+4.023382
+9.726771
+33.94
+0.662176
+331.0317
+26.69199
+0.441405
+S
+ingapore
+2012
+1.904462
+10.25525
+35.237
+1.177158
+323.1309
+29.26294
+0.464163
+S
+ingapore
+2013
+3.133979
+10.72392
+34.411
+−0.08778
+327.7397
+29.9795
+0.419358
+S
+ingapore
+2014
+2.594723
+11.12852
+36.408
+1.230015
+325.4977
+29.43001
+0.454354
+S
+ingapore
+2015
+1.762325
+11.55154
+37.936
+1.022359
+329.4714
+25.35319
+0.430839
+S
+ingapore
+2016
+2.22673
+12.53299
+36.944
+−0.70623
+318.487
+26.47846
+0.401931
+S
+ingapore
+2017
+4.568751
+13.70318
+36.995
+−0.2801
+327.7207
+27.32271
+0.448255
+S
+ingapore
+2018
+3.175545
+15.0323
+38.074
+0.085293
+339.5395
+24.79231
+0.441267
+S
+ingapore
+2019
+−0.05455
+16.46373
+38.543
+0.772883
+336.5029
+24.68112
+0.530179
+S
+ingapore
+2020
+−3.84366
+17.95835
+34.593
+−3.35798
+346.8938
+22.45418
+0.513671
+S
+ingapore
+2021
+12.19672
+19.45607
+35.574
+−0.33494
+345.4136
+24.35128
+0.521925
+Malaysia
+2001
+−1.66515
+6.391897
+40.247
+−0.7914
+146.4631
+24.39822
+0.354453
+Malaysia
+2002
+3.217395
+6.527398
+39.64
+−0.82591
+146.965
+24.77734
+0.391667
+Malaysia
+2003
+3.687919
+6.624588
+39.655
+1.21407
+145.6972
+22.76339
+0.447343
+Malaysia
+2004
+4.698582
+6.694527
+38.72
+−1.26064
+160.444
+23.04956
+0.421242
+Malaysia
+2005
+3.282258
+6.779092
+37.721
+−1.70008
+165.372
+22.39642
+0.47411
+Malaysia
+2006
+3.524327
+6.967477
+37.855
+0.529399
+168.1099
+22.70352
+0.377344
+Malaysia
+2007
+4.236439
+7.128989
+37.402
+−0.39115
+166.2657
+23.40953
+0.34085
+Malaysia
+2008
+2.847079
+7.238263
+37.255
+−1.02846
+161.6374
+21.4583
+0.211274
+Malaysia
+2009
+−3.28559
+7.302759
+36.039
+0.044659
+144.9101
+17.83569
+0.190102
+Malaysia
+2010
+5.623556
+7.359338
+35.533
+0.130479
+151.9865
+23.38654
+0.320017
+Malaysia
+2011
+3.666105
+7.567256
+36.825
+2.216963
+151.7691
+23.18826
+0.285644
+Malaysia
+2012
+3.959553
+7.812498
+37.37
+1.749529
+144.4496
+25.74862
+0.306822
+Malaysia
+2013
+3.270042
+8.085831
+38.024
+2.270065
+139.2788
+25.93711
+0.355765
+Malaysia
+2014
+4.59521
+8.373263
+38.121
+0.648012
+137.3564
+24.97761
+0.476421
+Malaysia
+2015
+3.687722
+8.66844
+36.845
+0.038441
+131.3701
+25.42426
+0.384312
+Malaysia
+2016
+3.041601
+8.979515
+37.134
+−0.56835
+127.501
+25.99551
+0.315386
+Malaysia
+2017
+4.383944
+9.294631
+37.061
+0.156182
+131.817
+25.54734
+0.305624
+Malaysia
+2018
+3.435189
+9.622755
+37.873
+0.704134
+127.8926
+23.89742
+0.476289
+Malaysia
+2019
+3.060776
+9.974558
+39.815
+0.627377
+120.3971
+21.04379
+0.43488
+Malaysia
+2020
+−6.86027
+10.35588
+36.963
+−1.64512
+116.5554
+19.73323
+0.449213
+Malaysia
+2021
+1.841876
+10.74581
+37.95
+−0.42098
+132.3405
+22.27092
+0.442047
+Philippines
+2001
+0.874874
+5.675897
+39.677
+−0.09143
+56.58647
+18.94518
+0.746996
+Philippines
+2002
+1.558965
+5.731734
+39.595
+0.001694
+57.8764
+20.45914
+0.706148
+Philippines
+2003
+2.952692
+5.78068
+39.388
+−0.04237
+58.9608
+19.52874
+0.591214
+Philippines
+2004
+4.482677
+5.826851
+39.989
+0.600183
+57.96514
+20.73101
+0.619599
+Philippines
+2005
+2.978371
+5.873465
+39.555
+−0.14493
+59.53181
+18.56653
+0.671436
+Philippines
+2006
+3.444174
+6.04216
+38.451
+−0.53671
+59.38266
+16.01534
+0.597997
+Philippines
+2007
+4.712141
+6.206895
+38.23
+0.385192
+56.48632
+16.12865
+0.634982
+Philippines
+2008
+2.626703
+6.361339
+37.25
+−0.61022
+54.20182
+18.96715
+0.669084
+Philippines
+2009
+−0.2117
+6.514393
+37.419
+0.4592
+51.55565
+17.43172
+0.609331
+Philippines
+2010
+5.561001
+6.6865
+37.199
+0.243789
+57.89592
+20.44177
+0.61239
+Philippines
+2011
+2.115927
+6.78824
+38.849
+1.32405
+55.26511
+20.73994
+0.642581
+Philippines
+2012
+5.090727
+6.899756
+38.42
+−0.71171
+54.62982
+19.56073
+0.744504
+Philippines
+2013
+4.959415
+7.020904
+37.764
+−0.45326
+53.5292
+20.64222
+0.781719
+Philippines
+2014
+4.611114
+7.151182
+38.284
+1.067471
+55.84153
+20.92397
+0.791555
+Philippines
+2015
+4.681879
+7.291573
+36.713
+−0.6791
+59.14159
+21.34095
+0.808346
+Philippines
+2016
+5.546712
+7.522589
+36.801
+0.675341
+63.14003
+24.6185
+0.814743
+Philippines
+2017
+5.396653
+7.763354
+34.297
+−3.82966
+68.57546
+25.55877
+0.815672
+Philippines
+2018
+4.867309
+8.014735
+33.275
+−0.05553
+73.12006
+27.15058
+0.79061
+Philippines
+2019
+4.680376
+8.277634
+32.377
+0.883685
+70.60307
+26.40181
+0.771166
+Philippines
+2020
+−10.7275
+8.552395
+27.961
+−8.15537
+63.06286
+17.43338
+0.795063
+Philippines
+2021
+4.307869
+8.836772
+29.341
+2.418963
+66.03328
+21.18376
+0.783115
+I
+ndonesia
+2001
+2.23518
+7.349013
+41.553
+−0.93023
+38.8761
+22.53927
+−0.78069
+I
+ndonesia
+2002
+3.090636
+7.397318
+39.858
+−2.25701
+36.19438
+21.40407
+−0.82775
+I
+ndonesia
+2003
+3.376533
+7.413016
+39.108
+−0.53387
+35.85336
+25.5985
+−0.91249
+Appendix Table 1. Continued.
+(Continued)
+16 N.T.TRONG ETet AL .
+Country Name
+Year
+G
+DP per capita growth (%)
+O
+ld-age dependency (%)
+Young worker ratio (%)
+G
+rowth of the labor force-to-population ratio (%)
+T
+rade openness index (%)
+G
+ross capital formation (%)
+I
+nstitutions
+I
+ndonesia
+2004
+3.630909
+7.395096
+38.939
+−0.6852
+40.87704
+24.05637
+−0.83108
+I
+ndonesia
+2005
+4.289591
+7.349838
+35.325
+−2.61023
+45.32236
+25.08141
+−0.7414
+I
+ndonesia
+2006
+4.107514
+7.419868
+36.879
+0.126505
+46.82169
+25.40022
+−0.62913
+I
+ndonesia
+2007
+4.946468
+7.471347
+39.126
+2.577404
+47.90457
+24.92028
+−0.52313
+I
+ndonesia
+2008
+4.620034
+7.503345
+39.752
+1.138082
+49.60167
+27.81624
+−0.48378
+I
+ndonesia
+2009
+3.247328
+7.512704
+38.857
+0.6966
+41.55001
+30.98519
+−0.4756
+I
+ndonesia
+2010
+4.812273
+7.495183
+38.722
+1.340022
+45.48445
+32.88012
+−0.48558
+I
+ndonesia
+2011
+4.748319
+7.592962
+38.158
+0.984962
+49.2236
+32.98433
+−0.44748
+I
+ndonesia
+2012
+4.606486
+7.683149
+40.458
+1.484302
+48.63639
+35.07159
+−0.38214
+I
+ndonesia
+2013
+4.151428
+7.776064
+39.475
+−0.84309
+47.45495
+33.83136
+−0.337
+I
+ndonesia
+2014
+3.639072
+7.883945
+38.557
+0.092388
+45.91584
+34.60034
+−0.21869
+I
+ndonesia
+2015
+3.555062
+8.015168
+38.422
+−0.53972
+41.93764
+34.06279
+−0.29486
+I
+ndonesia
+2016
+3.758837
+8.215484
+38.999
+−0.1856
+39.11773
+33.85874
+−0.17734
+I
+ndonesia
+2017
+3.841197
+8.429796
+39.881
+1.120406
+40.39033
+33.71059
+−0.17294
+I
+ndonesia
+2018
+3.987825
+8.665518
+40.064
+0.783853
+41.96629
+34.57059
+−0.15386
+I
+ndonesia
+2019
+3.87256
+8.932369
+41.765
+1.651386
+38.42935
+33.78014
+−0.17202
+I
+ndonesia
+2020
+−3.10265
+9.236544
+40.365
+−1.9227
+34.40584
+32.35459
+−0.11498
+I
+ndonesia
+2021
+2.626357
+9.595067
+40.573
+0.37
+41.0444
+31.45992
+−0.14
+Brunei
+2001
+0.66793
+3.696544
+41.072
+0.231715
+111.1932
+14.42999
+0.543883
+Brunei
+2002
+1.853226
+3.839912
+40.412
+−0.3905
+115.1063
+21.25972
+0.520668
+Brunei
+2003
+1.005463
+3.973746
+39.818
+−0.30109
+111.5637
+15.05546
+0.509707
+Brunei
+2004
+−1.21226
+4.110802
+39.242
+−0.23908
+109.6051
+13.48644
+0.468541
+Brunei
+2005
+−1.17366
+4.266449
+38.514
+−0.33898
+110.565
+11.3667
+0.406458
+Brunei
+2006
+2.945645
+4.434822
+37.722
+−0.53156
+109.902
+10.4374
+0.361021
+Brunei
+2007
+−1.10213
+4.577081
+37.325
+−0.14951
+105.2046
+12.9848
+0.430501
+Brunei
+2008
+−3.09007
+4.684226
+36.815
+−0.25008
+105.867
+13.66807
+0.456237
+Brunei
+2009
+−2.91193
+4.755489
+36.174
+−0.3561
+103.63
+17.55651
+0.740359
+Brunei
+2010
+1.349723
+4.79796
+35.291
+−0.5641
+95.64161
+23.69181
+0.713588
+Brunei
+2011
+2.41374
+4.904095
+34.336
+−0.4142
+101.2012
+26.0224
+0.706281
+Brunei
+2012
+−0.43014
+5.037855
+33.376
+−0.87553
+109.7387
+32.88337
+0.622821
+Brunei
+2013
+−3.43702
+5.201728
+32.451
+−0.88163
+116.3386
+39.59097
+0.630828
+Brunei
+2014
+−3.78452
+5.409852
+31.416
+−1.02948
+100.8174
+27.44235
+0.618607
+Brunei
+2015
+−1.62537
+5.670949
+29.993
+−1.81909
+89.89379
+35.24581
+0.563522
+Brunei
+2016
+−3.6109
+5.988517
+28.862
+−1.60869
+92.21178
+34.61965
+0.510085
+Brunei
+2017
+0.209044
+6.349638
+27.483
+−1.9968
+90.1043
+34.80471
+0.573484
+Brunei
+2018
+−0.99246
+6.75888
+27.549
+4.952186
+102.6235
+41.06583
+0.623609
+Brunei
+2019
+2.82969
+7.217088
+31.301
+0.422102
+112.9581
+38.67775
+0.585004
+Brunei
+2020
+0.165659
+7.724813
+30.043
+−1.76138
+114.8279
+40.58783
+0.792744
+Brunei
+2021
+−2.50786
+8.270757
+30.005
+−0.33448
+138.2615
+31.27257
+0.688874
+Cambodia
+2001
+5.967444
+5.581206
+75.404
+6.22904
+63.92241
+18.73534
+−0.7777
+Cambodia
+2002
+4.619793
+5.601805
+75.708
+−1.25307
+68.25944
+20.02077
+−0.79021
+Cambodia
+2003
+6.662164
+5.63035
+75.98
+−1.27632
+70.49487
+22.06928
+−0.8512
+Cambodia
+2004
+8.564606
+5.660977
+76.249
+−1.34989
+79.03443
+17.82625
+−0.83636
+Cambodia
+2005
+11.48496
+5.687704
+76.263
+0.338314
+81.55975
+20.23468
+−0.89761
+Cambodia
+2006
+9.091564
+5.735828
+76.267
+0.255706
+86.52669
+22.51698
+−0.89113
+Cambodia
+2007
+8.583162
+5.77994
+76.218
+0.278805
+87.24012
+21.19729
+−0.82733
+Cambodia
+2008
+5.124828
+5.822722
+76.171
+0.937573
+97.48668
+18.61673
+−0.84775
+Cambodia
+2009
+−1.403
+5.870998
+75.907
+0.722587
+87.64145
+21.35991
+−0.86665
+Cambodia
+2010
+4.344633
+5.931612
+78.152
+3.130827
+98.08472
+17.36766
+−0.86807
+Cambodia
+2011
+5.381835
+5.999584
+78.249
+1.00717
+107.7023
+17.09791
+−0.82477
+Cambodia
+2012
+5.577849
+6.066672
+74.93
+−2.79949
+116.0975
+18.51134
+−0.712
+Cambodia
+2013
+5.599987
+6.146851
+71.31
+−3.26891
+123.9163
+20.00892
+−0.73644
+Cambodia
+2014
+5.401748
+6.257756
+71.154
+−0.16402
+128.0107
+22.0945
+−0.71505
+Cambodia
+2015
+5.264089
+6.40832
+71.292
+−0.55934
+127.8641
+22.453
+−0.73035
+Cambodia
+2016
+5.272609
+6.616078
+71.982
+2.335726
+129.8756
+22.70583
+−0.73174
+Cambodia
+2017
+5.372022
+6.857991
+71.105
+0.18979
+127.0148
+22.89197
+−0.76141
+Cambodia
+2018
+5.879386
+7.113009
+70.406
+−0.14883
+136.6047
+23.44826
+−0.76993
+Cambodia
+2019
+5.516808
+7.350493
+69.737
+−0.14044
+143.0809
+24.23349
+−0.77905
+Cambodia
+2020
+−4.44318
+7.556338
+65.75
+−2.20327
+132.8471
+24.87956
+−0.80121
+Cambodia
+2021
+1.643449
+7.750987
+67.189
+−1.5
+152.7734
+26.57746
+−0.79013
+Appendix Table 1. Continued.
+© 2024 The Author(s). Published by Informa UK Limited, trading as Taylor
+and Francis Group. This work is licensed under the Creative Commons
+Attribution License creativecommons.org/licenses/by/4.0/ (the “License”).
+Notwithstanding the ProQuest Terms and Conditions, you may use this
+content in accordance with the terms of the License.

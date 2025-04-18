@@ -1,0 +1,1570 @@
+Vol.:(0123456789)
+Economic Change and Restructuring (2022) 55:1875–1912
+https://doi.org/10.1007/s10644-021-09370-4
+1 3
+The role of older workers in population aging–economic
+growth nexus: evidence from developing countries
+Siow Li Lai1 · Tien Ming Yip2
+Received: 9 January 2021 / Accepted: 16 November 2021 / Published online: 1 December 2021
+© The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature
+2021
+Abstract
+This study explored the relationship between population aging and economic
+growth in 74 developing countries between 1990 and 2019, highlighting the vital
+role of older workers (as measured by labor force participation of older people) in
+the national economy. A static panel estimator was used to examine the relationship
+between population aging, labor force participation of older people and economic
+growth. Results showed a negative association between population aging
+and economic growth, but the inverse relationship was mitigated by the labor force
+participation of older people. This indicates that the marginal impact of population
+aging on economic growth depends on the labor force participation of older people.
+The mitigating role of labor force participation of older people remained robust in a
+series of robustness checks. This study provides some policy recommendations to
+raise the labor force participation of older people to reduce the negative impact of
+population aging on economic growth. Effective utilization of human resources of
+older people is essential to bring about sustainable economic development.
+Keywords Population aging · Economic growth · Labor force participation of older
+people · Developing countries · Static panel estimator
+JEL Classification J14 · J21 · O4
+* Siow Li Lai
+laisl@um.edu.my
+1 Population Studies Unit, Faculty of Business and Economics, University of Malaya,
+50603 Kuala Lumpur, Malaysia
+2 Faculty of Business and Economics, University of Malaya, 50603 Kuala Lumpur, Malaysia
+1876 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+1 Introduction
+What is the role of older workers (as measured by labor force participation of older
+people) in the population aging–economic growth nexus in developing countries?
+This question arises when the older population in these countries increases rapidly
+at the turn of the 21st century, while the labor force participation rate of older people
+remains low. According to the International Labour Organization (ILO) database,
+the labor force participation rate of the population aged 65 and above in developing
+countries has declined from the average level of 34.4% in 1990 to 30.6% in
+2019. This is a distressing figure as the older people aged 65 years and above made
+up about 8% of the total population in the less developed regions (excluding least
+developed countries) in 2020, and it is projected to increase to over 16% by 2050
+(United Nations 2019a).
+Population aging has become an issue of great concern in many parts of the
+world (Bloom and Luca 2016; Qadri et al. 2013; United Nations 2019b). Challenges
+such as adequacy of social security, old age pension, rising non-communicable diseases,
+providing adequate healthcare services, and labor shortage will inevitably be
+straining the economy and public resources of developing countries in the coming
+decades. Several studies concluded that population aging slowed down economic
+growth (Aigner-Walder and Döring 2012; Bloom et al. 2010; Hondroyiannis and
+Papapetrou 2001; Hsu 2017; Lisenkova et al. 2013; Otsu and Shibayama 2016).
+However, the growing ‘gray market’ can be viewed as an optimistic economic outlook
+if more and more older people remain active in the labor force. Bloom et al.
+(2010) proposed various policy reforms to tackle the economic consequences of
+population aging, such as raising the legal retirement age. The extension of the
+retirement age would facilitate more older persons to work and remain active in the
+labor market, and this, in turn, would increase the proportion of the working population
+and subsequently contribute to the national output, thereby offsetting the negative
+impact of population aging on economic growth.
+The mitigating effect of labor force participation of older people in the aging–economic
+growth association model postulated by Bloom et al. (2010) has been widely
+applied in developed countries. For instance, the model was found to be viable
+in France, Germany and Italy, where the negative impact of population aging on
+growth was reduced by the increasing share of older persons in the labor market due
+to a rise in the legal retirement age (Vogel et al. 2017). Nevertheless, this might not
+be the case in developing countries, as the degree of ageism toward older persons
+was found to be more prevalent than that in developed countries (Nash et al. 2018).
+The presence of ageism in the labor market might impede the economic contribution
+of older people if they are assigned trivial tasks with lower productivity and income.
+This implies that the labor force participation of older people under the ageism setting
+in developing countries is inconclusive in mitigating the negative consequences
+of population aging on economic growth. Hence, the applicability of the model by
+Bloom et al. (2010) in developing countries remains contentious. The present study
+fills in the research gap by quantifying the role of labor force participation of older
+people in the aging–growth nexus in developing countries.
+1877
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+In general, developing countries have a lower capacity and credit constrained in
+addressing the economic consequences imposed by population aging than developed
+countries. Most advanced economies have access to the international financial market
+for their currencies and allow them to borrow internationally using their national
+currencies, but this is often not the case for most developing countries. The presence
+of credit constraints, coupled with the rapid population aging, would result in insufficient
+resources to overcome the negative influence of population aging on economic
+growth. Therefore, it is imperative to examine the mitigating role of the labor force
+participation of older people in overcoming the economic consequences caused by
+population aging, especially in the developing countries with limited resources and
+economically unprepared to embrace the increasing proportion of older people.
+This study aims to investigate the role of labor force participation of older people
+in mitigating the negative impact of population aging on economic growth, motivated
+by the dearth of research on this issue and the importance of the findings in
+preserving the sustainable growth of developing countries. Because the older populations
+are increasing rapidly in the developing countries, early preparation for an
+aging society is crucial for these countries to have sustainable economic development,
+and to cater to the needs of the fast-rising number of older people.
+The current study adopts the mitigating effect of labor force participation of older
+people in the aging–economic growth association model postulated by Bloom et al.
+(2010). A preview of the empirical results shows that population aging is inversely
+related to the per capita growth rate, and labor force participation of older persons is
+essential in mitigating the negative relationship. Population aging has a significant
+adverse effect on economic growth if the labor force participation of older people is
+at a low level. However, the negative effect becomes less apparent and turns into a
+positive effect as the labor force participation of older people increases. The results
+remain robust in a series of robustness checks.
+This study contributes to the existing literature from three aspects. Firstly, the
+present analysis validates the role of labor force participation of older people in the
+aging–growth nexus in developing countries. A similar study has been conducted in
+developed countries (see Vogel et al. 2017), but there is a dearth of research focusing
+on developing countries. Secondly, this paper puts forth the alternative model
+specification by providing the marginal effect of population aging on growth at
+various levels of labor force participation of older people, which complements and
+expands the previous study performed by Vogel et al. (2017). Thirdly, although the
+aging–growth association was well established (see Maity and Sinha 2020, Mamun
+et al. 2020, Pan and Chang 2019, Pham and Vo 2021, and Saccone 2017), the recommendation
+to overcome the negative consequences of population aging is often
+neglected in past literature. Hence, the present study identifies the potential factor
+that is useful in overcoming the growth-deteriorating effect of population aging.
+Population aging is inevitable, and thus, it is time to ascertain the ways to overcome
+the negative impact of population aging on economic growth in developing
+countries.
+This paper is structured as follows. Section 2 provides a theoretical review on
+the mitigating role of labor force participation of older people in the aging–growth
+nexus. Section 3 describes the data, empirical model, and methodology of this study.
+1878 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Section 4 presents the baseline estimation results, followed by the robustness checks
+in Sect. 5. Section 6 sets forth policy implications and recommendations, followed
+by the limitations of the study in Sect. 7, and Sect. 8 concludes the paper.
+2 Theoretical review
+The mitigating effect of older persons’ labor force participation in the aging–growth
+nexus was first proposed by Bloom et al (2010) in a well-cited policy brief paper.
+The authors presumed that an increase in the legal retirement age would induce
+older persons to remain active in the labor market, thereby offsetting the adverse
+impact of population aging on economic growth. However, the study did not outline
+the theoretical justifications on how older persons’ labor force participation can
+mitigate the economic implications of population aging.
+A recent study by Vogel et al (2017) suggested two possible channels in justifying
+the mitigating effect. Firstly, the labor force channel reveals that an increase in the
+retirement age would induce older persons to work longer and remain active in the
+labor market. This in turn would increase the working population and per capita output,
+thereby mitigating the adverse impact of population aging on economic growth.
+The working population is the primary contributor to the production of output in
+the economy. Hence, the increasing number of older persons who remain active in
+the labor market would increase the share of the working population and reduce the
+proportion of dependents in the economy. Taken together, more labor is involved in
+the production and a lower proportion of the population is consuming the national
+resources, thereby offsetting the economic consequences of population aging.
+Secondly, the human capital channel explains that an increase in the retirement
+age would extend the work-life planning horizon of households, thereby amplifying
+the incentives to invest in human capital accumulation. In general, older people
+who remain active in the labor market would receive a steady income stream, which
+can be used to invest in the child’s education within the household. Greater human
+capital accumulation would result in higher per capita output, thereby mitigating the
+adverse impact of population aging on economic growth.
+3 Methods
+3.1 Data
+This study utilized unbalanced panel data of 74 developing countries listed in
+Table 1. Country development status was based on the classification by the International
+Monetary Fund (IMF) (IMF 2019). The annual data were taken from
+the World Development Indicators (WDI) and the ILO database for 1990–2019.
+1879
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Notably, these two databases are the major data sources for aging studies and have
+been widely used in the empirical studies examining the impact of population aging
+on economic growth (Bloom et al. 2010; Maity and Sinha 2020; Pan and Chang
+2019; Saccone 2017; Teixeira et al. 2016). The sampled countries and periods
+selected were based on data available on the labor force participation rate of the
+population aged 65 and above. The study period was averaged into 5-year intervals,1
+with a maximum of six observations for each country: between 1990 and 1994, 1995
+and 1999, 2000 and 2004, 2005 and 2009, 2010 and 2014, 2015 and 2019. The averaging
+procedure filtered out the effect of business cycle fluctuations and therefore
+improves the accuracy of the estimations. Table 2 shows the list of variables used in
+this study.
+3.2 Empirical model
+According to the United Nations (2002) and the World Health Organization (2011),
+the proportion of the population aged 65 and above is one of the conventional indicators
+used to measure the pace of population aging. This study employs the United
+Nations’ (2019b) definition, in which older persons refer to those aged 65 years or
+over. Hence, this study defines the ‘older workers’ as individuals aged 65 and above
+that remain in the labor force. The empirical model used to examine the relationship
+between population aging and economic growth is shown as Eq. (1).
+where i is the country index, t is the time index, RGDPC is the growth rate of real
+gross domestic product (GDP) per capita, POPAGE65 is the proportion of the population
+aged 65 and above, LFPR65 is the labor force participation rate of the population
+aged 65 and above, X is a vector of control variables (which include gross
+capital formation, population growth rate, trade openness, secondary school enrolment
+ratio, and the ratio of domestic credit to private sector). These control variables
+RGDPC (1)
+it = 0 + 1
+POPAGE65
+it−1 + 2
+LFPR65
+it−1 + 3X
+it−1 + v
+i + it
+Table 1 List of sampled countries (Sample period: 1990–2019)
+74 developing countries Algeria, Angola, Argentina, Azerbaijan, Bangladesh, Belarus, Benin, Bolivia,
+Brazil, Burkina Faso, Cambodia, Cameroon, Chad, Chile, China, Colombia,
+Democratic Republic of the Congo, Republic of the Congo, Cote d’Ivoire,
+Croatia, Cyprus, Czech Republic, Dominican Republic, Ecuador, Egypt,
+Estonia, Ethiopia, Ghana, Guinea, Haiti, Honduras, Hungary, India, Indonesia,
+Iran, Kazakhstan, Kenya, Kyrgyz Republic, Lao PDR, Libya, Madagascar,
+Malaysia, Mali, Mexico, Moldova, Mongolia, Morocco, Mozambique,
+Myanmar, Nepal, Nicaragua, Niger, Nigeria, Pakistan, Papua New Guinea,
+Peru, Philippines, Russian Federation, Rwanda, Senegal, South Africa, Sri
+Lanka, Sudan, Tajikistan, Tanzania, Thailand, Turkey, Uganda, Ukraine,
+Uzbekistan, Vietnam, Yemen, Zambia, and Zimbabwe
+1 The 5-year interval is a common method used in filtering the business cycle effect for panel data (Law
+2018). Meanwhile, the 6-year average data are used in the robustness check.
+1880 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Table 2 List of variables
+Notes Data for older population and labor force participation rate were extracted from ILO database. Other variables were obtained from WDI database. According to
+Rowland (2003), aging index (AI65) is computed by taking the ratio of total population aged 65 and above to total population aged 0 to 14 multiply by 100
+Variables Description Unit of measurement
+Variables for baseline model
+RGDPC Growth of real GDP per capita %
+POPAGE65 Population aged 65 and above % of total population
+LFPR65 Labor force participation rate, aged 65 and above % of population aged 65 and above
+GCF Gross capital formation % of GDP
+POPULATION Population growth rate %
+OPENNESS Trade openness (export + import) % of GDP
+SECONDARY Secondary school enrolment ratio % of gross
+CREDIT Domestic credit to private sector % of GDP
+Variables for robustness check
+INFLATION Inflation rate %
+DENSITY Population density people per square kilometer
+UNE Unemployment rate % of total labor force
+URBAN Urban population % of total population
+FDI Net inflow of foreign direct investment % of GDP
+DEPENDENCY Old-age dependency ratio % of working age population
+AI65 Aging index Number of persons aged 65 and above per
+100 persons aged 0–14
+LFPR65FEMALE Female labor force participation rate, aged 65 and above % of female population aged 65 and above
+LFPR65MALE Male labor force participation rate, aged 65 and above % of male population aged 65 and above
+1881
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+were widely used in the economic growth literature (Intisar et al. 2020; Khan et al.
+2019; Law et al. 2013, 2018; Law and Singh 2014; Topcu et al. 2020), by taking into
+consideration the impacts of investment, demographic changes, international trade,
+human capital, and financial development on economic growth, respectively. The vi
+represents the unobserved country-specific effect term, and εit is the error term.
+All the independent variables tend to be endogenous, and therefore, each of these
+variables is replaced with its own lagged 1-year value to address the endogeneity issue
+(due to the reverse causality between dependent and independent variables). Notably,
+the utilization of lagged one-period value has been commonly practiced across a wide
+variety of disciplines in economics and finance to mitigate the endogeneity issue in the
+model (Chia et al. 2020; Ibrahim 2019a, 2019b; Ibrahim and Law 2019; Ibrahim et al.
+2019).
+The coefficient β1 in Eq. (1) measures the effect of population aging on economic
+growth. The influence of population aging on economic growth was conditional upon
+the labor force participation of older people. Bloom et al. (2010) proposed that the
+increase in retirement age is necessary in overcoming the shrinking labor force and
+mitigating the negative economic consequences of population aging. Since this study
+investigates the role of older workers in the nexus between economic growth and population
+aging, Eq. (1) is therefore extended to incorporate the interaction between the
+aging population and labor force participation of older persons, as in Eq. (2). The inclusion
+of the interaction term enables identifying the impact of population aging on economic
+growth at the varying degree of older persons’ participation in the labor force.
+The marginal effect of population aging on economic growth depends on β3 after
+adding the interaction term, as in Eq. (3). That is,
+Static panel estimators, namely the pooled ordinary least square (POLS), fixed effect
+model (FEM), and random effect model (REM) were used to estimate Eqs. (1) and (2).
+Stata version 14 was used to perform all data analysis. Robust standard error was computed
+to preclude heteroscedasticity and autocorrelation in the error term. Additional
+control variables such as inflation rate, population density, unemployment rate, percent
+living in urban areas, and the net inflow of foreign direct investment were included in
+the robustness check to avoid omitted variable bias in the model. The inclusion of these
+variables is guided by the economic growth literature (Azman-Saini et al. 2010; Diebolt
+and Hippe 2019; Ibrahim 2007; Okun 1963; Topcu et al. 2020). Alternative measures
+for aging population, namely the old-age dependency ratio and aging index, were
+included in the model to avoid the measurement error. In addition, the aggregate labor
+force participation rate of older people was substituted with the gender-specific labor
+force participation rate of older persons to identify the roles of older female and male
+workers in mitigating the negative consequences of population aging. All the variables
+used in the robustness check are shown in Table 2.
+(2)
+RGDPC
+it =0 + 1
+POPAGE65
+it−1 + 2
+LFPR65
+it−1
++ 3(POPAGE65
+it−1 × LFPR65
+it−1) + 4X
+it−1 + v
+i + it
+(3)
+RGDPC
+it
+POPAGE65
+it−1
+= 1 + 3
+LFPR65
+it−1
+1882 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+4 Baseline results
+4.1 Descriptive statistics
+Table 3 shows the descriptive statistics of the study variables. The average growth
+of real GDP per capita in the developing countries in this study was 2.1%, over
+the study period. The proportion of the population aged 65 and above, on average,
+was 5.5%, while the old-age dependency ratio was 8.9%. The labor force participation
+rate of the older persons was estimated at 33.1%. The labor force participation
+rate of older females was found to be lower than their male counterparts (24.2% vs.
+43.8%).
+Table 4 shows the correlation matrix of the variables used in the analysis. The
+proportion of the population aged 65 and above (POPAGE65), the old-age dependency
+ratio (DEPENDENCY), and the aging index (AI65) were highly correlated.
+Hence, the old-age dependency ratio and aging index were excluded from the baseline
+model and were only used for robustness checks. Similar conclusion applied
+to the gender-specific labor force participation rate of older persons, whereby older
+female (LFPR65FEMALE) and male (LFPR65MALE) labor force participation
+rates were found to be highly correlated with the aggregate labor force participation
+rate of older persons (LFPR65). Meanwhile, the correlations for all other explanatory
+variables were less than 0.8 (a threshold value established by Gujarati 2003),
+indicating multicollinearity is not a major issue in the model.
+Table 3 Descriptive statistics
+Notes All statistics were calculated based on the 5-year average data
+values. ln denotes natural logarithm. Sample period: 1990–2019
+(5-year average)
+Variables Mean Std. dev Kurtosis Skewness Obs
+RGDPC 2.101 4.136 23.729 − 2.646 440
+POPAGE65 5.506 3.706 5.762 1.829 444
+LFPR65 33.052 21.210 1.920 0.328 444
+GCF 23.893 7.951 4.006 0.286 421
+POPULATION 1.755 1.132 4.197 − 0.643 444
+OPENNESS 69.238 35.407 3.864 1.054 424
+SECONDARY 60.947 30.150 1.754 − 0.181 379
+CREDIT 32.803 35.263 9.739 2.378 362
+INFLATION 60.859 389.476 184.918 12.348 407
+lnDENSITY 3.903 1.174 3.327 − 0.244 440
+UNE 7.855 5.015 5.506 1.405 402
+URBAN 46.317 20.504 1.969 0.172 444
+FDI 3.881 10.010 205.423 12.749 440
+DEPENDENCY 8.880 5.093 6.578 1.988 444
+AI65 22.071 26.488 7.722 2.317 444
+LFPR65FEMALE 24.186 20.529 2.349 0.757 444
+LFPR65MALE 43.836 23.771 1.757 − 0.075 444
+1883
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Table 4 Correlation matrix
+Variables RGDPC POPAGE65 LFPR65 GCF
+RGDPC 1.000
+POPAGE65 0.142 1.000
+LFPR65 − 0.173 − 0.653 1.000
+GCF 0.371 0.138 − 0.210 1.000
+POPULATION − 0.190 − 0.776 0.663 − 0.228
+OPENNESS 0.134 0.442 − 0.380 0.164
+SECONDARY 0.195 0.687 − 0.769 0.254
+CREDIT 0.109 0.418 − 0.450 0.165
+INFLATION − 0334 − 0.053 0.085 − 0.194
+lnDENSITY 0.259 0.126 − 0.001 0.067
+UNE − 0.103 0.126 − 0.050 0.062
+URBAN − 0.024 0.522 − 0.562 0.144
+FDI − 0.029 0.204 − 0.155 0.001
+DEPENDENCY 0.117 0.996 − 0.624 0.108
+AI65 0.134 0.983 − 0.612 0.124
+LFPR65FEMALE − 0.186 − 0.548 0.958 − 0.228
+LFPR65MALE − 0.151 − 0.701 0.967 − 0.194
+POPULATION OPENNESS SECONDARY CREDIT
+POPULATION 1.000
+OPENNESS − 0.319 1.000
+SECONDARY − 0.719 0.428 1.000
+CREDIT − 0.370 0.360 0.530 1.000
+INFLATION 0.110 − 0.070 − 0.081 − 0.076
+lnDENSITY − 0.217 − 0.089 0.107 0.206
+UNE − 0.048 0.244 0.212 0.284
+URBAN − 0.466 0.338 0.735 0.377
+FDI − 0.094 0.245 0.171 0.478
+DEPENDENCY − 0.747 0.428 0.647 0.381
+AI65 − 0.749 0.462 0.628 0.372
+LFPR65FEMALE 0.602 − 0.298 − 0.707 − 0.436
+LFPR65MALE 0.675 − 0.424 − 0.771 − 0.431
+INFLATION lnDENSITY UNE URBAN
+INFLATION 1.000
+lnDENSITY − 0.083 1.000
+UNE − 0.070 0.108 1.000
+URBAN − 0.033 − 0.186 0.194 1.000
+FDI − 0.027 0.017 0.357 0.150
+DEPENDENCY − 0.048 0.112 0.119 0.492
+AI65 − 0.049 0.104 0.115 0.473
+LFPR65FEMALE 0.099 − 0.060 − 0.007 − 0.512
+LFPR65MALE 0.068 0.039 − 0.079 − 0.568
+1884 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+4.2 Baseline panel regression results
+Table 5 shows the baseline results for panel regression. Columns 1 to 4 show the
+estimation results for the model without interaction term (Eq. 1). Based on the
+three model selection tests, the REM produces the appropriate estimator for making
+inferences on the impact of an aging population on economic growth. The robust
+standard error is used to estimate the REM to account for heteroscedasticity and
+autocorrelation in the error term. The REM with a robust standard error shows that
+population aging (POPAGE65) has a significant adverse effect on the per capita
+growth rate (column 4). This indicates that population aging will have a negative
+effect on the country’s economic growth. The finding of this study is consistent with
+past research (Aigner-Walder and Döring 2012; Bloom et al. 2010; Hondroyiannis
+and Papapetrou 2001; Hsu 2017; Katagiri 2018; Lisenkova et al. 2013; Oliver 2015;
+Otsu and Shibayama 2016; Park and Shin 2011).
+Columns 5 to 8 provide the panel regression results for the model with interaction
+terms (Eq. 2). Based on the model selection tests, the REM was selected to examine
+the interaction effect between the aging population and labor force participation of
+older persons on economic growth. The robust standard error used for estimating
+the REM is shown in column 8. Brambor et al. (2006) argued that it is inappropriate
+to interpret the coefficients of old age population (POPAGE65) and older persons’
+labor force participation rate (LFPR65) if the model contains an interaction term,
+as the former captures the effect of population aging on economic growth only if
+the older persons’ labor force participation rate is equal to zero. The latter provides
+the effect of older persons’ labor force participation rate on economic growth only if
+population aging is equal to zero. Thus, the coefficients of POPAGE65 and LFPR65
+are meaningless with the inclusion of interaction term in the model. The interaction
+term (POPAGE65 × LFPR65) is positive and significant at the 1% level (column 8),
+and this indicates the significant effect of labor force participation of older people in
+mitigating the negative effect of population aging on economic growth.
+As suggested by Brambor et al. (2006), the marginal effect of population aging
+on economic growth was computed at different levels of labor force participation of
+Notes All statistics were calculated based on the 5-year average data values. ln denotes natural logarithm.
+Sample period: 1990–2019 (5-year average)
+Table 4 (continued)
+FDI DEPENDENCY AI65 LFPR65FEMALE
+FDI 1.000
+DEPENDENCY 0.190 1.000
+AI65 0.196 0.978 1.000
+LFPR65FEMALE − 0.127 − 0.519 − 0.495 1.000
+LFPR65MALE − 0.168 − 0.672 − 0.676 0.856
+LFPR65MALE
+LFPR65MALE 1.000
+1885
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Table 5 Baseline results
+Dependent variable Growth of real GDP per capita (RGDPC)
+Equations Equation (1): Without interaction term Equation (2): With interaction term
+Estimation methods POLS REM FEM REM robust POLS REM FEM REM robust
+Independent variables 1 2 3 4 5 6 7 8
+Constant 6.552*** 6.501*** 3.639 6.501*** 7.141*** 7.250*** 6.208** 7.250***
+(1.267) (1.371) (2.632) (1.290) (1.260) (1.369) (2.984) (1.353)
+POPAGE65it−1 − 0.180*** − 0.166** − 0.041 − 0.166** − 0.242*** − 0.246*** − 0.464 − 0.246***
+(0.068) (0.083) (0.306) (0.076) (0.070) (0.086) (0.385) (0.061)
+LFPR65it−1 − 0.023* − 0.025* 0.011 − 0.025 − 0.079*** − 0.087*** − 0.094 − 0.087***
+(0.012) (0.015) (0.054) (0.019) (0.022) (0.026) (0.079) (0.032)
+POPAGE65it−1 × LFPR65it−
+1 – – – – 0.015*** 0.016*** 0.023* 0.016***
+(0.005) (0.006) (0.013) (0.005)
+GCFit−1 0.041* 0.008 − 0.047 0.008 0.038* 0.008 − 0.051 0.008
+(0.022) (0.024) (0.031) (0.037) (0.021) (0.023) (0.031) (0.036)
+POPULATIONit−1 − 1.100*** − 0.870*** − 0.638** − 0.870*** − 1.016*** − 0.809*** − 0.578** − 0.809***
+(0.234) (0.223) (0.248) (0.276) (0.232) (0.222) (0.248) (0.278)
+OPENNESSit−1 − 0.001 − 0.001 0.003 − 0.001 0.003 0.004 0.009 0.004
+(0.005) (0.006) (0.012) (0.006) (0.005) (0.006) (0.012) (0.006)
+SECONDARY it−1 − 0.030*** − 0.020* 0.015 − 0.020* − 0.041*** − 0.033*** 0.012 − 0.033**
+(0.010) (0.012) (0.026) (0.011) (0.010) (0.013) (0.026) (0.013)
+CREDITit−1 0.004 − 0.001 − 0.007 − 0.001 − 0.001 − 0.005 − 0.007 − 0.005
+(0.005) (0.006) (0.016) (0.008) (0.005) (0.007) (0.016) (0.007)
+1886 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Notes Values in parentheses are standard errors. Columns 4 and 8 show the robust standard error estimates. Sample period: 1990–2019 (5-year average)
+*, ** and *** denote statistical significance at 10%, 5% and 1% levels respectively
+Table 5 (continued)
+Dependent variable Growth of real GDP per capita (RGDPC)
+Equations Equation (1): Without interaction term Equation (2): With interaction term
+Estimation methods POLS REM FEM REM robust POLS REM FEM REM robust
+Model selection tests
+BP-LM test: p-value – 0.000*** – – – 0.000*** – –
+Hausman test: p-value – 0.165 – – – 0.216 – –
+Poolability F-test: p-value – – 0.000*** – – – 0.000*** –
+Time dummies Yes Yes Yes Yes Yes Yes Yes Yes
+1887
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+older people to exhibit its mitigating effect. The role of older workers in mitigating
+the negative effect of population aging on economic growth is shown in the marginal
+effect diagram (Fig. 1). Population aging has a significant and negative effect on economic
+growth if the older persons’ labor force participation rate is at the minimum
+level (1.514%). The negative effect corresponded to the intercept of the solid marginal
+effect line (− 0.221%). However, the negative impact of population aging on economic
+growth diminishes and becomes positive with the rising labor force participation of
+older persons.
+This study demonstrates the fundamental role of labor force participation of older
+people in mitigating the inverse relationship between population aging and economic
+growth, and this corroborates the hypothesis posited by Bloom et al. (2010) and the
+empirical findings by Vogel et al. (2017). The effect of population aging on economic
+growth was found to be conditional upon varying degrees of older persons’ labor force
+participation. This study shows that a higher rate of labor force participation of older
+people is important to grapple with the consequences of population aging.
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| ||||||||| |||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| || | |||| ||| |
+-.35 -.2 0 .2 .35 .5 .65 .8 .95 1.1 1.25 1.4 1.55 1.7 1.85 2
+Marginal Effect
+0 2 4 6 8 10 12 14 16
+Percentage of Observations 0
+5
+10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85
+LFPR65
+Fig. 1 Marginal effect of the proportion of old age population on economic growth. Notes (1) The figure
+provides marginal effect (solid line) and its 90% confidence interval (dotted lines), with the frequency
+distribution of old age labor force participation rate (histogram). (2) The above marginal effect diagram
+is plotted based on REM robust estimation in Table 5, column 8. (3) LFPR65 denotes labor force participation
+rate, aged 65 and above
+1888 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+5 Robustness checks
+This study aimed to examine the role of older workers in explaining the
+aging–economic growth nexus. Hence, a series of robustness checks were conducted
+to ensure the reliability of statistical inferences drawn from the model
+with an interaction term (Eq. 2).
+5.1 Additional control variables
+The first robustness check considered additional growth-related variables in the
+model to avoid omitted variable bias. These additional variables include the
+inflation rate (INFLATION), natural log of population density (lnDENSITY),
+unemployment rate (UNE), urbanization (URBAN), and the net inflow of foreign
+direct investment (FDI). Table 6 shows that the coefficients for the interaction
+term (POPAGE65 × LFPR65) are positive and significant for all the equations. As
+indicated earlier, inferences will be made based on the marginal effect estimate
+instead of the coefficient of the interaction term. Nevertheless, the marginal effect
+diagram will not be plotted for all the equations due to space constraints but is
+available upon request. Meanwhile, the marginal effect of population aging on
+economic growth was computed for the minimum, mean, and maximum values of
+the older persons’ labor force participation rate. A similar approach was adopted
+for the subsequent robustness analysis.
+The aging population has a negative and significant effect on economic growth
+if the level of older persons’ participation in the labor force is low (Table 6).
+However, the negative effect becomes less apparent and turns into positive with
+increasing labor force participation of older people. This outcome is consistent
+with the above baseline results. This reaffirms that the mitigating role of older
+workers is not influenced by the inclusion of additional variables in the model.
+5.2 Controlling for the outliers effect
+Outliers significantly affect the accuracy of estimation and lead to biased results.
+Hence, the second robustness check is performed to control the outliers in the
+data using winsorization and cook distance test. For winsorization, all dependent
+and independent variables in Eqs. (1) and (2) were winsorized at the: (i) 1st and
+99th percentiles, and (ii) 5th and 95th percentiles. Table 7 shows the estimation
+results. Based on the marginal effect estimates, economic growth was negatively
+influenced by population aging when the labor force participation rate of older
+persons is low. However, the relationship was mitigated by the higher labor force
+participation of older people. Thus, the mitigating effect of older workers remains
+robust and not affected by outliers.
+1889
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Table 6 Robustness check with additional control variables
+Notes Values in parentheses are robust standard errors. ln denotes natural logarithm. Sample period:
+1990–2019 (5-year average)
+*, ** and *** denote statistical significance at 10%, 5% and 1% levels respectively
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation methods FEM REM REM REM REM REM
+Independent variables 1 2 3 4 5 6
+Constant 7.047** 5.212*** 7.512*** 7.620*** 7.302*** 7.134***
+(2.867) (1.427) (1.531) (1.264) (1.328) (1.422)
+POPAGE65it−1 − 0.420 − 0.252*** − 0.255*** − 0.199*** − 0.253*** − 0.254***
+(0.276) (0.066) (0.062) (0.066) (0.061) (0.060)
+LFPR65it−1 − 0.098 − 0.087*** − 0.096*** − 0.089*** − 0.090** − 0.072***
+(0.084) (0.030) (0.036) (0.031) (0.032) (0.024)
+POPAGE65it−
+1 × LFPR65it−
+1
+0.020* 0.016*** 0.017*** 0.017*** 0.017*** 0.014***
+(0.011) (0.005) (0.006) (0.005) (0.005) (0.005)
+GCFit−1 − 0.067 0.003 0.003 0.010 0.008 − 0.011
+(0.043) (0.035) (0.038) (0.034) (0.036) (0.035)
+POPULATIONit−1 − 0.703*** − 0.741** − 0.755*** − 0.687** − 0.811*** − 0.917***
+(0.128) (0.286) (0.288) (0.303) (0.273) (0.127)
+OPENNESSit−1 0.008 0.006 0.010 0.002 0.004 0.004
+(0.011) (0.005) (0.006) (0.005) (0.006) (0.005)
+SECONDARY it−1 0.009 − 0.029** − 0.028* − 0.005 − 0.032** − 0.006
+(0.029) (0.013) (0.015) (0.013) (0.014) (0.015)
+CREDITit−1 0.001 − 0.008 − 0.005 − 0.005 − 0.008 − 0.005
+(0.016) (0.007) (0.009) (0.007) (0.010) (0.010)
+INFLATIONit−1 − 0.001*** – – – – − 0.001***
+(0.001) (0.000)
+lnDENSITYit−1 – 0.474** – – – 0.272
+(0.195) (0.203)
+UNEit−1 – – − 0.023 – – − 0.045
+(0.039) (0.039)
+URBANit−1 – – – − 0.053*** – − 0.036**
+(0.014) (0.016)
+FDIit−1 – – – – 0.012 0.013
+(0.011) (0.010)
+Marginal effect
+Minimum − 0.390 − 0.227*** − 0.229*** − 0.173** − 0.227*** − 0.233***
+(0.268) (0.067) (0.062) (0.068) (0.062) (0.060)
+Mean 0.232 0.282 0.319 0.376* 0.302 0.219
+(0.323) (0.187) (0.205) (0.196) (0.188) (0.160)
+Maximum 1.218 1.088** 1.186** 1.245*** 1.140** 0.935**
+(0.799) (0.429) (0.497) (0.451) (0.445) (0.388)
+Model selection test
+Hausman test: p-value 0.023** 0.266 0.723 0.509 0.152 0.194
+Time dummies Yes Yes Yes Yes Yes Yes
+1890 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Table 7 Robustness check by controlling for outliers
+Dependent variable Growth of real GDP per capita (RGDPC)
+Methods to control for outliers Winsorize: 1st and 99th Winsorize: 5th and 95th Cook distance test
+Estimation method REM REM REM REM REM REM
+Independent variables 1 2 3 4 5 6
+Constant 7.899*** 8.252*** 7.522*** 7.817*** 6.196*** 6.329***
+(1.779) (1.488) (1.786) (1.567) (1.914) (1.946)
+POPAGE65it−1 − 0.279*** − 0.306*** − 0.305*** − 0.348*** − 0.231*** − 0.232***
+(0.078) (0.065) (0.091) (0.079) (0.083) (0.073)
+LFPR65 it−1 − 0.089** − 0.063** − 0.092*** − 0.065*** − 0.084*** − 0.087***
+(0.037) (0.025) (0.033) (0.024) (0.030) (0.024)
+POPAGE65it−1 × LFPR65it−
+1 0.017*** 0.012** 0.018*** 0.012** 0.016*** 0.016***
+(0.006) (0.005) (0.006) (0.005) (0.005) (0.005)
+GCFit−1 0.006 − 0.012 0.009 − 0.001 0.014 − 0.017
+(0.037) (0.034) (0.033) (0.028) (0.035) (0.032)
+POPULATIONit−1 − 0.967* − 1.282*** − 0.897* − 1.311*** − 0.631 − 0.708**
+(0.534) (0.238) (0.507) (0.254) (0.465) (0.328)
+OPENNESSit−1 0.005 0.004 0.004 0.003 0.004 0.005
+(0.006) (0.006) (0.006) (0.005) (0.005) (0.005)
+SECONDARY it−1 − 0.033** − 0.011 − 0.028** − 0.013 − 0.026** − 0.007
+(0.013) (0.015) (0.012) (0.015) (0.013) (0.015)
+CREDITit−1 − 0.008 − 0.004 − 0.011 − 0.009 − 0.003 − 0.008
+(0.009) (0.010) (0.009) (0.008) (0.008) (0.008)
+INFLATIONit−1 – − 0.001 - − 0.031* - − 0.001***
+(0.001) (0.016) (0.000)
+lnDENSITYit−1 – 0.272 – 0.439** – 0.406**
+(0.195) (0.180) (0.163)
+UNEit−1 – − 0.038 – − 0.031 – − 0.012
+(0.036) (0.031) (0.032)
+URBANit−1 – − 0.034** – − 0.022 – − 0.037**
+(0.017) (0.015) (0.015)
+FDIit−1 – 0.012* – 0.011** – 0.015*
+(0.006) (0.005) (0.008)
+Marginal effect
+Minimum − 0.248*** − 0.284*** − 0.233** − 0.300*** − 0.207** − 0.207***
+(0.084) (0.066) (0.098) (0.080) (0.086) (0.074)
+Mean 0.268 0.083 0.284 0.045 0.287 0.308*
+(0.252) (0.185) (0.236) (0.174) (0.212) (0.176)
+Maximum 0.989* 0.598 0.924** 0.471 1.084** 1.128***
+(0.523) (0.403) (0.446) (0.337) (0.475) (0.402)
+Model selection test
+Hausman test: p-value 0.203 0.274 0.133 0.182 0.210 0.459
+Time dummies Yes Yes Yes Yes Yes Yes
+1891
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+5.3 Alternative measures of population aging
+The old-age dependency ratio and aging index have been widely used as proxies of
+population aging in economic-related research in the past (Li and Zhang 2015; Lo
+and Sek 2016; Oliver 2015). The proportion of the population aged 65 years and
+above is replaced with the old-age dependency ratio and aging index for the third
+robustness check. The marginal effect estimate in Table 8 shows that both the oldage
+dependency ratio and aging index have a negative and significant effect on economic
+growth if the level of older persons’ participation in the labor force is low.
+However, the negative effect turns into positive with a higher labor force participation
+of the older people. Hence, the mitigating effect of labor force participation rate
+of older persons remains robust and is not affected by different measures of population
+aging.
+5.4 Gender‑specific labor force participation of older persons
+Analyses in Sect. 5.1 to Sect. 5.3 employed the aggregate labor force participation
+rate of older persons (LFPR65) in examining the mitigating effect of older workers.
+This may result in aggregation bias, given that older female and male workers
+might have different contributions toward the relationship between population aging
+and economic growth. In particular, older female labor force participation may be
+less likely to mitigate the negative impact of population aging on growth, due to
+the labor law that restricted the types of jobs women can undertake, and when and
+where they are permitted to work. According to World Bank (2018), the labor law
+in 104 out of the 189 economies barred women from working at night or in certain
+jobs in manufacturing, construction, energy, agriculture, water, and transportation
+sectors, and most of these economies were developing countries.2 Consequently,
+this prevented women from joining the labor market and reduced their labor force
+participation rate. This argument was well supported by the descriptive analysis in
+Table 3, whereby older female labor force participation rate was nearly half of that
+of their male counterparts. The findings on the mitigating effect of aggregate labor
+force participation rate of older persons may not be generalized to older female labor
+force participation. Hence, the baseline Eq. (2) is re-estimated by substituting the
+aggregate labor force participation rate of older persons (LFPR65) with the older
+female (LFPR65FEMALE) and male (LFPR65MALE) labor force participation
+rates.
+Table 7 (continued)
+Notes Values in parentheses are robust standard errors. ln denotes natural logarithm. Sample period:
+1990–2019 (5-year average)
+*, ** and *** denote statistical significance at 10%, 5% and 1% levels respectively
+2 https:// www. wefor um. org/ agenda/ 2018/ 08/ 104- count ries- have- laws- that- preve nt- women- from- worki
+ng- in- some- jobs/.
+1892 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Table 8 Robustness check with alternative measures of population aging
+Dependent variable Growth of real GDP per capita (RGDPC)
+Measures of population aging Old-age dependency ratio
+(DEPENDENCY)
+Aging index (AI65)
+Estimation method REM REM REM REM
+Independent variables 1 2 3 4
+Constant 7.483*** 7.184*** 6.571** 6.486***
+(1.366) (1.450) (1.311) (1.376)
+DEPENDENCYit−1 − 0.188*** − 0.192*** – –
+(0.043) (0.043)
+AI65it−1 – – − 0.032*** − 0.034***
+(0.007) (0.007)
+LFPR65it−1 − 0.102*** − 0.084*** − 0.054** − 0.043**
+(0.037) (0.028) (0.025) (0.018)
+DEPENDENCYit−1 × LFPR65it−
+1 0.012*** 0.010*** – –
+(0.004) (0.003)
+AI65it−1 × LFPR65it−
+1 – – 0.003** 0.002**
+(0.001) (0.001)
+GCFit−1 0.008 − 0.010 0.007 − 0.012
+(0.036) (0.035) (0.036) (0.034)
+POPULATIONit−1 − 0.835*** − 0.938*** 0.782*** − 0.895***
+(0.268) (0.135) (0.277) (0.124)
+OPENNESSit−1 0.004 0.004 0.003 0.004
+(0.006) (0.006) (0.006) (0.006)
+SECONDARY it−1 − 0.031** − 0.005 − 0.032** − 0.006
+(0.013) (0.015) (0.013) (0.016)
+CREDITit−1 − 0.004 − 0.005 − 0.006 − 0.006
+(0.008) (0.010) (0.007) (0.010)
+INFLATIONit−1 – − 0.001*** – − 0.001***
+(0.000) (0.000)
+lnDENSITYit−1 – 0.304 – 0.281
+(0.205) (0.209)
+UNEit−1 – − 0.046 – − 0.048
+(0.040) (0.038)
+URBANit−1 – − 0.036** – − 0.036**
+(0.016) (0.016)
+FDIit−1 – 0.012 – 0.014
+(0.010) (0.010)
+Marginal effect
+Minimum − 0.171*** − 0.177*** − 0.028*** − 0.031***
+(0.043) (0.042) (0.007) (0.007)
+Mean 0.192 0.142 0.058 0.042
+(0.131) (0.112) (0.036) (0.030)
+1893
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Tables 9 and 10 present the estimation results based on older female and male
+labor force participation, respectively. Contrary to the general perception that older
+female workers have a less significant contribution to the national output, the results
+show that older female workers were important in overcoming the negative impact
+of population aging on growth in developing countries. The marginal effect shows
+that both older female and male labor force participation was significant in mitigating
+the negative impact of population aging on economic growth. The aging population
+poses a negative impact on economic growth when the older female and
+male participation in the labor force is at a low level. However, this analysis shows
+that the negative impact was mitigated by the increasing labor force participation
+of older females and males. The result indicates that older female and male labor
+force participation are equally important in addressing the economic consequences
+of population aging. Hence, the result reaffirms the baseline finding based on the
+aggregate labor force participation rate of older persons. The mitigating effect of
+the labor force participation rate of older persons remains robust and does not suffer
+from aggregation bias.
+5.5 Alternative sample period
+The robustness check in this section is based on the alternative sample period. The
+baseline result for the model with an interaction term (Eq. 2) is estimated using the
+5-year average data. Alternatively, the sample period can be averaged into 6-year
+intervals, with a maximum of five observations for each country: between 1990 and
+1995, 1996 and 2001, 2002 and 2007, 2008 and 2013, 2014 and 2019, and the result
+is shown in Table 11. The result is similar to the baseline finding, in which the coefficients
+for the interaction term remain positive and significant for all the equations.
+The marginal effect shows that population aging reduces economic growth, but the
+effect is mitigated by the higher labor force participation rate of older persons.
+Notes Values in parentheses are robust standard errors. ln denotes natural logarithm
+*, ** and *** denote statistical significance at 10%, 5% and 1% levels respectively
+Sample period: 1990–2019 (5-year average)
+Table 8 (continued)
+Dependent variable Growth of real GDP per capita (RGDPC)
+Measures of population aging Old-age dependency ratio
+(DEPENDENCY)
+Aging index (AI65)
+Estimation method REM REM REM REM
+Maximum 0.767** 0.646** 0.193** 0.158**
+(0.320) (0.278) (0.090) (0.077)
+Model selection test
+Hausman test: p-value 0.148 0.106 0.281 0.333
+Time dummies Yes Yes Yes Yes
+1894 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Table 9 Robustness check with LFPR65FEMALE
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation method REM REM REM REM REM REM
+Independent variables 1 2 3 4 5 6
+Constant 6.586*** 6.382*** 6.815*** 6.443*** 6.021*** 5.880***
+(1.166) (1.327) (1.174) (1.366) (1.145) (1.307)
+POPAGE65it−1 − 0.231*** − 0.246*** – – – –
+(0.063) (0.057)
+DEPENDENCYit−1 – – − 0.176*** − 0.183*** – –
+(0.044) (0.041)
+AI65it−1 – – – – –0.031*** –0.033***
+(0.008) (0.007)
+LFPR65FEMALEit−1 − 0.097*** − 0.075*** − 0.115*** − 0.088*** − 0.058** − 0.043**
+(0.033) (0.025) (0.040) (0.030) (0.025) (0.017)
+POPAGE65it−1 × LFPR65FEMALEit−
+1 0.021*** 0.018*** – – – –
+(0.006) (0.006)
+DEPENDENCYit−1 × LFPR65FEMALEit−
+1 – – 0.014*** 0.012*** – –
+(0.005) (0.004)
+AI65it−1 × LFPR65FEMALEit−
+1 – – – – 0.004*** 0.003***
+(0.001) (0.001)
+GCFit−1 0.007 − 0.011 0.006 − 0.010 0.005 − 0.013
+(0.035) (0.034) (0.035) (0.034) (0.035) (0.034)
+POPULATIONit−1 − 0.809*** − 0.918*** − 0.833*** − 0.938*** − 0.780*** − 0.895***
+(0.273) (0.127) (0.264) (0.1350 (0.269) (0.124)
+OPENNESSit−1 0.003 0.004 0.003 0.004 0.003 0.004
+(0.006) (0.005) (0.006) (0.005) (0.006) (0.005)
+1895
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Table 9 (continued)
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation method REM REM REM REM REM REM
+SECONDARY it−1 − 0.028** 0.001 − 0.026** 0.001 − 0.028** − 0.001
+(0.012) (0.013) (0.011) (0.013) (0.011) (0.014)
+CREDITit−1 − 0.004 − 0.004 − 0.004 − 0.004 − 0.005 − 0.005
+(0.007) (0.010) (0.008) (0.010) (0.007) (0.010)
+INFLATIONit−1 − − 0.001*** − − 0.001*** − − 0.001***
+(0.000) (0.000) (0.000)
+lnDENSITYit−1 – 0.273 – 0.300 – 0.271
+(0.206) (0.208) (0.211)
+UNEit−1 – − 0.046 − − 0.047 – − 0.047
+(0.040) (0.041) (0.039)
+URBANit−1 – − 0.036** − − 0.035** – − 0.036**
+(0.016) (0.016) (0.016)
+FDIit−1 – 0.014 − 0.013 – 0.015
+(0.010) (0.010) (0.010)
+Marginal effect
+Minimum − 0.223*** − 0.239*** − 0.171*** − 0.178*** − 0.029*** − 0.032***
+(0.064) (0.056) (0.044) (0.041) (0.008) (0.007)
+Mean 0.269 0.187 0.172 0.113 0.057* 0.040
+(0.170) (0.140) (0.118) (0.095) (0.030) (0.026)
+Maximum 1.412*** 1.177*** 0.969*** 0.789** 0.258*** 0.208**
+(0.511) (0.443) (0.372) (0.310) (0.097) (0.086)
+1896 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Table 9 (continued)
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation method REM REM REM REM REM REM
+Model selection test
+Hausman test: p-value 0.219 0.174 0.173 0.108 0.319 0.279
+Time dummies Yes Yes Yes Yes Yes Yes
+Notes Values in parentheses are robust standard errors. ln denotes natural logarithm. Sample period: 1990–2019 (5-year average)
+*, ** and *** denote statistical significance at 10%, 5% and 1% levels respectively
+1897
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Table 10 Robustness check with LFPR65MALE
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation methods REM REM FEM REM REM REM
+Independent variables 1 2 3 4 5 6
+Constant 7.514*** 7.655*** 4.073 7.758*** 6.631*** 6.760***
+(1.570) (1.510) (3.109) (1.532) (1.471) (1.420)
+POPAGE65it−1 − 0.259*** − 0.276*** – – – –
+(0.064) (0.066)
+DEPENDENCYit−1 – – − 0.261 − 0.208*** – –
+(0.196) (0.047)
+AI65it−1 – – – – − 0.033*** − 0.036***
+(0.008) (0.008)
+LFPR65MALEit−1 − 0.069** − 0.063*** − 0.051 − 0.074*** − 0.041* − 0.038**
+(0.028) (0.023) (0.072) (0.026) (0.022) (0.018)
+POPAGE65it−1 × LFPR65MALEit−
+1 0.012*** 0.011*** – – – –
+(0.004) (0.004) 0.013** 0.008***
+DEPENDENCYit−1 × LFPR65MALEit−
+1 – – (0.006) (0.003) – –
+AI65it−1 × LFPR65MALEit−
+1 – – – – 0.002** 0.002**
+(0.0001) (0.001)
+GCFit−1 0.010 − 0.009 − 0.056 − 0.009 0.009 − 0.010
+(0.037) (0.035) (0.042) (0.035) (0.037) (0.034)
+POPULATIONit−1 − 0.822*** − 0.924*** − 0.568** − 0.941*** − 0.805*** − 0.910***
+(0.282) (0.134) (0.228) (0.140) (0.281) (0.134)
+OPENNESSit−1 0.003 0.004 0.010 0.005 0.003 0.004
+(0.006) (0.006) (0.011) (0.006) (0.006) (0.006)
+SECONDARY it−1 − 0.033** − 0.010 0.013 − 0.009 − 0.030** − 0.007
+(0.014) (0.017) (0.027) (0.017) (0.014) (0.017)
+1898 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Table 10 (continued)
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation methods REM REM FEM REM REM REM
+CREDITit−1 − 0.005 − 0.005 − 0.008 − 0.005 − 0.005 − 0.006
+(0.008) (0.010) (0.018) (0.010) (0.007) (0.010)
+INFLATIONit−1 – − 0.001*** – − 0.001*** – − 0.001***
+(0.000) (0.000) (0.000)
+lnDENSITYit−1 – 0.297 – 0.329 – 0.306
+(0.204) (0.207) (0.210)
+UNEit−1 – − 0.048 – − 0.048 – − 0.053
+(0.038) (0.039) (0.038)
+URBANit−1 – − 0.036** – − 0.035** – − 0.036**
+(0.017) (0.017) (0.017)
+FDIit−1 – 0.013 – 0.012 – 0.013
+(0.010) (0.010) (0.010)
+Marginal effect
+Minimum − 0.231*** − 0.249*** − 0.230 − 0.189*** − 0.028*** − 0.032***
+(0.066) (0.066) (0.187) (0.046) (0.008) (0.008)
+Mean 0.256 0.204 0.294 0.144 0.044 0.035
+(0.202) (0.171) (0.213) (0.121) (0.038) (0.032)
+Maximum 0.776** 0.690** 0.855* 0.500** 0.122 0.106
+(0.388) (0.336) (0.450) (0.242) (0.076) (0.065)
+Model selection test
+Hausman test: p-value 0.126 0.209 0.086* 0.112 0.144 0.312
+Time dummies Yes Yes Yes Yes Yes Yes
+Notes Values in parentheses are robust standard errors. ln denotes natural logarithm. Sample period: 1990–2019 (5-year average)
+*, ** and *** denote statistical significance at 10%, 5% and 1% levels respectively
+1899
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+5.6 Developing countries with different aging status
+The robustness check in this section examines countries with different aging status.
+The United Nations and the World Health Organization consider society as
+‘aging’ when 7% of the total population is aged 65 years and above. The urgency of
+overcoming the impact of population aging on economic growth is felt much more
+in countries with a large percentage of older persons (7% and above), such as in
+China, Thailand, and Vietnam. In contrast, the problems of population aging are less
+pressing in most countries in the African continent given the relatively large base
+of young people. Hence, the sampled developing countries are further classified
+according to the percentage of older persons. The country classification is shown in
+Appendix 1. To examine the mitigating effect of older persons’ labor force participation
+in these two groups of countries, the baseline Eq. (2) is extended by incorporating
+a new dummy variable of AGING and its interaction terms with the proportion
+of the population aged 65 and above (POPAGE65), labor force participation rate
+of older persons (LFPR65) and the interaction between POPAGE65 and LFPR65
+(POPAGE65 × LFPR65), as written below:
+The AGING dummy variable takes the value of 1 for countries with at least 7%
+of older persons and 0 otherwise.3 Table 12 shows the REM estimation results for
+countries with less than 7% of older persons and countries with at least 7% of older
+persons. The marginal effect estimate indicates that when the labor force participation
+rate of older persons is at a low level, an increase in the older population would
+negatively influence economic performance, but the negative impact is mitigated by
+rising labor force participation of older people, regardless of the status of population
+aging. The results suggest that the baseline finding on the role of older persons’
+labor force participation in mitigating the negative effect of population aging
+on economic growth remains robust and is not affected by the country’s aging status.
+5.7 Alternative estimation method
+Economic growth is widely perceived to be dynamic in nature, and the current rate
+of growth is dependent on the past growth rate. Hence, empirical analysis related to
+economic growth tends to employ a dynamic model by including the initial income
+of GDP per capita as the explanatory variable to control for the dynamic effect and
+avoid model misspecification error (Azman-Saini et al. 2010; Law et al. 2018; Law
+and Singh 2014). In this regard, the static panel estimator used in the earlier analysis
+may produce biased estimates due to the omission of the initial income variable in
+the model. Thus, to account for the dynamic effect of economic growth, the baseline
+Eq. (2) is extended as below:
+(4)
+RGDPC
+it =0 + 1
+POPAGE65
+it−1 + 2
+LFPR65
+it−1 + 3(POPAGE65
+it−1 × LFPR65
+it−1)
++ 4
+AGING
+i + 5(AGING
+i × POPAGE65
+it−1) + 6(AGING
+i × LFPR65
+it−1)
++ 7(AGING
+i × POPAGE65
+it−1 × LFPR65
+it−1) + 8X
+it−1 + v
+i + it
+3 The computation of marginal effect for Eq. (4) is provided in Appendix 2.
+1900 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Table 11 Robustness check with 6-year average data
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation method REM REM REM REM REM REM
+Independent variables 1 2 3 4 5 6
+Constant 5.601*** 5.536*** 5.827*** 5.436*** 5.062*** 5.089***
+(1.675) (1.843) (1.768) (1.953) (1.567) (1.745)
+POPAGE65it−1 − 0.208** − 0.196** – – – –
+(0.084) (0.081)
+DEPENDENCYit−1 – – − 0.163*** − 0.153*** – –
+(0.061) (0.059)
+AI65it−1 – – – – − 0.029*** − 0.030***
+(0.010) (0.009)
+LFPR65it−1 − 0.080*** − 0.084*** − 0.092*** − 0.093*** − 0.048** − 0.052***
+(0.027) (0.024) (0.032) (0.028) (0.020) (0.018)
+POPAGE65it−
+1 × LFPR65it−
+1
+0.016*** 0.018*** – – – –
+(0.005) (0.005)
+DEPENDENCYit−
+1 × LFPR65it−
+1
+– – 0.011*** 0.011*** – –
+(0.004) (0.003)
+AI65it−1 × LFPR65it−
+1 – – – – 0.003** 0.003***
+(0.001) (0.001)
+GCFit−1 0.015 − 0.009 0.015 − 0.008 0.013 − 0.012
+(0.036) (0.035) (0.037) (0.036) (0.036) (0.035)
+POPULATIONit−1 − 0.429 − 0.196 − 0.477 − 0.234 − 0.403 − 0.184
+(0.289) (0.213) (0.299) (0.232) (0.298) (0.229)
+OPENNESSit−1 0.001 − 0.001 0.001 − 0.001 − 0.001 − 0.001
+(0.007) (0.007) (0.007) (0.007) (0.007) (0.007)
+SECONDARY it−1 − 0.026* 0.011 − 0.024* 0.014 − 0.024* 0.013
+(0.015) (0.018) (0.014) (0.017) (0.014) (0.018)
+CREDITit−1 − 0.002 − 0.009 − 0.001 − 0.008 − 0.003 − 0.010
+(0.008) (0.010) (0.008) (0.011) (0.008) (0.010)
+INFLATIONit−1 – − 0.001*** – − 0.001*** – − 0.001***
+(0.000) (0.000) (0.000)
+lnDENSITYit−1 – 0.182 – 0.226 – 0.204
+(0.218) (0.220) (0.225)
+UNEit−1 – − 0.047 – − 0.051 – − 0.051
+(0.046) (0.047) (0.046)
+URBANit−1 – − 0.043** – − 0.041** – − 0.041**
+(0.018) (0.018) (0.018)
+FDIit−1 – 0.023*** – 0.022** – 0.024***
+(0.009) (0.009) (0.009)
+Marginal effect
+Minimum − 0.182** − 0.168** − 0.146** − 0.135** − 0.025** − 0.026***
+(0.084) (0.080) (0.060) (0.058) (0.010) (0.009)
+Mean 0.331* 0.384** 0.198 0.224** 0.063* 0.069**
+(0.193) (0.171) (0.123) (0.112) (0.038) (0.033)
+Maximum 1.139** 1.253*** 0.740** 0.789*** 0.202** 0.218***
+(0.446) (0.403) (0.297) (0.269) (0.093) (0.081)
+1901
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+The ln represents the natural logarithm. INITIAL refers to the initial income for
+GDP per capita. Initial income is based on the initial year of each averaged time
+period. For instance, if the 5-year sample period runs from 1990 to 1994, then the
+initial income is the GDP per capita for 1990.
+However, the static panel estimator may suffer from Nickell’s (1981) bias with
+the inclusion of initial income variable, and produce biased estimates. This issue can
+be solved by employing the dynamic panel system generalized method of moments
+(system GMM) estimator proposed by Blundell and Bond (1998) to estimate Eq. (5).
+This technique was commonly used in the growth literature (Azman-Saini et al.
+2010; Law et al. 2018). The estimation was conducted based on the xtabond2 routine
+proposed by Roodman (2009a).
+Apart from addressing Nickell’s bias, the GMM estimator is an instrumental
+variable estimator that utilizes the internal instrument in mitigating the endogeneity
+issue that arises from the reverse causality between economic growth and aging
+population. As indicated by Nagarajan et al. (2021), the economic growth of a country
+will alter the social structure of households and lead to fertility decline. This in
+turn would lead to accelerated population aging. Thus, the GMM estimator can be
+used to address the endogeneity problem and provides a robustness check on the
+baseline result.
+In the empirical estimation, this study encompasses Ibrahim’s (2019b) recommendation
+by replacing all the independent variables with its own lagged 1-year
+value to address the instrument proliferation problem in GMM estimator. Moreover,
+the system GMM estimator consists of two variants: the one-step and two-step estimators.
+The one-step estimator provides an efficient estimate in the presence of a
+small cross-section unit. The two-step estimator is asymptotically more efficient than
+the one-step estimator because it uses optimal weighting matrices (Azman-Saini
+et al. 2010). However, its application to a sample with a small cross-section dimension
+may lead to biased standard errors. Hence, this study applied Windmeijer’s
+(5)
+RGDPC
+it =0 + 1
+ln INITIAL
+it−1 + 2
+POPAGE65
+it−1 + 3
+LFPR65
+it−1
++ 4(POPAGE65
+it−1 × LFPR65
+it−1) + 5X
+it−1 + v
+i + it
+Table 11 (continued)
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation method REM REM REM REM REM REM
+Model selection test
+Hausman test: p-value 0.163 0.638 0.138 0.556 0.153 0.483
+Time dummies Yes Yes Yes Yes Yes Yes
+Notes Values in parentheses are robust standard errors. ln denotes natural logarithm. Sample period:
+1990–2019 (6-year average)
+*, ** and *** denote statistical significance at 10%, 5% and 1% levels respectively
+1902 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Table 12 Robustness check for countries with different aging status
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation methods REM REM REM FEM REM REM
+Independent variables 1 2 3 4 5 6
+Constant 10.655*** 10.101*** 12.683*** − 8.414 8.379*** 8.482***
+(2.059) (2.433) (2.635) (11.466) (1.690) (1.675)
+POPAGE65it−1 − 1.210*** − 1.069** – – – –
+(0.451) (0.495)
+DEPENDENCYit−1 – – − 1.009*** − 1.220* – –
+(0.363) (0.636)
+AI65it−1 – – – – − 0.216** − 0.203**
+(0.107) (0.102)
+LFPR65it−1 − 0.173*** − 0.142*** − 0.225*** − 0.343*** − 0.107*** − 0.093***
+(0.048) (0.047) (0.069) (0.125) (0.035) (0.028)
+POPAGE65it−1 × LFPR65it−
+1 0.041*** 0.036*** – – – –
+(0.012) (0.014)
+DEPENDENCYit−1 × LFPR65it−
+1 – – 0.032** 0.052*** – –
+(0.010) (0.016)
+AI65it−1 × LFPR65it−
+1 – – – – 0.009*** 0.008***
+(0.003) (0.003)
+AGINGi − 3.793 − 1.824 − 5.869** − − 2.588 − 1.031
+(2.316) (2.681) (2.824) (1.635) (1.759)
+AGINGi × POPAGE65it−
+1 1.008** 0.769 – – – –
+(0.441) (0.496)
+AGINGi × DEPENDENCYit−
+1 – – 0.873** 1.454** – –
+(0.363) (0.687)
+1903
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Table 12 (continued)
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation methods REM REM REM FEM REM REM
+AGINGi × AI65it−
+1 – – – – 0.197* 0.171*
+(0.105) (0.100)
+AGINGi × LFPR65it−
+1 0.146** 0.084 0.209** 0.381** 0.103** 0.063
+(0.074) (0.100) (0.099) (0.188) (0.043) (0.056)
+AGINGi × POPAGE65it−
+1 × LFPR65it−
+1 − 0.036** − 0.028 – – – –
+(0.014) (0.018)
+AGINGi × DEPENDENCYit−
+1 × LFPR65it−
+1 – – − 0.029** − 0.058*** – –
+(0.012) (0.021)
+AGINGi × AI65it−
+1 × LFPR65it−
+1 – – – – − 0.008*** − 0.007**
+(0.003) (0.003)
+GCFit−1 Included Included Included Included Included Included
+POPULATIONit−1 Included Included Included Included Included Included
+OPENNESSit−1 Included Included Included Included Included Included
+SECONDARY it−1 Included Included Included Included Included Included
+CREDITit−1 Included Included Included Included Included Included
+INFLATIONit−1 – Included – Included – Included
+lnDENSITYit−1 – Included – Included – Included
+UNEit−1 – Included – Included – Included
+URBANit−1 – Included – Included – Included
+FDIit−1 – Included – Included – Included
+Marginal effect for countries with less than 7% of older persons (AGING = 0)
+Minimum − 1.095** − 0.969** − 0.921*** − 1.074* − 0.192* − 0.180*
+(0.428) (0.466) (0.340) (0.597) (0.103) (0.097)
+1904 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Table 12 (continued)
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation methods REM REM REM FEM REM REM
+Mean 0.430 0.356 0.244 0.856** 0.124 0.132
+(0.365) (0.359) (0.242) (0.320) (0.092) (0.091)
+Maximum 2.226*** 1.915** 1.615*** 3.127*** 0.495*** 0.499***
+(0.765) (0.831) (0.605) (0.852) (0.179) (0.183)
+Marginal effect for countries with at least 7% of older persons (AGING = 1)
+Minimum − 0.194* − 0.288** − 0.132* 0.226 − 0.017 − 0.031**
+(0.116) (0.135) (0.078) (0.318) (0.013) (0.015)
+Mean − 0.105 − 0.166 − 0.090 0.143 − 0.001 − 0.014
+(0.160) (0.160) (0.116) (0.300) (0.021) (0.021)
+Maximum 0.101 0.119 0.007 − 0.049 0.036 0.025
+(0.439) (0.502) (0.350) (0.521) (0.057) (0.062)
+Model selection test
+Hausman test: p-value 0.228 0.127 0.173 0.095 0.355 0.288
+Time dummies Yes Yes Yes Yes Yes Yes
+Notes Values in parentheses are robust standard errors. ln denotes natural logarithm. Sample period: 1990–2019 (5-year average)
+*, ** and *** denote statistical significance at 10%, 5% and 1% levels respectively
+1905
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+finite sample correction to address the severe downward bias in the standard errors
+of the two-step system GMM estimates (Windmeijer 2005). Both estimators are
+used in estimating Eq. (5) to ensure robustness.
+This study follows Roodman’s (2009a) suggestion in using the forward orthogonal
+deviations to remove the individual-specific effect. This method is more efficient
+than the first-difference transformation as it minimizes data loss in the unbalanced
+panel. Furthermore, all the regressors are likely to be endogenous, and the standard
+treatment is to instrumentalize these variables with lag two and longer in the firstdifference
+equation and lag one of the first-difference in the level equation (Roodman
+2009a). However, this would result in an instrument proliferation problem, due
+to the small number of countries in this study. Hence, not all the available lags will
+be used as an instrument. Instead, the independent variables will be instrumentalized
+with lag two in the first-difference equation and lag one of the first-difference in
+the level equation,4 as suggested by Roodman (2009b).
+The consistency of GMM estimator depends on two specification tests, namely
+the Hansen J test of too many instruments and the autocorrelation test in the disturbances
+(Arellano and Bond 1991). Failure to reject the null hypothesis for the
+Hansen J test indicates no instrument proliferation. For the autocorrelation test, one
+should not reject the absence of the second-order autocorrelation (AR(2)).
+Table 13 shows the estimation result of the system GMM estimator. The lagged
+one of initial income (INITIAL) is insignificant for all the equations, indicating the
+absence of dynamic effect in the model. This reinforces the utilization of a static
+panel estimator in the earlier analysis. Notably, the role of older workers in mitigating
+the negative influence of population aging on economic growth is significant and
+consistent throughout, thereby reaffirming that the baseline result is robust to the
+endogeneity of aging population. The marginal effect estimate shows that population
+aging impeded economic growth when the labor force participation rate of older
+persons is low. However, the negative effect of population aging turns positive at a
+higher level of labor force participation rate of older people.
+Post estimation diagnostic tests suggested that the estimation results of one- and
+two-step system GMM are valid. As such, failure to reject the Hansen J test indicated
+the validity of instruments used in the estimator. Similarly, failure to reject
+the null hypothesis of Arellano-Bond statistic for error autocorrelation indicated the
+absence of error correlation. In addition, the number of instruments was less than
+the number of cross-section countries, indicating the absence of instrument proliferation
+problem.
+6 Policy implications and recommendations
+This study analyzes the aging–economic growth nexus using panel data from 74
+developing countries between 1990 and 2019. Specifically, this study explores the
+potential influence of older workers in mitigating the relationship between population
+aging and economic growth. This study draws attention to the importance of
+4 In the context of xtabond2, this statement refers to the specification of lag (2 2).
+1906 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+promoting the participation of older people in countering the adverse effect of population
+aging on economic growth, as the developing countries will be aging rapidly
+in the coming decades. It is prudent for developing countries to tap the vast pool
+of the resources of older people for sustainable economic development. Rising life
+expectancy is a demographic trend worldwide, which has led to rapid population
+aging and affected the accumulation of productive factors (He and Li 2020). Keeping
+equitable economic development in a rapidly aging nation requires proper labor
+market policy planning. Developing countries can follow the policies and strategies
+of the European nations to abolish the retirement age, to allow older persons to work
+beyond the current retirement age. Raising the labor force participation of older people
+is crucial for sustained economic growth to grapple with the consequences of
+population aging.
+Besides, the government and employers can provide better incentives such as
+flexible workspace and working hours, as well as tax rebates for both older employees
+and their employers to encourage and facilitate the labor force participation of
+older people. However, it is important to note that the economic impacts of population
+aging are likely to vary across countries (Bloom et al. 2010). As such, the
+active aging programs need to be designed with care and country-specific. For
+instance, developing countries with a high proportion of older people, such as China
+and Vietnam have taken various measures to establish a comprehensive aging policy
+system. In China, some of the policy measures include the establishment of the
+National Working Commission on Aging Issues (1983), the 7-Year Programme on
+Aging (1994), the Law on Protection of Rights and Interests of Older Persons (1996,
+revised in 2013), the Decision to Strengthen the Work on Aging (2001), 10th 5-Year
+Plan on Development of Undertakings on aging (2001), and the 13th 5-Year Plan for
+Development of Undertakings on Aging and Old Age Support System (2017) (Zhu
+et al. 2019). Vietnam’s policy measures on aging include the Ordinance on Elderly
+People (2000), Law on the Elderly 2009 (2010), and the National Action Program
+on Older Persons 2012–2020 (2012) (Vietnam National Committee on Ageing and
+UNFPA 2019). Some developing countries in Southeast Asia, such as Thailand
+and Malaysia have considered a corporate income tax deduction and incentives for
+employing senior citizens (Ministry of Finance Malaysia 2018; Teerawichitchainan
+et al. 2019). Other developing countries can thus draw on these countries’ experiences
+in designing a pragmatic policy and programs for older persons.
+Good health is essential to prolong the working life of older people. Health is a
+major impediment to the labor force participation of older people (Schofield et al.
+2017). Therefore, the national governments must strengthen the healthcare system
+to equip the workers better to meet the challenges of a rapidly rising old age population.
+Modern technology could be beneficial to older employees if they are given
+lifelong training and re-training. New technologies can make job-related tasks more
+age-friendly (Asian Development Bank 2018), and this facilitates the older workers
+to remain in and re-enter the labor market. The innovative agri-business to engage
+the older workers using the Internet and information systems in a town in Japan
+1907
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Table 13 Robustness check with system GMM estimator
+Dependent variable Growth of real GDP per capita (RGDPC)
+Estimation methods One-step system GMM Two-step system GMM
+Independent variables 1 2 3 4 5 6
+Constant 10.467** 10.708** 11.939** 10.557* 11.782** 10.747**
+(5.202) (5.133) (5.123) (5.752) (5.798) (4.951)
+lnINITIALit−1 − 0.120 − 0.128 − 0.144 − 0.149 − 0.165 − 0.179
+(0.314) (0.329) (0.276) (0.293) (0.303) (0.265)
+POPAGE65it−1 − 0.215** – – − 0.342*** – –
+(0.106) (0.130)
+DEPENDENCYit−1 – − 0.201*** – – − 0.272*** –
+(0.072) (0.081)
+AI65it−1 – – − 0.036*** – – − 0.046***
+(0.046) (0.014)
+LFPR65it−1 − 0.130* − 0.141* − 0.079* − 0.144* − 0.153* − 0.077
+(0.071) (0.082) (0.046) (0.081) (0.086) (0.049)
+POPAGE65it−1 × LFPR65it−
+1 0.025** – – 0.023** – –
+(0.011) (0.011)
+DEPENDENCYit−
+1 × LFPR65it−
+1
+– 0.017** – – 0.015** –
+(0.008) (0.007)
+AI65it−1 × LFPR65it−
+1 – – 0.004** – – 0.003*
+(0.002) (0.002)
+GCFit−1 0.011 0.015 − 0.009 0.035 0.027 0.017
+(0.057) (0.056) (0.059) (0.056) (0.055) (0.051)
+POPULATIONit−1 − 0.662 − 0.874* − 1.064** − 0.528 − 0.846 − 0.931*
+(0.492) (0.482) (0.453) (0.730) (0.594) (0.504)
+OPENNESSit−1 0.009 0.009 0.008 0.012 0.013 0.010
+(0.009) (0.009) (0.008) (0.011) (0.011) (0.011)
+SECONDARY it−1 − 0.070* − 0.064* − 0.069** − 0.057 − 0.058 − 0.050
+(0.036) (0.034) (0.034) (0.047) (0.041) (0.034)
+CREDITit−1 0.001 0.004 − 0.006 0.002 0.003 − 0.007
+(0.009) (0.010) (0.009) (0.011) (0.012) (0.011)
+No. countries 65 65 65 65 65 65
+No. instruments 59 59 59 59 59 59
+Hansen J-test: p-value 0.668 0.641 0.818 0.743 0.641 0.818
+AR(1): p-value 0.029 0.031 0.025 0.038 0.040 0.027
+AR(2): p-value 0.799 0.783 0.604 0.892 0.823 0.722
+Marginal effect
+Minimum − 0.177* − 0.175** − 0.030** − 0.307** − 0.248*** − 0.041***
+(0.107) (0.068) (0.013) (0.130) (0.078) (0.013)
+Mean 0.617 0.372 0.098 0.404 0.241 0.061
+(0.384) (0.260) (0.061) (0.393) (0.226) (0.048)
+Maximum 1.874** 1.240* 0.302* 1.532 1.016* 0.223*
+(0.934) (0.674) (0.155) (0.953) (0.578) (0.132)
+Time dummies Yes Yes Yes Yes Yes Yes
+Notes Values in parentheses are robust standard errors. ln denotes natural logarithm. Sample period:
+1990–2019 (5-year average)
+*, ** and *** denote statistical significance at 10%, 5% and 1% levels respectively
+1908 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+(Hashimoto 2012) can serve as a model for future technology-based employment
+among the older workers.
+Whilst ageism affects both sexes, gendered ageism has become increasingly common,
+and women are often subjected to greater discrimination in the labor market
+(Button 2020). Because of the significant role of older female labor force participation
+in mitigating the inverse relationship between population aging and economic
+growth, older females should not be left out from the labor market. The policymakers
+should strive to retain this group of the population, as well as the older males in
+the labor market. Campaigns and programs targeted to eliminate age discrimination
+at the workplace can go a long way to optimize the human resources of the older
+workers, as they possess a high level of expertise, skills, experience, and knowledge.
+The World Health Organization has developed a global campaign to combat ageism
+since 2016 (Officer and Fuente-Núñez 2018), and this should be expanded to various
+job sectors with the local government’s assistance. The framework established
+by the European Union in 2000 on equal treatment in employment and inclusion of
+laws against ageism in the workplace (United Nations Economic Commission for
+Europe 2019) can serve as a basis for employment-related policy planning in developing
+countries.
+All these recommendations are conditional upon the willingness and capability of
+the older people to remain economically active beyond the retirement age. Nevertheless,
+as population aging is inevitable, there is a need for adequate preparation by all
+stakeholders before the world turns old.
+7 Limitations
+This study focused on the role of older workers in mitigating the negative relationship
+between population aging and economic growth and precluded an analysis of
+the other variables that may affect economic growth. Hence, the limitation of this
+study is the omission of these other variables, such as social security and pension
+schemes as the data were country-specific, and thus a lack of comparable data. However,
+it is hoped that this paper will stimulate more research on the role of older
+workers in explaining the inter-relationship between population aging and economic
+development in developing countries at the national level.
+8 Conclusion
+The population of developing countries is aging rapidly. The ongoing demographic
+changes in developing countries due to fertility decline and increasing longevity will
+inevitably bring about significant implications for a country’s social and economic
+development in the near future. Hence, this study is timely to provide some insights
+on the role of older workers in mitigating the negative association between population
+aging and economic growth in developing countries that have received little
+research attention.
+1909
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Appendix 1: Country classification
+Percentage of older persons ≥ 7% (22 countries) Argentina, Belarus, Bolivia, Brazil, Chile, China,
+Colombia, Croatia, Cyprus, Czech Republic, Estonia,
+Hungary, Kazakhstan, Mexico, Moldova, Peru,
+Russian Federation, Sri Lanka, Thailand, Turkey,
+Ukraine and Vietnam.
+Percentage of older persons < 7% (52 countries) Algeria, Angola, Azerbaijan, Bangladesh, Benin, Burkina
+Faso, Cambodia, Cameroon, Chad, Democratic
+Republic of the Congo, Republic of the Congo, Cote
+d’Ivoire, Dominican Republic, Ecuador, Egypt,
+Ethiopia, Ghana, Guinea, Haiti, Honduras, India,
+Indonesia, Iran, Kenya, Kyrgyz Republic, Lao PDR,
+Libya, Madagascar, Malaysia, Mali, Mongolia,
+Morocco, Mozambique, Myanmar, Nepal, Nicaragua,
+Niger, Nigeria, Pakistan, Papua New Guinea,
+Philippines, Rwanda, Senegal, South Africa, Sudan,
+Tajikistan, Tanzania, Uganda, Uzbekistan, Yemen,
+Zambia, and Zimbabwe.
+Countries classification was based on the 5-year average percentage of older persons in 2019
+Appendix 2: Computation of the marginal effect of aging population
+on growth for Eq. (4)
+The marginal effect estimated in Table 12 shows that when the older persons’ labor
+force participation rate is at a low level, an increase in the older population would
+negatively influence the economic performance, but the negative impact is mitigated
+by rising labor force participation of older people, regardless of the aging status. The
+result suggests that the baseline finding on the role of older persons’ labor force participation
+in mitigating the negative effect of population aging on economic growth
+remains robust and is not affected by the aging status. Equation (4) is reproduced as
+below to show the computation of marginal effect for countries with less than 7% of
+older people and countries with at least 7% of older people:
+For countries with less than 7% of older people (AGING = 0), the marginal effect
+of population aging on economic growth depends on 3 . That is:
+Meanwhile, for countries with at least 7% of older people (AGING=1), the marginal
+effect of population aging on growth depends on 3 and 7 . That is:
+RGDPC
+it =0 + 1
+POPAGE65
+it−1 + 2
+LFPR65
+it−1 + 3(POPAGE65
+it−1 × LFPR65
+it−1)
++ 4
+AGING
+i + 5(AGING
+i × POPAGE65
+it−1) + 6(AGING
+i × LFPR65
+it−1)
++ 7(AGING
+i × POPAGE65
+it−1 × LFPR65
+it−1) + 8X
+it−1 + v
+i + it
+RGDPC
+it
+POPAGE65
+it−1
+= 1 + 3
+LFPR65
+it−1
+1910 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Acknowledgements The authors are thankful to the World Bank and the International Labour Organization
+for the permission to use the data.
+Author Contributions SLL: Conceptualization, Writing—original draft, Methodology, Writing—review
+and editing. TMY: Data curation, Writing—original draft, Methodology, Software, Investigation.
+Funding The authors did not receive support from any organization for the submitted work.
+Declarations
+Conflict of interest The authors have no relevant financial or non-financial interests to disclose.
+Code availability Available upon request.
+Data availability The data is available to download from the WDI and the ILO database for the period
+1990–2019.
+Ethical approval This research does not involve human subjects.
+References
+Aigner-Walder B, Döring T (2012) The effects of population ageing on private consumption — a simulation
+for austria based on household data up to 2050. Eurasian Econ Rev 2:63–80
+Arellano M, Bond S (1991) Some tests of specification for panel data: monte carlo evidence and an application
+to employment equations. Rev Econ Stud 58:277–297
+Asian Development Bank (2018) Tapping technology to maximize the longevity dividend in Asia. Asian
+Development Bank, Manila, Philippines
+Azman-Saini WNW, Baharumshah AZ, Law SH (2010) Foreign direct investment, economic freedom
+and economic growth: international evidence. Econ Model 27:1079–1089
+Bloom DE, Canning D, Fink G (2010) Implications of population ageing for economic growth. Oxf Rev
+Econ Policy 26:583–612
+Bloom DE, Luca DL (2016) The global demography of aging: facts, explanations, future. In: Piggott J,
+Woodland A (eds) Handbook of the economics of population aging, vol 1. pp 3–56
+Blundell R, Bond S (1998) Initial conditions and moment restrictions in dynamic panel data models. J
+Econ 87:115–143
+Brambor T, Clark WM, Golder M (2006) Understanding interaction models: improving empirical analyses.
+Polit Anal 14:63–82
+Button P (2020) Population aging, age discrimination, and age discrimination protections at the 50th
+anniversary of the age discrimination in employment act. In: Czaja SJ, Sharit J, James JB (eds) Current
+and emerging trends in aging and work. Springer, Cham, pp 163–188
+Chia YE, Lim KP, Goh KL (2020) Liquidity and firm value in an emerging market: nonlinearity, political
+connections and corporate ownership. N Am J Econ Finance. https:// doi. org/ 10. 1016/j. najef. 2020.
+101169
+Diebolt C, Hippe R (2019) The long-run impact of human capital on innovation and economic development
+in the regions of Europe. Appl Econ 51:542–563
+Gujarati D (2003) Basic econometrics. McGraw-Hill, New York
+Hashimoto K (2012) Agri-business for elderly people through the internet netcom 26:235–250
+He L, Li N (2020) The linkages between life expectancy and economic growth: some new evidence.
+Empir Econ 58:2381–2402
+RGDPC
+it
+POPAGE65
+it−1
+= (1 + 5) + (3 + 7)LFPR65
+it−1
+1911
+1 3
+Economic Change and Restructuring (2022) 55:1875–1912
+Hondroyiannis G, Papapetrou E (2001) Demographic changes, labor effort and economic growth: empirical
+evidence from Greece. J Policy Model 23:169–188
+Hsu Y-H (2017) Population aging, labor force participation, and economic growth journal of business &
+economic. Policy 4:119–129
+Ibrahim MH (2007) The yen-dollar exchange rate and Malaysian macroeconomic dynamics. Dev Econ
+45:315–338
+Ibrahim MH (2019a) Capital regulation and islamic banking performance: panel evidence. Bull Monet
+Econ Bank 22:47–68
+Ibrahim MH (2019b) Oil and macro-financial linkages: evidence from the GCC countries. Q Rev Econ
+Finance 72:1–13
+Ibrahim MH, Law SH (2019) Financial intermediation costs in a dual banking system: the role of islamic
+banking. Bull Monet Econ Bank 22:529–550
+Ibrahim MH, Salim K, Abojeib M, Lau WY (2019) Structural changes, competition and bank stability in
+malaysia’s dual banking system. Econ Syst 43:111–129
+IMF (2019) World Economic Outlook, October 2019: global manufacturing downturn, rising trade
+barriers
+Intisar RA, Yaseen MR, Kousar R, Usman M, Makhdun MSA (2020) Impact of trade openness and
+human capital on economic growth: a comparative investigation of Asian countries. Sustainability.
+https:// doi. org/ 10. 3390/ su120 72930
+Katagiri M (2018) Economic consequences of population aging in Japan: effects through changes in
+demand structure. Singapore Econ Rev. https:// doi. org/ 10. 1142/ S0217 59081 84200 67
+Khan A, Ahmed M, Bibi S (2019) Financial development and economic growth nexus for Pakistan: a
+revisit using maximum entropy bootstrap approach. Empir Econ 57:1157–1169
+Law SH (2018) Applied panel data analysis. Universiti Putra Malaysia Press, Serdang, Selangor
+Law SH, Singh N (2014) Does too much finance harm economic growth? J Bank Finance 41:36–44
+Law SH, Azman-Saini WNW, Ibrahim MH (2013) Institutional quality thresholds and the finance-growth
+nexus. J Bank Finance 37:5373–5381
+Law SH, Kutan AM, Naseem NAM (2018) The role of institutions in finance curse: evidence from international
+data. J Comp Econ 46:174–191
+Li H, Zhang X (2015) Population aging and economic growth: the Chinese experience of solow model
+international. J Econ Finance 7:199–206
+Lisenkova K, Merette M, Wright R (2013) Population ageing and the labour market: modelling size and
+age-specific effects. Econ Model 35:981–989
+Lo BR, Sek SK (2016) The relationship between population ageing and the economic growth in Asia. In:
+AIP conference proceedings, vol. 1750. p 060009
+Maity S, Sinha A (2020) Linkages between economic growth and population ageing with a knowledge
+spillover effect. J Knowl Econ. https:// doi. org/ 10. 1007/ s13132- 020- 00696-4
+Mamun SAK, Rahman MM, Khanam R (2020) The Relation between ageing population and economic
+growth in bangladesh: evidence from an endogenous growth model. Econ Anal Policy 66:14–25
+Ministry of Finance Malaysia (2018) Budget 2019. Ministry of Finance Malaysia, Putrajaya
+Nagarajan R, Teixeira AAC, Silva S (2021) Ageing population: identifying the determinants of ageing in
+the least developed countries. Popul Res Policy Rev 40:187–210
+Nash P, Officer A, Vdl F-N, Schneiders ML, Thiyagarajan JA (2018) Global trends in ageist disposition:
+comparing low, middle and high income countries using the world values survey wave 6. Innov
+Aging 2:34
+Nickell S (1981) Biases in dynamic models with fixed effects. Econometrica 49:1417–1426
+Officer A, Fuente-Núñez V (2018) A global campaign to combat ageism. Bull World Health Organ
+96:299–300
+Okun AM (1963) Potential GNP: its measurement and significance yale university. Cowles Foundation
+for Research in Economics
+Oliver M (2015) Population ageing and economic growth in Japan. Int J Sociol Soc Policy 35:841–863
+Otsu K, Shibayama K (2016) Population aging and potential growth in Asia. Asian Dev Rev 33:56–73
+Pan J-N, Chang M-L (2019) Population aging, middle-income trap, and economic growth: an empirical
+study of Asian economies. Singapore Econ Rev. https:// doi. org/ 10. 1142/ S0217 59081 84200 92
+Park D, Shin K (2011) Impact of population aging on Asia’s future growth. Asian Development Bank
+Pham TN, Vo DH (2021) Aging population and economic growth in developing countries: a quantile
+regression approach. Emerg Mark Finance Trade 57:108–122
+1912 Economic Change and Restructuring (2022) 55:1875–1912
+1 3
+Qadri S, Ahluwalia SK, Ganai A, Bali S, Wani F, Bashir H (2013) An epidemiological study on quality
+of life among rural elderly population of northern india international. J Med Sci Publ Health
+2:514–522
+Roodman D (2009b) A note on the theme of too many instruments. Oxford Bull Econ Stat 71:135–158
+Roodman D (2009a) How to do xtabond2: an introduction to difference and system GMM in stata. Stata
+J 9:86–136
+Rowland S (2003) Demographic methods and concepts. Oxford University Press, Oxford
+Saccone D (2017) Economic growth in emerging economies: what who and why. Appl Econ Lett
+24:800–803
+Schofield DJ, Callander EJ, Kelly SJ, Shrestha RN (2017) Working beyond the traditional retirement age:
+the influence of health on australia’s older workers. J Aging Soc Policy 29:235–244
+Teerawichitchainan B, Pothisiri W, Knodel J, Prachuabmoh V (2019) Thailand’s older persons and their
+well-being: an update based on the 2017 survey of older persons in Thailand. HelpAge International,
+Chiang Mai, Thailand
+Teixeira AAC, Nagarajan NR, Silva ST (2016) The impact of ageing and the speed of ageing on the
+economic growth of least developed, emerging and developed countries, 1990–2013. Rev Dev Econ
+21:909–934
+Topcu E, Altinoz B, Aslan A (2020) Global evidence from the link between economic growth, natural
+resources, energy consumption, and gross capital formation. Resour Policy. https:// doi. org/ 10.
+1016/j. resou rpol. 2020. 101622
+United Nations (2002) World population ageing: 1950–2050. United Nations, Department of Economic
+and Social Affairs, New York
+United Nations, Department of Economic and Social Affairs, Population Division (2019b) World population
+ageing 2019: Highlights
+United Nations Economic Commission for Europe (2019) Combating ageism in the world of work
+Vietnam National Committee on Ageing, UNFPA (2019) Towards a comprehensive national policy for an
+ageing Viet Nam. Vietnam National Committee on Ageing and UNFPA, Ha Noi
+Vogel E, Ludwig A, Borsch-Supan A (2017) Aging and pension reform: extending the retirement age and
+human capital formation. J Pension Econ Finance 16:81–107
+Windmeijer F (2005) A fnite sample correction for the variance of linear efficient two-step GMM estimators.
+J Econ 126:25–51
+World Bank (2018) Women, business and law 2018
+World Health Organization (2011) Global health and aging
+World Population Prospects 2019 (2019a) Department of economic and social affairs, population division
+Zhu H, Lu J, Zhang Y, Cui B (2019) Responses to population ageing in the New Era: a national condition
+report from China. China Popul Dev Stud 2:272–283
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published
+maps and institutional affiliations.
+Reproduced with permission of copyright owner.
+Further reproduction prohibited without permission.

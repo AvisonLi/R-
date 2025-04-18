@@ -1,0 +1,354 @@
+<<<<<<< HEAD
+Sensors and Actuators A 236 (2015) 299–308
+Contents lists available at ScienceDirect
+Sensors and Actuators A: Physical
+j ourna l h o mepage: www.elsevier.com/locate/sna
+Antenna-resonator integrated wireless passive temperature sensorbased on low-temperature co-fired ceramic for harsh environmentQiulin Tana,b,c,∗, Tanyong Weia,b, Xiaoyong Chena,b, Tao Luoa,b, Guozhu Wua,b, Chen Lia,b, Jijun Xionga,b,∗∗aKey Laboratory of Instrumentation Science & Dynamic Measurement, Ministry of Education, North University of China, Taiyuan 030051, ChinabScience and Technology on Electronic Test & Measurement Laboratory, North University of China, Taiyuan 030051, ChinacState Key Laboratory of Transducer Technology, Department of Precision Instrument and Mechanology, Tsinghua University, Beijing 10084, Chinaa r t i c l e i n f oArticle history:Received 25 May 2015Received in revised form 27 October 2015Accepted 31 October 2015Available online 4 November 2015Keywords:Harsh environmentMicrostrip antenna temperature sensorInterrogation antennaLTCCa b s t r a c tThis paper proposes a resonator-antenna integrated microstrip antenna temperature sensor based on alow-temperature co-fired ceramic (LTCC), whose permittivity varies monotonously with the tempera-ture. The dimensional design process was first analyzed in detail, and by combining the standard LTCCtechnology, the sensor was fabricated using 15 layers of a green tape. To interrogate the sensor, a copla-nar waveguide (CPW)-fed microstrip antenna, possessing a relatively large bandwidth, was designed andoptimized using high frequency structure simulator software, and then fabricated on alumina ceramicthrough a screen-printing process. The sensor was then tested on a developed high-temperature mea-surement system. Because the original detected sweep signal was difficult to distinguish, a time-domain(T-D) gating method for filtering a background signal was introduced. The extracted peak frequency wasfound to decrease linearly with an increase in temperature to within 400◦C at a 30-mm reading distance,with a measurement sensitivity of 0.24 MHz/◦C. Simultaneously, the antenna polarity was found to havea significant influence on the readout signal. Finally, for the introduced T-D gating method, this studyanalyzes that the sensor can be sensed at a long distance when using a high-gain interrogation antenna. Itis expected that the proposed sensor can be used in monitoring the temperature in a harsh environment.© 2015 Elsevier B.V. All rights reserved.1. IntroductionThe key operational components such as the blade in a turbineengine usually coexist under a high-temperature, high-pressure,quickly rotating, corrosive, and metal-rich harsh environment [1,2].It is of great importance to acquire the temperature parameter foruse in the above type of harsh environment as a way to lay thefoundation for structural design and fabrication. Many techniqueshave been described for this purpose. Wired sensors and activecircuits have been previously introduced; however, such devicescannot survive temperatures above 300◦C because the wires and/orbattery deteriorate quickly at elevated temperatures, causing theproblem of finding a high-temperature solder or the need to replace∗Corresponding author at: Key Laboratory of Instrumentation Science & DynamicMeasurement, Ministry of Education, North University of China, Taiyuan 030051,China.∗∗Corresponding author at: Science and Technology on Electronic Test & Measure-ment Laboratory, North University of China, Taiyuan 030051, China.E-mail addresses: tanqiulin@nuc.edu.cn (Q. Tan), xiongjijun@nuc.edu.cn(J. Xiong).these devices [3–5]. Therefore, a wireless, passive, low-profile tem-perature sensor is urgently needed for this type of application.An acoustic surface wave sensor based on piezoelectric materialhas been applied to high-temperature measurements, but the mea-sured signal is easily contaminated and the chemical instability ofthe substrate material limits its use in a harsh environment [6]. AnLC resonant sensor is widely used owing to its passive, wireless, andeasily machinable characteristics, as well as its adaptability to harshenvironments [7,8]. However, this type of sensor cannot be used inclose proximity to a metal surface because the magnetic field willbe absorbed by the metal surface, which then causes an eddy cur-rent. Safeguard procedures and an isolation structure have beenproposed to protect a current sensor from a harsh environment;however the measurement range evidently cannot be increased. Incontrast, the introduction of a packaging structure results in a bulkysensor [9,10].The paper proposes a resonator-antenna integrated wirelesspassive temperature sensor based on a low-temperature co-firedceramic (LTCC) for use in a harsh environment. Although there havebeen reports regarding such resonator-antenna integrated temper-ature sensors [11,12], based on the results of previous works, theLTCC described herein is used as a temperature-sensitive element,
+http://dx.doi.org/10.1016/j.sna.2015.10.052
+0924-4247/© 2015 Elsevier B.V. All rights reserved.
+300 Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308
+and a high-temperature resistant reading antenna technology issimultaneously proposed. The LTCC, which mainly consists ofceramic particles, a glass composition, and organic components,is an excellent ceramic material for use in a passive device owingto its miniaturization, high integration, and compatibility. Dozensof LTCC tapes, combining thick film circuit technology, can be lam-inated into the required dimensions and structural requirementsof a sensor. Furthermore, a harsh environment usually requires areading antenna to be inserted into the location of interest to allowthe temperature information to be detected. Therefore, an alumina-ceramic-based high-temperature resistant interrogation antennatechnology is employed in this study.2. Measurement principleFig. 1 shows a wireless sensing mechanism using a ceramicmicrostrip antenna sensor. The microstrip antenna sensor, the topof which has a metal patch and the bottom has a metal ground, inte-grates the temperature-sensitive element with the communicationantenna. When the interrogation antenna transmits a sweep-frequency signal at a certain bandwidth, only the frequency closeto the central frequency of the patch resonates in the microstripantenna sensor and slowly decays over time, whereas the other fre-quencies re-radiate back to the interrogation antenna. The S(1,1)parameter is defined as the ratio of the strength of the echo sig-nal to that of the transmitted signal, and thus by analyzing theS(1,1) parameter of the interrogation antenna, the sensor frequencycan be detected remotely and wirelessly. Experiments have pre-viously been conducted to measure the permittivity of the LTCCat various temperatures [13]. Although the method employing acapacitor plate operates at about 40 MHz, the property in which theLTCC permittivity varies monotonously with temperature remainsunchanged. Thus, the central frequency of the microstrip antennasensor, and thereby the peak of the detected sweep-frequencyS(1,1) curve, drifts monotonously on one side at elevated tem-peratures, which is the principle of the temperature measurementsystem applied herein.3. Microstrip antenna designFor a microstrip antenna operating in dominant mode, TM01, thefrequency is defined as [14,15]
+fTM01
+= c
+2
+√
+e Leff
+(1)Here, c is the velocity of light, edenotes the effective permittivityof the substrate material, and Leffrepresents the equivalent lengthof the patch when considering the effect of the fringing field.Fig. 1. Schematic diagram of the measurement of resonator-antenna integratedsensor.The width of patch W is designed using [14,15]
+W
+= c
+2fr
+r +
+1
+2
+−1/2
+, (2)where fris the central frequency of the patch, and rdenotes thepermittivity of the LTCC substrate. For this study, frwas designed tobe 2.3 GHz at room temperature. For the LTCC material, variable ris 7.8 at room temperature, and width W is calculated to be 31.1 mmaccording to Expression (2).The length of patch L is taken as roughly half the wavelength ofthe central frequency [15],
+L
+= c
+2fr
+√
+e
+, (3)where eis the effective permittivity of the LTCC and is defined as[15]
+e = r +
+1
+2
++ r −
+1
+2
+
+1
++ 12h
+W
+−1/2
+. (4)For the microstrip antenna sensor, the thickness of substrate his generally much less than the width of patch W. Thus, variableeis first taken to be the same as r; in addition, L is calculated a23.8 mm according to Expression (3).The radiation efficiency of patch ris given as [14,15]
+r = pr
+p
+= QL
+Qr
+, (5)where prdenotes the radiation power, p represents the total power;and QLis the loaded quality factor, which includes two parts,namely, radiation quality factor Qrand unloaded quality factor Qu.Unloaded quality factor Quis a combination of three parts, namely,conductor loss quality factor Qc, substrate ceramic loss quality fac-tor Qd, and surface wave loss quality factor Qsw. Their relations areas follows [14,15]:
+1
+QL
+= 1
+Qu
++ 1
+Qr
+, (6)
+1
+Qu
+= 1
+Qc
++ 1
+Qd
++ 1
+Qsw
+. (7)Substituting Expressions (6) and (7) into Expression (5), theradiation efficiency ris derived as
+r = QL
+Qr
+= 1
+1+Qr (1/Qc +
+1/Qd +
+1/Qsw)
+= 1
+1+Qr/Qu
+. (8)For the microstrip antenna operating in TM01mode, the radia-tion quality factor Qris given approximately as [14,15]
+Qr =
+3r
+
+W/L
+
+8
+
+h/0
+ , (9)
+Table 1
+Interrogation antenna parameters.
+Variables Parameters Values (mm)
+Ws Ground width 50
+Ls Ground length 190
+Wp Tuning stub width 28
+Lp Tuning stub length 16
+Wi Slot width 44
+Li Slot length 31.1
+g Gap 2.1
+tp Conductor height 10−2
+ts Substrate height 1.0
+s Feeding spacing 1.1
+p Feeding width 2
+Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308 301
+Fig. 2. Percentage of four variables r, c, d, and swfor different h/0.Fig. 3. Schematic diagram of the fabrication process of the microstrip antenna sensor.Fig. 4. Co-fired temperature-time curve for the fabricated sensor.where 0is the wavelength of the central frequency, and conductorloss Qcand substrate ceramic dielectric loss Qdare defined sepa-rately as [14,15]
+Qc =
+h
+
+120
+0
+, (10)
+Qd = 1
+tan ı
+, (11)where  is the conductivity of the patch material; here, silver isused and  = 6.1 × 107S/m. The variable tanı, called the dielectricloss factor, for the LTCC material is 0.006 at room temperature.
+302 Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308
+Fig. 5. interrogation antenna: (a) a schematic diagram and (b) an HFSS simulation model.Fig. 6. HFSS simulation results: (a) tuning stub width Wp, (b) tuning stub length Lp, (c) slot width Wi, and (d) slot length Li.When h/0is less than 0.06, the surface wave loss Qswis calcu-lated as [14,15]
+Qsw =
+ 
+0
+3.4
+
+r −
+1h
+−
+1
+	
+Qr. (12)Correspondingly, the ratio of conductor loss power pc, dielectricloss power pd, and surface wave loss power pswaccounting for thetotal power p can be calculated separately as [14,15]
+c = pc
+p
+= QL
+Qc
+, (13)
+Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308 303
+Fig. 7. Fabricated alumina-ceramic-based CPW-fed interrogation antenna (unit: mm).Fig. 8. Simulated and measured S(1,1) curves of the interrogation antenna.Fig. 9. Temperature measurement system developed for the microstrip antenna sensor.
+304 Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308
+Fig. 10. (a) Original detected sensor frequency domain signal, (b) time-domain signals when the sensor was added and not added, and (c) the sensor frequency domain signalafter T-D gating.
+d = pd
+p
+= QL
+Qd
+, (14)
+sw = psw
+p
+= QL
+Qsw
+. (15)From the expression above, it was found that the radiationefficiency r, conductor loss ratio c, dielectric loss ratio d, andsurface wave loss ratio sware all related to height h. To find theoptimum height h, the four variables were analyzed using MATLABwith regard to substrate thickness h. To simplify the related calcu-lation, the x-axis is defined herein as h/0. As shown in Fig. 2, forthe preliminarily derived width and length of the patch describedabove, the radiation efficiency rwas found to increase whenh/0is smaller than 0.02, and then decrease monotonously; theconductor loss ratio ccannot be neglected for a thin substrate, thedielectric loss ratio dexpands when h/0is smaller than 0.006,and then declines monotonously, and the surface wave loss ratioswincreases monotonously with an increase in height h.It is illustrated that, when h/0was 0.02, the efficiency of thepatch reached a maximum of 68%, and thus h = 2 mm was used inthe following analysis.When the fringing field effect is taken into account, patch lengthL should be revised as [14,15]
+L
+= c
+2fr
+√
+e
+−
+2 L. (16)Here,  L is a function of substrate height h and is defined asfollows:
+ L
+=
+0.412h
+(e +
+0.3)
+
+W/h
++
+0.264
+
+(e −
+0.258)
+
+W/h
++
+0.8
+ . (17)The derived substrate thickness h = 2 mm is substituted intoExpression (4), and variable eis calculated to be 6.71. Afterward, eis substituted into Expressions (17) and (16), and length L is revisedas 22.6 mm. Finally, the new value L = 22.6 mm is substituted intothe four variables r, c, d, and swagain, and a new substratethickness h can be derived. Iterating the above calculation severaltimes, and simultaneously considering the fabrication process, thedimensions h = 1.5 mm and L = 22 mm were adopted in the design.Because the thickness of the stinted LTCC tape is 0.1 mm, 15layers of green LTCC tape were needed in the fabrication. Thefabrication process, referring to the standard LTCC technology, isillustrated in Fig. 3.The top of the first layer and the bottom of the fifteenth layerof the green tape were first screen printed on the correspondingsilver pattern, and all layers of tape were then stacked accordinglyFig. 11. Contour of sensor surface temperature captured by an infrared camera at 200◦C.
+Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308 305
+Fig. 12. Sweep frequency S(1,1) curve at different temperatures (a) before and (b) after T-D gating was applied.Fig. 13. Extracted peak frequency versus temperature.and laminated as a whole. Afterward, the entire structure was co-fired in a furnace according to the temperature-time curve shownin Fig. 4. The temperature was held at 400◦C for 1 h to ensure acomplete burnout of the organic constitutes of the green tape, andthen held at 850◦C for 30 min to sinter the silver paste. Finally, afully condensed ceramic sensor was formed.4. Interrogation antenna designTo detect a temperature sensor signal, there are two require-ments for the design of the interrogation antenna. First, aninterrogation antenna with an ultra-bandwidth technology isrequired to cover the probable range of frequency variation of thesensor. Second, the interrogation antenna must have the ability toresist high temperatures because, under certain circumstances, thearea where the sensor signal detection is to take place is within aharsh environment. To design the proposed interrogation antenna,a coplanar waveguide (CPW)-fed microstrip antenna was chosenfor the sensor signal detection because it empirically has a rel-atively larger bandwidth [16]. Simultaneously, high-temperatureresistant alumina ceramic, which is able to endure temperaturesabove 1000◦C, was used as the substrate material of the fabricatedinterrogation antenna.To optimize the dimensions of the antenna, as shown in Fig. 5(a),high-frequency structure simulator (HFSS) software was used.Fig. 5(b) illustrates the built CPW-fed microstrip antenna simula-tion model. As shown in Fig. 6, the tuning stub and slot dimensionswere separately studied to optimize the bandwidth. For a givendimension, the optimization of the tuning stub, shown in Fig. 6(a)and (b), indicates that a larger width/length will lead to a widerbandwidth, and simultaneously, larger dimensions will improvethe impedance matching initially, which will then worsen alongthe way. Here, Wp= 28 mm and Lp= 16 mm were first chosen asa tradeoff between the impedance matching and bandwidth. Theoptimized values were then used in the next slot dimension sim-ulation, which is shown in Fig. 6(c) and (d). Similarly, Wi= 44 mmand Li= 31.1 mm are chosen as a tradeoff between the impedancematching and bandwidth. The parameters of the final optimizedinterrogation antenna structure are shown in Table 1.
+306 Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308
+Fig. 14. Echo signal of microstrip antenna sensor in different directions.To fabricate the interrogation antenna, a saw was used to cuta piece of alumina ceramic board into a width of 57.1 mm andlength of 190 mm, and a steel wire screen was simultaneouslycustom-made for screen printing silver paste onto the ceramicboard. Afterward, the interrogation antenna was sintered in a fur-nace at 850◦C at a rate of 20◦C/min, and preserved at 850◦C for30 min. Fig. 7 shows the fabricated alumina-ceramic-based CPW-fed interrogation antenna with the optimized dimensions aftersoldering. The S(1,1) curve of the interrogation antenna, shownin Fig. 8, indicates that the measured curve, i.e., a 2.02-GHz cen-tral frequency with a 49.5% fractional bandwidth, deviates slightlyfrom the simulated curve, i.e., a 2.25-GHz central frequency with a55.3% fractional bandwidth. A fabrication error and a certain degreeof uncertainty in the substrate material permittivity are the mainreasons for this deviation.5. Experiment and discussionTo measure the fabricated LTCC sensor, a temperature measure-ment system was developed. As shown in Fig. 9, the sensor wasplaced on top of a metal heating appliance, to which the CPW-fedmicrostrip interrogation antenna was aligned at a reading distanceof 30 mm. The interrogation antenna connecting network analyzer(E5061B) transmitted a sweep signal at a certain bandwidth to thesensor. Simultaneously, an infrared radiation thermometer, placednext to the heating appliance with its camera hole at a tilted anglefacing the surface of the LTCC sensor, was used for the temperaturecalibration.The sweep frequency was set to 2.1–2.4 GHz. The originaldetected sweep frequency S(1,1) curve, shown in Fig. 10(a), illus-trates that the patch frequency became difficult to distinguishFig. 15. Detected S(1,1) curve after T-D gating at different measurement distances.
+Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308 307
+because the surrounding signals affected the sensor signal greatly,and may have occasionally submerged the sensor signal. Here,the T-D gating method was introduced for filtering out the back-ground noise [17]. As shown in Fig. 10(b), the original frequencydomain signals when the sensor was both added and not addedwere inverse-Fourier transformed into time-domain signals rang-ing from −10 to 120 ns. It was found that the two time-domainsignals vary mainly from 10 to 70 ns, which was caused by the pres-ence of the sensor. Afterward, the sensor signal from 10 to 70 ns wasFourier transformed into the frequency domain again. Fig. 10(c)illustrates that a sharp peak equal to 2.28 GHz occurred after theT-D gating, which is close to the theoretical sensor frequency of2.3 GHz. The difference between the two frequencies was mainlydue to manufacturing errors.The sensor was then heated from 50◦C to 400◦C at a rate of10◦C/min. During the heating process, the surface temperature ofthe LTCC sensor was captured using an infrared radiation ther-mometer. Fig. 11 illustrates the contour of the LTCC sensor surfacetemperature at 200◦C. It was found that the surface temperatureof the LTCC sensor has a negligible difference from the tempera-ture displayed on the heater screen, which proves the reliability ofour method used in heating the LTCC sensor. Fig. 12 compares theS(1,1) parameter curve detected separately before and after the T-Dgating when a sweep frequency was applied. The curve in Fig 12(b)is more distinguishable than that in Fig 12(a). Fig 12(b) shows thata peak occurs in every measured curve and that the peak driftsleftward at an elevated temperature. The peak frequency extractedfrom Fig. 12(b), as shown in Fig. 13, was found to decrease nearlylinearly within the heated temperature range, with a measurementsensitivity of 0.24 MHz/◦C, which indicates the feasibility of usingthe proposed microstrip antenna as a temperature sensor.Fig. 12(b) shows that, with an increase in temperature, the peakof the measured curve becomes simultaneously broadened as thepeak point becomes gradually untraceable. The quality factor ofthe curve is defined as the ratio of peak frequency f0to frequencybandwidth  f−3dB.
+Q
+= f0
+ f−3dB
+= f0
+fH −
+fL
+, (18)where variables fLand fHare the separated left- and right-halfpower points. This illustrates that, as shown in Fig. 12(b), the sensorloaded quality factor QLconsistently decreased during the heatingprocess of the sensor. The main reason for this is that the high tem-perature caused the losses of metal silver and substrate dielectricincreased[3].It should be noted that the orientation of the microstrip antennasensor had a noticeable effect on the readout signal. As shown inFig. 14, when the sensor was placed in a horizontal direction, a sharppeak curve appeared, whereas when the direction was changedgradually toward the vertical direction, the peak strength weak-ened until becoming indistinguishable. This illustrates that thedirections of the interrogation antenna and the microstrip antennasensor should be aligned in terms of co-polarization during themeasurement to maximum the sensing range of the sensor. Theworst circumstance was for a vertical polarization, in which thesensor signal could not be detected.Actually, the fabricated microstrip antenna sensor can be sensedat a very long distance if the signal-to-noise (SNR) ratio of the sen-sor is greatly improved. A better SNR signal is closely related tothe methods applied in extracting a characteristic signal. For theintroduced T-D gating method, when an interrogation antenna withhigh gain is used, the reading distance can be largely extended.The open-ended waveguide (OEWG) antenna, serving here as ahigh-gain antenna, was moved gradually from 5.5 cm to 13.5 cmaway from the sensor during the experiment. Fig. 15 shows that,with an increase in distance, the peak curve strength after T-Dgating decreased downward, whereas the peak frequency valuesremained where they are. Even for an extreme reading distanceof 13.5 cm, the peak curve is still clearly distinguishable, whichindicates that the aforementioned backscattering measurementmethod has the potential to achieve a long distance sensing capa-bility.6. ConclusionIn summary, this paper proposed a wireless passive resonator-antenna integrated temperature sensor based on a LTCC for usein a harsh environment. To interrogate the sensor, a coplanarwaveguide-fed microstrip antenna was chosen and designed usingHFSS, and was fabricated on alumina ceramic through a screen-printing process. Based on a theoretical analysis, the dimensionaldesign, and tentative experiments, the feasibility of such a ceramictemperature sensor was verified. The measuring sensitivity wasfound to be 0.24 MHz/◦C at a reading distance of 30 mm. Theproposed sensor shows significant potential for temperature mon-itoring under a harsh environment. Future work will include thedesign of a high-gain and wide-bandwidth interrogation antennatechnology, along with a study on an accurate background-noisefiltering method to maximum the sensing distance.AcknowledgementsThis work was supported by the National Outstanding YouthFoundation of China (No. 51425505); the National Natural Sci-ence Foundation of China (No. 61471324); the Program for the TopYoung Academic Leaders of Higher Learning Institutions of ShanxiProvince, China; Post-doctor Special Foundation of Tsinghua Uni-versity, China (2014T70074); and Graduate Education Innovationproject of Shanxi province (2015SY60).Appendix A. Supplementary dataSupplementary data associated with this article can be found, inthe online version, at http://dx.doi.org/10.1016/j.sna.2015.10.052.References[1] Z. Habib, R. Parthasarathy, S. Gollahalli, Performance and emissioncharacteristics of biofuel in a small-scale gas turbine engine, Appl. Energy 87(5) (2010) 1701–1709.[2] A. Saito, M.P. Castanier, C. Pierre, Effects of a cracked blade on mistunedturbine engine rotor vibration, J. Vib. Acoust. 131 (6) (2009) 061006.[3] X. Ren, High Temperature Materials Characterization And SensorsApplication, University of Central Florida, Orlando, Florida, 2012.[4] V. Giurgiutiu, B. Xu, W. Liu, Development and testing of high-temperaturepiezoelectric wafer active sensors for extreme environments, Struct. HealthMonit. 0 (0) (2010) 1–13.[5] N. Behnel, T. Fuchs, H. Seidel, New Sic Pressure-sensor-technologies for HarshEnvironments, MikroSystemTechnik, 2009.[6] M. Pereira da Cunha, R.J. Lad, P. Davulis, et al., Wireless acoustic wave sensorsand systems for harsh environment applications, IEEE Topical Conference onWireless Sensors and Sensor Networks (WiSNet) (2011) 41–44.[7] J. Xiong, Y. Li, Y. Hong, et al., Wireless LTCC-based capacitive pressure sensorfor harsh environment, Sens. Actuators A: Phys. 197 (2013) 30–37.[8] Q. Tan, H. Kang, J. Xiong, et al., A wireless passive pressure microsensorfabricated in HTCC MEMS technology for harsh environments, Sensors 13 (8)(2013) 9896–9908.[9] P. Ning, R. Lai, D. Huff, et al., SiC wirebond multichip phase-leg modulepackaging design and testing for harsh environment, IEEE Trans. PowerElectron. 25 (1) (2010) 16–23.[10] D. Nowak, A. Dziedzic, LTCC package for high temperature applications[J],Microelectron. Reliabil. 51 (7) (2011) 1241–1244.[11] H. Cheng, S. Ebadi, X. Gong, A low-profile wireless passive temperature sensorusing resonator/antenna integration up to 1000C, Antennas Wirel. Propag.Lett. IEEE 11 (2012) 369–372.[12] H. Cheng, S. Ebadi, X. Ren, et al., Wireless passive high-temperature sensorbased on multifunctional reflective patch antenna up to 1050 degreescentigrade, Sens. Actuators A: Phys. 222 (2015) 204–211.
+308 Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308
+=======
+Sensors and Actuators A 236 (2015) 299–308
+Contents lists available at ScienceDirect
+Sensors and Actuators A: Physical
+j ourna l h o mepage: www.elsevier.com/locate/sna
+Antenna-resonator integrated wireless passive temperature sensorbased on low-temperature co-fired ceramic for harsh environmentQiulin Tana,b,c,∗, Tanyong Weia,b, Xiaoyong Chena,b, Tao Luoa,b, Guozhu Wua,b, Chen Lia,b, Jijun Xionga,b,∗∗aKey Laboratory of Instrumentation Science & Dynamic Measurement, Ministry of Education, North University of China, Taiyuan 030051, ChinabScience and Technology on Electronic Test & Measurement Laboratory, North University of China, Taiyuan 030051, ChinacState Key Laboratory of Transducer Technology, Department of Precision Instrument and Mechanology, Tsinghua University, Beijing 10084, Chinaa r t i c l e i n f oArticle history:Received 25 May 2015Received in revised form 27 October 2015Accepted 31 October 2015Available online 4 November 2015Keywords:Harsh environmentMicrostrip antenna temperature sensorInterrogation antennaLTCCa b s t r a c tThis paper proposes a resonator-antenna integrated microstrip antenna temperature sensor based on alow-temperature co-fired ceramic (LTCC), whose permittivity varies monotonously with the tempera-ture. The dimensional design process was first analyzed in detail, and by combining the standard LTCCtechnology, the sensor was fabricated using 15 layers of a green tape. To interrogate the sensor, a copla-nar waveguide (CPW)-fed microstrip antenna, possessing a relatively large bandwidth, was designed andoptimized using high frequency structure simulator software, and then fabricated on alumina ceramicthrough a screen-printing process. The sensor was then tested on a developed high-temperature mea-surement system. Because the original detected sweep signal was difficult to distinguish, a time-domain(T-D) gating method for filtering a background signal was introduced. The extracted peak frequency wasfound to decrease linearly with an increase in temperature to within 400◦C at a 30-mm reading distance,with a measurement sensitivity of 0.24 MHz/◦C. Simultaneously, the antenna polarity was found to havea significant influence on the readout signal. Finally, for the introduced T-D gating method, this studyanalyzes that the sensor can be sensed at a long distance when using a high-gain interrogation antenna. Itis expected that the proposed sensor can be used in monitoring the temperature in a harsh environment.© 2015 Elsevier B.V. All rights reserved.1. IntroductionThe key operational components such as the blade in a turbineengine usually coexist under a high-temperature, high-pressure,quickly rotating, corrosive, and metal-rich harsh environment [1,2].It is of great importance to acquire the temperature parameter foruse in the above type of harsh environment as a way to lay thefoundation for structural design and fabrication. Many techniqueshave been described for this purpose. Wired sensors and activecircuits have been previously introduced; however, such devicescannot survive temperatures above 300◦C because the wires and/orbattery deteriorate quickly at elevated temperatures, causing theproblem of finding a high-temperature solder or the need to replace∗Corresponding author at: Key Laboratory of Instrumentation Science & DynamicMeasurement, Ministry of Education, North University of China, Taiyuan 030051,China.∗∗Corresponding author at: Science and Technology on Electronic Test & Measure-ment Laboratory, North University of China, Taiyuan 030051, China.E-mail addresses: tanqiulin@nuc.edu.cn (Q. Tan), xiongjijun@nuc.edu.cn(J. Xiong).these devices [3–5]. Therefore, a wireless, passive, low-profile tem-perature sensor is urgently needed for this type of application.An acoustic surface wave sensor based on piezoelectric materialhas been applied to high-temperature measurements, but the mea-sured signal is easily contaminated and the chemical instability ofthe substrate material limits its use in a harsh environment [6]. AnLC resonant sensor is widely used owing to its passive, wireless, andeasily machinable characteristics, as well as its adaptability to harshenvironments [7,8]. However, this type of sensor cannot be used inclose proximity to a metal surface because the magnetic field willbe absorbed by the metal surface, which then causes an eddy cur-rent. Safeguard procedures and an isolation structure have beenproposed to protect a current sensor from a harsh environment;however the measurement range evidently cannot be increased. Incontrast, the introduction of a packaging structure results in a bulkysensor [9,10].The paper proposes a resonator-antenna integrated wirelesspassive temperature sensor based on a low-temperature co-firedceramic (LTCC) for use in a harsh environment. Although there havebeen reports regarding such resonator-antenna integrated temper-ature sensors [11,12], based on the results of previous works, theLTCC described herein is used as a temperature-sensitive element,
+http://dx.doi.org/10.1016/j.sna.2015.10.052
+0924-4247/© 2015 Elsevier B.V. All rights reserved.
+300 Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308
+and a high-temperature resistant reading antenna technology issimultaneously proposed. The LTCC, which mainly consists ofceramic particles, a glass composition, and organic components,is an excellent ceramic material for use in a passive device owingto its miniaturization, high integration, and compatibility. Dozensof LTCC tapes, combining thick film circuit technology, can be lam-inated into the required dimensions and structural requirementsof a sensor. Furthermore, a harsh environment usually requires areading antenna to be inserted into the location of interest to allowthe temperature information to be detected. Therefore, an alumina-ceramic-based high-temperature resistant interrogation antennatechnology is employed in this study.2. Measurement principleFig. 1 shows a wireless sensing mechanism using a ceramicmicrostrip antenna sensor. The microstrip antenna sensor, the topof which has a metal patch and the bottom has a metal ground, inte-grates the temperature-sensitive element with the communicationantenna. When the interrogation antenna transmits a sweep-frequency signal at a certain bandwidth, only the frequency closeto the central frequency of the patch resonates in the microstripantenna sensor and slowly decays over time, whereas the other fre-quencies re-radiate back to the interrogation antenna. The S(1,1)parameter is defined as the ratio of the strength of the echo sig-nal to that of the transmitted signal, and thus by analyzing theS(1,1) parameter of the interrogation antenna, the sensor frequencycan be detected remotely and wirelessly. Experiments have pre-viously been conducted to measure the permittivity of the LTCCat various temperatures [13]. Although the method employing acapacitor plate operates at about 40 MHz, the property in which theLTCC permittivity varies monotonously with temperature remainsunchanged. Thus, the central frequency of the microstrip antennasensor, and thereby the peak of the detected sweep-frequencyS(1,1) curve, drifts monotonously on one side at elevated tem-peratures, which is the principle of the temperature measurementsystem applied herein.3. Microstrip antenna designFor a microstrip antenna operating in dominant mode, TM01, thefrequency is defined as [14,15]
+fTM01
+= c
+2
+√
+e Leff
+(1)Here, c is the velocity of light, edenotes the effective permittivityof the substrate material, and Leffrepresents the equivalent lengthof the patch when considering the effect of the fringing field.Fig. 1. Schematic diagram of the measurement of resonator-antenna integratedsensor.The width of patch W is designed using [14,15]
+W
+= c
+2fr
+r +
+1
+2
+−1/2
+, (2)where fris the central frequency of the patch, and rdenotes thepermittivity of the LTCC substrate. For this study, frwas designed tobe 2.3 GHz at room temperature. For the LTCC material, variable ris 7.8 at room temperature, and width W is calculated to be 31.1 mmaccording to Expression (2).The length of patch L is taken as roughly half the wavelength ofthe central frequency [15],
+L
+= c
+2fr
+√
+e
+, (3)where eis the effective permittivity of the LTCC and is defined as[15]
+e = r +
+1
+2
++ r −
+1
+2
+
+1
++ 12h
+W
+−1/2
+. (4)For the microstrip antenna sensor, the thickness of substrate his generally much less than the width of patch W. Thus, variableeis first taken to be the same as r; in addition, L is calculated a23.8 mm according to Expression (3).The radiation efficiency of patch ris given as [14,15]
+r = pr
+p
+= QL
+Qr
+, (5)where prdenotes the radiation power, p represents the total power;and QLis the loaded quality factor, which includes two parts,namely, radiation quality factor Qrand unloaded quality factor Qu.Unloaded quality factor Quis a combination of three parts, namely,conductor loss quality factor Qc, substrate ceramic loss quality fac-tor Qd, and surface wave loss quality factor Qsw. Their relations areas follows [14,15]:
+1
+QL
+= 1
+Qu
++ 1
+Qr
+, (6)
+1
+Qu
+= 1
+Qc
++ 1
+Qd
++ 1
+Qsw
+. (7)Substituting Expressions (6) and (7) into Expression (5), theradiation efficiency ris derived as
+r = QL
+Qr
+= 1
+1+Qr (1/Qc +
+1/Qd +
+1/Qsw)
+= 1
+1+Qr/Qu
+. (8)For the microstrip antenna operating in TM01mode, the radia-tion quality factor Qris given approximately as [14,15]
+Qr =
+3r
+
+W/L
+
+8
+
+h/0
+ , (9)
+Table 1
+Interrogation antenna parameters.
+Variables Parameters Values (mm)
+Ws Ground width 50
+Ls Ground length 190
+Wp Tuning stub width 28
+Lp Tuning stub length 16
+Wi Slot width 44
+Li Slot length 31.1
+g Gap 2.1
+tp Conductor height 10−2
+ts Substrate height 1.0
+s Feeding spacing 1.1
+p Feeding width 2
+Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308 301
+Fig. 2. Percentage of four variables r, c, d, and swfor different h/0.Fig. 3. Schematic diagram of the fabrication process of the microstrip antenna sensor.Fig. 4. Co-fired temperature-time curve for the fabricated sensor.where 0is the wavelength of the central frequency, and conductorloss Qcand substrate ceramic dielectric loss Qdare defined sepa-rately as [14,15]
+Qc =
+h
+
+120
+0
+, (10)
+Qd = 1
+tan ı
+, (11)where  is the conductivity of the patch material; here, silver isused and  = 6.1 × 107S/m. The variable tanı, called the dielectricloss factor, for the LTCC material is 0.006 at room temperature.
+302 Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308
+Fig. 5. interrogation antenna: (a) a schematic diagram and (b) an HFSS simulation model.Fig. 6. HFSS simulation results: (a) tuning stub width Wp, (b) tuning stub length Lp, (c) slot width Wi, and (d) slot length Li.When h/0is less than 0.06, the surface wave loss Qswis calcu-lated as [14,15]
+Qsw =
+ 
+0
+3.4
+
+r −
+1h
+−
+1
+	
+Qr. (12)Correspondingly, the ratio of conductor loss power pc, dielectricloss power pd, and surface wave loss power pswaccounting for thetotal power p can be calculated separately as [14,15]
+c = pc
+p
+= QL
+Qc
+, (13)
+Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308 303
+Fig. 7. Fabricated alumina-ceramic-based CPW-fed interrogation antenna (unit: mm).Fig. 8. Simulated and measured S(1,1) curves of the interrogation antenna.Fig. 9. Temperature measurement system developed for the microstrip antenna sensor.
+304 Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308
+Fig. 10. (a) Original detected sensor frequency domain signal, (b) time-domain signals when the sensor was added and not added, and (c) the sensor frequency domain signalafter T-D gating.
+d = pd
+p
+= QL
+Qd
+, (14)
+sw = psw
+p
+= QL
+Qsw
+. (15)From the expression above, it was found that the radiationefficiency r, conductor loss ratio c, dielectric loss ratio d, andsurface wave loss ratio sware all related to height h. To find theoptimum height h, the four variables were analyzed using MATLABwith regard to substrate thickness h. To simplify the related calcu-lation, the x-axis is defined herein as h/0. As shown in Fig. 2, forthe preliminarily derived width and length of the patch describedabove, the radiation efficiency rwas found to increase whenh/0is smaller than 0.02, and then decrease monotonously; theconductor loss ratio ccannot be neglected for a thin substrate, thedielectric loss ratio dexpands when h/0is smaller than 0.006,and then declines monotonously, and the surface wave loss ratioswincreases monotonously with an increase in height h.It is illustrated that, when h/0was 0.02, the efficiency of thepatch reached a maximum of 68%, and thus h = 2 mm was used inthe following analysis.When the fringing field effect is taken into account, patch lengthL should be revised as [14,15]
+L
+= c
+2fr
+√
+e
+−
+2 L. (16)Here,  L is a function of substrate height h and is defined asfollows:
+ L
+=
+0.412h
+(e +
+0.3)
+
+W/h
++
+0.264
+
+(e −
+0.258)
+
+W/h
++
+0.8
+ . (17)The derived substrate thickness h = 2 mm is substituted intoExpression (4), and variable eis calculated to be 6.71. Afterward, eis substituted into Expressions (17) and (16), and length L is revisedas 22.6 mm. Finally, the new value L = 22.6 mm is substituted intothe four variables r, c, d, and swagain, and a new substratethickness h can be derived. Iterating the above calculation severaltimes, and simultaneously considering the fabrication process, thedimensions h = 1.5 mm and L = 22 mm were adopted in the design.Because the thickness of the stinted LTCC tape is 0.1 mm, 15layers of green LTCC tape were needed in the fabrication. Thefabrication process, referring to the standard LTCC technology, isillustrated in Fig. 3.The top of the first layer and the bottom of the fifteenth layerof the green tape were first screen printed on the correspondingsilver pattern, and all layers of tape were then stacked accordinglyFig. 11. Contour of sensor surface temperature captured by an infrared camera at 200◦C.
+Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308 305
+Fig. 12. Sweep frequency S(1,1) curve at different temperatures (a) before and (b) after T-D gating was applied.Fig. 13. Extracted peak frequency versus temperature.and laminated as a whole. Afterward, the entire structure was co-fired in a furnace according to the temperature-time curve shownin Fig. 4. The temperature was held at 400◦C for 1 h to ensure acomplete burnout of the organic constitutes of the green tape, andthen held at 850◦C for 30 min to sinter the silver paste. Finally, afully condensed ceramic sensor was formed.4. Interrogation antenna designTo detect a temperature sensor signal, there are two require-ments for the design of the interrogation antenna. First, aninterrogation antenna with an ultra-bandwidth technology isrequired to cover the probable range of frequency variation of thesensor. Second, the interrogation antenna must have the ability toresist high temperatures because, under certain circumstances, thearea where the sensor signal detection is to take place is within aharsh environment. To design the proposed interrogation antenna,a coplanar waveguide (CPW)-fed microstrip antenna was chosenfor the sensor signal detection because it empirically has a rel-atively larger bandwidth [16]. Simultaneously, high-temperatureresistant alumina ceramic, which is able to endure temperaturesabove 1000◦C, was used as the substrate material of the fabricatedinterrogation antenna.To optimize the dimensions of the antenna, as shown in Fig. 5(a),high-frequency structure simulator (HFSS) software was used.Fig. 5(b) illustrates the built CPW-fed microstrip antenna simula-tion model. As shown in Fig. 6, the tuning stub and slot dimensionswere separately studied to optimize the bandwidth. For a givendimension, the optimization of the tuning stub, shown in Fig. 6(a)and (b), indicates that a larger width/length will lead to a widerbandwidth, and simultaneously, larger dimensions will improvethe impedance matching initially, which will then worsen alongthe way. Here, Wp= 28 mm and Lp= 16 mm were first chosen asa tradeoff between the impedance matching and bandwidth. Theoptimized values were then used in the next slot dimension sim-ulation, which is shown in Fig. 6(c) and (d). Similarly, Wi= 44 mmand Li= 31.1 mm are chosen as a tradeoff between the impedancematching and bandwidth. The parameters of the final optimizedinterrogation antenna structure are shown in Table 1.
+306 Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308
+Fig. 14. Echo signal of microstrip antenna sensor in different directions.To fabricate the interrogation antenna, a saw was used to cuta piece of alumina ceramic board into a width of 57.1 mm andlength of 190 mm, and a steel wire screen was simultaneouslycustom-made for screen printing silver paste onto the ceramicboard. Afterward, the interrogation antenna was sintered in a fur-nace at 850◦C at a rate of 20◦C/min, and preserved at 850◦C for30 min. Fig. 7 shows the fabricated alumina-ceramic-based CPW-fed interrogation antenna with the optimized dimensions aftersoldering. The S(1,1) curve of the interrogation antenna, shownin Fig. 8, indicates that the measured curve, i.e., a 2.02-GHz cen-tral frequency with a 49.5% fractional bandwidth, deviates slightlyfrom the simulated curve, i.e., a 2.25-GHz central frequency with a55.3% fractional bandwidth. A fabrication error and a certain degreeof uncertainty in the substrate material permittivity are the mainreasons for this deviation.5. Experiment and discussionTo measure the fabricated LTCC sensor, a temperature measure-ment system was developed. As shown in Fig. 9, the sensor wasplaced on top of a metal heating appliance, to which the CPW-fedmicrostrip interrogation antenna was aligned at a reading distanceof 30 mm. The interrogation antenna connecting network analyzer(E5061B) transmitted a sweep signal at a certain bandwidth to thesensor. Simultaneously, an infrared radiation thermometer, placednext to the heating appliance with its camera hole at a tilted anglefacing the surface of the LTCC sensor, was used for the temperaturecalibration.The sweep frequency was set to 2.1–2.4 GHz. The originaldetected sweep frequency S(1,1) curve, shown in Fig. 10(a), illus-trates that the patch frequency became difficult to distinguishFig. 15. Detected S(1,1) curve after T-D gating at different measurement distances.
+Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308 307
+because the surrounding signals affected the sensor signal greatly,and may have occasionally submerged the sensor signal. Here,the T-D gating method was introduced for filtering out the back-ground noise [17]. As shown in Fig. 10(b), the original frequencydomain signals when the sensor was both added and not addedwere inverse-Fourier transformed into time-domain signals rang-ing from −10 to 120 ns. It was found that the two time-domainsignals vary mainly from 10 to 70 ns, which was caused by the pres-ence of the sensor. Afterward, the sensor signal from 10 to 70 ns wasFourier transformed into the frequency domain again. Fig. 10(c)illustrates that a sharp peak equal to 2.28 GHz occurred after theT-D gating, which is close to the theoretical sensor frequency of2.3 GHz. The difference between the two frequencies was mainlydue to manufacturing errors.The sensor was then heated from 50◦C to 400◦C at a rate of10◦C/min. During the heating process, the surface temperature ofthe LTCC sensor was captured using an infrared radiation ther-mometer. Fig. 11 illustrates the contour of the LTCC sensor surfacetemperature at 200◦C. It was found that the surface temperatureof the LTCC sensor has a negligible difference from the tempera-ture displayed on the heater screen, which proves the reliability ofour method used in heating the LTCC sensor. Fig. 12 compares theS(1,1) parameter curve detected separately before and after the T-Dgating when a sweep frequency was applied. The curve in Fig 12(b)is more distinguishable than that in Fig 12(a). Fig 12(b) shows thata peak occurs in every measured curve and that the peak driftsleftward at an elevated temperature. The peak frequency extractedfrom Fig. 12(b), as shown in Fig. 13, was found to decrease nearlylinearly within the heated temperature range, with a measurementsensitivity of 0.24 MHz/◦C, which indicates the feasibility of usingthe proposed microstrip antenna as a temperature sensor.Fig. 12(b) shows that, with an increase in temperature, the peakof the measured curve becomes simultaneously broadened as thepeak point becomes gradually untraceable. The quality factor ofthe curve is defined as the ratio of peak frequency f0to frequencybandwidth  f−3dB.
+Q
+= f0
+ f−3dB
+= f0
+fH −
+fL
+, (18)where variables fLand fHare the separated left- and right-halfpower points. This illustrates that, as shown in Fig. 12(b), the sensorloaded quality factor QLconsistently decreased during the heatingprocess of the sensor. The main reason for this is that the high tem-perature caused the losses of metal silver and substrate dielectricincreased[3].It should be noted that the orientation of the microstrip antennasensor had a noticeable effect on the readout signal. As shown inFig. 14, when the sensor was placed in a horizontal direction, a sharppeak curve appeared, whereas when the direction was changedgradually toward the vertical direction, the peak strength weak-ened until becoming indistinguishable. This illustrates that thedirections of the interrogation antenna and the microstrip antennasensor should be aligned in terms of co-polarization during themeasurement to maximum the sensing range of the sensor. Theworst circumstance was for a vertical polarization, in which thesensor signal could not be detected.Actually, the fabricated microstrip antenna sensor can be sensedat a very long distance if the signal-to-noise (SNR) ratio of the sen-sor is greatly improved. A better SNR signal is closely related tothe methods applied in extracting a characteristic signal. For theintroduced T-D gating method, when an interrogation antenna withhigh gain is used, the reading distance can be largely extended.The open-ended waveguide (OEWG) antenna, serving here as ahigh-gain antenna, was moved gradually from 5.5 cm to 13.5 cmaway from the sensor during the experiment. Fig. 15 shows that,with an increase in distance, the peak curve strength after T-Dgating decreased downward, whereas the peak frequency valuesremained where they are. Even for an extreme reading distanceof 13.5 cm, the peak curve is still clearly distinguishable, whichindicates that the aforementioned backscattering measurementmethod has the potential to achieve a long distance sensing capa-bility.6. ConclusionIn summary, this paper proposed a wireless passive resonator-antenna integrated temperature sensor based on a LTCC for usein a harsh environment. To interrogate the sensor, a coplanarwaveguide-fed microstrip antenna was chosen and designed usingHFSS, and was fabricated on alumina ceramic through a screen-printing process. Based on a theoretical analysis, the dimensionaldesign, and tentative experiments, the feasibility of such a ceramictemperature sensor was verified. The measuring sensitivity wasfound to be 0.24 MHz/◦C at a reading distance of 30 mm. Theproposed sensor shows significant potential for temperature mon-itoring under a harsh environment. Future work will include thedesign of a high-gain and wide-bandwidth interrogation antennatechnology, along with a study on an accurate background-noisefiltering method to maximum the sensing distance.AcknowledgementsThis work was supported by the National Outstanding YouthFoundation of China (No. 51425505); the National Natural Sci-ence Foundation of China (No. 61471324); the Program for the TopYoung Academic Leaders of Higher Learning Institutions of ShanxiProvince, China; Post-doctor Special Foundation of Tsinghua Uni-versity, China (2014T70074); and Graduate Education Innovationproject of Shanxi province (2015SY60).Appendix A. Supplementary dataSupplementary data associated with this article can be found, inthe online version, at http://dx.doi.org/10.1016/j.sna.2015.10.052.References[1] Z. Habib, R. Parthasarathy, S. Gollahalli, Performance and emissioncharacteristics of biofuel in a small-scale gas turbine engine, Appl. Energy 87(5) (2010) 1701–1709.[2] A. Saito, M.P. Castanier, C. Pierre, Effects of a cracked blade on mistunedturbine engine rotor vibration, J. Vib. Acoust. 131 (6) (2009) 061006.[3] X. Ren, High Temperature Materials Characterization And SensorsApplication, University of Central Florida, Orlando, Florida, 2012.[4] V. Giurgiutiu, B. Xu, W. Liu, Development and testing of high-temperaturepiezoelectric wafer active sensors for extreme environments, Struct. HealthMonit. 0 (0) (2010) 1–13.[5] N. Behnel, T. Fuchs, H. Seidel, New Sic Pressure-sensor-technologies for HarshEnvironments, MikroSystemTechnik, 2009.[6] M. Pereira da Cunha, R.J. Lad, P. Davulis, et al., Wireless acoustic wave sensorsand systems for harsh environment applications, IEEE Topical Conference onWireless Sensors and Sensor Networks (WiSNet) (2011) 41–44.[7] J. Xiong, Y. Li, Y. Hong, et al., Wireless LTCC-based capacitive pressure sensorfor harsh environment, Sens. Actuators A: Phys. 197 (2013) 30–37.[8] Q. Tan, H. Kang, J. Xiong, et al., A wireless passive pressure microsensorfabricated in HTCC MEMS technology for harsh environments, Sensors 13 (8)(2013) 9896–9908.[9] P. Ning, R. Lai, D. Huff, et al., SiC wirebond multichip phase-leg modulepackaging design and testing for harsh environment, IEEE Trans. PowerElectron. 25 (1) (2010) 16–23.[10] D. Nowak, A. Dziedzic, LTCC package for high temperature applications[J],Microelectron. Reliabil. 51 (7) (2011) 1241–1244.[11] H. Cheng, S. Ebadi, X. Gong, A low-profile wireless passive temperature sensorusing resonator/antenna integration up to 1000C, Antennas Wirel. Propag.Lett. IEEE 11 (2012) 369–372.[12] H. Cheng, S. Ebadi, X. Ren, et al., Wireless passive high-temperature sensorbased on multifunctional reflective patch antenna up to 1050 degreescentigrade, Sens. Actuators A: Phys. 222 (2015) 204–211.
+308 Q. Tan et al. / Sensors and Actuators A 236 (2015) 299–308
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
+[13] Q. Tan, H. Kang, L. Qin, et al., Measurement of relative permittivity of LTCCceramic at different temperatures, AIP Adv. 4 (3) (2014) 031316.[14] W.L. Stutzman, G.A. Thiele, Antenna Theory and Design, John Wiley & Sons,2012.[15] K.F. Lee, K.M. Luk, Microstrip Patch Antennas, Imperial College Press, London,2011.[16] H. Chen, D Broadband CPW-fed square slot antenna with a widened tuningstub, IEEE Trans. Antenna Propag. 51 (8) (2003) 1982–1986.[17] Agilent Time Domain Analysis Using a Network Analyzer[DB/OL]. http://cp.literature.agilent.com/litweb/pdf/5989-5723EN.pdf.BiographiesQiulin Tan received his B.S., M.S. and Ph.D degrees from North Universtiy of China,Shanxi, China, in 2002, 2006 and 2009 respectively, and now he is a post-doctorin Tsinghua University, Beijing, China. He is currently a professor and doctoralsupervisor in North University of china. His research interests include microwavebackscattering sensor, LC resonant high-temperature pressure sensor, infrared gassensor, and intraocular pressure monitoring sensor etc.Tanyong Wei received his B.S. degrees from North university of University, China, in2013. He is currently in the graduate program at North University of China to pursuehis M.S. degree. His research interest is in ceramic-based LC resonant pressure sensorand backscattering sensor.Jijun Xiong received his B.S. and M.S. degrees in electrical engineering from NorthUniverstiy of China, Shanxi, China, in 1993 and 1998 respectively, and the Ph.Ddegree and post-doctor in Precision Instruments and Mechanology from TsinghuaUniversity in Beijing, China in 2003 and 2005 respectively. He is currently a professorand academic leader in North University of china His research interests include high-temperature pressure sensor, infrared gas sensor, and searching and positioningtechnology toward aerospace field etc.

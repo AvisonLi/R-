@@ -1,0 +1,2204 @@
+<<<<<<< HEAD
+Stress development and shape change during
+press-hardening process using phase-transformation-based
+finite element analysis
+H.H. Bok a, b, J.W. Choi b, D.W. Suh a, M.G. Lee c, *, F. Barlat a, 1
+a Graduate Institute of Ferrous Technology, Pohang University of Science and Technology (POSTECH), San 31, Hyoja-dong, Nam-gu,
+Pohang-si, Gyeongsangbuk-do 790-784, Republic of Korea
+b POSCO, 699 Geumho-dong, Gwangyang-si, Jeollanam-do 545-875, Republic of Korea
+c Department of Materials Science and Engineering, Korea University, Seoul 136-701, Republic of Korea
+a r t i c l e i n f o
+Article history:
+Received 14 August 2014
+Received in revised form 27 October 2014
+Available online 26 November 2014
+Keywords:
+A. Phase transformation
+A. Thermomechanical processes
+B. Residual stress
+C. Finite elements
+Press hardening
+a b s t r a c t
+Elastically driven shape change, or springback, in a press-hardened U-channel part made
+from a tailor-welded blank (TWB) was simulated using a fully coupled thermo-mechanicalemetallurgical
+finite element (FE) method. The TWB consists of boron steel and
+high-strength low-alloy steel, which have significantly different hardenabilities. A combined
+impliciteexplicit three-step simulation consisting of air cooling, forming and die
+quenching, and springback was used for computational efficiency. All the required material
+models such as the modified phase-transformation kinetics and phasetransformation-
+related stress-update scheme were implemented in the FE software
+ABAQUS with the user-defined subroutines UMAT, VUMAT, and HETVAL. The developed
+FE procedure, including the material models, satisfactorily predicted the experimentally
+measured shape changes of the TWB part. Here we present an in-depth analysis of the
+residual stress development during forming and die quenching using different material
+modeling schemes. It should be noted that the stress evolution of the two materials with
+high and low hardenabilities were significantly different depending on the phase
+transformation kinetics during forming and quenching. Moreover, in order to enhance
+the prediction capability of the press-hardening simulations, it was essential to include
+the phase-transformation-related strains in the material model.
+© 2014 Elsevier Ltd. All rights reserved.
+1. Introduction
+Press hardening is a hot-forming process of steel sheets to manufacture crash-relevant parts for autobody structures.
+Because of its enhanced hardenability, 22MnB5 boron steel has generally been used as a blank material for the presshardening
+process (Karbasian and Tekkaya, 2010). The process begins with the austenization of a boron-steel sheet at
+about 900 C. The hot austenized blank is then formed by special tools, in which cooling channels allow quenching of the
+deformed sheet for about 30 s. A substantial amount of martensite can be obtained during this die quenching, mostly by heat
+* Corresponding author. Tel.: þ82 2 3290 3269.
+E-mail addresses: myounglee@korea.ac.kr (M.G. Lee), f.barlat@postech.ac.kr (F. Barlat).
+1 Co-corresponding author.
+Contents lists available at ScienceDirect
+International Journal of Plasticity
+journal homepage: www.elsevier.com/locate/ijplas
+http://dx.doi.org/10.1016/j.ijplas.2014.11.004
+0749-6419/© 2014 Elsevier Ltd. All rights reserved.
+International Journal of Plasticity 73 (2015) 142e170
+transfer between the hot part and the surrounding cooler tools. The strength in the final part reaches values as high as
+1500 MPa. For this reason, boron steel is often referred to as press-hardenable steel (PHS). In addition to the high strength
+induced by the martensitic phase transformation, the almost negligible shape distortion (or springback) is another major
+advantage of the press-hardening process (Altan, 2006; Lee et al., 2009a, 2009b). The low flow-stress levels of the forming
+process, attributed to the high forming temperature, and phase-transformation plasticity are known to contribute to this
+minimal shape change after forming.
+Recently, less press-hardenable steels compared to boron steel, such as high-strength low-alloy (HSLA) steels, have been
+utilized to compensate for the lack of ductility in press-hardened parts made with boron steel. The strength of HSLA steels
+after press hardening is about 600 MPa (Choi et al., 2012, 2013), but higher uniform elongations can be achieved. Hereafter,
+the less hardenable steel applied to the press-hardening process is referred to as L-PHS (low hardenability-PHS), while
+conventional boron steel, which exhibits higher hardenability, is referred to as H-PHS (high hardenability-PHS).
+Non-uniform stress distribution over the entire part, resulting from imperfect cooling, has been reported as a source of
+shape distortion even after press hardening. This shape change occurring after forming and die quenching can be a critical
+issue in the press-hardening process as well (Wagoner et al., 2013). Moreover, the tailor-welded blank (TWB) approach, in
+which a blank made of different gauges or PHS sheets, or a blank made of both different gauges and PHS sheets, is used to
+optimize strength and ductility simultaneously. This requires more investigations regarding the mechanical behavior during
+the press-hardening process because of a larger shape change on the L-PHS side of a TWB part (Choi et al., 2013). Recently,
+Choi et al. (2013) conducted press-hardening experiments with a TWB sheet consisting of HSLA steel and boron steel as L-PHS
+and H-PHS, respectively. The L-PHS side of this sheet exhibited larger shape change than that on the H-PHS side. This
+experimental observation was counter-intuitive because the strength of the H-PHS part was higher during forming, which
+contradicts the classical interpretation based on elasticeplasticity; i.e., the higher the strength, the larger the springback. This
+finding was one of the motivations behind the current study.
+In the present study, the development of a stress field during press hardeningwas simulated using a fully coupled thermomechanicalemetallurgical
+finite-element (FE) analysis. A specially designed U-channel, which is an accurate representation
+of usual autobody structural parts, was adopted in this study to simplify the problem. All the simulations were conducted
+using the commercial software ABAQUS (Dassault Systemes), in which the developed material models and phasetransformation
+kinetics were implemented through the user-defined material subroutines. The phase transformation kinetics
+considered in this study is phenomenological, which can be readily implemented in the finite element simulations for
+metal forming process, although there are significant studies on the phase transformation at microscale (Ma and Hartmaier,
+in press; Ortwein et al., 2014; Auricchio et al., 2014; Kato and Sasaki, 2013; Levitas and Ozsoy, 2009). In the material modeling,
+the plasticity part of mechanical behaviorwas described by the classical J2 plasticity theory, to which transformation-induced
+plasticity (TRIP) was specially added. In other words, constitutive modeling was carried out based on macroscale phenomenological
+elasticeplastic model, in which the inter-granular (type 2 in Knezevic et al. (2013)) and intra-granular (type 3)
+stresses in microscale were ignored for practical aspect of simulation for realistic sheet metal forming process.
+Using the finite-element model, we attempted to systematically explain the stress development and shape-change
+mechanism in the press-hardened TWB part. In addition, detailed stress analysis of the blank materials is provided to
+demonstrate the role of the material model on the prediction capability of the modeling procedure.
+2. Thermo-mechanicalemetallurgical modeling
+When subjected to a heat cycle consisting of heating to the austenizing temperature (A3) followed by cooling, steel
+components experience either free dilatation or significant thermal stress development depending on whether there are
+geometrical constraints. Fig. 1(a) illustrates a steel rod with a free end. When linear heating and cooling is applied to the rod,
+ferrite-to-austenite transformation (a/g) occurs during the heating cycle and austenite-to-ferrite transformation (g/a)
+occurs during cooling cycle. Because there is no constraint at the end of the rod, free thermal expansion and contraction can
+be activated without thermal axial stress. In this figure, the S-shape of the strain profiles during the transformations is
+attributed to the difference between the densities of body-centered cubic (bcc) a phase and the face-centered cubic (fcc) g
+phase. Satoh (1972), however, considered a geometrically constrained condition, shown in Fig. 1(b), for the same thermal
+cycle in order to understand the development of residual stress in welding processes. In this case, large compressive and
+tensile stresses developed during heating and cooling, respectively, because the constraints at both ends did not allow the
+development of an axial strain. An opposite sense of stress development is shown in Fig. 1(b) during the phase transformations.
+The two schematic figures illustrate that it is necessary to consider the effect of phase transformations on the
+stress and strain development when steel parts are under complicated thermal and geometrical boundary conditions.
+2.1. Modeling of phase transformation
+Steels subjected to press hardening are designed to undergo solid-to-solid phase transformations in order to obtain the
+desired part strengths. Depending on the chemical composition, imposed cooling rate, prior austenite state, and so forth, the
+phase transformations occur either diffusionally or non-diffusionally.
+To numerically implement diffusional transformations, the JMAK type equation (Kolmogorov, 1937; Johnson and Mehl,
+1939; Avrami, 1939, 1940, 1941) or the Kirkaldy type equation (Kirkaldy and Venugopalan, 1984) can be utilized. Based on
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 143
+the ZenereHillert type isothermal kinetics equation (Zener,1946; Hillert, 1957), Kirkaldy and Venugopalan (1984) established
+a generalized semi-empirical-isothermal transformation model based on multiplicative form, in which the transformation
+rates depend on chemical composition, austenite grain size (AGS), temperature, and transformed phase volume fractions
+affecting sigmoidal growth behavior.
+In the original Kirkaldy model, the AGS is mainly associated with the area of nucleation sites at grain boundaries to account
+for the larger nucleation sites for smaller average AGS. The chemical composition term represented the retardation effect of
+Fig. 1. Stress and strain responses in a steel rod subjected to (a) unconstrained heatingecooling (dilatometry test) and (b) constrained heatingecooling (Satoh
+test) cycles.
+144 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+diffusional transformations by e.g., C, Mn, Cr, Mo. The semi-empirical model was fitted to various isothermal transformation
+diagrams (IT diagram) of low carbon steels, published in the U.S. Steel Atlas data (U.S. Steel, 1963). This original model,
+however, underestimated hardenability of steels in continuous cooling (Li et al., 1998). Then it was further improved by Li
+et al. (1998), and was employed as a basis for the transformation kinetics in the present study. The modification by Li
+et al. was mostly done to the chemical composition and sigmoidal growth terms of the Kirkaldy model. The Li model was
+directly calibrated with data prepared by various continuous cooling transformation (CCT) diagrams to obtain kinetics parameters.
+To represent the effect of grain size, temperature, chemical composition and current phase transformation state, the
+following rate form of the kinetics equation is expressed as:
+_f
+k ¼ fkðG; TÞgkðCompÞ1hkðfkÞ; (1)
+with
+fkðG; TÞ ¼ BkðGÞðTk  TÞNkexp
+Qk
+RT
+ 
+; (2)
+gkðCompÞ ¼ expðbk þ aCk
+CC þ aMn
+k CMn þ aSi
+k CSi þ aNi
+k CNi þ aCr
+k CCr þ aMo
+k CMoÞ; and (3)
+hkðfkÞ ¼ fck
+k
+ð1  fkÞhk ; (4)
+where the variables G, T, Comp, and f stand for the ASTM AGS number, temperature, composition, and phase volume fraction,
+respectively. The subscript k represents a specific phase, i.e., k ¼ 1, 2, 3, 4, and 5 for ferrite, pearlite, bainite, martensite, and
+austenite, respectively.
+Bk(G) in Eq. (2) is the AGS term to consider the grain boundary area, acting as nucleation sites of transformations. For B1, B2
+and B3, the forms are 20.41G, 20.32G and 20.29G, respectively.
+In the under-cooling effect term, (Tk  T)Nk, Tk for k ¼ 1, 2 and 3 are Ae3, Ae1 and Bs temperatures of the steels, respectively.
+The reference temperatures Ae3 and Bs were based on empirical equations (Lusk and Lee, 1999; Steven and Haynes, 1956). The
+exponent Nk are 3 for k ¼ 1, 2 and 2 for k ¼ 3 (Kirkaldy and Venugopalan, 1984; Li et al., 1998). In the same equation, Qk
+represents activation energies of diffusional transformation reactions which are given by 27,500 cal/mol for all diffusional
+transformations. R is the gas constant of 1.987 cal/mol K.
+In Eq. (3), aelement
+k is weight factor to the effect of chemical composition on kth diffusional transformation by the corresponding
+alloy element, while bk is a constant. Celement denotes chemical content of alloy element in mass percent. The exponents
+in Eq. (4) are defined by ck ¼ n0
+k
+ð1  fkÞ and hk ¼ n00
+kfk.
+In previous studies conducted by the present authors (2013, 2014), the model was further modified because the original
+model revised by Li et al. largely underestimated the hardenability of the H-PHS sample owing to the omission of the boron
+Table 1
+Chemical compositions of H-PHS and L-PHS (mass percent).
+Steel C Mn Si P Ni Cr W Cu Al Ti B
+H-PHS 0.25 1.55 0.25 0.01 0.002 0.009 0.027 0.01 0.03 0.04 0.002
+L-PHS 0.08 0.95 0.28 0.02 0.004 0.013 0 0.01 0.03 0.002 0
+Table 2
+Material coefficients for the chemical composition function of diffusional-phase-transformation kinetics model (referred from Li et al. (1998)).
+k bk aCk
+aMn
+k aSi
+k aNi
+k aCr
+k aMo
+k
+1 1 6.31 1.78 0.31 1.12 2.7 4.06
+2 4.25 4.12 4.36 0.44 1.71 3.33 5.19CMo
+1/2
+3 10.23 10.18 0.85 0 0.55 0.9 0.36
+Steel k n0
+k0 n0
+k1 (s/C) n0
+k2 (s2/C2) n00
+k0 n00
+k1 (s/C) n00
+k2 (s2/C2)
+H-PHSa 1 0.3996 2.481  104 1.341  105 0.3996 3.944  104 1.143  104
+2 0.3998 4.326  105 4.114  106 4.0006 1.884  104 2.957  105
+3 0.6503 8.656  104 1.966  106 0.6504 3.856  104 4.682  106
+L-PHSb 1 0.4 0 0 0.4 0 0
+2 0.4 0 0 0.4 0 0
+3 0.4 0 0 0.4 0 0
+a Bok et al. (2014).
+b Li et al. (1998).
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 145
+effect. First, we defined AGS as a function of the austenite deformation, based on a dislocationedensity model, in order to take
+strain-induced diffusional transformation into account. Second, the exponent coefficients n0
+k and n00
+k in the sigmoidal function
+of Eq. (4), which were constants in the original model, were modified as functions of temperature, namely,
+nkðTÞ ¼ nk0 þ nk1DTk þ nk2DT2k
+, to capture the transformation kinetics of H-PHS more precisely. Another under-cooling DTk
+was set to be equal to Ae3  T (for k ¼ 1, 2) or Bs  T (for k ¼ 3).
+The unidentified kinetic constants of the modified model were obtained through numerical optimization using fminsearch
+program, which was based on the NeldereMead Simplex search algorithm (Nelder and Mead, 1965), of MATLAB® software
+(MathWorks) by comparing the resulting hardness according to linear cooling processes. The objective function to be
+minimized was
+PNT_
+i¼1
+ðHcal
+v
+ðT_
+ðiÞ
+Þ  Hexp
+v
+ðT_
+ðiÞ
+ÞÞ2, where N_ T , Hcal
+v , and Hexp
+v represent the number of applied cooling rates,
+calculated hardness, and experimental hardness, respectively. The calculated hardness was defined by Hcal
+v
+¼ ðf1 þ f2ÞH ‾
+.
+Here,H
+‾
+and Hv3 represent averaged ferrite-pearlite hardness and bainite single phase hardness, respectively (Bok et al., 2014).
+Furthermore, the non-diffusional martensitic transformation approach of Koistinen and Marburger (KeM) (1959), or
+1  exp[0.011(Ms  T)], was also modified to represent an S-shaped transformation curve below the martensite start
+temperature Ms (Bok et al., 2013, 2014). Thus, the proposed modified martensitic (k ¼ 4) transformation kinetics is represented
+by
+f4 ¼ f5 bexpðxIDTIÞHI þ 1  expðxIIDTN
+II
+Þ
+ 
+HII
+ 
+; (5)
+where the available austenite (k ¼ 5) volume fraction f5 at Ms is
+f5 ¼ 1 
+X3
+k¼1
+fk: (6)
+In the above equation, HI and HII are the Heaviside step functions, i.e., HI is equal to one only when Ms_I ⩾ T ⩾ Tc, and HII is
+equal to one when HI is zero. The super-cooling terms DTI and DTII in Eq. (5) are (Ms I  T) and (Ms II  T), respectively. The
+reference temperatures Ms_I, Ms_II, and Tc for the H-PHS material are 422, 355, and 353 C, respectively. Finally, b, xI, xII, and N
+were set to 1.496  103, 6.65 102, 0.117, and 0.651, respectively.
+In contrast to H-PHS, the original Li and KeMmodels were used for L-PHS, which behaves as standard low-carbon steel in
+terms of kinetics. All required chemical-composition data and material parameters in the transformation models for both HPHS
+and L-PHS are summarized in Tables 1 and 2, respectively. The isothermal transformation model was converted into a
+non-isothermal transformation model by applying Scheil’s additivity principle (Scheil,1935) to account for the delaying effect
+of transformation when the steel sheet undergoes cooling. In this study, the effect of dynamic recrystallization (Takaki et al.,
+2014) during hot-working is not considered due to the forming temperature of the current hot press forming process. A
+detailed treatment of the non-isothermal kinetics is omitted here, but interested readers can refer to our previous work (Bok
+et al., 2014).
+2.2. Stress update by considering phase transformation
+An additive decomposition of the thermo-metallurgical strain increments at each time step was assumed to follow the
+classical elastic (dε
+e) and plastic (dε
+p) strain decompositions. Other strain components, namely, the thermal strain (dε
+th), and
+Table 3
+Material coefficients for flow-curve models for each phase.
+Steel k C0_k (MPa) C1_k (MPa/C) n0_k n1_k (/C) ε0_k
+Ferritic phases (k ¼ 1e4)
+H-PHSa 1 1022 1.1033 0.5247 6  104 1.8  103
+2, 3 2958 3.7276 0.4871 7  104 2  103
+4 2449 1.0667 0.0742 6  105 2  103
+L-PHSa 1 713.9 0.7499 0.5352 6.12  104 1.8  103
+2 1995 4.4703 0.5178 7.06  104 2  103
+3 1994.9 2.4083 0.5144 7.01  104 2  103
+4 1552.1 0.8716 0.1107 3.23  105 2  103
+Steel ε0 A (MPa) n C0 C1 m0 m1 Tm (C) Tr (C) ε
+̇
+0ðs1Þ
+Austenite (k ¼ 5)
+H-PHSb 0.01 370 0.3 0.0586 0.011 0.8 0.0335 1500 730 0.7
+L-PHSb 0.0025 209 0.116 0.0734 0.117 0.713 0.00526
+a Fitted to the predicted data in Choi et al. (2013).
+b Yoo et al. (2010).
+146 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+the volumetric (dε
+vol) and transformation plasticity (dε
+trp) strains were added to the classical elasto-plastic strains, leading to
+the total strain (dε):
+dε ¼ dεe þ dεp þ dεth þ dεvol þ dεtrp: (7)
+In the case of steels, the elastic strain and the thermal-transformation-related additional strain components are relatively
+smaller as compared to the plastic strain. Han et al. (2003) proved that the validity of additive decomposition when the elastic
+strain is small in the metal plasticity. Also, it was found that this additive decomposition approach provided similar results as
+and the multiplicative decomposition of the deformation gradient tensor under a moderately large plastic strain range (Miehe
+and Apel, 2004). Then, this additive strain decomposition strategy has reasonably been applied to commercial codes such as
+LS-DYNA (Åkerstr€om et al., 2007; Choi et al., 2012), DEFORM3D (Choi et al., 2013), ABAQUS (Bok et al., 2014). In particular,
+Choi et al. (2012) accurately predicted thickness distributions, formability, weld-line movement in a real hot press formed
+automobile TWB part using the same additive decomposition employed in the current study.
+The additional strains were formulated as
+dεth þ dεvol ¼ rðTnÞ
+rðTnþ1Þ
+ 1=3
+ 1
+!
+I and (8)
+In Eq. (8), the thermal strain is associated to the density change of existing phases according to temperature change. The
+volumetric strain, however, occurs due to the difference in densities between fcc austenite and bcc phases. Therefore, the
+former always exists under temperature gradient condition, while the latter is temporarily active only when transformation
+proceeds.
+dεtrp ¼
+X4
+k¼1
+3
+2
+K5/k_fk
+d4ðfkÞ
+dfk
+hðsy; sÞ
+!
+s; (9)
+where
+1
+r
+¼
+X5
+k¼1
+fk
+rkðTÞ ; (10)
+4ðfkÞ ¼ ð2  fkÞfk; and (11)
+hðsy; sÞ ¼
+1 for s
+
+sy <0:5
+1 þ 3:5 s
+sy
+ 1
+2
+ 
+for s
+
+sy⩾0:5
+8><
+>:
+: (12)
+In Eqs. (8) and (9), I and s are the identity and deviatoric stress tensors, respectively, and s is the effective stress defined by
+von Mises plasticity, namely, s ¼
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+ð2=3Þs : s
+p
+. The yield stress was assumed to be a linear combination of the yield stress of
+each phase as follows:
+sy ¼ fksy k: (13)
+Although this simple description of yielding has widely been adopted in thermo-mechanical simulations (Lee et al., 2009a,
+2009b; Andrade-Campos, 2010), it might not appropriately take into account the real mechanism of yielding during the phase
+Table 4
+Thermal conductance l, latent heat DH, and specific heat cp for each phase.
+Steel K DHk (kJ/kg)a cpk (J/kg K)b l (W/mK)b
+H-PHS 1 89.4 376 þ 1.384T  1.24  103T2 52.284  0.0316T  1.41049  104T2  2.78145  107T3  1.3279  1010T4
+2 77.5
+3 66.5
+4 81.5
+5 n/a
+L-PHS 1 89.4 233 þ 1.324T  8.18  104T2 44 þ 0.0275T  2.0  104T2 þ 1.875  107T3
+2 77.5
+3 66.5
+4 81.5
+5 n/a
+a Lee et al. (2010).
+b Choi et al. (2012).
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 147
+transformation process. Nonlinear mixture rule can be an alternative assumption of yielding (Åkerstr€om et al., 2007). For
+more detailed description for the yield stress calculation of mixed microstructure, more in-depth investigation might be
+necessary.
+Due to difficulties in measuring single phase flowstresses of ferritic phases as they tend to form a mixture of phases during
+cooling, the flow stresses of the ferrite, pearlite, bainite, martensite were predicted by Choi et al. (2013) with the thermodynamics
+database software, JMatPro® (Sente Software), which predicts the thermodynamic and mechanical properties of
+various alloys (Saunders et al., 2003). JMatPro® provided the flow stresses of ferritic phases of H-PHS and L-PHS using a
+thermophysical model based on the chemical composition of the steels (Choi et al., 2013). Applied strain rate was 0.1/s.
+Temperatures were at 500, 600, 700 C for pearlite and bainite, 600, 700, 800, 900 C for ferrite and 100, 200, 300, 400 C for
+martensite. Then, these flowcurves of ferritic phases (k ¼ 1, 2, 3, 4) were fitted to the Swift lawas a function of temperature in
+Eq. (14).
+However, the flow stress of austenite (k ¼ 5) was measured experimentally applying various temperature and strain rates
+because the mechanical properties of the austenitic phase are the most important in the forming step (Yoo et al., 2010). To
+consider strain rate sensitivity of austenite while forming, a modified form of the JohnsoneCook law was employed, namely,
+sy k ¼
+CðTÞ
+k
+ðε0 k þ εÞnðTÞ
+k for k ¼ 1; 2; 3; 4
+Aðε0 þ εÞn
+
+1 þ CðεÞln
+_ε
+_ε0
+
+1  sign
+T  Tr
+Tm  Tr
+ 
+T  Tr
+Tm  Tr
+
+
+mð_εÞ
+for k ¼ 5;
+8>><
+>>:
+(14)
+with
+CðTÞ
+k
+¼ C0 k þ C1 kT; nðTÞ
+k
+¼ n0 k þ n1 kT; CðεÞ ¼ C0 þ C1ε; and mð_εÞ ¼ m0 þ m1ln
+_ε
+_ε0
+: (15)
+The material coefficients in Eqs. (14) and (15) are listed in Table 3 for H-PHS and L-PHS.
+Fig. 2. Comparison of dilatations in (a) L-PHS and (b) H-PHS.
+148 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+For the elasticity, the Poisson’s ratio nwas set to 0.3 and the following temperature-dependent elastic moduluswas chosen
+from the literature (Turetta, 2008):
+EðTÞ ¼ 2:825  105 þ 61:4T  0:684T2 þ 4:568  104T3 ðMPaÞ: (16)
+Fig. 3. Comparison of phase volume fractions of (a) ferrite and (b) martensite in L-PHS and H-PHS according to different linear cooling rates.
+Fig. 4. Geometry of FE model used to simulate U-channel forming of a TWB.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 149
+Fig. 5. Results of simulated air cooling: (a) three-dimensional temperature distribution in TWB; (b) distributions of temperature and ferrite volume fraction in
+the x-direction.
+Fig. 6. Explanation of forming step.
+150 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+The stress update in the user-material subroutine was conducted based on a predictorecorrector method (Simo and Ortiz,
+1985; Lee et al., 2005; Voyiadjis et al., 2012; Shojaei and Li, 2013). First, a trial stress vector was elastically computed with the
+given strain increment at a given time step n þ 1. It was then modified to consider the thermo-metallurgical contribution, i.e.,
+strialji
+nþ1
+¼ sjn þ Ce dεjnþ1
+ dε0jnþ1
+ 
+with dε0jnþ1
+¼ dεth þ dεvol þ dεtrp
+ 
+jnþ1: (17)
+In Eq. (17), the generalized Hooke’s lawwas used to calculate the stress increment. The variations of the elastic modulus as
+a function of temperature with increasing time were ignored from the calculation of the trial stress, which does not affect the
+stress-update algorithm.
+The yield condition F was then checked within a tolerance Tol, which was set to 1 105 sy:
+Ftrialji
+nþ1
+¼ s strialji
+nþ1
+ 
+ sy⩽Tol: (18)
+If the condition was satisfied, the stress components were updated by assuming the elastic law
+sjnþ1
+¼ strialji
+nþ1: (19)
+Otherwise, the stress components were corrected by projecting onto the yield surface and obtaining the corresponding
+plastic strains dε
+p iteratively until the condition in Eq. (18) was satisfied:
+dεpjiþ1
+nþ1
+¼ dεjiþ1
+nþ1
+vFtrial
+vstrial
+
+i
+nþ1
+: (20)
+Fig. 7. Changes in (a) temperature distributions and (b) martensite fractions in the hot-formed and die-quenched part.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 151
+Fig. 8. Comparison of shape changes after relaxation of residual stress: (a) global result; magnification of flange region of (b) H-HPS and (c) L-PHS side of the
+TWB.
+152 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+In the above equation, the normality rule based on associate flow rulewas used to calculate the increment of plastic strain.
+The magnitude of the plastic strain dε at the current iteration i þ 1 was calculated as
+dεjiþ1
+nþ1
+¼ dεji
+nþ1
+þ Ddεjiþ1
+nþ1; (21)
+where
+Ddεjiþ1
+nþ1
+¼
+Ftrial
+
+i
+nþ1
+vFtrial
+vstrial
+
+i
+nþ1
+CevFtrial
+vstrial
+
+i
+nþ1
+þ vsy
+vε
+
+i
+nþ1
+: (22)
+A schematic representation of this procedure is additionally presented in Appendix A.
+2.3. Implementing material models via user-defined subroutines
+The user-defined subroutines UMAT for the implicit code and VUMAT for the dynamic explicit code were considered for
+the implementation of the material models and phase-transformation kinetics. Note that a consistent tangent modulus
+should be coded for UMAT in order to obtain a quadratic convergence rate in the implicit code (Abaqus, 2006). Furthermore,
+the user-defined subroutine for heat generation, HETVAL, was employed to account for the latent heat during phase transformation.
+In HETVAL, the heat generation qtrs is defined as
+qtrs ¼
+X5
+k¼1
+DHk_fk; (23)
+where latent heats DHk of 89.4, 77.5, 66.5, and 81.5 kJ/kg for k ¼ 1, 2, 3, and 4, respectively, were selected from the literature
+(Lee et al., 2010). The other thermal properties such as the density r, specific heat cp, and conductivity l were also modeled as
+functions of temperature or both temperature and phase fractions, namely,
+rðTÞ ¼
+X5
+k¼1
+fkrkðTÞ: (24)
+In this case, the phase fractions calculated by either UMAT or VUMAT were regarded as field variables of USDFLD, another
+user-defined subroutine for the definition of any field variable. The thermal properties in Eq. (24) were defined through the
+input deck of ABAQUS, in which temperaturewas incorporated with the field variables. The thermal coefficients in Eq. (24) are
+listed in Table 4. In this table, specific heat cp, and conductivity l were experimentally measured with H-PHS and L-PHS sheets
+using the TC-700 calorimeter by ULVAC Technology Inc. (Choi et al., 2012) and fitted to be functions of temperature.
+Fig. 9. Definition of cross sections and coordinate systems in die-corner regions in the deformed configuration.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 153
+3. FE simulations
+3.1. Validation of the developed model and implementation
+The overall phase-transformation behavior and resulting strain changes can be captured through dilatometry tests, as
+shown in Fig. 1(a).
+As explained in the last part of Section 2.1, the original model that was improved by Li et al. was used to model the
+diffusional transformation behavior of L-PHS. Meanwhile, the modified diffusional transformation was modeled for H-PHS.
+To verify the feasibility of the developed material model, a series of dilatometry tests were simulated for L-PHS and H-PHS
+and compared to the corresponding experimental results. For this attempt, the specimens were subjected to three different
+linear cooling rates of 0.5, 10, and 50 C/s. As shown in Fig. 2, the calculated dilatations are, on the whole, in reasonable
+agreement with the experiments for both steels. Compared to the simulated dilatations of H-PHS, those of L-PHS show less
+accurate results because the Li model is supposed to follow an average behavior of nonisothermal kinetics behaviors of
+various steels as explained in Section 2.1. One of the reasons for the deviation from the experiment is that a perfect optimization
+of the kinetics parameters using the current kinetics equation is rather difficult to cover the highly nonlinear
+dilatation behaviors under the entire cooling rate range. In particular, the clear and complete separation of ferrite and pearlite
+transformations in the calculated transformation (leading to the non-monotonic behavior) results in the major deviation from
+the continuous-wise transformation in the experiment. This continuous ferrite and pearlite transformation is likely due to a
+common transformation range in which ferrite and pearlite transformations coexist in the end of ferrite transformation (or in
+the beginning of pearlite transformation). Another reason is the selection of the objective function in the optimization. The
+authors regarded the Vickers hardness should represent the resulting transformation behavior. Based on this assumption, an
+objective function, comparing the calculated hardness to the corresponding experimental one, was established.
+In the experiment and simulation, the phase transformations of L-PHS are densely located in the temperature range of
+700e900 C, which led to ferrite dominant microstructures even at the highest cooling rate. This implies that the kinetics of LFig.
+10. Predicted residual stress profiles along the die radius after the forming step in (a) H-PHS and (b) L-PHS.
+154 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+PHS has a less effect on the final expected mechanical property and residual stresses due to the similarity of microstructure
+and transformation range regardless of the cooling rates.
+Meanwhile, the range of transformation temperature for H-PHSwas much broader and lower because of the higher carbon
+content and the addition of boron as a strong hardenability enhancer. Therefore, the final microstructures of boron steel were
+more diverse: a mixture of ferrite, pearlite, bainite, and martensite depending on the cooling rate. The calculated phase
+volume fractions of ferrite and martensite are shown in Fig. 3. Through these simulations, it can be concluded that the basic
+transformation kinetics and corresponding strain responses were appropriately captured for the two different steels.
+For the validation of the developed material models and their implementation, the simulated formability of more complex
+TWB mini-pillar was compared to the experiment. The thickness distribution and weld-line movement were well matched
+with measurements, which successfully validated the availability of the current modeling approach.
+3.2. Shape change in press-hardening process for U-channel prepared with TWB of L-PHS and H-PHS
+3.2.1. Modeling procedure
+The shape change (or distortion) of the TWB made of L-PHS and H-PHS sheets, joined by CO2 laser welding, was simulated
+by considering a full press-hardening process: transferring the blank to the tool, forming, die quenching, and springback. The
+simulation for the blank transfer was simplified as air cooling for 10 s from the heating temperature of 930 C.
+In this FE model, the fusion and heat-affected zones (HAZ) were not physically considered by the fact that the applied CO2
+laser welding left a narrow weld line in the TWB. The width of weld affected zone was approximately 3 mm. In addition, an
+annealing was automatically conducted during the austenitization for around 5 min. before press-hardening, which might
+reduce the effect of the HAZ.
+For efficient handling of computational cost and the convergence issue, a coupled impliciteexplicit FE approach was
+employed. In other words, the air cooling and springback were solved by the implicit code with UMAT and HETVAL, while the
+forming was solved by the explicit code with VUMAT.
+Fig. 11. Predicted residual stress profiles along the die radius after the die-quenching step in (a) H-PHS and (b) L-PHS.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 155
+To describe the air cooling, a temperature-dependent film coefficient hair was applied against the ambient temperature
+of 20 C: hair ¼ 11.8 þ 2.49  103T þ 1.14 104T2 W/m2K (Choi et al., 2013). On the other hand, for the forming
+process, the contact-heat-transfer coefficient hc between the blank and tools was expressed as a function of the contact
+distance lgap (Choi et al., 2012). The magnitude of hc was 1500W/m2K when lgap was within a critical distance lgap_c,
+which was 0.067 mm in this study. When lgap was between lgap_c and the maximum distance lgap_max, hc was set to (0.1/
+lgap) W/m2K. The Newton’s cooling law was employed to obtain these heat transfer coefficients with measured cooling
+curves.
+The FE model used in this study is depicted in Fig. 4. The width and thickness of the TWB were set to 275 mm and
+1.5 mm, respectively. A plane-strain boundary condition was imposed on a 1.5-mm-long section along the longitudinal
+direction of the U-channel. In this FE model, the heat-affected zone along the weld line was ignored for the sake of
+simplicity. Six elements in the thickness direction were employed to appropriately model the die radii and bending by the
+punch. The ABAQUS 3D continuum element C3D8T (with temperature degree of freedom) was chosen for the TWB sheet.
+The simulation consisting of air cooling, forming, and die quenching was then implemented with the initial temperatures of
+930 and 25 C for the TWB blank and tools, respectively. The temperature of the (rigid) die was kept constant to reduce
+computation time.
+In the air-cooling step, the simulation of natural cooling via heat loss to the ambient air through the free surfaces lasted for
+10 s. The average computation time including air cooling, high temperature forming, die quenching and final air cooling was
+approximately 8 h with the Intel Xeon CPU X5690 3.46 GHz. Most of the computation time was spent to calculate the shape
+change during cooling and only a couple hourswas required for forming step. The temperature of the H-PHS side decreased to
+740 C without any ferritic phase transformation. However, the temperature of the L-PHS sidewas 40 C higher because of the
+latent heat during the ferritic transformation, as shown in Fig. 5.
+The distributions of temperature, phase fraction, stress, and strain at the end of the air-cooling step were imported to
+the forming step as a set of initial conditions. Fig. 6 shows this forming step, which consisted of a drawing mode followed
+by a bending mode as the upper die moved down with a velocity VD of 25 mm/s; the full stroke was 50 mm in length. Until
+the half die stroke, the blank was geometrically constrained by the binders leading to the drawing mode. Since the gap was
+Fig. 12. Calculated additional stresses as a function of die radius of (a) H-PHS and (b) L-PHS sides during die quenching.
+156 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+larger than the blank thickness, no blank holding force was generated. This loose blank holding was, in fact, introduced not
+only to allow smooth drawing but also to prevent premature cooling by contact between the sheet flange and the tools. The
+TWB was then relieved from the holding as the edges of the flange escaped from the short binders, thus removing the
+constraint. Eventually, at the end of forming, the flange regions were freely bent as the die corners successively swept the
+outer surfaces of the flanges. This forming procedure can be roughly divided into drawing and bending modes, as presented
+in Fig. 6.
+Consequently, the upper region of the part was subjected to a drawing-like process without the blank holding force as
+long as the outer-flange regions were located inside the gap. However, the lower region of the part, including the lower
+walls, underwent a tension-free bendingeunbending with the bending radius, which was initially much larger than the
+die-corner radius owing to the unclamping. Finally, a simple bending in the die-corner regions of the part followed (see
+Fig. 6).
+The next process was 20 s of die quenching for rapid cooling of the formed part via contact heat transfer. Relatively
+uniform cooling was obtained because most part surfaces were firmly in contact with the tool surfaces, even in the wall
+regions owing to the slanted angles of the walls. Fig. 7 shows the resulting distributions of temperature and martensite
+volume fractions at the end of the forming and die-quenching steps.
+After completing the forming and die-quenching steps, the stress and other state variables of the die-quenching
+stage were transferred as the initial values of the springback step. This step was simulated by removal of the
+Fig. 13. Distributions of axial stress along material-embedded x-coordinate, S11, after (a) forming and (b) die quenching.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 157
+tools with the import option of ABAQUS, and the relief of the residual stresses led to the final equilibrium-displacement
+field.
+In this work, simulations with (FEM_TR) and without (FEM_No_TR) phase-transformation effects were performed and the
+results are shown in Fig. 8.
+3.2.2. Shape changes in press-hardening part
+The main deformation modes during press hardening can be classified as follows. First, the part undergoes free dilation in
+the manner depicted in Fig. 1(a) during air cooling. During the die-quenching step, the Satoh test mode is expected since the
+tools acted as the fixture in Fig.1(b). Therefore, a large amount of thermal stress evolved in the part during this step. Then, the
+magnitude and mode of springback (or shape distortion) depended on the stress relaxation from the final distribution of
+residual stress at the end of die quenching.
+The shape change in the wall and top regions of the part was not very noticeable for both cases, i.e., FEM with (FEM_TR)
+and without (FEM_No_TR) phase transformation, as shown in Fig. 8(a).
+Compared to shape changes in other regions, the shape changes in the flange regions were more significant, especially on
+the L-PHS side. This is clearly presented in Fig. 8(b) and (c), which are magnified views of the flange regions in Fig. 8(a).
+Interestingly, the distortion predicted without phase transformation was more noticeable than the case with full consideration
+of the phase-transformation effect.
+When compared to the experiment, the presented modeling approach with phase-transformation effect (FEM_TR) was
+very successful in predicting the shape change after the press-hardening process. The enlarged figures (Fig. 8(b) and (c)) show
+a major difference in the trends of shape changes and between the magnitudes of the changes in FEM_No_TR and FEM_TR in
+the flange regions. In particular, a reverse springback, or the so-called springforward, took place predominately in the FEM_TR
+simulation of the L-PHS side, as shown in Fig. 8(c). This reasonably predicted the experimental observation.
+Fig. 14. Changes in axial stress along material-embedded x-coordinate, S11, and total-transformed-phase volume fractions at (a) PA in AACTR and (b) PB in BBCTR
+during forming and die quenching.
+158 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+The springforward phenomenon is theoretically explained in a previous article (Narayanaswamy, 1980) as a phenomenon
+that takes place in the presence of a large tension stress in a bent sheet during the cold-forming process. Bottoming in a Vbending
+process also leads to springforward (Ogawa et al., 2010). In warm forming, this phenomenon is also observed in a
+shape-memory alloy after warm bending followed by constrained cooling (Duerig and Albrecht, 1983). In these cases, the
+commonly required condition for springforward is the existence of a combination of part bending and tensile stress before the
+stress-relaxation step. Presumably, a similar situation arose around the die-corner regions of the current U-channel during
+the press-hardening process. This issue will be dealt with in more detail in the following sections.
+3.2.3. Investigation of through-thickness stress distributions during forming and die quenching
+The stress distributions in the regions of the die corners were investigated because they were likely to play an important
+role in different shape changes depending on the material model. The cross sections of the upper, center, and lower regions of
+the die corner area on the H-PHS side were defined as AAUPR, AACTR, and AALWR, as indicated in Fig. 9. Similarly, those on the LPHS
+side were defined as BBUPR, BBCTR, and BBLWR. The through-thickness stress profiles of these particular areas were
+inspected thoroughly.
+Fig. 10 shows that the trends of the through-thickness profiles in the longitudinal stress component S11, defined in
+ABAQUS, were similar for both steels after the forming step. In particular, a compressive stress of about 150 MPa developed in
+the lower cross sections facing the die corners, AALWR and BBLWR (die side), because of the simple blank bending at the end of
+the forming step.
+However, the trends in stress profiles at the end of forming deviated from each other after the die-quenching step, as
+shown in Fig. 11. The longitudinal stress component in H-PHS decreased (almost) linearly from the die-side surface to the
+punch-side surface (Fig. 11(a)). In contrast, a V-shaped profile was observed in L-PHS (Fig. 11(b)). Fig. 12(a) and (b) clearly
+show that the change in the longitudinal stress, denoted as DS11 (¼ S11_end of die quenching  S11_end of forming), during die
+quenching developed with different patterns. Moreover, Figs. 11 and 12 also show that, after die quenching, the through-
+Fig. 15. Changes in axial stress along material-embedded x-coordinate, S11, and equivalent plastic strains at (a) PA in AACTR and (b) PB in BBCTR during forming and
+die quenching.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 159
+thickness stress profiles of the bent regions were very similar. This indicates that the final stress profile was mostly determined
+by the stress change DS11 during die quenching.
+3.2.4. Discussion on the role of thermal strain and phase transformation
+In this section, the role of stress distribution on the shape of the U-channel part (especially in the flange region) is
+examined. Fig. 13(a) and (b) show the distributions of the longitudinal stress S11 after forming and die quenching. The nonuniformity
+of the stress field in thewall regions at the end of formingwas significantly mitigated after die quenching. This can
+be explained as follows.
+In the absence of constraints, the thermal strain during cooling would result in contraction of the sheet, but because
+of the geometrical constraint between the flange and the punch, this free thermal contraction was suppressed.
+This constraining effect led to the development of tensile stress, replacing the previous non-uniform stress field. The
+temperature drop during die quenching was as high as ~700 C, which was large enough to cause even plastic
+deformation.
+The magnitude of the developed stress on the H-PHS side during die quenching was larger than that on the L-PHS side,
+which was due to the larger strength induced by the martensite-dominant phase transformation.
+The springback, the primarily elastically driven shape change of the part, was roughly proportional to the residual stress
+before the tools were removed. Therefore, the difference between the springback values on the H-PHS and L-PHS sides was
+related to the difference between the residual stress of the two materials. Although there are several reasons for the
+difference in the residual-stress levels, this study focuses on the characteristics of phase transformation between the two
+materials. To analyze the possible effect of the latter on the stress levels, the stress component S11 and the total transformed
+volume fraction were extracted from the outermost nodes PA and PB facing the die on AACTR and BBCTR. A critical
+aspect was observed and shown in Fig. 14: the phase transformation occurred during the die-quenching step on the H-PHS
+side (Fig. 14(a)) but during the forming step on the L-PHS side (Fig. 14(b)). In addition, about 30% of the austenite was
+transformed before the forming step on the L-PHS side. This transformation characteristic is important because significant
+stress relaxation could have taken place owing to the transformation plasticity during the phase change. Moreover, the
+volume expansion resulting from the transformation may have overridden the thermal contraction (see Fig. 1(b)).
+Therefore, the compressive stress by volume expansion could have been temporarily predominant in the transforming
+range when subjected to a geometrical constraint. In fact, Fig. 14(a) shows that the stress component S11 decreased to
+Fig. 16. Stressestrain responses at different nodes: (a) PA with (b) its enlarged figure of die-quenching region; (c) PB with (d) its enlarged figure of die-quenching
+region.
+160 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+e120 MPa in the die-quenching step (at 14.5 s) because of the volume expansion resulting from the austenite-tomartensite
+transformation on the H-PHS side. The thermal stress then rapidly increased again after the martensitic
+transformation was completed. In contrast to the H-PHS side, such a large stress fluctuation was not observed on the L-PHS
+side during die quenching, as shown in Fig. 14(b), because the amount of austenite to be transformed was limited by the
+earlier transformation before die quenching.
+Fig. 15 shows a comparison of the values of equivalent plastic strain over time in H-PHS and L-PHS sections. The plastic
+strain accumulated mainly during forming. Interestingly, additional plastic strains of about 0.003 and 0.006, which resulted
+from the thermal stress during die quenching, accumulated in the H-PHS and L-PHS sections, respectively. This implies that
+the thermally induced stress could reach the yield stress during die quenching. In the H-PHS section, there was no accumulation
+of plastic strain after the peak compression (Fig. 15(a)) because the thermal stress did not overcome the high
+strength of the transformed martensite.
+In order to determine the effectiveness of the geometrical constraint by the tools during die quenching, the evolution of
+the stresswas plotted as a function of the strain in the particular material points of the H-PHS and L-PHS sections, as shown in
+Fig. 16. The constraining effect strongly suppressed the development of strain during die quenching (indicated by the dotted
+box in Fig. 16(a) and (c)). It should be noted that the development of a tensionecompressionetension stress pattern is
+featured in the H-PHS portion in Fig. 16(b), but monotonic tension for the L-PHS portionwas predicted, as shown in Fig. 16(d).
+The stress developments for the two sections of the TWB were confirmed by the cyclic and monotonic behavior of the stress
+through the thickness at the die corner, as shown in Fig. 17.
+3.2.5. Explanation of stress development in L-PHS and H-PHS during press hardening
+In this section, a simple schematic explanation of stress development in L-PHS and H-PHS is provided to account for the
+different deformation results during springback. In the case of L-PHS, we assumed that the common S-shaped stress profile
+along the longitudinal direction after forming would sufficiently represent the bending dominant effect, which is
+Fig. 17. Comparison of stress profile changes in (a) AACTR of H-PHS and (b) BBCTR of L-PHS during die quenching and after stress relaxation.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 161
+illustrated in Fig. 18(a). The stress profile consists of an elastic part near the neutral surface and a plastic part out of the
+elastic region. The schematic of the elastic limit (or yield strength, sy) of the material point through the sheet thickness is
+also depicted in the figure. The stress limit increased as the material point approached the sheet surface because of strain
+hardening. Note that the L-PHS microstructure at this stage consisted of ferrite and austenite owing to the early transformation.
+In the die-quenching step, thermal tensile stress began to develop because of the tool constraint and the stress
+level reached the limit strength assumed in the previous step. A schematic of the stress profile after this step is shown in
+Fig. 18(b). Therefore, the resultant bending moment at this stage was negligible because of the symmetric stress profile,
+which did not produce the so-called springback. In this case, an elastic recovery took place uniformly throughout the cross
+section of the sheet’s bent region during the final springback step, as shown in Fig. 18(c). As discussed in Section 3.2.2, this
+uniform stress relaxation in the bent region might have been the main cause of the reverse springback (namely, springforward)
+phenomenon.
+The stress profiles in the H-PHS and L-PHS sections were similar during forming, although the microstructure was
+still fully austenitic, as schematically presented in Fig. 19(a). During the die-quenching step, however, significant
+Fig. 18. Schematic explanation of stress development and release corresponding to a bendingeconstrained cooling (die quenching)erelaxation (springback)
+process in L-PHS: stress profiles after (a) forming, (b) die quenching, and (c) springback.
+162 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+compressive stress induced by the martensitic transformation developed, allowing the non-symmetric stress profile to
+remain, as shown in Fig. 19(b). In this case, the longitudinal stress might have been lower than the yield stress (or it
+might have remained elastic) because of the transformation hardening by the formation of very hard martensite. Upon
+completion of the martensitic transformation, a large distribution of the thermal tensile stress was generated elastically,
+which produced the slanted stress profile shown in Fig. 19(c). Unlike the symmetric stress profile in the L-PHS section,
+this H-PHS stress profile resulted in a bending moment and was favorable to springback. The bending moment
+was compensated by the relaxation of the superimposed thermal tensile stress developed in the last step shown
+in Fig. 19(d). Moreover, the magnitude of the thermal tensile stress in H-PHS was much larger than that in L-PHS owing
+to the martensite formation. Therefore, the springback could have been effectively compensated by the reversespringback
+(or springforward), led by a sufficiently large tensile stress. The shape change was also negligible in the
+H-PHS section.
+Note that for simplicity, the explanation provided above ignores the effect of strain rate and the Bauschinger effect on the
+yield stress.
+Fig. 19. Schematic explanation of stress development and release corresponding to a bendingeconstrained coolingerelaxation process in H-PHS: stress profiles
+(a) after forming, (b) during die quenching at the peak compression point, (c) after completion of die quenching, and (d) after springback.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 163
+3.2.6. Single-element analogy to explain the role of thermal and phase-transformation-induced stress
+In order to simplify the previous U-channel forming example while keeping the deformation mechanism of a real presshardening
+application, a single finite element was analyzed for the same deformation and phase-transformation characteristics.
+A single, fully coupled, continuum thermo-mechanical element with dimensions of 10  10  10 mm3 was subjected
+to a two-step cooling process with rates of 20 and 50 C/s from the same initial temperature of 930 C. A tensile strain of 20%
+was applied within 2 s of the start of rapid cooling to provide the forming effect. No further displacement was allowed in the
+tensile direction during the rest of the cooling step to impose the constraint effect (on the geometric feature of the previous Uchannel).
+Fig. 20 presents the simulated stresses and transformed volume fractions of the two steels with respect to the cooling time.
+For H-PHS, the tensile stress mainly developed before the martensitic phase transformation because of the thermal
+contraction during cooling. Once the martensitic phase transformation became dominant (at around 15 s), the stress became
+compressive because of the volume expansion. Again, the stress changed sign and turned into tension owing to further
+thermal contraction by cooling. Therefore, the overall longitudinal stress during cooling of H-PHS was tensionecompressionetension.
+This confirms the result of the U-channel example.
+In contrast, only a limited amount of compression stress developed in L-PHS during the early slow-cooling range, after
+which the stress evolved mainly monotonically in tension during the rest of the cooling step. There is a sudden drop of stress
+in the early rapid cooling region in accordance with minor transformation. This sudden drop, however, has never resulted in
+the compressive stress state due to the limited amount of available austenite to be transformed. Therefore, the “monotonic”
+means that the stress state remains tensile, while the “cyclic” implies that both “compressive” and “tensile” happen during
+cooling.
+As shown in Fig. 21, the major transformation took place at about 8 and 20 s for L-PHS and H-PHS, respectively. Owing to
+the simplicity of the one-element approach, further analysis could be efficiently performed without much computational
+effort. This section discusses the roles of the thermal and transformation-related strains on the evolution of stress. For this
+investigation, TRP, VOL, and TH denote the transformation plasticity, volumetric, and thermal strains, respectively. In Fig. 21,
+Fig. 20. Comparison of calculated axial stress histories and total-transformed-phase volume fractions in (a) H-PHS and (b) L-PHS with a simplified FE model.
+164 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+the simulations were conducted for L-PHS or H-PHS with (w/) consideration of the full material models developed in the
+present work or without (w/o) any combination of the strain mechanisms TRP, VOL, and TH.
+First, it was observed that the compressive stress was only predicted when the volumetric strain due to transformation
+was included, i.e., for the simulations w/TH-VOL-TRP and w/o TRP for both steels. In particular, the magnitude of the
+compressive stress was the largest when the transformation plasticity was ignored, which led to deformation without
+relaxation by additional (phase-transformation) plasticity. It is then discovered that when the volumetric strain due to phase
+transformation was ignored while the thermal and transformation plasticity strains (the case w/o VOL) remained, the stress
+relaxation was still significant but it never entered the compression region. This stress relaxation was dominant in the minor
+transformation range for L-PHS and in the major transformation range for H-PHS.
+The extreme case, for which none of the thermal and phase-transformation-related strains were taken into consideration
+(w/o TH-VOL-TRP), was also considered to check the enhanced capabilities of the complete model for press-hardening applications.
+As expected, the predicted stress histories were very different from all the other cases. In particular, the fluctuations
+disappeared because the stress evolutions were based purely on mechanical deformation.
+In summary, the simplified simulation results show that the volume expansion owing to phase transformation played a
+major role in the development of the compressive stress. Moreover, this compressive stress was superimposed by the tensile
+thermal stress developed with the specific geometric constraint of the U-channel die. The level of this compressive stress
+could be mitigated by the transformation-plasticity effect. The FE analysis, carried out on the single element with various
+material models, demonstrates that the phase-transformation-related strains had a significant influence on the development
+of the residual stress field in the part during press hardening. From various viewpoints, this suggests that conventional FE
+simulations without proper consideration of phase transformation may not be appropriate for the analysis of the presshardening
+process.
+4. Conclusions
+The deformation and shape change of a U-channel part with a tailor-welded-blank (TWB) by press hardening were
+simulated using the finite-element (FE) method and considering the phase-transformation effects. The TWB sheet consisted
+Fig. 21. Effect of thermal and transformation-related strains on axial stress of (a) L-PHS and (b) H-PHS.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 165
+of press-hardening steels with low (L-PHS) and high (H-PHS) hardenabilities. The constitutive model that accounted for
+thermo-mechanical deformation under phase transformation was implemented in the simulation using the commercial FE
+software ABAQUS with the user-defined subroutines UMAT, VUMAT, and HETVAL.
+To realistically simulate a press-hardening process with improved computational efficiency, the entire simulation was
+divided into three steps: (1) transfer of the TWB sheet on the tool surface, during which the temperature dropped because
+of air cooling, was simulated using the implicit FE software ABAQUS/Standard; (2) forming and subsequent die quenching
+were simulated with the FE software ABAQUS/Explicit; (3) springback was predicted by relaxation of the residual-stress field
+in the part using the implicit FE software ABAQUS/Standard. As a result, the springback behavior in the flange area was
+successfully captured in L-PHS and H-PHS by this three-step-simulation scheme without excessive computational cost. In
+particular, when the phase transformation and other thermally induced strains were included in the material model, the
+magnitude and trend of the springback response in the flange regions of the two materials were in good agreement with the
+experimental results. An explanation of the mechanism of stress development in the L-PHS and H-PHS sides of the TWB part
+during the U-channel’s press-hardening process is provided to account for the different springback behavior in the TWB
+part.
+The main observations obtained through this combined experimentalesimulation-based analysis are as follows:
+ A substantial amount of tensile stress developed during the die-quenching step because of the constrained thermal
+contraction owing to the particular geometry of the U-channel tool. The non-uniform stress distribution that took place
+during forming was replaced by more uniform tensile thermal stress after die quenching.
+ A large compressive stress developed during die quenching, led by the volumetric strain as the austenite transformed into
+martensite in the H-PHS section. With further cooling, thermal tensile stress appeared after completion of the transformation.
+These unique thermally induced strains resulted in a tensionecompressionetension cycle in the H-PHS section.
+This stress evolution pattern did not appear in the L-PHS sheet because early diffusional phase transformations occurred at
+higher temperatures, providing no chance for phase transformation in the die quenching stage. In this case, a nearly
+monotonic stress pattern was obtained.
+ Before the springback step, the stress profiles of both H-PHS and L-PHS were all tensile through the entire cross section
+around the die corners. However, the stress profile in L-PHS was (nearly) symmetric, while the stress profile in H-PHS
+showed a non-symmetric slanted distribution.
+ The residual stress distributions before the springback step differentiated the resultant bending moment after the die
+quenching, which was compensated in the reverse-springback process by the superimposed thermal tension during the
+final springback step.
+ Consequently, a small amount of reverse springback, (i.e., springforward) was predicted in the L-PHS section but almost
+negligible shape change was predicted in the H-PHS section by the coupled thermo-mechanical FE analysis. This result
+might be explained by the tension-dominant stress relaxation in the L-PHS section, as well as a balance of springback and
+springforward in the H-PHS section. The predicted shape changes were in good agreement with experimentally observed
+shape changes for both materials.
+ The roles of various strain components related to the thermal and metallurgical aspects were investigated in more detail
+using a simpler approach with single-element FE analysis. It was found that the phase-transformation-associated strains,
+including volumetric and phase-transformation plasticity strains, should be considered for an accurate prediction of the
+stress field in a press-hardened part.
+Acknowledgement
+This work was supported by the National Research Foundation of Korea (NRF) Grant funded by the Korea government
+(MSIP) (NRF-2014R1A2A1A11052889) and (NRF-2012R1A5A1051500). FB also appreciates the support by POSCO.
+Appendix A. Flow chart for stress integration procedure
+The stress update considering thermal and transformation related strain component, described in Eqs. (17)e(22), can be
+schematically explained in Fig. A1.
+Before a stress update procedure is initiated in UMAT, increments of phase fractions are firstly evaluated in the current
+time step at Tnþ1 temperature to obtain thermal and transformation related strains, i.e., dε
+th, dε
+vol and dε
+trp by Eqs. (8) and (9).
+Then, these additional strain components are initially subtracted from the given total strain increment dε, provided by the
+ABAQUS. In this case, the transformation-induced plasticity strain increment dε
+trp is calculated with the stress component at
+the end of previous time step for simplicity assuming that the size of time increment is very small by the nature of explicit FE
+algorithm. Therefore, the magnitude of stress differences between the time steps tn and tnþ1 is also small.
+With this condition, the trial stresses are obtained purely elastically. After checking the yield condition in Eq. (18), the
+stresses at the current time step can be updated either elastically or plastically. In the plastic state, an appropriate correction
+of the overshot stresses is carried out along the radial direction of the yield locus defined by von Mises isotropic plasticity. This
+procedure, called radial return-mapping or predictorecorrector method, can be implemented semi-implicitly with the
+166 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+cutting-plane method consisting of several sub-increments in a course of stress correction to the updated yield surface Fj
+nþ1
+as shown in Fig. A1 (Simo and Ortiz, 1985).
+In each sub-increment, the magnitude of plastic strain dε is increased by Ddε and the trial stress components are decreased
+by dε  vF=vs as presented in the figure (3. Plastic corrector). This process proceeds repeatedly until the tolerance to the yield
+condition is satisfied, namely, F⩽Tol.
+The cutting-plane algorithm takes the yield surface normal evaluated at the end of previous iteration stage i to correct the
+trial stress components to the yield surface at the current iteration step i þ 1 in the current time step tnþ1. This implies that the
+direction of a plastic strain during iteration does not always guarantee the exact normal to the yield surface at i þ 1th iteration
+step. Therefore a small amount of drift from the exact stress state can be involved when, especially, stress state is complicated.
+Nevertheless, this method provides a quadratic convergence rate and also calculations of matrix inverses required for fully
+implicit return-mapping algorithm is not necessary, which is useful for the ABAQUS explicit solver for forming and diequenching.
+Appendix B. List of symbols
+Parameter/
+variables
+Definition Related
+equations
+A Stiffness of strain hardening term to the JohnsoneCook type yield stress
+equation for austenite (k ¼ 5)
+Eq. (14)
+aelement
+k Weight factor to the effect of chemical composition on kth diffusional transformation by the
+corresponding alloy elements (¼ C, Mn, Cr, Si, etc.)
+bk Constant for chemical composition function, gk(Comp) Eq. (3)
+b Kinetics constant to martensite transformation Eq. (5)
+Celement Chemical content of alloy elements (¼ C, Mn, Cr, Si, etc.) in mass percent
+C(T)k Stiffness to the Swift type yield stress equation in a polynomial as a function of temperature
+for ferritic phases (k ¼ 1 ~ 4)
+Eq. (14)
+Cq_k qth polynomial coefficient to C(T)k in connection with Tq (q ¼ 0, 1)
+C(ε) Stiffness of strain rate term as a function of effective strain to the JohnsoneCook type yield
+stress equation for austenite (k ¼ 5)
+Eq. (14)
+C0 Stiffness constant to C(ε)
+C1 Stiffness coefficient to C(ε)
+(continued on next page)
+Fig. A1. Schematic representation of stress update algorithm considering thermal and transformation related strain components.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 167
+(continued )
+Parameter/
+variables
+Definition Related
+equations
+Comp Chemical composition
+Ce Elasticity tensor
+cp Specific heat
+DHk Latent heat of kth transformation
+DTI Super-cooling from Ms_I Eq. (5)
+DTII Super-cooling from Ms_II Eq. (5)
+DTk Under-cooling, defined as DT1,2 ¼ Ae3  T and DT3 ¼ Bs e T
+E Young’s modulus as a function of temperature
+ε0 Prestrain to the strain hardening term of the JohnsoneCook type yield stress
+equation for austenite (k ¼ 5)
+Eq. (14)
+ε0 k Prestrain to the strain hardening term of the Swift type yield stress equation
+for ferritic phases (k ¼ 1 ~ 4) in Eq. (14)
+Eq. (14)
+ε Effective plastic strain
+ε
+̇
+0 Reference effective strain rate
+ε Total strain tensor in vector form
+ε
+e Elastic strain tensor in vector form
+ε
+p Plastic strain in vector form
+ε
+th Thermal strain tensor in vector form
+ε
+vol Volumetric strain tensor due to the lattice volume difference
+between bcc and fcc phases
+ε
+trp Transformation-induced plasticity strain tensor
+G Grain size in ASTM definition
+Hcal
+v Predicted Vickers hardness
+Hexp
+v Experimentally observed Vickers hardness
+H ‾
+Average Vickers hardness of ferrite-pearlite mixed phase
+Hv3 Vickers hardness of bainite single phase
+HI First Heaviside step function Eq. (5)
+HII Second Heaviside step function Eq. (5)
+hair Radiation-convection combined heat transfer coefficient to the ambient air
+hc Contact heat transfer coefficient between the blank and tools
+I Identity tensor
+i ith applied cooling rate
+K5/k Coefficient of transformation-induced plasticity strain for kth transformation
+ck Exponents for sigmoidal phase growth controlling function, hk in Eq. (4)
+l Thermal conductivity
+m(ε
+̇
+) Exponent to the temperature term of the JohnsoneCook type yield stress equation
+for austenite (k ¼ 5) as a function of strain rate, ε
+̇
+Eq. (14)
+m0 Constant of m(ε
+̇
+)
+m1 Coefficient for m(ε
+̇
+)
+N Exponent to the second super-cooling DTII Eq. (5)
+Nk Exponent for degree of under-cooling Eq. (2)
+N
+T ̇
+Total number of applied cooling rates
+n Strain hardening exponent of the JohnsoneCook type yield stress equation
+for austenite (k ¼ 5)
+Eq. (14)
+nkj jth polynomial coefficient for n0
+k or n00
+k in combination with DTj
+k
+n(T)k Strain hardening exponent as a function of temperature to the Swift type
+yield stress equation for ferritic phases (k ¼ 1 ~ 4)
+Eq. (14)
+n0
+k Exponent parameter belonging to ck
+n00
+k Exponent parameter belonging to hk
+hk Exponent for sigmoidal phase growth controlling function, hk Eq. (4)
+F Yield function
+fk Volume fraction of kth phase
+4 Nonlinear effect function to transformation-induced plasticity strain
+according to progress of transformation
+Qk Activation energy for kth diffusional transformation
+qtrs Rate of internal heat generation
+R The gas constant
+rk kth single phase density
+r Average density of mixture of phases
+s Stress deviator
+sy Yield stress of steel
+sy_k Yield stress of a single phase k
+s von Mises effective stress
+s Cauchy stress vector
+strial Trial stress vector
+T Temperature
+Tk Critical temperatures of steels, i.e., Ae3, Ae1 and Bs for k ¼ 1, 2 and 3
+Tm Melting temperature of steel
+Tr Reference temperature for the temperature term of the JohnsoneCook
+type yield stress equation for austenite (k ¼ 5)
+Eq. (14)
+168 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+References
+ABAQUS, 2006. User’s Manual for Version 6.2.6, Hibbitt, Karlson & Sorensen Inc.
+Åkerstr€om, P., Bergman, G., Oldenburg, M., 2007. Numerical implementation of a constitutive model for simulation of hot stamping. Modell. Simul. Mater.
+Sci. Eng. 15, 105e119.
+Altan, T., 2006. Hot-stamping boron alloyed steels for automotive parts, Part 1: process methods and uses. Stamp. J. 40e41.
+Andrade-Campos, A., 2010. The influence of the material heat treatment and phase transformations in forming processes. Int. J. Mater. Form. 3, 1139e1142.
+Auricchio, F., Bonetti, E., Scalet, G., Ubertini, F., 2014. Theoretical and numerical modeling of shape memory alloys accounting for multiple phase transformations
+and martensite reorientation. Int. J. Plast. 59, 30e54.
+Avrami, M., 1939. Kinetics of phase change. I. General theory. J. Chem. Phys. 7, 1103e1112.
+Avrami, M., 1940. Kinetics of phase change. II. Transformation-time relations for random distribution of nuclei. J. Chem. Phys. 8, 212e224.
+Avrami, M., 1941. Kinetics of phase change. III. Granulation, phase change, and microstructure. J. Chem. Phys. 9, 177e184.
+Bok, H., Choi, J.W., Barlat, F., Lee, M.G., 2013. FE simulation of microstructure evolution considering prior austenite deformation in hot press forming of a Uchannel.
+In: Proceedings of the 4th International Conference on Hot Sheet Metal Forming of High-Performance Steel, pp. 285e291.
+Bok, H.H., Choi, J.W., Barlat, F., Suh, D.W., Lee, M.G., 2014. Thermo-mechanical-metallurgical modeling for hot-press forming in consideration of the prior
+austenite deformation effect. Int. J. Plast. 58, 154e183.
+Choi, J.W., Lee, M.G., Barlat, F., Son, H.S., Nam, J.B., 2012. Hot press forming of tailor welded blank: experiments and FE modeling. ISIJ Int. 52 (11),
+2059e2068.
+Choi, J.W., Bok, H.H., Barlat, F., Son, H.S., Kim, D.J., Lee, M.G., 2013. Experimental and numerical analyses of hot stamped parts with tailored properties. ISIJ
+Int. 53 (6), 1047e1056.
+Duerig, T.E., Albrecht, J., 1983. Reverse springback: a curious manifestation of thermoelasticity. Acta Metall. 31, 1013e1018.
+Han, C.S., Lee, M.G., Chung, K., Wagoner, R.H., 2003. Integration algorithms for planar anisotropic shells with isotropic and kinematic hardening at finite
+strains. Commun. Numer. Meth. Eng. 19, 473e490.
+Hillert, M., 1957. The role of interfacial energy during solid state transformations. Jernkontorets Ann. 141, 758e789.
+Johnson, W.A., Mehl, R.F., 1939. Reaction kinetics in processes of nucleation and growth. Trans. AIME 135, 416e458.
+Karbasian, H., Tekkaya, A.E., 2010. A review on hot stamping. J. Mater. Process. Technol. 210, 2103e2118.
+Kato, H., Sasaki, K., 2013. Transformation-induced plasticity as the origin of serrated flow in an NiTi shape memory alloy. Int. J. Plast. 50, 37e48.
+Kirkaldy, J.S., Venugopalan, D., 1984. Prediction of microstructure and hardenability in low alloy steels. In: Marder, A.R., Goldstein, J.I. (Eds.), International
+Conference on Phase Transformation in Ferrous Alloys, AIME, Philadelphia, PA, pp. 125e148.
+Knezevic, M., Beyerlein, I.J., Brown, D.W., Sisneros, T.A., Tome, C.N., 2013. A polycrystal plasticity model for predicting mechanical response and texture
+evolution during strain-path changes: application to beryllium. Int. J. Plast. 49, 185e198.
+Koistinen, D.P., Marburger, R.E., 1959. A general equation prescribing the extent of the austenitemartensite transformation in pure ironcarbon alloys and
+plain carbon steels. Acta Metall. 7, 59e60.
+Kolmogorov, A.N., 1937. Statistical theory of crystallization of metals. Izvestia Akad. Nauk SSSR 1, 355e359.
+Lee, M.G., Kim, D., Kim, C., Wenner, M.L., Chung, K., 2005. Spring-back evaluation of automotive sheets based on isotropic-kinematic hardening laws and
+non-quadratic anisotropic yield functions, Part III: applications. Int. J. Plast. 21, 915e953.
+Lee, M.G., Kim, S.J., Han, H.N., Jeong, W.C., 2009. Implicit finite element formulations for multi-phase transformation in high carbon steel. Int. J. Plast. 25,
+1726e1758.
+Lee, M.G., Kim, S.J., Han, H.N., 2009. Finite element investigations for the role of transformation plasticity on springback in hot press forming process.
+Comput. Mater. Sci. 47, 556e567.
+Lee, S.J., Pavlina, E.J., Van Tyne, C.J., 2010. Kinetics modelling of austenite decomposition for end-quenched 1045 steel. Mater. Sci. Eng., A 527, 3186e3194.
+Levitas, V.I., Ozsoy, I.B., 2009. Micromechanical modeling of stress-induced phase transformations. Part 2. Computational algorithms and examples. Int. J.
+Plast. 25, 546e583.
+Li, M.V., Niebuhr, D.V., Meekisho, L.L., Atteridge, D.G.A., 1998. Computational model for the prediction of steel hardenability. Metall. Mater. Trans. 29B,
+661e672.
+Lusk, M.T., Lee, Y.K., 1999. A global material model for simulating the transformation kinetics of low alloy steels. In: Proceedings of the 7th International
+Seminar of IFHT, Budapest, Hungary, pp. 273e282.
+Ma, A., Hartmaier, A., 2015. A study of deformation and phase transformation coupling for TRIP-assisted steels. Int. J. Plast. 64, 40e55.
+Miehe, C., Apel, N., 2004. Anisotropic elastic-plastic analysis of shells at large strains. A comparison of multiplicative and additive approaches to enhanced
+finite element design and constitutive modeling. Int. J. Numer. Meth. Eng. 61, 2067e2113.
+Narayanaswamy, O.S., 1980. Calculation of springback and toe-in in stretch bending of sheet metal. Sheet Met. Ind. 120e123.
+Nelder, J.A., Mead, R., 1965. A simplex method for function minimization. Comput. J. 7, 308e313.
+Ogawa, T., Hirahara, A., Yoshida, T., 2010. Reduction of springback of sheet metals by bottoming. In: Proceedings of the 10th International Conference on
+Numerical Methods in Industrial Forming Processes, pp. 919e926.
+Ortwein, R., Skoczen, B., Tock, J.Ph., 2014. Micromechanics based constitutive modeling of martensitic transformation in metastable materials subjected to
+torsion at cryogenic temperatures. Int. J. Plast. 59, 152e179.
+Satoh, K., 1972. Transient thermal stresses of weld heat-affected zone by both-ends-fixed bar analogy. Trans. Jpn. Weld. Soc. 3, 125e134.
+Saunders, N., Guo, U.K.Z., Li, X., Miodownik, A.P., Schille, J.-Ph., 2003. Using JMatPro to model materials properties and behavior. JOM 55 (12), 60e65.
+Scheil, E., 1935. Anlaufzeit der austenitumwandlung. Arch. Eisenhuettenwes. 12, 565e567.
+Shojaei, A., Li, G., 2013. Viscoplasticity analysis of semicrystalline polymers: a multiscale approach within micromechanics framework. Int. J. Plast. 42,
+31e49.
+Simo, J.C., Ortiz, M., 1985. A unified approach to finite deformation elastoplastic analysis based on the use of hyperelastic constitutive equations. Comput.
+Methods Appl. Mech. Eng. 49, 221e245.
+Steven, W., Haynes, A.G., 1956. The temperature formation of martensite and bainite in low-alloy steels: some effects of chemical composition. J. Iron Steel
+Inst. 183, 349e359.
+(continued )
+Parameter/
+variables
+Definition Related
+equations
+Tol Tolerance as a convergence criterion to the yield condition Eq. (3)
+T ̇
+Cooling rate in C/s
+xI Coefficient of exponential function as a function of DTI Eq. (5)
+xII Coefficient of exponential function as a function of DTII Eq. (5)
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 169
+Takaki, T., Yoshimoto, C., Yamanaka, A., Tomita, Y., 2014. Multiscale modeling of hot-working with dynamic recrystallization by coupling microstructure
+evolution and macroscopic mechanical behavior. Int. J. Plast. 52, 105e116.
+Turetta, A., 2008. Investigation of Thermal, Mechanical and Microstructural Properties of Quenchable High Strength Steels in Hot Stamping Operations.
+Doctoral Theses. Universita degli Studi di Padova.
+U.S.Steel Company Research Laboratories, 1963. Atlas of Isothermal Transformation Diagrams, third ed. U.S. Steel Inc., Pittsburgh, PA.
+Voyiadjis, G.Z., Shojaei, A., Li, G., 2012. A generalized coupled viscoplastic-viscohealing theory for glassy polymers. Int. J. Plast. 28, 21e45.
+Wagoner, R.H., Lim, H., Lee, M.G., 2013. Advanced issues in springback. Int. J. Plast. 45, 3e20.
+Yoo, D.H., Kim, D.G., Ahn, K.H., Kim, H.G., Son, H.S., Kim, G.-S., Chung, K., 2010. Characterization of mechanical properties for hot press forming. Steel Res. Int.
+81 (9), 857e860.
+Zener, C., 1946. Kinetics of decomposition of austenite. Trans. AIME 167, 550e583.
+=======
+Stress development and shape change during
+press-hardening process using phase-transformation-based
+finite element analysis
+H.H. Bok a, b, J.W. Choi b, D.W. Suh a, M.G. Lee c, *, F. Barlat a, 1
+a Graduate Institute of Ferrous Technology, Pohang University of Science and Technology (POSTECH), San 31, Hyoja-dong, Nam-gu,
+Pohang-si, Gyeongsangbuk-do 790-784, Republic of Korea
+b POSCO, 699 Geumho-dong, Gwangyang-si, Jeollanam-do 545-875, Republic of Korea
+c Department of Materials Science and Engineering, Korea University, Seoul 136-701, Republic of Korea
+a r t i c l e i n f o
+Article history:
+Received 14 August 2014
+Received in revised form 27 October 2014
+Available online 26 November 2014
+Keywords:
+A. Phase transformation
+A. Thermomechanical processes
+B. Residual stress
+C. Finite elements
+Press hardening
+a b s t r a c t
+Elastically driven shape change, or springback, in a press-hardened U-channel part made
+from a tailor-welded blank (TWB) was simulated using a fully coupled thermo-mechanicalemetallurgical
+finite element (FE) method. The TWB consists of boron steel and
+high-strength low-alloy steel, which have significantly different hardenabilities. A combined
+impliciteexplicit three-step simulation consisting of air cooling, forming and die
+quenching, and springback was used for computational efficiency. All the required material
+models such as the modified phase-transformation kinetics and phasetransformation-
+related stress-update scheme were implemented in the FE software
+ABAQUS with the user-defined subroutines UMAT, VUMAT, and HETVAL. The developed
+FE procedure, including the material models, satisfactorily predicted the experimentally
+measured shape changes of the TWB part. Here we present an in-depth analysis of the
+residual stress development during forming and die quenching using different material
+modeling schemes. It should be noted that the stress evolution of the two materials with
+high and low hardenabilities were significantly different depending on the phase
+transformation kinetics during forming and quenching. Moreover, in order to enhance
+the prediction capability of the press-hardening simulations, it was essential to include
+the phase-transformation-related strains in the material model.
+© 2014 Elsevier Ltd. All rights reserved.
+1. Introduction
+Press hardening is a hot-forming process of steel sheets to manufacture crash-relevant parts for autobody structures.
+Because of its enhanced hardenability, 22MnB5 boron steel has generally been used as a blank material for the presshardening
+process (Karbasian and Tekkaya, 2010). The process begins with the austenization of a boron-steel sheet at
+about 900 C. The hot austenized blank is then formed by special tools, in which cooling channels allow quenching of the
+deformed sheet for about 30 s. A substantial amount of martensite can be obtained during this die quenching, mostly by heat
+* Corresponding author. Tel.: þ82 2 3290 3269.
+E-mail addresses: myounglee@korea.ac.kr (M.G. Lee), f.barlat@postech.ac.kr (F. Barlat).
+1 Co-corresponding author.
+Contents lists available at ScienceDirect
+International Journal of Plasticity
+journal homepage: www.elsevier.com/locate/ijplas
+http://dx.doi.org/10.1016/j.ijplas.2014.11.004
+0749-6419/© 2014 Elsevier Ltd. All rights reserved.
+International Journal of Plasticity 73 (2015) 142e170
+transfer between the hot part and the surrounding cooler tools. The strength in the final part reaches values as high as
+1500 MPa. For this reason, boron steel is often referred to as press-hardenable steel (PHS). In addition to the high strength
+induced by the martensitic phase transformation, the almost negligible shape distortion (or springback) is another major
+advantage of the press-hardening process (Altan, 2006; Lee et al., 2009a, 2009b). The low flow-stress levels of the forming
+process, attributed to the high forming temperature, and phase-transformation plasticity are known to contribute to this
+minimal shape change after forming.
+Recently, less press-hardenable steels compared to boron steel, such as high-strength low-alloy (HSLA) steels, have been
+utilized to compensate for the lack of ductility in press-hardened parts made with boron steel. The strength of HSLA steels
+after press hardening is about 600 MPa (Choi et al., 2012, 2013), but higher uniform elongations can be achieved. Hereafter,
+the less hardenable steel applied to the press-hardening process is referred to as L-PHS (low hardenability-PHS), while
+conventional boron steel, which exhibits higher hardenability, is referred to as H-PHS (high hardenability-PHS).
+Non-uniform stress distribution over the entire part, resulting from imperfect cooling, has been reported as a source of
+shape distortion even after press hardening. This shape change occurring after forming and die quenching can be a critical
+issue in the press-hardening process as well (Wagoner et al., 2013). Moreover, the tailor-welded blank (TWB) approach, in
+which a blank made of different gauges or PHS sheets, or a blank made of both different gauges and PHS sheets, is used to
+optimize strength and ductility simultaneously. This requires more investigations regarding the mechanical behavior during
+the press-hardening process because of a larger shape change on the L-PHS side of a TWB part (Choi et al., 2013). Recently,
+Choi et al. (2013) conducted press-hardening experiments with a TWB sheet consisting of HSLA steel and boron steel as L-PHS
+and H-PHS, respectively. The L-PHS side of this sheet exhibited larger shape change than that on the H-PHS side. This
+experimental observation was counter-intuitive because the strength of the H-PHS part was higher during forming, which
+contradicts the classical interpretation based on elasticeplasticity; i.e., the higher the strength, the larger the springback. This
+finding was one of the motivations behind the current study.
+In the present study, the development of a stress field during press hardeningwas simulated using a fully coupled thermomechanicalemetallurgical
+finite-element (FE) analysis. A specially designed U-channel, which is an accurate representation
+of usual autobody structural parts, was adopted in this study to simplify the problem. All the simulations were conducted
+using the commercial software ABAQUS (Dassault Systemes), in which the developed material models and phasetransformation
+kinetics were implemented through the user-defined material subroutines. The phase transformation kinetics
+considered in this study is phenomenological, which can be readily implemented in the finite element simulations for
+metal forming process, although there are significant studies on the phase transformation at microscale (Ma and Hartmaier,
+in press; Ortwein et al., 2014; Auricchio et al., 2014; Kato and Sasaki, 2013; Levitas and Ozsoy, 2009). In the material modeling,
+the plasticity part of mechanical behaviorwas described by the classical J2 plasticity theory, to which transformation-induced
+plasticity (TRIP) was specially added. In other words, constitutive modeling was carried out based on macroscale phenomenological
+elasticeplastic model, in which the inter-granular (type 2 in Knezevic et al. (2013)) and intra-granular (type 3)
+stresses in microscale were ignored for practical aspect of simulation for realistic sheet metal forming process.
+Using the finite-element model, we attempted to systematically explain the stress development and shape-change
+mechanism in the press-hardened TWB part. In addition, detailed stress analysis of the blank materials is provided to
+demonstrate the role of the material model on the prediction capability of the modeling procedure.
+2. Thermo-mechanicalemetallurgical modeling
+When subjected to a heat cycle consisting of heating to the austenizing temperature (A3) followed by cooling, steel
+components experience either free dilatation or significant thermal stress development depending on whether there are
+geometrical constraints. Fig. 1(a) illustrates a steel rod with a free end. When linear heating and cooling is applied to the rod,
+ferrite-to-austenite transformation (a/g) occurs during the heating cycle and austenite-to-ferrite transformation (g/a)
+occurs during cooling cycle. Because there is no constraint at the end of the rod, free thermal expansion and contraction can
+be activated without thermal axial stress. In this figure, the S-shape of the strain profiles during the transformations is
+attributed to the difference between the densities of body-centered cubic (bcc) a phase and the face-centered cubic (fcc) g
+phase. Satoh (1972), however, considered a geometrically constrained condition, shown in Fig. 1(b), for the same thermal
+cycle in order to understand the development of residual stress in welding processes. In this case, large compressive and
+tensile stresses developed during heating and cooling, respectively, because the constraints at both ends did not allow the
+development of an axial strain. An opposite sense of stress development is shown in Fig. 1(b) during the phase transformations.
+The two schematic figures illustrate that it is necessary to consider the effect of phase transformations on the
+stress and strain development when steel parts are under complicated thermal and geometrical boundary conditions.
+2.1. Modeling of phase transformation
+Steels subjected to press hardening are designed to undergo solid-to-solid phase transformations in order to obtain the
+desired part strengths. Depending on the chemical composition, imposed cooling rate, prior austenite state, and so forth, the
+phase transformations occur either diffusionally or non-diffusionally.
+To numerically implement diffusional transformations, the JMAK type equation (Kolmogorov, 1937; Johnson and Mehl,
+1939; Avrami, 1939, 1940, 1941) or the Kirkaldy type equation (Kirkaldy and Venugopalan, 1984) can be utilized. Based on
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 143
+the ZenereHillert type isothermal kinetics equation (Zener,1946; Hillert, 1957), Kirkaldy and Venugopalan (1984) established
+a generalized semi-empirical-isothermal transformation model based on multiplicative form, in which the transformation
+rates depend on chemical composition, austenite grain size (AGS), temperature, and transformed phase volume fractions
+affecting sigmoidal growth behavior.
+In the original Kirkaldy model, the AGS is mainly associated with the area of nucleation sites at grain boundaries to account
+for the larger nucleation sites for smaller average AGS. The chemical composition term represented the retardation effect of
+Fig. 1. Stress and strain responses in a steel rod subjected to (a) unconstrained heatingecooling (dilatometry test) and (b) constrained heatingecooling (Satoh
+test) cycles.
+144 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+diffusional transformations by e.g., C, Mn, Cr, Mo. The semi-empirical model was fitted to various isothermal transformation
+diagrams (IT diagram) of low carbon steels, published in the U.S. Steel Atlas data (U.S. Steel, 1963). This original model,
+however, underestimated hardenability of steels in continuous cooling (Li et al., 1998). Then it was further improved by Li
+et al. (1998), and was employed as a basis for the transformation kinetics in the present study. The modification by Li
+et al. was mostly done to the chemical composition and sigmoidal growth terms of the Kirkaldy model. The Li model was
+directly calibrated with data prepared by various continuous cooling transformation (CCT) diagrams to obtain kinetics parameters.
+To represent the effect of grain size, temperature, chemical composition and current phase transformation state, the
+following rate form of the kinetics equation is expressed as:
+_f
+k ¼ fkðG; TÞgkðCompÞ1hkðfkÞ; (1)
+with
+fkðG; TÞ ¼ BkðGÞðTk  TÞNkexp
+Qk
+RT
+ 
+; (2)
+gkðCompÞ ¼ expðbk þ aCk
+CC þ aMn
+k CMn þ aSi
+k CSi þ aNi
+k CNi þ aCr
+k CCr þ aMo
+k CMoÞ; and (3)
+hkðfkÞ ¼ fck
+k
+ð1  fkÞhk ; (4)
+where the variables G, T, Comp, and f stand for the ASTM AGS number, temperature, composition, and phase volume fraction,
+respectively. The subscript k represents a specific phase, i.e., k ¼ 1, 2, 3, 4, and 5 for ferrite, pearlite, bainite, martensite, and
+austenite, respectively.
+Bk(G) in Eq. (2) is the AGS term to consider the grain boundary area, acting as nucleation sites of transformations. For B1, B2
+and B3, the forms are 20.41G, 20.32G and 20.29G, respectively.
+In the under-cooling effect term, (Tk  T)Nk, Tk for k ¼ 1, 2 and 3 are Ae3, Ae1 and Bs temperatures of the steels, respectively.
+The reference temperatures Ae3 and Bs were based on empirical equations (Lusk and Lee, 1999; Steven and Haynes, 1956). The
+exponent Nk are 3 for k ¼ 1, 2 and 2 for k ¼ 3 (Kirkaldy and Venugopalan, 1984; Li et al., 1998). In the same equation, Qk
+represents activation energies of diffusional transformation reactions which are given by 27,500 cal/mol for all diffusional
+transformations. R is the gas constant of 1.987 cal/mol K.
+In Eq. (3), aelement
+k is weight factor to the effect of chemical composition on kth diffusional transformation by the corresponding
+alloy element, while bk is a constant. Celement denotes chemical content of alloy element in mass percent. The exponents
+in Eq. (4) are defined by ck ¼ n0
+k
+ð1  fkÞ and hk ¼ n00
+kfk.
+In previous studies conducted by the present authors (2013, 2014), the model was further modified because the original
+model revised by Li et al. largely underestimated the hardenability of the H-PHS sample owing to the omission of the boron
+Table 1
+Chemical compositions of H-PHS and L-PHS (mass percent).
+Steel C Mn Si P Ni Cr W Cu Al Ti B
+H-PHS 0.25 1.55 0.25 0.01 0.002 0.009 0.027 0.01 0.03 0.04 0.002
+L-PHS 0.08 0.95 0.28 0.02 0.004 0.013 0 0.01 0.03 0.002 0
+Table 2
+Material coefficients for the chemical composition function of diffusional-phase-transformation kinetics model (referred from Li et al. (1998)).
+k bk aCk
+aMn
+k aSi
+k aNi
+k aCr
+k aMo
+k
+1 1 6.31 1.78 0.31 1.12 2.7 4.06
+2 4.25 4.12 4.36 0.44 1.71 3.33 5.19CMo
+1/2
+3 10.23 10.18 0.85 0 0.55 0.9 0.36
+Steel k n0
+k0 n0
+k1 (s/C) n0
+k2 (s2/C2) n00
+k0 n00
+k1 (s/C) n00
+k2 (s2/C2)
+H-PHSa 1 0.3996 2.481  104 1.341  105 0.3996 3.944  104 1.143  104
+2 0.3998 4.326  105 4.114  106 4.0006 1.884  104 2.957  105
+3 0.6503 8.656  104 1.966  106 0.6504 3.856  104 4.682  106
+L-PHSb 1 0.4 0 0 0.4 0 0
+2 0.4 0 0 0.4 0 0
+3 0.4 0 0 0.4 0 0
+a Bok et al. (2014).
+b Li et al. (1998).
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 145
+effect. First, we defined AGS as a function of the austenite deformation, based on a dislocationedensity model, in order to take
+strain-induced diffusional transformation into account. Second, the exponent coefficients n0
+k and n00
+k in the sigmoidal function
+of Eq. (4), which were constants in the original model, were modified as functions of temperature, namely,
+nkðTÞ ¼ nk0 þ nk1DTk þ nk2DT2k
+, to capture the transformation kinetics of H-PHS more precisely. Another under-cooling DTk
+was set to be equal to Ae3  T (for k ¼ 1, 2) or Bs  T (for k ¼ 3).
+The unidentified kinetic constants of the modified model were obtained through numerical optimization using fminsearch
+program, which was based on the NeldereMead Simplex search algorithm (Nelder and Mead, 1965), of MATLAB® software
+(MathWorks) by comparing the resulting hardness according to linear cooling processes. The objective function to be
+minimized was
+PNT_
+i¼1
+ðHcal
+v
+ðT_
+ðiÞ
+Þ  Hexp
+v
+ðT_
+ðiÞ
+ÞÞ2, where N_ T , Hcal
+v , and Hexp
+v represent the number of applied cooling rates,
+calculated hardness, and experimental hardness, respectively. The calculated hardness was defined by Hcal
+v
+¼ ðf1 þ f2ÞH ‾
+.
+Here,H
+‾
+and Hv3 represent averaged ferrite-pearlite hardness and bainite single phase hardness, respectively (Bok et al., 2014).
+Furthermore, the non-diffusional martensitic transformation approach of Koistinen and Marburger (KeM) (1959), or
+1  exp[0.011(Ms  T)], was also modified to represent an S-shaped transformation curve below the martensite start
+temperature Ms (Bok et al., 2013, 2014). Thus, the proposed modified martensitic (k ¼ 4) transformation kinetics is represented
+by
+f4 ¼ f5 bexpðxIDTIÞHI þ 1  expðxIIDTN
+II
+Þ
+ 
+HII
+ 
+; (5)
+where the available austenite (k ¼ 5) volume fraction f5 at Ms is
+f5 ¼ 1 
+X3
+k¼1
+fk: (6)
+In the above equation, HI and HII are the Heaviside step functions, i.e., HI is equal to one only when Ms_I ⩾ T ⩾ Tc, and HII is
+equal to one when HI is zero. The super-cooling terms DTI and DTII in Eq. (5) are (Ms I  T) and (Ms II  T), respectively. The
+reference temperatures Ms_I, Ms_II, and Tc for the H-PHS material are 422, 355, and 353 C, respectively. Finally, b, xI, xII, and N
+were set to 1.496  103, 6.65 102, 0.117, and 0.651, respectively.
+In contrast to H-PHS, the original Li and KeMmodels were used for L-PHS, which behaves as standard low-carbon steel in
+terms of kinetics. All required chemical-composition data and material parameters in the transformation models for both HPHS
+and L-PHS are summarized in Tables 1 and 2, respectively. The isothermal transformation model was converted into a
+non-isothermal transformation model by applying Scheil’s additivity principle (Scheil,1935) to account for the delaying effect
+of transformation when the steel sheet undergoes cooling. In this study, the effect of dynamic recrystallization (Takaki et al.,
+2014) during hot-working is not considered due to the forming temperature of the current hot press forming process. A
+detailed treatment of the non-isothermal kinetics is omitted here, but interested readers can refer to our previous work (Bok
+et al., 2014).
+2.2. Stress update by considering phase transformation
+An additive decomposition of the thermo-metallurgical strain increments at each time step was assumed to follow the
+classical elastic (dε
+e) and plastic (dε
+p) strain decompositions. Other strain components, namely, the thermal strain (dε
+th), and
+Table 3
+Material coefficients for flow-curve models for each phase.
+Steel k C0_k (MPa) C1_k (MPa/C) n0_k n1_k (/C) ε0_k
+Ferritic phases (k ¼ 1e4)
+H-PHSa 1 1022 1.1033 0.5247 6  104 1.8  103
+2, 3 2958 3.7276 0.4871 7  104 2  103
+4 2449 1.0667 0.0742 6  105 2  103
+L-PHSa 1 713.9 0.7499 0.5352 6.12  104 1.8  103
+2 1995 4.4703 0.5178 7.06  104 2  103
+3 1994.9 2.4083 0.5144 7.01  104 2  103
+4 1552.1 0.8716 0.1107 3.23  105 2  103
+Steel ε0 A (MPa) n C0 C1 m0 m1 Tm (C) Tr (C) ε
+̇
+0ðs1Þ
+Austenite (k ¼ 5)
+H-PHSb 0.01 370 0.3 0.0586 0.011 0.8 0.0335 1500 730 0.7
+L-PHSb 0.0025 209 0.116 0.0734 0.117 0.713 0.00526
+a Fitted to the predicted data in Choi et al. (2013).
+b Yoo et al. (2010).
+146 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+the volumetric (dε
+vol) and transformation plasticity (dε
+trp) strains were added to the classical elasto-plastic strains, leading to
+the total strain (dε):
+dε ¼ dεe þ dεp þ dεth þ dεvol þ dεtrp: (7)
+In the case of steels, the elastic strain and the thermal-transformation-related additional strain components are relatively
+smaller as compared to the plastic strain. Han et al. (2003) proved that the validity of additive decomposition when the elastic
+strain is small in the metal plasticity. Also, it was found that this additive decomposition approach provided similar results as
+and the multiplicative decomposition of the deformation gradient tensor under a moderately large plastic strain range (Miehe
+and Apel, 2004). Then, this additive strain decomposition strategy has reasonably been applied to commercial codes such as
+LS-DYNA (Åkerstr€om et al., 2007; Choi et al., 2012), DEFORM3D (Choi et al., 2013), ABAQUS (Bok et al., 2014). In particular,
+Choi et al. (2012) accurately predicted thickness distributions, formability, weld-line movement in a real hot press formed
+automobile TWB part using the same additive decomposition employed in the current study.
+The additional strains were formulated as
+dεth þ dεvol ¼ rðTnÞ
+rðTnþ1Þ
+ 1=3
+ 1
+!
+I and (8)
+In Eq. (8), the thermal strain is associated to the density change of existing phases according to temperature change. The
+volumetric strain, however, occurs due to the difference in densities between fcc austenite and bcc phases. Therefore, the
+former always exists under temperature gradient condition, while the latter is temporarily active only when transformation
+proceeds.
+dεtrp ¼
+X4
+k¼1
+3
+2
+K5/k_fk
+d4ðfkÞ
+dfk
+hðsy; sÞ
+!
+s; (9)
+where
+1
+r
+¼
+X5
+k¼1
+fk
+rkðTÞ ; (10)
+4ðfkÞ ¼ ð2  fkÞfk; and (11)
+hðsy; sÞ ¼
+1 for s
+
+sy <0:5
+1 þ 3:5 s
+sy
+ 1
+2
+ 
+for s
+
+sy⩾0:5
+8><
+>:
+: (12)
+In Eqs. (8) and (9), I and s are the identity and deviatoric stress tensors, respectively, and s is the effective stress defined by
+von Mises plasticity, namely, s ¼
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+ð2=3Þs : s
+p
+. The yield stress was assumed to be a linear combination of the yield stress of
+each phase as follows:
+sy ¼ fksy k: (13)
+Although this simple description of yielding has widely been adopted in thermo-mechanical simulations (Lee et al., 2009a,
+2009b; Andrade-Campos, 2010), it might not appropriately take into account the real mechanism of yielding during the phase
+Table 4
+Thermal conductance l, latent heat DH, and specific heat cp for each phase.
+Steel K DHk (kJ/kg)a cpk (J/kg K)b l (W/mK)b
+H-PHS 1 89.4 376 þ 1.384T  1.24  103T2 52.284  0.0316T  1.41049  104T2  2.78145  107T3  1.3279  1010T4
+2 77.5
+3 66.5
+4 81.5
+5 n/a
+L-PHS 1 89.4 233 þ 1.324T  8.18  104T2 44 þ 0.0275T  2.0  104T2 þ 1.875  107T3
+2 77.5
+3 66.5
+4 81.5
+5 n/a
+a Lee et al. (2010).
+b Choi et al. (2012).
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 147
+transformation process. Nonlinear mixture rule can be an alternative assumption of yielding (Åkerstr€om et al., 2007). For
+more detailed description for the yield stress calculation of mixed microstructure, more in-depth investigation might be
+necessary.
+Due to difficulties in measuring single phase flowstresses of ferritic phases as they tend to form a mixture of phases during
+cooling, the flow stresses of the ferrite, pearlite, bainite, martensite were predicted by Choi et al. (2013) with the thermodynamics
+database software, JMatPro® (Sente Software), which predicts the thermodynamic and mechanical properties of
+various alloys (Saunders et al., 2003). JMatPro® provided the flow stresses of ferritic phases of H-PHS and L-PHS using a
+thermophysical model based on the chemical composition of the steels (Choi et al., 2013). Applied strain rate was 0.1/s.
+Temperatures were at 500, 600, 700 C for pearlite and bainite, 600, 700, 800, 900 C for ferrite and 100, 200, 300, 400 C for
+martensite. Then, these flowcurves of ferritic phases (k ¼ 1, 2, 3, 4) were fitted to the Swift lawas a function of temperature in
+Eq. (14).
+However, the flow stress of austenite (k ¼ 5) was measured experimentally applying various temperature and strain rates
+because the mechanical properties of the austenitic phase are the most important in the forming step (Yoo et al., 2010). To
+consider strain rate sensitivity of austenite while forming, a modified form of the JohnsoneCook law was employed, namely,
+sy k ¼
+CðTÞ
+k
+ðε0 k þ εÞnðTÞ
+k for k ¼ 1; 2; 3; 4
+Aðε0 þ εÞn
+
+1 þ CðεÞln
+_ε
+_ε0
+
+1  sign
+T  Tr
+Tm  Tr
+ 
+T  Tr
+Tm  Tr
+
+
+mð_εÞ
+for k ¼ 5;
+8>><
+>>:
+(14)
+with
+CðTÞ
+k
+¼ C0 k þ C1 kT; nðTÞ
+k
+¼ n0 k þ n1 kT; CðεÞ ¼ C0 þ C1ε; and mð_εÞ ¼ m0 þ m1ln
+_ε
+_ε0
+: (15)
+The material coefficients in Eqs. (14) and (15) are listed in Table 3 for H-PHS and L-PHS.
+Fig. 2. Comparison of dilatations in (a) L-PHS and (b) H-PHS.
+148 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+For the elasticity, the Poisson’s ratio nwas set to 0.3 and the following temperature-dependent elastic moduluswas chosen
+from the literature (Turetta, 2008):
+EðTÞ ¼ 2:825  105 þ 61:4T  0:684T2 þ 4:568  104T3 ðMPaÞ: (16)
+Fig. 3. Comparison of phase volume fractions of (a) ferrite and (b) martensite in L-PHS and H-PHS according to different linear cooling rates.
+Fig. 4. Geometry of FE model used to simulate U-channel forming of a TWB.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 149
+Fig. 5. Results of simulated air cooling: (a) three-dimensional temperature distribution in TWB; (b) distributions of temperature and ferrite volume fraction in
+the x-direction.
+Fig. 6. Explanation of forming step.
+150 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+The stress update in the user-material subroutine was conducted based on a predictorecorrector method (Simo and Ortiz,
+1985; Lee et al., 2005; Voyiadjis et al., 2012; Shojaei and Li, 2013). First, a trial stress vector was elastically computed with the
+given strain increment at a given time step n þ 1. It was then modified to consider the thermo-metallurgical contribution, i.e.,
+strialji
+nþ1
+¼ sjn þ Ce dεjnþ1
+ dε0jnþ1
+ 
+with dε0jnþ1
+¼ dεth þ dεvol þ dεtrp
+ 
+jnþ1: (17)
+In Eq. (17), the generalized Hooke’s lawwas used to calculate the stress increment. The variations of the elastic modulus as
+a function of temperature with increasing time were ignored from the calculation of the trial stress, which does not affect the
+stress-update algorithm.
+The yield condition F was then checked within a tolerance Tol, which was set to 1 105 sy:
+Ftrialji
+nþ1
+¼ s strialji
+nþ1
+ 
+ sy⩽Tol: (18)
+If the condition was satisfied, the stress components were updated by assuming the elastic law
+sjnþ1
+¼ strialji
+nþ1: (19)
+Otherwise, the stress components were corrected by projecting onto the yield surface and obtaining the corresponding
+plastic strains dε
+p iteratively until the condition in Eq. (18) was satisfied:
+dεpjiþ1
+nþ1
+¼ dεjiþ1
+nþ1
+vFtrial
+vstrial
+
+i
+nþ1
+: (20)
+Fig. 7. Changes in (a) temperature distributions and (b) martensite fractions in the hot-formed and die-quenched part.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 151
+Fig. 8. Comparison of shape changes after relaxation of residual stress: (a) global result; magnification of flange region of (b) H-HPS and (c) L-PHS side of the
+TWB.
+152 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+In the above equation, the normality rule based on associate flow rulewas used to calculate the increment of plastic strain.
+The magnitude of the plastic strain dε at the current iteration i þ 1 was calculated as
+dεjiþ1
+nþ1
+¼ dεji
+nþ1
+þ Ddεjiþ1
+nþ1; (21)
+where
+Ddεjiþ1
+nþ1
+¼
+Ftrial
+
+i
+nþ1
+vFtrial
+vstrial
+
+i
+nþ1
+CevFtrial
+vstrial
+
+i
+nþ1
+þ vsy
+vε
+
+i
+nþ1
+: (22)
+A schematic representation of this procedure is additionally presented in Appendix A.
+2.3. Implementing material models via user-defined subroutines
+The user-defined subroutines UMAT for the implicit code and VUMAT for the dynamic explicit code were considered for
+the implementation of the material models and phase-transformation kinetics. Note that a consistent tangent modulus
+should be coded for UMAT in order to obtain a quadratic convergence rate in the implicit code (Abaqus, 2006). Furthermore,
+the user-defined subroutine for heat generation, HETVAL, was employed to account for the latent heat during phase transformation.
+In HETVAL, the heat generation qtrs is defined as
+qtrs ¼
+X5
+k¼1
+DHk_fk; (23)
+where latent heats DHk of 89.4, 77.5, 66.5, and 81.5 kJ/kg for k ¼ 1, 2, 3, and 4, respectively, were selected from the literature
+(Lee et al., 2010). The other thermal properties such as the density r, specific heat cp, and conductivity l were also modeled as
+functions of temperature or both temperature and phase fractions, namely,
+rðTÞ ¼
+X5
+k¼1
+fkrkðTÞ: (24)
+In this case, the phase fractions calculated by either UMAT or VUMAT were regarded as field variables of USDFLD, another
+user-defined subroutine for the definition of any field variable. The thermal properties in Eq. (24) were defined through the
+input deck of ABAQUS, in which temperaturewas incorporated with the field variables. The thermal coefficients in Eq. (24) are
+listed in Table 4. In this table, specific heat cp, and conductivity l were experimentally measured with H-PHS and L-PHS sheets
+using the TC-700 calorimeter by ULVAC Technology Inc. (Choi et al., 2012) and fitted to be functions of temperature.
+Fig. 9. Definition of cross sections and coordinate systems in die-corner regions in the deformed configuration.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 153
+3. FE simulations
+3.1. Validation of the developed model and implementation
+The overall phase-transformation behavior and resulting strain changes can be captured through dilatometry tests, as
+shown in Fig. 1(a).
+As explained in the last part of Section 2.1, the original model that was improved by Li et al. was used to model the
+diffusional transformation behavior of L-PHS. Meanwhile, the modified diffusional transformation was modeled for H-PHS.
+To verify the feasibility of the developed material model, a series of dilatometry tests were simulated for L-PHS and H-PHS
+and compared to the corresponding experimental results. For this attempt, the specimens were subjected to three different
+linear cooling rates of 0.5, 10, and 50 C/s. As shown in Fig. 2, the calculated dilatations are, on the whole, in reasonable
+agreement with the experiments for both steels. Compared to the simulated dilatations of H-PHS, those of L-PHS show less
+accurate results because the Li model is supposed to follow an average behavior of nonisothermal kinetics behaviors of
+various steels as explained in Section 2.1. One of the reasons for the deviation from the experiment is that a perfect optimization
+of the kinetics parameters using the current kinetics equation is rather difficult to cover the highly nonlinear
+dilatation behaviors under the entire cooling rate range. In particular, the clear and complete separation of ferrite and pearlite
+transformations in the calculated transformation (leading to the non-monotonic behavior) results in the major deviation from
+the continuous-wise transformation in the experiment. This continuous ferrite and pearlite transformation is likely due to a
+common transformation range in which ferrite and pearlite transformations coexist in the end of ferrite transformation (or in
+the beginning of pearlite transformation). Another reason is the selection of the objective function in the optimization. The
+authors regarded the Vickers hardness should represent the resulting transformation behavior. Based on this assumption, an
+objective function, comparing the calculated hardness to the corresponding experimental one, was established.
+In the experiment and simulation, the phase transformations of L-PHS are densely located in the temperature range of
+700e900 C, which led to ferrite dominant microstructures even at the highest cooling rate. This implies that the kinetics of LFig.
+10. Predicted residual stress profiles along the die radius after the forming step in (a) H-PHS and (b) L-PHS.
+154 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+PHS has a less effect on the final expected mechanical property and residual stresses due to the similarity of microstructure
+and transformation range regardless of the cooling rates.
+Meanwhile, the range of transformation temperature for H-PHSwas much broader and lower because of the higher carbon
+content and the addition of boron as a strong hardenability enhancer. Therefore, the final microstructures of boron steel were
+more diverse: a mixture of ferrite, pearlite, bainite, and martensite depending on the cooling rate. The calculated phase
+volume fractions of ferrite and martensite are shown in Fig. 3. Through these simulations, it can be concluded that the basic
+transformation kinetics and corresponding strain responses were appropriately captured for the two different steels.
+For the validation of the developed material models and their implementation, the simulated formability of more complex
+TWB mini-pillar was compared to the experiment. The thickness distribution and weld-line movement were well matched
+with measurements, which successfully validated the availability of the current modeling approach.
+3.2. Shape change in press-hardening process for U-channel prepared with TWB of L-PHS and H-PHS
+3.2.1. Modeling procedure
+The shape change (or distortion) of the TWB made of L-PHS and H-PHS sheets, joined by CO2 laser welding, was simulated
+by considering a full press-hardening process: transferring the blank to the tool, forming, die quenching, and springback. The
+simulation for the blank transfer was simplified as air cooling for 10 s from the heating temperature of 930 C.
+In this FE model, the fusion and heat-affected zones (HAZ) were not physically considered by the fact that the applied CO2
+laser welding left a narrow weld line in the TWB. The width of weld affected zone was approximately 3 mm. In addition, an
+annealing was automatically conducted during the austenitization for around 5 min. before press-hardening, which might
+reduce the effect of the HAZ.
+For efficient handling of computational cost and the convergence issue, a coupled impliciteexplicit FE approach was
+employed. In other words, the air cooling and springback were solved by the implicit code with UMAT and HETVAL, while the
+forming was solved by the explicit code with VUMAT.
+Fig. 11. Predicted residual stress profiles along the die radius after the die-quenching step in (a) H-PHS and (b) L-PHS.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 155
+To describe the air cooling, a temperature-dependent film coefficient hair was applied against the ambient temperature
+of 20 C: hair ¼ 11.8 þ 2.49  103T þ 1.14 104T2 W/m2K (Choi et al., 2013). On the other hand, for the forming
+process, the contact-heat-transfer coefficient hc between the blank and tools was expressed as a function of the contact
+distance lgap (Choi et al., 2012). The magnitude of hc was 1500W/m2K when lgap was within a critical distance lgap_c,
+which was 0.067 mm in this study. When lgap was between lgap_c and the maximum distance lgap_max, hc was set to (0.1/
+lgap) W/m2K. The Newton’s cooling law was employed to obtain these heat transfer coefficients with measured cooling
+curves.
+The FE model used in this study is depicted in Fig. 4. The width and thickness of the TWB were set to 275 mm and
+1.5 mm, respectively. A plane-strain boundary condition was imposed on a 1.5-mm-long section along the longitudinal
+direction of the U-channel. In this FE model, the heat-affected zone along the weld line was ignored for the sake of
+simplicity. Six elements in the thickness direction were employed to appropriately model the die radii and bending by the
+punch. The ABAQUS 3D continuum element C3D8T (with temperature degree of freedom) was chosen for the TWB sheet.
+The simulation consisting of air cooling, forming, and die quenching was then implemented with the initial temperatures of
+930 and 25 C for the TWB blank and tools, respectively. The temperature of the (rigid) die was kept constant to reduce
+computation time.
+In the air-cooling step, the simulation of natural cooling via heat loss to the ambient air through the free surfaces lasted for
+10 s. The average computation time including air cooling, high temperature forming, die quenching and final air cooling was
+approximately 8 h with the Intel Xeon CPU X5690 3.46 GHz. Most of the computation time was spent to calculate the shape
+change during cooling and only a couple hourswas required for forming step. The temperature of the H-PHS side decreased to
+740 C without any ferritic phase transformation. However, the temperature of the L-PHS sidewas 40 C higher because of the
+latent heat during the ferritic transformation, as shown in Fig. 5.
+The distributions of temperature, phase fraction, stress, and strain at the end of the air-cooling step were imported to
+the forming step as a set of initial conditions. Fig. 6 shows this forming step, which consisted of a drawing mode followed
+by a bending mode as the upper die moved down with a velocity VD of 25 mm/s; the full stroke was 50 mm in length. Until
+the half die stroke, the blank was geometrically constrained by the binders leading to the drawing mode. Since the gap was
+Fig. 12. Calculated additional stresses as a function of die radius of (a) H-PHS and (b) L-PHS sides during die quenching.
+156 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+larger than the blank thickness, no blank holding force was generated. This loose blank holding was, in fact, introduced not
+only to allow smooth drawing but also to prevent premature cooling by contact between the sheet flange and the tools. The
+TWB was then relieved from the holding as the edges of the flange escaped from the short binders, thus removing the
+constraint. Eventually, at the end of forming, the flange regions were freely bent as the die corners successively swept the
+outer surfaces of the flanges. This forming procedure can be roughly divided into drawing and bending modes, as presented
+in Fig. 6.
+Consequently, the upper region of the part was subjected to a drawing-like process without the blank holding force as
+long as the outer-flange regions were located inside the gap. However, the lower region of the part, including the lower
+walls, underwent a tension-free bendingeunbending with the bending radius, which was initially much larger than the
+die-corner radius owing to the unclamping. Finally, a simple bending in the die-corner regions of the part followed (see
+Fig. 6).
+The next process was 20 s of die quenching for rapid cooling of the formed part via contact heat transfer. Relatively
+uniform cooling was obtained because most part surfaces were firmly in contact with the tool surfaces, even in the wall
+regions owing to the slanted angles of the walls. Fig. 7 shows the resulting distributions of temperature and martensite
+volume fractions at the end of the forming and die-quenching steps.
+After completing the forming and die-quenching steps, the stress and other state variables of the die-quenching
+stage were transferred as the initial values of the springback step. This step was simulated by removal of the
+Fig. 13. Distributions of axial stress along material-embedded x-coordinate, S11, after (a) forming and (b) die quenching.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 157
+tools with the import option of ABAQUS, and the relief of the residual stresses led to the final equilibrium-displacement
+field.
+In this work, simulations with (FEM_TR) and without (FEM_No_TR) phase-transformation effects were performed and the
+results are shown in Fig. 8.
+3.2.2. Shape changes in press-hardening part
+The main deformation modes during press hardening can be classified as follows. First, the part undergoes free dilation in
+the manner depicted in Fig. 1(a) during air cooling. During the die-quenching step, the Satoh test mode is expected since the
+tools acted as the fixture in Fig.1(b). Therefore, a large amount of thermal stress evolved in the part during this step. Then, the
+magnitude and mode of springback (or shape distortion) depended on the stress relaxation from the final distribution of
+residual stress at the end of die quenching.
+The shape change in the wall and top regions of the part was not very noticeable for both cases, i.e., FEM with (FEM_TR)
+and without (FEM_No_TR) phase transformation, as shown in Fig. 8(a).
+Compared to shape changes in other regions, the shape changes in the flange regions were more significant, especially on
+the L-PHS side. This is clearly presented in Fig. 8(b) and (c), which are magnified views of the flange regions in Fig. 8(a).
+Interestingly, the distortion predicted without phase transformation was more noticeable than the case with full consideration
+of the phase-transformation effect.
+When compared to the experiment, the presented modeling approach with phase-transformation effect (FEM_TR) was
+very successful in predicting the shape change after the press-hardening process. The enlarged figures (Fig. 8(b) and (c)) show
+a major difference in the trends of shape changes and between the magnitudes of the changes in FEM_No_TR and FEM_TR in
+the flange regions. In particular, a reverse springback, or the so-called springforward, took place predominately in the FEM_TR
+simulation of the L-PHS side, as shown in Fig. 8(c). This reasonably predicted the experimental observation.
+Fig. 14. Changes in axial stress along material-embedded x-coordinate, S11, and total-transformed-phase volume fractions at (a) PA in AACTR and (b) PB in BBCTR
+during forming and die quenching.
+158 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+The springforward phenomenon is theoretically explained in a previous article (Narayanaswamy, 1980) as a phenomenon
+that takes place in the presence of a large tension stress in a bent sheet during the cold-forming process. Bottoming in a Vbending
+process also leads to springforward (Ogawa et al., 2010). In warm forming, this phenomenon is also observed in a
+shape-memory alloy after warm bending followed by constrained cooling (Duerig and Albrecht, 1983). In these cases, the
+commonly required condition for springforward is the existence of a combination of part bending and tensile stress before the
+stress-relaxation step. Presumably, a similar situation arose around the die-corner regions of the current U-channel during
+the press-hardening process. This issue will be dealt with in more detail in the following sections.
+3.2.3. Investigation of through-thickness stress distributions during forming and die quenching
+The stress distributions in the regions of the die corners were investigated because they were likely to play an important
+role in different shape changes depending on the material model. The cross sections of the upper, center, and lower regions of
+the die corner area on the H-PHS side were defined as AAUPR, AACTR, and AALWR, as indicated in Fig. 9. Similarly, those on the LPHS
+side were defined as BBUPR, BBCTR, and BBLWR. The through-thickness stress profiles of these particular areas were
+inspected thoroughly.
+Fig. 10 shows that the trends of the through-thickness profiles in the longitudinal stress component S11, defined in
+ABAQUS, were similar for both steels after the forming step. In particular, a compressive stress of about 150 MPa developed in
+the lower cross sections facing the die corners, AALWR and BBLWR (die side), because of the simple blank bending at the end of
+the forming step.
+However, the trends in stress profiles at the end of forming deviated from each other after the die-quenching step, as
+shown in Fig. 11. The longitudinal stress component in H-PHS decreased (almost) linearly from the die-side surface to the
+punch-side surface (Fig. 11(a)). In contrast, a V-shaped profile was observed in L-PHS (Fig. 11(b)). Fig. 12(a) and (b) clearly
+show that the change in the longitudinal stress, denoted as DS11 (¼ S11_end of die quenching  S11_end of forming), during die
+quenching developed with different patterns. Moreover, Figs. 11 and 12 also show that, after die quenching, the through-
+Fig. 15. Changes in axial stress along material-embedded x-coordinate, S11, and equivalent plastic strains at (a) PA in AACTR and (b) PB in BBCTR during forming and
+die quenching.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 159
+thickness stress profiles of the bent regions were very similar. This indicates that the final stress profile was mostly determined
+by the stress change DS11 during die quenching.
+3.2.4. Discussion on the role of thermal strain and phase transformation
+In this section, the role of stress distribution on the shape of the U-channel part (especially in the flange region) is
+examined. Fig. 13(a) and (b) show the distributions of the longitudinal stress S11 after forming and die quenching. The nonuniformity
+of the stress field in thewall regions at the end of formingwas significantly mitigated after die quenching. This can
+be explained as follows.
+In the absence of constraints, the thermal strain during cooling would result in contraction of the sheet, but because
+of the geometrical constraint between the flange and the punch, this free thermal contraction was suppressed.
+This constraining effect led to the development of tensile stress, replacing the previous non-uniform stress field. The
+temperature drop during die quenching was as high as ~700 C, which was large enough to cause even plastic
+deformation.
+The magnitude of the developed stress on the H-PHS side during die quenching was larger than that on the L-PHS side,
+which was due to the larger strength induced by the martensite-dominant phase transformation.
+The springback, the primarily elastically driven shape change of the part, was roughly proportional to the residual stress
+before the tools were removed. Therefore, the difference between the springback values on the H-PHS and L-PHS sides was
+related to the difference between the residual stress of the two materials. Although there are several reasons for the
+difference in the residual-stress levels, this study focuses on the characteristics of phase transformation between the two
+materials. To analyze the possible effect of the latter on the stress levels, the stress component S11 and the total transformed
+volume fraction were extracted from the outermost nodes PA and PB facing the die on AACTR and BBCTR. A critical
+aspect was observed and shown in Fig. 14: the phase transformation occurred during the die-quenching step on the H-PHS
+side (Fig. 14(a)) but during the forming step on the L-PHS side (Fig. 14(b)). In addition, about 30% of the austenite was
+transformed before the forming step on the L-PHS side. This transformation characteristic is important because significant
+stress relaxation could have taken place owing to the transformation plasticity during the phase change. Moreover, the
+volume expansion resulting from the transformation may have overridden the thermal contraction (see Fig. 1(b)).
+Therefore, the compressive stress by volume expansion could have been temporarily predominant in the transforming
+range when subjected to a geometrical constraint. In fact, Fig. 14(a) shows that the stress component S11 decreased to
+Fig. 16. Stressestrain responses at different nodes: (a) PA with (b) its enlarged figure of die-quenching region; (c) PB with (d) its enlarged figure of die-quenching
+region.
+160 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+e120 MPa in the die-quenching step (at 14.5 s) because of the volume expansion resulting from the austenite-tomartensite
+transformation on the H-PHS side. The thermal stress then rapidly increased again after the martensitic
+transformation was completed. In contrast to the H-PHS side, such a large stress fluctuation was not observed on the L-PHS
+side during die quenching, as shown in Fig. 14(b), because the amount of austenite to be transformed was limited by the
+earlier transformation before die quenching.
+Fig. 15 shows a comparison of the values of equivalent plastic strain over time in H-PHS and L-PHS sections. The plastic
+strain accumulated mainly during forming. Interestingly, additional plastic strains of about 0.003 and 0.006, which resulted
+from the thermal stress during die quenching, accumulated in the H-PHS and L-PHS sections, respectively. This implies that
+the thermally induced stress could reach the yield stress during die quenching. In the H-PHS section, there was no accumulation
+of plastic strain after the peak compression (Fig. 15(a)) because the thermal stress did not overcome the high
+strength of the transformed martensite.
+In order to determine the effectiveness of the geometrical constraint by the tools during die quenching, the evolution of
+the stresswas plotted as a function of the strain in the particular material points of the H-PHS and L-PHS sections, as shown in
+Fig. 16. The constraining effect strongly suppressed the development of strain during die quenching (indicated by the dotted
+box in Fig. 16(a) and (c)). It should be noted that the development of a tensionecompressionetension stress pattern is
+featured in the H-PHS portion in Fig. 16(b), but monotonic tension for the L-PHS portionwas predicted, as shown in Fig. 16(d).
+The stress developments for the two sections of the TWB were confirmed by the cyclic and monotonic behavior of the stress
+through the thickness at the die corner, as shown in Fig. 17.
+3.2.5. Explanation of stress development in L-PHS and H-PHS during press hardening
+In this section, a simple schematic explanation of stress development in L-PHS and H-PHS is provided to account for the
+different deformation results during springback. In the case of L-PHS, we assumed that the common S-shaped stress profile
+along the longitudinal direction after forming would sufficiently represent the bending dominant effect, which is
+Fig. 17. Comparison of stress profile changes in (a) AACTR of H-PHS and (b) BBCTR of L-PHS during die quenching and after stress relaxation.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 161
+illustrated in Fig. 18(a). The stress profile consists of an elastic part near the neutral surface and a plastic part out of the
+elastic region. The schematic of the elastic limit (or yield strength, sy) of the material point through the sheet thickness is
+also depicted in the figure. The stress limit increased as the material point approached the sheet surface because of strain
+hardening. Note that the L-PHS microstructure at this stage consisted of ferrite and austenite owing to the early transformation.
+In the die-quenching step, thermal tensile stress began to develop because of the tool constraint and the stress
+level reached the limit strength assumed in the previous step. A schematic of the stress profile after this step is shown in
+Fig. 18(b). Therefore, the resultant bending moment at this stage was negligible because of the symmetric stress profile,
+which did not produce the so-called springback. In this case, an elastic recovery took place uniformly throughout the cross
+section of the sheet’s bent region during the final springback step, as shown in Fig. 18(c). As discussed in Section 3.2.2, this
+uniform stress relaxation in the bent region might have been the main cause of the reverse springback (namely, springforward)
+phenomenon.
+The stress profiles in the H-PHS and L-PHS sections were similar during forming, although the microstructure was
+still fully austenitic, as schematically presented in Fig. 19(a). During the die-quenching step, however, significant
+Fig. 18. Schematic explanation of stress development and release corresponding to a bendingeconstrained cooling (die quenching)erelaxation (springback)
+process in L-PHS: stress profiles after (a) forming, (b) die quenching, and (c) springback.
+162 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+compressive stress induced by the martensitic transformation developed, allowing the non-symmetric stress profile to
+remain, as shown in Fig. 19(b). In this case, the longitudinal stress might have been lower than the yield stress (or it
+might have remained elastic) because of the transformation hardening by the formation of very hard martensite. Upon
+completion of the martensitic transformation, a large distribution of the thermal tensile stress was generated elastically,
+which produced the slanted stress profile shown in Fig. 19(c). Unlike the symmetric stress profile in the L-PHS section,
+this H-PHS stress profile resulted in a bending moment and was favorable to springback. The bending moment
+was compensated by the relaxation of the superimposed thermal tensile stress developed in the last step shown
+in Fig. 19(d). Moreover, the magnitude of the thermal tensile stress in H-PHS was much larger than that in L-PHS owing
+to the martensite formation. Therefore, the springback could have been effectively compensated by the reversespringback
+(or springforward), led by a sufficiently large tensile stress. The shape change was also negligible in the
+H-PHS section.
+Note that for simplicity, the explanation provided above ignores the effect of strain rate and the Bauschinger effect on the
+yield stress.
+Fig. 19. Schematic explanation of stress development and release corresponding to a bendingeconstrained coolingerelaxation process in H-PHS: stress profiles
+(a) after forming, (b) during die quenching at the peak compression point, (c) after completion of die quenching, and (d) after springback.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 163
+3.2.6. Single-element analogy to explain the role of thermal and phase-transformation-induced stress
+In order to simplify the previous U-channel forming example while keeping the deformation mechanism of a real presshardening
+application, a single finite element was analyzed for the same deformation and phase-transformation characteristics.
+A single, fully coupled, continuum thermo-mechanical element with dimensions of 10  10  10 mm3 was subjected
+to a two-step cooling process with rates of 20 and 50 C/s from the same initial temperature of 930 C. A tensile strain of 20%
+was applied within 2 s of the start of rapid cooling to provide the forming effect. No further displacement was allowed in the
+tensile direction during the rest of the cooling step to impose the constraint effect (on the geometric feature of the previous Uchannel).
+Fig. 20 presents the simulated stresses and transformed volume fractions of the two steels with respect to the cooling time.
+For H-PHS, the tensile stress mainly developed before the martensitic phase transformation because of the thermal
+contraction during cooling. Once the martensitic phase transformation became dominant (at around 15 s), the stress became
+compressive because of the volume expansion. Again, the stress changed sign and turned into tension owing to further
+thermal contraction by cooling. Therefore, the overall longitudinal stress during cooling of H-PHS was tensionecompressionetension.
+This confirms the result of the U-channel example.
+In contrast, only a limited amount of compression stress developed in L-PHS during the early slow-cooling range, after
+which the stress evolved mainly monotonically in tension during the rest of the cooling step. There is a sudden drop of stress
+in the early rapid cooling region in accordance with minor transformation. This sudden drop, however, has never resulted in
+the compressive stress state due to the limited amount of available austenite to be transformed. Therefore, the “monotonic”
+means that the stress state remains tensile, while the “cyclic” implies that both “compressive” and “tensile” happen during
+cooling.
+As shown in Fig. 21, the major transformation took place at about 8 and 20 s for L-PHS and H-PHS, respectively. Owing to
+the simplicity of the one-element approach, further analysis could be efficiently performed without much computational
+effort. This section discusses the roles of the thermal and transformation-related strains on the evolution of stress. For this
+investigation, TRP, VOL, and TH denote the transformation plasticity, volumetric, and thermal strains, respectively. In Fig. 21,
+Fig. 20. Comparison of calculated axial stress histories and total-transformed-phase volume fractions in (a) H-PHS and (b) L-PHS with a simplified FE model.
+164 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+the simulations were conducted for L-PHS or H-PHS with (w/) consideration of the full material models developed in the
+present work or without (w/o) any combination of the strain mechanisms TRP, VOL, and TH.
+First, it was observed that the compressive stress was only predicted when the volumetric strain due to transformation
+was included, i.e., for the simulations w/TH-VOL-TRP and w/o TRP for both steels. In particular, the magnitude of the
+compressive stress was the largest when the transformation plasticity was ignored, which led to deformation without
+relaxation by additional (phase-transformation) plasticity. It is then discovered that when the volumetric strain due to phase
+transformation was ignored while the thermal and transformation plasticity strains (the case w/o VOL) remained, the stress
+relaxation was still significant but it never entered the compression region. This stress relaxation was dominant in the minor
+transformation range for L-PHS and in the major transformation range for H-PHS.
+The extreme case, for which none of the thermal and phase-transformation-related strains were taken into consideration
+(w/o TH-VOL-TRP), was also considered to check the enhanced capabilities of the complete model for press-hardening applications.
+As expected, the predicted stress histories were very different from all the other cases. In particular, the fluctuations
+disappeared because the stress evolutions were based purely on mechanical deformation.
+In summary, the simplified simulation results show that the volume expansion owing to phase transformation played a
+major role in the development of the compressive stress. Moreover, this compressive stress was superimposed by the tensile
+thermal stress developed with the specific geometric constraint of the U-channel die. The level of this compressive stress
+could be mitigated by the transformation-plasticity effect. The FE analysis, carried out on the single element with various
+material models, demonstrates that the phase-transformation-related strains had a significant influence on the development
+of the residual stress field in the part during press hardening. From various viewpoints, this suggests that conventional FE
+simulations without proper consideration of phase transformation may not be appropriate for the analysis of the presshardening
+process.
+4. Conclusions
+The deformation and shape change of a U-channel part with a tailor-welded-blank (TWB) by press hardening were
+simulated using the finite-element (FE) method and considering the phase-transformation effects. The TWB sheet consisted
+Fig. 21. Effect of thermal and transformation-related strains on axial stress of (a) L-PHS and (b) H-PHS.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 165
+of press-hardening steels with low (L-PHS) and high (H-PHS) hardenabilities. The constitutive model that accounted for
+thermo-mechanical deformation under phase transformation was implemented in the simulation using the commercial FE
+software ABAQUS with the user-defined subroutines UMAT, VUMAT, and HETVAL.
+To realistically simulate a press-hardening process with improved computational efficiency, the entire simulation was
+divided into three steps: (1) transfer of the TWB sheet on the tool surface, during which the temperature dropped because
+of air cooling, was simulated using the implicit FE software ABAQUS/Standard; (2) forming and subsequent die quenching
+were simulated with the FE software ABAQUS/Explicit; (3) springback was predicted by relaxation of the residual-stress field
+in the part using the implicit FE software ABAQUS/Standard. As a result, the springback behavior in the flange area was
+successfully captured in L-PHS and H-PHS by this three-step-simulation scheme without excessive computational cost. In
+particular, when the phase transformation and other thermally induced strains were included in the material model, the
+magnitude and trend of the springback response in the flange regions of the two materials were in good agreement with the
+experimental results. An explanation of the mechanism of stress development in the L-PHS and H-PHS sides of the TWB part
+during the U-channel’s press-hardening process is provided to account for the different springback behavior in the TWB
+part.
+The main observations obtained through this combined experimentalesimulation-based analysis are as follows:
+ A substantial amount of tensile stress developed during the die-quenching step because of the constrained thermal
+contraction owing to the particular geometry of the U-channel tool. The non-uniform stress distribution that took place
+during forming was replaced by more uniform tensile thermal stress after die quenching.
+ A large compressive stress developed during die quenching, led by the volumetric strain as the austenite transformed into
+martensite in the H-PHS section. With further cooling, thermal tensile stress appeared after completion of the transformation.
+These unique thermally induced strains resulted in a tensionecompressionetension cycle in the H-PHS section.
+This stress evolution pattern did not appear in the L-PHS sheet because early diffusional phase transformations occurred at
+higher temperatures, providing no chance for phase transformation in the die quenching stage. In this case, a nearly
+monotonic stress pattern was obtained.
+ Before the springback step, the stress profiles of both H-PHS and L-PHS were all tensile through the entire cross section
+around the die corners. However, the stress profile in L-PHS was (nearly) symmetric, while the stress profile in H-PHS
+showed a non-symmetric slanted distribution.
+ The residual stress distributions before the springback step differentiated the resultant bending moment after the die
+quenching, which was compensated in the reverse-springback process by the superimposed thermal tension during the
+final springback step.
+ Consequently, a small amount of reverse springback, (i.e., springforward) was predicted in the L-PHS section but almost
+negligible shape change was predicted in the H-PHS section by the coupled thermo-mechanical FE analysis. This result
+might be explained by the tension-dominant stress relaxation in the L-PHS section, as well as a balance of springback and
+springforward in the H-PHS section. The predicted shape changes were in good agreement with experimentally observed
+shape changes for both materials.
+ The roles of various strain components related to the thermal and metallurgical aspects were investigated in more detail
+using a simpler approach with single-element FE analysis. It was found that the phase-transformation-associated strains,
+including volumetric and phase-transformation plasticity strains, should be considered for an accurate prediction of the
+stress field in a press-hardened part.
+Acknowledgement
+This work was supported by the National Research Foundation of Korea (NRF) Grant funded by the Korea government
+(MSIP) (NRF-2014R1A2A1A11052889) and (NRF-2012R1A5A1051500). FB also appreciates the support by POSCO.
+Appendix A. Flow chart for stress integration procedure
+The stress update considering thermal and transformation related strain component, described in Eqs. (17)e(22), can be
+schematically explained in Fig. A1.
+Before a stress update procedure is initiated in UMAT, increments of phase fractions are firstly evaluated in the current
+time step at Tnþ1 temperature to obtain thermal and transformation related strains, i.e., dε
+th, dε
+vol and dε
+trp by Eqs. (8) and (9).
+Then, these additional strain components are initially subtracted from the given total strain increment dε, provided by the
+ABAQUS. In this case, the transformation-induced plasticity strain increment dε
+trp is calculated with the stress component at
+the end of previous time step for simplicity assuming that the size of time increment is very small by the nature of explicit FE
+algorithm. Therefore, the magnitude of stress differences between the time steps tn and tnþ1 is also small.
+With this condition, the trial stresses are obtained purely elastically. After checking the yield condition in Eq. (18), the
+stresses at the current time step can be updated either elastically or plastically. In the plastic state, an appropriate correction
+of the overshot stresses is carried out along the radial direction of the yield locus defined by von Mises isotropic plasticity. This
+procedure, called radial return-mapping or predictorecorrector method, can be implemented semi-implicitly with the
+166 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+cutting-plane method consisting of several sub-increments in a course of stress correction to the updated yield surface Fj
+nþ1
+as shown in Fig. A1 (Simo and Ortiz, 1985).
+In each sub-increment, the magnitude of plastic strain dε is increased by Ddε and the trial stress components are decreased
+by dε  vF=vs as presented in the figure (3. Plastic corrector). This process proceeds repeatedly until the tolerance to the yield
+condition is satisfied, namely, F⩽Tol.
+The cutting-plane algorithm takes the yield surface normal evaluated at the end of previous iteration stage i to correct the
+trial stress components to the yield surface at the current iteration step i þ 1 in the current time step tnþ1. This implies that the
+direction of a plastic strain during iteration does not always guarantee the exact normal to the yield surface at i þ 1th iteration
+step. Therefore a small amount of drift from the exact stress state can be involved when, especially, stress state is complicated.
+Nevertheless, this method provides a quadratic convergence rate and also calculations of matrix inverses required for fully
+implicit return-mapping algorithm is not necessary, which is useful for the ABAQUS explicit solver for forming and diequenching.
+Appendix B. List of symbols
+Parameter/
+variables
+Definition Related
+equations
+A Stiffness of strain hardening term to the JohnsoneCook type yield stress
+equation for austenite (k ¼ 5)
+Eq. (14)
+aelement
+k Weight factor to the effect of chemical composition on kth diffusional transformation by the
+corresponding alloy elements (¼ C, Mn, Cr, Si, etc.)
+bk Constant for chemical composition function, gk(Comp) Eq. (3)
+b Kinetics constant to martensite transformation Eq. (5)
+Celement Chemical content of alloy elements (¼ C, Mn, Cr, Si, etc.) in mass percent
+C(T)k Stiffness to the Swift type yield stress equation in a polynomial as a function of temperature
+for ferritic phases (k ¼ 1 ~ 4)
+Eq. (14)
+Cq_k qth polynomial coefficient to C(T)k in connection with Tq (q ¼ 0, 1)
+C(ε) Stiffness of strain rate term as a function of effective strain to the JohnsoneCook type yield
+stress equation for austenite (k ¼ 5)
+Eq. (14)
+C0 Stiffness constant to C(ε)
+C1 Stiffness coefficient to C(ε)
+(continued on next page)
+Fig. A1. Schematic representation of stress update algorithm considering thermal and transformation related strain components.
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 167
+(continued )
+Parameter/
+variables
+Definition Related
+equations
+Comp Chemical composition
+Ce Elasticity tensor
+cp Specific heat
+DHk Latent heat of kth transformation
+DTI Super-cooling from Ms_I Eq. (5)
+DTII Super-cooling from Ms_II Eq. (5)
+DTk Under-cooling, defined as DT1,2 ¼ Ae3  T and DT3 ¼ Bs e T
+E Young’s modulus as a function of temperature
+ε0 Prestrain to the strain hardening term of the JohnsoneCook type yield stress
+equation for austenite (k ¼ 5)
+Eq. (14)
+ε0 k Prestrain to the strain hardening term of the Swift type yield stress equation
+for ferritic phases (k ¼ 1 ~ 4) in Eq. (14)
+Eq. (14)
+ε Effective plastic strain
+ε
+̇
+0 Reference effective strain rate
+ε Total strain tensor in vector form
+ε
+e Elastic strain tensor in vector form
+ε
+p Plastic strain in vector form
+ε
+th Thermal strain tensor in vector form
+ε
+vol Volumetric strain tensor due to the lattice volume difference
+between bcc and fcc phases
+ε
+trp Transformation-induced plasticity strain tensor
+G Grain size in ASTM definition
+Hcal
+v Predicted Vickers hardness
+Hexp
+v Experimentally observed Vickers hardness
+H ‾
+Average Vickers hardness of ferrite-pearlite mixed phase
+Hv3 Vickers hardness of bainite single phase
+HI First Heaviside step function Eq. (5)
+HII Second Heaviside step function Eq. (5)
+hair Radiation-convection combined heat transfer coefficient to the ambient air
+hc Contact heat transfer coefficient between the blank and tools
+I Identity tensor
+i ith applied cooling rate
+K5/k Coefficient of transformation-induced plasticity strain for kth transformation
+ck Exponents for sigmoidal phase growth controlling function, hk in Eq. (4)
+l Thermal conductivity
+m(ε
+̇
+) Exponent to the temperature term of the JohnsoneCook type yield stress equation
+for austenite (k ¼ 5) as a function of strain rate, ε
+̇
+Eq. (14)
+m0 Constant of m(ε
+̇
+)
+m1 Coefficient for m(ε
+̇
+)
+N Exponent to the second super-cooling DTII Eq. (5)
+Nk Exponent for degree of under-cooling Eq. (2)
+N
+T ̇
+Total number of applied cooling rates
+n Strain hardening exponent of the JohnsoneCook type yield stress equation
+for austenite (k ¼ 5)
+Eq. (14)
+nkj jth polynomial coefficient for n0
+k or n00
+k in combination with DTj
+k
+n(T)k Strain hardening exponent as a function of temperature to the Swift type
+yield stress equation for ferritic phases (k ¼ 1 ~ 4)
+Eq. (14)
+n0
+k Exponent parameter belonging to ck
+n00
+k Exponent parameter belonging to hk
+hk Exponent for sigmoidal phase growth controlling function, hk Eq. (4)
+F Yield function
+fk Volume fraction of kth phase
+4 Nonlinear effect function to transformation-induced plasticity strain
+according to progress of transformation
+Qk Activation energy for kth diffusional transformation
+qtrs Rate of internal heat generation
+R The gas constant
+rk kth single phase density
+r Average density of mixture of phases
+s Stress deviator
+sy Yield stress of steel
+sy_k Yield stress of a single phase k
+s von Mises effective stress
+s Cauchy stress vector
+strial Trial stress vector
+T Temperature
+Tk Critical temperatures of steels, i.e., Ae3, Ae1 and Bs for k ¼ 1, 2 and 3
+Tm Melting temperature of steel
+Tr Reference temperature for the temperature term of the JohnsoneCook
+type yield stress equation for austenite (k ¼ 5)
+Eq. (14)
+168 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170
+References
+ABAQUS, 2006. User’s Manual for Version 6.2.6, Hibbitt, Karlson & Sorensen Inc.
+Åkerstr€om, P., Bergman, G., Oldenburg, M., 2007. Numerical implementation of a constitutive model for simulation of hot stamping. Modell. Simul. Mater.
+Sci. Eng. 15, 105e119.
+Altan, T., 2006. Hot-stamping boron alloyed steels for automotive parts, Part 1: process methods and uses. Stamp. J. 40e41.
+Andrade-Campos, A., 2010. The influence of the material heat treatment and phase transformations in forming processes. Int. J. Mater. Form. 3, 1139e1142.
+Auricchio, F., Bonetti, E., Scalet, G., Ubertini, F., 2014. Theoretical and numerical modeling of shape memory alloys accounting for multiple phase transformations
+and martensite reorientation. Int. J. Plast. 59, 30e54.
+Avrami, M., 1939. Kinetics of phase change. I. General theory. J. Chem. Phys. 7, 1103e1112.
+Avrami, M., 1940. Kinetics of phase change. II. Transformation-time relations for random distribution of nuclei. J. Chem. Phys. 8, 212e224.
+Avrami, M., 1941. Kinetics of phase change. III. Granulation, phase change, and microstructure. J. Chem. Phys. 9, 177e184.
+Bok, H., Choi, J.W., Barlat, F., Lee, M.G., 2013. FE simulation of microstructure evolution considering prior austenite deformation in hot press forming of a Uchannel.
+In: Proceedings of the 4th International Conference on Hot Sheet Metal Forming of High-Performance Steel, pp. 285e291.
+Bok, H.H., Choi, J.W., Barlat, F., Suh, D.W., Lee, M.G., 2014. Thermo-mechanical-metallurgical modeling for hot-press forming in consideration of the prior
+austenite deformation effect. Int. J. Plast. 58, 154e183.
+Choi, J.W., Lee, M.G., Barlat, F., Son, H.S., Nam, J.B., 2012. Hot press forming of tailor welded blank: experiments and FE modeling. ISIJ Int. 52 (11),
+2059e2068.
+Choi, J.W., Bok, H.H., Barlat, F., Son, H.S., Kim, D.J., Lee, M.G., 2013. Experimental and numerical analyses of hot stamped parts with tailored properties. ISIJ
+Int. 53 (6), 1047e1056.
+Duerig, T.E., Albrecht, J., 1983. Reverse springback: a curious manifestation of thermoelasticity. Acta Metall. 31, 1013e1018.
+Han, C.S., Lee, M.G., Chung, K., Wagoner, R.H., 2003. Integration algorithms for planar anisotropic shells with isotropic and kinematic hardening at finite
+strains. Commun. Numer. Meth. Eng. 19, 473e490.
+Hillert, M., 1957. The role of interfacial energy during solid state transformations. Jernkontorets Ann. 141, 758e789.
+Johnson, W.A., Mehl, R.F., 1939. Reaction kinetics in processes of nucleation and growth. Trans. AIME 135, 416e458.
+Karbasian, H., Tekkaya, A.E., 2010. A review on hot stamping. J. Mater. Process. Technol. 210, 2103e2118.
+Kato, H., Sasaki, K., 2013. Transformation-induced plasticity as the origin of serrated flow in an NiTi shape memory alloy. Int. J. Plast. 50, 37e48.
+Kirkaldy, J.S., Venugopalan, D., 1984. Prediction of microstructure and hardenability in low alloy steels. In: Marder, A.R., Goldstein, J.I. (Eds.), International
+Conference on Phase Transformation in Ferrous Alloys, AIME, Philadelphia, PA, pp. 125e148.
+Knezevic, M., Beyerlein, I.J., Brown, D.W., Sisneros, T.A., Tome, C.N., 2013. A polycrystal plasticity model for predicting mechanical response and texture
+evolution during strain-path changes: application to beryllium. Int. J. Plast. 49, 185e198.
+Koistinen, D.P., Marburger, R.E., 1959. A general equation prescribing the extent of the austenitemartensite transformation in pure ironcarbon alloys and
+plain carbon steels. Acta Metall. 7, 59e60.
+Kolmogorov, A.N., 1937. Statistical theory of crystallization of metals. Izvestia Akad. Nauk SSSR 1, 355e359.
+Lee, M.G., Kim, D., Kim, C., Wenner, M.L., Chung, K., 2005. Spring-back evaluation of automotive sheets based on isotropic-kinematic hardening laws and
+non-quadratic anisotropic yield functions, Part III: applications. Int. J. Plast. 21, 915e953.
+Lee, M.G., Kim, S.J., Han, H.N., Jeong, W.C., 2009. Implicit finite element formulations for multi-phase transformation in high carbon steel. Int. J. Plast. 25,
+1726e1758.
+Lee, M.G., Kim, S.J., Han, H.N., 2009. Finite element investigations for the role of transformation plasticity on springback in hot press forming process.
+Comput. Mater. Sci. 47, 556e567.
+Lee, S.J., Pavlina, E.J., Van Tyne, C.J., 2010. Kinetics modelling of austenite decomposition for end-quenched 1045 steel. Mater. Sci. Eng., A 527, 3186e3194.
+Levitas, V.I., Ozsoy, I.B., 2009. Micromechanical modeling of stress-induced phase transformations. Part 2. Computational algorithms and examples. Int. J.
+Plast. 25, 546e583.
+Li, M.V., Niebuhr, D.V., Meekisho, L.L., Atteridge, D.G.A., 1998. Computational model for the prediction of steel hardenability. Metall. Mater. Trans. 29B,
+661e672.
+Lusk, M.T., Lee, Y.K., 1999. A global material model for simulating the transformation kinetics of low alloy steels. In: Proceedings of the 7th International
+Seminar of IFHT, Budapest, Hungary, pp. 273e282.
+Ma, A., Hartmaier, A., 2015. A study of deformation and phase transformation coupling for TRIP-assisted steels. Int. J. Plast. 64, 40e55.
+Miehe, C., Apel, N., 2004. Anisotropic elastic-plastic analysis of shells at large strains. A comparison of multiplicative and additive approaches to enhanced
+finite element design and constitutive modeling. Int. J. Numer. Meth. Eng. 61, 2067e2113.
+Narayanaswamy, O.S., 1980. Calculation of springback and toe-in in stretch bending of sheet metal. Sheet Met. Ind. 120e123.
+Nelder, J.A., Mead, R., 1965. A simplex method for function minimization. Comput. J. 7, 308e313.
+Ogawa, T., Hirahara, A., Yoshida, T., 2010. Reduction of springback of sheet metals by bottoming. In: Proceedings of the 10th International Conference on
+Numerical Methods in Industrial Forming Processes, pp. 919e926.
+Ortwein, R., Skoczen, B., Tock, J.Ph., 2014. Micromechanics based constitutive modeling of martensitic transformation in metastable materials subjected to
+torsion at cryogenic temperatures. Int. J. Plast. 59, 152e179.
+Satoh, K., 1972. Transient thermal stresses of weld heat-affected zone by both-ends-fixed bar analogy. Trans. Jpn. Weld. Soc. 3, 125e134.
+Saunders, N., Guo, U.K.Z., Li, X., Miodownik, A.P., Schille, J.-Ph., 2003. Using JMatPro to model materials properties and behavior. JOM 55 (12), 60e65.
+Scheil, E., 1935. Anlaufzeit der austenitumwandlung. Arch. Eisenhuettenwes. 12, 565e567.
+Shojaei, A., Li, G., 2013. Viscoplasticity analysis of semicrystalline polymers: a multiscale approach within micromechanics framework. Int. J. Plast. 42,
+31e49.
+Simo, J.C., Ortiz, M., 1985. A unified approach to finite deformation elastoplastic analysis based on the use of hyperelastic constitutive equations. Comput.
+Methods Appl. Mech. Eng. 49, 221e245.
+Steven, W., Haynes, A.G., 1956. The temperature formation of martensite and bainite in low-alloy steels: some effects of chemical composition. J. Iron Steel
+Inst. 183, 349e359.
+(continued )
+Parameter/
+variables
+Definition Related
+equations
+Tol Tolerance as a convergence criterion to the yield condition Eq. (3)
+T ̇
+Cooling rate in C/s
+xI Coefficient of exponential function as a function of DTI Eq. (5)
+xII Coefficient of exponential function as a function of DTII Eq. (5)
+H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170 169
+Takaki, T., Yoshimoto, C., Yamanaka, A., Tomita, Y., 2014. Multiscale modeling of hot-working with dynamic recrystallization by coupling microstructure
+evolution and macroscopic mechanical behavior. Int. J. Plast. 52, 105e116.
+Turetta, A., 2008. Investigation of Thermal, Mechanical and Microstructural Properties of Quenchable High Strength Steels in Hot Stamping Operations.
+Doctoral Theses. Universita degli Studi di Padova.
+U.S.Steel Company Research Laboratories, 1963. Atlas of Isothermal Transformation Diagrams, third ed. U.S. Steel Inc., Pittsburgh, PA.
+Voyiadjis, G.Z., Shojaei, A., Li, G., 2012. A generalized coupled viscoplastic-viscohealing theory for glassy polymers. Int. J. Plast. 28, 21e45.
+Wagoner, R.H., Lim, H., Lee, M.G., 2013. Advanced issues in springback. Int. J. Plast. 45, 3e20.
+Yoo, D.H., Kim, D.G., Ahn, K.H., Kim, H.G., Son, H.S., Kim, G.-S., Chung, K., 2010. Characterization of mechanical properties for hot press forming. Steel Res. Int.
+81 (9), 857e860.
+Zener, C., 1946. Kinetics of decomposition of austenite. Trans. AIME 167, 550e583.
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
+170 H.H. Bok et al. / International Journal of Plasticity 73 (2015) 142e170

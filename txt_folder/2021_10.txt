@@ -1,0 +1,829 @@
+Sungjin Cho, Professor, Department of Economics, Seoul National University,
+1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea. (Tel): 82-02-880-6371, (E-mail):
+sungcho@snu.ac.kr; Jan R. Kim, Corresponding Author, Professor, Department
+of International Economics and Law, Hankuk University of Foreign Studies, 107
+Imun-ro, Dongdaemun-gu, Seoul 02450, Korea. (Tel): +82-2-2173-3225, (E-mail):
+kjryoul@hufs.ac.kr.
+Financial support from the Center for Distributive Justice in the Institute of
+Economic Research of Seoul National University is gratefully acknowledged, and
+the corresponding author acknowledges research grant for 2019- 2020 from
+Hankuk University of Foreign Studies.
+[Seoul Journal of Economics 2021, Vol. 34, No. 2]
+DOI: 10.22904/sje.2021.34.2.004
+Population Aging in Korea: Implications
+for Fiscal Sustainability
+Sungjin Cho and Jan R. Kim
+Adverse demographics in Korea impinges on its growth potential
+and fiscal outlook. Accordingly, this study examines the current
+demographic situation and recent projections related to the impacts
+of population aging in Korea, particularly on the looming fiscal
+imbalance. The focal conclusion is that a two-way effect exists
+from population aging. First is the anticipated stress placed on
+government finances due to increasing welfare expenditure for the
+elderly. Second is sluggish economic growth and thus the inability
+to collect sufficient government revenues. The prospect of large
+and growing deficits is therefore immediate and potentially long
+lasting as governments will be faced with rising spending demands
+and sluggish tax revenues arising simultaneously from an aging
+population.
+Keywords: Population aging, Public spending, Tax revenues,
+Fiscal imbalance
+JEL Classification: E62, H60, J11
+238 SEOUL JOURNAL OF ECONOMICS
+I. Introduction
+Population aging is an irreversible global trend. According to the UN
+(2017), a total of 962 million people are aged 60 years or over in 2017
+Worldwide, which is an increase of 152 percent over the 383 million in
+1980. This number is projected to grow to more than double its 2017
+size, reaching nearly 2.1 billion. In terms of population aging, Korea
+is one of the world’s fastest aging countries. Owing to the continued
+extension of longevity couple with the steep decline in fertility rate, the
+size and percentage of the elderly population (i.e., aged 65 and above)
+rapidly increased in the past three decades. As of the end of 2019,
+the share of people aged 65 or older was 15.5 percent out of the total
+population, up from 14.2 percent in 2018. A study by the National
+Statistics Office (2019) shows that Korea will become the world’s most
+aged society by 2067, with the senior population to comprise 46.5
+percent of the population.
+Falling marriage rates and dismally low child births along with longer
+life are the main causes of the country’s demographic crisis, calling
+for concern about dire macroeconomic consequences. Despite ample
+research over the past decades regarding the likely consequences
+of population aging, on macroeconomy in general and government
+finances in particular, policy action from the government’s end has
+only recently begun its implementation. This current study aims
+to grasp the current demographic situation and recent projections
+regarding population aging in Korea, particularly on the macroeconomic
+implication of population aging.
+This study provides anecdotal and empirical investigation regarding
+the effects of population aging on the Korean economy, focusing on
+the two-way effect from population aging found in recent research
+and projections. The first effect is the anticipated stress placed on
+government finances due to increasing expenditure for the elderly as
+examined in Hsu and Yamada (2019). As the population is getting older,
+municipal and central governments are forced to devote additional
+resources to meet the higher demands placed on programs such as
+senior healthcare or pension, unless significant changes are made
+in the structure of these programs or their benefits. The second
+effect arising from population aging is sluggish economic growth as
+discussed in Aksoy et al. (2019), which in turn leads to slower growth in
+government revenues. As a lower proportion of population will be able
+Population Aging in Korea 239
+to participate in the labor market, overall rates of economic growth are
+bound to fall, which will in turn have negative effects on governments’
+ability to raise revenues. The prospect of large and growing deficits is
+therefore immediate and potentially long lasting, as governments will
+be faced with increasing spending demands but sluggish tax revenues
+simultaneously arising from an aging population. For example, IMF
+(2005) reports a one percent increase in labor force as improving fiscal
+balance by 0.06 percent point, whereas a one percent point increase in
+the aged population leads to a 0.041 percent point decrease in the percapita
+GDP.
+This study is structured as follows. The next section examines
+the trend of demographic shift in Korea and the ensuing projected
+changes in the near future. Possible impacts of this change on labor
+markets and economic growth will also be assessed. We then analyze
+how demographic changes are projected to impact spending on health
+care and welfare programs for seniors. The next section analyzes how
+spending surges in these areas affect the fiscal balance (deficits or
+surpluses) of central government. In the final section, we develop an
+empirical model to quantify the effect of population aging on the Korean
+economy, with emphasis on labor productivity, income, and healthcare
+spending. The paper ends with a brief conclusion.
+II. Demographic Changes in Korea
+The growth in a country’s population is affected by three factors:
+birth rate, death rate, and net immigration. For much of her history,
+the population growth in Korea was the result of natural increases,
+i.e., the difference between births and deaths, whereas the role of net
+immigration has been negligible. According to the National Statistics
+Office (2019, 2020), however, Korea’s recent fertility rate has fallen
+below the level necessary to replace existing population.1 The result of
+1 The fertility rate is commonly defined as the number of births a woman
+is expected to have by the end of her reproductive years. Since the 1990s,
+the fertility in Korea has declined dramatically. In the early 1950s and 1960s,
+the fertility rate in Korea was 5.6 children per women. By contrast, the figure
+tumbled to 0.98 in 2018 and 0.92 in 2019. The current fertility rate is far below
+the replacement fertility rate of 2.1, at which the size of total population is
+maintained.
+240 SEOUL JOURNAL OF ECONOMICS
+a declining fertility rate has been a continued slowdown in population
+growth. Figure 1 below illustrates such a drastic shift in demographics.
+The average annual population growth rate in the 1970s was 2.2
+percent, which is in stark contrast to the average annual population
+growth rate for the most recent decade of 2009–2019 at only 0.48
+percent. Compared with the 1960s, the recent figure is an 81 percent
+decline. Based on the medium growth projection by the National
+Statistics Office, Korea’s future population growth rate is projected to
+continue declining. For example, the population growth rate is projected
+to turn negative by 2029. By 2067, the end point in the current forecast
+by the National Statistics Office (2020) predicts the population growth
+rate to be -1.26 percent.
+Source: National Statistics Office (2019, 2020)
+Notes: Data for 2020 and onwards are projections based on the mediumpopulation
+growth scenario.
+Figure 1
+Recent Demographic Trend of Korea
+(a) Births and Fertility Rates
+(b) Population
+Population Aging in Korea 241
+Apart from slower and even negative population growth, another
+demographic shift Korea is expected to undergo is the increase in life
+expectancy.2 For example, according to OECD (2019), life expectancy at
+birth increased for women from 65.8 years to 85.71 years and for men
+from 58.7 years to 79.7 years over the period of 1970 to 2017.
+One combined effect of a lower population growth and extended life
+expectancy is that seniors will take a fast-increasing portion of future
+population. Figure 2 shows two aging-related statistics. Panel (a) plots
+the share of those over the age of 65 among the entire population
+starting in 2010. From 2010 to 2067, the seniors’ share in Korean
+population is projected to increase from a little over 10 percent to over
+46 percent. The growth rate will be highest from now until the late-
+2030s, at which point the senior share of the population will have
+increased to approximately 34 percent. This rapid increase in the share
+of the population over 65 is a result of the aging of the so-called “baby
+boomers,” those born in the years following the Korean War. The senior
+share of the population is expected to grow at a little slower rate in the
+decades after the late-2030s but continuously increasing to roughly 47
+percent of the overall population by 2067. More striking in panel (b) is
+2 Life expectancy at birth measures the number of years a newborn infant
+would live if the current patterns of mortality at the time of its birth were to
+remain over its entire life.
+Source: National Statistics Office (2019)
+Figure 2
+Population over 65 Years Old
+(a) Share of 65 + among the Population (b) Projection of 65+ Population
+242 SEOUL JOURNAL OF ECONOMICS
+that the age composition of the seniors is expected to shift toward those
+over 75 years of age, whereas the share of relatively young seniors aged
+between 65 and 69 is projected to decline.
+The share of productive population will also be affected by this trend
+of aging. Figure 3 shows the working age (15-64 years old) share of the
+population from 1970 to 2063. This period is first characterized by a
+rapid increase in the share of the working age population as the baby
+boomers entered the labor force in the early period of fast economic
+growth. The working age share of the total population peaked in 2013
+at nearly 74 percent. As this group slowly begins to reach the age of 65,
+the working age share is expected to continuously decline to as low as
+45 percent by 2067.
+The combination of the rising share of the aged population and the
+falling share of the working age population inevitably affect labor force
+participation, which simply measures the total labor force as a share of
+the overall population. As Figure 4 shows, the labor force participation
+of those 65 and over is dramatically lower than those in other younger
+age categories. For example, approximately 79 percent and 77 percent
+of Koreans aged between 25 to 49 and 50 to 59, respectively, were
+either employed or actively looking for work in 2019. This demographics
+compares to approximately 34 percent of Koreans over 65 who were
+participating in the labor force. Figure 4 demonstrates that, as the
+share of seniors in the population increases, Korea’s overall labor force
+Source: KOSIS database
+(http://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1BPA003&conn_
+path=I3)
+Figure 3
+Share of Work ing-Age Population
+Population Aging in Korea 243
+participation rate will certainly fall, unless a marked increase happens
+in seniors’ participation in the labor force.
+This dire prediction is also reflected in Figure 5, which plots the
+forecasts of total labor force and its decompositions into different age
+groups, conditional on the labor force participation rate of 2016 and the
+projected demographic transitions. Korea’s total labor force is expected
+to fall to approximately 27.4 million by 2035 and to 24.5 by 2050. On
+top of this prediction, age composition of labor force is also expected to
+shift toward the old age group. Whereas the size of young labor force
+(below 45 years old) is likely to decrease by roughly 40 percent by the
+year 2050, the share of old labor force (above 65 years old) will increase
+from the current level of less than 10 percent to nearly one-fourth of the
+total labor force by 2050.
+The expected decline in the labor force will also influence the future
+growth of real GDP. According to the growth accounting approach,
+the growth in real GDP of a country can be attributed to three factors:
+increases in the fraction of the labor force employed, accumulation
+of physical capital, and increases in total factor productivity.
+Figure 6 displays historical (1972–2010) and projected (2021–2060)
+decomposition of average annual growth in real GDP into the
+contributions from each of the three components mentioned above.
+The results of historical decomposition support the major role
+played by quantitative factors such as labor force and physical capital.
+Source: KOSIS database
+(http://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DA7002S)
+Figure 4
+Labor Force Participation Rates by Age in 2019
+244 SEOUL JOURNAL OF ECONOMICS
+Apparently, the 70s and 80s were characterized with unprecedented
+fast economic growth in Korea. Most of the real GDP growth was
+attributable to the accumulation of physical capital. What should not be
+overlooked is the contribution of labor force, especially during the 80s.
+In the growth accounting method, qualitative gains in human capital
+are incorporated into the total factor productivity growth. That being
+the case, the marked contribution of the total factor productivity in the
+80s was highly likely to have benefited from the labor force. As the baby
+boomers with solid public education started entering the job market
+in the 80s, the growth potential of the Korean economy was enhanced
+by the improvement in labor force at both the quantitative and the
+qualitative margins. This occurrence is typical of the phenomenon
+known as the demographic dividend: when a large percentage of a
+country’s population is in the working ages as a result of low fertility
+and declining mortality, the working-age population benefits from a
+relatively small dependent population as the size of the elderly cohort is
+small, and the percentage of children is decreasing. This phenomenon
+in turn allows the working-age cohort to amass savings and increase
+productivity.
+The situation will turn to the opposite direction in the future, or it
+may already have. As the baby boomers start to retire en masse from
+2021 onwards, shrinking working age population must support a large
+Source: Lee and Lee (2017)
+Figure 5
+Labor Force Projection by Age (2016–2050)
+Population Aging in Korea 245
+and increasing elderly population down the road. The resulting negative
+demographic dividend exhibits itself in the projections for the four
+decades from 2021, where declining labor force is projected to reduce
+annual GDP growth by increasing magnitudes. If the projections in
+Figure 6 are transformed into the per-capita term, the results are as
+shown in Table 1.
+In the 2030s, the growth in the GPD per employed worker is
+approximately 2 percent or higher. Given the continued decrease in the
+labor force and employment caused by population aging, however, the
+growth in per-capita GDP over the same period is expected to be as low
+Source: Lee (2016)
+Figure 6
+Decomposition of Contributions to Potential GDP Growth
+Table 1
+Growth in per-capital potential GDP and contributions (%, %p)
+Period
+Per-capita
+Real GDP
+(1) + (2)
+Employed/
+Population
+(1)
+Real GDP
+per employed
+worker
+(2) = (3) + (4)
+Physical Capital
+per employed
+worker
+(3)
+Total Factor
+Productivity
+(4)
+2001–2010 3.8 0.7 3.1 1.5 1.6
+2011–2020 2.6 0.7 1.9 0.7 1.2
+2021–2030 2.1 -0.2 2.3 0.9 1.4
+2031–2035 1.5 -0.5 2.1 0.8 1.3
+Source: Lee (2016)
+246 SEOUL JOURNAL OF ECONOMICS
+as 1.5 percent. The predicted contribution of the physical capital per
+employed worker is stable at approximately 0.8 percent, reflecting that
+the Korean economy is close to the steady state growth path.
+Two conclusions emerge from the discussion above. First, any
+future acceleration in real GDP growth will have to come from faster
+productivity growth. Second, the slower growth in real GDP, resulting
+from the demographic changes, will reduce the size of the Korean
+economy than what has prevailed in the past with a higher rate of
+population and economic growth. The reduction in economic growth
+also means that the tax base for government expenditures will also
+grow more slowly than in previous periods.
+III. Demographic Changes and Public Spending
+Conceptually, two opposite effects of population aging are identified
+on the financing of government spending programs. On the one hand,
+demographic shifts arising from an aging population will increase
+government program spending primarily via increases in health care
+spending and higher spending on income transfers to seniors. On the
+other hand, an aging population can lead to decreases in government
+spending associated with education and child benefit spending. In
+empirics, however, extant research, such as those of MacLeod and Emes
+(2017) and Robson (2010), has found that the impact of demographic
+changes on the spending requirements of education and child benefits
+are at most modest or unclear. We therefore concentrate on the
+expected increases in public spending caused by population aging in
+terms of the costs of healthcare and other welfare benefits for seniors.
+A. Healthcare Costs
+For elderly Korean on average to consume considerably higher levels
+of healthcare services than younger cohorts is well expected, given that
+higher ages are associated with higher susceptibility to illnesses and
+costly chronic diseases requiring more frequent medical attention.
+Data confirm this prediction. According to the National Health
+Insurance Service (2019), in 2018, the latest year for which data are
+available, Koreans aged 65 and above accounted for nearly 41 percent of
+all health care expenditures, but they only amount to approximately 14
+percent of the total population. This imbalance between the proportion
+Population Aging in Korea 247
+of the population over the age of 65 and the proportion of health care
+spending attributed to seniors is the result of the increases in chronic
+illnesses and rising ambulatory costs.
+Figure 7 illustrates the average medical expenditures of different age
+groups. On a per-patient basis, healthcare spending is heavily skewed
+toward a patient’s earlier (birth related) and later (post 65) stages of life
+after retirement. For instance, in 2018, the average per-patient medical
+expenditures between the ages of 15 and 64 amounted to 1.17 million
+won, whereas the average annual per-patient medical costs for those
+65 and over was 4.41 million won, which is 3.8 times greater than the
+15–64 average. The higher proportion of Koreans expected to be in the
+category of over 65 means increasingly higher health care costs.
+As the population of Korea continues to age over the next few decades
+and in the absence of concurrent reforms to the healthcare system,
+healthcare costs are more than likely to increase, as an increasing
+portion of the population enters the age brackets with the highest
+average healthcare costs. For example, a recent study by Lorenzoni
+et al. (2019) predicts that Korea will be one of the countries where the
+effects of demographic shifts on healthcare costs are the highest. More
+specifically, the health spending per capita in Korea is then expected
+to increase by 4.5 percent per year over 2015–2030, the highest rate
+of increase among the member countries. Figure 8 below shows this
+prediction.
+Figure 9 shows the projections for the elderly healthcare costs by Lee
+et al. (2015). According to this study, the total medical expenditures for
+Source: National Health Insurance Service Database
+Figure 7
+Healthcare Expenditure per Patient by Age Group (2018)
+248 SEOUL JOURNAL OF ECONOMICS
+those aged over 65 are expected to increase up to 390.8 trillion won by
+2060. This number is more than ten-tuple of that estimated for 2020
+and is tantamount to 6.57 percent of GDP. Considering that the medical
+expenditures by total population accounted for 8.1% of GDP in 2018,
+the increase in elderly population accompanied by increases in chronic
+illness and the cost of end-of-life care poses a serious challenge.3 4
+3 As of 2008, the medical costs of a patient in the last year of life account
+more than 9 times larger than the average for surviving patient cost over the
+same period.
+4 Number in parentheses are the share in GDP. Projections under the scenario
+of pure aging and 0.8 for the income elasticity of medical expenditure.
+Source: Lorenzoni et al. (2019)
+Figure 8
+Growth in Average per Capita Health Expenditure (2015–2030)
+Source: Lee et al. (2015)
+Figure 9
+Projected Healthcare Expenditures for 65 + (trillion won)4
+Population Aging in Korea 249
+B. Welfare Spending on Seniors
+Apart from increased healthcare costs, demographic shift also
+requires the government to use other resources to senior welfare
+programs, such as Basic Senior Pensions, Guaranteed Minimum
+Income Payment, Work Provision of Seniors, and Long-Term Senior
+Nursing Insurance. As shown in Figure 10, spending (in nominal
+terms) by the national government on welfare programs for the elderly
+remained below 0.5 trillion won until 2007 and has increased mildly
+until 2013. However, the number has been rapidly increasing since
+then, as new welfare programs were introduced and exiting programs
+were expanded. For fiscal year 2020, spending on these programs costs
+approximately 16.8 trillion won. It represents 3.3 percent of the planned
+total government spending.
+Among many possible causes for such rapid increases in welfare
+expenditures, the main driver is the trend of population aging caused
+by low fertility rate and extended life expectancy. According to Kim and
+Kim (2020)’s prediction, a one percent increase in the aging index (the
+number of elders per 100 persons aged 15 or below) is estimated to rain
+welfare spending for seniors by 0.12 trillion won.
+Figure 11 shows how spending on elderly welfare is projected to
+Source: Kim and Kim (2020)
+Figure 10
+Government Spending on Senior Welfare Programs
+250 SEOUL JOURNAL OF ECONOMICS
+increase (Kim and Kim, 2020). Panel (a) plots the predicted costs for the
+three major components of senior benefits, i.e., Basic Pension Program,
+Health Insurance Subsidies, and Long-term Nursing Care. Over the
+next three decades, spending on these key programs is projected to
+increase by 3 percent every year. Panel (b) shows the projections of the
+overall spending on senior welfare benefits, where total senior benefits
+will increase to 680 trillion or so by 2050. This number represents
+approximately 45 percent of the total government income projection for
+the same year by the National Assembly Budget Office (2018).
+Overall, population aging will contribute to a large increase in future
+levels of government spending. In 2019, social welfare spending for
+senior benefits amounted to approximately 13 trillion, accounting
+for approximately 8 percent of the total government budget for social
+welfare. This share is expected to increase to 12 percent and 20 percent
+by 2024 and 2029, respectively. Consequently, mandatory government
+spending welfare programs are projected to reach ten percent relative to
+the size of the economy in 2050, an increase of approximately 4 percent
+point as of 2019.
+IV. Fiscal Sustainability
+As widely pointed out, a rapid pace of population aging poses a
+serious structural challenge to fiscal sustainability. Two channels for
+future imbalances are related to demographic shifts. The first one is
+(a) Key components of senior benefits (b) Total welfare spending for seniors
+Source: Kim and Kim (2020), authors’ graphical presentation
+Figure 11
+Projections of Senior Welfare Spending (trillion won)
+Population Aging in Korea 251
+just described above: increases in spending on healthcare and other
+welfare programs for the elderly. The second is that the growth rate in
+tax revenue is expected to slow down, as taxpaying working population
+shrinks. These two complementary channels will create serious burden
+on public finance, considering that the government’s ability to collect
+tax revenue decreases due to a smaller group of taxpayers. Conversely,
+the government expenditure, particularly on healthcare spending,
+continuously increases.
+In addition, as in many high-income countries, pension also plays a
+crucial role, as important as the healthcare spending. As populations
+(a) Revenue and Expenditure (in fixed price of 2020)
+(b) Revenue and Expenditure (% of GDP)
+Source: National Assembly Budget Office (2020), author’s presentation
+Figure 12
+Projections of Fiscal Squeeze
+252 SEOUL JOURNAL OF ECONOMICS
+age, the number of beneficiaries of public pension schemes will
+increase, whereas the number of contributors is expected to decline
+and thus resulting in deficits. Another adverse effect also comes from
+a reduction in economic growth due to diminishing labor productivity.
+Stagnation in economic growth will lead to a reduction in national
+revenues and savings, which in turn generates negative impacts on
+economic sustainability.
+To illustrate the potential size of the looming fiscal imbalance,
+Figure 12 plots the projected government spending and revenues by
+the National Assembly Budget Office (2020) for 2020 to 2050. This
+projection assumes that the details of government expenditure are
+maintained as in the budget bill for 2019 and incorporates the effects of
+the third supplementary budget bill in 2020.
+The main takeaway from Figure 12 is the looming deterioration
+in government finances. The projections indicate that the Korean
+government is expected to run a shortfall in every decade of projection.
+Apparently, the deficits are expected to worsen as demographic changes
+place increased demands on government spending. For example, the
+difference between government revenues and total expenditure in
+2030 will amount to 900 trillion won. By 2050, the fiscal imbalance is
+projected to be 7.8 percent of GDP or 246.5 trillion won (using 2020
+Source: National Assembly Budget Office (2020)
+Figure 13
+Projected Government Debt
+Population Aging in Korea 253
+real GDP figures). This finding is in stark contrast to the fiscal surplus
+amounting to 4.7 trillion won in 2019.
+Figure 13 displays the consequences of prolonged fiscal deficit on
+government debt projected by the National Assembly Budget Office
+(2020), assuming that the imbalance between government spending and
+revenues in Figure 12 is financed by issuing new government bonds.
+According to this projection, net government debt as a percentage of
+GDP is predicted to be over 75 percent of GDP in ten years now and to
+reach over 131.1 percent by 2050.
+One economic measure of societal aging is the old-dependency ratio
+defined as the ratio of the number of elderly people aged 65 relative
+to working age population, which shows how many elderly people are
+supported by an economically active person. As such, this ratio is
+frequently used for the economic analysis of the impact of population
+aging. For example, a study by KDI (2018) finds that, among the OECD
+countries where the old dependency ratio has increased by more than
+10 percent point since the 1980s, a one percent increase in the ratio is
+associated with a 4 percent point fall in the nominal economic growth
+rate, a 0.8 percent increase in the social welfare expenditure relative to
+GDP, and a 5.7 percent point increase in the ratio of government debt
+to GDP.
+Here, we recapitulate parts of the simulation results by Sung (2009)
+using the annual macro-fiscal model of the Korean economy, which
+examines the responses of key economic variables under the scenario
+that the old-dependency ratio rises by 5 percent point.5 Figure 14
+shows the results. Over the five years following the aging shock, labor
+force decreases by 0.26 percent per annum, and the potential GDP
+falls by 0.09% per annum. Owing to higher welfare spending, total
+government expenditure increases by 4.5 percent per year. By contrast,
+tax revenues are predicted to increase by a mere 1.9 percent per year
+due to the slowdown in labor supply and growth. Consequently, fiscal
+balance relative to GDP aggravates by 0.4 percent annually.
+This section attempts to provide an idea of the consequences of the
+fiscal imbalance down the road, but a hidden implication of increasing
+debt is noted to such high levels: the effect of increased interest
+5 This assumption is comparable to the actual increase in the old-dependency
+ratio in the 2010s.
+254 SEOUL JOURNAL OF ECONOMICS
+payments on government budgets. If the burden of interest payments
+increases, the government could be forced to reduce spending in areas
+such as education or other public services. To the extent that higher
+levels of government debt can further lead to lower rates of economic
+growth as found in some empirical studies, such as those of Woo and
+Kumar (2015) and Checherita and Rother (2010), the overall impact of
+aging on debt sustainability can be graver and therefore calls for more
+prudent indebtedness policies.6
+6 Woo and Kumar (2015) found that, for a panel of 38 countries, a ten percent
+point increase in the initial debt-to-GDP ratio is associated with a slowdown in
+annual real per capita GDP growth of around 0.2 percentage points per year.
+From a panel of 12 eurozone countries, Checherita and Rother (2010) found that
+the negative growth effect of high debt starts from the levels of approximately
+70% to 80% of GDP.
+Source: Sung (2019), authors’ adaptation
+Figure 14
+Projected Government Debt
+Population Aging in Korea 255
+V. Empirical Model of Aging-Macroeconomy Nexus
+A. Model and Data
+In this section, we perform an empirical analysis of the link between
+population aging and some key aspects of the Korean economy. The
+purpose of this analysis is twofold: first, we aim at quantifying the
+effects of population aging on the macroeconomy discussed in the
+previous sections. Second, the results of the current analysis are
+expected to serve as a guideline for extending toward other full-fledged
+model for aging–macroeconomy nexus.
+Following many previous studies, we adopt a VAR approach to
+examine the macroeconomic effects of aging in Korea7. As discussed in
+the preceding sections, aging and other macroeconomic variables have
+a high tendency to be closely related and to share common long-term
+trends, apart from exhibiting short-term fluctuations around those
+trends. On this ground, we construct a Vector Error Correction Model
+(VECM) for the Korean economy, allowing for the relationship among
+the variables at both the long- and short-term time horizons.
+The model we estimate is of the form
+ΔYt = ΣKi
+=1YiΔYt-i + αβ'Yt-1 + Ψ + εt,
+where Yt is a (p×1) vector of system variables, αβ'Yt-1: a lagged error
+correction term, and Ψ denotes deterministic components comprising
+an intercept and dummies for the periods of economic crisis during
+1997–1998 and 2008–2009.
+7 As an anonymous referee has pointed out, the implications of population
+aging or demographic changes are better addressed by cross-country analysis
+than time-series analysis, considering that these changes exhibit long-term
+effects rather than short-term dynamics. Notwithstanding, quite a few existing
+studies adopt the VAR approach to investigate the macroeconomic effect of aging.
+Lopreite and Mauro (2017) investigated the impact of demographic changes on
+health expenditure in Italy. Doran (2012) examined the effects of fertility rates
+and increases in the old-age dependency ratio on labor effort and production in
+Ireland. Ferraro and Fiori (2020) assessed the effects of demographic structure
+of labor force in the US on the responses of unemployment rate to marginal tax
+rates.
+256 SEOUL JOURNAL OF ECONOMICS
+Our model is estimated with annual data over the period 1970–2018
+with lag length of 4. Five variables are in the VECM specification
+used: the share of the population over 65 years old (AGING)8, labor
+productivity measured by per capita real GDP divided by total hours
+worked (PROD), per capital real GDP (RGDP), real per capita total tax
+revenues (TAX), and per capita real medical expenditure (MEDEX). All
+data series are obtained from the OECD Data Warehouse, except that
+the series of total nominal taxes collected is obtained from NABOSTAT,
+the database of the National Assembly of Budget Office. Table 2 provides
+further details for the sources, construction, and transformation of data
+series, and Figure 15 plots the five data series thus constructed.
+8 Regarding the measure of population aging, alternative indicators such as
+the old dependency ratio or life expectancy are also available. Our choice is
+guided by the discussion in Yoon et al. (2014) that such alternative measures are
+likely to contain the changes in demographic structure caused by forces other
+than the pure aging trend. By using the elderly share among the population,
+we attempt to isolate demographic shifts brought about by the trend of physical
+aging only.
+Table 2
+Variables used for VECM estimation
+Variable Description Transformation Raw Series
+AGING
+People aged 65 and over
+as a ratio of the total
+population.
+n.a. Share of 65 and over―elderly
+PROD
+GDP divided by total work
+hours
+log Real GDP per hours worked
+GDP Real GDP per capita log
+GDP per Head of Population
+(nominal)
+GDP Deflator (2015 = 100)
+TAX Real Taxes per capita log
+Total Taxes Collected
+(nominal)
+Population (all age groups)
+GDP Deflator (2015 = 100)
+MEDEX
+Real Current Expenditure
+on Health per capita
+log
+Current Expenditure on
+Health (nominal)
+GDP Deflator (2015 = 100)
+Population (all age groups)
+Population Aging in Korea 257
+The precondition for fitting a VECM to data is the presence of unit
+roots in individual series and cointegration among them. We first run
+the ADF and KPSS tests for unit roots. Table 3 presents the results. As
+foreseen in Figure 6, both tests support that all series are nonstationary
+in levels and stationary in first differences.9
+9 A possible exception is RGDP, for which the KPSS test rejects the null of
+stationarity in its difference at the 5% significance level. However, the test fails to
+reject the null at the 1% significance level. Thus, we treat RGDP as a difference
+stationary series.
+(a) AGING
+(c) MEDEX
+(e) TAX
+(b) PROD
+(d) GDP
+Figure 15
+Plots of Data Series
+258 SEOUL JOURNAL OF ECONOMICS
+Table 3
+Results of ADF and KPSS Unit Root Test
+variable
+Levels Differences
+ADF KPSS ADF KPSS
+Ho: Unit Roots Ho: Stationary Ho: Unit Roots Ho: Stationary
+AGING 1.694 0.244** -5.864** 0.129
+PROD 0.398 0.195* -5.981** 0.164*
+MEDEX -1.703 0.321* -6.480** 0.047
+GDP 0.202 0.323** -6.503** 0.097
+TAX -0.847 0.184* -8.606** 0.235
+Note: * and ** denote the rejection of the null hypothesis at the 5% and 1%
+significance levels, respectively.
+We then apply the Johansen cointegration test to confirm whether
+a cointegration relation exists in the four data series. The results for
+trace statistic and maximum eigen value statistics in Table 4 support
+the null hypothesis that two cointegrating relations exist among the five
+variables, based on which we use the VECM rather than the ordinary
+VAR for the empirical analysis.
+Table 4
+Results of the Johansen Cointegration Test
+Ho:
+No. of CI
+Trace Test Max Eigenvalue Test
+Test Statistic p-value Test Statistic p-value
+0** 112.360 0.0000 42.819 0.0072
+Up to 1** 69.544 0.0013 39.212 0.0023
+Up to 2 30.329 0.1489 19.592 0.1911
+Up to 3 10.737 0.4195 10.314 0.3758
+Up to 4 0.423 0.5155 0.423 0.5155
+Note: Lag order of 3 is determined by the BIC run for the unrestricted VAR. **
+denotes rejection of the null at the 1% significance level.
+B. Impulse Responses
+This section provides econometric evidence on the macroeconomic
+effects of population aging for Korea using an estimated VECM.10 We
+10 Based on the results of preliminary checks in Table 3, we use 3 lags and
+Population Aging in Korea 259
+identify population aging shocks by assuming a recursive ordering,
+with the order of the variables in Table 3 above. Our rationale for
+putting the aging variable at the top of the causal ordering is that the
+aging trend is primarily a consequence of decreasing birth rates and
+extending life expectancy, which are in turn driven by sociocultural
+factors such as industrialization and medical technologies. Therefore,
+population aging is unlikely to react contemporaneously to shocks to
+other macroeconomic variables in the system. We put productivity and
+medical expenses next to aging on the assumption that the first-hand
+effect of aging falls on the overall quality and health of labor force. The
+two latter variables then affect the level of output and then the amount
+of taxes collected.
+Figure 16 shows the impulse responses to a one standard-deviation
+increase in the elderly share aging shock identified from our estimated
+VECM. In each panel, the solid line denotes the point estimates of
+responses over the horizon of 20 years. The shaded area represents the
+90% confidence band obtained from a bootstrap procedure with 2,000
+replications. Following its own shock, the responses of the elderly share
+are significantly above zero throughout the two subsequent decades.
+Panel (b) exhibits that the aging shock is associated with continued
+decreases in labor productivity, although the negative response of
+productivity is statistically insignificant. By contrast, the effect of a
+rise in the elderly share manifests itself in the response of medical
+expenditure as shown in panel (c). A positive aging shock results in
+a significant increase in the per capita medical spending, even up to
+20 years of horizon. Translated into tangible numbers, for example,
+if the share of the elderly population increases to 14.3 percent as of
+2018 to 15 percent, the extra amounts an average Korean is expected
+to pay over the following 10 years sum up to 8.5 percent of that paid
+in 2018. The responses of GDP in panel (d) are weak and insignificant,
+in that the negative impact of aging shock on GDP is reversed in
+years 10 to 13 after the shock and then turns back to the correct
+sign. Still, the cumulative effects of the aging shock on GDP remain
+negative throughout the forecasting horizon. Finally, panel (e) shows
+the following: the adverse effect of aging is probably most conspicuous
+in the responses of tax revenues, which remain significantly below
+cointegration rank of 2.
+260 SEOUL JOURNAL OF ECONOMICS
+zero and from year 1 onwards. In summary, our VECM results are
+consistent with and underscore the concerns about the adverse
+ramifications of ongoing population aging in Korea: aggravation in
+labor productivity, decrease in per capita income, increasing burden of
+(a) Responses of AGE
+(c) Responses of MEDEX
+(e) Responses of TAX
+(b) Responses of PROD
+(d) Responses of GDP
+Figure 16
+Responses to One S.D shock in the Elderly Share
+Population Aging in Korea 261
+healthcare expenditures,11 and decreasing tax revenues.
+VI. Concluding Remarks
+As Korean population reaches old age, seniors are covering an
+increasingly large share of the population, whereas the portion of people
+in their working age is consequently decreasing. Consequently, labor
+force participation is widely expected to decline, by which economic
+growth and the foundation of collecting tax revenues are imperiled.
+Concurrently, the government is faced with the need to provide health
+care and other welfare programs to an increasing number of seniors.
+For example, the total healthcare expenditures for those aged over 65 in
+2060 are expected to increase up to 281.4 trillion won, tantamount to
+5.84 percent of GDP. In addition, the overall spending on senior welfare
+benefits is projected to increase to 680 trillion or so by the same year,
+representing approximately 45 percent of the total government income
+projection. Assuming that the details of government expenditure are
+maintained as in the budget bill for 2019, this increase in spending will
+contribute to a significant fiscal deficit amounting to 7.1 percent of GDP
+or 237.1 trillion won (using the 2019 actual GDP figures). At this pace
+of the looming fiscal imbalance, net government debt as a percentage of
+GDP is predicted to be over 85 percent by 2050. In sum, the impending
+demographic changes will profoundly affect government spending and
+its ability to raise revenues, imperiling government finances over the
+foreseeable future. The results of a VECM exercise are mostly in line
+with these predictions from previous studies.
+The Korean government must make a tough choice. It can simply
+borrow their way through the problem and pass the buck to the
+next generations, at its own risk of fiscal and sovereign debt crisis.
+Otherwise, it can respond to the pressures by reforming public finance
+on one hand and improving economic growth and productivity on the
+other hand. The latter should aim at raising labor force participation
+11 As an anonymous referee has pointed out, the expansion in welfare program
+initiated in 2008 may have an impact on medical expenditure for the elderly.
+Owing to the short data span, however, formally introducing a break in sample
+period is not very plausible. We also believe that explicitly addressing such a
+policy reform in our empirical work will produce even graver prediction of the
+fiscal sustainability in the forecast periods.
+262 SEOUL JOURNAL OF ECONOMICS
+of the elderly and females and encouraging investment in human
+capital and R&D. Regarding the former, many countries are now
+taking measures such as deferring old age pensions and encouraging
+enrollment in private pension by providing tax benefits or subsidies.
+As found in Lee at al. (2013) from the panel of 80 countries, responses
+to population aging occur in the form of high retirement savings, high
+labor force participation, and increased immigration of workers from
+developing countries. Thus, a room still exists for appropriate policies
+that help mitigate the adverse consequences of population changes. At
+any rate, recognizing the current juncture of the looming demographic
+problems affecting the government finances is the first step in search of
+the right solutions.
+(Received May 16 2020; Accepted August 30 2020)
+References
+Aksoy, Yunus, Henrique S. Basso, Ron P. Smith, and Thomas Grasl.
+“Demographic Structure and Macroeconomic Trends.” American
+Economic Journal: Macroeconomics 11 (No.1 2019): 193-222.
+Checherita, Cristina and Philipp Rother. The Impact of High and
+Growing Government Debt on Economic Growth: An Empirical
+Investigation for the Euro Area, ECB working paper series No.
+1237, 2010.
+Doran, Justin. “An Analysis of the Interdependence of Demographic
+Factors, Labour Effort and Economic Growth in Ireland.”
+International Journal of Social Economics 39 (No. 3 2012): 221-
+237.
+Ferraro, Domenico and Giuseppe Fiori. “The Aging of the Baby Boomers:
+Demographics and Propagation of Tax Shocks.” American
+Economic Journal: Macroeconomics 12 (No. 2 2020): 167–193.
+Hsu, Minchung and Tomoaki Yamada. “Population Aging, Health
+Care, and Fiscal Policy Reform: The Challenges for Japan.”
+Scandinavian Journal of Economics 121 (No. 2 2019): 547–577.
+IMF. IMF World Economic Outlook. Washington DC, 2015.
+KDI. A Study on the level of Government Debt for Sustainable Fiscal
+Scheme (in Korean). Research report submitted to the Ministry of
+Economy and Finance, 2018.
+Population Aging in Korea 263
+Kim, Won-Sik and Sang-Kyum Kim. Effects of Current Welfare
+Programs for seniors on Fiscal Balance and Government Debts
+(in Korean). Report submitted to Special Committee on Budget
+and Accounts, The National Assembly of The Republic of Korea,
+2020.
+Lee, Chulhee and Jieun Lee. The Outlook and Challenges of Population
+Aging and Labor (in Korean). Bank of Korea Working Paper No.
+2017-30, 2017.
+Lee, Hyun-Hoon, Hyeon-seung Huh, Young-Youn Lee, Jae-Young Lim.
+“Effects of Population Aging on Economic Growth: A Panel
+Analysis.” Seoul Journal of Economics 26 (No. 4 2013): 401-432.
+Lee, Jaejoon, Macroeconomic Effects of Aging and Some Policy
+Implications (in Korean). The Korean Economic Forum (No.8-4),
+2016.
+Lee, Su-youn, Lee Dong-Hun, and Cho Hung-Wan. Medium- to Long-
+Term Projections for Medical Expenditures on the 65+ (in
+Korean). Institute of National Healthcare Insurance Research
+Report (2015-1-0004), 2015.
+Lo, R. Brendan and Siok Kun Sek. The Relationship between Population
+Ageing and the Economic Growth in Asia. AIP Conference
+Proceedings 1750, 060009, 2016.
+Milena and Marianna Mauro. “The effects of population ageing on
+health care expenditure: A Bayesian VAR analysis using data
+from Italy.” Health Policy 121 (No. 6 2017): 663–674.
+Lorenzoni, Luca, Alberto Marino, David Morgan, and Chris James.
+Health Spending Projections to 2030: New results based on
+a revised OECD methodology. OECD Health Working Papers
+(No.110). OECD Publishing, Paris, 2019.
+Lucas, R.E. Lectures on Economic Growth. Harvard University Press,
+2002.
+MacLeod, Angela, and Joel Emes. Understanding the Increases in
+Education Spending in Public Schools in Canada. Fraser
+Institute, 2017.
+National Assembly Budget Office. NABO Long-Term Fiscal Projection
+2020, 2020.
+National Health Insurance Service. Annals of Healthcare Insurance
+Statistics 2018, 2019.
+National Statistics Office. Population Projection: a Special Issue, 2017-
+2067, 2019.
+264 SEOUL JOURNAL OF ECONOMICS
+National Statistics Office. Current Population Survey for 2019, Interim
+Results for Birth and Death Rates, 2020.
+OECD. Health at a Glance 2019: OECD Indicators, OECD Publishing.
+Paris, 2019.
+Robson, William B.P. The Glacier Grinds Closer: How Demographics
+Will Change Canada’s Fiscal Landscape. C.D. Howe Institute
+e-brief, 2010.
+Sung, Myung-Ki. Impacts of Low Fertility and Aging on Economy and
+Some Implications (in Korean), Research Series on Low Fertility
+and Aging Society (No. 2). National Assembly Budget Office,
+2009.
+UN. World Population Ageing. Department of Economic and Social
+Affairs, Population Division, 2017.
+Woo, Jaejoon, and Manmohan S. Kumar. “Public Debt and Growth.”
+Economica 82 (No. 328 2015): 705–39.
+Yoon, J.W., J. Kim and J. Lee. Impact of Demographic Changes on
+Inflation and the Macroeconomy IMF Working Paper (No. 14-
+210). International Monetary Fund, 2014.
+Reproduced with permission of copyright owner. Further
+reproduction prohibited without permission.

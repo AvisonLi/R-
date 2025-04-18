@@ -1,0 +1,1206 @@
+<<<<<<< HEAD
+Development of a new rapid, relevant and reliable (R3) test method to
+evaluate the pozzolanic reactivity of calcined kaolinitic clays
+François Avet a,⁎, Ruben Snellings a,b, Adrian Alujas Diaz c, Mohsen Ben Haha d, Karen Scrivener a
+a Laboratory of Construction Materials, EPFL STI IMX LMC Station 12, CH-1015 Lausanne, Switzerland
+b Sustainable Materials Management, VITO, 2400 Mol, Belgium
+c Centro de Estudios de Quimica Aplicada, Universidad Central de Las Villas, 54830 Santa Clara, Cuba
+d Heidelberg Technology Center GmbH, Rohrbacher Str. 95, 69181 Leimen, Germany
+a r t i c l e i n f o a b s t r a c t
+Article history:
+Received 28 July 2015
+Accepted 25 February 2016
+Available online 9 April 2016
+The present paper introduces a new rapid, relevant and reliable (R3) test to predict the pozzolanic activity of
+calcined clays with kaolinite contents ranging from 0 to 95%. The test is based on the correlation between the
+chemical reactivity of calcined clays in a simplified system and the compressive strength of blends in standard
+mortar. The simplified system consists of calcined clay portlandite and limestone pastes with sulfate and alkali
+levels adjusted to reproduce the reaction environment of hydrating blended cements. The pastes were hydrated
+for 6 days at 20 °C or for 1 day at 40 °C. The chemical reactivity of the calcined clay can be obtained first by
+measurement of the heat release during reaction using isothermal calorimetry and second by bound water
+determination in a heating step between 110 °C and 400 °C.
+Very good correlations were found between the mortar compressive strength and both measures of chemical
+reactivity.
+© 2016 Elsevier Ltd. All rights reserved.
+Keywords:
+Kaolinitic calcined clays
+Hydration (A)
+Calorimetry (A)
+CaCO3 (D)
+Thermal treatment (A)
+1. Introduction
+Among Supplementary Cementitious Materials (SCMs), calcined
+clays are a promising route to increase average levels of clinker substitution.
+The global supplies of fly ash and slag are limited compared to the
+amount of clinker produced and a very high proportion of suitable slag
+and fly ash is already used in blended cements. Kaolinitic clays showthe
+highest pozzolanic reactivity [1,2]. Their thermal activation at around
+650–800 °C leads to the formation of a disordered highly reactive
+phase (AS2) called metakaolin [3].We already showed that a combination
+of calcined clay and limestone can replace up to 50% of clinker in
+blends which had similar mechanical properties to a plain clinker
+cement after only 7 days [4] and that good performance can also be
+obtained with impure clays [5,6]. The wide availability of impure
+kaolinitic clays makes them interesting candidates to further decrease
+the economic and environmental costs of cement production.
+During cement hydration, the metakaolin phase reacts with
+portlandite, water and/or sulfates to form C-A-S-H, ettringite, AFmmonosulfoaluminate
+and/or strätlingite [7].When clinker is substituted
+by a combination of calcined clay and limestone, the limestone can react
+with the additional aluminate provided by the metakaolin and
+portlandite to form AFm-carboaluminates (hemi and mono). Antoni
+et al. [4] showed that the combined formation of extra C-A-S-H,
+ettringite and carboaluminates in the pozzolanic reaction leads to a refinement
+of themicroporosity and an increase in compressive strength.
+Themain purpose of this paper is the development of a test method
+to evaluate widely available lower-grade kaolinitic clays which have a
+more realistic economic potential to be used in blended cements
+compared to pure metakaolin, which is considerably more expensive
+than clinker.
+To evaluate the pozzolanic reactivity of SCMs, a range of test
+methods has been proposed in literature, mostly based on portlandite
+consumption [8–11]. However, these tests often do not correlate well
+with compressive strength. Therefore, this paper introduces a novel
+rapid, relevant and reliable (R3) testing approach for assessing calcined
+clay reactivity. Twowayswere studied to assess reactivity. The first is by
+measuring the heat release of the exothermal hydration reactions by
+isothermal calorimetry. Alternatively, since such equipment is not
+available in all laboratories, a simple thermogravimetric method can
+be used to determine the bound water content in the range 110 °C to
+400 °C with an oven.
+The basis of the test is a paste of calcined clay (and limestone) with
+portlandite andwater,with sulfate and alkali levels adjusted to simulate
+the chemical environment of a hydrating blend.
+For a wide range of calcined kaolinitic clays, the R3 test results were
+compared to relative strengths based on standard compressive strength
+on mortar bars. Finally, the modified Chapelle test was run in order to
+compare the R3 test to a commonly used existing testing method.
+Cement and Concrete Research 85 (2016) 1–11
+⁎ Corresponding author. Tel.:+41 21 6932821.
+E-mail address: francois.avet@epfl.ch (F. Avet).
+http://dx.doi.org/10.1016/j.cemconres.2016.02.015
+0008-8846/© 2016 Elsevier Ltd. All rights reserved.
+Contents lists available at ScienceDirect
+Cement and Concrete Research
+journal homepage: www.elsevier .com/locate/cemconres
+2. Materials andmethods
+2.1. Material characterization
+Seven different clays of varying kaolinite (Al2Si2O5(OH)4) contents
+sourced from around the world were used in this study. Clays were
+first crushed and then ground using a disk mill (Siebtechnik TS250)
+for 1 min. Most of the clays were calcined in our laboratory,
+about 1 kg per batch, in alumina crucibles at 800 °C for 1 h in a hightemperature
+furnace (Borel FP1100). This calcination temperature was
+chosen to ensure complete dehydroxylation of kaolinite and to get the
+highest pozzolanic potential of calcined clay [1,5]. Some of the clays
+were calcined by external companies using flash or static calcination.
+The initial kaolinite content of each raw clay wt.%kaolinite was
+calculated according to Eq. (1) by Thermogravimetric Analysis (TGA)
+from the weight loss over the kaolinite dehydroxylation interval 400–
+600 °C [5,12], defined as wt.%kaol-OH, where Mkaolinite and Mwater stand
+for the molecular mass of kaolinite and water, respectively.
+wt:%kaolinite¼wt:%kaol‐OH Mkaolinite
+2Mwater
+ð1Þ
+A source of error of the kaolinite content determination by TGA can
+come from the presence ofmuscovite or illite as secondary phases in the
+claywhich also partially dehydroxylate over this temperature range [1].
+However, XRD analyses indicate that the amounts of these phases are
+minor, and besides, the dehydroxylation of these phases occurs on a
+wider temperature range [5].
+TGA experiments were also run on all calcined clays to assess the
+calcination efficiency. Some of the clays calcined by the material supplier
+were found not to be entirely dehydroxylated. Consequently the
+calcined kaolinite content was defined as the part of kaolinite which
+was dehydroxylated during the calcination process. This parameter
+was calculated by taking the difference between the kaolinite content
+before and after calcination, as shown in Eq. (2).
+%calcined kaolinite ¼ %kaoliniteraw clay‐%kaolinitecalcined clay ð2Þ
+The physico-chemical properties of the calcined clays are given in
+Table 1. The properties of the Portland cement used for the compressive
+strength tests and the limestone are also presented in Table 1. Malvern
+laser diffractometer was used to determine the dv,50. The limestone
+used was Durcal 5 from Omya Company. The Portland cement was a
+commercial clinker especially ground with anhydrite from Heidelberg
+Cement, classified as CEMI 42.5R. Table 2 shows the phase composition
+of the cement used.
+2.2. Mortar strength tests
+Standard mortars were cast in order to determine the strength development
+of the blends. Two substitution levels of Portland cement
+were studied. The PPC30 systemrefers to systemswith 30% of substitution
+by calcined clays, 65% of clinker and 5% of gypsum. The LC3-501
+system refers to cements with 45% of substitution of Portland cement
+by 30% of calcined clay and 15% of limestone, with a clinker content of
+50% and 5% of gypsum. The composition of the different systems is summarized
+in Table 3. Previous work demonstrated that a calcined clay to
+limestone ratio of 2:1 gave the best compressive strength development
+[6]. The addition of gypsum was chosen in order to prevent the system
+being undersulfated and to optimize early-age strengths. This gypsum
+adjustment was determined by isothermal calorimetry. Gypsum was
+added until the separation of silicate and aluminate peaks could be
+distinguished on heat flow curves. In general the optimal addition was
+found to be 2% gypsum in addition to that already added during grinding
+of the clinker. Thus, the 5% of gypsum present in PPC30 and LC3-50
+blends corresponds to the sum of the initial sulfate from cement and
+this addition of 2%. A 98% + grade gypsum from Acros company was
+used for all blends.
+Mortar barswere cast using a water to cement ratio of 0.5 according
+to EN-196-1 [13]. Polycarboxylate superplasticizer (max. 0.6wt.% of the
+total solid excluding sand) was used to ensure comparable workability
+with PC. The mortar bars were unmoulded after 1 day and cured in a
+fog room until tested. The compressive strength measurements were
+carried out on mortar cubes of 40 × 40 × 40 mm at 1, 3, 7, 28 and
+90 days after casting.
+Table 1
+XRF compositions and main characteristics of calcined clays, clinker and limestone.
+Calcined clay 1 2 3 4 5 6 7 Quartz Cement Limestone
+Origin of clay North America South Asia South America South-east Asia North America South America South Asia
+Calcination Flash Furnace Flash Furnace Furnace Furnace Furnace
+Calcined kaolinite content (%) 95 79.4 66.2 50.8 38.9 35.0 17.0 0 – –
+Dv,50 (μm) 5.1 5.3 4.0 10.9 8.5 23.5 5.9 11.2 8.4 7.2
+BET specific surface (m2/g) 9.6 15.3 12.9 45.7 23.1 18.5 18.7 1.2 0.9 1.8
+XRF compositions (%)
+SiO2 52.0 51.8 50.8 44.9 54.7 67.6 68.4 99.8 19.3 0.1
+Al2O3 43.8 42.4 42.7 32.3 26.8 22.6 17.5 – 5.7 –
+Fe2O3 0.3 1.9 0.6 15.4 13.6 6.1 8.9 – 3.6 –
+CaO – 0.1 – 1.3 0.3 0.5 0.6 – 63.6 55.0
+MgO – 0.1 – 0.8 1.0 – 0.7 – 1.6 0.2
+SO3 0.1 – – 0.1 – – – – 3.2 –
+Na2O 0.3 0.1 – 0.4 – – 0.1 – 0.2 0.1
+K2O 0.1 0.1 0.1 0.2 0.4 0.3 2.3 0.1 1.2 –
+TiO2 1.5 2.4 1.8 2.4 1.1 1.5 0.8 – 0.3 –
+P2O5 0.2 0.1 0.1 0.4 – – 0.1 – 0.2 –
+MnO – – – 0.1 – – 0.1 – 0.1 –
+Others 0.1 0.2 0.2 0.2 – – 0.2 – 0.3 –
+LOI 1.5 1.0 3.6 1.7 1.9 1.4 0.5 0.1 0.8 42.6
+1 LC3: Limestone Calcined Clay Cement: http://www.lc3.ch.
+Table 2
+Cement phase composition.
+Clinker Content (%) Clinker Content (%)
+C3S 65.1 Periclase 0.8
+C2S 5.3 Arcanite 1.7
+C3A 7.2 Anhydrite 5.9
+C4AF 13.9
+2 F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11
+2.3. Mix design of the R3 test
+The basis of the R3 test is to use a simplified system to isolate the
+reaction of the calcined clay from that of the clinker. The three main
+components of the simplified system are calcined clay, portlandite
+and, in the LC3-50 system, limestone. In the LC3-50 pastes an identical
+ratio of calcined clay to limestone of 2:1 was used. A water to solid
+ratio of 1.2 was used for all systems in order to provide excess water
+for the hydration reactions and to obtain a fluid homogeneous paste.
+The aim of the simulated systems was to reproduce the reaction
+environment of the calcined clay in a real blended cement as closely
+as possible, without actually incorporating hydrating clinker phases as
+this would introduce variability according to the clinker used. Therefore,
+soluble alkalis and sulfate were added 1) to reproduce the cement pore
+solution pH and accelerate the pozzolanic reaction and 2) to lead to the
+formation of similar reaction products as in real blended cements, such
+as C-A-S-H gel, ettringite and AFm phases.
+In a first step in the development of the R3 test mix design the effect
+of alkali and sulfate additions was evaluated. Four different addition
+levels were investigated for both alkalis and sulfate. Potassium hydroxide
+and potassiumsulfatewere added to deionizedwater to adjust these
+parameters, varying the pH of the mix solution from 13.3 to 13.7. To
+evaluate the effect of the portlandite to calcined clay ratio five different
+mass ratioswere selected. The mix design adjustment is summarized in
+Table 4. Pure potassium sulfate and potassiumhydroxidewere supplied
+by Reactolab and Fischer Scientific, respectively. Portlanditewas provided
+by Roth company, with a grade of 96% min.
+The variations in mix design were tested at 20 °C on two calcined
+clays of differing calcined clay content, i.e. clays 1 and 4. Only results
+of clay 1 are shown in the paper, the results of clay 4 showed identical
+trends and are available as supplemental material.
+Once the optimal mix design had been chosen, the pozzolanic
+reactivity test was applied to the whole set of calcined clays. Tests
+were carried out in systems without and with limestone for correlation
+to the relative strength results of the PPC30 and LC3-50 systems,
+respectively.
+3. Methods
+3.1. Heat flow measurements using isothermal calorimetry
+The cumulative heat of reaction was measured in an isothermal
+calorimeter (TAM Air) both over 7 days at 20 °C and 40 °C. The increase
+in temperature speeds up the pozzolanic reaction, but maintains the
+same hydrate assemblage [14–16]. All the paste ingredients, including
+the mixing solutions were stored overnight at the same temperature
+as the test. About 110 g of the paste was then mixed at 1600 rpm
+for 2 min and 15 g of the paste was poured into a glass ampoule, which
+was closed and placed inside the calorimeter. Accompanying samples
+from the same batch were cast for XRD and cured at 20 °C and 40 °C.
+X-Ray Diffraction (XRD) was used to characterize the crystalline
+phases formed and to follow the portlandite consumption. Measurements
+were carried out on freshly cut paste slices at 1, 4 and 7 days.
+The slices were mounted on a XRD sample holder and measured in
+Bragg–Brentano mode using a X'Pert PANalytical diffractometer with
+CuKα source operated at 45 kV and 40 mA. Samples were scanned
+from 7 to 70 °2θ with a step size of 0.0167 °2θ using a X'Celerator
+detector, resulting in an equivalent time per step of 30 s.
+3.2. Bound water determination using oven thermal treatment
+Since not all laboratories are equipped with an isothermal calorimeter,
+an alternative technique based on bound water determination is
+developed to assess the calcined clay reactivity. After mixing the paste
+samples are cast in plastic containers and sealed at 40 °C for 1 day to reproduce
+the same conditions as the tests carried out at 40 °C using isothermal
+calorimetry. Then, three 4 mm-thick slices were cut for each
+system using a diamond saw. The slices were dried at 110 °C in an
+oven from Salvis company. Samples were considered dry when the
+mass change within 1 day did not exceed 0.5%, according to ASTM
+C642, this condition was fulfilled after 2 days of drying. Finally, the
+Table 3
+System compositions.
+Clinker Calcined clay Limestone Gypsum
+PC 95 – – 5
+PPC30 65 30 – 5
+LC3-50 50 30 15 5
+Table 4
+Variations in mix design for sulfate, alkali and portlandite to calcined clay mass ratios.
+K2O/Calcined clay
+SO3/Calcined clay = 0.06
+0.06 0.08 0.10 0.12
+SO3/Calcined clay
+K2O/Calcined clay = 0.08
+0.02 0.04 0.06 0.08
+Portlandite/Calcined clay 0.33 0.5 1 2 3
+Fig. 1. Correlation of compressive strengths of PPC30 (left) and LC3-50 blends (right) with the calcined kaolinite content of calcined clays. Dotted lines indicate PC strengths.
+F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11 3
+bound water was determined according to Eq. (3) by calculating the
+mass change after heating the samples at 400 °C for 2 h and cooling
+it down to 110 °C. The thermal treatment was limited to 400 °C since
+higher temperatures would lead to portlandite dehydroxylation,
+which is not desired in this case.
+Bound water %¼m110 °C;stabilized–mcooled;110 °C
+m110 °C;stabilized
+ð3Þ
+3.3. Modified Chapelle test
+To compare the new test to existing method, the modified Chapelle
+test was run on the different calcined clays according to NF P18-513
+[17]. This test was chosen due to the fact that it is claimed to give a
+quick indication of pozzolanic reactivity, within a day. For this test, 1 g
+of calcined clay was mixed with 2 g of calcium oxide and 250 mL of
+deionized water. Blank samples were also prepared without calcined
+clay and run in parallel to the calcined clay samples. The mixwas heated
+at 90 °C for 16 h.Water loss was prevented by a reflux condenser. After
+cooling down to 20 °C, a solution of 60 g of sucrose in 250 mL of deionized
+water was added to complex the calcium ions in solution and to
+dissolve the unreacted portlandite. The suspensionwas filtered through
+a Büchner filter and the liquid was titrated with a 0.1 M solution of HCl
+using phenolphthalein as pH indicator. Fromthe volume of HCl solution
+added, the amount of mg of bound portlandite was determined according
+to Eq. (4),where V1 and V2 are the volume of HCl added for the titration
+of the blank sample and the samplewith calcined clay, respectively.
+mg CH=g calcined clay¼2  V1‐V2
+V1
+ 74
+56
+ 1000 ð4Þ
+4. Results
+4.1. Mortar compressive strength
+In Figs. 1 and 2, the compressive strengths of the PPC30 and LC3-50
+mortars and their strengths relative to the unblended reference cement
+are shown as a function of the calcined kaolinite content of the calcined
+clays. On the graph of the strength (Fig. 1) the plain PC strengths are indicated
+by dotted lines. Already, after 3 days the blend containing the
+calcined clay with the very high calcined kaolinite content (95%) is
+equivalent to the reference plain Portland cement. For the other ages
+(7 days and later), 100% of the reference strength is obtained for blends
+containing calcined clay with calcined kaolinite content of around 40%.
+Strength values for PC and PPC30 and LC3-50 blends containing 38.9%
+and 95% are shown in Table 5 for more precise comparison.
+Moreover, strengths of both PPC30 and LC3-50 systems are linearly
+correlated with the calcined kaolinite content of calcined clays. This
+Fig. 2. Correlation of relative strength (relative to PC reference) of PPC30 (left) and LC3-50 blends (right) with the calcined kaolinite content of calcined clays.
+Table 5
+Mortar compressive strength of PC and PPC30 and LC3-50 blends containing 38.9% and 95%
+of calcined kaolinite in the calcined clay.
+MPa 1 d 3 d 7 d 28 d 90 d
+PC 23.8 35.5 40.4 50.2 50.4
+PPC30 (38.9%) 15.4 27.6 38.9 54.5 54
+LC3-50 (38.9%) 10.1 23.6 38.5 49.4 51.4
+PPC30 (95%) 20.3 37.6 59.8 77.2 75.1
+LC3-50 (95%) 15 38.3 59.2 67.3 68.9
+Fig. 3. Influence of SO3 to calcined clay ratio on the heat released (left) and on the phase assemblage (right) for calcined clay 1. OnXRD patterns at 1 day of hydration, Ett=Ettringite,Hc=
+Hemicarboaluminate, Mc= Monocarboaluminate.
+4 F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11
+shows that for different clays from various areas with different compositions,
+secondary phases, fineness and specific surfaces, the strength
+results are almost exclusively dependent on one parameter only: the
+calcined kaolinite content. Furthermore, the LC3-50 systems have
+strengths close to those of the PPC30 systems in spite of their higher replacement
+ratio (lower clinker content). The LC3-50 blends benefit from
+the synergetic addition of calcined clay togetherwith limestone, leading
+to the formation of more hydrates from the SCMs.
+4.2. Optimization of parameters for R3 pozzolanic activity tests
+4.2.1. Sulfate to calcined clay ratio
+Fig. 3 shows the heat released per gram of solid by isothermal
+calorimetry for calcined clay 1 for the four sulfate to calcined clay
+mass ratios (cf. Table 4). For systems with higher sulfate content,
+i.e. 0.06 and 0.08 sulfate to calcined clay ratios, an early heat flow peak
+appears before 15 h of reaction. XRD patterns at 1 day of hydration
+indicate that ettringite was formed in these systems. In the low sulfate
+systems, no early heat flow peak was observed and XRD results did
+not show the formation of ettringite. In the systems with low sulfate
+content the sulfate is rapidly depleted by the calcined kaolinite pozzolanic
+reaction, consuming Al to formAFmphases (mainly Hc) rather than
+ettringite. The second peak in the calorimetry curves is related to C-A-SH
+and AFm formation. Fig. 4 shows the cumulative heat released at
+1 day, 2 days and 6 days for the different sulfate to calcined clay ratios
+for the calcined clays 1 (95% of calcined kaolinite) and 4 (50.8% of calcined
+kaolinite). The cumulative heat does not significantly change
+with the sulfate content. The highest heat release is reached for the
+system with 0.06 sulfate to calcined clay ratio.
+Thus, the final sulfate to calcined clay ratio for the pozzolanic reactivity
+test chosen was 0.06. This ratio was selected because 1) early
+ettringite formation is a general and desirable feature of cement hydration,
+and 2) the highest heat release is obtained for this ratio, indicating
+that higher sulfate levels slow down the pozzolanic reaction.
+Fig. 4. Cumulative heat release at 1 day, 2 days and 6 days as a function of SO3 to calcined
+clay ratio for calcined clays 1 (95%) and 4 (50.8%).
+Fig. 5. Influence of K2O to calcined clay ratio on the heat released (left) and on the phase assemblage (right) for calcined clay 1 (SO3/calcined clay ratio of 0.06). On XRD patterns at 1 day of
+hydration, Ett = Ettringite, Hc= Hemicarboaluminate, Mc = Monocarboaluminate.
+Fig. 6. Cumulative heat released for the five portlandite to calcined clay ratios for calcined clay 1 (left), the reaching of the plateaus being related to the complete CH consumption as
+observed by XRD at 4 days of hydration (right). Ett= Ettringite, CH= Portlandite.
+F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11 5
+4.2.2. Alkali to calcined clay ratio
+The heat released per gram of solid for the four different alkali to
+calcined clay mass ratios (cf. Table 4) is shown in Fig. 5 for the calcined
+clay 1. An early heat flow peak related to ettringite formation was observed
+only for the two lowest alkali to calcined clay ratios, i.e. 0.06
+and 0.08. This was confirmed by XRD. As expected the pozzolanic reaction
+of calcined kaolinite is enhanced inmore alkaline solutions as seen
+from the increasing height of the main calorimetry peak [7,18]. AFm
+phases form rather than ettringite for high alkaline solutions due to
+the decrease of the ion activity product for ettringite with increasing
+pH [19]. The alkali U-phase is not observed because this phase only occurs
+for pH higher than 14 [20].
+The final alkali to calcined clay ratio was chosen at 0.08 to enable
+both ettringite formation and high calcined clay reactivity.
+4.2.3. Portlandite to calcined clay ratio
+The effect of changing the portlandite to calcined clay ratio was investigated
+using the sulfate and alkali ratios previously determined
+(0.06 and 0.08, respectively). Calorimetry curves are shown in Fig. 6
+for calcined clay 1. The results show that the cumulative heat release
+reaches a plateau for systems having portlandite to calcined clay mass
+ratios of 1/1, 1/2 and 1/3. The plateau is reached sooner and at a lower
+cumulative heat release for mixes with lower portlandite contents.
+The XRD patterns at 4 days demonstrate the absence of portlandite in
+all mixes that reached the plateau.
+The extent of reaction of the calcined clay depends on the amount of
+portlandite available as reactant. As soon as portlandite is completely
+consumed, a plateau is reached and overall reaction rates are reduced.
+In order to assess the intrinsic reactivity of the calcined clays, it was
+decided to use a 3/1 ratio for the mix design. This way the portlandite
+reactant will always be in excess and the main factor controlling the
+reaction kinetics is the calcined clay. The resulting optimal mix design
+developed for the new pozzolanic reactivity test is presented in Table 6.
+4.3. Application of the R3 test to calcined clays: heat flow measurements
+4.3.1. Tests carried out at 20 °C
+The heat released per gram of solid during hydration of all the calcined
+clays studied is presented in Figs. 7 and 8 for systems without
+and with limestone, respectively. In both cases, the calcined clay 1
+with 95% of calcined kaolinite content reacts the most, whereas the
+quartz system is the least reactive. These results are in agreement
+with the compressive strength results. For systems without limestone,
+XRD patterns clearly show the formation of monosulfoaluminate
+phase for all systems at 7 days, due to the absence of calcite. An AFm
+solid solution sulfate, carbonate and hydroxide together (discussed by
+Pöllmann [21]) also forms as seen by the peak at 10.5 °2θ (CuKα).
+Ettringite forms at earlier ages, but with the continuing dissolution of
+the calcined clay, the aluminate to sulfate ratio increases, leading to
+the consumption of ettringite and the formation ofmonosulfoaluminate
+phase. For systemswith limestone, carboaluminates form and ettringite
+remains present in the systems, as shown in Fig. 8.Moreover, the height
+of the peaks of the carboaluminates increase with the calcined kaolinite
+content of calcined clays.
+To compare with the relative strength results from 1 to 90 days, cumulative
+heat values were taken at 6 days of reaction because the reaction
+significantly slows down at this age. Fig. 9 shows that good linear
+correlations are obtained at all ages between the heat released and the
+strengths for both PPC30 and LC3-50 systems.
+4.3.2. Impact of temperature
+Figs. 10 and 11 showthat increasing the temperature for the isothermal
+calorimetry from20 to 40 °C accelerates the pozzolanic reaction. No
+major change in phase assemblage is observed at 1 day, except for the
+ettringite peaks which are lower or absent for systems with limestone.
+This is likely due to the acceleration of the pozzolanic reaction of
+metakaolin and the increase of ettringite solubility with temperature
+[19]. The heat released after only 1 day at 40 °C is globally similar to
+the heat released at 6 days at 20 °C and the heat evolution also slows
+down at this time. Thus, the correlations to relative strengths are
+based on the 1 day heat values. Fig. 12 shows that similar correlation coefficients
+are obtained at the higher temperature.
+4.3.3. Repeatability
+To control the repeatability of the R3 test, three independent tests
+were carried out on clay 4, with and without limestone, as shown in
+Fig. 13. The standard deviations were calculated based on the heat
+values at 6 days and 1 day for tests run at 20 °C and 40 °C, respectively.
+Table 6
+Final mix design of pozzolanic test.
+System Calcined clay (g) Portlandite (g) Calcium carbonate (g) K2SO4 (g) KOH (g) H2O (g)
+Simulating PPC30 system 12.50 37.50 0 1.47 0.32 60
+Simulating LC3-50 system 11.11 33.33 5.56 1.31 0.28 60
+Fig. 7. Heat released for calcined clay-portlandite blends without limestone at 20 °C. On XRD patterns at 7 days, Ms=Monosulfoaluminate, Hc=Hemicarboaluminate, CH=Portlandite,
+AFmss= solid solution containing sulfate, carbonate and hydroxyl.
+6 F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11
+Their values are shown in Table 7. The standard deviations are very
+small.
+4.4. Bound water determination
+Fig. 14 shows that linear correlations are obtained between relative
+strength and boundwater for systemswithout andwith limestone, similar
+to the correlations with the heat released at 1 day. Therefore, the
+bound water indicator is also a relevant method to predict the strength
+development of blends. Moreover, the correlation with the heat release
+values at 1 day for systemswithout andwith limestone in Fig. 15 clearly
+shows the reliability of the R3 test using the boundwater determination.
+4.5. Comparison with the modified Chapelle test
+Fig. 16 shows the portlandite consumption for the calcined clays
+ranked in order of their calcined kaolinite content. The consumption
+of portlandite globally increases with the calcined kaolinite content.
+Fig. 8. Heat released for calcined clay-portlandite-limestone blends at 20 °C. On XRD patterns at 7 days of hydration, Ett = Ettringite, Hc = Hemicarboaluminate, Mc =
+Monocarboaluminate, CH= Portlandite.
+Fig. 9. Correlation between relativemortar strength (20 °C) and cumulative heat released at 6 days of hydration for isothermal calorimetry run at 20 °C for systemswithout (left) andwith
+limestone (right).
+Fig. 10. Heat released for calcined clay-portlandite blendswithout limestone at 40 °C. XRD patterns at 1 day of hydration at 40 °C.Ms=Monosulfoaluminate Hc=Hemicarboaluminate,
+CH= Portlandite, AFmss= solid solution containing sulfate, carbonate and hydroxyl.
+F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11 7
+Also the quartz systemshows someportlandite consumption, this is due
+to the elevated temperature of the test. This pozzolanic reactivity of
+quartz has already been observed for blends at 80 °C [22]. The prediction
+of strengths based on themodified Chapelle test is also good, somewhat
+more scatter is observed for higher calcined kaolinite contents, as
+shown in Fig. 17. Finally, the comparison with the heat released at
+1 day and the bound water from the R3 test in Fig. 18 shows that the
+portlandite consumption is well correlated with the outputs of the R3
+test. Thus, the new R3 test provides at least similarly reliable indications
+of the reactivity of calcined kaolinitic clays than the modified Chapelle
+test. In comparison to the modified Chapelle test which is performed
+at 90 °C and without addition of alkali or sulfate the proposed R3 tests
+are closer to the reaction environment in Portland cement system.
+5. Conclusion
+This study shows that similar compressive strengths to plain PC are
+obtained for calcined clays with a calcined kaolinite content ≥40% from
+Fig. 11. Heat released for calcined clay-portlandite-limestone blends at 40 °C. XRD patterns at 1 day of hydration at 40 °C. Hc=Hemicarboaluminate,Mc=Monocarboaluminate, CH=
+Portlandite.
+Fig. 12. Correlation between relativemortar strength (20 °C) and cumulative heat released at 1 day of hydration for isothermal calorimetry run at 40 °C for systemswithout (left) and with
+limestone (right).
+Fig. 13. Reproducibility tests on blends containing calcined clay 4 at 20 °C and 40 °C without (left) and with limestone (right). Heat values at 6 days and 1 day (dotted lines) are used to
+calculate the standard deviations.
+8 F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11
+7 days onwards, demonstrating the feasibility of using low-grade kaolinitic
+calcined clays as cement substituent, even for LC3-50 blends containing
+only 50% of clinker. The strengths of PPC30 and LC3-50 blends
+linearly increase with the calcined kaolinite content of calcined clays
+at all the ages from 1 to 90 days. The calcined kaolinite content parameter
+is the overwhelming factor determining strength development accounting
+formore than 95% of the variation from7 days onwards. Other
+factors, such as the secondary phases present, fineness,method of calcination
+do not account for more than 5% of the variability.
+For the development of the newR3 test, the mix designwas adjusted
+in order to reproduce typical conditions for cement systems. The
+optimal mix design was 0.06 SO3/Calcined clay and 0.08 K2O/Calcined
+clay mass ratios in order to ensure high pozzolanic reactivity.
+Portlandite to calcined clay mass ratio was fixed to 3 so as not to run
+out of portlandite.
+The R3 test using isothermal calorimetry gives a rapid indication of
+calcined clay reactivity, after 6 days for tests carried out at 20 °C and
+1 day at 40 °C. Linear correlations with compressive strengths are
+obtained for all ages, proving the relevance of this test. Increasing the
+testing temperature to 40 °C does not affect the correlations and it is
+therefore considered to be a valid way of reducing the test duration
+from6 days to 1 day. Small variability ensures good reliability for this test.
+The R3 test using boundwater determination after heating to 400 °C
+shows very closely-related results to the heat released at 1 day. Bound
+water values are linearly correlated to strength results. The bound
+water determination method does not require any specific equipment
+Table 7
+Standard deviation values for blends containing calcined clay 4.
+Standard deviation (J/g)
+20 °C without limestone 1.34
+20 °C with limestone 2.80
+40 °C without limestone 1.86
+40 °C with limestone 1.79
+Fig. 14. Correlation of relative mortar strength (20 °C) with bound water after 1 day of hydration at 40 °C for systems without (left) and with limestone (right).
+Fig. 15. Correlation of bound water and cumulative heat released after 1 day of hydration at 40 °C for systems without (left) and with limestone (right).
+Fig. 16. Portlandite consumption from Chapelle test for the different calcined clays.
+F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11 9
+except an oven able to reach 400 °C. Despite its slightly longer experiment
+time (2.5–3 days instead of 1 day for the calorimetry experiment),
+this method can be applied in nearly all laboratories with basic
+equipment.
+Similar correlations to the existing modified Chapelle test are
+obtained for the R3 test, bringing the R3 test as an alternative testing
+method which is more practical and closer to reaction conditions in
+real Portland cement systems.
+Thus, the R3 test outputs are found to be well correlated with the
+compressive strength, supporting the use of the new test as a predictive
+tool for compressive strength at both the short and the long term. A parallel
+testing programhas shown the potential of this rapid test for other
+kinds of SCMs such as slag, natural pozzolans or fly ashes [23].
+Acknowledgments
+F. Avet and R. Snellings acknowledge financial support by the Swiss
+Agency for Development and Cooperation (SDC) grant 81026665 and
+the European Community under FP7-Marie Curie IEF grant 298337
+respectively.
+References
+[1] R. Fernandez, F.Martirena, K.L. Scrivener, The origin of the pozzolanic activity of calcined
+clay minerals: a comparison between kaolinite, illite and montmorillonite,
+Cem. Concr. Res. 41 (2011) 113–122.
+[2] C. He, B. Osbaeck, E. Makovicky, Pozzolanic reactions of six principal clay minerals:
+activation, reactivity assessments and technological effects, Cem. Concr. Res. 25
+(1995) 1691–1702.
+[3] C.Y. Chen, G.S. Lan, W.H. Tuan, Microstructural evolution of mullite during the
+sintering of kaolin powder compacts, Ceram. Int. 26 (2000) 715–720.
+[4] M. Antoni, J. Rossen, F. Martirena, K. Scrivener, Cement substitution by a combination
+of metakaolin and limestone, Cem. Concr. Res. 42 (2012) 1579–1589.
+[5] A. Alujas, R. Fernández, R. Quintana, K.L. Scrivener, F. Martirena, Pozzolanic reactivity
+of low grade kaolinitic clays: influence of calcination temperature and impact of
+calcination products on OPC hydration, Appl. Clay Sci. 108 (2015) 94–101.
+[6] M. Antoni, Investigation of Cement Substitution by Blends of Calcined Clays and
+Limestone, Ecole Polytechnique Fédérale de Lausanne, Thesis 6001, 2013.
+[7] P.S.d. Silva, F.P. Glasser, Hydration of cements based on metakaolin: thermochemistry,
+Adv. Cem. Res. (1990) 167–177.
+[8] N. Frattini, Ricerche sulla calce di idrolisi nelle paste di cemento, Ann. Chim. 39
+(1949) 616–620.
+[9] A.Tironi,M.A. Trezza, A.N. Scian, E.F. Irassar,Assessmentofpozzolanicactivityof different
+calcined clays, Cem. Concr. Compos. 37 (2013) 319–327.
+[10] S. Donatello, M. Tyrer, C.R. Cheeseman, Comparison of test methods to assess
+pozzolanic activity, Cem. Concr. Compos. 32 (2010) 121–127.
+[11] K.M. Hanna, A. Afify, Evaluation of the activity of pozzolanicmaterials, J. Appl. Chem.
+Biotech. 24 (1974) 751–757.
+[12] A. Shvarzman, K. Kovler, G.S. Grader, G.E. Shter, The effect of dehydroxylation/
+amorphization degree on pozzolanic activity of kaolinite, Cem. Concr. Res. 33 (2003)
+405–416.
+[13] EN196–1, Methods of Testing Cement — Part 1: Determination of Strength,
+European Committee for Standardization, 2006.
+[14] B. Lothenbach, F. Winnefeld, C. Alder, E. Wieland, P. Lunk, Effect of temperature on
+the pore solution, microstructure and hydration products of Portland cement pastes,
+Cem. Concr. Res. 37 (2007) 483–491.
+[15] B. Lothenbach, T. Matschei, G. Möschner, F.P. Glasser, Thermodynamic modelling of
+the effect of temperature on the hydration and porosity of Portland cement, Cem.
+Concr. Res. 38 (2008) 1–18.
+[16] E. Gallucci, X. Zhang, K.L. Scrivener, Effect of temperature on the microstructure of
+calcium silicate hydrate (C-S-H), Cem. Concr. Res. 53 (2013) 185–195.
+[17] N. P18-513, Additions pour béton hydraulique - Métakaolin - Spécifications et
+critères de conformité, Association Française de Normalisation, 2012.
+[18] R. Snellings, A. Salze, K.L. Scrivener, Use of X-ray diffraction to quantify amorphous
+supplementary cementitious materials in anhydrous and hydrated blended cements,
+Cem. Concr. Res. 64 (2014) 89–98.
+Fig. 17. Correlation of relative mortar strength (20 °C) with the portlandite consumption in the modified Chapelle test for systems without (left) and with limestone (right).
+Fig. 18. Correlation of portlandite consumption in the modified Chapelle test and cumulative heat released at 1 day at 40 °C for systems without (left) and with limestone (right).
+10 F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11
+[19] R.B. Perkins, C.D. Palmer, Solubility of ettringite (Ca6[Al(OH)6]2(SO4)3·26H2O) at
+5–75 °C, Geochim. Cosmochim. Acta 63 (1999) 1969–1980.
+[20] G. Li, P. Le Bescop, M. Moranville, The U phase formation in cement-based systems
+containing high amounts of Na2SO4, Cem. Concr. Res. 26 (1996) 27–33.
+[21] H. Pöllmann, Syntheses, properties and solid solution of ternary lamellar calcium
+aluminate hydroxi salts (AFm-phases) containing SO4 2-, CO3 2-, and OH-, Neues
+Jahrbuch für Mineralogie - Abhandlungen, J. Min. Geol. 182 (2006) 173–181.
+[22] F. Deschner, B. Lothenbach, F. Winnefeld, J. Neubauer, Effect of temperature on the
+hydration of Portland cement blended with siliceous fly ash, Cem. Concr. Res. 52
+(2013) 169–181.
+[23] R. Snellings, K. Scrivener, Rapid screening tests for supplementary cementitious
+materials: past and future, Mater. Struct. (2015) (Submitted).
+=======
+Development of a new rapid, relevant and reliable (R3) test method to
+evaluate the pozzolanic reactivity of calcined kaolinitic clays
+François Avet a,⁎, Ruben Snellings a,b, Adrian Alujas Diaz c, Mohsen Ben Haha d, Karen Scrivener a
+a Laboratory of Construction Materials, EPFL STI IMX LMC Station 12, CH-1015 Lausanne, Switzerland
+b Sustainable Materials Management, VITO, 2400 Mol, Belgium
+c Centro de Estudios de Quimica Aplicada, Universidad Central de Las Villas, 54830 Santa Clara, Cuba
+d Heidelberg Technology Center GmbH, Rohrbacher Str. 95, 69181 Leimen, Germany
+a r t i c l e i n f o a b s t r a c t
+Article history:
+Received 28 July 2015
+Accepted 25 February 2016
+Available online 9 April 2016
+The present paper introduces a new rapid, relevant and reliable (R3) test to predict the pozzolanic activity of
+calcined clays with kaolinite contents ranging from 0 to 95%. The test is based on the correlation between the
+chemical reactivity of calcined clays in a simplified system and the compressive strength of blends in standard
+mortar. The simplified system consists of calcined clay portlandite and limestone pastes with sulfate and alkali
+levels adjusted to reproduce the reaction environment of hydrating blended cements. The pastes were hydrated
+for 6 days at 20 °C or for 1 day at 40 °C. The chemical reactivity of the calcined clay can be obtained first by
+measurement of the heat release during reaction using isothermal calorimetry and second by bound water
+determination in a heating step between 110 °C and 400 °C.
+Very good correlations were found between the mortar compressive strength and both measures of chemical
+reactivity.
+© 2016 Elsevier Ltd. All rights reserved.
+Keywords:
+Kaolinitic calcined clays
+Hydration (A)
+Calorimetry (A)
+CaCO3 (D)
+Thermal treatment (A)
+1. Introduction
+Among Supplementary Cementitious Materials (SCMs), calcined
+clays are a promising route to increase average levels of clinker substitution.
+The global supplies of fly ash and slag are limited compared to the
+amount of clinker produced and a very high proportion of suitable slag
+and fly ash is already used in blended cements. Kaolinitic clays showthe
+highest pozzolanic reactivity [1,2]. Their thermal activation at around
+650–800 °C leads to the formation of a disordered highly reactive
+phase (AS2) called metakaolin [3].We already showed that a combination
+of calcined clay and limestone can replace up to 50% of clinker in
+blends which had similar mechanical properties to a plain clinker
+cement after only 7 days [4] and that good performance can also be
+obtained with impure clays [5,6]. The wide availability of impure
+kaolinitic clays makes them interesting candidates to further decrease
+the economic and environmental costs of cement production.
+During cement hydration, the metakaolin phase reacts with
+portlandite, water and/or sulfates to form C-A-S-H, ettringite, AFmmonosulfoaluminate
+and/or strätlingite [7].When clinker is substituted
+by a combination of calcined clay and limestone, the limestone can react
+with the additional aluminate provided by the metakaolin and
+portlandite to form AFm-carboaluminates (hemi and mono). Antoni
+et al. [4] showed that the combined formation of extra C-A-S-H,
+ettringite and carboaluminates in the pozzolanic reaction leads to a refinement
+of themicroporosity and an increase in compressive strength.
+Themain purpose of this paper is the development of a test method
+to evaluate widely available lower-grade kaolinitic clays which have a
+more realistic economic potential to be used in blended cements
+compared to pure metakaolin, which is considerably more expensive
+than clinker.
+To evaluate the pozzolanic reactivity of SCMs, a range of test
+methods has been proposed in literature, mostly based on portlandite
+consumption [8–11]. However, these tests often do not correlate well
+with compressive strength. Therefore, this paper introduces a novel
+rapid, relevant and reliable (R3) testing approach for assessing calcined
+clay reactivity. Twowayswere studied to assess reactivity. The first is by
+measuring the heat release of the exothermal hydration reactions by
+isothermal calorimetry. Alternatively, since such equipment is not
+available in all laboratories, a simple thermogravimetric method can
+be used to determine the bound water content in the range 110 °C to
+400 °C with an oven.
+The basis of the test is a paste of calcined clay (and limestone) with
+portlandite andwater,with sulfate and alkali levels adjusted to simulate
+the chemical environment of a hydrating blend.
+For a wide range of calcined kaolinitic clays, the R3 test results were
+compared to relative strengths based on standard compressive strength
+on mortar bars. Finally, the modified Chapelle test was run in order to
+compare the R3 test to a commonly used existing testing method.
+Cement and Concrete Research 85 (2016) 1–11
+⁎ Corresponding author. Tel.:+41 21 6932821.
+E-mail address: francois.avet@epfl.ch (F. Avet).
+http://dx.doi.org/10.1016/j.cemconres.2016.02.015
+0008-8846/© 2016 Elsevier Ltd. All rights reserved.
+Contents lists available at ScienceDirect
+Cement and Concrete Research
+journal homepage: www.elsevier .com/locate/cemconres
+2. Materials andmethods
+2.1. Material characterization
+Seven different clays of varying kaolinite (Al2Si2O5(OH)4) contents
+sourced from around the world were used in this study. Clays were
+first crushed and then ground using a disk mill (Siebtechnik TS250)
+for 1 min. Most of the clays were calcined in our laboratory,
+about 1 kg per batch, in alumina crucibles at 800 °C for 1 h in a hightemperature
+furnace (Borel FP1100). This calcination temperature was
+chosen to ensure complete dehydroxylation of kaolinite and to get the
+highest pozzolanic potential of calcined clay [1,5]. Some of the clays
+were calcined by external companies using flash or static calcination.
+The initial kaolinite content of each raw clay wt.%kaolinite was
+calculated according to Eq. (1) by Thermogravimetric Analysis (TGA)
+from the weight loss over the kaolinite dehydroxylation interval 400–
+600 °C [5,12], defined as wt.%kaol-OH, where Mkaolinite and Mwater stand
+for the molecular mass of kaolinite and water, respectively.
+wt:%kaolinite¼wt:%kaol‐OH Mkaolinite
+2Mwater
+ð1Þ
+A source of error of the kaolinite content determination by TGA can
+come from the presence ofmuscovite or illite as secondary phases in the
+claywhich also partially dehydroxylate over this temperature range [1].
+However, XRD analyses indicate that the amounts of these phases are
+minor, and besides, the dehydroxylation of these phases occurs on a
+wider temperature range [5].
+TGA experiments were also run on all calcined clays to assess the
+calcination efficiency. Some of the clays calcined by the material supplier
+were found not to be entirely dehydroxylated. Consequently the
+calcined kaolinite content was defined as the part of kaolinite which
+was dehydroxylated during the calcination process. This parameter
+was calculated by taking the difference between the kaolinite content
+before and after calcination, as shown in Eq. (2).
+%calcined kaolinite ¼ %kaoliniteraw clay‐%kaolinitecalcined clay ð2Þ
+The physico-chemical properties of the calcined clays are given in
+Table 1. The properties of the Portland cement used for the compressive
+strength tests and the limestone are also presented in Table 1. Malvern
+laser diffractometer was used to determine the dv,50. The limestone
+used was Durcal 5 from Omya Company. The Portland cement was a
+commercial clinker especially ground with anhydrite from Heidelberg
+Cement, classified as CEMI 42.5R. Table 2 shows the phase composition
+of the cement used.
+2.2. Mortar strength tests
+Standard mortars were cast in order to determine the strength development
+of the blends. Two substitution levels of Portland cement
+were studied. The PPC30 systemrefers to systemswith 30% of substitution
+by calcined clays, 65% of clinker and 5% of gypsum. The LC3-501
+system refers to cements with 45% of substitution of Portland cement
+by 30% of calcined clay and 15% of limestone, with a clinker content of
+50% and 5% of gypsum. The composition of the different systems is summarized
+in Table 3. Previous work demonstrated that a calcined clay to
+limestone ratio of 2:1 gave the best compressive strength development
+[6]. The addition of gypsum was chosen in order to prevent the system
+being undersulfated and to optimize early-age strengths. This gypsum
+adjustment was determined by isothermal calorimetry. Gypsum was
+added until the separation of silicate and aluminate peaks could be
+distinguished on heat flow curves. In general the optimal addition was
+found to be 2% gypsum in addition to that already added during grinding
+of the clinker. Thus, the 5% of gypsum present in PPC30 and LC3-50
+blends corresponds to the sum of the initial sulfate from cement and
+this addition of 2%. A 98% + grade gypsum from Acros company was
+used for all blends.
+Mortar barswere cast using a water to cement ratio of 0.5 according
+to EN-196-1 [13]. Polycarboxylate superplasticizer (max. 0.6wt.% of the
+total solid excluding sand) was used to ensure comparable workability
+with PC. The mortar bars were unmoulded after 1 day and cured in a
+fog room until tested. The compressive strength measurements were
+carried out on mortar cubes of 40 × 40 × 40 mm at 1, 3, 7, 28 and
+90 days after casting.
+Table 1
+XRF compositions and main characteristics of calcined clays, clinker and limestone.
+Calcined clay 1 2 3 4 5 6 7 Quartz Cement Limestone
+Origin of clay North America South Asia South America South-east Asia North America South America South Asia
+Calcination Flash Furnace Flash Furnace Furnace Furnace Furnace
+Calcined kaolinite content (%) 95 79.4 66.2 50.8 38.9 35.0 17.0 0 – –
+Dv,50 (μm) 5.1 5.3 4.0 10.9 8.5 23.5 5.9 11.2 8.4 7.2
+BET specific surface (m2/g) 9.6 15.3 12.9 45.7 23.1 18.5 18.7 1.2 0.9 1.8
+XRF compositions (%)
+SiO2 52.0 51.8 50.8 44.9 54.7 67.6 68.4 99.8 19.3 0.1
+Al2O3 43.8 42.4 42.7 32.3 26.8 22.6 17.5 – 5.7 –
+Fe2O3 0.3 1.9 0.6 15.4 13.6 6.1 8.9 – 3.6 –
+CaO – 0.1 – 1.3 0.3 0.5 0.6 – 63.6 55.0
+MgO – 0.1 – 0.8 1.0 – 0.7 – 1.6 0.2
+SO3 0.1 – – 0.1 – – – – 3.2 –
+Na2O 0.3 0.1 – 0.4 – – 0.1 – 0.2 0.1
+K2O 0.1 0.1 0.1 0.2 0.4 0.3 2.3 0.1 1.2 –
+TiO2 1.5 2.4 1.8 2.4 1.1 1.5 0.8 – 0.3 –
+P2O5 0.2 0.1 0.1 0.4 – – 0.1 – 0.2 –
+MnO – – – 0.1 – – 0.1 – 0.1 –
+Others 0.1 0.2 0.2 0.2 – – 0.2 – 0.3 –
+LOI 1.5 1.0 3.6 1.7 1.9 1.4 0.5 0.1 0.8 42.6
+1 LC3: Limestone Calcined Clay Cement: http://www.lc3.ch.
+Table 2
+Cement phase composition.
+Clinker Content (%) Clinker Content (%)
+C3S 65.1 Periclase 0.8
+C2S 5.3 Arcanite 1.7
+C3A 7.2 Anhydrite 5.9
+C4AF 13.9
+2 F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11
+2.3. Mix design of the R3 test
+The basis of the R3 test is to use a simplified system to isolate the
+reaction of the calcined clay from that of the clinker. The three main
+components of the simplified system are calcined clay, portlandite
+and, in the LC3-50 system, limestone. In the LC3-50 pastes an identical
+ratio of calcined clay to limestone of 2:1 was used. A water to solid
+ratio of 1.2 was used for all systems in order to provide excess water
+for the hydration reactions and to obtain a fluid homogeneous paste.
+The aim of the simulated systems was to reproduce the reaction
+environment of the calcined clay in a real blended cement as closely
+as possible, without actually incorporating hydrating clinker phases as
+this would introduce variability according to the clinker used. Therefore,
+soluble alkalis and sulfate were added 1) to reproduce the cement pore
+solution pH and accelerate the pozzolanic reaction and 2) to lead to the
+formation of similar reaction products as in real blended cements, such
+as C-A-S-H gel, ettringite and AFm phases.
+In a first step in the development of the R3 test mix design the effect
+of alkali and sulfate additions was evaluated. Four different addition
+levels were investigated for both alkalis and sulfate. Potassium hydroxide
+and potassiumsulfatewere added to deionizedwater to adjust these
+parameters, varying the pH of the mix solution from 13.3 to 13.7. To
+evaluate the effect of the portlandite to calcined clay ratio five different
+mass ratioswere selected. The mix design adjustment is summarized in
+Table 4. Pure potassium sulfate and potassiumhydroxidewere supplied
+by Reactolab and Fischer Scientific, respectively. Portlanditewas provided
+by Roth company, with a grade of 96% min.
+The variations in mix design were tested at 20 °C on two calcined
+clays of differing calcined clay content, i.e. clays 1 and 4. Only results
+of clay 1 are shown in the paper, the results of clay 4 showed identical
+trends and are available as supplemental material.
+Once the optimal mix design had been chosen, the pozzolanic
+reactivity test was applied to the whole set of calcined clays. Tests
+were carried out in systems without and with limestone for correlation
+to the relative strength results of the PPC30 and LC3-50 systems,
+respectively.
+3. Methods
+3.1. Heat flow measurements using isothermal calorimetry
+The cumulative heat of reaction was measured in an isothermal
+calorimeter (TAM Air) both over 7 days at 20 °C and 40 °C. The increase
+in temperature speeds up the pozzolanic reaction, but maintains the
+same hydrate assemblage [14–16]. All the paste ingredients, including
+the mixing solutions were stored overnight at the same temperature
+as the test. About 110 g of the paste was then mixed at 1600 rpm
+for 2 min and 15 g of the paste was poured into a glass ampoule, which
+was closed and placed inside the calorimeter. Accompanying samples
+from the same batch were cast for XRD and cured at 20 °C and 40 °C.
+X-Ray Diffraction (XRD) was used to characterize the crystalline
+phases formed and to follow the portlandite consumption. Measurements
+were carried out on freshly cut paste slices at 1, 4 and 7 days.
+The slices were mounted on a XRD sample holder and measured in
+Bragg–Brentano mode using a X'Pert PANalytical diffractometer with
+CuKα source operated at 45 kV and 40 mA. Samples were scanned
+from 7 to 70 °2θ with a step size of 0.0167 °2θ using a X'Celerator
+detector, resulting in an equivalent time per step of 30 s.
+3.2. Bound water determination using oven thermal treatment
+Since not all laboratories are equipped with an isothermal calorimeter,
+an alternative technique based on bound water determination is
+developed to assess the calcined clay reactivity. After mixing the paste
+samples are cast in plastic containers and sealed at 40 °C for 1 day to reproduce
+the same conditions as the tests carried out at 40 °C using isothermal
+calorimetry. Then, three 4 mm-thick slices were cut for each
+system using a diamond saw. The slices were dried at 110 °C in an
+oven from Salvis company. Samples were considered dry when the
+mass change within 1 day did not exceed 0.5%, according to ASTM
+C642, this condition was fulfilled after 2 days of drying. Finally, the
+Table 3
+System compositions.
+Clinker Calcined clay Limestone Gypsum
+PC 95 – – 5
+PPC30 65 30 – 5
+LC3-50 50 30 15 5
+Table 4
+Variations in mix design for sulfate, alkali and portlandite to calcined clay mass ratios.
+K2O/Calcined clay
+SO3/Calcined clay = 0.06
+0.06 0.08 0.10 0.12
+SO3/Calcined clay
+K2O/Calcined clay = 0.08
+0.02 0.04 0.06 0.08
+Portlandite/Calcined clay 0.33 0.5 1 2 3
+Fig. 1. Correlation of compressive strengths of PPC30 (left) and LC3-50 blends (right) with the calcined kaolinite content of calcined clays. Dotted lines indicate PC strengths.
+F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11 3
+bound water was determined according to Eq. (3) by calculating the
+mass change after heating the samples at 400 °C for 2 h and cooling
+it down to 110 °C. The thermal treatment was limited to 400 °C since
+higher temperatures would lead to portlandite dehydroxylation,
+which is not desired in this case.
+Bound water %¼m110 °C;stabilized–mcooled;110 °C
+m110 °C;stabilized
+ð3Þ
+3.3. Modified Chapelle test
+To compare the new test to existing method, the modified Chapelle
+test was run on the different calcined clays according to NF P18-513
+[17]. This test was chosen due to the fact that it is claimed to give a
+quick indication of pozzolanic reactivity, within a day. For this test, 1 g
+of calcined clay was mixed with 2 g of calcium oxide and 250 mL of
+deionized water. Blank samples were also prepared without calcined
+clay and run in parallel to the calcined clay samples. The mixwas heated
+at 90 °C for 16 h.Water loss was prevented by a reflux condenser. After
+cooling down to 20 °C, a solution of 60 g of sucrose in 250 mL of deionized
+water was added to complex the calcium ions in solution and to
+dissolve the unreacted portlandite. The suspensionwas filtered through
+a Büchner filter and the liquid was titrated with a 0.1 M solution of HCl
+using phenolphthalein as pH indicator. Fromthe volume of HCl solution
+added, the amount of mg of bound portlandite was determined according
+to Eq. (4),where V1 and V2 are the volume of HCl added for the titration
+of the blank sample and the samplewith calcined clay, respectively.
+mg CH=g calcined clay¼2  V1‐V2
+V1
+ 74
+56
+ 1000 ð4Þ
+4. Results
+4.1. Mortar compressive strength
+In Figs. 1 and 2, the compressive strengths of the PPC30 and LC3-50
+mortars and their strengths relative to the unblended reference cement
+are shown as a function of the calcined kaolinite content of the calcined
+clays. On the graph of the strength (Fig. 1) the plain PC strengths are indicated
+by dotted lines. Already, after 3 days the blend containing the
+calcined clay with the very high calcined kaolinite content (95%) is
+equivalent to the reference plain Portland cement. For the other ages
+(7 days and later), 100% of the reference strength is obtained for blends
+containing calcined clay with calcined kaolinite content of around 40%.
+Strength values for PC and PPC30 and LC3-50 blends containing 38.9%
+and 95% are shown in Table 5 for more precise comparison.
+Moreover, strengths of both PPC30 and LC3-50 systems are linearly
+correlated with the calcined kaolinite content of calcined clays. This
+Fig. 2. Correlation of relative strength (relative to PC reference) of PPC30 (left) and LC3-50 blends (right) with the calcined kaolinite content of calcined clays.
+Table 5
+Mortar compressive strength of PC and PPC30 and LC3-50 blends containing 38.9% and 95%
+of calcined kaolinite in the calcined clay.
+MPa 1 d 3 d 7 d 28 d 90 d
+PC 23.8 35.5 40.4 50.2 50.4
+PPC30 (38.9%) 15.4 27.6 38.9 54.5 54
+LC3-50 (38.9%) 10.1 23.6 38.5 49.4 51.4
+PPC30 (95%) 20.3 37.6 59.8 77.2 75.1
+LC3-50 (95%) 15 38.3 59.2 67.3 68.9
+Fig. 3. Influence of SO3 to calcined clay ratio on the heat released (left) and on the phase assemblage (right) for calcined clay 1. OnXRD patterns at 1 day of hydration, Ett=Ettringite,Hc=
+Hemicarboaluminate, Mc= Monocarboaluminate.
+4 F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11
+shows that for different clays from various areas with different compositions,
+secondary phases, fineness and specific surfaces, the strength
+results are almost exclusively dependent on one parameter only: the
+calcined kaolinite content. Furthermore, the LC3-50 systems have
+strengths close to those of the PPC30 systems in spite of their higher replacement
+ratio (lower clinker content). The LC3-50 blends benefit from
+the synergetic addition of calcined clay togetherwith limestone, leading
+to the formation of more hydrates from the SCMs.
+4.2. Optimization of parameters for R3 pozzolanic activity tests
+4.2.1. Sulfate to calcined clay ratio
+Fig. 3 shows the heat released per gram of solid by isothermal
+calorimetry for calcined clay 1 for the four sulfate to calcined clay
+mass ratios (cf. Table 4). For systems with higher sulfate content,
+i.e. 0.06 and 0.08 sulfate to calcined clay ratios, an early heat flow peak
+appears before 15 h of reaction. XRD patterns at 1 day of hydration
+indicate that ettringite was formed in these systems. In the low sulfate
+systems, no early heat flow peak was observed and XRD results did
+not show the formation of ettringite. In the systems with low sulfate
+content the sulfate is rapidly depleted by the calcined kaolinite pozzolanic
+reaction, consuming Al to formAFmphases (mainly Hc) rather than
+ettringite. The second peak in the calorimetry curves is related to C-A-SH
+and AFm formation. Fig. 4 shows the cumulative heat released at
+1 day, 2 days and 6 days for the different sulfate to calcined clay ratios
+for the calcined clays 1 (95% of calcined kaolinite) and 4 (50.8% of calcined
+kaolinite). The cumulative heat does not significantly change
+with the sulfate content. The highest heat release is reached for the
+system with 0.06 sulfate to calcined clay ratio.
+Thus, the final sulfate to calcined clay ratio for the pozzolanic reactivity
+test chosen was 0.06. This ratio was selected because 1) early
+ettringite formation is a general and desirable feature of cement hydration,
+and 2) the highest heat release is obtained for this ratio, indicating
+that higher sulfate levels slow down the pozzolanic reaction.
+Fig. 4. Cumulative heat release at 1 day, 2 days and 6 days as a function of SO3 to calcined
+clay ratio for calcined clays 1 (95%) and 4 (50.8%).
+Fig. 5. Influence of K2O to calcined clay ratio on the heat released (left) and on the phase assemblage (right) for calcined clay 1 (SO3/calcined clay ratio of 0.06). On XRD patterns at 1 day of
+hydration, Ett = Ettringite, Hc= Hemicarboaluminate, Mc = Monocarboaluminate.
+Fig. 6. Cumulative heat released for the five portlandite to calcined clay ratios for calcined clay 1 (left), the reaching of the plateaus being related to the complete CH consumption as
+observed by XRD at 4 days of hydration (right). Ett= Ettringite, CH= Portlandite.
+F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11 5
+4.2.2. Alkali to calcined clay ratio
+The heat released per gram of solid for the four different alkali to
+calcined clay mass ratios (cf. Table 4) is shown in Fig. 5 for the calcined
+clay 1. An early heat flow peak related to ettringite formation was observed
+only for the two lowest alkali to calcined clay ratios, i.e. 0.06
+and 0.08. This was confirmed by XRD. As expected the pozzolanic reaction
+of calcined kaolinite is enhanced inmore alkaline solutions as seen
+from the increasing height of the main calorimetry peak [7,18]. AFm
+phases form rather than ettringite for high alkaline solutions due to
+the decrease of the ion activity product for ettringite with increasing
+pH [19]. The alkali U-phase is not observed because this phase only occurs
+for pH higher than 14 [20].
+The final alkali to calcined clay ratio was chosen at 0.08 to enable
+both ettringite formation and high calcined clay reactivity.
+4.2.3. Portlandite to calcined clay ratio
+The effect of changing the portlandite to calcined clay ratio was investigated
+using the sulfate and alkali ratios previously determined
+(0.06 and 0.08, respectively). Calorimetry curves are shown in Fig. 6
+for calcined clay 1. The results show that the cumulative heat release
+reaches a plateau for systems having portlandite to calcined clay mass
+ratios of 1/1, 1/2 and 1/3. The plateau is reached sooner and at a lower
+cumulative heat release for mixes with lower portlandite contents.
+The XRD patterns at 4 days demonstrate the absence of portlandite in
+all mixes that reached the plateau.
+The extent of reaction of the calcined clay depends on the amount of
+portlandite available as reactant. As soon as portlandite is completely
+consumed, a plateau is reached and overall reaction rates are reduced.
+In order to assess the intrinsic reactivity of the calcined clays, it was
+decided to use a 3/1 ratio for the mix design. This way the portlandite
+reactant will always be in excess and the main factor controlling the
+reaction kinetics is the calcined clay. The resulting optimal mix design
+developed for the new pozzolanic reactivity test is presented in Table 6.
+4.3. Application of the R3 test to calcined clays: heat flow measurements
+4.3.1. Tests carried out at 20 °C
+The heat released per gram of solid during hydration of all the calcined
+clays studied is presented in Figs. 7 and 8 for systems without
+and with limestone, respectively. In both cases, the calcined clay 1
+with 95% of calcined kaolinite content reacts the most, whereas the
+quartz system is the least reactive. These results are in agreement
+with the compressive strength results. For systems without limestone,
+XRD patterns clearly show the formation of monosulfoaluminate
+phase for all systems at 7 days, due to the absence of calcite. An AFm
+solid solution sulfate, carbonate and hydroxide together (discussed by
+Pöllmann [21]) also forms as seen by the peak at 10.5 °2θ (CuKα).
+Ettringite forms at earlier ages, but with the continuing dissolution of
+the calcined clay, the aluminate to sulfate ratio increases, leading to
+the consumption of ettringite and the formation ofmonosulfoaluminate
+phase. For systemswith limestone, carboaluminates form and ettringite
+remains present in the systems, as shown in Fig. 8.Moreover, the height
+of the peaks of the carboaluminates increase with the calcined kaolinite
+content of calcined clays.
+To compare with the relative strength results from 1 to 90 days, cumulative
+heat values were taken at 6 days of reaction because the reaction
+significantly slows down at this age. Fig. 9 shows that good linear
+correlations are obtained at all ages between the heat released and the
+strengths for both PPC30 and LC3-50 systems.
+4.3.2. Impact of temperature
+Figs. 10 and 11 showthat increasing the temperature for the isothermal
+calorimetry from20 to 40 °C accelerates the pozzolanic reaction. No
+major change in phase assemblage is observed at 1 day, except for the
+ettringite peaks which are lower or absent for systems with limestone.
+This is likely due to the acceleration of the pozzolanic reaction of
+metakaolin and the increase of ettringite solubility with temperature
+[19]. The heat released after only 1 day at 40 °C is globally similar to
+the heat released at 6 days at 20 °C and the heat evolution also slows
+down at this time. Thus, the correlations to relative strengths are
+based on the 1 day heat values. Fig. 12 shows that similar correlation coefficients
+are obtained at the higher temperature.
+4.3.3. Repeatability
+To control the repeatability of the R3 test, three independent tests
+were carried out on clay 4, with and without limestone, as shown in
+Fig. 13. The standard deviations were calculated based on the heat
+values at 6 days and 1 day for tests run at 20 °C and 40 °C, respectively.
+Table 6
+Final mix design of pozzolanic test.
+System Calcined clay (g) Portlandite (g) Calcium carbonate (g) K2SO4 (g) KOH (g) H2O (g)
+Simulating PPC30 system 12.50 37.50 0 1.47 0.32 60
+Simulating LC3-50 system 11.11 33.33 5.56 1.31 0.28 60
+Fig. 7. Heat released for calcined clay-portlandite blends without limestone at 20 °C. On XRD patterns at 7 days, Ms=Monosulfoaluminate, Hc=Hemicarboaluminate, CH=Portlandite,
+AFmss= solid solution containing sulfate, carbonate and hydroxyl.
+6 F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11
+Their values are shown in Table 7. The standard deviations are very
+small.
+4.4. Bound water determination
+Fig. 14 shows that linear correlations are obtained between relative
+strength and boundwater for systemswithout andwith limestone, similar
+to the correlations with the heat released at 1 day. Therefore, the
+bound water indicator is also a relevant method to predict the strength
+development of blends. Moreover, the correlation with the heat release
+values at 1 day for systemswithout andwith limestone in Fig. 15 clearly
+shows the reliability of the R3 test using the boundwater determination.
+4.5. Comparison with the modified Chapelle test
+Fig. 16 shows the portlandite consumption for the calcined clays
+ranked in order of their calcined kaolinite content. The consumption
+of portlandite globally increases with the calcined kaolinite content.
+Fig. 8. Heat released for calcined clay-portlandite-limestone blends at 20 °C. On XRD patterns at 7 days of hydration, Ett = Ettringite, Hc = Hemicarboaluminate, Mc =
+Monocarboaluminate, CH= Portlandite.
+Fig. 9. Correlation between relativemortar strength (20 °C) and cumulative heat released at 6 days of hydration for isothermal calorimetry run at 20 °C for systemswithout (left) andwith
+limestone (right).
+Fig. 10. Heat released for calcined clay-portlandite blendswithout limestone at 40 °C. XRD patterns at 1 day of hydration at 40 °C.Ms=Monosulfoaluminate Hc=Hemicarboaluminate,
+CH= Portlandite, AFmss= solid solution containing sulfate, carbonate and hydroxyl.
+F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11 7
+Also the quartz systemshows someportlandite consumption, this is due
+to the elevated temperature of the test. This pozzolanic reactivity of
+quartz has already been observed for blends at 80 °C [22]. The prediction
+of strengths based on themodified Chapelle test is also good, somewhat
+more scatter is observed for higher calcined kaolinite contents, as
+shown in Fig. 17. Finally, the comparison with the heat released at
+1 day and the bound water from the R3 test in Fig. 18 shows that the
+portlandite consumption is well correlated with the outputs of the R3
+test. Thus, the new R3 test provides at least similarly reliable indications
+of the reactivity of calcined kaolinitic clays than the modified Chapelle
+test. In comparison to the modified Chapelle test which is performed
+at 90 °C and without addition of alkali or sulfate the proposed R3 tests
+are closer to the reaction environment in Portland cement system.
+5. Conclusion
+This study shows that similar compressive strengths to plain PC are
+obtained for calcined clays with a calcined kaolinite content ≥40% from
+Fig. 11. Heat released for calcined clay-portlandite-limestone blends at 40 °C. XRD patterns at 1 day of hydration at 40 °C. Hc=Hemicarboaluminate,Mc=Monocarboaluminate, CH=
+Portlandite.
+Fig. 12. Correlation between relativemortar strength (20 °C) and cumulative heat released at 1 day of hydration for isothermal calorimetry run at 40 °C for systemswithout (left) and with
+limestone (right).
+Fig. 13. Reproducibility tests on blends containing calcined clay 4 at 20 °C and 40 °C without (left) and with limestone (right). Heat values at 6 days and 1 day (dotted lines) are used to
+calculate the standard deviations.
+8 F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11
+7 days onwards, demonstrating the feasibility of using low-grade kaolinitic
+calcined clays as cement substituent, even for LC3-50 blends containing
+only 50% of clinker. The strengths of PPC30 and LC3-50 blends
+linearly increase with the calcined kaolinite content of calcined clays
+at all the ages from 1 to 90 days. The calcined kaolinite content parameter
+is the overwhelming factor determining strength development accounting
+formore than 95% of the variation from7 days onwards. Other
+factors, such as the secondary phases present, fineness,method of calcination
+do not account for more than 5% of the variability.
+For the development of the newR3 test, the mix designwas adjusted
+in order to reproduce typical conditions for cement systems. The
+optimal mix design was 0.06 SO3/Calcined clay and 0.08 K2O/Calcined
+clay mass ratios in order to ensure high pozzolanic reactivity.
+Portlandite to calcined clay mass ratio was fixed to 3 so as not to run
+out of portlandite.
+The R3 test using isothermal calorimetry gives a rapid indication of
+calcined clay reactivity, after 6 days for tests carried out at 20 °C and
+1 day at 40 °C. Linear correlations with compressive strengths are
+obtained for all ages, proving the relevance of this test. Increasing the
+testing temperature to 40 °C does not affect the correlations and it is
+therefore considered to be a valid way of reducing the test duration
+from6 days to 1 day. Small variability ensures good reliability for this test.
+The R3 test using boundwater determination after heating to 400 °C
+shows very closely-related results to the heat released at 1 day. Bound
+water values are linearly correlated to strength results. The bound
+water determination method does not require any specific equipment
+Table 7
+Standard deviation values for blends containing calcined clay 4.
+Standard deviation (J/g)
+20 °C without limestone 1.34
+20 °C with limestone 2.80
+40 °C without limestone 1.86
+40 °C with limestone 1.79
+Fig. 14. Correlation of relative mortar strength (20 °C) with bound water after 1 day of hydration at 40 °C for systems without (left) and with limestone (right).
+Fig. 15. Correlation of bound water and cumulative heat released after 1 day of hydration at 40 °C for systems without (left) and with limestone (right).
+Fig. 16. Portlandite consumption from Chapelle test for the different calcined clays.
+F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11 9
+except an oven able to reach 400 °C. Despite its slightly longer experiment
+time (2.5–3 days instead of 1 day for the calorimetry experiment),
+this method can be applied in nearly all laboratories with basic
+equipment.
+Similar correlations to the existing modified Chapelle test are
+obtained for the R3 test, bringing the R3 test as an alternative testing
+method which is more practical and closer to reaction conditions in
+real Portland cement systems.
+Thus, the R3 test outputs are found to be well correlated with the
+compressive strength, supporting the use of the new test as a predictive
+tool for compressive strength at both the short and the long term. A parallel
+testing programhas shown the potential of this rapid test for other
+kinds of SCMs such as slag, natural pozzolans or fly ashes [23].
+Acknowledgments
+F. Avet and R. Snellings acknowledge financial support by the Swiss
+Agency for Development and Cooperation (SDC) grant 81026665 and
+the European Community under FP7-Marie Curie IEF grant 298337
+respectively.
+References
+[1] R. Fernandez, F.Martirena, K.L. Scrivener, The origin of the pozzolanic activity of calcined
+clay minerals: a comparison between kaolinite, illite and montmorillonite,
+Cem. Concr. Res. 41 (2011) 113–122.
+[2] C. He, B. Osbaeck, E. Makovicky, Pozzolanic reactions of six principal clay minerals:
+activation, reactivity assessments and technological effects, Cem. Concr. Res. 25
+(1995) 1691–1702.
+[3] C.Y. Chen, G.S. Lan, W.H. Tuan, Microstructural evolution of mullite during the
+sintering of kaolin powder compacts, Ceram. Int. 26 (2000) 715–720.
+[4] M. Antoni, J. Rossen, F. Martirena, K. Scrivener, Cement substitution by a combination
+of metakaolin and limestone, Cem. Concr. Res. 42 (2012) 1579–1589.
+[5] A. Alujas, R. Fernández, R. Quintana, K.L. Scrivener, F. Martirena, Pozzolanic reactivity
+of low grade kaolinitic clays: influence of calcination temperature and impact of
+calcination products on OPC hydration, Appl. Clay Sci. 108 (2015) 94–101.
+[6] M. Antoni, Investigation of Cement Substitution by Blends of Calcined Clays and
+Limestone, Ecole Polytechnique Fédérale de Lausanne, Thesis 6001, 2013.
+[7] P.S.d. Silva, F.P. Glasser, Hydration of cements based on metakaolin: thermochemistry,
+Adv. Cem. Res. (1990) 167–177.
+[8] N. Frattini, Ricerche sulla calce di idrolisi nelle paste di cemento, Ann. Chim. 39
+(1949) 616–620.
+[9] A.Tironi,M.A. Trezza, A.N. Scian, E.F. Irassar,Assessmentofpozzolanicactivityof different
+calcined clays, Cem. Concr. Compos. 37 (2013) 319–327.
+[10] S. Donatello, M. Tyrer, C.R. Cheeseman, Comparison of test methods to assess
+pozzolanic activity, Cem. Concr. Compos. 32 (2010) 121–127.
+[11] K.M. Hanna, A. Afify, Evaluation of the activity of pozzolanicmaterials, J. Appl. Chem.
+Biotech. 24 (1974) 751–757.
+[12] A. Shvarzman, K. Kovler, G.S. Grader, G.E. Shter, The effect of dehydroxylation/
+amorphization degree on pozzolanic activity of kaolinite, Cem. Concr. Res. 33 (2003)
+405–416.
+[13] EN196–1, Methods of Testing Cement — Part 1: Determination of Strength,
+European Committee for Standardization, 2006.
+[14] B. Lothenbach, F. Winnefeld, C. Alder, E. Wieland, P. Lunk, Effect of temperature on
+the pore solution, microstructure and hydration products of Portland cement pastes,
+Cem. Concr. Res. 37 (2007) 483–491.
+[15] B. Lothenbach, T. Matschei, G. Möschner, F.P. Glasser, Thermodynamic modelling of
+the effect of temperature on the hydration and porosity of Portland cement, Cem.
+Concr. Res. 38 (2008) 1–18.
+[16] E. Gallucci, X. Zhang, K.L. Scrivener, Effect of temperature on the microstructure of
+calcium silicate hydrate (C-S-H), Cem. Concr. Res. 53 (2013) 185–195.
+[17] N. P18-513, Additions pour béton hydraulique - Métakaolin - Spécifications et
+critères de conformité, Association Française de Normalisation, 2012.
+[18] R. Snellings, A. Salze, K.L. Scrivener, Use of X-ray diffraction to quantify amorphous
+supplementary cementitious materials in anhydrous and hydrated blended cements,
+Cem. Concr. Res. 64 (2014) 89–98.
+Fig. 17. Correlation of relative mortar strength (20 °C) with the portlandite consumption in the modified Chapelle test for systems without (left) and with limestone (right).
+Fig. 18. Correlation of portlandite consumption in the modified Chapelle test and cumulative heat released at 1 day at 40 °C for systems without (left) and with limestone (right).
+10 F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11
+[19] R.B. Perkins, C.D. Palmer, Solubility of ettringite (Ca6[Al(OH)6]2(SO4)3·26H2O) at
+5–75 °C, Geochim. Cosmochim. Acta 63 (1999) 1969–1980.
+[20] G. Li, P. Le Bescop, M. Moranville, The U phase formation in cement-based systems
+containing high amounts of Na2SO4, Cem. Concr. Res. 26 (1996) 27–33.
+[21] H. Pöllmann, Syntheses, properties and solid solution of ternary lamellar calcium
+aluminate hydroxi salts (AFm-phases) containing SO4 2-, CO3 2-, and OH-, Neues
+Jahrbuch für Mineralogie - Abhandlungen, J. Min. Geol. 182 (2006) 173–181.
+[22] F. Deschner, B. Lothenbach, F. Winnefeld, J. Neubauer, Effect of temperature on the
+hydration of Portland cement blended with siliceous fly ash, Cem. Concr. Res. 52
+(2013) 169–181.
+[23] R. Snellings, K. Scrivener, Rapid screening tests for supplementary cementitious
+materials: past and future, Mater. Struct. (2015) (Submitted).
+>>>>>>> 2722771823fc534d44839a79e520392765d8cbd3
+F. Avet et al. / Cement and Concrete Research 85 (2016) 1–11 11

@@ -1,0 +1,1366 @@
+sustainability
+Review
+Sustainability Challenge of Eastern Europe—Historical Legacy,
+Belt and Road Initiative, Population Aging and Migration
+Mihajlo Jakovljevic 1,2,* , Arcadio A. Cerda 3, Yansui Liu 4, Leidy García 3, Yuriy Timofeyev 5 , Kristijan Krstic 6
+and John Fontanesi 7
+ 
+ 
+Citation: Jakovljevic, M.;
+Cerda, A.A.; Liu, Y.; García, L.;
+Timofeyev, Y.; Krstic, K.; Fontanesi, J.
+Sustainability Challenge of Eastern
+Europe—Historical Legacy, Belt and
+Road Initiative, Population Aging
+and Migration. Sustainability 2021, 13,
+11038. https://doi.org/10.3390/
+su131911038
+Academic Editor: Andreas Ihle
+Received: 9 August 2021
+Accepted: 27 September 2021
+Published: 5 October 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+1 Institute of Comparative Economic Studies, Hosei University Faculty of Economics, Tokyo 102-8160, Japan
+2 Department Global Health Economics & Policy, University of Kragujevac, 34000 Kragujevac, Serbia
+3 Faculty of Economics and Business, University of Talca, Talca 3460000, Chile; acerda@utalca.cl (A.A.C.);
+leidyyomary@gmail.com (L.G.)
+4 Institute of Geographic Science and Natural Resource Research (IGSNRR), Chinese Academy of Sciences,
+Beijing 100049, China; liuys@igsnrr.ac.cn
+5 Department of Strategic and International Management, National Research University Higher School of
+Economics, 119049 Moscow, Russia; y.timofeyev@hse.ru
+6 Infectious Diseases Clinic, University Clinical Center Kragujevac, 34000 Kragujevac, Serbia;
+dr.krstic.kristijan@gmail.com
+7 Center for Management Science in Health, University of California San Diego, La Jolla, CA 92093-0021, USA;
+jfontanesi@ucsd.edu
+* Correspondence: sidartagothama@gmail.com or jakovljevic.mihajlo.46@hosei.ac.jp
+Abstract: The historical legacy of Eastern European and the Balkans’ health systems was mutually
+interdependent and shaped by local socioeconomic circumstances. Three distinctive systems of risk
+sharing and health financing developed since the late XIX century were the Bismarck, Beveridge, and
+Semashko systems. Modern day healthcare systems in these countries are challenged by population
+aging, accelerated innovation in medical technology, growing purchasing power and rising demand
+for healthcare services. Supply-side changes contribute to demand-side efficiency bottlenecks in
+financing, driving up the costs of the already expensive medical care. All of the nations have a large
+share of citizens experiencing difficulty with affordability and access to medical care, particularly in
+rural and remote areas. Network of health technology assessment agencies have mushroomed over
+the past three decades. Principles of health economics theory and cost-effective resource allocation
+are slowly gaining ground in governing authorities’ mindset and decision-making processes. For
+many years to come, pharmaceuticals and medical services will remain dependent on out-of-pocket
+spending. Currently, accelerating and spreading 4.0 Industrial Revolution, together with the Belt
+and Road Initiative, are likely to substantially impact the further economic development of this
+vast region. Post-pandemic “green” recovery strategies adopted by many of the Eastern European
+governments shall also make this transition toward sustainable development more difficult and
+challenging, given the large dependency of all these economies on traditional carbon fuels.
+Keywords: Eastern Europe; Balkans; healthcare; sustainability; history; financing; population aging;
+migration; Belt and Road Initiative; sustainable millennium development goals
+1. Introduction
+This contribution represents a critical literature review. It was conducted in order to
+synthesize a large body of scholarly literature. Its purpose was to explain the historical
+background and future challenges of sustainable healthcare in Eastern European and
+Balkan countries. We adopted the exceptionally lengthy historical horizon of several
+centuries. In addition, authors attempted to explain core events in a broad outreach of
+national jurisdictions spanning across almost half of 53 contemporary European WHO
+Region countries. Thus, authors were forced to prioritize and shortlist a large amount of
+literature evidence and focus on those most important to understand a chain of events
+Sustainability 2021, 13, 11038. https://doi.org/10.3390/su131911038 https://www.mdpi.com/journal/sustainability
+Sustainability 2021, 13, 11038 2 of 18
+leading to the establishment of modern-day health systems in these countries. Most of
+the selected evidence base has been published in high impact journals and present the
+most-cited sources in their respective areas. In order to grasp a structure of analytical
+work and evidence synthesis in this review, we have provided a table shortlisting core
+bibliographic information on studies, reports and archives used to prepare this document.
+Sustainability of the national health system was the core research question explored in
+this review. The broadest consensus defines sustainability as “the capacity to endure in a
+relatively ongoing way across various domains of life”. It may be applicable to an array of
+hierarchically organized systems ranging from Earth ecosphere to human societies. Over
+the recent few decades, it has become a matter of public attention due to the fact that previous
+industrial revolutions have led to widespread environmental pollution worldwide and
+the first-ever massive extinction of biological species caused by mankind. Contemporary
+policies adopted by the majority of national governments in the Kyoto Protocol and Paris
+Climate Agreement emphasize commitments to sustainable economic development. They
+also provide targets and unique measurements to assess the achievement of such outcomes.
+In particular, those related to healthcare and other dimensions of social welfare are explained
+in the UN-adopted 17 Sustainable Development Goals (SDGs) and 2030 Agenda. In
+light of all these global developments, we have attempted to observe and analyze unique
+regional features of Eastern European and Balkan health systems. Our goal was to assess
+their abilities to progress alongside SDGs and identify bottleneck weaknesses that may
+need nation-tailored reform policies.
+Particular emphasis on the Eastern European region was placed in this article due
+to the fact it is exposed to significantly higher ethno-religious diversity in comparison
+to Western, Southern and Northern Europe. This landscape has evolved from the fact
+this region was a cultural melting pot for centuries. Today, the challenge of sustainability
+remains a high stake and unique common challenge to all of these various national health
+systems. The authors’ goal was to enlighten this complex issue from the perspectives of
+local economies and provide plausible hints to overcome these obstacles. We believe this
+review may fill a certain knowledge gap in the seminal literature.
+2. Historical Circumstances Preceding the Establishment of Eastern European
+Health Systems
+Eastern Europe and the Balkans, or Helm peninsula as it was named in antiquity,
+represent a huge geographic space consisting of vast Eastern European plains and massive
+mountain chains, such as the Carpathian Mountains, the Alps and the Dinaric Alps. In socioeconomical
+terms, several distinctive cultural patterns traditionally meet here. Throughout
+centuries, ethno-religious borderlines between Roman Catholicism, Eastern Orthodox
+Christianity, and Sunni Islam shaped the entire region as the cultural melting pot [1]. The
+Cold War [2] and subsequent accelerated Globalization Era played a prominent role [3] in
+the evolution of modern socioeconomic perspective and the health systems of these nations.
+These factors have shaped the geopolitical setting in which these countries operate at the
+dawn of the third decade of the XXI century [4]. The region now consists of the European
+Union’s Eastern European country members, small Balkan nation states, and current non-
+EU members that emerged as a result of Yugoslavia’s dissolution. To the east lies the vast
+Eurasian Union, consisting of the Russian Federation and its culturally syncretic former
+USSR republics [5]. Although geographically situated at the southernmost tip of Balkan
+peninsula, Greece is geopolitically considered to be outside of this region. A total of thirteen
+years before the official establishment of the European Union in Maastricht in 1992, the
+Treaty of Accession was signed in 1979 between the European Economic Community and
+Greece. Turkey belongs to the region only partially with its narrow coastal belt of Istanbul’s
+European side, while the Balkans still host centuries- old Ottoman cultural legacy.
+Sustainability 2021, 13, 11038 3 of 18
+Although regional diversity is huge, the national health systems, mostly throughout
+the XIXth and XXth centuries, share many similar features and challenges. In the Russian
+Empire, the establishment of national health care occurred earlier, during the XVIIIth
+century, with the introduction of medicine studies at the Imperial Moscow University
+(Èìïåðaòoðñêèé Ìoñêoâñêèé Óíèâåðñèòåò) in 1755 and a network of public hospitals and
+educational institutes in 1758 [6]. The Ottoman Empire had its health system conceived
+with the establishment of The Imperial Military School of Medicine (Mekteb-I Tıbbiye-I
+¸Sahane) in 1827, on orders by Sultan Mahmud II [7]. The Austro-Hungarian Empire led
+by the House of Habzburg was a long lasting statehood that left profound imprints in
+many Eastern European and Balkan cultures. In the area of its geopolitical outreach, the
+Deutsch language was effectively Lingua Franca of a large part of Eastern Europe. Its
+oldest medical establishments date back to 1784 when Emperor Joseph II established the
+first state-run general hospital in continental Europe, the Algemeines Krankenhaus (the
+General Hospital) [8]. Slightly earlier, in the mid-1740s, began a set of reforms at Vienna
+Medical School aimed at closing the existing gap in the medical technology frontier after
+theWestern European colonial powerhouses [9].
+The milestone event for the entire region was the emergence of three contemporary
+systems of risk sharing. These early health and social insurance and tax collection strategies
+were created in order to secure financing of a brand-new invention of the late XIXth century,
+i.e., the hierarchical national health system. They are mostly known as the German Bismarck
+system established in 1884, British Beveridge system established in 1948, and Soviet-Russian
+Semashko system grounded in the reforms of 1921 and officially consecrated in the early
+1930s. Otto von Bismarck, the Chancellor of the German Empire, introduced the “Social
+Health Insurance Model”. It pioneered the first large-scale compulsory insurance coverage
+to establish universal healthcare in Germany, and later, in large part to Europe [10]. The
+Bismarckian system was rooted in the Prussian Industrial Revolution, involving a tripartite
+relationship between trade unions, employers, and the state. The situation was different in
+the largely agrarian Balkans. This is one of the reasons why Greece, sharing the Balkan
+agrarian traditions, failed to develop comprehensive health insurance. Its core limitation
+was the fact that it covered only a narrow range of industrial workers families [11], which
+represented a minority in an agricultural German society [12,13].
+SirWilliam Beveridge, a British economist has created grounds for the creation of Great
+Britain’s National Health Services (NHS) in 1948 [14]. It introduced effective universal
+health insurance coverage, while removing the responsibility from citizens to co-fund
+medical care via out-of-pocket spending [15]. Its core weaknesses are long-term shortages
+of physicians and nursing staff [16]. The tendency to over-utilize the system benefits of
+affordable medical care generates long wait times for patients, particularly in expensive
+and complex medical procedures [17]. This system still delivers a strong degree of social
+protection in access to outpatient, hospital medical care and pharmaceuticals for the large
+layers of lower- and middle-income citizens [18].
+Regardless of negative contemporary perceptions of that era, the Soviet Union’s First
+People’s Commissar of Health (1918–1930) Nikolai Alexandrovich Semashko (1874–1949)
+created a unique system well ahead of its time [19]. It pioneered universal health insurance
+coverage in a socialist state, which guaranteed full free-of-charge access to the existing
+medical technologies to the entire population [20]. Ideals of social justice and equality
+played a pivotal role in the social theory of Marxism. Universal health insurance coverage
+was delivered and funded by a state-owned and centrally controlled economy. Historically,
+this was the first case of universal health coverage (UHC) delivered in a large nation
+ravaged by WWI and the Civil War [21]. None of the hierarchical traditional European
+societies guaranteed anything comparable to their citizens back in the 1920s and 1930s.
+Sustainability 2021, 13, 11038 4 of 18
+Eventually, Semashko’s theory and practice spread throughout most of Eastern Europe
+[22] and the Balkans, while taking roots in Central Asia in earlier decades as part
+of Soviet driven medical reform [23]. Probably, Eastern Germany is the most generous
+example of communism-delivered social and medical protection among theWarsaw Pact
+countries during the Cold War. The socialist state in DDR sponsored parenthood and early
+childhood care to such an extent that a young couple could have raised and educated up to
+three children at the cost of less than one [24]. After the Perestroika and the dissolution of
+the USSR, many of Eastern European nations embarked on thorough and often difficult
+sets of health care reforms [25]. Their goal was to reshape Semashko’s legacy of health
+care toward diverse forms of mixed-Bismarckian or Beveridge models [26]. The countries
+remaining within the Commonwealth of Independent States (CIS) and later Eurasian Union
+led by the Russian Federation also adopted a set of socioeconomic reforms to increase the
+efficiency of collecting revenue flows and finance medical care delivery [27]. Currently,
+most of the eastern EU member countries have adopted Bismarck heritage to a diverse
+extent [28]. The Eurasian Union and CIS nations remain more loyal to a post-Semashko
+healthcare system [29], with a strong emphasis on state patronage over social justice and
+delivery of equitable and affordable medical services and pharmaceuticals [30]. Post-
+Yugoslav republics share mixed-Bismarck legacies with the strong presence of Semashko
+model features inherited from the long decades of socialism [31].
+This paper presents a literature review that aims to provide an unbiased critical
+analysis of existing research on sustainability-related challenge faced by Eastern European
+and Balkan health systems. We focused on the studies, which were published during the
+last two decades in the major scholarly peer-reviewed journals in the field of public health,
+health economics, demography, and history of medicine.
+3. Influence of the Belt and Road Initiative
+Chinese traditional culture created the ancient Silk Road as the set of major continental
+and sea routes. Via these routes, ancient trade was occurring between capitals of antiquity,
+such as Beijing and Rome and across Judeo-Christian, Muslim, Buddhist and Confucian
+cultures. This pattern of international trade continued across all three continents of the
+Old World almost continuously in peace and in war for almost two millennia [32], until
+the imposed imperial taxes of the Ottoman Empire after the Fall of Constantinople and the
+Byzantine Empire under Turks in 1453 AD. These taxes effectively abolishedmost of Silk Road
+trade since these became unaffordable for the merchants of medieval European monarchies
+and the Republic of Venice. This change in global economic history is believed to have directly
+led to the Age of Discovery of new naval trade routes and the early Colonial Age [33]. The
+pioneering European trade colonies in close proximity to China and Japan were established in
+Macau and Dejima islands by the Portuguese and Dutch sailors andmerchants.
+The mostly downward cycle of weakening civilizations of India and China occurred
+during the XVIII and XIX century. It resulted in the redistribution of global wealth from
+the Orient toward Western Europe and its Colonial descendant cultures, essentially unwitnessed
+in human history as documented by Agnus Madison Project findings [34]. The
+People’s Republic of China re-established itself among the circle of global powerhouses
+mostly during the late ColdWar era and over the past four decades of continuous strong
+real economy growth [35]. Since the Deng Xiaoping economy reforms adoption in 1974–
+1978 horizon, Chinese real gross domestic product growth (GDP) remains unparalleled [36].
+It continues to be the leading engine within the circle of rapidly developing BRICS (grouping
+acronym which refers to the five emerging economies: Brazil, Russia, India, China, and
+South Africa) and Next Eleven Emerging Markets. This trend, according to forecasts, is
+likely to remain unchallenged at least until 2025–2030 [37]. Accompanied with the inner
+transformation ofWestern post-industrial societies into service-driven economies, China
+has cemented its global leadership in manufacturing export-based industries. Chinese
+multinationals now hold the majority of innovative patents designated for the 5G mobile
+network technologies [38]. Due to Chinese breakthroughs in ultra-speed railway tracks
+Sustainability 2021, 13, 11038 5 of 18
+build-up and manufacturing of high-speed trains, these are getting approvals in tender
+bidding procurements among the richest OECD markets [39]. Among other large emerging
+economies, similar success stories in terms of cutting-edge technology advances are India’s
+leadership in generic pharmaceutical industry and its undisputed central place as the global
+hub for IT software industry. Convenient further examples are Russian breakthroughs
+in cosmic industry [40,41], space [42] and military technologies and her prominence in
+nuclear power plants architecture [43]. This is coupled with Brazilian advantages in the
+supply of raw materials and South Africa’s rich reserves of rare earth minerals, essential
+for electronics and cosmic technologies [44]. Therefore, it appears to be many mutually
+useful interlinkages among the BRICS countries’ economies.
+From this geo-economic landscape came the President Xi’s 2013 Kazakhstan and
+Indonesia announcement of the beginning of the One Belt One Road (OBOR) initiative,
+popularly portrayed in media as the New Silk Road [45]. It has been explored widely in
+scholarly literature from the viewpoints of financial economics, socio-cultural developments
+it may trigger and its consequences in the international politics. There is a vast
+diversity of perspectives on issues related to the Belt and Road Initiative (BRI). What we
+can claim for certain, based in evidence, is that it appears to be the largest infrastructural
+project in the history of mankind [46]. The proposed network of roads, fast railway networks,
+seaports, transportation hubs for ocean ships, harbor architectural commitments,
+and ultimately, expansion of current and new airport terminals, should spread across
+Asia, Europe, Africa and Latin America [47]. As of March 2020, official memorandums of
+understanding to become a part of Belt and Road Initiative with China have been signed
+by governments of a total of 138 countries [48]. The vast majority of countries according
+to the World Bank, represent low- and middle-income economies and former members of
+Non-Aligned Movement during the ColdWar Era [49]. However, a number of high-income
+OECD countries with a long history of free market economies, such as Italy, Austria, Portugal,
+Greece in Europe, rich Arabian Gulf GCC countries, Chile and Panama and all of
+Eastern EU are participating (18 EU members countries in total) [50,51].
+How does the BRI Initiative translate to the issues of sustainability of the national
+health systems across its many pathways? The United Nations Development Policy and
+Analysis Division (DPAD) gave their own designation after careful consideration. UN
+DESA’s claims that: “The official document which defined the vision and action of the “Belt and
+Road” affirms that the initiative is in line with the purposes and principles of the UN Charter. The
+essential spirit of the Belt and Road to promote win-win cooperation, common development and
+prosperity, peace and cooperation, openness and inclusiveness, and mutual understanding and trust,
+conforms to the values of the 2030 Agenda for Sustainable Development” [52].
+Typical cases on how BRI can be interpreted is “17 + 1 format” [53], joining China with
+the total of 17 Eastern European countries [54], excluding Russia. Most of these nations,
+although EU members being mostly designated as high-economies, are suffering from a
+long-term underinvestment into their national health care establishments. This issue further
+expands from hospital infrastructure toward chronic deficits in physicians and nursing
+staff density, pharmaceuticals supply shortages and generally questionable affordability
+of innovative medical technologies to the ordinary citizens. Being largely funded as an
+out-of-pocket spending with moderate public reimbursement participation, many hightech
+treatment strategies, such as radiation oncology, implantation surgery or monoclonal
+antibodies to treat cancer [55] and autoimmune disease remain well above willingness to
+pay a threshold in these countries [56]. These are among the reasons why BRI-associated
+financial instruments are seriously considered as a source for balancing of budgetary needs
+in “Visegrad Group” countries and Poland and Hungary in particular. There is also a degree
+of criticism in cases where these funding instruments have proven to lead small countries
+of the Eurozone into a default risk, such as the Montenegro case [57]. Yet, in the majority of
+cases, both within the EU and among its Balkan candidate countries and Turkey, enthusiasm
+for the BRI project remains high [58]. Outside the EU, such perceptions by the regional
+ruling elites were additionally fueled by the insufficiencies exposed during the coronavirus
+Sustainability 2021, 13, 11038 6 of 18
+pandemic. This refers to the simple fact that countries alongside BRI major routes were
+receiving earlier, more massive supplies of COVID-19 vaccines, devices intended for
+respiratory support and other intensive care unit equipment in far bigger quantities and in
+far more timely deliveries in comparison to their far richer counterparts among EU15. These
+issues, although hardly likely to affect any of the long-term weaknesses of these national
+health systems, changed the public perception in favor of BRI [59]. On the other side of
+the equation, many of these countries remain way too small to remain attractive for direct
+foreign investment despite the generous tax policies. Over the past decades, due to the
+previous large global recession caused by the bankruptcy of Lehman Brothers in 2007/2008,
+Western-born development assistance for health (DAH) was shrinking for nations outside
+the EU for a long time. Thus, the obvious hunger for development opportunity triggers
+the quest for an alternative source of revenue streams. Chinese investment not only into
+transport and trade infrastructural capacities but also mining industry, energetics and
+factories in the Balkans, Russia and Central Asian continues to be substantial. It remains
+an important source of education and employment opportunities and a driving force
+behind the national prosperity of many smaller BRI nations. Up to 70 countries lie directly
+on the main trade routes and transportation hubs, whose building and utilization have
+already occurred since the late 2010s. Nations such as Turkey and Greece anticipated
+and are already harvesting a substantial share of their governments’ revenue streams and
+budgetary incomes from the international trade taxes of these routes. A plausible room of
+opportunity to increase social welfare is to re-invest these resources back into the struggle
+against poverty. It remains at high stake in most BRI countries including Eastern Europe
+and the Balkans. A typical model of an effective struggle to defeat poverty (Goal 17 of
+SDGs) comes to us from China itself. WHO has designated Chinese policies as the classical
+case of an overachiever in this area, lifting from proximity to poverty line for almost 800
+million of its citizens [60]. In the stage of targeted poverty alleviation during 2013–2020,
+ensuring poor people have access to basic medical care was one of the three indispensable
+guarantees [61]. To achieve this end, China has established the world’s largest basic medical
+security network through quotas and full funding, which refers to a triple security system,
+including basic medical insurance, serious illness insurance and medical assistance.
+Additionally, an attractive point of consideration is the introduction of the concept
+of “Health Silk Road” [62–64], which combines the health and sustainable development
+together to improve the global public health governance system. International cooperation
+in the health sector has been a firm component of China’s BRI [65,66]. This concept was
+firstly proposed in 2016 to deepen medical and health cooperation, and strengthen mutually
+beneficial cooperation in infectious disease notification, disease prevention and control,
+medical rescue and traditional medicine. Before the outbreak of COVID-19, the construction
+of the “Health Silk Road” relied on the development of China’s domestic medical system,
+successful experience in fighting against infectious diseases, and the long history of foreign
+medical aid. Its highlights include the construction of hospitals and health infrastructure,
+the dispatch and technical training of medical teams, and the tripartite cooperation with
+international health organizations such as WHO. Then, it has been accelerated by the
+global outbreak of COVID-19. In addition to sending medical resources, medical experts
+and timely assistance, China currently provides COVID-19 vaccines to all over the world
+in the form of “public goods”. In the face of such global challenges as public health
+and safety, only all countries work together to prevent and control the epidemic can we
+build a strong defense line. This epidemic also exposed the weakness of global public
+health governance. Jointly building the “Health Silk Road” is conductive to promoting
+international cooperation in the field of health and accelerating the construction of a global
+community of a shared destiny.
+Sustainability 2021, 13, 11038 7 of 18
+Aforementioned integrative Eurasian processes and build-up of trade route capacities
+are closely related to the demographic dynamics of these vast entire ethnic spaces inhabited
+by a myriad of ancient nations. As we shall see below, things are rapidly changing in
+demographic terms alongside the continental andmaritime routes of the New Silk Road. In
+order to better understand the long-termhidden population trends thatmay profoundly affect
+economic sustainability of these initiatives, we will explore these issues in the next section.
+4. Population Aging and Middle-Eastern Migrations to the European Continent
+Population aging or “The Silver Tsunami” presents a unique and new phenomenon in
+the written demographic history of mankind [67]. It consists of a set of gradual socioeconomic
+changes triggered by three consecutive industrial revolutions. Its core underlying
+drivers are falling female fertility, coupled with the improved early childhood survival and
+extended longevity [68]. Sexual revolution and the process of emancipation of women has
+effectively created financial incentives to the ladies to give less birth. This evolving process
+became apparent worldwide from Latin America to East Asia in most contemporary societies
+regardless of their prevailing ethno-religious, cultural pattern or way of life. Today,
+population aging or the third demographic transition has spread almost universally across
+the globe. The United Nations Department of Economic and Social Affairs, Population
+Division reports only 18 countries designated as “demographic outliers”, almost all of
+them being located in Sudanese Africa, with the exception of Afghanistan [69].
+It appears that early fertility falls were discovered two centuries ago in French demographic
+archives closely following the Revolution of 1789. In most European nations, the
+process had its early roots up to one century ago [70]. Yet, it became visible only in the
+decades following the second world war. Eastern Europe and the Balkans had experienced
+their main historical fertility falls throughout post-WorldWar II recovery and the ColdWar
+era. Marxist’s policy-makers’ emphasis on social justice and equality have led to massive
+education of women from all social layers including the poor. The gap between men
+and women in average education and respective income levels remained for many years.
+This gap was effectively closed only after 1991. Female fertility levels (average number
+of children for a lifetime, per woman of a child-bearing age) continued to decrease from
+historical levels prior to the FirstWorldWar of up to six or seven children per woman up to
+a contemporary bottom ranging from 1.52 in Serbia (2019) up to 1.73 in Turkey (2020). The
+Czech Republic, Hungary, Poland, Bulgaria and all other smaller nations followed a similar
+pattern [71]. Romania is a stereotypical case of the country who was losing its youngest
+labor productive population rapidly both due to aging and migration westwards inside
+the EU. Thus, its population size has shrunk from a historical level of 23.21 million back
+in 1990 to less than 19.3 million today. Bulgaria was following the same pattern shrinking
+from 8.97 million in 1986 up to 6.9 million today [71].
+A massive flux of Middle-Eastern and North-African migrations reaching its peak
+in 2015, triggered by the Syrian civil war, did not change the demographic landscape of
+Eastern Europe and the Balkans as much as it did in their richer Western and Northern
+European counterparts. The point is in the fact that both Balkan routes of migration via
+Turkey, Greece, and Serbia toward Hungary were actually transit routes [72]. Serbia has
+only received one million and a half mostly ethnic Arab refugees and internally displaced
+citizens and economics migrants since 2014, with almost all of them leaving away toward
+the rich Protestant north of Europe. Despite receiving warm local hospitality as witnessed
+by their own statements, most ofmigrants were driven by their economic uncertainties [73].
+Their journal, inmost cases, ended up somewhere in the EU15 nations, typically Scandinavia
+or Germany. In addition, many of the countries alongside themassive Balkan migrant route
+have adopted sets of polices that effectively halted furthermigration of such scale. Although
+themean age ofmigrant citizens ismuch younger that Eastern European average, and fertility
+rates of their homeland societies significantly higher [74], it still did not have any substantial
+consequences for the demographic structure of Poland or Hungary.
+Sustainability 2021, 13, 11038 8 of 18
+How did all these profound and dynamic changes reflect the sustainability of the
+existing post-Semashko and mixed Bismarck health systems of Eastern Europe? As we all
+know, the Bismarck system, which is widespread outside CIS nations, relies heavily on
+mandatory tax contributions for health insurance charged to employers and employees
+alike. The essence of demographic aging consists of the fact that an average citizen is aged
+approximately 40 or older. There used to be a strong fertility rebound phenomenon among
+the post-war WWII baby boomer generations. It has created massive cohorts in the age
+groups born during the late 1940s, 1950s and 1960s [75]. Yet, all of these citizens’ working
+age has passed and most of them are now retired citizens. This massive pool of citizens
+enjoying socially guaranteed pensions is a notable feature of each single Eastern European
+and Balkan society. In addition, over the past decades, fertility rates were constantly falling.
+This process was particularly worsened and accelerated since the end of Cold War and
+beginning of economic hardships and poverty in the 1990s. It was associated with the
+Russian Recession reaching the bottom in 1998 [76], effectively involving all of its former
+Warsaw pact satellite economies (currently the Eastern EU wing) inherited from Soviet
+era [77]. The process of economics recovery was rather swift and sudden since 2000. Yet
+these cohorts of generations born in families with one or two children were much smaller in
+size [78]. It meant that labor workforce was shrinking rapidly over decades and alongside
+with it—the taxpayer body responsible for budgetary revenues to finance social and health
+insurance programs. Thus, their demographic pyramids look like an old building whose
+ground, weight-bearing floors consisting of working-age taxpayers are getting thinner and
+upper floors of supported elderly citizens are getting ever more massive.
+Particularly concerning from the health economics point of view is the so called:
+“last year of life” phenomenon. It means well known fact that most citizens tend to
+experience end-of-life severe morbidity involving lengthy intensive care unit admissions
+and expensive medical care technologies. Usually, this consumption over the last twelve
+months were proven to be equal or exceeding the lifetime medical consumption of an
+individual citizen [79]. Given the growing share of elderly, budget impact of this demand
+for hospital admission and complex home-based care continues to grow. Quite substantial
+burden for the entire social support system is being created by the senior citizens living
+alone. Due to extended longevity in Eastern Europe [33], many of them in their late 1970s
+or 1980s are now suffering from either dementia or non-communicable diseases [80]. This
+creates additional workload in terms of family care giving. It represents an important
+bottleneck unmet need across entire region for three reasons. First is that traditionally the
+network of nursing homes for elderly remains heavily underdeveloped from Baltic states
+to the south of Balkans and Russia [81]. Second reason is that putting their own parents in
+such a facility by their grown-up children, is still associated with heavy social stigma even
+in contemporary social milieu of most of these nations [82]. Last but not least, raising fewer
+children, on average less than two, simply means less hands capable of providing home
+based medical care to those in need. Further exploration of these unmet social needs has led
+to the conclusion that large number of those citizens providing care to their grandmothers
+and grandfathers actually bears difficult double burden of raising their own children or
+attending a full or part time job. This has been known to lead to the chronic exhaustion
+and further deficiencies for the working age citizen wearing the double burden usually for
+many years [83].
+Sustainability challenge was made more complex with the liberalization of the market
+and arrival of new medical technologies. The living standards of vast layers of citizens
+were growing rapidly among Eastern EU and the Russian Federation alike. Yet they
+had to face new relationships unknown in communism, when medical technologies were
+maybe slightly lagging behind, but they were available to all the citizens irrespective
+of their income and social status. Now in free market economies, there were widening
+social gaps as measured in terms of Gini indices and diverse affordability thresholds for
+medical care depending on household income. Probably even bigger challenge was created
+with accelerated innovation in medicine. Cutting-edge technologies, such as monoclonal
+Sustainability 2021, 13, 11038 9 of 18
+antibodies—pharmaceuticals extending survival for cancer for months or even up to a few
+years, were accessible in the local markets for the first time. Societal demand followed
+the supply routes since people in the age of internet were well acquainted with best
+possible treatments they could obtain. This has created a set of new challenges in terms
+of national resource allocation prioritization, risk sharing agreements with Big Pharma
+multinational manufacturers and ever-growing Eastern European out-of-pocket health
+expenditure. Although many of these nations are classified as high-income developing
+ones nowadays, these systemic issues do not appear to be resolved even half-way down
+the road. Increasing investment into the health economics decision making capacities
+and a network of Health Technology Assessment agencies in these countries has brought
+some, but moderate release. A good hint to understand development perspectives of
+these vast regions is to take a closer look to the real GDP growth perspectives and their
+health spending dynamics during the last global macroeconomic recession 2007–2016.
+These data can be correlated with compound annual market growth rates (CAGR) and
+long-term investment plans being reported by the leading pharmaceutical manufacturers.
+Keeping in mind demographic and real economic growth forecasts we see that Big Pharma
+remains primarily interested only in the largest and most promising among the Emerging
+Markets, typically the BRIC (Brazil, Russia, India, China) and to a lesser extent Mexico,
+Indonesia, Turkey and Nigeria. Most of remaining smaller Eastern European and Balkan
+countries plan to compensate their growing budgetary deficits to finance health care with
+an array of strategies. These range from reliance on European Commission’s funding
+streams for those within the EU. For the EU candidate countries and some of the Eastern
+EU members, Chinese investment plans alongside BRI remain among the main possible
+sources to compensate for existing shortages. Large ones like Russia and Turkey will remain
+highly reliant on their inner economic capabilities and again Eurasian economic integration
+processes. Some small economies are finding their existing strategies vie restructuring their
+entire national economies toward IT sector or profitable mining industries and other rooms
+of opportunity. How all of these different economic transformation pathways will evolve
+during the upcoming decade yet remains to be seen.
+5. Policy Recommendations and Conclusions
+Contemporary Eastern European and Balkan countries face common sustainability
+challenges in terms of health financing and provision. Their historical legacies in healthcare
+establishments are now converging together to a surprising extent. In years ahead, accelerated
+population aging and prohibitively expensive medical technologies will represent
+the core challenges. Budget impact of life extending interventions in intractable diseases
+such as blockbuster oncology drugs appears to cross ever-higher societal willingness to
+pay thresholds.
+All of the unfolding developments imply necessity for extensive health policy reform
+strategies to be implemented. Typically, most of these countries have already three and
+more decade of fertility raising policy debates. Yet in many of them efforts remain rather
+limited. For example, value added tax evasion for baby equipment and early childhood
+goods has not been adopted so far in most of Balkan parliaments. Comprehensive reforms
+to combat aging and declining fertility in the long run were performed so far mostly by
+France and Russia among Europe’s large nations. Eastern Europe continues to remain in
+a more juvenile stage of this demographic transition in comparison to Western Europe
+since the process there began much earlier in historical terms. Yet situation is more than
+alarming while Turkey, Albania and Ireland were among the last European nations joining
+the process and diving deep in their fertility declines. Comprehensive policy reforms would
+assume unemployment insurance for pregnant and childbearing mothers with extended
+time periods until return to work. Here the remnants of former socialist centrally-planned
+economies of Eastern Europe and Balkans still behold some of the old benefits. Yet with
+humble outcomes. Fertility declines continue and mortality seriously outpaces natality in
+most of these countries outside Eurasian Union and Turkey. Their populations continue to
+Sustainability 2021, 13, 11038 10 of 18
+remain stable of gradually shrink with an average citizen age growing for decades reached
+the threshold of forty in many countries. Old age dependency ratios become less promising
+as well given the fact that fewer children are coupled with extended life expectancy. This
+implies necessity of another set of reforms tackling the needs of ever-growing body of
+retired citizens. In the most generous pension system of France an average citizen could enjoy
+up to 24 years of living on social benefits. This anticipated consumption of social insurance
+funds becomes a fiscal bottleneck of fiscal sustainability since the young capable workforce
+continues to shrink and alongside with it the revenue streams of taxable income in all of these
+societies. Already existing response, largely driven by European Commission policies and
+national government policies has been deployed in terms of continued extension of retirement
+age. Thus, women’s average pension age grew from 55 to 63 due to adoption of multiple
+gender laws and their amendments in less than a decade.
+Health financing inefficiencies become more obvious given the fact that aging society
+imposes stronger demand for medical goods and services. Domestic supply by Eastern
+European pharmaceutical manufacturing, used to be self-sufficient in communist era.
+Currently, most of the remaining factories were purchased by foreign capital investment,
+and do not satisfy the domestic needs. Medical equipment and drugs imports continue
+to diversify, and the drug bill rises alongside with these imports. These nations should
+develop far more advanced Health Technology Assessment capabilities. Administration of
+cost-effective resource allocation policies satisfies the unmet needs only to a certain extent.
+This is clearly visible in the case of childhood rare diseases and orphan drugs, whose moral
+justification grounds reimbursement of ultimately expensive therapeutic interventions.
+Furthermore, re-engineered social and pension insurance systems are inevitably necessary
+to tackle approaching deficiency of labor force and shrinking tax base of employees. Extended
+work age legislation policies and heavier tax burden have already been imposed
+in majority of these countries. Yet insufficiencies remain. How successful, timely and
+adaptive shall the approaching health policy reforms be, remains to be seen in the third
+decade of XXI century.
+Study Limitations
+This Review has adopted the structure of what is commonly described as picturesque
+review in economic sciences. It has not been conducted as the Cochrane-styled systematic
+review neither it fulfilled metanalytical approach. Yet it brings an important insights
+into the health policy landscape in these societies across long historical horizon of approximately
+three and half centuries. Authors made an ambitious attempt to understand
+and explain chain of events leading to the establishment and evolution of national health
+systems. In order to understand an uneasy nature of such work one should know that
+only Ottoman Empire (without including Russian and Habsburg Empires ruling these
+lands), dissolved in a total of forty modern day countries. Consecutively authors were
+forced to prioritize and shortlist large amount of literature evidence. Structure of analytical
+work and evidence synthesis have been carefully presented in a Table 1 shortlisting core
+bibliographic information of all used evidence.
+Further avenues for upgrading this research would primarily relate to the influence
+of Middle Eastern, South Asian and African migrations reshaping the ethnic habitat and
+socioeconomic milieu of traditional European communities. Additional exploration should
+particularly deal with the impact of 4.0 Industrial Revolution and approaching of affordable
+and effective robotics particularly in medical care of the elderly citizens and those
+suffering from dementia. The third field requiring joint efforts of interdisciplinary health
+sciences is the study of effects of Green Agenda on all of these evolutionary processes and
+Environmental reforms gradually taking place across the region.
+Sustainability 2021, 13, 11038 11 of 18
+Table 1. Evidence-bases stratification used during the preparation of this picturesque review article.
+No Academic Journal or Book Ed. Title Authors Citation/Bibliography
+1. Routledge; 2013.
+When economies change
+hands: A survey of
+entrepreneurship in the
+emerging markets of Europe
+from the Balkans to the Baltic
+States
+Dana L.P. 10.4324/9780203049013
+2. Cambridge: Cambridge University Press; 2009.
+From the Soviet bloc to the
+European Union: the
+economic and social
+transformation of Central and
+Eastern Europe since 1973.
+Berend I.T., Berend T.I. 10.1177/0265691411417598a
+3. Globalization and Health. 2018
+Population aging and
+migration–history and UN
+forecasts in the EU-28 and its
+east and south near
+neighborhood–one century
+perspective 1950–2050.
+Jakovljevic M.M., Netz Y.,
+Buttigieg S.C., Adany R.,
+Laaser U., Varjacic M.
+14(1): 1–6.
+4. Journal of Medical Economics. 2017
+Within the triangle of
+healthcare legacies:
+comparing the performance
+of South-Eastern European
+health systems.
+Jakovljevic M., Arsenijevic J.,
+Pavlova M., Verhaeghe N.,
+Laaser U., GrootW.
+20(5): 483–492.
+5. Sechenov University The University’s History.
+https://www.sechenov.ru/
+eng/about-msmu/history/
+(accessed on
+30 September 2021)
+6. Journal of Medical Biography. 2003
+Greek Professors of the
+Medical School of
+Constantinople during a
+Period of Reformation
+(1839–76).
+Trompoukis C., Lascaratos J. 11 (4): 226–231
+7. German Policy Studies (Politikfeldanalyse). 2009
+A long farewell to the
+Bismarck system: Incremental
+change in the German health
+insurance system. German
+Policy Studies
+(Politikfeldanalyse). 2009
+Gerlinger T., Schmucker R. 5(1)
+8. British Medical Journal. 2008 German health care: a bit of
+Bismarck plus more science. Sawicki P.T., Bastian H. 337: 142–1145
+9. Cambridge University Press; 2002.
+Demographic behavior in the
+past: A study of fourteen
+German village populations
+in the eighteenth and
+nineteenth centuries.
+Cambridge
+Knodel J. E. ISBN: 978-0521892810
+10. Economic History Review. 1992
+Agricultural productivity and
+European industrialization,
+1890–1980.
+O’Brien P.K., Prados L.,
+La Escosura D. 45: 514–536.
+11. Hist. Med. 2018
+To the biography of N.A.
+Semashko: The activities of
+the first Commissar of Health
+in 1920–1925.
+Arsentyev E.V.,
+Reshetnikov V.A. 3: 183–192.
+12. International Journal of Environmental Research
+and Public Health. 2019
+Analysis of the financing of
+Russian health care over the
+past 100 years.
+Reshetnikov V.,
+Arsentyev E.V., Bolevich S.,
+Timofeyev Y.V., Jakovljevi´c M.
+16(10): 1848
+13. Journal of Rural Studies. 2019
+The geography of poverty:
+Review and research
+prospects.
+Zhou Y., Yansui L.
+https://doi.org/10.1016/j.
+jrurstud.2019.01.008 (accessed
+on 30 September 2021)
+14. Social History of Medicine. 2020
+The Implementation of the
+Soviet Healthcare Model in
+‘People’s
+Democracy’Countries—the
+Case of Post-war Poland
+(1944–1953)
+Kozłowska U., Sikorski T.
+https://doi.org/10.1093/
+shm/hkaa047 (accessed on
+30 September 2021)
+15. Central Asian Survey. 2006
+The unfinished journey from
+Semashko to Bismarck: health
+reform in Central Asia from
+1991 to 2006.
+Borowitz M., Atun R. 25(4): 419–440.
+16. Demographic Research. 2004
+Fertility decisions in the FRG
+and GDR: An analysis with
+data from the German
+Fertility and Family Survey.
+Kreyenfeld M. 3: 275–318.
+Sustainability 2021, 13, 11038 12 of 18
+Table 1. Cont.
+No Academic Journal or Book Ed. Title Authors Citation/Bibliography
+17. The European Journal of Health Economics.
+2013
+Resource allocation strategies
+in Southeastern European
+health policy.
+Jakovljevic M.B. 14(2): 153–159
+18. InWorld health forum. 1994
+Between Beveridge and
+Bismarck: options for health
+care financing in Central and
+Eastern Europe.
+Cichon M., Normand C. 15(4): 323–328
+19. Bull World Health Organ. 2013
+Rocky road from the
+Semashko to a new health
+model.
+Sheiman I. 91: 320–321
+20. Frontiers in pharmacology. 2016
+The new and old Europe:
+east-west split in
+pharmaceutical spending.
+Jakovljevic M., Lazarevic M.,
+Milovanovic O., Kanjevac T. 7: 18
+21. Risk Management and Healthcare Policy. 2018
+The evolving Semashko
+model of primary health care:
+the case of the Russian
+Federation.
+Sheiman I., Shishkin S.,
+Shevsky V. 11: 209
+22. Bulletin of the National Research Institute of
+Public Health named after NA Semashko. 2015
+The possibility of using
+public-private partnership in
+the health care of penitentiary
+system personnel.
+Iljintsev E.V., Iljintseva E.O.,
+Vorobei S.V. 2.
+23. The European Journal of Health Economics.
+2013
+Resource allocation strategies
+in Southeastern European
+health policy.
+Jakovljevic M. B. 14(2): 153–159
+24. Providing Compassionate Healthcare:
+Challenges in Policy and Practice. 2014
+Report by Lord Beveridge of
+1942 advocating the creation
+of a NHS. Care Quality
+Council (CQC): Is an
+organization set up by the UK
+government to check whether
+hospitals, care homes and
+care services are meeting
+national standards.
+QC R.F. Beveridge Report 264
+25. Bulletin of the World Health Organization. 2000
+Health insurance: the
+influence of the Beveridge
+Report.
+Musgrove P. 78: 845–846
+26. Economic Affairs. 2008
+NHS as state failure: lessons
+from the reality of
+nationalised healthcare.
+Evans H. 28(4): 5–9
+27. Health Policy. 2015
+Private health care
+expenditure and quality in
+Beveridge systems:
+Cross-regional differences in
+the Italian NHS.
+Del Vecchio M., Fenech L.,
+Prenestini A. 119(3): 356–366
+28. British Journal of Healthcare Assistants. 2018 The NHS at 70.
+BJHCA Board Members,
+Grainger A., Mullen C.,
+Peate I., Nazarko L.,
+Jones M.L., Thomas V.
+12(7): 318–325
+29. Oxford University Press. 2010. The Silk Road in world
+history. Liu X. 70(04):1156–1157
+30. In Studies in Ottoman Naval History and
+Maritime Geography. Gorgias Press.
+2. Piri Reis and the Ottoman
+Discovery of the Great
+Discoveries.
+Soucek S. 2011: 41–56
+31. Agnus Madison Project
+https://www.rug.nl/ggdc/
+historicaldevelopment/
+maddison/?lang=en
+(accessed on
+30 September 2021).
+32. Globalization and Health. 2020
+Real GDP growth rates and
+healthcare
+spending–comparison
+between the G7 and the EM7
+countries.
+Jakovljevic M., Timofeyev Y.,
+Ranabhat C.L.,
+Fernandes P.O., Teixeira J.P.,
+Rancic N., Reshetnikov V.
+16(1): 1–13
+33. International Journal for Equity in Health. 2017
+Is the medical financial
+assistance program an
+effective supplement to social
+health insurance for
+low-income households in
+China? A cross-sectional
+study.
+Liu K., Jing Y., Chunling L. 16(1): 1–13
+34. Health Economics. 2017
+Evolving health expenditure
+landscape of the BRICS
+nations and projections to
+2025.
+Jakovljevic M., Potapchik E.,
+Popovich L., Barik D.,
+Getzen T.E.
+26(7): 844–852
+Sustainability 2021, 13, 11038 13 of 18
+Table 1. Cont.
+No Academic Journal or Book Ed. Title Authors Citation/Bibliography
+35. California Management Review. 2021
+Technological Leadership and
+5G Patent Portfolios: Guiding
+strategic policy formulation1
+and licensing decisions. 2020.
+Teece D. 63(3):5–34
+36. Long Range Planning. 2020
+Transformer in Navigation:
+Diverse Government Roles
+for Open Innovation in
+China’s High-speed Rail.
+Mei L., Zhang N.
+https://doi.org/10.1016/j.lrp.
+2020.102069 (accessed on
+30 September 2021)
+37. Actual problems of aviation and astronautics.
+2015
+Space exploration as one of
+the components of Russia’s
+economic growth.
+Oleinik A.A., Sidorov I.T. 2 (11)
+38. Springer Science & Business Media; 2007
+The rebirth of the Russian
+space program: 50 years after
+Sputnik, new frontiers.
+Harvey B. ISBN 978-0-387-71356-4
+39. Pozna´ n. 2011
+The American Space and the
+Russian Cosmos as 20th and
+21st century percepts of the
+universe in the light of
+selected aspects of their
+national and the global
+culture.
+Boczkowska K. DOI:10.13140/RG.2.2.24057.62569
+40. Trends and Development Prospects. 2015
+The potential of ecovillages in
+the socio-ecological
+modernization of modern
+Russia.
+Rybakova M.V. 10 (2)
+41. 10 Top Countries for Rare
+Earth Metal Production. 2021 Pistilli M.
+https://investingnews.com/
+daily/resource-investing/
+critical-metals-investing/
+rare-earth-investing/rareearth-
+metal-production/
+(accessed on
+25 September 2021)
+42. Belt and Road Initiative Quick Info Green Belt and Road
+Initiative Center
+https:
+//green-bri.org/belt-androad-
+initiative-quick-info/
+(accessed on
+20 September 2021)
+43. Journal of Business Economics and Management.
+2017
+Comparative analysis of the
+Eastern European countries
+as participants of the new silk
+road.
+Nazarko J.,
+Czerewacz-Filipowicz K.,
+Ku´zmicz K.A.
+18(6): 1212–1227
+44. Clingendael New Map of the Belt and
+Road Initiative. 2021
+from:
+https://www.clingendael.
+org/publication/new-mapbelt-
+and-road-initiative
+(accessed on
+21 September 2021)
+45. European Bank for Reconstruction and
+Development
+Chinas Belt and Road
+Initiative (BRI)
+https://www.ebrd.com/
+what-we-do/belt-and-road/
+overview.html (accessed on
+27 September 2021)
+46. Routledge, 2014. The Non-Aligned Movement
+and the ColdWar.
+Miskovic N., Fischer-Tiné H.,
+Boskovska N.
+https://www.routledge.com/
+The-Non-Aligned-
+Movement-and-the-Cold-
+War-Delhi---Bandung---
+Belgrade/Miskovic-Fischer-
+Tine-Boskovska/p/book/97
+80815373674 (accessed on
+17 September 2021)
+47.
+Countries in China’s Belt and
+Road Initiative: Who’s In
+And Who’s Out. 2011
+Sacks D.
+https://www.cfr.org/blog/
+countries-chinas-belt-androad-
+initiative-whos-andwhos-
+out (accessed on
+15 September 2021)
+48. Green Belt and Road Center Countries of the Belt and
+Road Initiative (BRI).
+https://green-bri.org/
+countries-of-the-belt-androad-
+initiative-bri (accessed
+on 5 September 2021)/
+49. UN DESA
+Jointly building the “Belt and
+Road” toward the Sustainable
+Development Goals
+https://www.un.org/en/
+desa/jointly-building-%E2
+%80%9Cbelt-and-road%E2%8
+0%9D-toward-sustainabledevelopment-
+goals (accessed
+on 17 September 2021)
+Sustainability 2021, 13, 11038 14 of 18
+Table 1. Cont.
+No Academic Journal or Book Ed. Title Authors Citation/Bibliography
+50. OBOREurope Greece and the new 17 + 1
+format. 2019
+https://www.oboreurope.
+com/en/greece-171-format/
+(accessed on
+23 September 2021)
+51. Lietuvos Bankas
+A Network of Fintech
+Coordinators under the 17 + 1
+Cooperation Format between
+Central and Eastern European
+Countries and China is
+Created in Lithuania. 2019
+https://www.lb.lt/en/news/
+a-network-of-fintechcoordinators-
+under-the-17-1
+-cooperation-format-betweencentral-
+and-easterneuropean-
+countries-andchina-
+is-created-in-lithuania
+(accessed on
+10 September 2021)
+52. European Journal of Cancer. 2009
+Bevacizumab in combination
+with paclitaxel for HER-2
+negative metastatic breast
+cancer: an economic
+evaluation.
+Dedes K.J., Matter-Walstra K.,
+Schwenkglenks M.,
+Pestalozzi B.C., Fink D.,
+Brauchli P., Szucs T.D
+45(8): 1397–1406
+53. Pharmacol. 2016
+The new and old Europe:
+east-west split in
+pharmaceutical spending.
+Jakovljevic M., Lazarevic M.,
+Milovanovic O., Kanjevac T.
+https://doi.org/10.3389/
+fphar.2016.00018 (accessed on
+11 September 2021)
+54. OBOREurope
+Montenegro’s debt dilemma:
+an opportunity to improve
+the BRI?
+https:
+//www.oboreurope.com/en/
+montenegro-debt-dilemma/
+(accessed on
+30 September 2021)
+55. OBOREurope China and the Kiribati
+airstrip. 2021
+https:
+//www.oboreurope.com/en/
+(accessed on
+20 September 2021)
+56. Understanding China‘s Belt
+and Road Initiative. Cai P.
+https:
+//www.lowyinstitute.org/
+publications/understandingbelt-
+and-road-initiative
+(accessed on
+30 September 2021).
+57. Habitat International. 2020
+China’s poverty alleviation
+resettlement: Progress,
+problems and solutions
+Yang, Y. De Sherbinin A.,
+Liu Y. 98, 102135
+58.
+Health Silk Road 2020: A
+Bridge to the Future of Health
+for All.
+Tilman H., Ye Y., Jian Y.
+https://papers.ssrn.com/sol3
+/papers.cfm?abstract_id=38
+30380 (accessed on
+30 September 2021).
+59. China Quarterly of International Strategic
+Studies. 2020
+Toward a Health Silk Road:
+China’s Proposal for Global
+Health Cooperation
+Cao J. 6(1): 19–35
+60. CMS A new view of the belt and
+road.
+https://cms.law/en/int/
+publication/belt-and-roadinitiative
+(accessed on
+30 September 2021)
+61. Backbone of the nation bears
+load. 2021 Yang H.
+https:
+//www.chinadaily.com.cn/a/
+202104/22/WS6080dde2a310
+24ad0bab98ea_3.html
+(accessed on
+30 September 2021).
+62. Scientia Geographica Sinica. 2020
+Modern human-earth
+relationship and human-earth
+system science
+Liu Y.S. 40(8): 1221–123
+63. Serbian Journal of Experimental and Clinical
+Research. 2014
+Health financing constrained
+by population aging: an
+opportunity to learn from
+Japanese experience.
+Ogura S., Jakovljevi´c M. 15(4): 175–181
+64. Frontiers in Public Health. 2018
+Global population
+aging-health care, social and
+economic consequences.
+Ogura S., Jakovljevic M. 6: 335
+65. Srpski Arhiv za Celokupno Lekarstvo. 2017 Population aging alongside
+health care spending growth Jakovljevi´c M. 145(9–10): 534–539
+66. SEEJPH. 2015
+Population aging from 1950
+to 2010 in seventeen
+transitional countries in the
+wider region of South Eastern
+Europe.
+Jakovljevic M., Ulrich L. 3
+Sustainability 2021, 13, 11038 15 of 18
+Table 1. Cont.
+No Academic Journal or Book Ed. Title Authors Citation/Bibliography
+67. Asymmetry and strategy: 371
+The migrant crisis in Europe
+as a security threat to the
+Republica of Serbia
+Kovaˇc M., Potkonjak-Luki´c B. ISBN 978-86-81121-17-7
+68. Globalization and health. 2018
+Population aging and
+migration–history and UN
+forecasts in the EU-28 and its
+east and south near
+neighborhood–one century
+perspective 1950–2050
+Jakovljevic M., Netz Y.,
+Buttigieg S.C., Adany R.,
+Laaser U., Varjacic M.
+14(1): 1–6
+69. Russia’s demographic crisis. 1996
+Fertility decline and recent
+changes in Russia: On the
+threshold of the second
+demographic transition.
+Zakharov S.V., Ivanova E.I. 36–83
+70. Global Journal of Business Research. 2011
+How corruption affects social
+expenditures: evidence from
+Russia
+Timofeyev Y. 5(4): 39–51
+71. Brookings Papers on Economic Activity. 2001
+An analysis of Russia’s 1998
+meltdown: Fundamentals
+and market signals
+Kharas H.J., Pinto B.,
+Ulatov S. 1–68
+72. Security Index: A Russian Journal on
+International Security. 2007
+Debating Russian
+Demographic Security:
+current trends and future
+trajectories
+Herd G.P., Sargsyan G. 13(2): 51–67
+73. Health Policy and Management. 2005
+Comparison of medical care
+cost between hospice care and
+conventional care in the last
+year of life
+Choi K. S., You C. H.,
+Lee K. H., Kim C. Y., Heo D. S.
+Yun, Y. H.
+15(2): 1–15
+74. Expert Review of Pharmacoeconomics &
+Outcomes Research. 2016
+Life expectancy and health
+expenditure evolution in
+Eastern Europe—DiD and
+DEA analysis
+Jakovljevic M.B., Vukovic M.,
+Fontanesi J. 16(4): 537–546
+75. Journal of medical economics. 2019
+Comparative financing
+analysis and political
+economy of
+noncommunicable diseases.
+Jakovljevic M., Jakab M.,
+Gerdtham U., McDaid D.,
+Ogura S., Varavikova E.,
+Merrick J., Adany R.,
+Okunade A., Getzen T.E.
+22(8): 722–727
+76. Oxford Development Studies. 2006
+Political and Economic
+Influences on the Health and
+Welfare of the Elderly in the
+USSR and Russia: 1955–2005
+Davis C.M. 34(4): 419–440
+77. Dementia. 2006
+Stigma and dementia: East
+European and South Asian
+family carers negotiating
+stigma in the UK
+Mackenzie J. 5(2): 233–247
+78. In Women’s Studies International Forum.
+Pergamon, 2001
+All my life is one big nursing
+home: Russian immigrant
+women in Israel speak about
+double caregiver stress
+Remennick L.I. 24(6): 685–700
+79. Journal of Economic Policy Reform. 2015
+An empirical test of the
+regional innovation paradox:
+can smart specialisation
+overcome the paradox in
+Central and Eastern Europe?
+Muscio A., Reid A.,
+Rivera L.L. 18(2): 153–171
+80. Globalization and Health. 2020
+Real GDP growth rates and
+healthcare
+spending–comparison
+between the G7 and the EM7
+countries
+Jakovljevic M., Timofeyev Y.,
+Ranabhat C.L.,
+Fernandes P.O., Teixeira J.P.,
+Rancic N., Reshetnikov V
+16(1): 1–13
+81. International journal of environmental research
+and public health. 2019
+Underlying differences in
+health spending within the
+World Health Organisation
+Europe Region—comparing
+EU15, EU post-2004, CIS, EU
+candidate, and
+CARINFONET countries.
+Jakovljevic M.,
+Fernandes P.O., Teixeira J.P.,
+Rancic N., Timofeyev Y.,
+Reshetnikov V.
+16(17): 30–43
+82. International Journal of Sustainable
+Development & World Ecology. 2010
+A study of a sustainable
+greenway approach for a part
+of the Silk Road in Turkey.
+Kurdoglu B. C., Yalcinalp E.,
+Var M. 17(6): 515–528
+83. Risk Management and Healthcare Policy. 2020
+Predictors of (in) efficiencies
+of Healthcare Expenditure
+Among the Leading Asian
+Economies–Comparison of
+OECD and Non-OECD
+Nations.
+Jakovljevic M., Sugahara T.,
+Timofeyev Y., Rancic N 13: 2261
+Sustainability 2021, 13, 11038 16 of 18
+Author Contributions: Corresponding author M.J. defined the core research questions and synthesized
+evidence serving as the grounds for this review. M.J., A.A.C., Y.L., L.G., Y.T., K.K. and J.F. jointly
+conceived the manuscript, contributing to its multiple revisions for important intellectual content.
+All authors fulfilled ICMJE conditions for full authorship. All authors have read and agreed to the
+published version of the manuscript.
+Funding: Serbian part of this Lancet Europe contribution was co-funded through grant OI 175014 of
+the Ministry of Education Science and Technological Development of the Republic of Serbia.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Conflicts of Interest: None applicable on behalf of all the authors involved.
+References
+1. Dana, L.P. When Economies Change Hands: A Survey of Entrepreneurship in the Emerging Markets of Europe from the Balkans to the Baltic
+States; Routledge: Abingdon on Thames, UK, 2013.
+2. Berend, I.T. From the Soviet Bloc to the European Union: The Economic and Social Transformation of Central and Eastern Europe Since
+1973; Cambridge University Press: Cambridge, UK, 2009.
+3. Jakovljevic,M.M.; Netz, Y.; Buttigieg, S.C.; Adany, R.; Laaser, U.; Varjacic,M. Population aging andmigration—History and UNforecasts
+in the EU-28 and its east and south near neighborhood–one century perspective 1950–2050. Glob. Health 2018, 14, 1–6. [CrossRef]
+4. Jakovljevic, M.; Arsenijevic, J.; Pavlova, M.; Verhaeghe, N.; Laaser, U.; Groot, W. Within the triangle of healthcare legacies:
+Comparing the performance of South-Eastern European health systems. J. Med. Econ. 2017, 20, 483–492. [CrossRef] [PubMed]
+5. Sechenov University. Sechenov University History of the First and the Oldest Medical School in Russia. Available online:
+https://www.sechenov.ru/eng/about-msmu/history/ (accessed on 30 September 2021).
+6. Trompoukis, C.; Lascaratos, J. Greek professors of the Medical School of Constantinople during a period of reformation (1839–76).
+J. Med. Biogr. 2003, 11, 226–231. [CrossRef] [PubMed]
+7. Gerlinger, T.; Schmucker, R. A Long Farewell to the Bismarck System: Incremental Change in the German Health Insurance
+System. German Policy Studies (Politikfeldanalyse). Available online: https://www.researchgate.net/profile/Rolf_Schmucker/
+publication/266582772_A_Long_Farewell_to_the_Bismarck_System_Incremental_Change_in_the_German_Health_Insurance_
+System/links/5537accc0cf2058efdead2a0.pdf (accessed on 30 September 2021).
+8. The Irish Times. NoWashing Our Hands of the Austro-Hungarian Legacy. 2017. Available online: https://www.irishtimes.com/lifeand-
+style/health-family/no-washing-our-hands-of-the-austro-hungarian-legacy-1.3194555 (accessed on 30 September 2021).
+9. Kidd, M.; Modlin, I.M. Van Swieten and the renaissance of the Vienna Medical School. World J. Surg. 2001, 25, 444–450. [CrossRef]
+10. Sawicki, P.T.; Bastian, H. German health care: A bit of Bismarck plusmore science. Br. Med. J. 2008, 337, a1997. [CrossRef] [PubMed]
+11. Knodel, J.E. Demographic Behavior in the Past: A Study of Fourteen German Village Populations in the Eighteenth and Nineteenth
+Centuries; Cambridge University Press: Cambridge, UK, 2002.
+12. O’Brien, P.K.; Prados, L.; La Escosura, D. Agricultural Productivity and European Industrialization, 1890–1980. Econ. Hist. Rev.
+1992, 45, 514. [CrossRef]
+13. Arsentyev, E.V.; Reshetnikov, V.A. To the biography of N.A. Semashko: The activities of the first Commissar of Health in
+1920–1925. Hist. Med. 2018, 3, 183–192.
+14. Evans, H. NHS as state failure: Lessons from the reality of nationalised healthcare. Econ. Aff. 2008, 28, 5–9. [CrossRef]
+15. Del Vecchio, M.; Fenech, L.; Prenestini, A. Private health care expenditure and quality in Beveridge systems: Cross-regional
+differences in the Italian NHS. Health Policy 2015, 119, 356–366. [CrossRef]
+16. BJHCA Board Members; Grainger, A.; Mullen, C.; Peate, I.; Nazarko, L.; Jones, M.L.; Thomas, V. The NHS at 70.
+Br. J. Healthc. Assist. 2018, 12, 318–325. [CrossRef]
+17. Liu, X. The Silk Road in World History; Oxford University Press: Oxford, UK, 2010.
+18. Soucek, S. Piri Reis and Ottoman Discovery of the Great Discoveries. In Studies in Ottoman Naval History and Maritime Geography;
+Gorgias Press: Piscataway, NJ, USA, 2011; pp. 41–56.
+19. Reshetnikov, V.; Arsentyev, E.; Bolevich, S.; Timofeyev, Y.; Jakovljevi´c, M. Analysis of the Financing of Russian Health Care over
+the Past 100 Years. Int. J. Environ. Res. Public Health 2019, 16, 1848. [CrossRef]
+20. Zhou, Y.; Liu, Y. The geography of poverty: Review and research prospects. J. Rural Stud. 2019, in press. Available online:
+https://www.sciencedirect.com/science/article/abs/pii/S0743016718303899 (accessed on 30 September 2021). [CrossRef]
+21. Kozłowska, U.; Sikorski, T. The Implementation of the Soviet Healthcare Model in ‘People’s Democracy’ Countries—The Case of
+Post-war Poland (1944–1953). Soc. Hist. Med. 2020, hkaa047. [CrossRef]
+22. Borowitz, M.; Atun, R. The unfinished journey from Semashko to Bismarck: Health reform in Central Asia from 1991 to 2006.
+Cent. Asian Surv. 2006, 25, 419–440. [CrossRef]
+23. Kreyenfeld, M. Fertility Decisions in the FRG and GDR: An Analysis with Data from the German Fertility and Family Survey.
+Demogr. Res. Spec. Collect. 2004, 3, 275–318. [CrossRef]
+24. Jakovljevic,M.B. Resource allocation strategies in Southeastern European health policy. Eur. J. Health Econ. 2012, 14, 153–159. [CrossRef]
+Sustainability 2021, 13, 11038 17 of 18
+25. Cichon, M.; Normand, C. Between Beveridge and Bismarck—Options for health care financing in central and eastern Europe.
+World Health Forum 1994, 15, 323–328.
+26. Sheiman, I. Rocky road from the Semashko to a new health model. Bull. World Health Organ. 2013, 91, 320–321. [PubMed]
+27. Jakovljevic, M.; Lazarevic, M.; Milovanovic, O.; Kanjevac, T. The New and Old Europe: East-West Split in Pharmaceutical
+Spending. Front. Pharmacol. 2016, 7, 18. [CrossRef]
+28. Sheiman, I.; Shishkin, S.; Shevsky, V. The evolving Semashko model of primary health care: The case of the Russian Federation.
+Risk Manag. Healthc. Policy 2018, 11, 209–220. [CrossRef] [PubMed]
+29. Iljintsev, E.V.; Iljintseva, E.O.; Vorobei, S.V. The Possibility of Using Public-Private Partnership in the Health Care of Peni-Tentiary
+System Personnel. Bulletin of the National Research Institute of Public Health Named after NA Semashko. Available online:
+https://cyberleninka.ru/article/n/the-possibility-of-using-public-private-partnership-in-the-health-care-of-penitentiarysystem-
+personnel/viewer (accessed on 30 September 2021).
+30. Shea, S.;Wynyard, R.; Lionis, C. Beveridge Report: Report by Lord Beveridge of 1942 Advocating the Creation of a NHS. Care
+Quality Council (CQC): Is an Organization Set Up By the UK Government to Check Whether Hospitals, Care Homes and Care
+Services Are Meeting National Standards. In Providing Compassionate Healthcare: Challenges in Policy and Practice; Routledge:
+London, UK, 2014; p. 264.
+31. Musgrove, P. Health insurance: The influence of the Beveridge Report. Bull. World Health Organ. 2000, 78, 845–846.
+32. Agnus Madison Project. Available online: https://www.rug.nl/ggdc/historicaldevelopment/maddison/?lang=en (accessed on
+30 September 2021).
+33. Jakovljevic, M.; Timofeyev, Y.; Ranabhat, C.L.; Fernandes, P.O.; Teixeira, J.P.; Rancic, N.; Reshetnikov, V. Real GDP growth rates
+and healthcare spending—Comparison between the G7 and the EM7 countries. Glob. Health 2020, 16, 1–13. [CrossRef]
+34. Liu, K.; Jing, Y.; Chunling, L. Is the medical financial assistance program an effective supplement to social health insurance for
+low-income households in China? A cross-sectional study. Int. J. Equity Health 2017, 16, 1–13. [CrossRef]
+35. Jakovljevic, M.; Potapchik, E.; Popovich, L.; Barik, D.; Getzen, T.E. Evolving Health Expenditure Landscape of the BRICS Nations
+and Projections to 2025. Health Econ. 2016, 26, 844–852. [CrossRef]
+36. Teece, D. Technological Leadership and 5G Patent Portfolios: Guiding Strategic Policy and Licensing Decisions. Calif. Manag. Rev.
+2021, 63, 5–34. [CrossRef]
+37. Mei, L.; Zhang, N. Transformer in navigation: Diverse government roles for open innovation in China’s high-speed rail.
+Long Range Plan. 2020, in press. [CrossRef]
+38. Oleinik, A.A.; Sidorov, I.T. Space exploration as one of the components of Russia’s economic growth. Actual Probl. Aviat. Astronaut.
+2015, 2, 11.
+39. Harvey, B. The Rebirth of the Russian Space Program: 50 Years After Sputnik, New Frontiers; Springer Science & Business Media:
+Berlin/Heidelberg, Germany, 2007.
+40. Boczkowska, K. The American Space and the Russian Cosmos as 20th and 21st Century Percepts of the Universe in the Light of
+Selected Aspects of Their National and the Global Culture. 2011. Available online: https://www.academia.edu/download/5996
+7283/MA_ifa20190709-103507-u62ut2.pdf (accessed on 30 September 2021).
+41. Rybakova,M.V. The potential of ecovillages in the socio-ecologicalmodernization ofmodern Russia. Trends Dev. Prospects. 2015, 10, 2.
+42. Pistilli, M. 10 Top Countries for Rare Earth Metal Production. 2021. Available online: https://investingnews.com/daily/resourceinvesting/
+critical-metals-investing/rare-earth-investing/rare-earth-metal-production/ (accessed on 30 September 2021).
+43. Green Belt and Road Initiative Center. Belt and Road Initiative Quick Info. Available online: https://green-bri.org/belt-androad-
+initiative-quick-info/ (accessed on 30 September 2021).
+44. Nazarko, J.; Czerewacz-Filipowicz, K.; Kuzmicz, K. Comparative analysis of the eastern European countries as participants of the
+new silk road. J. Bus. Econ. Manag. 2017, 18, 1212–1227. [CrossRef]
+45. Clingendael. New Map of the Belt and Road Initiative. 2021. Available online: https://www.clingendael.org/publication/newmap-
+belt-and-road-initiative (accessed on 30 September 2021).
+46. European Bank for Reconstruction and Development. China’s Belt and Road Initiative (BRI). Available online: https://www.
+ebrd.com/what-we-do/belt-and-road/overview.html (accessed on 11 May 2021).
+47. Miskovic, N.; Fischer-Tiné, H.; Boskovska, N. The Non-Aligned Movement and the Cold War; Routledge: Abingdon on Thames,
+UK, 2014; Available online: https://www.routledge.com/The-Non-Aligned-Movement-and-the-Cold-War-Delhi---Bandung---
+Belgrade/Miskovic-Fischer-Tine-Boskovska/p/book/9780815373674 (accessed on 30 September 2021).
+48. Sacks, D. Countries in China’s Belt and Road Initiative: Who’s in and Who’s Out. 2011. Available online: https://www.cfr.org/
+blog/countries-chinas-belt-and-road-initiative-whos-and-whos-out (accessed on 30 September 2021).
+49. Green Belt and Road Center. Countries of the Belt and Road Initiative (BRI). Available online: https://green-bri.org/countriesof-
+the-belt-and-road-initiative-bri/ (accessed on 30 September 2021).
+50. UN DESA. Jointly Building the “Belt and Road” towards the Sustainable Development Goals. Available online: https://www.un.org/en/
+desa/jointly-building-%E2%80%9Cbelt-and-road%E2%80%9D-towards-sustainable-development-goals (accessed on 30 September 2021).
+51. OBOREurope. Greece and the New 17 + 1 Format. 2019. Available online: https://www.oboreurope.com/en/greece-171-format/
+(accessed on 30 September 2021).
+52. Lietuvos Bankas. A Network of Fintech Coordinators under the 17 + 1 Cooperation Format between Central and Eastern
+European Countries and China is Created in Lithuania. 2019. Available online: https://www.lb.lt/en/news/a-networkSustainability
+2021, 13, 11038 18 of 18
+of-fintech-coordinators-under-the-17-1-cooperation-format-between-central-and-eastern-european-countries-and-china-iscreated-
+in-lithuania (accessed on 30 September 2021).
+53. Dedes, K.J.;Matter-Walstra, K.; Schwenkglenks,M.; Pestalozzi, B.C.; Fink, D.; Brauchli, P.; Szucs, T.D. Bevacizumab in com-bination with
+paclitaxel for HER-2 negativemetastatic breast cancer: An economic evaluation. Eur. J. Cancer 2009, 45, 1397–1406. [CrossRef]
+54. OBOREurope. Montenegro’s Debt Dilemma: An Opportunity to Improve the BRI? 2021. Available online: https://www.
+oboreurope.com/en/montenegro-debt-dilemma/ (accessed on 30 September 2021).
+55. OBOREurope. China andtheKiribatiAirstrip. 2021. Available online: https://www.oboreurope.com/en/(accessed on 30 September 2021).
+56. Cai, P. Understanding China’s Belt and Road Initiative. 2017. Available online: https://www.lowyinstitute.org/publications/
+understanding-belt-and-road-initiative (accessed on 30 September 2021).
+57. The State Council The People’s Republic of China.Available online: http://www.gov.cn/zhengce/2021-04/06/content_5597952.htm
+(accessed on 30 September 2021).
+58. Yang, Y.; De Sherbinin, A.; Liu, Y. China’s Poverty Alleviation Resettlement: Progress, Problems and Solutions. Habitat Internatl.
+2020, 98, 102135. [CrossRef]
+59. Tilman, H.; Ye, Y.; Jian, Y. Health Silk Road 2020: A Bridge to the Future of Health for All. 2021. Available online:
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3830380 (accessed on 30 September 2021).
+60. Cao, J. Toward a Health Silk Road: China’s Proposal for Global Health Cooperation. China Q. Int. Strateg. Stud. 2020, 6, 19–35. [CrossRef]
+61. CMS. A New View of the Belt and Road. Available online: https://cms.law/en/int/publication/belt-and-road-initiative
+(accessed on 30 September 2021).
+62. Yang, H. Backbone of the Nation Bears Load. 2021. Available online: https://www.chinadaily.com.cn/a/202104/22/WS608
+0dde2a31024ad0bab98ea_3.html (accessed on 30 September 2021).
+63. Liu, Y.S. Modern human-earth relationship and human-earth system science. Sci. Geogr. Sin. 2020, 40, 1221–1234.
+64. Ogura, S.; Jakovljevi´c, M. Health financing constrained by population aging: An opportunity to learn from Japanese expe-rience.
+Serb. J. Exp. Clin. Res. 2014, 15, 175–181. [CrossRef]
+65. Ogura, S.; Jakovljevic,M. Global population aging-health care, social and economic consequences. Front. Public Health 2018, 6, 335. [CrossRef]
+66. Jakovljevic, M. Population ageing alongside health care spending growth. Srp. Arh. Celok. Lek. 2017, 145, 534–539. [CrossRef]
+67. Jakovljevic, M.; Ulrich, L. Population aging from 1950 to 2010 in seventeen transitional countries in the wider region of South
+Eastern Europe. South East. Eur. J. Public Health 2015, 3. [CrossRef]
+68. Kovaˇc, M.; Potkonjak-Luki´c, B. The migrant crisis in Europe as a security threat to the Republica of Serbia. In Asymmetry and
+Strategy; Strategic Research Institute: Belgrade, Serbia, 2018; pp. 371–387. ISBN 978-86-81121-17-7.
+69. Zakharov, S.V.; Ivanova, E.I. Fertility Decline and Recent Changes in Russia: On the Threshold of the Second Demographic
+Transition. In Russia’s Demographic Crisis; RAND: Santa Monica, CA, USA, 1996; pp. 36–83.
+70. Timofeyev, Y. How corruption affects social expenditures: Evidence from Russia. Glob. J. Bus. Res. 2011, 5, 39–51.
+71. OurWorld in Data. Fertility Rate. 2021. Available online: https://ourworldindata.org/fertility-rate (accessed on 30 September 2021).
+72. Kharas, H.J.; Pinto, B.; Ulatov, S. An analysis of Russia’s 1998 meltdown: Fundamentals and market signals. Brook. Pap. Econ. Act.
+2001, 1, 1–68. [CrossRef]
+73. Herd, G.P.; Sargsyan, G. Debating Russian Demographic Security: Current Trends and Future Trajectories. Secur. Index: A Russ. J.
+Int. Secur. 2007, 13, 51–67. [CrossRef]
+74. Choi, K.S.; You, C.H.; Lee, K.H.; Kim, C.Y.; Heo, D.S.; Yun, Y.H. Comparison of medical care cost between hospice care and
+conventional care in the last year of life. Health Policy Manag. 2005, 15, 1–15.
+75. Jakovljevic, M.B.; Vukovic, M.; Fontanesi, J. Life expectancy and health expenditure evolution in Eastern Europe—DiD and DEA
+analysis. Expert Rev. Pharmacoecon. Outcomes Res. 2015, 16, 537–546. [CrossRef]
+76. Jakovljevic,M.; Jakab,M.; Gerdtham, U.-G.;McDaid, D.; Ogura, S.; Varavikova, E.;Merrick, J.; Adany, R.; Okunade, A.; Getzen, T.E.
+Comparative financing analysis and political economy of noncommunicable diseases. J.Med. Econ. 2019, 22, 722–727. [CrossRef]
+77. Davis, C.M. Political and Economic Influences on the Health and Welfare of the Elderly in the USSR and Russia: 1955–2005.
+Oxf. Dev. Stud. 2006, 34, 419–440. [CrossRef]
+78. Mackenzie, J. Stigma and dementia: East European and South Asian family carers negotiating stigma in the UK. Dementia
+2006, 5, 233–247. [CrossRef]
+79. Remennick, L.I. “All my life is one big nursing home”: Russian immigrant women in Israel speak about double caregiver stress.
+Women’s Stud. Int. Forum 2001, 24, 685–700. [CrossRef]
+80. Muscio, A.; Reid, A.; Leon, L.R. An empirical test of the regional innovation paradox: Can smart specialisation overcome the
+paradox in Central and Eastern Europe? J. Econ. Policy Reform 2014, 18, 153–171. [CrossRef]
+81. Jakovljevic, M.; Fernandes, P.O.; Teixeira, J.P.; Rancic, N.; Timofeyev, Y.; Reshetnikov, V. Underlying differences in health spending
+within the World Health Organisation Europe Region—Comparing EU15, EU post-2004, CIS, EU candidate, and CARINFONET
+countries. Int. J. Environ. Res. Public Health 2019, 16, 3043. [CrossRef]
+82. Kurdoglu, B.C.; Yalcinalp, E.; Var, M. A study of a sustainable greenway approach for a part of the Silk Road in Turkey. Int. J.
+Sustain. Dev. World Ecol. 2010, 17, 515–528. [CrossRef]
+83. Jakovljevic, M.; Sugahara, T.; Timofeyev, Y.; Rancic, N. Predictors of (in)efficiencies of Healthcare Expenditure Among the Leading
+Asian Economies—Comparison of OECD and Non-OECD Nations. Risk Manag. Healthc. Policy 2020, 13, 2261–2280. [CrossRef]
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.
