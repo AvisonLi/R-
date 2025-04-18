@@ -101,7 +101,6 @@ if ("tfidf" %in% colnames(debug_data)) {
     mutate(year = as.integer(year))  
 
 
-  print("Debug: theme_article_counts 数据")
   print(head(theme_article_counts))
 
   custom_theme <- theme(
@@ -128,7 +127,7 @@ if ("tfidf" %in% colnames(debug_data)) {
       x = "Year",
       y = "Keyword Count"
     ) +
-    theme_minimal() +
+     theme_minimal()+ custom_theme + 
     theme(
       plot.title = element_text(face = "bold"),
       legend.title = element_blank()  
@@ -170,7 +169,7 @@ if ("tfidf" %in% colnames(debug_data)) {
       x = "Year",
       y = "Total Keyword Count"
     ) +
-    theme_minimal() +
+     theme_minimal()+ custom_theme +
     theme(
       plot.title = element_text(face = "bold")
     )
@@ -271,5 +270,5 @@ solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), 
 print(solutions_plot)
 ggsave("solutions_keywords_bar_chart.png", plot = solutions_plot, width = 12, height = 6, dpi = 300)
 } else {
-  stop("Error: tfidf 列未正确合并，请检查 doc_id 和 file 的匹配！")
+  stop("Error: tfidf not cprrect doc_id and file")
 }

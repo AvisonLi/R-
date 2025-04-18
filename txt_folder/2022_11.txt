@@ -1,0 +1,896 @@
+https://doi.org/10.20965/jaciii.2022.p0631
+Paper:
+Influence of China’s Population Aging on
+Household Consumption – Based on the Data from
+China Family Panel Studies
+Lizhen Chen∗ and Xindong Zhao∗∗,†
+∗School of Economics and Finance, Huaqiao University
+No.269, Chenghua North Road, Quanzhou, Fujian 362021, China
+E-mail: 962902698@qq.com
+∗∗Institute of Quantitative Economics, Huaqiao University
+No.668, Jimei Avenue, Xiamen, Fujian 361021, China
+E-mail: xzhao@hqu.edu.cn
+†Corresponding author
+[Received January 25, 2022; accepted May 20, 2022]
+Based on the China Family Panel Studies (CFPS2016)
+data, this study empirically tests the impact of population
+aging on household consumption. The results
+show that population aging promotes the basic living
+consumption expenditure of most households and
+inhibits the enjoyment or development consumption
+expenditure of most households. At the same time,
+low-level consumer families are more affected by population
+aging and income than high-level consumer
+families. Moreover, the impact of population aging
+on developmental consumption varies among families
+with different income levels, especially in medical and
+health expenditures. The higher the family income
+level, the smaller the impact. Finally, this study puts
+forward suggestions such as improving the social security
+mechanism, improving the level of education,
+releasing the consumption potential of the elderly, improving
+the consumption level, and promoting consumption
+upgrading.
+Keywords: aging population, household consumption,
+China Family Panel Studies
+1. Introduction and Literature Review
+Consumption is the main driving force for sustained
+economic growth. Encouraging and promoting residents’
+consumption is an important measure to develop the “internal
+circulation” of the economy. According to the data
+from the National Bureau of Statistics, the Engel coefficient
+of Chinese residents in 2017 was 29.3%, which
+was lower than 30% for the first time, and entered the
+rich range of 20%–30% as defined by the United Nations,
+which was a decrease of 34.6% compared with
+1978 (63.9%). The consumption structure of residents has
+changed. Traditional basic living consumption has gradually
+transitioned to enjoyment and development consumption.
+Simultaneously, China’s population structure
+is also changing. By 2020, China’s population aged 65
+and above reached more than 190 million, accounting for
+13.5% of the total population. Compared with the 7%
+that officially entered the aging society in 2000, it has
+increased by 6.5%, and China’s population aging rate is
+evident. The age of consumers is a key factor in determining
+the consumption structure (R. Mao and J. Xu [1]).
+Thus the questions arise: “Is the change in consumption
+structure related to the increasingly severe phenomenon of
+population aging?,” “What impact will population aging
+have on household consumption?,” and “Will population
+aging promote the upgrading of household consumption
+structures?” Under the current irreversible trend of population
+aging, answering these questions will help provide
+suggestions for improving and optimizing the household
+consumption structure, thereby improving the level of residents’
+consumption, which is of great practical significance
+to promoting sustainable growth of China’s economy.
+There is no consensus on the relationship between population
+aging and consumption. It can be mainly divided
+into the following categories: population aging is not
+conducive to the improvement of residents’ consumption
+rates (C.Wang and Y. Du [2]; H. Pan and J. Tang [3]), and
+population aging has a positive effect on residents’ consumption
+rate (X. Yi and Q. Jian [4]; Y. Huang et al. [5];
+Y.Wang and H. Zhou [6]), the impact of population aging
+on residents’ consumption is dynamic (Y. Aksoy et al. [7];
+X. Zang and X. Li [8]; P. Liu et al. [9]; H. Jin and Y.
+Li [10]), and the effect of population aging on residents’
+consumption is not significant (W. Li et al. [11]; K. Li
+et al. [12]). Some scholars study the influencing factors
+of consumption. For example, X. Zhao and L. Li [13]
+found that the education level of the household head and
+the number of children in the family positively impact
+consumption and significantly impact low-income households.
+The age of the household head, the health status
+of the household head, and the household size have a sig-
+Vol.26 No.4, 2022 Journal of Advanced Computational Intelligence and Intelligent Informatics 631
+© Fuji Technology Press Ltd. Creative Commons CC BY-ND: This is an Open Access article distributed under the terms of
+the Creative Commons Attribution-NoDerivatives 4.0 InternationalLicense (https://creativecommons.org/licenses/by-nd/4.0/)
+Chen, L. and Zhao, X.
+nificant impact on household consumption. F. Wang and
+L. Huang [14] found that family characteristics are significantly
+related to family consumption choices, and the
+family characteristics possessed by residents have obvious
+consumption preferences. L. Sheng et al. [15] found
+that population aging negatively impacts average household
+consumption, and urbanization and residents’ education
+level significantly positively impact the average
+household consumption rate.
+Through the research literature, it can be found that
+scholars have obtained many important and enlightening
+conclusions based on the research of macro or micro data.
+Few studies examine the internal changes in household
+consumption structure at the micro level. The scant literature
+focusing on this aspect mainly select provincial-level
+data. Examining the impact of population aging on household
+consumption from the micro level will help us grasp
+the general direction of household consumption structure
+changes and suggest improving consumption structure
+and optimizing consumption upgrades. Thus, this study
+analyzes the mechanism’s relationship between population
+aging and consumption structure. Moreover, it conducts
+an empirical test based on the data of China Family
+Panel Studies (CFPS2016).
+2. Analysis of Theoretical Mechanism
+Due to differences in consumption quantity, consumption
+habits, and consumption structure of different age
+groups (R. Mao and J. Xu [1]), the impact of population
+aging on household consumption can be summed up as
+follows:
+(1) Basic living expenses, which include food, clothing,
+housing, and transportation expenses: The consumption
+habits and consumption patterns of different age
+groups are quite different. Accordingly, with the
+population aging, the household consumption structure
+will also change. In terms of food, on the one
+hand, the elderly tend to have lighter tastes, which
+reduces food consumption expenditure. On the other
+hand, the elderly stay longer at home, hence the
+number of meals at home also increases, which increases
+food consumption. In terms of clothing, the
+elderly prefer simplicity, and the elderly are retired
+and unemployed at home, reducing the requirements
+for dress. Therefore, as the population ages, clothing
+consumption will gradually decrease. Regarding
+housing, the elderly usually purchase a house
+when they are young and middle-aged and generally
+have to pay off their mortgage before retirement,
+thus significantly reducing housing consumption. In
+terms of transportation and communication, on the
+one hand, the physical quality of the elderly declines
+and the scope of activities is reduced; on the other
+hand, after retirement, the social life circle becomes
+narrower, so the consumption of transportation and
+communication will also decrease.
+(2) Cultural and educational entertainment: With the
+continuous development of the social economy and
+the continuous improvement of people’s living standards,
+residents’ consumption has become more diversified.
+Gradually, basic living consumption can
+no longer meet people’s needs. People are beginning
+to pursue high-quality lifestyles. Therefore, the
+demand for cultural, educational, and entertainment
+consumption gradually increases. The population’s
+aging is intensifying. On the one hand, the elderly
+are retired and unemployed at home, therefore, in
+order to get rid of the state of doing nothing, they
+generally enrich their elderly lives through activities,
+such as reading, leisure, and vacation travel, which
+improves the consumption of culture, education, and
+entertainment. On the other hand, the consumption
+habits of the elderly are more conservative and difficult
+to change, and their social circle is narrow,
+which reduces their consumption of entertainment
+services related to social interaction. Therefore, the
+impact of population aging on cultural, educational,
+and entertainment consumption needs to be further
+verified.
+(3) Healthcare: With the population aging, the physical
+conditions and physical functions of the elderly are
+declining, and the demand for medical treatment, hygiene,
+and health care increases. Therefore, population
+aging will drive up healthcare consumption.
+(4) Other consumption: Due to the strict implementation
+of the family planning policy, more and more families
+in our country have a “four-two-one” structure
+(Y. Wang [16]). As a result, these families’ demand
+for social elderly care services has increased. The
+demand for social services, such as elderly family
+nannies, elderly nursing services, and elderly housekeeping
+services has gradually increased. It can be
+observed that with the continuous aging of the age
+structure of the population, the demand for elderly
+services in the whole society will increase, and the
+elderly health care industry, elderly mental health
+counseling, and elderly home service industries related
+to the elderly will increase rapidly. Therefore,
+population aging will inevitably increase the demand
+for the elderly service industry, and the proportion
+of consumption for elderly services in household expenditure
+will also increase.
+Based on the above analysis, this study proposes the
+following assumptions:
+Hypothesis 1: Population aging reduces the consumption
+expenditure of the entire society in
+terms of clothing, food, housing, and
+transportation. Population aging helps the
+consumption structure to change from the
+traditional survival type to the enjoyment
+or development type consumption structure.
+632 Journal of Advanced Computational Intelligence Vol.26 No.4, 2022
+and Intelligent Informatics
+Influence of China’s Population Aging on Household Consumption
+Hypothesis 2: Population aging increases the consumption
+of health care in whole society,
+and the impact of population aging on
+culture, education, entertainment, transportation,
+and communication consumption
+has both positive and negative effects.
+3. Model Establishment and Data Description
+3.1. Model Establishment and Estimation Method
+According to the above analysis and mechanism analysis,
+we examine whether the aging of the population will
+impact household consumption expenditure. First, is this
+study consumption expenditure affected by the elderly?
+Here, the dummy variable old of the elderly is set (the
+family with the elderly is set to 1, and the family without
+the elderly is set to 0), and the regression equation is as
+follows:
+ci = α0+α1oldi+δ Xi+εi . . . . . . . . (1)
+where, ci represents the i-th family’s consumption details,
+such as food, water and electricity, transportation, and education
+expenses; X are other control variables, including
+the sex of the head of the household, the highest education
+level of the family, the health status of the head of
+the household, the size of the family, and the household
+registration, among others.
+Second, in addition to the factors of population aging,
+this study further analyzes other factors that affect
+household consumption. While considering the differences
+in the influencing factors of household consumption
+at different consumption levels, this study uses quantile
+and semi-parametric regression models for analysis. The
+quantile model is represented as follows:
+cq(xi) =βqaodi+φqzi +μi . . . . . . . . (2)
+where, aod is the proportion of the family aged 65 and
+above in the total family population, and z is the control
+variable, including income, the highest education level of
+the family, the health status of the head of household, and
+family size, among others.
+At this time βq is the “q-quantile regression coefficient,”
+and the following minimization problem can be
+defined by its estimator:
+min
+βq
+n
+Σ
+i:yi≥x′iβq
+q
+
+yi−x′iβq
+
++
+n
+Σ
+i:yi<x′iβq
+(1−q)
+
+yi−x′iβq
+
+(3)
+If q = 1/2, then it is the median regression. At this
+time, the objective function is simplified as follows:
+min
+βq
+n
+Σi
+
+yi−x′iβq
+
+. . . . . . . . . . . . (4)
+Since the objective function of quantile regression contains
+an absolute value and is not differentiable, it usually
+calculates ˆβ
+q by linear programming. It can be
+proved that the sample quantile regression coefficient ˆβ
+q
+is a consistent estimator of the overall quantile regression
+coefficient βq, and ˆβ
+q obeys an asymptotic normal
+distribution, that is: √n(ˆβ
+q − βq) d −→ N(0,Avar(ˆβq)),
+where, the asymptotic variance Avar(ˆβq) = A−1BA−1,
+A ≡ plimn→∞ 1/nΣn
+i=1 fuq (0|xi)xix′i, B ≡ plimn→∞ 1/n
+Σn
+i=1 q(1 − q)xix′i. fuq (0|xi) is the conditional density
+function of the disturbance term uq ≡ y−x′βq at the value
+of uq = 0.
+The semi-parametric model can be expressed as:
+yi = x′iβ +g(zi)+εi . . . . . . . . . . . (5)
+among them, the parameter part x′iβ is a linear function,
+and the non-parameter part g(zi) is an unknown function.
+Assume that the mean value of the disturbance term εi is
+independent of the xi and zi, that is E(εi|xi, zi) = 0. This
+paper sets the family aging rate as a non-parametric factor.
+Robinson proposed the “Robinson Difference Estimator”
+to eliminate g(zi). Given zi, removing the conditional
+expectations on both sides of the equation, we can get:
+E(yi|zi) = E(xi|zi)′β +g(zi)+E(εi|zi) . . . (6)
+According to the iterative expectation law, we can get:
+E(εi|zi) = ExiE
+
+(εi|zi)|xi
+
+= ExiE(εi|xi, zi) =0 (7)
+Subtract the two equations to get:
+yi−E(yi|zi) =
+
+xi−E(xi|zi)
+
+′β +εi . . . . (8)
+The unknown function g(zi) is eliminated in this difference
+equation, and non-parametric methods can estimate
+the conditional expectation E(yi|zi) and E(xi|zi).
+Assuming that ˆE (yi|zi) and ˆE (xi|zi) are the
+non-parametric estimates of the E(yi|zi) and E(xi|zi),
+respectively, the following linear equations can be used
+for OLS estimation:
+yi− ˆE (yi|zi) =
+
+xi− ˆE (xi|zi)
+
+′β +μi. . . . . (9)
+This estimator is denoted as ˆβ
+PL because the conditional
+expectation estimator is used to replace the conditional
+expectation itself, so the disturbance term is no
+longer εi and is recorded as μi.
+Assuming εi compliance iid(0,σ2), one can prove:
+√n
+
+ˆβ
+PL −β
+
+d −→ N
+⎛
+⎝0,σ2
+	
+p lim
+n→∞
+1
+n
+n
+Σ
+i=1
+wiw′i
+
+
+−1
+⎞
+⎠
+. . . . . . . . . . . . . . . . . . (10)
+among them, wi ≡ xi −E(xi|zi). In the above formula,
+as long as the substitution ˆE(xi|zi) is used to E(xi|zi),
+the asymptotic covariance matrix var(ˆβPL) can be estimated.
+If there is heteroscedasticity, the sandwich estimator
+can be used to get a robust standard error. Finally, the
+non-parametric estimate of the pair g(zi) can be obtained
+as: ˆ g(zi) = ˆE(yi|zi)− ˆE (xi|zi)′ ˆβPL.
+Finally, as income is the main reason for determining
+consumption, the impact of population aging on consumption
+upgrades is also different for families of differ-
+Vol.26 No.4, 2022 Journal of Advanced Computational Intelligence 633
+and Intelligent Informatics
+Chen, L. and Zhao, X.
+ent income levels. Hence, by drawing on the definitions
+of most studies, this study defines the sum of consumption
+expenditures on health care, culture, education, entertainment,
+and transportation and communication as developmental
+consumption. It divides income into three
+categories in ascending order, namely low-income (the
+top 20%), middle-income (middle 60%), and high-income
+(bottom 20%), based on a sample of low-, middle-, and
+high-income households to analyze the impact of population
+aging on household developmental consumption. The
+econometric model representation is as follows:
+cf i =α0+α1aodi +δ Xi+εi, . . . . . . . (11)
+medf i =α0+α1aodi+δ Xi+εi, . . . . . . (12)
+trcf i =α0+α1aodi+δ Xi+εi, . . . . . . (13)
+eduf i =α0+α1aodi+δ Xi+εi. . . . . . . (14)
+where cf, medf, trcf, and eduf represent consumption in
+the areas of household development, medical, transportation
+and communication, cultural, educational, and entertainment
+consumption, respectively. Other control variables
+represented by X, include the proportion of the juvenile
+household population, income, household consumption
+expenditure, the proportion of household children,
+the urbanization rate, and the health status of the head of
+the household, among others. Since the current medical
+security in China is not perfect, the health status may significantly
+affect the effect of population aging on household
+consumption expenditure. Therefore, the interaction
+term between population aging and health status is added
+as a control variable.
+3.2. Date Sources and Descriptive Statistics
+The data used in this study were extracted from the
+2016 China Family Panel Studies (CFPS2016) national
+micro survey data. CFPS2016 surveyed 14019 households,
+including 6917 urban households, 6682 rural
+households, and 320 missing information. In this study,
+the research mainly involves the content of household
+consumption, household income, household assets, and
+household demographic characteristics in the China Family
+Panel Studies. The household demographic information
+is represented by household head information.
+As the head of the household is not clearly defined in
+the China Family Panel Studies, this study refers to the
+head of the household as the “financial respondent” in
+the household questionnaire. For data processing, first,
+match the data, take the family code (fid16) as the family
+research object, and extract the household consumption,
+household income, household assets, and other data of all
+14019 households in the household table, and 36892 in
+the household adult table. According to the family code,
+the age, sex, education, and other data of 8427 children
+in the adult and family children tables are matched and
+combined into a new data table. The second is to delete
+the data.
+Delete the samples with null values for household income,
+total household consumption expenditures, and
+Table 1. Basic family information descriptive statistics.
+Variable Symbol Mean SD
+Consumption c 15773.81 16532.45
+Income i 25640.31 28677.75
+The head health qp201 3.10 1.18
+Family size fs 3.28 1.73
+Registration urban 0.51 0.50
+Financial assets d1 21858.93 66374.50
+Cash and deposits d2 0.06 0.24
+Age of the head age 49.44 14.68
+Family aging rate aod 0.16 0.30
+Family childization acd 0.14 0.18
+The head’ sex gender 0.52 0.50
+Highest education hedu 3.31 1.35
+Commercial insurance d3 610.95 2564.71
+household consumption expenditures; delete household
+registration and samples with the highest academic qualifications
+in the most recent survey as “unknown” or “not
+applicable”; the 1%highest and lowest outliers in the consumption
+data will be tailed off. Finally, a nationally representative
+sample of 6587 households was obtained, including
+3382 in urban and 3205 in rural areas. The descriptive
+statistics of the variables are shown in Table 1.
+Additionally, to avoid the regression coefficient being too
+large or too small in the regression process, the logarithm
+of the various household consumption expenditure
+items, household consumption expenditure, household income,
+cash and deposits, and commercial insurance costs,
+among others are taken. Simultaneously, the above variables
+are 0. The value variable is assigned the value 1,
+and then the logarithm is taken.
+4. Estimated Results and Analysis
+4.1. Regression Benchmark
+Tables 2 and 3 report the estimation results using the
+ordinary least squares and seemingly unrelated regression
+methods. This is because when the perturbations of the
+equations in the seemingly unrelated regression model
+satisfy Eεiε ′i = σ2
+i I and Eεiε ′j = 0 (i = j), the estimated
+results are the same as those of OLS (C. Hsiao [17]).
+From the regression results in Tables 2 and 3, it can
+be found that whether a family has an elderly person will
+affect the family’s consumption, and there are significant
+differences in the consumption of each item of this impact.
+Next, we will analyze in detail the influence of the
+elderly on the expenditures of household consumption
+items. (1) Consumption items positively affected by the
+elderly. The elderly persons have increased most families’
+basic living consumption expenditures, such as food, water
+and electricity, fuel, property, tourism, medical treatment,
+and health care expenses. (2) Consumer items that
+are negatively affected by the elderly. The elderly have reduced
+most family enjoyment or developmental consump-
+634 Journal of Advanced Computational Intelligence Vol.26 No.4, 2022
+and Intelligent Informatics
+Influence of China’s Population Aging on Household Consumption
+Table 2. Results of basic living consumption expenditure.
+Ordinary least squares regression (OLS) or seemingly unrelated regression (FGLS)
+fs sd rl ryp qn wy zfwx clo
+old
+0.043**
+(0.018)
+0.072**
+(0.030)
+0.164**
+(0.070) −0.188***
+(0.032)
+0.106
+(0.085)
+0.450***
+(0.079)
+0.100
+(0.071) −0.610***
+(0.044)
+Cons
+0.937***
+(0.119)
+1.166***
+(0.194) −0.440
+(0.450)
+0.732***
+(0.205) −1.721***
+(0.550) −8.166***
+(0.509) −1.634***
+(0.462) −3.143***
+(0.281)
+control yes yes yes yes yes yes yes yes
+R-sq 0.654 0.237 0.0518 0.2465 0.1195 0.2946 0.0147 0.318
+N 6587 6587 6587 6587 6587 6587 6587 6587
+Note: *, **, and *** indicate that the significant levels are 10%, 5%, and 1%, respectively; the standard errors are in brackets; the control variables
+include household consumption, household income per capita, sex of the head of household, family education, health status, family size, household
+registration, investment in financial assets, cash and deposits, and business insurance, among others. The variable fs, sd, rl, ryp, qn, wy, zfwx, and
+clo represent food expenses, water and electricity, fuel cost, daily necessities, heating expenses, property expenses, housing maintenance, and clothing
+expenditure of household consumption, respectively.
+Table 3. Results of enjoyment type or development type consumption.
+Ordinary least squares regression (OLS) or seemingly unrelated regression (FGLS)
+ycjc ydtx traffic whyl ly bcar jj jypx yl bj mr shjz rqlj
+old −0.434***
+(0.090) −0.472***
+(0.102) −0.781***
+(0.071)
+0.078
+(0.058)
+0.309***
+(0.071) −0.117*
+(0.063)
+0.041
+(0.085) −0.659***
+(0.091)
+0.661***
+(0.066)
+0.396***
+(0.060) −0.272***
+(0.067) −0.001
+(0.047) −0.371***
+(0.058)
+Cons −10.05***
+(0.582) −0.477**
+(0.205) −4.854***
+(0.455) −7.100***
+(0.372) −9.009***
+(0.462) −6.108***
+(0.408) −6.122***
+(0.548) −3.297***
+(0.587) −0.240
+(0.427) −5.031***
+(0.385) −4.283***
+(0.318) −3.098***
+(0.306) −0.740**
+(0.376)
+R-sq 0.298 0.327 0.2107 0.3299 0.318 0.315 0.0795 0.247 0.0848 0.156 0.2908 0.2908 0.115
+N 6587 6587 6587 6587 6587 6587 6587 6587 6587 6587 6587 6587 6587
+Note: *, **, and *** are significant at 10%, 5%, and 1% levels, respectively. The variables ycjc, ydtx, traffic, whyl, ly, bcar, jj, jypx, yl, bj, mr, shjz, and rqlj represent dining
+out, post and telecommunications, local transportation, culture and entertainment, tourism, buying a car, furniture, education and training, medical, health care, beauty, social
+donations, and courtesy expenditure of household consumption, respectively.
+tion expenditures, such as eating out, post and telecommunications,
+local transportation, buying cars, education
+and training, beauty, and courtesy. (3) Consumption items
+not significantly affected by the elderly. Whether elderly
+people are in the home does not impact expenditures, such
+as heating bills, housing maintenance, and social donations.
+The above estimation results agree with our expected
+hypothesis.
+The above estimates agree with our expected assumptions
+that the elderly increasemedical and health care consumption,
+mainly due to, on the one hand, the gradual decline
+in physical function and health level of the elderly
+as their age increases; on the other hand, the elderly will
+pay more attention to their health, so medical and health
+care costs will inevitably increase. The elderly increase
+tourismexpenditure. As children want to accompany their
+parents more, family travel is a good way to accompany
+parents and include fun in their later lives. The elderly
+people reduce the expenditure on postal and telecommunications
+services and local transportation. The reason
+may be that after the elderly return to family life, they
+have less time to socialize with others, thus reducing related
+consumption. The elderly people reduce the consumption
+of education and training because the young
+and middle-aged will participate in some education and
+training activities to improve their workability and work
+experience. When people are approaching retirement or
+have retired, their expectations for themselves are lower,
+so they spend less on education and training.
+4.2. Influence Factors of Different Levels of
+Consumption
+In this study, mean, quantile, and semi-parametric regressions
+are carried out on household consumption expenditure.
+The regression results are shown in Table 4.
+From Table 4, we found that except for household registration,
+the OLS estimates of the coefficient values of
+other variables are all less than 0.5 of the median regression
+estimate, indicating that the lower tail consumption
+data weaken the effect of these variables on average
+consumption. The semiparametric regression results
+are close to OLS when only the aging rate is set
+as a non-parameter factor. Next, we analyze the quantile
+regression results and find that (1) the income coefficient
+is positive in each quantile. With the increase
+in income, household consumption also increases, which
+agrees with the economic theory’s expectations. The income
+elasticity of consumption increases with income.
+(2) The impact of population aging on the consumption
+of low-consumption households is greater than that
+of medium- and high-consumption households. (3) The
+highest levels of education and health in the family have
+a significantly greater impact on the consumption of
+low- and middle-level income households than on the
+consumption of high-income households. For low- and
+middle-level consumer families, the higher the family education,
+the stronger their ability to accept new things;
+the decline in health status increases the demand for medical
+and health care; and the family medical consumption
+expenditure increases. (4) As household consump-
+Vol.26 No.4, 2022 Journal of Advanced Computational Intelligence 635
+and Intelligent Informatics
+Chen, L. and Zhao, X.
+Table 4. Regression results of influencing factors of household consumption at different levels.
+Variable OLS 0.1 0.3 0.5 0.7 0.9 Semi
+i 0.829*** 0.744*** 0.837*** 0.867*** 0.904*** 0.971*** 0.827***
+aod 0.037** 0.043 0.057** 0.043*** 0.023 0.003
+acd 0.017 0.052 0.021 0.008 0.018 0.007 0.012
+hedu 0.021*** 0.021* 0.018*** 0.022*** 0.012*** 0.002 0.021***
+qp201 0.021*** 0.026** 0.030*** 0.027*** 0.019*** 0.002 0.021***
+fs −0.045*** −0.067*** −0.049*** −0.040*** −0.023*** −0.008*** −0.046
+Urban16 0.116*** 0.214*** 0.118*** 0.095*** 0.066*** 0.014** 0.115***
+d1 0.034* 0.123** 0.040 −0.012 0.001 −0.056** 0.035*
+lnd2 −0.013*** −0.010*** −0.015*** −0.017*** −0.017*** −0.004** −0.013***
+lnd3 0.007*** 0.018*** 0.007*** 0.004* 0.002 −0.0005 0.007***
+Cons 1.209*** 1.458*** 1.015*** 0.935*** 0.773*** 0.289***
+R-sq 0.803 0.463 0.541 0.588 0.637 0.710 0792
+N 6587 6587 6587 6587 6587 6587 6587
+Note: *, **, and *** are significant at 10%, 5%, and 1% levels, respectively. Standard errors are omitted for space reasons.
+Table 5. Results of families with different income levels.
+Low-income family Middle-income family High-income family
+cf medf trcf eduf cf medf trcf eduf cf medf trcf eduf
+aod −0.632***
+(0.236)
+1.024***
+(0.393) −1.226***
+(0.339) −1.268*
+(0.691) −0.278*
+(0.142)
+0.822***
+(0.256) −1.181***
+(0.168) −1.671***
+(0.525) −0.159
+(0.247)
+0.912**
+(0.436) −0.490
+(0.324) −0.620
+(0.975)
+Cons −0.711
+(0.579) −3.161***
+(0.962) −0.381
+(0.832) −8.553***
+(1.695)
+2.198***
+(0.342)
+0.057
+(0.616)
+1.107***
+(0.404) −4.165***
+(1.261) −0.092
+(0.581) −2.850***
+(1.026) −1.614**
+(0.763) −7.886***
+(2.294)
+Control yes yes yes yes yes yes yes yes yes yes yes yes
+R-sq 0.244 0.117 0.249 0.332 0.212 0.133 0.212 0.267 0.328 0.157 0.362 0.209
+N 1298 1298 1298 1298 3969 3969 3969 3969 1320 1320 1320 1320
+Note: *, **, and *** are significant at 10%, 5%, and 1% levels, respectively.
+tion transitions from the low quantile to the high quantile,
+the household size effect gradually decreases, and
+the absolute impact of household population on consumption
+becomes smaller and smaller. When the burden increases,
+people will consider saving their expenses, while
+the impact is negligible for high-consumption households.
+(5) The influence of urban households on consumption
+is positive, and the influence of household registration
+on consumption is inversely related to consumption level,
+and gradually decreases at the 0.1–0.9 percentile. (6) The
+impact of cash deposits on consumption is negative. In
+other words, cash deposits are savings. The corresponding
+consumption decreases when a household’s savings
+increase. The influence of cash deposits on consumption
+in low- and medium-consumption households gradually
+increases, while the influence of cash deposits on
+high-consumption households is minimal.
+4.3. Sample of Households with Different Incomes
+According to the regression results in the previous
+subsection, household consumption largely depends on
+household income level. The regression results based on
+three household samples of low, middle, and high income
+are shown in Table 5.
+From the regression results in Table 5, it can be found
+that (1) population aging negatively impacts family developmental
+consumption, which is inconsistent with the
+research conclusion of W. Wang et al. [18]. The negative
+impact of transportation, communication, cultural, educational,
+and entertainment consumption is greater than the
+positive impact of population aging on health care consumption.
+Furthermore, the observation coefficient shows
+that the higher the family’s income level, the less the negative
+impact of population aging on its developmental consumption.
+(2) Population aging has a significant positive
+impact on health care consumption. Mainly, this is because
+with the development of the social economy and
+the improvement of medical and health technology, people
+pay more attention to their physical health regardless
+of their income level. Physical function is declining with
+the aging of the elderly, and the demand for medical and
+health care services is increasing. Therefore, the consumption
+expenditure on health care increases. In addition,
+the observation coefficient shows that the lower the
+family’s income, the more significant the impact of population
+aging. (3) The aging of low- and middle-income
+families significantly negatively impacts transportation,
+communication, cultural, educational, and entertainment
+consumption. This result may be because, on the one
+hand, the elderly people have retired and no longer work,
+and their demand for continuing education or job training
+and going out has dramatically reduced. On the other
+hand, the elderly have changed from family savers to consumers;
+thus, the burden of family support and the demand
+for medical care will increase, which may have a
+636 Journal of Advanced Computational Intelligence Vol.26 No.4, 2022
+and Intelligent Informatics
+Influence of China’s Population Aging on Household Consumption
+“squeeze effect” on transportation, communication, cultural,
+educational, and entertainment consumption. The
+negative impact on high-income families is insignificant
+because the “squeeze effect” of high-income families is
+not apparent.
+5. Conclusion and Enlightenment
+This study explores the mechanism and causes of the
+impact of population aging on household consumption,
+and uses the China Family Panel Studies (CFPS2016)
+data as the research sample to conduct an empirical test.
+The main conclusions are as follows. (1) Population aging
+will impact household consumption expenditure. On
+the one hand, population aging promotes the vast majority
+of basic household consumption such as water and
+electricity, fuel, heating, property, and housing maintenance
+expenses. On the other hand, expenditure inhibits
+most family enjoyment or development consumption expenditures,
+such as dining out, transportation and communication,
+local transportation, culture, education and
+entertainment, purchasing cars, furniture, education and
+training, and beauty. (2) Population aging, family income,
+family’s highest educational level, and family size have a
+more significant impact on low-level consumption than on
+high-level consumption. (3) The impact of population aging
+on developmental consumption varies across income
+levels in families. Compared with high-income families,
+population aging in low- and middle-income families has
+a more significant impact on health care, transportation,
+and communication, as well as cultural, educational, and
+entertainment consumption.
+Based on the above analysis, this study draws the following
+inspirations. (1) The elderly significantly impact
+household consumption. In order to encourage the elderly
+to consume, it is important to improve the social security
+mechanism, increase the pension income level of the elderly,
+and develop and release the consumption potential
+of the elderly. The development of the elderly industry
+will improve the supply level of the elderly population industry,
+create high-quality elderly care products and services
+suitable for the elderly, and promote the upgrading
+of the consumption structure. (2) The impact of the highest
+family education level on consumption cannot be ignored
+either. To improve the level of consumption, it is
+important to promote consumption upgrade, adhere to the
+priority development of education, and improve the education
+level of residents. Increase financial investment
+in education expenditure and increase investment in human
+capital; improve the compulsory education system,
+popularize high school education, increase the enrollment
+rate of higher education, and increase the average number
+of years of education for residents; strengthen general
+education at the social level, and expand the knowledge
+and skills of residents. Vision improves residents’
+rapid access to information and processing capabilities,
+enhances residents’ ability to accept and master new consumption
+patterns, cultivates residents’ preferences for
+development and enjoyment-oriented consumption, improves
+consumption levels, and promotes consumption
+upgrades.
+Acknowledgments
+This project was subsidized by National Natural Science Foundation
+of China (71973049).
+References:
+[1] R. Mao and J. Xu, “Demographic Transition Consumption Structure
+Disparities and Industrial Growth,” Population Research,
+Vol.38, No.3, pp. 89-104, 2014 (in Chinese).
+[2] C. Wang and Y. Du, “Population age structure and household consumption
+behavior in my country: An empirical analysis based on
+CFPS2016 micro-data,” Industrial Economic Review, Vol.10, No.4,
+pp. 136-152, 2019 (in Chinese).
+[3] H. Pan and J. Tang, “Research on the impact of population aging on
+the consumption rate of residents,” Jiangxi Social Sciences, Vol.41,
+No.1, pp. 51-60, 2021 (in Chinese).
+[4] X. Yi and Q. Jian, “An Empirical Study on Population Aging and
+Household Average Propensity of Consumption in China,” Consumer
+Economics, Vol.35, No.2, pp. 3-12, 2019 (in Chinese).
+[5] Y. Huang, C. Zhang, and S. Tian, “The Influencing Mechanisms of
+Population Age Structure and Housing Price on Household Consumption
+in Urban China,” Population Research, Vol.43, No.4,
+pp. 17-35, 2019 (in Chinese).
+[6] Y. Wang and H. Zhou, “Research on the influence of population
+aging on urban household consumption level,” Shanghai Economic
+Research, Vol.38, No.5, pp. 84-91, 2019 (in Chinese).
+[7] Y. Aksoy, H.-S. Basso, R.-P. Smith et al., “Demographic Structure
+and Macroeconomic Trends,” American Economic J.: Macroeconomics,
+Vol.11, No.1, pp. 193-222, 2019.
+[8] X. Zang and X. Li, “The Nonlinear Impact of Population Aging
+on Residents’ Consumption: Based on the Dynamic Panel Heterogeneity
+Threshold Effect of Pension Insurance Development,” Economics
+and Management Research, Vol.41, No.3, pp. 21-36+86,
+2020 (in Chinese).
+[9] P. Liu, Y. Wang, and Z. Zou, “Analysis of the impact of population
+aging on urban household consumption,” Statistics and Decision,
+Vol.37, No.8, pp. 103-106, 2021 (in Chinese).
+[10] H. Jin and Y. Li, “The impact of population aging on the consumption
+level of Chinese residents and regional differences,” Economics
+and Management, Vol.35, No.6, pp. 23-32, 2021 (in Chinese).
+[11] W. Li, C. Xu, and C. Ai, “China’s population age structure and residents’
+consumption: 1989–2004,” Economic Research J., Vol.54,
+No.7, pp. 118-129, 2008 (in Chinese).
+[12] K. Li and S. Zhong, “Labor dependency burden and residents’ consumption
+rate: A dynamic panel empirical study based on the demographic
+dividend period,” Economic Review, Vol.31, No.6, pp. 105-
+112, 2010 (in Chinese).
+[13] X. Zhao and L. Li, “How Economic and Demographic Factors Influence
+the Consumption of Urban Residents of Different Income
+Levels,” Mathematical Statistics and Management, Vol.35, No.6,
+pp. 1076-1085, 2016 (in Chinese).
+[14] F. Wang and L. Huang, “Household Characteristic and Resident
+Consumption – Based on CFPS Data,” Mathematical Statistics and
+Management, Vol.38, No.3, pp. 381-393, 2019 (in Chinese).
+[15] L. Sheng, X. Fang, Y. Feng, and H. Liu, “Study on the Impact of
+Changes in Household Population Composition on Household Consumption:
+An Analysis Based on Micro Household Panel Data,”
+Statistical Research, Vol.38, No.11, pp. 35-46, 2021 (in Chinese).
+[16] Y. Wang, “An Analysis of Changes in the Chinese Family Structure
+between Urban and Rural Areas: On the Basis of the 2010
+National Census Data,” Social Sciences in China, Vol.34, No.12,
+pp. 60-77+205-206, 2013 (in Chinese).
+[17] C. Hsiao, “Analysis of panel data,” Cambridge University Press,
+2003.
+[18] W.Wang and Y. Liu, “Population aging and upgrading of household
+consumption structure: An empirical study based on CFPS2012
+data,” J. of Shandong University (Philosophy and Social Sciences),
+Vol.67, No.5, pp. 84-92, 2017 (in Chinese).
+Vol.26 No.4, 2022 Journal of Advanced Computational Intelligence 637
+and Intelligent Informatics
+Chen, L. and Zhao, X.
+Name:
+Lizhen Chen
+Affiliation:
+Ph.D. Candidates, School of Economics and Finance,
+Huaqiao University
+Address:
+No.269, Chenghua North Road, Quanzhou, Fujian 362021, China
+Brief Biographical History:
+2018- School of Economics and Finance, Huaqiao University
+Name:
+Xindong Zhao
+Affiliation:
+Professor, Institute of Quantitative Economics,
+Huaqiao University
+Address:
+No.668, Jimei Avenue, Xiamen, Fujian 361021, China
+Brief Biographical History:
+1999-2002 Ph.D. Student in Economics, Jilin University
+2002-2006 Ph.D. Student in Statistical Science, La Trobe University
+MainWorks:
+• X. Li and X. Zhao, “The Effects of Universal Two-Child Policy
+Significant? – A Survey Based on Second-Child Fertility Desire in
+Fujian,” Southeast Academic Research, Vol.22, No.4, pp. 118-129, 2019
+(in Chinese).
+• X. Zhao and C. Liu, “Research on the Mechanism of Population Aging
+to the Upgrading of Manufacturing Structure – Based on the Test of
+Mediation Effect Model,” China Soft Science, Vol.34, No.3, pp. 153-163,
+2019 (in Chinese).
+• X. Zhao and X. Li, “Research on Influence Factors of Migrant Female
+Population’s Birth Interval: Based on the Data of Migrant Population
+Dynamic Monitoring Survey in China 2016,” Statistical Research, Vol.35,
+No.10, pp. 69-80, 2018 (in Chinese).
+Membership in Academic Societies:
+• Chinese Association of Quantitative Economics
+638 Journal of Advanced Computational Intelligence Vol.26 No.4, 2022
+and Intelligent Informatics
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

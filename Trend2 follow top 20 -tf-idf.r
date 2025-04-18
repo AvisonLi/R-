@@ -110,7 +110,7 @@ theme_article_counts <- theme_article_counts %>%
 
 print(head(theme_article_counts))
 
-custom_theme <- theme(
+custom_black_theme <- theme(
   plot.background = element_rect(fill = "black", color = NA),
   panel.background = element_rect(fill = "black", color = NA),
   panel.grid.major = element_line(color = "gray"),
@@ -124,22 +124,17 @@ custom_theme <- theme(
   legend.title = element_text(color = "white")
 )
 
-
 plot <- ggplot(theme_article_counts, aes(x = year, y = keyword_count, fill = theme)) +
   geom_bar(stat = "identity", position = "dodge") +  
-  scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +  # 确保年份逐年显示
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +  # y 轴为整数
+  scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +  
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +  
   labs(
     title = "Number of Keywords by Theme Over the Years",
     subtitle = "Reasons, Impacts, and Solutions",
     x = "Year",
     y = "Keyword Count"
   ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(face = "bold"),
-    legend.title = element_blank()  
-  )
+  custom_black_theme
 
 print(plot)
 
@@ -169,18 +164,14 @@ total_plot <- ggplot(total_counts, aes(x = year, y = total_keyword_count)) +
   geom_line(color = "purple", size = 1) +
   geom_point(color = "darkviolet", size = 3) +
   scale_x_continuous(breaks = seq(min(total_counts$year), max(total_counts$year), by = 1)) + 
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +  # y 轴为整数
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +  
   labs(
     title = "Total Keywords Count Over the Years",
     subtitle = "Combined Reasons, Impacts, and Solutions",
     x = "Year",
     y = "Total Keyword Count"
   ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(face = "bold")
-  )
-
+  custom_black_theme
 
 print(total_plot)
 
@@ -197,7 +188,7 @@ reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(
     x = "Year",
     y = "Keyword Count"
   ) +
-  custom_theme
+  custom_black_theme
 
 print(reasons_plot)
 ggsave("follow_top_20_reasons_keywords_trend.png", plot = reasons_plot, width = 10, height = 6, dpi = 300)
@@ -212,7 +203,7 @@ impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(
     x = "Year",
     y = "Keyword Count"
   ) +
-  custom_theme
+  custom_black_theme
 
 print(impacts_plot)
 ggsave("follow_top_20_impacts_keywords_trend.png", plot = impacts_plot, width = 10, height = 6, dpi = 300)
@@ -221,7 +212,7 @@ ggsave("follow_top_20_impacts_keywords_trend.png", plot = impacts_plot, width = 
 solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), 
                          aes(x = factor(year), y = keyword_count, fill = factor(year))) +
   geom_bar(stat = "identity", position = "dodge") +
-  scale_x_discrete(name = "Year") +  # Treat year as a discrete variable
+  scale_x_discrete(name = "Year") +  
   scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
   scale_fill_discrete(name = "Year") +  
   labs(
@@ -229,7 +220,7 @@ solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"),
     x = "Year",
     y = "Keyword Count"
   ) +
-  custom_theme
+  custom_black_theme
 
 print(solutions_plot)
 ggsave("follow_top_20_solutions_keywords_trend.png", plot = solutions_plot, width = 10, height = 6, dpi = 300)
@@ -243,7 +234,7 @@ reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(
     x = "Keywords",
     y = "Keyword Count"
   ) +
-  custom_theme +
+  custom_black_theme +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
 
 print(reasons_plot)
@@ -258,7 +249,7 @@ impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(
     x = "Keywords",
     y = "Keyword Count"
   ) +
-  custom_theme +
+  custom_black_theme +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  
 
 print(impacts_plot)
@@ -273,7 +264,7 @@ solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), 
     x = "Keywords",
     y = "Keyword Count"
   ) +
-  custom_theme +
+  custom_black_theme +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  
 
 print(solutions_plot)
