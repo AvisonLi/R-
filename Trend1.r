@@ -47,9 +47,9 @@ process_file <- function(file, target_terms) {
     filter(term %in% target_terms) %>%
     mutate(file = basename(file))
 
-  if (nrow(term_freq_df) > 0) {
-    writeLines(file_content, paste0("filtered_articles/", basename(file)))
-  }
+ # if (nrow(term_freq_df) > 0) {
+    #writeLines(file_content, paste0("filtered_articles/", basename(file)))  }
+
 
   return(term_freq_df)
 }
@@ -88,13 +88,27 @@ yearly_counts <- full_join(all_years_df, yearly_counts, by = "year") %>%
 
 yearly_counts <- yearly_counts %>%
   mutate(year = as.factor(year))
-
-print(ggplot(yearly_counts, aes(x = year, y = count, group = 1)) +
+custom_theme <- theme(
+  panel.background = element_rect(fill = "black", color = NA),
+  plot.background = element_rect(fill = "black", color = NA),
+  panel.grid.major = element_line(color = "gray30"),
+  panel.grid.minor = element_line(color = "gray30"),
+  axis.text = element_text(color = "white"),
+  axis.title = element_text(color = "white"),
+  plot.title = element_text(color = "white", hjust = 0.5),
+  legend.background = element_rect(fill = "black", color = NA),
+  legend.text = element_text(color = "white"),
+  legend.title = element_text(color = "white")
+)
+tf_plot<- print(ggplot(yearly_counts, aes(x = year, y = count, group = 1)) +
   #geom_bar(stat = "identity", fill = "steelblue", alpha = 0.7) +
   geom_line(color = "red", size = 1) +
   geom_point(color = "red", size = 2) +
   labs(title = "Number of Files with Related Terms per Year",
        x = "Year",
        y = "Count of Files") +
-  theme_minimal())
-write.csv(tf_results, "filtered_articles_metadata.csv", row.names = FALSE)
+       
+  theme_minimal()+ custom_theme + theme(axis.text.x = element_text(angle = 45, hjust = 1)) )
+  ggsave("yearly_trend_plot_with_tf.png", plot = tf_plot, width = 8, height = 6, dpi = 300)
+
+#write.csv(tf_results, "filtered_articles_metadata.csv", row.names = FALSE)
