@@ -175,9 +175,7 @@ if ("tfidf" %in% colnames(debug_data)) {
 
   ggsave("total_keywords_trend.png", plot = total_plot, width = 10, height = 6, dpi = 300)
 
-  # 統一數據來源，確保 Reasons、Impacts 和 Solutions 的數據一致性
 
-  # 統一數據來源
   reasons_data <- theme_article_counts %>% 
     filter(theme == "Reasons")
 
@@ -187,7 +185,6 @@ if ("tfidf" %in% colnames(debug_data)) {
   solutions_data <- theme_article_counts %>% 
     filter(theme == "Solutions")
 
-  # 生成 Reasons 的趨勢圖數據
   reasons_trend_data <- reasons_data %>% 
     group_by(year) %>% 
     summarise(
@@ -195,7 +192,6 @@ if ("tfidf" %in% colnames(debug_data)) {
       .groups = "drop"
     )
 
-  # 繪製 Reasons 趨勢圖
   reasons_plot <- ggplot(reasons_trend_data, aes(x = year, y = keyword_count, fill = as.factor(year))) +
     geom_bar(stat = "identity", position = "dodge") +
     scale_x_continuous(breaks = seq(min(reasons_trend_data$year), max(reasons_trend_data$year), by = 1)) +
@@ -211,7 +207,6 @@ if ("tfidf" %in% colnames(debug_data)) {
   print(reasons_plot)
   ggsave("reasons_keywords_trend.png", plot = reasons_plot, width = 10, height = 6, dpi = 300)
 
-  # 生成 Reasons 的柱狀圖數據
   reasons_bar_data <- reasons_data %>% 
     group_by(word) %>% 
     summarise(
@@ -219,7 +214,6 @@ if ("tfidf" %in% colnames(debug_data)) {
       .groups = "drop"
     )
 
-  # 繪製 Reasons 柱狀圖
   reasons_bar_plot <- ggplot(reasons_bar_data, aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
     geom_bar(stat = "identity") +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
@@ -234,7 +228,6 @@ if ("tfidf" %in% colnames(debug_data)) {
   print(reasons_bar_plot)
   ggsave("reasons_keywords_bar_chart.png", plot = reasons_bar_plot, width = 12, height = 6, dpi = 300)
 
-  # 生成 Impacts 的趨勢圖數據
   impacts_trend_data <- impacts_data %>% 
     group_by(year) %>% 
     summarise(
@@ -242,7 +235,6 @@ if ("tfidf" %in% colnames(debug_data)) {
       .groups = "drop"
     )
 
-  # 繪製 Impacts 趨勢圖
   impacts_plot <- ggplot(impacts_trend_data, aes(x = year, y = keyword_count, fill = as.factor(year))) +
     geom_bar(stat = "identity", position = "dodge") +
     scale_x_continuous(breaks = seq(min(impacts_trend_data$year), max(impacts_trend_data$year), by = 1)) +
@@ -258,7 +250,6 @@ if ("tfidf" %in% colnames(debug_data)) {
   print(impacts_plot)
   ggsave("impacts_keywords_trend.png", plot = impacts_plot, width = 10, height = 6, dpi = 300)
 
-  # 生成 Impacts 的柱狀圖數據
   impacts_bar_data <- impacts_data %>% 
     group_by(word) %>% 
     summarise(
@@ -266,7 +257,6 @@ if ("tfidf" %in% colnames(debug_data)) {
       .groups = "drop"
     )
 
-  # 繪製 Impacts 柱狀圖
   impacts_bar_plot <- ggplot(impacts_bar_data, aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
     geom_bar(stat = "identity") +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
@@ -281,7 +271,6 @@ if ("tfidf" %in% colnames(debug_data)) {
   print(impacts_bar_plot)
   ggsave("impacts_keywords_bar_chart.png", plot = impacts_bar_plot, width = 12, height = 6, dpi = 300)
 
-  # 生成 Solutions 的趨勢圖數據
   solutions_trend_data <- solutions_data %>% 
     group_by(year) %>% 
     summarise(
@@ -289,7 +278,6 @@ if ("tfidf" %in% colnames(debug_data)) {
       .groups = "drop"
     )
 
-  # 繪製 Solutions 趨勢圖
   solutions_plot <- ggplot(solutions_trend_data, aes(x = year, y = keyword_count, fill = as.factor(year))) +
     geom_bar(stat = "identity", position = "dodge") +
     scale_x_continuous(breaks = seq(min(solutions_trend_data$year), max(solutions_trend_data$year), by = 1)) +
@@ -305,7 +293,6 @@ if ("tfidf" %in% colnames(debug_data)) {
   print(solutions_plot)
   ggsave("solutions_keywords_trend.png", plot = solutions_plot, width = 10, height = 6, dpi = 300)
 
-  # 生成 Solutions 的柱狀圖數據
   solutions_bar_data <- solutions_data %>% 
     group_by(word) %>% 
     summarise(
@@ -313,7 +300,6 @@ if ("tfidf" %in% colnames(debug_data)) {
       .groups = "drop"
     )
 
-  # 繪製 Solutions 柱狀圖
   solutions_bar_plot <- ggplot(solutions_bar_data, aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
     geom_bar(stat = "identity") +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
@@ -328,7 +314,6 @@ if ("tfidf" %in% colnames(debug_data)) {
   print(solutions_bar_plot)
   ggsave("solutions_keywords_bar_chart.png", plot = solutions_bar_plot, width = 12, height = 6, dpi = 300)
 
-  # 驗證數據總數一致性
   total_counts_check <- theme_article_counts %>%
     group_by(theme) %>%
     summarise(total_keyword_count = sum(keyword_count), .groups = "drop")
