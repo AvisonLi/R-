@@ -10,7 +10,7 @@ library(ggplot2)
 
 
 filtered_metadata <- read.csv("associated_files_for_trend2.csv")
-relevant_files <- unique(filtered_metadata$file) 
+relevant_files <- unique(filtered_metadata$file)
 
 
 themes <- list(
@@ -88,18 +88,14 @@ print(head(debug_data))
 if ("tfidf" %in% colnames(debug_data)) {
 
   theme_article_counts <- debug_data %>%
-    filter(tfidf > 0.0001) %>%
+    filter(tfidf > 0.0001) %>% 
     group_by(year, theme, word) %>%
     summarise(
       keyword_count = sum(keyword_count), 
       tfidf = mean(tfidf), 
       .groups = "drop"
-    )
-
- 
-  theme_article_counts <- theme_article_counts %>%
-    mutate(year = as.integer(year))  
-
+    ) %>%
+    mutate(year = as.integer(year))
 
   print(head(theme_article_counts))
 
@@ -179,11 +175,32 @@ if ("tfidf" %in% colnames(debug_data)) {
 
   ggsave("total_keywords_trend.png", plot = total_plot, width = 10, height = 6, dpi = 300)
 
-  reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(x = year, y = keyword_count, fill = as.factor(year))) +
+  # 統一數據來源，確保 Reasons、Impacts 和 Solutions 的數據一致性
+
+  # 統一數據來源
+  reasons_data <- theme_article_counts %>% 
+    filter(theme == "Reasons")
+
+  impacts_data <- theme_article_counts %>% 
+    filter(theme == "Impacts")
+
+  solutions_data <- theme_article_counts %>% 
+    filter(theme == "Solutions")
+
+  # 生成 Reasons 的趨勢圖數據
+  reasons_trend_data <- reasons_data %>% 
+    group_by(year) %>% 
+    summarise(
+      keyword_count = sum(keyword_count),
+      .groups = "drop"
+    )
+
+  # 繪製 Reasons 趨勢圖
+  reasons_plot <- ggplot(reasons_trend_data, aes(x = year, y = keyword_count, fill = as.factor(year))) +
     geom_bar(stat = "identity", position = "dodge") +
-    scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
+    scale_x_continuous(breaks = seq(min(reasons_trend_data$year), max(reasons_trend_data$year), by = 1)) +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
-    scale_fill_discrete(name = "solution_year") + 
+    scale_fill_discrete(name = "Year") + 
     labs(
       title = "Keywords Count for Reasons Over the Years",
       x = "Year",
@@ -194,12 +211,43 @@ if ("tfidf" %in% colnames(debug_data)) {
   print(reasons_plot)
   ggsave("reasons_keywords_trend.png", plot = reasons_plot, width = 10, height = 6, dpi = 300)
 
-  
-  impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(x = year, y = keyword_count, fill = as.factor(year))) +
-    geom_bar(stat = "identity", position = "dodge") +
-    scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
+  # 生成 Reasons 的柱狀圖數據
+  reasons_bar_data <- reasons_data %>% 
+    group_by(word) %>% 
+    summarise(
+      keyword_count = sum(keyword_count),
+      .groups = "drop"
+    )
+
+  # 繪製 Reasons 柱狀圖
+  reasons_bar_plot <- ggplot(reasons_bar_data, aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
+    geom_bar(stat = "identity") +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
-    scale_fill_discrete(name = "solution_year") + 
+    labs(
+      title = "Keyword Counts for Reasons",
+      x = "Keywords",
+      y = "Keyword Count"
+    ) +
+    custom_theme +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+  print(reasons_bar_plot)
+  ggsave("reasons_keywords_bar_chart.png", plot = reasons_bar_plot, width = 12, height = 6, dpi = 300)
+
+  # 生成 Impacts 的趨勢圖數據
+  impacts_trend_data <- impacts_data %>% 
+    group_by(year) %>% 
+    summarise(
+      keyword_count = sum(keyword_count),
+      .groups = "drop"
+    )
+
+  # 繪製 Impacts 趨勢圖
+  impacts_plot <- ggplot(impacts_trend_data, aes(x = year, y = keyword_count, fill = as.factor(year))) +
+    geom_bar(stat = "identity", position = "dodge") +
+    scale_x_continuous(breaks = seq(min(impacts_trend_data$year), max(impacts_trend_data$year), by = 1)) +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+    scale_fill_discrete(name = "Year") + 
     labs(
       title = "Keywords Count for Impacts Over the Years",
       x = "Year",
@@ -210,12 +258,43 @@ if ("tfidf" %in% colnames(debug_data)) {
   print(impacts_plot)
   ggsave("impacts_keywords_trend.png", plot = impacts_plot, width = 10, height = 6, dpi = 300)
 
+  # 生成 Impacts 的柱狀圖數據
+  impacts_bar_data <- impacts_data %>% 
+    group_by(word) %>% 
+    summarise(
+      keyword_count = sum(keyword_count),
+      .groups = "drop"
+    )
 
-  solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), aes(x = year, y = keyword_count, fill = as.factor(year))) +
-    geom_bar(stat = "identity", position = "dodge") +
-    scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
+  # 繪製 Impacts 柱狀圖
+  impacts_bar_plot <- ggplot(impacts_bar_data, aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
+    geom_bar(stat = "identity") +
     scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
-    scale_fill_discrete(name = "solution_year") +  
+    labs(
+      title = "Keyword Counts for Impacts",
+      x = "Keywords",
+      y = "Keyword Count"
+    ) +
+    custom_theme +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+  print(impacts_bar_plot)
+  ggsave("impacts_keywords_bar_chart.png", plot = impacts_bar_plot, width = 12, height = 6, dpi = 300)
+
+  # 生成 Solutions 的趨勢圖數據
+  solutions_trend_data <- solutions_data %>% 
+    group_by(year) %>% 
+    summarise(
+      keyword_count = sum(keyword_count),
+      .groups = "drop"
+    )
+
+  # 繪製 Solutions 趨勢圖
+  solutions_plot <- ggplot(solutions_trend_data, aes(x = year, y = keyword_count, fill = as.factor(year))) +
+    geom_bar(stat = "identity", position = "dodge") +
+    scale_x_continuous(breaks = seq(min(solutions_trend_data$year), max(solutions_trend_data$year), by = 1)) +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+    scale_fill_discrete(name = "Year") + 
     labs(
       title = "Keywords Count for Solutions Over the Years",
       x = "Year",
@@ -226,49 +305,36 @@ if ("tfidf" %in% colnames(debug_data)) {
   print(solutions_plot)
   ggsave("solutions_keywords_trend.png", plot = solutions_plot, width = 10, height = 6, dpi = 300)
 
+  # 生成 Solutions 的柱狀圖數據
+  solutions_bar_data <- solutions_data %>% 
+    group_by(word) %>% 
+    summarise(
+      keyword_count = sum(keyword_count),
+      .groups = "drop"
+    )
 
-reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
-  geom_bar(stat = "identity") +
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
-  labs(
-    title = "Keyword Counts for Reasons",
-    x = "Keywords",
-    y = "Keyword Count"
-  ) +
-  custom_theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))  
+  # 繪製 Solutions 柱狀圖
+  solutions_bar_plot <- ggplot(solutions_bar_data, aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
+    geom_bar(stat = "identity") +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+    labs(
+      title = "Keyword Counts for Solutions",
+      x = "Keywords",
+      y = "Keyword Count"
+    ) +
+    custom_theme +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-print(reasons_plot)
-ggsave("reasons_keywords_bar_chart.png", plot = reasons_plot, width = 12, height = 6, dpi = 300)
+  print(solutions_bar_plot)
+  ggsave("solutions_keywords_bar_chart.png", plot = solutions_bar_plot, width = 12, height = 6, dpi = 300)
 
+  # 驗證數據總數一致性
+  total_counts_check <- theme_article_counts %>%
+    group_by(theme) %>%
+    summarise(total_keyword_count = sum(keyword_count), .groups = "drop")
 
-impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
-  geom_bar(stat = "identity") +
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
-  labs(
-    title = "Keyword Counts for Impacts",
-    x = "Keywords",
-    y = "Keyword Count"
-  ) +
-  custom_theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+  print(total_counts_check)
 
-print(impacts_plot)
-ggsave("impacts_keywords_bar_chart.png", plot = impacts_plot, width = 12, height = 6, dpi = 300)
-
-
-solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
-  geom_bar(stat = "identity") +
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
-  labs(
-    title = "Keyword Counts for Solutions",
-    x = "Keywords",
-    y = "Keyword Count"
-  ) +
-  custom_theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))  
-print(solutions_plot)
-ggsave("solutions_keywords_bar_chart.png", plot = solutions_plot, width = 12, height = 6, dpi = 300)
 } else {
   stop("Error: tfidf not cprrect doc_id and file")
 }

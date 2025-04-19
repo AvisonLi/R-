@@ -124,65 +124,30 @@ custom_black_theme <- theme(
   legend.title = element_text(color = "white")
 )
 
-plot <- ggplot(theme_article_counts, aes(x = year, y = keyword_count, fill = theme)) +
-  geom_bar(stat = "identity", position = "dodge") +  
-  scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +  
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +  
-  labs(
-    title = "Number of Keywords by Theme Over the Years",
-    subtitle = "Reasons, Impacts, and Solutions",
-    x = "Year",
-    y = "Keyword Count"
-  ) +
-  custom_black_theme
 
-print(plot)
+reasons_data <- theme_article_counts %>% 
+  filter(theme == "Reasons")
+
+impacts_data <- theme_article_counts %>% 
+  filter(theme == "Impacts")
+
+solutions_data <- theme_article_counts %>% 
+  filter(theme == "Solutions")
 
 
-output_plot <- "follow_top_20_theme_keywords_trend_bar.png"
-ggsave(output_plot, plot = plot, width = 10, height = 6, dpi = 300)
-
-
-print(paste("Bar chart saved to:", output_plot))
-
-
-print(head(theme_article_counts))
-
-
-write.csv(theme_article_counts, "follow_top_20_theme_article_counts_with_keywords.csv", row.names = FALSE)
-
-
-total_counts <- theme_article_counts %>%
-  group_by(year) %>%
+reasons_trend_data <- reasons_data %>% 
+  group_by(year) %>% 
   summarise(
-    total_keyword_count = sum(keyword_count),  
+    keyword_count = sum(keyword_count),
     .groups = "drop"
   )
 
 
-total_plot <- ggplot(total_counts, aes(x = year, y = total_keyword_count)) +
-  geom_line(color = "purple", size = 1) +
-  geom_point(color = "darkviolet", size = 3) +
-  scale_x_continuous(breaks = seq(min(total_counts$year), max(total_counts$year), by = 1)) + 
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +  
-  labs(
-    title = "Total Keywords Count Over the Years",
-    subtitle = "Combined Reasons, Impacts, and Solutions",
-    x = "Year",
-    y = "Total Keyword Count"
-  ) +
-  custom_black_theme
-
-print(total_plot)
-
-ggsave("follow_top_20_total_keywords_trend.png", plot = total_plot, width = 10, height = 6, dpi = 300)
-
-
-reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(x = year, y = keyword_count, fill = as.factor(year))) +
+reasons_trend_plot <- ggplot(reasons_trend_data, aes(x = year, y = keyword_count, fill = as.factor(year))) +
   geom_bar(stat = "identity", position = "dodge") +
-  scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
+  scale_x_continuous(breaks = seq(min(reasons_trend_data$year), max(reasons_trend_data$year), by = 1)) +
   scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
-  scale_fill_discrete(name = "solution_year") + 
+  scale_fill_discrete(name = "Year") + 
   labs(
     title = "Keywords Count for Reasons Over the Years",
     x = "Year",
@@ -190,43 +155,19 @@ reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(
   ) +
   custom_black_theme
 
-print(reasons_plot)
-ggsave("follow_top_20_reasons_keywords_trend.png", plot = reasons_plot, width = 10, height = 6, dpi = 300)
-
-impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(x = year, y = keyword_count, fill = as.factor(year))) +
-  geom_bar(stat = "identity", position = "dodge") +
-  scale_x_continuous(breaks = seq(min(theme_article_counts$year), max(theme_article_counts$year), by = 1)) +
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
-  scale_fill_discrete(name = "solution_year") +  
-  labs(
-    title = "Keywords Count for Impacts Over the Years",
-    x = "Year",
-    y = "Keyword Count"
-  ) +
-  custom_black_theme
-
-print(impacts_plot)
-ggsave("follow_top_20_impacts_keywords_trend.png", plot = impacts_plot, width = 10, height = 6, dpi = 300)
+print(reasons_trend_plot)
+ggsave("follow_top_20_reasons_keywords_trend.png", plot = reasons_trend_plot, width = 10, height = 6, dpi = 300)
 
 
-solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), 
-                         aes(x = factor(year), y = keyword_count, fill = factor(year))) +
-  geom_bar(stat = "identity", position = "dodge") +
-  scale_x_discrete(name = "Year") +  
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
-  scale_fill_discrete(name = "Year") +  
-  labs(
-    title = "Keywords Count for Solutions Over the Years",
-    x = "Year",
-    y = "Keyword Count"
-  ) +
-  custom_black_theme
-
-print(solutions_plot)
-ggsave("follow_top_20_solutions_keywords_trend.png", plot = solutions_plot, width = 10, height = 6, dpi = 300)
+reasons_bar_data <- reasons_data %>% 
+  group_by(word) %>% 
+  summarise(
+    keyword_count = sum(keyword_count),
+    .groups = "drop"
+  )
 
 
-reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
+reasons_bar_plot <- ggplot(reasons_bar_data, aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
   geom_bar(stat = "identity") +
   scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
   labs(
@@ -235,13 +176,44 @@ reasons_plot <- ggplot(theme_article_counts %>% filter(theme == "Reasons"), aes(
     y = "Keyword Count"
   ) +
   custom_black_theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-print(reasons_plot)
-ggsave("follow_top_20_reasons_keywords_bar_chart.png", plot = reasons_plot, width = 12, height = 6, dpi = 300)
+print(reasons_bar_plot)
+ggsave("follow_top_20_reasons_keywords_bar_chart.png", plot = reasons_bar_plot, width = 12, height = 6, dpi = 300)
 
 
-impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
+impacts_trend_data <- impacts_data %>% 
+  group_by(year) %>% 
+  summarise(
+    keyword_count = sum(keyword_count),
+    .groups = "drop"
+  )
+
+impacts_trend_plot <- ggplot(impacts_trend_data, aes(x = year, y = keyword_count, fill = as.factor(year))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_x_continuous(breaks = seq(min(impacts_trend_data$year), max(impacts_trend_data$year), by = 1)) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+  scale_fill_discrete(name = "Year") + 
+  labs(
+    title = "Keywords Count for Impacts Over the Years",
+    x = "Year",
+    y = "Keyword Count"
+  ) +
+  custom_black_theme
+
+print(impacts_trend_plot)
+ggsave("follow_top_20_impacts_keywords_trend.png", plot = impacts_trend_plot, width = 10, height = 6, dpi = 300)
+
+
+impacts_bar_data <- impacts_data %>% 
+  group_by(word) %>% 
+  summarise(
+    keyword_count = sum(keyword_count),
+    .groups = "drop"
+  )
+
+
+impacts_bar_plot <- ggplot(impacts_bar_data, aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
   geom_bar(stat = "identity") +
   scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
   labs(
@@ -250,13 +222,44 @@ impacts_plot <- ggplot(theme_article_counts %>% filter(theme == "Impacts"), aes(
     y = "Keyword Count"
   ) +
   custom_black_theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))  
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-print(impacts_plot)
-ggsave("follow_top_20_impacts_keywords_bar_chart.png", plot = impacts_plot, width = 12, height = 6, dpi = 300)
+print(impacts_bar_plot)
+ggsave("follow_top_20_impacts_keywords_bar_chart.png", plot = impacts_bar_plot, width = 12, height = 6, dpi = 300)
 
 
-solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
+solutions_trend_data <- solutions_data %>% 
+  group_by(year) %>% 
+  summarise(
+    keyword_count = sum(keyword_count),
+    .groups = "drop"
+  ) %>%
+  complete(year = seq(min(year, na.rm = TRUE), max(year, na.rm = TRUE), by = 1), fill = list(keyword_count = 0))
+
+
+solutions_trend_plot <- ggplot(solutions_trend_data, aes(x = year, y = keyword_count, fill = as.factor(year))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_x_continuous(breaks = seq(min(solutions_trend_data$year, na.rm = TRUE), max(solutions_trend_data$year, na.rm = TRUE), by = 1)) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
+  scale_fill_discrete(name = "Year") + 
+  labs(
+    title = "Keywords Count for Solutions Over the Years",
+    x = "Year",
+    y = "Keyword Count"
+  ) +
+  custom_black_theme
+
+print(solutions_trend_plot)
+ggsave("follow_top_20_solutions_keywords_trend.png", plot = solutions_trend_plot, width = 10, height = 6, dpi = 300)
+
+solutions_bar_data <- solutions_data %>% 
+  group_by(word) %>% 
+  summarise(
+    keyword_count = sum(keyword_count),
+    .groups = "drop"
+  )
+
+solutions_bar_plot <- ggplot(solutions_bar_data, aes(x = reorder(word, -keyword_count), y = keyword_count, fill = word)) +
   geom_bar(stat = "identity") +
   scale_y_continuous(breaks = scales::pretty_breaks(n = 10), labels = scales::number_format(accuracy = 1)) +
   labs(
@@ -265,7 +268,7 @@ solutions_plot <- ggplot(theme_article_counts %>% filter(theme == "Solutions"), 
     y = "Keyword Count"
   ) +
   custom_black_theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))  
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-print(solutions_plot)
-ggsave("follow_top_20_solutions_keywords_bar_chart.png", plot = solutions_plot, width = 12, height = 6, dpi = 300)
+print(solutions_bar_plot)
+ggsave("follow_top_20_solutions_keywords_bar_chart.png", plot = solutions_bar_plot, width = 12, height = 6, dpi = 300)
